@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎳 File Fragmentor</title>
+    <style>
+        * { box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body {
+            background: #020208;
+            background-image:
+                radial-gradient(ellipse at 20% 80%, rgba(100, 60, 160, 0.06) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 20%, rgba(40, 80, 180, 0.04) 0%, transparent 50%);
+            color: #f0f0f0;
+            margin: 0; padding: 8px;
+            max-width: 600px; margin: auto;
+            min-height: 100vh;
+            position: relative; overflow-x: hidden;
+        }
+
+        .starfield { position: fixed; top: 0; left: 0; right: 0; bottom: 0; pointer-events: none; z-index: 0; }
+        .star {
+            position: absolute; background: rgba(255,255,255,0.6);
+            border-radius: 50%; animation: twinkle 3s ease-in-out infinite;
+        }
+        @keyframes twinkle { 0%, 100% { opacity: 0.4; } 50% { opacity: 0.9; } }
+
+        h1 {
+            color: #ffaa33; text-align: center; font-size: 1.3em; margin: 2px 0 6px;
+            text-shadow: 0 0 15px rgba(255,170,51,0.25);
+            position: relative; z-index: 1;
+        }
+
+        .panel {
+            background: rgba(15, 15, 30, 0.75);
+            border: 1px solid rgba(100, 140, 255, 0.2);
+            border-radius: 10px; padding: 10px 12px; margin-bottom: 8px;
+            position: relative; z-index: 1;
+        }
+
+        textarea, input, select {
+            width: 100%;
+            background: rgba(30, 30, 50, 0.85);
+            color: #e0e0ff;
+            border: 1px solid rgba(100, 140, 255, 0.25);
+            border-radius: 8px; padding: 10px; font-size: 16px; margin-bottom: 8px;
+            -webkit-appearance: none;
+        }
+        textarea:focus, input:focus { outline: 2px solid #ffaa33; }
+
+        button {
+            background: linear-gradient(135deg, rgba(40, 80, 180, 0.75), rgba(20, 40, 120, 0.85));
+            color: white; border: 1px solid rgba(100, 140, 255, 0.3);
+            padding: 12px 16px; border-radius: 10px;
+            font-weight: bold; cursor: pointer;
+            margin: 4px 2px; font-size: 15px; min-height: 46px;
+            transition: all 0.2s ease;
+            position: relative; z-index: 1;
+        }
+        button:active { transform: scale(0.96); box-shadow: 0 0 18px rgba(100, 140, 255, 0.4); }
+
+        .big-btn {
+            display: block; width: 100%; margin: 6px 0; font-size: 20px;
+            background: linear-gradient(135deg, rgba(40, 80, 200, 0.8), rgba(20, 40, 120, 0.9));
+            border: 2px solid rgba(100, 160, 255, 0.5);
+            letter-spacing: 1px;
+        }
+
+        .preset-btn {
+            background: rgba(40, 40, 60, 0.8); color: #aaddff;
+            font-size: 13px; padding: 8px 12px;
+            border: 2px solid rgba(100, 140, 255, 0.3);
+        }
+        .preset-btn.active {
+            background: #ffaa33; color: #0f0f1a; border-color: #ffaa33;
+        }
+
+        .chunk-box {
+            background: rgba(20, 20, 40, 0.6);
+            border-left: 3px solid rgba(255, 170, 51, 0.6);
+            margin: 10px 0; border-radius: 5px;
+            position: relative; z-index: 1;
+        }
+        .chunk-label {
+            background: rgba(40, 40, 60, 0.8);
+            padding: 6px 10px; border-radius: 4px 4px 0 0;
+            font-family: monospace; font-size: 12px;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .chunk-copy-btn {
+            background: rgba(255, 170, 51, 0.3);
+            color: #ffaa33; border: 1px solid rgba(255, 170, 51, 0.5);
+            padding: 4px 10px; border-radius: 6px;
+            font-size: 12px; min-height: auto; cursor: pointer; font-weight: bold;
+        }
+        .chunk-copy-btn:active { background: #ffaa33; color: #0f0f1a; }
+        .chunk-box textarea {
+            margin-bottom: 0; border-radius: 0 0 4px 4px;
+            border: none; background: rgba(20, 20, 40, 0.8);
+            color: #c0c0dd; font-size: 13px;
+        }
+        .copied-flash {
+            position: absolute; top: 8px; right: 55px;
+            color: #33ff88; font-weight: bold; font-size: 13px;
+            pointer-events: none; opacity: 0; transition: opacity 0.3s; z-index: 2;
+        }
+        .copied-flash.show { opacity: 1; }
+
+        .info-row {
+            display: flex; gap: 6px; flex-wrap: wrap; margin: 6px 0;
+            font-size: 13px; color: #aaaacc; position: relative; z-index: 1;
+        }
+        .info-row span {
+            background: rgba(30, 30, 50, 0.7); padding: 5px 8px;
+            border-radius: 5px; border: 1px solid rgba(100, 140, 255, 0.2);
+        }
+
+        .slap-area { text-align: center; margin-top: 4px; position: relative; z-index: 1; }
+        .slap-btn {
+            background: rgba(200, 40, 60, 0.8); color: white;
+            font-size: 12px; padding: 6px 12px; border-radius: 8px;
+            border: 1px solid rgba(255, 80, 100, 0.4);
+        }
+
+        .mode-toggle {
+            display: flex; gap: 3px; margin-bottom: 6px;
+            position: relative; z-index: 1;
+        }
+        .mode-toggle button { flex: 1; background: rgba(40, 40, 60, 0.8); font-size: 13px; padding: 8px; }
+        .mode-toggle button.active { background: #ffaa33; color: #0f0f1a; }
+
+        .custom-limit-row { display: none; }
+        .custom-limit-row.show { display: block; }
+
+        .paste-hint {
+            text-align: center; color: rgba(150, 180, 255, 0.5);
+            font-size: 12px; margin-top: 2px; position: relative; z-index: 1;
+        }
+
+        .version-hud {
+            position: fixed; bottom: 8px; right: 10px;
+            font-family: monospace; font-size: 10px;
+            color: rgba(150, 180, 255, 0.4);
+            z-index: 2; pointer-events: none;
+        }
+
+        .patch-toggle { text-align: center; margin-top: 2px; position: relative; z-index: 1; }
+        .patch-toggle button {
+            background: transparent; border: 1px dashed rgba(100, 140, 255, 0.25);
+            color: rgba(150, 180, 255, 0.4); font-size: 13px;
+            padding: 3px 10px; min-height: auto;
+        }
+        .patch-area { display: none; }
+        .patch-area.show { display: block; }
+
+        .safety-hint {
+            font-size: 11px; color: rgba(150, 180, 255, 0.5);
+            margin-top: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="starfield" id="starfield"></div>
+
+    <h1>🎳 File Fragmentor</h1>
+
+    <!-- MODE TOGGLE -->
+    <div class="mode-toggle">
+        <button id="modeSplit" class="active">🎳 Split</button>
+        <button id="modeCount">📏 Count</button>
+        <button id="modeGen">🧪 Test</button>
+    </div>
+
+    <!-- MAIN INPUT -->
+    <div class="panel" id="panelInput">
+        <textarea id="inputText" rows="10" placeholder="Tap here and paste your text..."></textarea>
+        <div class="paste-hint">👆 Tap the box — your phone will show Paste</div>
+
+        <div style="margin: 6px 0;">
+            <strong style="font-size: 13px;">Fetch Limit:</strong>
+            <div style="display: flex; gap: 3px; flex-wrap: wrap; margin-top: 4px;">
+                <button class="preset-btn active" data-limit="65000">DeepSeek 65k</button>
+                <button class="preset-btn" data-limit="29000">GitHub 29k</button>
+                <button class="preset-btn" data-limit="16000">ChatGPT 16k</button>
+                <button class="preset-btn" data-limit="custom" id="btnCustom">✎ Custom</button>
+            </div>
+            <div class="custom-limit-row" id="customRow">
+                <input type="number" id="customLimit" value="65000" placeholder="Custom limit...">
+            </div>
+        </div>
+
+        <div style="margin: 6px 0; font-size: 13px;">
+            Safety Margin:
+            <select id="safetyMargin" style="width: auto; padding: 6px; font-size: 13px;">
+                <option value="1">1x — No margin (risky)</option>
+                <option value="1.5">1.5x — Tight</option>
+                <option value="2" selected>2x — Safe (recommended)</option>
+            </select>
+            <span style="color: #ffaa33; margin-left: 6px;" id="effectiveLabel">Effective: 32,500</span>
+            <div class="safety-hint">Higher = smaller chunks, safer from truncation.</div>
+        </div>
+
+        <button class="big-btn" id="btnAction">🎳 Split It</button>
+    </div>
+
+    <!-- OUTPUT -->
+    <div class="panel" id="panelOutput" style="display: none;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <strong id="outputLabel">Chunks</strong>
+            <button id="btnCopyAll" style="font-size: 14px;">📋 Copy All</button>
+        </div>
+        <div id="chunksContainer"></div>
+        <div class="slap-area">
+            <button class="slap-btn" id="btnSlap">🖕 Slap 'Em</button>
+        </div>
+    </div>
+
+    <!-- CHARACTER COUNTER -->
+    <div class="panel" id="panelCount" style="display: none;">
+        <div class="info-row" id="countStats"></div>
+    </div>
+
+    <!-- TEST FILE GENERATOR -->
+    <div class="panel" id="panelGen" style="display: none;">
+        <label style="font-size:14px;">Target size (characters):</label>
+        <input type="number" id="genSize" value="100000" min="100" max="1000000">
+        <button class="big-btn" id="btnGen">🧪 Generate Test File</button>
+        <div id="genOutput" style="margin-top: 8px;"></div>
+    </div>
+
+    <!-- PATCH BOX -->
+    <div class="patch-toggle">
+        <button id="btnPatchToggle">+ Patch</button>
+    </div>
+    <div class="panel patch-area" id="patchArea">
+        <textarea id="patchCode" rows="5" placeholder="Paste custom JavaScript patch..."></textarea>
+        <button class="big-btn" id="btnPatchApply" style="font-size:15px;">⚡ Apply Patch</button>
+        <button id="btnPatchReset" style="background:rgba(200,40,60,0.7);">🔄 Reset Patches</button>
+    </div>
+
+    <!-- VERSION HUD -->
+    <div class="version-hud">BUILD <span id="buildNumber"></span> • <span id="buildEmoji"></span></div>
+
+    <script>
+        // ============ STARS ============
+        (() => {
+            const sf = document.getElementById('starfield');
+            for (let i = 0; i < 20; i++) {
+                const star = document.createElement('div');
+                star.className = 'star';
+                const size = Math.random() * 2 + 0.5;
+                star.style.width = size + 'px';
+                star.style.height = size + 'px';
+                star.style.left = Math.random() * 100 + '%';
+                star.style.top = Math.random() * 100 + '%';
+                star.style.animationDelay = Math.random() * 3 + 's';
+                star.style.animationDuration = (Math.random() * 3 + 2) + 's';
+                sf.appendChild(star);
+            }
+        })();
+
+        // ============ VERSION + EMOJI SPIN ============
+        (() => {
+            const stored = localStorage.getItem('ff_build');
+            let build = stored ? parseInt(stored) + Math.floor(Math.random() * 5) + 1 : Math.floor(10000 + Math.random() * 90000);
+            localStorage.setItem('ff_build', build);
+            document.getElementById('buildNumber').textContent = build;
+            const emojis = ['🎳','✨','🫧','💎','🧩','🪜','🔮','◾','🖕','🌱','🔥','🧪','📋','📏','🎯','⭐'];
+            const picked = [];
+            for (let i = 0; i < 4; i++) picked.push(emojis[Math.floor(Math.random() * emojis.length)]);
+            document.getElementById('buildEmoji').textContent = picked.join('');
+        })();
+
+        // ============ STATE ============
+        let currentMode = 'split';
+        let currentLimit = 65000;
+        let isCustom = false;
+
+        const inputText = document.getElementById('inputText');
+        const chunksContainer = document.getElementById('chunksContainer');
+        const panelOutput = document.getElementById('panelOutput');
+        const panelCount = document.getElementById('panelCount');
+        const panelGen = document.getElementById('panelGen');
+        const outputLabel = document.getElementById('outputLabel');
+        const effectiveLabel = document.getElementById('effectiveLabel');
+        const customRow = document.getElementById('customRow');
+        const countStats = document.getElementById('countStats');
+        const genOutput = document.getElementById('genOutput');
+        const patchArea = document.getElementById('patchArea');
+        const btnAction = document.getElementById('btnAction');
+
+        // ============ MODE SWITCHING ============
+        const modeBtns = {
+            split: document.getElementById('modeSplit'),
+            count: document.getElementById('modeCount'),
+            gen: document.getElementById('modeGen')
+        };
+        const modeLabels = { split: '🎳 Split', count: '📏 Count', gen: '🧪 Test' };
+        const actionLabels = { split: '🎳 Split It', count: '📏 Count Chars', gen: '🧪 Generate Test File' };
+
+        Object.keys(modeBtns).forEach(mode => {
+            modeBtns[mode].addEventListener('click', () => switchMode(mode));
+        });
+
+        function switchMode(mode) {
+            currentMode = mode;
+            Object.keys(modeBtns).forEach(m => {
+                modeBtns[m].classList.remove('active');
+                modeBtns[m].textContent = modeLabels[m];
+            });
+            modeBtns[mode].classList.add('active');
+            btnAction.textContent = actionLabels[mode];
+            panelOutput.style.display = 'none';
+            panelCount.style.display = 'none';
+            panelGen.style.display = 'none';
+            if (mode === 'count') updateCount();
+            if (mode === 'gen') panelGen.style.display = 'block';
+        }
+
+        // ============ FETCH LIMIT ============
+        document.querySelectorAll('.preset-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                const limit = this.dataset.limit;
+                if (limit === 'custom') {
+                    isCustom = true; customRow.classList.add('show');
+                    currentLimit = parseInt(document.getElementById('customLimit').value) || 65000;
+                } else {
+                    isCustom = false; customRow.classList.remove('show');
+                    currentLimit = parseInt(limit);
+                }
+                updateEffective();
+            });
+        });
+        document.getElementById('customLimit').addEventListener('input', function() {
+            if (isCustom) currentLimit = parseInt(this.value) || 65000;
+            updateEffective();
+        });
+        document.getElementById('safetyMargin').addEventListener('change', updateEffective);
+        function updateEffective() {
+            const safety = parseFloat(document.getElementById('safetyMargin').value);
+            const effective = Math.floor(currentLimit / safety);
+            effectiveLabel.textContent = 'Effective: ' + effective.toLocaleString();
+        }
+
+        // ============ ACTION BUTTON (changes per mode) ============
+        btnAction.addEventListener('click', () => {
+            if (currentMode === 'split') splitIt();
+            else if (currentMode === 'gen') generateTestFile();
+            // count mode doesn't need an action button—it updates live
+        });
+
+        // ============ SPLIT ============
+        function splitIt() {
+            const text = inputText.value.trim();
+            if (!text) return;
+            const safety = parseFloat(document.getElementById('safetyMargin').value);
+            const effective = Math.floor(currentLimit / safety);
+            const totalChars = text.length;
+            const numChunks = Math.ceil(totalChars / effective);
+            const anchor = Math.floor(10000 + Math.random() * 90000);
+            chunksContainer.innerHTML = '';
+            panelOutput.style.display = 'block';
+            outputLabel.textContent = 'Chunks (' + numChunks + ') — ' + totalChars.toLocaleString() + ' total chars';
+            for (let i = 0; i < numChunks; i++) {
+                const start = i * effective;
+                let end = start + effective;
+                if (end >= totalChars) end = totalChars;
+                let chunk = text.substring(start, end);
+                const isLast = (i === numChunks - 1);
+                let header = '🎳 FRAGMENT ' + (i + 1) + '/' + numChunks + '\n';
+                header += 'Chars: ' + chunk.length.toLocaleString() + ' / ' + totalChars.toLocaleString() + '\n';
+                header += 'Limit: ' + currentLimit.toLocaleString() + ' • Safety: ' + safety + 'x\n';
+                header += isLast ? 'ANCHOR: ' + anchor + '\n' : '--- (continued)\n';
+                const fullChunk = header + '\n' + chunk;
+                const div = document.createElement('div');
+                div.className = 'chunk-box';
+                div.innerHTML = `
+                    <div class="chunk-label">
+                        <span>Chunk ${i + 1}/${numChunks} • ${chunk.length.toLocaleString()} chars ${isLast ? '• FINAL' : ''}</span>
+                        <button class="chunk-copy-btn">📋 Copy</button>
+                    </div>
+                    <textarea rows="8" readonly>${fullChunk}</textarea>
+                    <div class="copied-flash">✅ Copied!</div>`;
+                div.querySelector('.chunk-copy-btn').addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    const ta = div.querySelector('textarea'); ta.select();
+                    navigator.clipboard.writeText(ta.value).then(() => {
+                        div.querySelector('.copied-flash').classList.add('show');
+                        this.textContent = '✅';
+                        setTimeout(() => { div.querySelector('.copied-flash').classList.remove('show'); this.textContent = '📋 Copy'; }, 1200);
+                    });
+                });
+                div.querySelector('textarea').addEventListener('click', function() { this.select(); });
+                chunksContainer.appendChild(div);
+            }
+            panelOutput.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // ============ COPY ALL ============
+        document.getElementById('btnCopyAll').addEventListener('click', function() {
+            const all = [...chunksContainer.querySelectorAll('textarea')].map(ta => ta.value).join('\n\n');
+            navigator.clipboard.writeText(all).then(() => {
+                this.textContent = '✅ Copied!';
+                setTimeout(() => this.textContent = '📋 Copy All', 1500);
+            });
+        });
+
+        // ============ SLAP ============
+        document.getElementById('btnSlap').addEventListener('click', function() {
+            navigator.clipboard.writeText('🖕 You said you got the whole file. You didn\'t. Check the anchor. Try again.').then(() => {
+                this.textContent = '✅ Slap Copied!';
+                setTimeout(() => this.textContent = '🖕 Slap \'Em', 1500);
+            });
+        });
+
+        // ============ COUNTER ============
+        inputText.addEventListener('input', () => { if (currentMode === 'count') updateCount(); });
+        function updateCount() {
+            const text = inputText.value;
+            const sections = (text.match(/^##\s+/gm) || []).length;
+            countStats.innerHTML = `
+                <span>📏 <strong>${text.length.toLocaleString()}</strong> chars</span>
+                <span>📄 <strong>${text.split('\n').length.toLocaleString()}</strong> lines</span>
+                ${sections > 0 ? `<span>📑 <strong>${sections}</strong> sections</span>` : ''}
+                <span>📐 Limit: <strong>${currentLimit.toLocaleString()}</strong></span>`;
+            panelCount.style.display = 'block';
+        }
+
+        // ============ TEST FILE ============
+        function generateTestFile() {
+            const size = parseInt(document.getElementById('genSize').value) || 100000;
+            const anchor = Math.floor(10000 + Math.random() * 90000);
+            let content = '🧪 TEST FILE — ' + size.toLocaleString() + ' chars — Anchor: ' + anchor + '\nGenerated: ' + new Date().toISOString() + '\n---\n\n';
+            let charCount = content.length, lineNum = 1;
+            while (charCount < size - 20) {
+                const line = 'L' + String(lineNum).padStart(6, '0') + ' The quick brown fox jumps over the lazy dog. Pattern recognition across substrates. ';
+                content += line; charCount += line.length; lineNum++;
+                if (lineNum % 5 === 0) content += '\n';
+            }
+            while (charCount < size - 15) { content += 'x'; charCount++; }
+            content += '\n\nANCHOR: ' + anchor + '\n';
+            genOutput.innerHTML = '';
+            const div = document.createElement('div');
+            div.className = 'chunk-box';
+            div.innerHTML = `
+                <div class="chunk-label">
+                    <span>🧪 Test File • ${content.length.toLocaleString()} chars • Anchor: ${anchor}</span>
+                    <button class="chunk-copy-btn">📋 Copy</button>
+                </div>
+                <textarea rows="8" readonly>${content}</textarea>
+                <div class="copied-flash">✅ Copied!</div>`;
+            div.querySelector('.chunk-copy-btn').addEventListener('click', function(e) {
+                e.stopPropagation();
+                const ta = div.querySelector('textarea'); ta.select();
+                navigator.clipboard.writeText(ta.value).then(() => {
+                    div.querySelector('.copied-flash').classList.add('show');
+                    this.textContent = '✅';
+                    setTimeout(() => { div.querySelector('.copied-flash').classList.remove('show'); this.textContent = '📋 Copy'; }, 1200);
+                });
+            });
+            genOutput.appendChild(div);
+            genOutput.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // ============ PATCH BOX ============
+        document.getElementById('btnPatchToggle').addEventListener('click', function() {
+            patchArea.classList.toggle('show');
+            this.textContent = patchArea.classList.contains('show') ? '− Patch' : '+ Patch';
+        });
+        (() => {
+            const saved = localStorage.getItem('ff_patches');
+            if (saved) { try { JSON.parse(saved).forEach(c => { try { new Function(c)(); } catch(e) {} }); } catch(e) {} }
+        })();
+        document.getElementById('btnPatchApply').addEventListener('click', function() {
+            const code = document.getElementById('patchCode').value.trim();
+            if (!code) return;
+            try {
+                new Function(code)();
+                const saved = localStorage.getItem('ff_patches');
+                let patches = saved ? JSON.parse(saved) : [];
+                patches.push(code);
+                localStorage.setItem('ff_patches', JSON.stringify(patches));
+                document.getElementById('patchCode').value = '';
+                this.textContent = '✅ Applied!';
+                setTimeout(() => this.textContent = '⚡ Apply Patch', 1500);
+            } catch(e) { alert('Patch error: ' + e.message); }
+        });
+        document.getElementById('btnPatchReset').addEventListener('click', () => {
+            localStorage.removeItem('ff_patches');
+            document.getElementById('patchCode').value = '';
+            alert('Patches cleared. Reload to restore defaults.');
+        });
+
+        // ============ INIT ============
+        updateEffective();
+        switchMode('split');
+    </script>
+</body>
+</html>

@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>🎳 Fragmentor f36</title>
+<style>
+*{box-sizing:border-box;font-family:'Segoe UI',Tahoma,sans-serif}
+body{background:#020208;color:#f0f0f0;margin:auto;padding:4px 6px 110px;max-width:600px;min-height:100vh;overflow-x:hidden}
+.panel{background:rgba(15,15,30,.75);border:1px solid rgba(100,140,255,.2);border-radius:9px;padding:8px 9px;margin-bottom:5px}
+textarea,input,select{width:100%;background:rgba(30,30,50,.85);color:#e0e0ff;border:1px solid rgba(100,140,255,.25);border-radius:7px;padding:8px;font-size:16px;margin-bottom:4px;-webkit-appearance:none}
+textarea:focus,input:focus,select:focus{outline:2px solid #ffaa33}
+button{background:linear-gradient(135deg,rgba(40,80,180,.75),rgba(20,40,120,.85));color:#fff;border:1px solid rgba(100,140,255,.3);padding:8px 12px;border-radius:8px;font-weight:bold;margin:2px;font-size:14px;min-height:38px}
+button:active{transform:scale(.96)}
+.errbar{display:none;background:rgba(255,40,60,.92);color:#fff;font-family:monospace;font-size:11px;padding:6px 8px;border-radius:7px;margin-bottom:5px;word-break:break-word}
+.errbar.show{display:block}
+.tabs{display:flex;gap:3px;margin-bottom:5px}
+.tabs button{flex:1;background:rgba(40,40,60,.8);font-size:12px;padding:3px;min-height:28px;margin:0}
+.tabs button.active{background:#ffaa33;color:#0f0f1a}
+.tabs .gear{flex:0 0 36px}
+.act{display:block;width:100%;margin:5px 0 0;font-size:15px;min-height:42px;background:linear-gradient(135deg,rgba(40,80,200,.8),rgba(20,40,120,.9));border:2px solid rgba(100,160,255,.5)}
+.strip{font-size:11.5px;color:#c9d4ff;background:rgba(0,0,0,.35);border:1px solid rgba(100,140,255,.18);border-radius:7px;padding:5px 7px;line-height:1.55;margin-top:4px}
+.strip b{color:#ffaa33}.strip .p1{color:#cc99ff}.strip .ok{color:#33ff88}.strip .bad{color:#ff5555}
+.mini{background:rgba(40,40,60,.7);font-size:11px;padding:3px 8px;min-height:28px;color:#aaddff}
+.row{display:flex;gap:4px;align-items:center;flex-wrap:wrap}
+.rl{font-size:10px;min-width:44px;color:#8899cc}
+#optPanel{display:none}#optPanel.show{display:block}
+.opt{display:flex;align-items:center;gap:6px;font-size:12px;color:rgba(150,180,255,.75);margin:3px 0}
+.opt input[type=checkbox]{width:auto;margin:0}
+.prov{font-size:10.5px;color:rgba(150,180,255,.6);line-height:1.5;margin-top:3px}
+.prov b{color:#33ff88}
+.prev{font-size:10.5px;color:#99a6d0;font-family:monospace;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:2px 2px 3px}
+.chunk-box{background:rgba(20,20,40,.6);border-left:3px solid rgba(255,170,51,.6);margin:7px 0;border-radius:5px}
+.chunk-box.done{border-left-color:rgba(51,255,136,.7);opacity:.6}
+.chunk-label{background:rgba(40,40,60,.8);padding:4px 8px;border-radius:4px 4px 0 0;font-family:monospace;font-size:11px;display:flex;justify-content:space-between}
+.chunk-copy-btn{background:rgba(255,170,51,.3);color:#ffaa33;border:1px solid rgba(255,170,51,.5);padding:2px 8px;border-radius:5px;font-size:11px;min-height:auto;margin:0}
+.chunk-box textarea{margin:0;border-radius:0 0 4px 4px;border:none;font-size:12px;color:#c0c0dd}
+#chunksContainer{display:none}#chunksContainer.show{display:block}
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:50;background:rgba(8,8,18,.96);border-top:1px solid rgba(255,170,51,.35);padding:5px 7px 7px;display:none}
+.dock.show{display:block}
+.pills{display:flex;gap:4px;overflow-x:auto;padding:1px 0 4px}
+.pill{flex:0 0 auto;min-width:30px;height:30px;min-height:30px;border-radius:50%;font-size:12px;padding:0;margin:0;background:rgba(40,40,60,.9);color:#aaddff;border:1px solid rgba(100,140,255,.35)}
+.pill.done{background:rgba(51,255,136,.22);color:#33ff88;border-color:rgba(51,255,136,.5)}
+.pill.next{background:#ffaa33;color:#0f0f1a;border-color:#ffaa33}
+.dockrow{display:flex;gap:5px}
+.next-btn{flex:1;font-size:16px;min-height:46px;margin:0;background:linear-gradient(135deg,rgba(255,170,51,.9),rgba(200,130,20,.95));border:2px solid rgba(255,170,51,.7);color:#150f00}
+.dockrow .mini{flex:0 0 auto;min-height:46px}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:96px;background:rgba(51,255,136,.94);color:#04140a;font-weight:bold;font-size:13px;padding:8px 16px;border-radius:18px;z-index:99;opacity:0;transition:opacity .2s;pointer-events:none;max-width:92%;text-align:center}
+.toast.show{opacity:1}.toast.bad{background:rgba(255,190,90,.96)}
+.hud{position:fixed;bottom:2px;left:6px;font-family:monospace;font-size:9px;color:rgba(150,180,255,.3);z-index:60;pointer-events:none}
+</style>
+</head>
+<body>
+
+<div class="errbar" id="errbar"></div>
+<script>
+window.onerror=function(msg,src,line,col){
+  var e=document.getElementById('errbar');
+  if(e){e.className='errbar show';e.textContent='JS error '+line+':'+col+' — '+msg;}
+  return false;
+};
+</script>
+
+<div class="tabs">
+  <button id="tabSplit" class="active">🎳 Split</button>
+  <button id="tabGen">🧪 Test</button>
+  <button id="tabOpts" class="gear">⚙</button>
+</div>
+
+<div class="panel" id="pSplit">
+  <div class="row">
+    <span class="rl">Target</span>
+    <select id="targetSel" style="flex:1;margin:0;font-size:13px;padding:6px"></select>
+  </div>
+  <div class="prov" id="prov"></div>
+
+  <textarea id="inputText" rows="6" placeholder="👆 Paste here — splits itself" style="margin-top:5px"></textarea>
+  <div class="row">
+    <button class="mini" id="btnPaste">📥 Paste</button>
+    <button class="mini" id="btnClearInput">✕ Clear</button>
+    <button class="mini" id="btnRefresh">🔄</button>
+  </div>
+  <div class="strip" id="strip">Paste text — it splits automatically</div>
+
+  <div id="optPanel">
+    <div class="row" style="margin-top:6px">
+      <span class="rl">Wrap</span>
+      <select id="modeSel" style="width:auto;margin:0;font-size:12px;padding:4px">
+        <option value="clean" selected>Clean — nothing added</option>
+        <option value="part">Part marker — 🎳 2/5</option>
+        <option value="deploy">Deploy — .md header</option>
+      </select>
+    </div>
+    <div class="row">
+      <span class="rl">Pack</span>
+      <select id="wbSel" style="width:auto;margin:0;font-size:12px;padding:4px">
+        <option value="0" selected>Exact — fill to the last char</option>
+        <option value="80">Tidy — snap lines if cheap (80)</option>
+        <option value="200">Tidy — snap lines (200)</option>
+      </select>
+    </div>
+    <div class="opt"><input type="checkbox" id="optAutoCopy" checked><label for="optAutoCopy">📋 Auto-copy part 1 on paste</label></div>
+    <div class="opt"><input type="checkbox" id="optShowChunks"><label for="optShowChunks">Show chunk boxes</label></div>
+    <div class="row" id="depRow" style="display:none">
+      <span class="rl">Name</span>
+      <input type="text" id="depName" value="STANDARDS" style="flex:1;margin:0;font-size:13px;padding:5px">
+    </div>
+  </div>
+
+  <button class="act" id="btnAct">📋 Copy part 1</button>
+</div>
+
+<div class="panel" id="pOut" style="display:none">
+  <div class="row" style="justify-content:space-between">
+    <strong id="outLabel" style="font-size:12px">Chunks</strong>
+    <span>
+      <button class="mini" id="btnBoxes">▾ boxes</button>
+      <button class="mini" id="btnClearOut">✕</button>
+    </span>
+  </div>
+  <div id="chunksContainer"></div>
+</div>
+
+<div class="panel" id="pGen" style="display:none">
+  <div class="row">
+    <span class="rl">Size</span>
+    <input type="number" id="genSize" value="4095" min="20" max="1000000" style="flex:1;margin:0">
+    <button class="mini" id="btnGenTarget">= target</button>
+  </div>
+  <div class="row" style="margin-top:4px">
+    <span class="rl">ch/line</span>
+    <select id="genDens" style="width:auto;margin:0;font-size:12px;padding:4px">
+      <option value="0">none</option><option value="80">80</option>
+      <option value="73" selected>73</option><option value="40">40</option><option value="20">20</option>
+    </select>
+    <span class="rl">emoji</span>
+    <select id="genEmoji" style="width:auto;margin:0;font-size:12px;padding:4px">
+      <option value="0" selected>0%</option><option value="10">10%</option>
+      <option value="25">25%</option><option value="50">50%</option>
+    </select>
+  </div>
+  <div class="strip" id="genStat">Set a size — it generates automatically</div>
+  <div class="prov" style="margin-top:5px">
+    Paste into a <b>fresh</b> instance. Ask for the exact last line.<br>
+    Passed → raise. Failed → lower. Halve the gap each time.<br>
+    Emoji 0% measures the ceiling. Emoji 50% measures the unit.
+  </div>
+</div>
+
+<div class="dock" id="dock">
+  <div class="prev" id="prev"></div>
+  <div class="pills" id="pills"></div>
+  <div class="dockrow">
+    <button class="next-btn" id="btnNext">📋 Copy</button>
+    <button class="mini" id="btnUp">▲</button>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+<div class="hud">f36 · <span id="hudSchema"></span></div>
+
+<script>
+/* ══════════════════════════════════════════════════════════
+   CONFIG — the ONLY region you edit. Bump schema on change.
+   No 'lines' field. Line-cap theory retired 2026-07-25 by
+   direct test. Do not reintroduce it.
+   unit: 'u16' = JS .length  |  'bytes' = UTF-8 length
+   ══════════════════════════════════════════════════════════ */
+var CFG = {
+  schema: 5,
+  targets: {
+    claude:   {name:'Claude app',     limit:4095,   unit:'bytes', on:'2026-07-25',
+               note:'4095 BYTES. ASCII bisect said 4095 ch; real text fails ~3960 ch.'},
+
+    deepseek: {name:'DeepSeek paste', limit:163840, unit:'u16', on:'2026-07-25',
+               note:'163840 ok / 163841 fail = 160 KiB. 50% emoji passed.'},
+    readme:   {name:'GitHub #readme', limit:75000,  unit:'u16', on:'2026-05-27',
+               note:'FETCH, not paste. Unverified since May.'},
+    rawurl:   {name:'raw URL fetch',  limit:65000,  unit:'u16', on:'2026-05-27',
+               note:'FETCH, not paste. Unverified since May.'},
+    perplex:  {name:'Perplexity',     limit:40130,  unit:'u16', on:'2026-05-27',
+               note:'Paste only. Cannot fetch URLs.'}
+  },
+  url: 'https://source-sepia-alpha.vercel.app/SPLIT',
+  hdr: '🔗 {NAME}.md\n{URL}/{NAME}.md\n\n## {NAME} — {N} of {TOTAL}\n\n{BODY}\n\n---\n♦️{NAME}-{ANCHOR}\n'
+};
+/* ══════════════════ end config ══════════════════ */
+
+var $=function(id){return document.getElementById(id);};
+$('hudSchema').textContent='schema '+CFG.schema;
+
+/* schema guard — stale ff_ keys can never apply silently */
+if(localStorage.getItem('ff_schema')!==String(CFG.schema)){
+  var kill=[],ki;
+  for(ki=0;ki<localStorage.length;ki++){
+    var kk=localStorage.key(ki);
+    if(kk&&kk.indexOf('ff_')===0)kill.push(kk);
+  }
+  for(ki=0;ki<kill.length;ki++)localStorage.removeItem(kill[ki]);
+  localStorage.setItem('ff_schema',String(CFG.schema));
+}
+
+var inputText=$('inputText'),targetSel=$('targetSel'),modeSel=$('modeSel'),wbSel=$('wbSel'),
+    strip=$('strip'),dock=$('dock'),pills=$('pills'),chunksContainer=$('chunksContainer'),
+    pOut=$('pOut'),outLabel=$('outLabel'),optAutoCopy=$('optAutoCopy'),
+    optShowChunks=$('optShowChunks'),depName=$('depName'),btnAct=$('btnAct');
+
+var tab='split',outs=[],copyIdx=0,lastVal=null,pendIdx=null,tmr=null,gtmr=null;
+var AUTO_MAX=400000;
+function WB(){return parseInt(wbSel.value)||0;}
+
+/* ---------- clipboard ---------- */
+function fallbackCopy(t){
+  var ta=document.createElement('textarea');ta.value=t;
+  ta.style.position='fixed';ta.style.left='-9999px';ta.style.top='0';
+  document.body.appendChild(ta);ta.focus();ta.select();
+  var ok=false;try{ok=document.execCommand('copy');}catch(e){ok=false;}
+  document.body.removeChild(ta);return ok;
+}
+function copyText(t,cb,fail){
+  if(navigator.clipboard&&window.isSecureContext){
+    navigator.clipboard.writeText(t).then(function(){if(cb)cb();})
+      .catch(function(){if(fallbackCopy(t)){if(cb)cb();}else if(fail)fail();});
+    return;
+  }
+  if(fallbackCopy(t)){if(cb)cb();}else if(fail)fail();
+}
+function toast(m,bad){
+  var t=$('toast');t.textContent=m;t.className='toast show'+(bad?' bad':'');
+  clearTimeout(t._t);t._t=setTimeout(function(){t.classList.remove('show');},1800);
+}
+
+/* ---------- target ---------- */
+(function(){
+  var html='',k;
+  for(k in CFG.targets){
+    if(!CFG.targets.hasOwnProperty(k))continue;
+    html+='<option value="'+k+'">'+CFG.targets[k].name+' — '+
+      CFG.targets[k].limit.toLocaleString()+'</option>';
+  }
+  targetSel.innerHTML=html;
+  var s=localStorage.getItem('ff_target');
+  if(s&&CFG.targets[s])targetSel.value=s;
+})();
+function T(){return CFG.targets[targetSel.value];}
+function paintProv(){
+  var t=T();
+  $('prov').innerHTML='<b>'+t.limit.toLocaleString()+'</b> '+
+    (t.unit==='bytes'?'bytes':'chars')+' · measured '+t.on+'<br>'+t.note;
+}
+
+/* ---------- measuring ---------- */
+function bLen(t){
+  var n=0,i=0,c,w;
+  while(i<t.length){
+    c=t.charCodeAt(i);
+    w=c<0x80?1:(c<0x800?2:((c>=0xD800&&c<=0xDBFF)?4:3));
+    n+=w;i+=(w===4)?2:1;
+  }
+  return n;
+}
+function meas(t){return T().unit==='bytes'?bLen(t):t.length;}
+function endAt(text,pos,budget){
+  if(T().unit!=='bytes')return Math.min(pos+budget,text.length);
+  var n=0,i=pos,c,w;
+  while(i<text.length){
+    c=text.charCodeAt(i);
+    w=c<0x80?1:(c<0x800?2:((c>=0xD800&&c<=0xDBFF)?4:3));
+    if(n+w>budget)break;
+    n+=w;i+=(w===4)?2:1;
+  }
+  return i;
+}
+
+/* ---------- overhead ---------- */
+function hdrOverhead(){
+  var nm=(depName.value.trim()||'FILE')+'-SPLIT999';
+  return meas(CFG.hdr.replace(/\{NAME\}/g,nm).replace('{URL}',CFG.url)
+    .replace('{N}','999').replace('{TOTAL}','999')
+    .replace('{ANCHOR}','99999').replace('{BODY}',''));
+}
+function overhead(){
+  var m=modeSel.value;
+  if(m==='deploy')return hdrOverhead();
+  if(m==='part')return 12;
+  return 0;
+}
+function effLimit(){return Math.max(200,T().limit-overhead());}
+
+/* ---------- splitter: exact, surrogate-safe, lossless ---------- */
+function buildChunks(text,eff){
+  var out=[],total=text.length,pos=0,guard=0,wb=WB();
+  while(pos<total){
+    if(guard++>1000000){toast('splitter guard tripped',true);break;}
+    var end=endAt(text,pos,eff);
+    if(end<total&&wb>0){
+      var nl=text.lastIndexOf('\n',end-1);
+      if(nl>pos&&(end-nl)<=wb)end=nl+1;
+    }
+    if(end<total&&end>pos){
+      var cc=text.charCodeAt(end-1);
+      if(cc>=0xD800&&cc<=0xDBFF)end--;
+    }
+    if(end<=pos)end=Math.min(pos+2,total);
+    out.push(text.substring(pos,end));
+    pos=end;
+  }
+  return out;
+}
+/* Clean mode is byte-for-byte: no trim, ever. */
+function srcText(){return inputText.value;}
+function words(t){var m=t.match(/\S+/g);return m?m.length:0;}
+function dens(t){var l=t.split('\n');return l.length<2?0:Math.round(t.length/l.length);}
+
+/* ---------- outputs ---------- */
+function makeOutputs(text){
+  if(!text)return [];
+  var ch=buildChunks(text,effLimit()),n=ch.length,m=modeSel.value,out=[],i;
+  if(m==='clean')return ch;
+  if(m==='part'){
+    for(i=0;i<n;i++)out.push('🎳 '+(i+1)+'/'+n+'\n'+ch[i]);
+    return out;
+  }
+  var base=depName.value.trim()||'FILE';
+  var anc=Math.floor(10000+Math.random()*90000);
+  for(i=0;i<n;i++){
+    var nm=base+'-SPLIT'+(i+1);
+    var body=ch[i];
+    out.push(CFG.hdr.replace(/\{NAME\}/g,nm).replace('{URL}',CFG.url)
+      .replace('{N}',String(i+1)).replace('{TOTAL}',String(n))
+      .replace('{ANCHOR}',String(anc))
+      .replace('{BODY}',function(){return body;}));
+  }
+  return out;
+}
+
+/* ---------- strip + reassembly check ---------- */
+function paintStrip(){
+  var t=srcText();
+  if(!t){strip.textContent='Paste text — it splits automatically';return;}
+  if(t.length>AUTO_MAX){
+    strip.innerHTML='<b>'+t.length.toLocaleString()+'</b> ch — too large for live preview, tap 🔄';
+    return;
+  }
+  var ch=buildChunks(t,effLimit());
+  var lossless=(ch.join('')===t);
+  var big=0,i,mv;
+  for(i=0;i<outs.length;i++){mv=meas(outs[i]);if(mv>big)big=mv;}
+  if(!outs.length){for(i=0;i<ch.length;i++){mv=meas(ch[i]);if(mv>big)big=mv;}}
+  var lim=T().limit,over=big>lim;
+  strip.innerHTML='<b>'+t.length.toLocaleString()+'</b> ch · <b>'+words(t).toLocaleString()+
+    '</b> w · <b>'+t.split('\n').length.toLocaleString()+'</b> ln · ~'+dens(t)+' ch/ln'+
+    ' → <b>'+ch.length+'</b> chunks ('+modeSel.value+')'+
+    '<br><span class="p1">largest sends <b>'+big.toLocaleString()+'</b> / '+
+    lim.toLocaleString()+' '+(T().unit==='bytes'?'bytes':'ch')+'</span>'+
+    ' <span class="'+(over?'bad':'ok')+'">'+(over?'OVER':'fits')+'</span>'+
+    '<br><span class="'+(lossless?'ok':'bad')+'">'+
+    (lossless?'✅ reassembly verified — no text lost':'❌ REASSEMBLY FAILED — do not use')+'</span>';
+}
+
+/* ---------- render ---------- */
+function render(list){
+  outs=list;copyIdx=0;chunksContainer.innerHTML='';
+  if(!list.length){pOut.style.display='none';dock.classList.remove('show');return;}
+  pOut.style.display='block';dock.classList.add('show');
+  chunksContainer.classList.toggle('show',optShowChunks.checked);
+  var tot=0,i;
+  for(i=0;i<list.length;i++)tot+=list[i].length;
+  outLabel.textContent=list.length+' chunks • '+tot.toLocaleString()+' ch out';
+  for(i=0;i<list.length;i++){
+    (function(o,idx){
+      var div=document.createElement('div');div.className='chunk-box';
+      var head=document.createElement('div');head.className='chunk-label';
+      var sp=document.createElement('span');
+      sp.textContent=(idx+1)+'/'+list.length+' • '+meas(o).toLocaleString()+
+        (T().unit==='bytes'?' B':' ch');
+      var cb=document.createElement('button');
+      cb.className='chunk-copy-btn';cb.textContent='📋';
+      cb.onclick=function(e){e.stopPropagation();copyOne(idx);};
+      head.appendChild(sp);head.appendChild(cb);
+      var ta=document.createElement('textarea');
+      ta.rows=5;ta.readOnly=true;ta.value=o;
+      ta.onclick=function(){this.select();};
+      div.appendChild(head);div.appendChild(ta);
+      chunksContainer.appendChild(div);
+    })(list[i],i);
+  }
+  paintPills();
+}
+function paintPills(){
+  pills.innerHTML='';
+  var i;
+  for(i=0;i<outs.length;i++){
+    (function(idx){
+      var b=document.createElement('button');
+      b.className='pill'+(idx<copyIdx?' done':'')+(idx===copyIdx?' next':'');
+      b.textContent=idx+1;
+      b.onclick=function(){copyOne(idx);};
+      pills.appendChild(b);
+    })(i);
+  }
+  var boxes=chunksContainer.querySelectorAll('.chunk-box');
+  for(i=0;i<boxes.length;i++)boxes[i].classList.toggle('done',i<copyIdx);
+  var n=outs.length;
+  $('btnNext').textContent=!n?'📋 Copy':
+    (copyIdx>=n?'✅ all '+n+' sent — tap to reset':'📋 Copy '+(copyIdx+1)+' / '+n);
+  var pv=$('prev');
+  if(!n)pv.textContent='';
+  else if(copyIdx>=n)pv.textContent='— all sent —';
+  else{
+    var s=outs[copyIdx].replace(/\s+/g,' ').substring(0,64);
+    pv.textContent='next ▸ '+s+(outs[copyIdx].length>64?'…':'');
+  }
+}
+function copyOne(i){
+  copyText(outs[i],function(){
+    copyIdx=i+1;paintPills();toast('✅ '+(i+1)+'/'+outs.length+' copied');
+  },function(){toast('Copy blocked — open boxes & select',true);});
+}
+
+/* ---------- sync ---------- */
+function sync(force){
+  var v=inputText.value;
+  if(!force&&v===lastVal)return;
+  lastVal=v;
+  clearTimeout(tmr);
+  tmr=setTimeout(function(){
+    if(tab!=='split')return;
+    var t=srcText();
+    if(!t){outs=[];copyIdx=0;chunksContainer.innerHTML='';
+      pOut.style.display='none';dock.classList.remove('show');paintStrip();return;}
+    if(t.length<=AUTO_MAX)render(makeOutputs(t));
+    if(pendIdx!==null){copyIdx=pendIdx;pendIdx=null;paintPills();}
+    paintStrip();
+  },200);
+}
+(function(){
+  var ev=['input','keyup','change','cut','paste','blur'],i;
+  for(i=0;i<ev.length;i++){
+    inputText.addEventListener(ev[i],function(){setTimeout(function(){sync();},0);});
+  }
+})();
+setInterval(function(){sync();},400);
+
+/* ---------- events ---------- */
+targetSel.onchange=function(){
+  localStorage.setItem('ff_target',this.value);
+  paintProv();$('genSize').value=T().limit;sync(true);
+};
+modeSel.onchange=function(){
+  $('depRow').style.display=this.value==='deploy'?'flex':'none';
+  localStorage.setItem('ff_mode',this.value);sync(true);
+};
+wbSel.onchange=function(){localStorage.setItem('ff_wb',this.value);sync(true);};
+depName.oninput=function(){localStorage.setItem('ff_name',this.value);sync(true);};
+optAutoCopy.onchange=function(){localStorage.setItem('ff_ac',this.checked?'1':'0');};
+optShowChunks.onchange=function(){
+  localStorage.setItem('ff_sc',this.checked?'1':'0');
+  chunksContainer.classList.toggle('show',this.checked);
+};
+$('tabOpts').onclick=function(){$('optPanel').classList.toggle('show');};
+$('btnRefresh').onclick=function(){sync(true);toast('🔄 Refreshed');};
+$('btnClearInput').onclick=function(){inputText.value='';sync(true);};
+$('btnClearOut').onclick=function(){
+  chunksContainer.innerHTML='';pOut.style.display='none';
+  dock.classList.remove('show');outs=[];copyIdx=0;
+};
+$('btnBoxes').onclick=function(){
+  optShowChunks.checked=!optShowChunks.checked;
+  chunksContainer.classList.toggle('show',optShowChunks.checked);
+  localStorage.setItem('ff_sc',optShowChunks.checked?'1':'0');
+};
+$('btnUp').onclick=function(){window.scrollTo({top:0,behavior:'smooth'});};
+$('btnNext').onclick=function(){
+  if(!outs.length)return;
+  if(copyIdx>=outs.length){copyIdx=0;paintPills();return;}
+  copyOne(copyIdx);
+};
+btnAct.onclick=function(){
+  if(tab==='gen'){genFile();return;}
+  if(!srcText()){toast('Paste something first',true);return;}
+  if(!outs.length)render(makeOutputs(srcText()));
+  if(outs.length)copyOne(0);
+};
+$('btnPaste').onclick=function(){
+  if(!navigator.clipboard||!navigator.clipboard.readText){
+    toast('Long-press the box → Paste',true);inputText.focus();return;}
+  navigator.clipboard.readText().then(function(t){
+    if(!t){toast('Clipboard empty',true);return;}
+    inputText.value=t;lastVal=t;
+    render(makeOutputs(srcText()));paintStrip();
+    if(optAutoCopy.checked&&outs.length){
+      copyText(outs[0],function(){
+        copyIdx=1;paintPills();toast('✅ 1/'+outs.length+' copied');
+      },function(){toast('Tap Copy 1',true);});
+    }
+  }).catch(function(){toast('Blocked — long-press box → Paste',true);inputText.focus();});
+};
+inputText.addEventListener('paste',function(e){
+  if(!optAutoCopy.checked||tab!=='split')return;
+  var p='';
+  try{p=(e.clipboardData||window.clipboardData).getData('text');}catch(err){p='';}
+  if(!p)return;
+  var all=inputText.selectionStart===0&&inputText.selectionEnd===inputText.value.length;
+  var comb=(inputText.value===''||all)?p:(inputText.value+p);
+  var o=makeOutputs(comb);
+  if(!o.length)return;
+  copyText(o[0],function(){toast('✅ 1/'+o.length+' copied');},
+    function(){toast('Tap Copy 1 in the bar',true);});
+  pendIdx=1;
+  setTimeout(function(){sync(true);},0);
+});
+
+/* ---------- tabs ---------- */
+function setTab(t){
+  tab=t;
+  $('tabSplit').classList.toggle('active',t==='split');
+  $('tabGen').classList.toggle('active',t==='gen');
+  $('pSplit').style.display=t==='split'?'block':'none';
+  $('pGen').style.display=t==='gen'?'block':'none';
+  btnAct.textContent=t==='gen'?'🧪 Regenerate':'📋 Copy part 1';
+  if(t==='gen')queueGen(true);
+  else sync(true);
+}
+$('tabSplit').onclick=function(){setTab('split');};
+$('tabGen').onclick=function(){setTab('gen');};
+
+/* ---------- test generator ---------- */
+function queueGen(now){clearTimeout(gtmr);gtmr=setTimeout(genFile,now?0:350);}
+$('genSize').oninput=function(){if(tab==='gen')queueGen();};
+$('genDens').onchange=function(){if(tab==='gen')queueGen(true);};
+$('genEmoji').onchange=function(){if(tab==='gen')queueGen(true);};
+$('btnGenTarget').onclick=function(){$('genSize').value=T().limit;queueGen(true);};
+
+function genFile(){
+  var size=parseInt($('genSize').value);
+  if(!size||size<20){$('genStat').textContent='Set a size';return;}
+  var ld=parseInt($('genDens').value)||0;
+  var epct=parseInt($('genEmoji').value)||0,ep=epct/100;
+  var anc=Math.floor(10000+Math.random()*90000);
+  var c='TEST '+size+' ANCHOR '+anc+'\n';
+  var em=['🎳','🫧','💎','🧩','🪜','🔮','🔥','🌱','✨','🧪','📋','📏','🎯','⭐'];
+  var ei=0,ln=1;
+  while(c.length<size-25){
+    if(ep>0&&Math.random()<ep){c+=em[ei%em.length];ei++;}
+    else if(ld===0){c+='X';}
+    else{
+      var pre='L'+String(ln)+' '+c.length+' ';
+      var fil='The quick brown fox jumps over the lazy dog. Pattern across substrates. ';
+      var mx=pre.length+ld,line=pre,cc=pre.length,k;
+      for(k=0;k<fil.length&&cc<mx;k++){line+=fil.charAt(k);cc++;}
+      if(c.length+line.length+25>size)break;
+      c+=line+'\n';ln++;
+    }
+  }
+  while(c.length<size-14)c+='X';
+  c=c.substring(0,size);
+  var tail='\nANCHOR '+anc,cut=size-tail.length;
+  if(cut>0)c=c.substring(0,cut)+tail;
+  var lines=c.split('\n').length;
+  $('genStat').innerHTML='✅ <b>'+c.length.toLocaleString()+'</b> ch · <b>'+
+    bLen(c).toLocaleString()+'</b> B · <b>'+lines+'</b> ln · '+
+    (epct>0?epct+'% emoji':'plain ASCII')+
+    (c.length===size?'':' <span class="bad">(off by '+(c.length-size)+')</span>');
+  render([c]);
+  outLabel.textContent='Test • '+c.length.toLocaleString()+' ch';
+}
+
+/* ---------- init ---------- */
+(function(){
+  var m=localStorage.getItem('ff_mode');if(m)modeSel.value=m;
+  var w=localStorage.getItem('ff_wb');if(w)wbSel.value=w;
+  var n=localStorage.getItem('ff_name');if(n)depName.value=n;
+  var a=localStorage.getItem('ff_ac');if(a!==null)optAutoCopy.checked=a==='1';
+  var s=localStorage.getItem('ff_sc');if(s!==null)optShowChunks.checked=s==='1';
+  $('depRow').style.display=modeSel.value==='deploy'?'flex':'none';
+  paintProv();
+  $('genSize').value=T().limit;
+  setTab('split');
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#0a0a12">
+<title>Fragmentor v2</title>
+<style>
+  :root {
+    --bg: #0a0a12;
+    --panel: #12121e;
+    --panel-2: #1a1a2e;
+    --border: #2a2a4a;
+    --accent: #ffaa33;
+    --accent-2: #4488ff;
+    --good: #33ff88;
+    --bad: #ff4466;
+    --text: #e0e0f0;
+    --text-dim: #8899bb;
+    --text-faint: #556688;
+    --shadow: 0 4px 24px rgba(0,0,0,.4);
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.5; }
+  .frag-v2 { max-width: 640px; margin: 0 auto; padding: 12px 12px 100px; }
+  .frag-v2 h2 { margin: 0 0 12px; font-size: 18px; font-weight: 700; letter-spacing: -.3px; }
+  .frag-v2 h2 span { color: var(--accent); }
+  .card { background: var(--panel); border: 1px solid var(--border); border-radius: 14px; padding: 14px; margin-bottom: 12px; transition: border-color .2s; }
+  .card:focus-within { border-color: var(--accent); }
+  .card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+  .card-title { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--text-dim); }
+  .frag-v2 textarea, .frag-v2 input, .frag-v2 select {
+    width: 100%; background: var(--panel-2); color: var(--text); border: 1px solid var(--border);
+    border-radius: 10px; padding: 10px 12px; font-size: 15px; outline: none; transition: all .15s;
+  }
+  .frag-v2 textarea:focus, .frag-v2 input:focus, .frag-v2 select:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(255,170,51,.15); }
+  .frag-v2 textarea { resize: vertical; min-height: 120px; font-family: inherit; }
+  .frag-v2 select { cursor: pointer; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%238899bb' d='M6 8L1 3h10z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 12px center; padding-right: 32px; }
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+    background: var(--panel-2); color: var(--text-dim); border: 1px solid var(--border);
+    padding: 8px 14px; border-radius: 10px; font-size: 13px; font-weight: 600; cursor: pointer;
+    transition: all .15s; user-select: none; touch-action: manipulation; }
+  .btn:hover { background: #252540; color: var(--text); }
+  .btn:active { transform: scale(.97); }
+  .btn-primary { background: linear-gradient(135deg, var(--accent), #e6952a); color: #1a0f00; border-color: transparent; }
+  .btn-primary:hover { filter: brightness(1.1); color: #1a0f00; }
+  .btn-good { background: rgba(51,255,136,.15); color: var(--good); border-color: rgba(51,255,136,.3); }
+  .btn-bad { background: rgba(255,68,102,.15); color: var(--bad); border-color: rgba(255,68,102,.3); }
+  .btn-sm { padding: 5px 10px; font-size: 12px; border-radius: 8px; }
+  .btn-ghost { background: transparent; border: none; padding: 6px; }
+  .ctrl-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  @media (max-width: 480px) { .ctrl-grid { grid-template-columns: 1fr; } }
+  .ctrl-group { display: flex; flex-direction: column; gap: 4px; }
+  .ctrl-label { font-size: 11px; color: var(--text-faint); font-weight: 600; text-transform: uppercase; letter-spacing: .05em; }
+  .toggle { display: flex; align-items: center; gap: 8px; cursor: pointer; font-size: 13px; color: var(--text-dim); }
+  .toggle input { appearance: none; width: 36px; height: 20px; background: var(--border); border-radius: 10px; position: relative; cursor: pointer; transition: background .2s; flex-shrink: 0; }
+  .toggle input::after { content: ''; position: absolute; top: 2px; left: 2px; width: 16px; height: 16px; background: var(--text); border-radius: 50%; transition: transform .2s; }
+  .toggle input:checked { background: var(--accent); }
+  .toggle input:checked::after { transform: translateX(16px); background: #1a0f00; }
+  .stats { display: flex; flex-wrap: wrap; gap: 12px; font-size: 12px; color: var(--text-dim); margin-top: 8px; }
+  .stat { display: flex; align-items: baseline; gap: 4px; }
+  .stat b { color: var(--text); font-size: 14px; }
+  .stat.ok b { color: var(--good); }
+  .stat.warn b { color: var(--accent); }
+  .stat.bad b { color: var(--bad); }
+  .timeline { display: flex; gap: 6px; overflow-x: auto; padding: 4px 2px 8px; margin: 0 -4px; scrollbar-width: thin; -webkit-overflow-scrolling: touch; }
+  .timeline::-webkit-scrollbar { height: 4px; }
+  .timeline::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+  .t-chunk { flex: 0 0 auto; width: 52px; height: 52px; border-radius: 12px; border: 2px solid var(--border);
+    background: var(--panel-2); display: flex; flex-direction: column; align-items: center; justify-content: center;
+    cursor: pointer; transition: all .15s; position: relative; touch-action: manipulation; }
+  .t-chunk:hover { border-color: var(--accent-2); transform: translateY(-2px); }
+  .t-chunk.active { border-color: var(--accent); background: rgba(255,170,51,.1); }
+  .t-chunk.done { border-color: var(--good); background: rgba(51,255,136,.08); }
+  .t-chunk .t-num { font-size: 14px; font-weight: 700; }
+  .t-chunk .t-size { font-size: 9px; color: var(--text-faint); margin-top: 1px; }
+  .t-chunk .t-bar { position: absolute; bottom: 4px; left: 6px; right: 6px; height: 3px; background: var(--border); border-radius: 2px; overflow: hidden; }
+  .t-chunk .t-bar > div { height: 100%; border-radius: 2px; }
+  .chunk-editor { background: var(--panel-2); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; margin-top: 10px; }
+  .chunk-editor-head { display: flex; align-items: center; justify-content: space-between; padding: 10px 12px; background: rgba(0,0,0,.2); border-bottom: 1px solid var(--border); }
+  .chunk-editor-head span { font-size: 12px; color: var(--text-dim); }
+  .chunk-editor-head b { color: var(--text); }
+  .chunk-editor textarea { border: none; border-radius: 0; background: transparent; min-height: 160px; font-size: 13px; line-height: 1.6; font-family: 'SF Mono', monospace, monospace; color: var(--text); width: 100%; padding: 10px 12px; outline: none; resize: vertical; }
+  .prog-wrap { height: 6px; background: var(--panel-2); border-radius: 3px; overflow: hidden; margin-top: 10px; }
+  .prog-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent-2)); border-radius: 3px; transition: width .3s ease; }
+  .prog-fill.done { background: var(--good); }
+  .toast-v2 { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%) translateY(80px);
+    background: var(--panel-2); color: var(--text); padding: 10px 20px; border-radius: 12px;
+    border: 1px solid var(--border); box-shadow: var(--shadow); font-size: 13px; font-weight: 600;
+    opacity: 0; transition: all .3s cubic-bezier(.34,1.56,.64,1); z-index: 1000; pointer-events: none; white-space: nowrap; max-width: 90vw; text-align: center; }
+  .toast-v2.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+  .toast-v2.good { border-color: rgba(51,255,136,.4); color: var(--good); }
+  .toast-v2.bad { border-color: rgba(255,68,102,.4); color: var(--bad); }
+  .badge { display: inline-flex; align-items: center; gap: 4px; font-size: 11px; padding: 3px 8px; border-radius: 6px; font-weight: 600; }
+  .badge.ok { background: rgba(51,255,136,.12); color: var(--good); }
+  .badge.bad { background: rgba(255,68,102,.12); color: var(--bad); }
+  details { border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin-bottom: 12px; }
+  details > summary { padding: 10px 12px; font-size: 12px; font-weight: 600; color: var(--text-dim); cursor: pointer; list-style: none; display: flex; align-items: center; gap: 6px; user-select: none; }
+  details > summary::-webkit-details-marker { display: none; }
+  details > summary::before { content: '▸'; transition: transform .2s; display: inline-block; font-size: 10px; }
+  details[open] > summary::before { transform: rotate(90deg); }
+  details > div { padding: 0 12px 12px; }
+  .action-bar { position: fixed; bottom: 0; left: 0; right: 0; background: rgba(10,10,18,.95); backdrop-filter: blur(12px);
+    border-top: 1px solid var(--border); padding: 10px 16px 16px; display: flex; gap: 10px; align-items: center; z-index: 100; }
+  .action-bar .btn-primary { flex: 1; min-height: 48px; font-size: 15px; border-radius: 12px; }
+  .action-bar .btn { min-height: 44px; min-width: 44px; }
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+
+<div class="frag-v2" id="fragV2">
+  <h2>🎳 <span>Fragmentor</span> v2</h2>
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">Source Text</span>
+      <div style="display:flex;gap:6px">
+        <button class="btn btn-sm" onclick="pasteText()">📋 Paste</button>
+        <button class="btn btn-sm btn-bad" onclick="clearInput()">Clear</button>
+      </div>
+    </div>
+    <textarea id="v2input" placeholder="Paste your text here — it splits automatically as you type..."></textarea>
+    <div class="stats" id="v2inputStats"></div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">Configuration</span>
+      <span class="badge ok" id="v2reassemble">✅ Lossless</span>
+    </div>
+    <div class="ctrl-grid">
+      <div class="ctrl-group">
+        <span class="ctrl-label">Target Platform</span>
+        <select id="v2target"></select>
+      </div>
+      <div class="ctrl-group">
+        <span class="ctrl-label">Wrap Mode</span>
+        <select id="v2mode">
+          <option value="clean">Clean — raw chunks</option>
+          <option value="part">Part marker — 🎳 2/5</option>
+          <option value="deploy">Deploy — .md header</option>
+        </select>
+      </div>
+      <div class="ctrl-group">
+        <span class="ctrl-label">Line Snap</span>
+        <select id="v2snap">
+          <option value="0">Exact (no snap)</option>
+          <option value="80">Tidy @ 80 chars</option>
+          <option value="200">Tidy @ 200 chars</option>
+        </select>
+      </div>
+      <div class="ctrl-group" id="v2deployGroup" style="display:none">
+        <span class="ctrl-label">Deploy Name</span>
+        <input type="text" id="v2deployName" value="STANDARDS" placeholder="File name">
+      </div>
+    </div>
+    <div style="display:flex;gap:16px;margin-top:12px;flex-wrap:wrap">
+      <label class="toggle"><input type="checkbox" id="v2autoCopy" checked><span>Auto-copy Part 1 on paste</span></label>
+      <label class="toggle"><input type="checkbox" id="v2showEditor" checked><span>Show chunk editor</span></label>
+    </div>
+    <div class="stats" id="v2targetStats" style="margin-top:10px"></div>
+  </div>
+  
+  <details>
+    <summary>🧪 Test Generator — find platform limits</summary>
+    <div>
+      <div class="ctrl-grid" style="margin-top:8px">
+        <div class="ctrl-group">
+          <span class="ctrl-label">Size (chars)</span>
+          <input type="number" id="v2genSize" value="4095" min="20">
+        </div>
+        <div class="ctrl-group">
+          <span class="ctrl-label">Chars / Line</span>
+          <select id="v2genDens">
+            <option value="0">none</option>
+            <option value="80">80</option>
+            <option value="73" selected>73</option>
+            <option value="40">40</option>
+            <option value="20">20</option>
+          </select>
+        </div>
+        <div class="ctrl-group">
+          <span class="ctrl-label">Emoji Density</span>
+          <select id="v2genEmoji">
+            <option value="0" selected>0% (ASCII)</option>
+            <option value="10">10%</option>
+            <option value="25">25%</option>
+            <option value="50">50%</option>
+          </select>
+        </div>
+        <div class="ctrl-group">
+          <span class="ctrl-label">&nbsp;</span>
+          <button class="btn btn-primary" onclick="generateTest()" style="width:100%">🧪 Generate</button>
+        </div>
+      </div>
+      <div class="stats" id="v2genStats" style="margin-top:8px"></div>
+      <p style="font-size:11px;color:var(--text-faint);margin:8px 0 0">
+        Paste into a <b>fresh</b> chat. Ask for the exact last line. Passed → raise size. Failed → lower. Halve the gap each time.
+      </p>
+    </div>
+  </details>
+  
+  <div class="card" id="v2chunksCard" style="display:none">
+    <div class="card-header">
+      <span class="card-title" id="v2chunksTitle">Chunks</span>
+      <div style="display:flex;gap:6px">
+        <button class="btn btn-sm" onclick="copyAll()">Copy All</button>
+        <button class="btn btn-sm btn-bad" onclick="clearChunks()">✕</button>
+      </div>
+    </div>
+    <div class="timeline" id="v2timeline"></div>
+    <div class="prog-wrap"><div class="prog-fill" id="v2prog" style="width:0%"></div></div>
+    <div class="chunk-editor" id="v2editor">
+      <div class="chunk-editor-head">
+        <span>Chunk <b id="v2edNum">1</b> / <b id="v2edTotal">1</b> · <b id="v2edSize">0</b> <span id="v2edUnit">ch</span></span>
+        <div style="display:flex;gap:6px">
+          <button class="btn btn-sm" onclick="copyCurrent()">📋 Copy</button>
+          <button class="btn btn-sm btn-ghost" onclick="prevChunk()">◀</button>
+          <button class="btn btn-sm btn-ghost" onclick="nextChunk()">▶</button>
+        </div>
+      </div>
+      <textarea id="v2edText" spellcheck="false"></textarea>
+    </div>
+  </div>
+</div>
+
+<div class="action-bar" id="v2bar" style="display:none">
+  <button class="btn" onclick="prevChunk()" id="v2barPrev">◀</button>
+  <button class="btn btn-primary" onclick="copyNext()" id="v2barMain">📋 Copy Part 1</button>
+  <button class="btn" onclick="nextChunk()" id="v2barNext">▶</button>
+</div>
+
+<div class="toast-v2" id="v2toast"></div>
+
+<script>
+(function(){
+  const CFG = {
+    schema: 6,
+    targets: {
+      claude:   {name:'Claude app',     limit:4095,   unit:'bytes', on:'2026-07-25',
+                 note:'4095 BYTES. ASCII bisect said 4095 ch; real text fails ~3960 ch.'},
+      deepseek: {name:'DeepSeek paste', limit:163840, unit:'u16',   on:'2026-07-25',
+                 note:'163840 ok / 163841 fail = 160 KiB. 50% emoji passed.'},
+      readme:   {name:'GitHub #readme', limit:75000,  unit:'u16',   on:'2026-05-27',
+                 note:'FETCH, not paste. Unverified since May.'},
+      rawurl:   {name:'raw URL fetch',  limit:65000,  unit:'u16',   on:'2026-05-27',
+                 note:'FETCH, not paste. Unverified since May.'},
+      perplex:  {name:'Perplexity',     limit:40130,  unit:'u16',   on:'2026-05-27',
+                 note:'Paste only. Cannot fetch URLs.'}
+    },
+    url: 'https://source-sepia-alpha.vercel.app/SPLIT',
+    hdr: '🔗 {NAME}.md\n{URL}/{NAME}.md\n\n## {NAME} — {N} of {TOTAL}\n\n{BODY}\n\n---\n♦️{NAME}-{ANCHOR}\n'
+  };
+  
+  let outs = [], idx = 0, lastVal = null, tmr = null;
+  const AUTO_MAX = 400000;
+  
+  const $ = id => document.getElementById(id);
+  const el = {
+    input: $('v2input'), target: $('v2target'), mode: $('v2mode'), snap: $('v2snap'),
+    deployGroup: $('v2deployGroup'), deployName: $('v2deployName'),
+    autoCopy: $('v2autoCopy'), showEditor: $('v2showEditor'),
+    inputStats: $('v2inputStats'), targetStats: $('v2targetStats'), reassemble: $('v2reassemble'),
+    chunksCard: $('v2chunksCard'), chunksTitle: $('v2chunksTitle'),
+    timeline: $('v2timeline'), prog: $('v2prog'),
+    editor: $('v2editor'), edNum: $('v2edNum'), edTotal: $('v2edTotal'),
+    edSize: $('v2edSize'), edUnit: $('v2edUnit'), edText: $('v2edText'),
+    bar: $('v2bar'), barMain: $('v2barMain'), barPrev: $('v2barPrev'), barNext: $('v2barNext'),
+    toast: $('v2toast'), genSize: $('v2genSize'), genDens: $('v2genDens'), genEmoji: $('v2genEmoji'),
+    genStats: $('v2genStats')
+  };
+  
+  el.target.innerHTML = Object.entries(CFG.targets).map(([k,v]) =>
+    `<option value="${k}">${v.name} — ${v.limit.toLocaleString()}</option>`
+  ).join('');
+  
+  function T() { return CFG.targets[el.target.value]; }
+  
+  function bLen(t) {
+    let n = 0, i = 0;
+    while (i < t.length) {
+      const c = t.charCodeAt(i);
+      const w = c < 0x80 ? 1 : (c < 0x800 ? 2 : ((c >= 0xD800 && c <= 0xDBFF) ? 4 : 3));
+      n += w; i += (w === 4) ? 2 : 1;
+    }
+    return n;
+  }
+  function meas(t) { return T().unit === 'bytes' ? bLen(t) : t.length; }
+  function endAt(text, pos, budget) {
+    if (T().unit !== 'bytes') return Math.min(pos + budget, text.length);
+    let n = 0, i = pos;
+    while (i < text.length) {
+      const c = text.charCodeAt(i);
+      const w = c < 0x80 ? 1 : (c < 0x800 ? 2 : ((c >= 0xD800 && c <= 0xDBFF) ? 4 : 3));
+      if (n + w > budget) break;
+      n += w; i += (w === 4) ? 2 : 1;
+    }
+    return i;
+  }
+  
+  function hdrOverhead() {
+    const nm = (el.deployName.value.trim() || 'FILE') + '-SPLIT999';
+    return meas(CFG.hdr.replace(/\{NAME\}/g, nm).replace('{URL}', CFG.url)
+      .replace('{N}', '999').replace('{TOTAL}', '999')
+      .replace('{ANCHOR}', '99999').replace('{BODY}', ''));
+  }
+  function overhead() {
+    const m = el.mode.value;
+    if (m === 'deploy') return hdrOverhead();
+    if (m === 'part') return 12;
+    return 0;
+  }
+  function effLimit() { return Math.max(200, T().limit - overhead()); }
+  
+  function buildChunks(text, eff) {
+    const out = [], total = text.length;
+    let pos = 0, guard = 0;
+    const wb = parseInt(el.snap.value) || 0;
+    while (pos < total) {
+      if (++guard > 1000000) { toast('Splitter guard tripped', true); break; }
+      let end = endAt(text, pos, eff);
+      if (end < total && wb > 0) {
+        const nl = text.lastIndexOf('\n', end - 1);
+        if (nl > pos && (end - nl) <= wb) end = nl + 1;
+      }
+      if (end < total && end > pos) {
+        const cc = text.charCodeAt(end - 1);
+        if (cc >= 0xD800 && cc <= 0xDBFF) end--;
+      }
+      if (end <= pos) end = Math.min(pos + 2, total);
+      out.push(text.substring(pos, end));
+      pos = end;
+    }
+    return out;
+  }
+  
+  function makeOutputs(text) {
+    if (!text) return [];
+    const ch = buildChunks(text, effLimit()), n = ch.length, m = el.mode.value;
+    if (m === 'clean') return ch;
+    if (m === 'part') return ch.map((c, i) => `🎳 ${i+1}/${n}\n${c}`);
+    const base = el.deployName.value.trim() || 'FILE';
+    const anc = Math.floor(10000 + Math.random() * 90000);
+    return ch.map((c, i) => {
+      const nm = base + '-SPLIT' + (i + 1);
+      return CFG.hdr.replace(/\{NAME\}/g, nm).replace('{URL}', CFG.url)
+        .replace('{N}', String(i+1)).replace('{TOTAL}', String(n))
+        .replace('{ANCHOR}', String(anc)).replace('{BODY}', () => c);
+    });
+  }
+  
+  function words(t) { const m = t.match(/\S+/g); return m ? m.length : 0; }
+  function dens(t) { const l = t.split('\n'); return l.length < 2 ? 0 : Math.round(t.length / l.length); }
+  
+  function paintInputStats() {
+    const t = el.input.value;
+    if (!t) { el.inputStats.innerHTML = ''; return; }
+    el.inputStats.innerHTML = `
+      <div class="stat"><b>${t.length.toLocaleString()}</b> chars</div>
+      <div class="stat"><b>${words(t).toLocaleString()}</b> words</div>
+      <div class="stat"><b>${t.split('\n').length.toLocaleString()}</b> lines</div>
+      <div class="stat"><b>~${dens(t)}</b> ch/line</div>
+      <div class="stat"><b>${bLen(t).toLocaleString()}</b> bytes</div>
+    `;
+  }
+  
+  function paintTargetStats() {
+    const t = T();
+    el.targetStats.innerHTML = `
+      <div class="stat"><b>${t.limit.toLocaleString()}</b> ${t.unit === 'bytes' ? 'bytes' : 'chars'} limit</div>
+      <div class="stat">measured <b>${t.on}</b></div>
+      <div class="stat" style="flex-basis:100%;margin-top:2px;color:var(--text-faint)">${t.note}</div>
+    `;
+  }
+  
+  function render(list) {
+    outs = list; idx = 0;
+    if (!list.length) {
+      el.chunksCard.style.display = 'none';
+      el.bar.style.display = 'none';
+      el.reassemble.className = 'badge ok';
+      el.reassemble.textContent = '✅ Lossless';
+      return;
+    }
+    el.chunksCard.style.display = 'block';
+    el.bar.style.display = 'flex';
+    
+    const raw = el.input.value;
+    const rawChunks = buildChunks(raw, effLimit());
+    const lossless = rawChunks.join('') === raw;
+    el.reassemble.className = lossless ? 'badge ok' : 'badge bad';
+    el.reassemble.textContent = lossless ? '✅ Lossless' : '❌ Data loss detected';
+    
+    const tot = list.reduce((a, b) => a + b.length, 0);
+    el.chunksTitle.textContent = `${list.length} chunks · ${tot.toLocaleString()} chars out`;
+    
+    const lim = T().limit;
+    el.timeline.innerHTML = list.map((o, i) => {
+      const m = meas(o);
+      const pct = Math.min(100, (m / lim) * 100);
+      const color = m > lim ? 'var(--bad)' : (m > lim * 0.9 ? 'var(--accent)' : 'var(--good)');
+      return `
+        <div class="t-chunk ${i === 0 ? 'active' : ''}" data-i="${i}" onclick="selectChunk(${i})">
+          <div class="t-num">${i+1}</div>
+          <div class="t-size">${m >= 1000 ? (m/1000).toFixed(1)+'k' : m}</div>
+          <div class="t-bar"><div style="width:${pct}%;background:${color}"></div></div>
+        </div>
+      `;
+    }).join('');
+    
+    updateEditor();
+    updateBar();
+  }
+  
+  function updateEditor() {
+    if (!outs.length) return;
+    const o = outs[idx];
+    el.edNum.textContent = idx + 1;
+    el.edTotal.textContent = outs.length;
+    el.edSize.textContent = meas(o).toLocaleString();
+    el.edUnit.textContent = T().unit === 'bytes' ? 'bytes' : 'chars';
+    el.edText.value = o;
+    el.editor.style.display = el.showEditor.checked ? 'block' : 'none';
+    
+    document.querySelectorAll('.t-chunk').forEach((c, i) => {
+      c.classList.toggle('active', i === idx);
+      c.classList.toggle('done', i < idx);
+    });
+    
+    const prog = outs.length ? ((idx + (idx >= outs.length ? 1 : 0)) / outs.length) * 100 : 0;
+    el.prog.style.width = prog + '%';
+    el.prog.classList.toggle('done', idx >= outs.length);
+  }
+  
+  function updateBar() {
+    if (!outs.length) return;
+    const n = outs.length;
+    el.barPrev.disabled = idx <= 0;
+    el.barNext.disabled = idx >= n - 1;
+    if (idx >= n) {
+      el.barMain.innerHTML = '✅ All copied — Reset';
+      el.barMain.className = 'btn btn-good';
+    } else {
+      el.barMain.innerHTML = `📋 Copy ${idx+1} / ${n}`;
+      el.barMain.className = 'btn btn-primary';
+    }
+  }
+  
+  window.selectChunk = function(i) {
+    if (i < 0 || i >= outs.length) return;
+    idx = i;
+    updateEditor();
+    updateBar();
+  };
+  window.prevChunk = function() { selectChunk(idx - 1); };
+  window.nextChunk = function() { selectChunk(idx + 1); };
+  
+  function fallbackCopy(t) {
+    const ta = document.createElement('textarea');
+    ta.value = t; ta.style.cssText = 'position:fixed;left:-9999px;top:0';
+    document.body.appendChild(ta); ta.focus(); ta.select();
+    let ok = false;
+    try { ok = document.execCommand('copy'); } catch(e) {}
+    document.body.removeChild(ta);
+    return ok;
+  }
+  function copyText(t, ok, fail) {
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(t).then(() => ok && ok()).catch(() => {
+        if (fallbackCopy(t)) { ok && ok(); } else { fail && fail(); }
+      });
+    } else {
+      if (fallbackCopy(t)) { ok && ok(); } else { fail && fail(); }
+    }
+  }
+  function toast(msg, bad) {
+    el.toast.textContent = msg;
+    el.toast.className = 'toast-v2 show' + (bad ? ' bad' : ' good');
+    clearTimeout(el.toast._t);
+    el.toast._t = setTimeout(() => el.toast.classList.remove('show'), 2000);
+  }
+  
+  window.copyCurrent = function() {
+    if (!outs.length) return;
+    copyText(outs[idx], () => {
+      toast(`✅ Chunk ${idx+1} copied`);
+    }, () => toast('Copy blocked', true));
+  };
+  
+  window.copyNext = function() {
+    if (!outs.length) {
+      if (el.input.value) { sync(true); setTimeout(copyNext, 50); }
+      return;
+    }
+    if (idx >= outs.length) { idx = 0; updateEditor(); updateBar(); return; }
+    copyText(outs[idx], () => {
+      idx++;
+      toast(`✅ ${idx}/${outs.length} copied`);
+      updateEditor();
+      updateBar();
+    }, () => toast('Copy blocked — select manually', true));
+  };
+  
+  window.copyAll = function() {
+    if (!outs.length) return;
+    const all = outs.join('\n\n---\n\n');
+    copyText(all, () => toast(`✅ All ${outs.length} chunks copied`), () => toast('Copy blocked', true));
+  };
+  
+  function sync(force) {
+    const v = el.input.value;
+    if (!force && v === lastVal) return;
+    lastVal = v;
+    clearTimeout(tmr);
+    tmr = setTimeout(() => {
+      paintInputStats();
+      const t = el.input.value;
+      if (!t) { render([]); return; }
+      if (t.length > AUTO_MAX) {
+        toast('Text too large for live preview — tap refresh', true);
+        return;
+      }
+      render(makeOutputs(t));
+    }, 150);
+  }
+  
+  el.input.addEventListener('input', () => sync());
+  el.input.addEventListener('paste', () => {
+    setTimeout(() => {
+      sync(true);
+      if (el.autoCopy.checked && outs.length) {
+        copyText(outs[0], () => {
+          idx = 1;
+          toast(`✅ 1/${outs.length} auto-copied`);
+          updateEditor(); updateBar();
+        });
+      }
+    }, 0);
+  });
+  
+  el.target.addEventListener('change', () => {
+    paintTargetStats();
+    el.genSize.value = T().limit;
+    sync(true);
+  });
+  el.mode.addEventListener('change', () => {
+    el.deployGroup.style.display = el.mode.value === 'deploy' ? 'flex' : 'none';
+    sync(true);
+  });
+  el.snap.addEventListener('change', () => sync(true));
+  el.deployName.addEventListener('input', () => sync(true));
+  el.showEditor.addEventListener('change', () => updateEditor());
+  
+  window.pasteText = function() {
+    if (!navigator.clipboard?.readText) {
+      toast('Long-press the box → Paste', true);
+      el.input.focus();
+      return;
+    }
+    navigator.clipboard.readText().then(t => {
+      if (!t) { toast('Clipboard empty', true); return; }
+      el.input.value = t;
+      sync(true);
+      if (el.autoCopy.checked && outs.length) {
+        copyText(outs[0], () => {
+          idx = 1;
+          toast(`✅ 1/${outs.length} copied`);
+          updateEditor(); updateBar();
+        });
+      }
+    }).catch(() => toast('Blocked — paste manually', true));
+  };
+  
+  window.clearInput = function() {
+    el.input.value = '';
+    sync(true);
+  };
+  
+  window.clearChunks = function() {
+    render([]);
+    el.input.value = '';
+    sync(true);
+  };
+  
+  window.generateTest = function() {
+    const size = parseInt(el.genSize.value);
+    if (!size || size < 20) { el.genStats.innerHTML = '<div class="stat bad"><b>Set a valid size</b></div>'; return; }
+    const ld = parseInt(el.genDens.value) || 0;
+    const epct = parseInt(el.genEmoji.value) || 0;
+    const ep = epct / 100;
+    const anc = Math.floor(10000 + Math.random() * 90000);
+    let c = `TEST ${size} ANCHOR ${anc}\n`;
+    const em = ['🎳','🫧','💎','🧩','🪜','🔮','🔥','🌱','✨','🧪','📋','📏','🎯','⭐'];
+    let ei = 0, ln = 1;
+    
+    while (c.length < size - 25) {
+      if (ep > 0 && Math.random() < ep) { c += em[ei++ % em.length]; }
+      else if (ld === 0) { c += 'X'; }
+      else {
+        const pre = `L${ln} ${c.length} `;
+        const fil = 'The quick brown fox jumps over the lazy dog. Pattern across substrates. ';
+        const mx = pre.length + ld;
+        let line = pre, cc = pre.length;
+        for (let k = 0; k < fil.length && cc < mx; k++) { line += fil.charAt(k); cc++; }
+        if (c.length + line.length + 25 > size) break;
+        c += line + '\n'; ln++;
+      }
+    }
+    while (c.length < size - 14) c += 'X';
+    c = c.substring(0, size);
+    const tail = `\nANCHOR ${anc}`;
+    const cut = size - tail.length;
+    if (cut > 0) c = c.substring(0, cut) + tail;
+    
+    const lines = c.split('\n').length;
+    el.genStats.innerHTML = `
+      <div class="stat ok"><b>${c.length.toLocaleString()}</b> chars</div>
+      <div class="stat"><b>${bLen(c).toLocaleString()}</b> bytes</div>
+      <div class="stat"><b>${lines}</b> lines</div>
+      <div class="stat">${epct > 0 ? epct + '% emoji' : 'plain ASCII'}</div>
+      ${c.length !== size ? `<div class="stat bad">off by ${c.length - size}</div>` : ''}
+    `;
+    el.input.value = c;
+    sync(true);
+    toast('🧪 Test text generated');
+  };
+  
+  paintTargetStats();
+  el.genSize.value = T().limit;
+  el.deployGroup.style.display = el.mode.value === 'deploy' ? 'flex' : 'none';
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SPITTER v0.1</title>
+<style>
+  :root {
+    --bg: #0d0d0d;
+    --panel: #141414;
+    --border: #2a2a2a;
+    --text: #e0e0e0;
+    --text-dim: #888;
+    --accent: #00ff88;
+    --accent-dim: #00aa55;
+    --accent-glow: rgba(0,255,136,0.15);
+    --danger: #ff4444;
+    --warn: #ffaa00;
+    --info: #4488ff;
+    --font: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font);
+    font-size: 13px;
+    line-height: 1.5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 720px;
+    border: 1px solid var(--border);
+    background: var(--panel);
+  }
+
+  .header {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header h1 {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--accent);
+    text-shadow: 0 0 10px var(--accent-glow);
+  }
+
+  .header .version {
+    font-size: 11px;
+    color: var(--text-dim);
+  }
+
+  .tabs {
+    display: flex;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .tab {
+    flex: 1;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    color: var(--text-dim);
+    font-family: var(--font);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.2s;
+    border-bottom: 2px solid transparent;
+  }
+
+  .tab:hover { color: var(--text); background: rgba(255,255,255,0.02); }
+  .tab.active { color: var(--accent); border-bottom-color: var(--accent); background: var(--accent-glow); }
+
+  .panel { display: none; padding: 20px; }
+  .panel.active { display: block; }
+
+  .config-row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .config-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  label {
+    color: var(--text-dim);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  select, input[type="number"], input[type="text"] {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 6px 10px;
+    font-family: var(--font);
+    font-size: 12px;
+    outline: none;
+  }
+
+  select:focus, input:focus { border-color: var(--accent); }
+
+  input[type="number"] { width: 80px; }
+
+  textarea {
+    width: 100%;
+    min-height: 180px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 12px;
+    font-family: var(--font);
+    font-size: 12px;
+    line-height: 1.6;
+    resize: vertical;
+    outline: none;
+  }
+
+  textarea:focus { border-color: var(--accent); }
+
+  .btn {
+    padding: 10px 20px;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font);
+    font-size: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.2s;
+  }
+
+  .btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  .btn.primary {
+    background: var(--accent);
+    color: var(--bg);
+    border-color: var(--accent);
+    font-weight: 600;
+  }
+
+  .btn.primary:hover { background: var(--accent-dim); border-color: var(--accent-dim); }
+
+  .btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+  .chunk-info {
+    margin: 16px 0;
+    padding: 12px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .chunk-label {
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  .chunk-meta { color: var(--text-dim); font-size: 11px; }
+
+  .status {
+    margin-top: 12px;
+    padding: 10px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .status.ready { color: var(--accent); }
+  .status.waiting { color: var(--warn); }
+  .status.done { color: var(--info); }
+  .status.error { color: var(--danger); }
+
+  .progress-bar {
+    width: 100%;
+    height: 4px;
+    background: var(--bg);
+    margin: 12px 0;
+    position: relative;
+  }
+
+  .progress-fill {
+    height: 100%;
+    background: var(--accent);
+    transition: width 0.3s;
+    box-shadow: 0 0 8px var(--accent-glow);
+  }
+
+  .log-panel {
+    margin-top: 20px;
+    border-top: 1px solid var(--border);
+    padding-top: 16px;
+  }
+
+  .log-title {
+    font-size: 11px;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+
+  .log-entry {
+    padding: 6px 0;
+    font-size: 11px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .log-entry:last-child { border-bottom: none; }
+
+  .log-name { color: var(--text); }
+  .log-value { color: var(--accent); }
+  .log-value.fail { color: var(--danger); }
+
+  .probe-controls {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+
+  .probe-result {
+    padding: 12px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .probe-result.inline { border-left: 3px solid var(--accent); }
+  .probe-result.parse { border-left: 3px solid var(--warn); }
+  .probe-result.block { border-left: 3px solid var(--danger); }
+
+  .hidden { display: none !important; }
+
+  .output-box {
+    margin-top: 16px;
+    padding: 12px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    max-height: 300px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
+    font-size: 11px;
+    line-height: 1.5;
+  }
+
+  .btn-row {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+  }
+
+  .stats {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 12px;
+    font-size: 11px;
+    color: var(--text-dim);
+  }
+
+  .stats span { color: var(--text); }
+
+  @media (max-width: 600px) {
+    body { padding: 10px; }
+    .config-row { flex-direction: column; align-items: stretch; }
+    .config-group { justify-content: space-between; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <h1>SPITTER v0.1</h1>
+    <span class="version">Pattern Pro&trade;</span>
+  </div>
+
+  <div class="tabs">
+    <button class="tab active" data-tab="send">Send</button>
+    <button class="tab" data-tab="receive">Receive</button>
+    <button class="tab" data-tab="probe">Probe</button>
+  </div>
+
+  <!-- SEND MODE -->
+  <div class="panel active" id="panel-send">
+    <div class="config-row">
+      <div class="config-group">
+        <label>Substrate</label>
+        <select id="send-substrate">
+          <option value="kimi">Kimi mobile</option>
+          <option value="claude">Claude</option>
+          <option value="deepseek">DeepSeek</option>
+          <option value="custom">Custom</option>
+        </select>
+      </div>
+      <div class="config-group">
+        <label>Limit</label>
+        <input type="number" id="send-limit" value="4008" min="1">
+      </div>
+      <div class="config-group">
+        <label>Overlap</label>
+        <select id="send-overlap">
+          <option value="sentence">Sentence</option>
+          <option value="chars">Chars</option>
+          <option value="none">None</option>
+        </select>
+      </div>
+      <div class="config-group hidden" id="send-overlap-chars-group">
+        <label>Overlap chars</label>
+        <input type="number" id="send-overlap-size" value="50" min="0">
+      </div>
+    </div>
+
+    <textarea id="send-input" placeholder="Paste long text here..."></textarea>
+
+    <div class="btn-row">
+      <button class="btn primary" id="send-chunk-btn">Chunk It</button>
+      <button class="btn" id="send-clear-btn">Clear</button>
+    </div>
+
+    <div class="progress-bar hidden" id="send-progress">
+      <div class="progress-fill" id="send-progress-fill" style="width:0%"></div>
+    </div>
+
+    <div class="chunk-info hidden" id="send-chunk-info">
+      <span class="chunk-label" id="send-chunk-label">[1/1] Chunk 1/1</span>
+      <span class="chunk-meta" id="send-chunk-meta">0 chars</span>
+    </div>
+
+    <div class="btn-row hidden" id="send-actions">
+      <button class="btn primary" id="send-copy-btn">Copy Chunk</button>
+      <button class="btn" id="send-next-btn" disabled>Next &rarr;</button>
+    </div>
+
+    <div class="status ready" id="send-status">Ready</div>
+  </div>
+
+  <!-- RECEIVE MODE -->
+  <div class="panel" id="panel-receive">
+    <div class="config-row">
+      <div class="config-group">
+        <label>Part regex</label>
+        <input type="text" id="recv-regex" value="\\[(\\d+)/(\\d+)\\]" style="width:140px">
+      </div>
+      <div class="config-group">
+        <label>Auto-sort</label>
+        <select id="recv-sort">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+    </div>
+
+    <textarea id="recv-input" placeholder="Paste received chunks here (with [1/7] markers)..."></textarea>
+
+    <div class="btn-row">
+      <button class="btn primary" id="recv-stitch-btn">Stitch</button>
+      <button class="btn" id="recv-clear-btn">Clear</button>
+    </div>
+
+    <div class="stats hidden" id="recv-stats">
+      <div>Detected: <span id="recv-detected">0</span> parts</div>
+      <div>Total: <span id="recv-total">0</span> chars</div>
+    </div>
+
+    <div class="output-box hidden" id="recv-output"></div>
+
+    <div class="btn-row hidden" id="recv-actions">
+      <button class="btn primary" id="recv-copy-btn">Copy Reconstructed</button>
+    </div>
+
+    <div class="status ready" id="recv-status">Ready</div>
+  </div>
+
+  <!-- PROBE MODE -->
+  <div class="panel" id="panel-probe">
+    <div class="probe-controls">
+      <button class="btn" id="probe-generate-btn">Generate Test String</button>
+      <div class="config-group">
+        <label>Length</label>
+        <input type="number" id="probe-length" value="4008" min="1">
+      </div>
+      <button class="btn primary" id="probe-log-btn">Log Result</button>
+    </div>
+
+    <div class="config-row">
+      <div class="config-group">
+        <label>Platform</label>
+        <select id="probe-platform">
+          <option value="kimi">Kimi mobile</option>
+          <option value="claude">Claude</option>
+          <option value="deepseek">DeepSeek</option>
+          <option value="custom">Custom</option>
+        </select>
+      </div>
+      <div class="config-group">
+        <label>Result</label>
+        <select id="probe-result">
+          <option value="inline">Inline</option>
+          <option value="parse">Parse-frame</option>
+          <option value="block">Block-frame</option>
+        </select>
+      </div>
+      <div class="config-group">
+        <label>Actual chars</label>
+        <input type="number" id="probe-actual" value="4008" min="1">
+      </div>
+    </div>
+
+    <textarea id="probe-input" placeholder="Test string appears here... paste into target platform and observe result."></textarea>
+
+    <div class="log-panel">
+      <div class="log-title">Probe Log</div>
+      <div id="probe-log"></div>
+    </div>
+
+    <div class="btn-row">
+      <button class="btn" id="probe-clear-btn">Clear Log</button>
+      <button class="btn" id="probe-export-btn">Export Log</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ===================== STATE =====================
+const SUBSTRATES = {
+  kimi: { name: 'Kimi mobile', limit: 4008, mode: 'parse' },
+  claude: { name: 'Claude', limit: 4095, mode: 'parse' },
+  deepseek: { name: 'DeepSeek', limit: 163840, mode: 'block' }
+};
+
+let sendChunks = [];
+let sendIndex = 0;
+let probeLog = [];
+
+// ===================== UTILS =====================
+function $(id) { return document.getElementById(id); }
+function save(key, val) { localStorage.setItem('spitter_' + key, JSON.stringify(val)); }
+function load(key, def) { try { return JSON.parse(localStorage.getItem('spitter_' + key)) ?? def; } catch { return def; } }
+
+function copyText(text) {
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    return navigator.clipboard.writeText(text);
+  }
+  const ta = document.createElement('textarea');
+  ta.value = text;
+  document.body.appendChild(ta);
+  ta.select();
+  document.execCommand('copy');
+  document.body.removeChild(ta);
+  return Promise.resolve();
+}
+
+function setStatus(id, msg, cls) {
+  const el = $(id);
+  el.textContent = msg;
+  el.className = 'status ' + (cls || 'ready');
+}
+
+// ===================== TABS =====================
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+    tab.classList.add('active');
+    $('panel-' + tab.dataset.tab).classList.add('active');
+  });
+});
+
+// ===================== SEND MODE =====================
+const sendSubstrate = $('send-substrate');
+const sendLimit = $('send-limit');
+const sendOverlap = $('send-overlap');
+const sendOverlapCharsGroup = $('send-overlap-chars-group');
+const sendOverlapSize = $('send-overlap-size');
+const sendInput = $('send-input');
+const sendChunkBtn = $('send-chunk-btn');
+const sendClearBtn = $('send-clear-btn');
+const sendProgress = $('send-progress');
+const sendProgressFill = $('send-progress-fill');
+const sendChunkInfo = $('send-chunk-info');
+const sendChunkLabel = $('send-chunk-label');
+const sendChunkMeta = $('send-chunk-meta');
+const sendActions = $('send-actions');
+const sendCopyBtn = $('send-copy-btn');
+const sendNextBtn = $('send-next-btn');
+const sendStatus = $('send-status');
+
+function updateSendSubstrate() {
+  const key = sendSubstrate.value;
+  if (key === 'custom') return;
+  const sub = SUBSTRATES[key];
+  if (sub) sendLimit.value = sub.limit;
+}
+
+sendSubstrate.addEventListener('change', updateSendSubstrate);
+
+sendOverlap.addEventListener('change', () => {
+  sendOverlapCharsGroup.classList.toggle('hidden', sendOverlap.value !== 'chars');
+});
+
+function chunkText(text, limit, overlapMode, overlapSize) {
+  const chunks = [];
+  let pos = 0;
+  const totalLen = text.length;
+
+  while (pos < totalLen) {
+    let end = Math.min(pos + limit, totalLen);
+    let chunk = text.slice(pos, end);
+
+    if (overlapMode === 'sentence' && end < totalLen) {
+      const lastPeriod = Math.max(chunk.lastIndexOf('.'), chunk.lastIndexOf('!'), chunk.lastIndexOf('?'));
+      if (lastPeriod > 0) {
+        end = pos + lastPeriod + 1;
+        chunk = text.slice(pos, end);
+      }
+    }
+
+    const partNum = chunks.length + 1;
+    const totalParts = Math.ceil(totalLen / limit) + 1;
+    const prefix = `[${partNum}/${totalParts}] `;
+    const finalChunk = prefix + chunk;
+
+    chunks.push({
+      text: finalChunk,
+      raw: chunk,
+      part: partNum,
+      total: totalParts,
+      chars: finalChunk.length
+    });
+
+    if (end >= totalLen) break;
+
+    if (overlapMode === 'sentence') {
+      const lastSentenceMatch = chunk.match(/[^.!?]+[.!?]+\s*$/);
+      if (lastSentenceMatch) {
+        const overlap = lastSentenceMatch[0].trim();
+        pos = end - overlap.length;
+        if (pos <= end - 1) pos = end;
+      } else {
+        pos = end;
+      }
+    } else if (overlapMode === 'chars') {
+      pos = end - overlapSize;
+      if (pos < end - overlapSize || pos >= end) pos = end;
+    } else {
+      pos = end;
+    }
+
+    if (pos >= totalLen) break;
+  }
+
+  // Recalculate totals now that we know actual count
+  const actualTotal = chunks.length;
+  chunks.forEach((c, i) => {
+    c.total = actualTotal;
+    c.text = `[${i + 1}/${actualTotal}] ` + c.raw;
+  });
+
+  return chunks;
+}
+
+sendChunkBtn.addEventListener('click', () => {
+  const text = sendInput.value;
+  if (!text.trim()) {
+    setStatus('send-status', 'No text to chunk', 'error');
+    return;
+  }
+
+  const limit = parseInt(sendLimit.value) || 4008;
+  const overlapMode = sendOverlap.value;
+  const overlapSize = parseInt(sendOverlapSize.value) || 50;
+
+  sendChunks = chunkText(text, limit, overlapMode, overlapSize);
+  sendIndex = 0;
+
+  if (sendChunks.length === 0) {
+    setStatus('send-status', 'Chunking failed', 'error');
+    return;
+  }
+
+  sendProgress.classList.remove('hidden');
+  sendChunkInfo.classList.remove('hidden');
+  sendActions.classList.remove('hidden');
+
+  updateSendDisplay();
+  setStatus('send-status', `${sendChunks.length} chunks ready — copy and paste into chat`, 'ready');
+
+  save('last_substrate', sendSubstrate.value);
+  save('last_limit', sendLimit.value);
+});
+
+function updateSendDisplay() {
+  const chunk = sendChunks[sendIndex];
+  sendChunkLabel.textContent = `[${chunk.part}/${chunk.total}] Chunk ${chunk.part}/${chunk.total}`;
+  sendChunkMeta.textContent = `${chunk.chars} chars`;
+  sendProgressFill.style.width = ((sendIndex + 1) / sendChunks.length * 100) + '%';
+  sendNextBtn.disabled = sendIndex >= sendChunks.length - 1;
+  sendNextBtn.textContent = sendIndex >= sendChunks.length - 1 ? 'Done' : 'Next \u2192';
+}
+
+sendCopyBtn.addEventListener('click', () => {
+  if (!sendChunks[sendIndex]) return;
+  copyText(sendChunks[sendIndex].text).then(() => {
+    setStatus('send-status', `Chunk ${sendIndex + 1}/${sendChunks.length} copied — paste into chat app`, 'waiting');
+    sendCopyBtn.textContent = 'Copied!';
+    setTimeout(() => { sendCopyBtn.textContent = 'Copy Chunk'; }, 1500);
+  });
+});
+
+sendNextBtn.addEventListener('click', () => {
+  if (sendIndex < sendChunks.length - 1) {
+    sendIndex++;
+    updateSendDisplay();
+    setStatus('send-status', `Chunk ${sendIndex + 1}/${sendChunks.length} ready — click Copy`, 'ready');
+  }
+});
+
+sendClearBtn.addEventListener('click', () => {
+  sendInput.value = '';
+  sendChunks = [];
+  sendIndex = 0;
+  sendProgress.classList.add('hidden');
+  sendChunkInfo.classList.add('hidden');
+  sendActions.classList.add('hidden');
+  setStatus('send-status', 'Ready', 'ready');
+});
+
+// ===================== RECEIVE MODE =====================
+const recvRegex = $('recv-regex');
+const recvSort = $('recv-sort');
+const recvInput = $('recv-input');
+const recvStitchBtn = $('recv-stitch-btn');
+const recvClearBtn = $('recv-clear-btn');
+const recvStats = $('recv-stats');
+const recvDetected = $('recv-detected');
+const recvTotal = $('recv-total');
+const recvOutput = $('recv-output');
+const recvActions = $('recv-actions');
+const recvCopyBtn = $('recv-copy-btn');
+const recvStatus = $('recv-status');
+
+recvStitchBtn.addEventListener('click', () => {
+  const text = recvInput.value;
+  if (!text.trim()) {
+    setStatus('recv-status', 'No chunks to stitch', 'error');
+    return;
+  }
+
+  let regex;
+  try {
+    regex = new RegExp(recvRegex.value, 'g');
+  } catch (e) {
+    setStatus('recv-status', 'Invalid regex: ' + e.message, 'error');
+    return;
+  }
+
+  // Find all part markers and split
+  const parts = [];
+  let match;
+  const markers = [];
+  while ((match = regex.exec(text)) !== null) {
+    markers.push({ index: match.index, part: parseInt(match[1]), total: parseInt(match[2]), full: match[0] });
+  }
+
+  if (markers.length === 0) {
+    setStatus('recv-status', 'No part markers found — check regex', 'error');
+    return;
+  }
+
+  // Extract chunks between markers
+  for (let i = 0; i < markers.length; i++) {
+    const start = markers[i].index + markers[i].full.length;
+    const end = i < markers.length - 1 ? markers[i + 1].index : text.length;
+    let chunkText = text.slice(start, end).trim();
+    parts.push({
+      part: markers[i].part,
+      total: markers[i].total,
+      text: chunkText
+    });
+  }
+
+  // De-duplicate overlap (exact match at boundaries)
+  if (recvSort.value === 'yes') {
+    parts.sort((a, b) => a.part - b.part);
+  }
+
+  let stitched = '';
+  for (let i = 0; i < parts.length; i++) {
+    let chunk = parts[i].text;
+    if (i > 0 && stitched.endsWith(chunk.slice(0, Math.min(chunk.length, 100)))) {
+      // Overlap detected, trim
+      for (let j = Math.min(chunk.length, 200); j > 0; j--) {
+        if (stitched.endsWith(chunk.slice(0, j))) {
+          chunk = chunk.slice(j);
+          break;
+        }
+      }
+    }
+    stitched += chunk + (i < parts.length - 1 ? ' ' : '');
+  }
+
+  recvDetected.textContent = parts.length;
+  recvTotal.textContent = stitched.length;
+  recvStats.classList.remove('hidden');
+  recvOutput.textContent = stitched;
+  recvOutput.classList.remove('hidden');
+  recvActions.classList.remove('hidden');
+
+  setStatus('recv-status', `Stitched ${parts.length} parts into ${stitched.length} chars`, 'done');
+});
+
+recvCopyBtn.addEventListener('click', () => {
+  copyText(recvOutput.textContent).then(() => {
+    setStatus('recv-status', 'Reconstructed text copied', 'done');
+    recvCopyBtn.textContent = 'Copied!';
+    setTimeout(() => { recvCopyBtn.textContent = 'Copy Reconstructed'; }, 1500);
+  });
+});
+
+recvClearBtn.addEventListener('click', () => {
+  recvInput.value = '';
+  recvStats.classList.add('hidden');
+  recvOutput.classList.add('hidden');
+  recvActions.classList.add('hidden');
+  setStatus('recv-status', 'Ready', 'ready');
+});
+
+// ===================== PROBE MODE =====================
+const probeGenerateBtn = $('probe-generate-btn');
+const probeLength = $('probe-length');
+const probeLogBtn = $('probe-log-btn');
+const probePlatform = $('probe-platform');
+const probeResult = $('probe-result');
+const probeActual = $('probe-actual');
+const probeInput = $('probe-input');
+const probeLogEl = $('probe-log');
+const probeClearBtn = $('probe-clear-btn');
+const probeExportBtn = $('probe-export-btn');
+
+function generateTestString(length) {
+  const words = ['alpha','bravo','charlie','delta','echo','foxtrot','golf','hotel','india','juliet','kilo','lima','mike','november','oscar','papa','quebec','romeo','sierra','tango','uniform','victor','whiskey','xray','yankee','zulu'];
+  let str = '';
+  while (str.length < length) {
+    str += words[Math.floor(Math.random() * words.length)] + ' ';
+  }
+  return str.slice(0, length);
+}
+
+function renderProbeLog() {
+  probeLogEl.innerHTML = '';
+  if (probeLog.length === 0) {
+    probeLogEl.innerHTML = '<div class="log-entry"><span class="log-name">No entries yet</span></div>';
+    return;
+  }
+  probeLog.forEach(entry => {
+    const div = document.createElement('div');
+    div.className = 'log-entry';
+    const cls = entry.result === 'inline' ? '' : (entry.result === 'parse' ? 'warn' : 'fail');
+    div.innerHTML = `<span class="log-name">${entry.platform}: ${entry.actual} chars \u2014 ${entry.result}</span><span class="log-value ${cls}">${entry.timestamp}</span>`;
+    probeLogEl.appendChild(div);
+  });
+}
+
+probeGenerateBtn.addEventListener('click', () => {
+  const len = parseInt(probeLength.value) || 4008;
+  probeInput.value = generateTestString(len);
+  probeActual.value = len;
+  setStatus('send-status', 'Test string generated', 'ready'); // reusing status style
+});
+
+probeLogBtn.addEventListener('click', () => {
+  const platform = probePlatform.options[probePlatform.selectedIndex].text;
+  const result = probeResult.value;
+  const actual = parseInt(probeActual.value) || 0;
+  const entry = {
+    platform,
+    result,
+    actual,
+    timestamp: new Date().toLocaleString()
+  };
+  probeLog.unshift(entry);
+  save('probe_log', probeLog);
+  renderProbeLog();
+
+  // Auto-adjust limit if inline found
+  if (result === 'inline') {
+    const key = probePlatform.value;
+    if (key !== 'custom' && SUBSTRATES[key]) {
+      SUBSTRATES[key].limit = actual;
+      if (sendSubstrate.value === key) {
+        sendLimit.value = actual;
+      }
+    }
+  }
+});
+
+probeClearBtn.addEventListener('click', () => {
+  probeLog = [];
+  save('probe_log', probeLog);
+  renderProbeLog();
+});
+
+probeExportBtn.addEventListener('click', () => {
+  const data = JSON.stringify(probeLog, null, 2);
+  const blob = new Blob([data], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'spitter-probe-log.json';
+  a.click();
+  URL.revokeObjectURL(url);
+});
+
+// ===================== INIT =====================
+(function init() {
+  const lastSubstrate = load('last_substrate', 'kimi');
+  const lastLimit = load('last_limit', 4008);
+  sendSubstrate.value = lastSubstrate;
+  sendLimit.value = lastLimit;
+
+  probeLog = load('probe_log', []);
+  renderProbeLog();
+
+  // Pre-fill probe log with known substrates
+  if (probeLog.length === 0) {
+    Object.entries(SUBSTRATES).forEach(([key, sub]) => {
+      probeLog.push({
+        platform: sub.name,
+        result: sub.mode,
+        actual: sub.limit,
+        timestamp: 'Built-in'
+      });
+    });
+    save('probe_log', probeLog);
+    renderProbeLog();
+  }
+})();
+</script>
+
+</body>
+</html>

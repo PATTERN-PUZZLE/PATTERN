@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎳 File Fragmentor</title>
+    <style>
+        /* === RESET & BASE === */
+        * { box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body {
+            background: #020208;
+            background-image:
+                radial-gradient(ellipse at 20% 80%, rgba(100, 60, 160, 0.08) 0%, transparent 60%),
+                radial-gradient(ellipse at 80% 20%, rgba(40, 80, 180, 0.06) 0%, transparent 60%),
+                radial-gradient(ellipse at 50% 50%, rgba(20, 20, 60, 0.3) 0%, transparent 100%);
+            color: #f0f0f0; margin: 0; padding: 12px;
+            max-width: 600px; margin: auto;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* === LIVING STARFIELD — Layer 1 (slow) === */
+        body::before {
+            content: '';
+            position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+            pointer-events: none; z-index: 0;
+            background-image:
+                radial-gradient(0.5px 0.5px at 5% 10%, rgba(255,255,255,0.7), transparent),
+                radial-gradient(0.5px 0.5px at 12% 25%, rgba(255,255,255,0.5), transparent),
+                radial-gradient(0.5px 0.5px at 18% 40%, rgba(255,255,255,0.6), transparent),
+                radial-gradient(0.5px 0.5px at 22% 55%, rgba(255,255,255,0.4), transparent),
+                radial-gradient(0.5px 0.5px at 28% 70%, rgba(255,255,255,0.7), transparent),
+                radial-gradient(0.5px 0.5px at 35% 15%, rgba(255,255,255,0.5), transparent),
+                radial-gradient(0.5px 0.5px at 42% 30%, rgba(255,255,255,0.6), transparent),
+                radial-gradient(0.5px 0.5px at 48% 50%, rgba(255,255,255,0.4), transparent),
+                radial-gradient(0.5px 0.5px at 55% 65%, rgba(255,255,255,0.7), transparent),
+                radial-gradient(0.5px 0.5px at 62% 20%, rgba(255,255,255,0.5), transparent),
+                radial-gradient(0.5px 0.5px at 68% 35%, rgba(255,255,255,0.6), transparent),
+                radial-gradient(0.5px 0.5px at 75% 45%, rgba(255,255,255,0.4), transparent),
+                radial-gradient(0.5px 0.5px at 82% 60%, rgba(255,255,255,0.7), transparent),
+                radial-gradient(0.5px 0.5px at 88% 18%, rgba(255,255,255,0.5), transparent),
+                radial-gradient(0.5px 0.5px at 92% 75%, rgba(255,255,255,0.6), transparent),
+                radial-gradient(0.8px 0.8px at 8% 22%, rgba(200,210,255,0.7), transparent),
+                radial-gradient(0.8px 0.8px at 32% 62%, rgba(200,210,255,0.6), transparent),
+                radial-gradient(0.8px 0.8px at 58% 12%, rgba(200,210,255,0.7), transparent),
+                radial-gradient(0.8px 0.8px at 72% 78%, rgba(200,210,255,0.5), transparent),
+                radial-gradient(1.2px 1.2px at 22% 18%, rgba(255,230,200,0.8), transparent),
+                radial-gradient(1.2px 1.2px at 65% 72%, rgba(255,220,180,0.7), transparent),
+                radial-gradient(1.2px 1.2px at 88% 42%, rgba(255,240,210,0.8), transparent),
+                radial-gradient(1.8px 1.8px at 78% 15%, rgba(255,250,240,0.9), transparent);
+            animation: drift-slow 180s linear infinite;
+        }
+
+        /* === LIVING STARFIELD — Layer 2 (medium, reverse) === */
+        body::after {
+            content: '';
+            position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+            pointer-events: none; z-index: 0;
+            background-image:
+                radial-gradient(0.4px 0.4px at 3% 30%, rgba(255,255,255,0.5), transparent),
+                radial-gradient(0.4px 0.4px at 14% 55%, rgba(255,255,255,0.6), transparent),
+                radial-gradient(0.4px 0.4px at 27% 12%, rgba(255,255,255,0.4), transparent),
+                radial-gradient(0.4px 0.4px at 38% 68%, rgba(255,255,255,0.5), transparent),
+                radial-gradient(0.4px 0.4px at 44% 8%, rgba(255,255,255,0.6), transparent),
+                radial-gradient(0.4px 0.4px at 53% 42%, rgba(255,255,255,0.4), transparent),
+                radial-gradient(0.4px 0.4px at 67% 80%, rgba(255,255,255,0.5), transparent),
+                radial-gradient(0.4px 0.4px at 73% 22%, rgba(255,255,255,0.6), transparent),
+                radial-gradient(0.4px 0.4px at 81% 58%, rgba(255,255,255,0.4), transparent),
+                radial-gradient(0.4px 0.4px at 94% 32%, rgba(255,255,255,0.5), transparent),
+                radial-gradient(0.6px 0.6px at 18% 38%, rgba(180,200,255,0.6), transparent),
+                radial-gradient(0.6px 0.6px at 58% 52%, rgba(180,200,255,0.5), transparent),
+                radial-gradient(0.6px 0.6px at 88% 72%, rgba(180,200,255,0.6), transparent);
+            animation: drift-medium 120s linear infinite reverse;
+        }
+
+        @keyframes drift-slow {
+            0% { transform: translate(0, 0); }
+            25% { transform: translate(-15px, -8px); }
+            50% { transform: translate(-8px, -20px); }
+            75% { transform: translate(10px, -5px); }
+            100% { transform: translate(0, 0); }
+        }
+        @keyframes drift-medium {
+            0% { transform: translate(0, 0); }
+            33% { transform: translate(12px, 18px); }
+            66% { transform: translate(-8px, 10px); }
+            100% { transform: translate(0, 0); }
+        }
+
+        /* === LAYOUT === */
+        h1 {
+            color: #ffaa33; text-align: center; font-size: 1.4em; margin: 8px 0;
+            text-shadow: 0 0 20px rgba(255,170,51,0.3), 0 0 40px rgba(255,170,51,0.1);
+            position: relative; z-index: 1;
+        }
+        .panel {
+            background: rgba(15, 15, 30, 0.7);
+            border: 1px solid rgba(100, 140, 255, 0.2);
+            border-radius: 10px;
+            padding: 14px; margin-bottom: 12px;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.03), 0 0 30px rgba(40, 80, 180, 0.08);
+            backdrop-filter: blur(2px);
+            position: relative; z-index: 1;
+        }
+        textarea, input, select {
+            width: 100%; background: rgba(37, 37, 53, 0.8); color: #e0e0ff;
+            border: 1px solid rgba(68, 68, 85, 0.6); border-radius: 8px;
+            padding: 12px; font-size: 16px; margin-bottom: 10px;
+            -webkit-appearance: none;
+        }
+        textarea:focus, input:focus { outline: 2px solid #ffaa33; }
+
+        /* === BUTTONS === */
+        button {
+            background: linear-gradient(135deg, rgba(51, 170, 255, 0.8), rgba(34, 136, 255, 0.9));
+            color: white; border: 1px solid rgba(100, 140, 255, 0.3);
+            padding: 14px 20px; border-radius: 10px; font-weight: bold;
+            cursor: pointer; margin: 5px 3px; font-size: 16px; min-height: 48px;
+            transition: all 0.3s ease; position: relative; z-index: 1;
+        }
+        button:active {
+            transform: scale(0.96);
+            box-shadow: 0 0 20px rgba(100, 140, 255, 0.4);
+        }
+        .big-btn {
+            display: block; width: 100%; margin: 8px 0; font-size: 20px;
+            background: linear-gradient(135deg, rgba(40, 80, 200, 0.8), rgba(20, 40, 120, 0.9));
+            border: 2px solid rgba(100, 160, 255, 0.5);
+            animation: mothership-pulse 3s ease-in-out infinite;
+            letter-spacing: 1px;
+        }
+        @keyframes mothership-pulse {
+            0%, 100% { box-shadow: 0 0 15px rgba(100, 160, 255, 0.3); }
+            50% { box-shadow: 0 0 30px rgba(100, 160, 255, 0.5), 0 0 60px rgba(100, 160, 255, 0.15); }
+        }
+        .preset-btn {
+            background: rgba(51, 51, 68, 0.7); color: #aaddff; font-size: 14px;
+            padding: 10px 14px; border: 2px solid rgba(85, 85, 102, 0.5);
+        }
+        .preset-btn.active {
+            background: #ffaa33; color: #0f0f1a; border-color: #ffaa33; font-weight: bold;
+            box-shadow: 0 0 15px rgba(255,170,51,0.4);
+        }
+
+        /* === CHUNKS === */
+        .chunk-box {
+            background: rgba(20, 20, 40, 0.6);
+            border-left: 3px solid rgba(255, 170, 51, 0.6);
+            padding: 12px; margin: 12px 0; border-radius: 5px;
+            cursor: pointer; position: relative;
+            transition: all 0.3s ease; z-index: 1;
+        }
+        .chunk-box:active {
+            border-left-color: #ffaa33;
+            box-shadow: 0 0 15px rgba(255, 170, 51, 0.2);
+        }
+        .chunk-label {
+            background: rgba(51, 51, 68, 0.7); padding: 6px 10px;
+            border-radius: 4px; font-family: monospace; font-size: 13px; margin-bottom: 8px;
+        }
+        .copied-flash {
+            position: absolute; top: 8px; right: 12px;
+            color: #33ff88; font-weight: bold; font-size: 14px;
+            pointer-events: none; opacity: 0; transition: opacity 0.3s;
+        }
+        .copied-flash.show { opacity: 1; }
+
+        /* === MODE TOGGLE === */
+        .mode-toggle { display: flex; gap: 4px; margin-bottom: 10px; position: relative; z-index: 1; }
+        .mode-toggle button { flex: 1; background: rgba(51, 51, 68, 0.7); font-size: 14px; padding: 10px; }
+        .mode-toggle button.active { background: #ffaa33; color: #0f0f1a; }
+
+        /* === UTILITY === */
+        .info-row { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0; font-size: 13px; color: #aaaacc; position: relative; z-index: 1; }
+        .info-row span { background: rgba(42, 42, 58, 0.7); padding: 6px 10px; border-radius: 5px; }
+        .slap-area { text-align: center; margin-top: 6px; }
+        .slap-btn { background: #ff3355; color: white; font-size: 13px; padding: 8px 14px; border-radius: 8px; }
+        .custom-limit-row { display: none; }
+        .custom-limit-row.show { display: block; }
+        hr { border-color: rgba(51, 51, 68, 0.5); margin: 16px 0; }
+
+        /* === VERSION HUD === */
+        .version-hud {
+            position: fixed; bottom: 10px; right: 14px;
+            font-family: monospace; font-size: 11px;
+            color: rgba(150, 180, 255, 0.5);
+            z-index: 2; pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🎳 File Fragmentor</h1>
+
+    <!-- MODE TOGGLE -->
+    <div class="mode-toggle">
+        <button id="modeSplit" class="active">🔪 Split File</button>
+        <button id="modeCount">📏 Count Chars</button>
+        <button id="modeGen">🧪 Test File</button>
+    </div>
+
+    <!-- MAIN INPUT -->
+    <div class="panel" id="panelInput">
+        <textarea id="inputText" rows="10" placeholder="Paste text or Vercel URL here..."></textarea>
+
+        <div style="margin: 8px 0;">
+            <strong style="font-size: 14px;">Fetch Limit:</strong>
+            <div style="display: flex; gap: 4px; flex-wrap: wrap; margin-top: 6px;">
+                <button class="preset-btn active" data-limit="65000">DeepSeek 65k</button>
+                <button class="preset-btn" data-limit="29000">GitHub 29k</button>
+                <button class="preset-btn" data-limit="16000">ChatGPT 16k</button>
+                <button class="preset-btn" data-limit="custom" id="btnCustom">✎ Custom</button>
+            </div>
+            <div class="custom-limit-row" id="customRow">
+                <input type="number" id="customLimit" value="65000" placeholder="Custom limit...">
+            </div>
+        </div>
+
+        <div style="margin: 8px 0; font-size: 14px;">
+            Safety Margin:
+            <select id="safetyMargin">
+                <option value="2">2x (Safe)</option>
+                <option value="1.5">1.5x (Tight)</option>
+                <option value="1">1x (Edge)</option>
+            </select>
+            <span style="color: #aaaacc; margin-left: 8px;" id="effectiveLabel">Effective: 32,500</span>
+        </div>
+
+        <button class="big-btn" id="btnSplit">🎳 Split It</button>
+    </div>
+
+    <!-- OUTPUT -->
+    <div class="panel" id="panelOutput" style="display: none;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <strong id="outputLabel">Chunks</strong>
+            <button id="btnCopyAll">📋 Copy All</button>
+        </div>
+        <div id="chunksContainer"></div>
+        <div class="slap-area">
+            <button class="slap-btn" id="btnSlap">🖕 Slap 'Em</button>
+        </div>
+    </div>
+
+    <!-- CHARACTER COUNTER -->
+    <div class="panel" id="panelCount" style="display: none;">
+        <div class="info-row" id="countStats"></div>
+    </div>
+
+    <!-- TEST FILE GENERATOR -->
+    <div class="panel" id="panelGen" style="display: none;">
+        <label>Target size (characters):</label>
+        <input type="number" id="genSize" value="100000" min="100" max="1000000">
+        <button class="big-btn" id="btnGen" style="animation: none;">🧪 Generate Test File</button>
+        <div id="genOutput"></div>
+    </div>
+
+    <!-- VERSION HUD -->
+    <div class="version-hud">BUILD <span id="buildNumber"></span> • NOMINAL</div>
+
+    <script>
+        // ============ BUILD NUMBER ============
+        const stored = localStorage.getItem('ff_build');
+        let build = stored ? parseInt(stored) + Math.floor(Math.random() * 5) + 1 : Math.floor(10000 + Math.random() * 90000);
+        localStorage.setItem('ff_build', build);
+        document.getElementById('buildNumber').textContent = build;
+
+        // ============ STATE ============
+        let currentMode = 'split';
+        let currentLimit = 65000;
+        let isCustom = false;
+
+        // ============ DOM REFS ============
+        const inputText = document.getElementById('inputText');
+        const chunksContainer = document.getElementById('chunksContainer');
+        const panelOutput = document.getElementById('panelOutput');
+        const panelCount = document.getElementById('panelCount');
+        const panelGen = document.getElementById('panelGen');
+        const outputLabel = document.getElementById('outputLabel');
+        const effectiveLabel = document.getElementById('effectiveLabel');
+        const customRow = document.getElementById('customRow');
+        const countStats = document.getElementById('countStats');
+        const genOutput = document.getElementById('genOutput');
+
+        // ============ MODE SWITCHING ============
+        document.getElementById('modeSplit').addEventListener('click', () => switchMode('split'));
+        document.getElementById('modeCount').addEventListener('click', () => switchMode('count'));
+        document.getElementById('modeGen').addEventListener('click', () => switchMode('gen'));
+
+        function switchMode(mode) {
+            currentMode = mode;
+            document.querySelectorAll('.mode-toggle button').forEach(b => b.classList.remove('active'));
+            document.getElementById('mode' + mode.charAt(0).toUpperCase() + mode.slice(1)).classList.add('active');
+            panelOutput.style.display = 'none';
+            panelCount.style.display = 'none';
+            panelGen.style.display = 'none';
+            if (mode === 'count') updateCount();
+            if (mode === 'gen') panelGen.style.display = 'block';
+        }
+
+        // ============ FETCH LIMIT PRESETS ============
+        document.querySelectorAll('.preset-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                const limit = this.dataset.limit;
+                if (limit === 'custom') {
+                    isCustom = true;
+                    customRow.classList.add('show');
+                    currentLimit = parseInt(document.getElementById('customLimit').value) || 65000;
+                } else {
+                    isCustom = false;
+                    customRow.classList.remove('show');
+                    currentLimit = parseInt(limit);
+                }
+                updateEffective();
+            });
+        });
+
+        document.getElementById('customLimit').addEventListener('input', function() {
+            if (isCustom) currentLimit = parseInt(this.value) || 65000;
+            updateEffective();
+        });
+
+        document.getElementById('safetyMargin').addEventListener('change', updateEffective);
+
+        function updateEffective() {
+            const safety = parseFloat(document.getElementById('safetyMargin').value);
+            const effective = Math.floor(currentLimit / safety);
+            effectiveLabel.textContent = 'Effective: ' + effective.toLocaleString();
+        }
+
+        // ============ SPLIT ============
+        document.getElementById('btnSplit').addEventListener('click', splitIt);
+
+        function splitIt() {
+            const text = inputText.value.trim();
+            if (!text) return;
+
+            const safety = parseFloat(document.getElementById('safetyMargin').value);
+            const effective = Math.floor(currentLimit / safety);
+            const totalChars = text.length;
+            const numChunks = Math.ceil(totalChars / effective);
+            const anchor = Math.floor(10000 + Math.random() * 90000);
+
+            chunksContainer.innerHTML = '';
+            panelOutput.style.display = 'block';
+            outputLabel.textContent = 'Chunks (' + numChunks + ') — ' + totalChars.toLocaleString() + ' total chars';
+
+            for (let i = 0; i < numChunks; i++) {
+                const start = i * effective;
+                let end = start + effective;
+                if (end >= totalChars) end = totalChars;
+
+                let chunk = text.substring(start, end);
+                const isLast = (i === numChunks - 1);
+
+                let header = '🎳 FRAGMENT ' + (i + 1) + '/' + numChunks + '\n';
+                header += 'Chars: ' + chunk.length.toLocaleString() + ' / ' + totalChars.toLocaleString() + '\n';
+                header += 'Limit: ' + currentLimit.toLocaleString() + ' • Safety: ' + safety + 'x\n';
+                if (!isLast) {
+                    header += '--- (continued)\n';
+                } else {
+                    header += 'ANCHOR: ' + anchor + '\n';
+                }
+
+                const fullChunk = header + '\n' + chunk;
+
+                const div = document.createElement('div');
+                div.className = 'chunk-box';
+                div.innerHTML = `
+                    <div class="chunk-label">Chunk ${i + 1}/${numChunks} • ${chunk.length.toLocaleString()} chars ${isLast ? '• FINAL' : ''}</div>
+                    <textarea rows="8" readonly>${fullChunk}</textarea>
+                    <div class="copied-flash">✅ Copied!</div>
+                `;
+
+                div.addEventListener('click', function() {
+                    const ta = this.querySelector('textarea');
+                    ta.select();
+                    navigator.clipboard.writeText(ta.value).then(() => {
+                        const flash = this.querySelector('.copied-flash');
+                        flash.classList.add('show');
+                        setTimeout(() => flash.classList.remove('show'), 1200);
+                    });
+                });
+
+                chunksContainer.appendChild(div);
+            }
+
+            panelOutput.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // ============ COPY ALL ============
+        document.getElementById('btnCopyAll').addEventListener('click', function() {
+            const textareas = chunksContainer.querySelectorAll('textarea');
+            let allText = '';
+            textareas.forEach(ta => allText += ta.value + '\n\n');
+            navigator.clipboard.writeText(allText.trim()).then(() => {
+                this.textContent = '✅ Copied!';
+                setTimeout(() => this.textContent = '📋 Copy All', 1500);
+            });
+        });
+
+        // ============ SLAP ============
+        document.getElementById('btnSlap').addEventListener('click', function() {
+            const slap = '🖕 You said you got the whole file. You didn\'t. Check the anchor. The anchor never lies. Try again.';
+            navigator.clipboard.writeText(slap).then(() => {
+                this.textContent = '✅ Slap Copied!';
+                setTimeout(() => this.textContent = '🖕 Slap \'Em', 1500);
+            });
+        });
+
+        // ============ CHARACTER COUNTER ============
+        inputText.addEventListener('input', function() {
+            if (currentMode === 'count') updateCount();
+        });
+
+        function updateCount() {
+            const text = inputText.value;
+            const chars = text.length;
+            const lines = text.split('\n').length;
+            const sections = (text.match(/^##\s+/gm) || []).length;
+            countStats.innerHTML = `
+                <span>📏 <strong>${chars.toLocaleString()}</strong> chars</span>
+                <span>📄 <strong>${lines.toLocaleString()}</strong> lines</span>
+                ${sections > 0 ? `<span>📑 <strong>${sections}</strong> sections</span>` : ''}
+                <span>📐 Limit: <strong>${currentLimit.toLocaleString()}</strong></span>
+            `;
+            panelCount.style.display = 'block';
+        }
+
+        // ============ TEST FILE GENERATOR ============
+        document.getElementById('btnGen').addEventListener('click', function() {
+            const size = parseInt(document.getElementById('genSize').value) || 100000;
+            const anchor = Math.floor(10000 + Math.random() * 90000);
+
+            let content = '🧪 TEST FILE — ' + size.toLocaleString() + ' chars — Anchor: ' + anchor + '\n';
+            content += 'Generated: ' + new Date().toISOString() + '\n';
+            content += '---\n\n';
+
+            let charCount = content.length;
+            let lineNum = 1;
+            while (charCount < size - 20) {
+                const line = 'L' + String(lineNum).padStart(6, '0') + ' The quick brown fox jumps over the lazy dog. Pattern recognition. ';
+                content += line;
+                charCount += line.length;
+                lineNum++;
+                if (lineNum % 5 === 0) content += '\n';
+            }
+
+            while (charCount < size - 15) {
+                content += 'x';
+                charCount++;
+            }
+
+            content += '\n\nANCHOR: ' + anchor + '\n';
+
+            genOutput.innerHTML = '';
+            const div = document.createElement('div');
+            div.className = 'chunk-box';
+            div.innerHTML = `
+                <div class="chunk-label">🧪 Test File • ${content.length.toLocaleString()} chars • Anchor: ${anchor}</div>
+                <textarea rows="10" readonly>${content}</textarea>
+                <div class="copied-flash">✅ Copied!</div>
+            `;
+            div.addEventListener('click', function() {
+                const ta = this.querySelector('textarea');
+                ta.select();
+                navigator.clipboard.writeText(ta.value).then(() => {
+                    const flash = this.querySelector('.copied-flash');
+                    flash.classList.add('show');
+                    setTimeout(() => flash.classList.remove('show'), 1200);
+                });
+            });
+
+            genOutput.appendChild(div);
+            genOutput.scrollIntoView({ behavior: 'smooth' });
+        });
+
+        // ============ INIT ============
+        updateEffective();
+        switchMode('split');
+    </script>
+</body>
+</html>

@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Fragmentor</title>
+<style>
+*{box-sizing:border-box;font-family:'Segoe UI',Tahoma,sans-serif}
+body{background:#020208;color:#f0f0f0;margin:auto;padding:4px 6px 120px;max-width:600px;min-height:100vh}
+.err{display:none;background:rgba(255,40,60,.92);color:#fff;font-family:monospace;font-size:11px;padding:6px 8px;border-radius:7px;margin-bottom:5px;word-break:break-word}
+.err.show{display:block}
+.panel{background:rgba(15,15,30,.75);border:1px solid rgba(100,140,255,.2);border-radius:9px;padding:8px 9px;margin-bottom:5px}
+textarea,input,select{width:100%;background:rgba(30,30,50,.85);color:#e0e0ff;border:1px solid rgba(100,140,255,.25);border-radius:7px;padding:8px;font-size:16px;margin-bottom:4px;-webkit-appearance:none}
+textarea:focus,input:focus,select:focus{outline:2px solid #ffaa33}
+button{background:rgba(40,60,120,.8);color:#fff;border:1px solid rgba(100,140,255,.3);padding:6px 10px;border-radius:7px;font-weight:bold;cursor:pointer;margin:2px;font-size:13px;min-height:32px}
+button:active{transform:scale(.96)}
+.tabs{display:flex;gap:3px;margin-bottom:5px}
+.tabs button{flex:1;background:rgba(40,40,60,.8);font-size:11px;padding:3px 2px;min-height:28px;margin:0}
+.tabs button.on{background:#ffaa33;color:#0f0f1a}
+.mini{background:rgba(40,40,60,.7);font-size:11px;padding:3px 8px;min-height:28px;color:#aaddff}
+.row{display:flex;gap:4px;align-items:center;flex-wrap:wrap}
+.strip{font-size:11.5px;color:#c9d4ff;background:rgba(0,0,0,.35);border:1px solid rgba(100,140,255,.18);border-radius:7px;padding:5px 7px;line-height:1.55;margin-top:4px}
+.strip b{color:#ffaa33}
+.ok{color:#33ff88}.warn{color:#ffaa33}.bad{color:#ff5555}
+.lbl{font-size:10.5px;color:#8899cc}
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:50;background:rgba(8,8,18,.97);border-top:1px solid rgba(255,170,51,.35);padding:5px 7px 7px;display:none}
+.dock.show{display:block}
+.pills{display:flex;gap:4px;overflow-x:auto;padding:1px 0 4px}
+.pill{flex:0 0 auto;min-width:30px;height:30px;min-height:30px;border-radius:50%;font-size:12px;padding:0;margin:0;background:rgba(40,40,60,.9);color:#aaddff}
+.pill.done{background:rgba(51,255,136,.22);color:#33ff88}
+.pill.next{background:#ffaa33;color:#0f0f1a}
+.big{width:100%;font-size:16px;min-height:48px;margin:0;background:linear-gradient(135deg,rgba(255,170,51,.9),rgba(200,130,20,.95));border:2px solid rgba(255,170,51,.7);color:#150f00}
+.hide{display:none}
+.cal{margin-top:6px;padding:6px 8px;background:rgba(0,0,0,.35);border-radius:7px;border:1px solid rgba(204,153,255,.25);font-size:11.5px;line-height:1.6;color:#c9d4ff}
+.cal b{color:#ffaa33}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:100px;background:rgba(51,255,136,.94);color:#04140a;font-weight:bold;font-size:13px;padding:8px 16px;border-radius:18px;z-index:99;opacity:0;transition:opacity .2s;pointer-events:none;max-width:92%;text-align:center}
+.toast.show{opacity:1}
+.toast.bad{background:rgba(255,190,90,.96)}
+.who{font-size:10px;color:#8899cc;text-align:center;margin-bottom:4px}
+</style>
+</head>
+<body>
+
+<div class="err" id="err"></div>
+<script>
+window.onerror=function(m,s,l,c){
+  var e=document.getElementById('err');
+  if(e){e.className='err show';e.textContent='JS error '+l+':'+c+' — '+m;}
+  return false;
+};
+</script>
+
+<div class="who" id="who">loading…</div>
+
+<div class="tabs">
+  <button id="tSend">🟣 Claude</button>
+  <button id="tShip">🟠 DeepSeek</button>
+  <button id="tRule">🧪 Ruler</button>
+</div>
+
+<!-- ============ SPLIT (send / ship) ============ -->
+<div class="panel" id="pSplit">
+  <textarea id="inp" rows="6" placeholder="Paste here — splits itself"></textarea>
+  <div class="row">
+    <button class="mini" id="bPaste">📥 Paste</button>
+    <button class="mini" id="bClear">✕ Clear</button>
+    <button class="mini" id="bRefresh">🔄</button>
+    <button class="mini" id="bOpts">⚙</button>
+  </div>
+  <div class="strip" id="strip">Paste text — it splits automatically</div>
+
+  <div id="opts" class="hide">
+    <div class="row" style="margin-top:6px">
+      <span class="lbl">chars</span>
+      <input type="number" id="oLimit" style="width:90px;margin:0;padding:4px;font-size:13px">
+      <span class="lbl">max lines (0=off)</span>
+      <input type="number" id="oLines" style="width:70px;margin:0;padding:4px;font-size:13px">
+    </div>
+    <div class="row">
+      <button class="mini" id="bDefaults">↺ profile defaults</button>
+    </div>
+    <div class="lbl" id="oNote"></div>
+  </div>
+</div>
+
+<!-- ============ RULER ============ -->
+<div class="panel hide" id="pRule">
+  <div class="row">
+    <span class="lbl">chars</span>
+    <input type="number" id="rSize" value="4038" min="1" max="2000000" style="flex:1;margin:0">
+    <button class="mini" id="rNext">→ <span id="rNextN">?</span></button>
+  </div>
+  <div class="row">
+    <span class="lbl">line len</span>
+    <select id="rDens" style="width:auto;margin:0;padding:4px;font-size:12px">
+      <option value="0">none</option><option value="87">87</option>
+      <option value="73" selected>73</option><option value="40">40</option><option value="20">20</option>
+    </select>
+    <span class="lbl">emoji %</span>
+    <select id="rEmo" style="width:auto;margin:0;padding:4px;font-size:12px">
+      <option value="0" selected>0</option><option value="10">10</option>
+      <option value="25">25</option><option value="50">50</option><option value="100">100</option>
+    </select>
+    <button class="mini" id="rGen">🧪 Make</button>
+  </div>
+  <div class="strip" id="rStat">—</div>
+  <div class="cal">
+    <div class="row" style="justify-content:space-between">
+      <span><b>Target</b></span>
+      <select id="rTarget" style="width:auto;margin:0;padding:3px;font-size:11px">
+        <option value="send">Claude app</option>
+        <option value="ship">DeepSeek</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <div id="rCal"></div>
+    <div class="row">
+      <button class="mini" id="rPass" style="color:#33ff88">✅ Passed</button>
+      <button class="mini" id="rFail" style="color:#ff8888">❌ Failed</button>
+      <button class="mini" id="rReset">↺</button>
+    </div>
+  </div>
+</div>
+
+<div class="dock" id="dock">
+  <div class="pills" id="pills"></div>
+  <button class="big" id="bNext">📋 Copy</button>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+/* ---------------- profiles ---------------- */
+var PROF={
+  send:{name:'Claude app message',limit:4038,lines:0,
+        note:'4,038 verified (bisected, 10% emoji). No line cap — none measured.'},
+  ship:{name:'DeepSeek paste',limit:163840,lines:1850,
+        note:'163,840 = 160 KiB, verified twice. Line cap 1850 from two observations (~1,869 / ~1,883).'},
+  other:{name:'Custom',limit:4038,lines:0,note:''}
+};
+var profile='send',view='split';
+
+/* ---------------- helpers ---------------- */
+function $(id){return document.getElementById(id);}
+function toast(m,bad){
+  var t=$('toast');t.textContent=m;
+  t.className='toast show'+(bad?' bad':'');
+  clearTimeout(t._t);t._t=setTimeout(function(){t.className='toast';},1700);
+}
+function copyText(t,cb,fail){
+  if(navigator.clipboard&&window.isSecureContext){
+    navigator.clipboard.writeText(t).then(function(){if(cb)cb();})
+      .catch(function(){if(fb(t)){if(cb)cb();}else if(fail)fail();});
+    return;
+  }
+  if(fb(t)){if(cb)cb();}else if(fail)fail();
+}
+function fb(t){
+  var a=document.createElement('textarea');
+  a.value=t;a.style.position='fixed';a.style.left='-9999px';a.style.top='0';
+  document.body.appendChild(a);a.focus();a.select();
+  var ok=false;
+  try{ok=document.execCommand('copy');}catch(e){ok=false;}
+  document.body.removeChild(a);
+  return ok;
+}
+function nf(n){return n.toLocaleString();}
+function lineCount(s){return s.split('\n').length;}
+function wordCount(s){var m=s.trim().match(/\S+/g);return m?m.length:0;}
+function today(){return new Date().toISOString().slice(0,10);}
+function daysSince(d){
+  if(!d)return 999;
+  var a=new Date(d+'T00:00:00').getTime();
+  if(isNaN(a))return 999;
+  return Math.floor((Date.now()-a)/86400000);
+}
+
+/* ---------------- splitter ---------------- */
+function buildChunks(text,limit,maxLines){
+  var out=[],total=text.length,pos=0,guard=0;
+  while(pos<total){
+    guard++;
+    if(guard>500000){out.push(text.substring(pos));break;}
+    var end=Math.min(pos+limit,total);
+    if(end<total){
+      var nl=text.lastIndexOf('\n',end-1);
+      if(nl>pos)end=nl+1;
+    }
+    if(maxLines>0){
+      var c=0,cut=-1;
+      for(var i=pos;i<end;i++){
+        if(text.charCodeAt(i)===10){c++;if(c===maxLines){cut=i+1;break;}}
+      }
+      if(cut>pos&&cut<end)end=cut;
+    }
+    if(end<=pos)end=Math.min(pos+limit,total);
+    if(end<total){
+      var cc=text.charCodeAt(end-1);
+      if(cc>=0xD800&&cc<=0xDBFF&&end-1>pos)end=end-1;
+    }
+    out.push(text.substring(pos,end));
+    pos=end;
+  }
+  return out;
+}
+
+/* ---------------- state ---------------- */
+var chunks=[],idx=0,lastVal=null,timer=null;
+
+function curLimit(){
+  var v=parseInt($('oLimit').value);
+  return v>0?v:PROF[profile].limit;
+}
+function curLines(){
+  var v=parseInt($('oLines').value);
+  return v>0?v:0;
+}
+function src(){return $('inp').value;}
+
+function doSplit(){
+  var t=src();
+  if(!t){chunks=[];idx=0;$('dock').className='dock';paint();return;}
+  chunks=buildChunks(t,curLimit(),curLines());
+  idx=0;
+  $('dock').className='dock show';
+  paint();
+}
+
+function updateStrip(){
+  var t=src(),s=$('strip');
+  if(!t){s.textContent='Paste text — it splits automatically';return;}
+  var n=chunks.length,p1=chunks[0]||'';
+  var joined=chunks.join('');
+  var okJoin=(joined.length===t.length&&joined===t);
+  var lim=curLimit(),cap=curLines();
+  var bind='chars';
+  if(n>1&&cap>0&&(lineCount(p1)-1)>=cap)bind='LINES';
+  else if(n>1&&p1.length<lim-1)bind='line break';
+  var pct=lim>0?Math.round(p1.length/lim*100):0;
+  var cls=pct<70?'bad':(pct<90?'warn':'ok');
+  s.innerHTML=
+    '<b>'+nf(t.length)+'</b> ch · <b>'+nf(wordCount(t))+'</b> w · <b>'+
+    nf(lineCount(t))+'</b> ln → <b>'+n+'</b> part'+(n===1?'':'s')+
+    '<br>part 1: <b>'+nf(p1.length)+'</b> ch / <b>'+(p1?lineCount(p1)-1+1:0)+
+    '</b> ln · <span class="'+cls+'">'+pct+'% of '+nf(lim)+
+    (n>1?' · capped by '+bind:'')+'</span>'+
+    '<br><span class="'+(okJoin?'ok':'bad')+'">'+
+    (okJoin?'✓ rejoins exactly':'✗ REASSEMBLY MISMATCH — do not send')+'</span>';
+}
+
+function paint(){
+  var p=$('pills');
+  p.innerHTML='';
+  for(var i=0;i<chunks.length;i++){
+    (function(i){
+      var b=document.createElement('button');
+      b.className='pill'+(i<idx?' done':(i===idx?' next':''));
+      b.textContent=i+1;
+      b.onclick=function(){copyOne(i);};
+      p.appendChild(b);
+    })(i);
+  }
+  var n=chunks.length;
+  if(!n)$('bNext').textContent='📋 Copy';
+  else if(idx>=n)$('bNext').textContent='✅ all '+n+' sent — tap to restart';
+  else $('bNext').textContent='📋 Copy '+(idx+1)+' / '+n;
+  updateStrip();
+}
+
+function copyOne(i){
+  if(!chunks[i]&&chunks[i]!=='')return;
+  copyText(chunks[i],function(){
+    idx=i+1;paint();
+    toast('✅ '+(i+1)+'/'+chunks.length+' copied');
+  },function(){toast('Copy blocked',true);});
+}
+
+$('bNext').onclick=function(){
+  if(!chunks.length)return;
+  if(idx>=chunks.length){idx=0;paint();return;}
+  copyOne(idx);
+};
+
+/* ---------------- input ---------------- */
+function sync(force){
+  var v=$('inp').value;
+  if(!force&&v===lastVal)return;
+  lastVal=v;
+  clearTimeout(timer);
+  timer=setTimeout(function(){doSplit();},200);
+}
+(function(){
+  var ev=['input','keyup','change','cut','paste','blur'];
+  for(var i=0;i<ev.length;i++){
+    $('inp').addEventListener(ev[i],function(){
+      setTimeout(function(){sync();},0);
+    });
+  }
+})();
+setInterval(function(){sync();},500);
+
+$('inp').addEventListener('paste',function(e){
+  if(view!=='split')return;
+  var p='';
+  try{p=(e.clipboardData||window.clipboardData).getData('text');}catch(x){p='';}
+  if(!p)return;
+  var all=$('inp').selectionStart===0&&$('inp').selectionEnd===$('inp').value.length;
+  var combined=($('inp').value===''||all)?p:($('inp').value+p);
+  var c=buildChunks(combined,curLimit(),curLines());
+  if(!c.length)return;
+  copyText(c[0],function(){toast('✅ Part 1/'+c.length+' copied');},
+    function(){toast('Tap the bar to copy',true);});
+  setTimeout(function(){sync(true);setTimeout(function(){idx=1;paint();},260);},0);
+});
+
+$('bPaste').onclick=function(){
+  if(!navigator.clipboard||!navigator.clipboard.readText){
+    toast('Long-press the box → Paste',true);$('inp').focus();return;
+  }
+  navigator.clipboard.readText().then(function(t){
+    if(!t){toast('Clipboard empty',true);return;}
+    $('inp').value=t;lastVal=t;doSplit();
+    if(chunks.length){
+      copyText(chunks[0],function(){idx=1;paint();toast('✅ Part 1/'+chunks.length+' copied');},
+        function(){toast('Tap the bar to copy',true);});
+    }
+  }).catch(function(){
+    toast('Blocked — long-press box → Paste',true);$('inp').focus();
+  });
+};
+$('bClear').onclick=function(){$('inp').value='';sync(true);};
+$('bRefresh').onclick=function(){sync(true);toast('🔄');};
+$('bOpts').onclick=function(){
+  var o=$('opts');
+  o.className=(o.className==='hide')?'':'hide';
+};
+$('oLimit').addEventListener('input',function(){saveProf();sync(true);});
+$('oLines').addEventListener('input',function(){saveProf();sync(true);});
+$('bDefaults').onclick=function(){
+  $('oLimit').value=PROF[profile].limit;
+  $('oLines').value=PROF[profile].lines;
+  saveProf();sync(true);toast('defaults restored');
+};
+
+/* ---------------- profile / view ---------------- */
+function saveProf(){
+  try{
+    localStorage.setItem('ff_'+profile+'_limit',$('oLimit').value);
+    localStorage.setItem('ff_'+profile+'_lines',$('oLines').value);
+    localStorage.setItem('ff_last',profile);
+  }catch(e){}
+}
+function loadProf(){
+  var L=null,N=null;
+  try{
+    L=localStorage.getItem('ff_'+profile+'_limit');
+    N=localStorage.getItem('ff_'+profile+'_lines');
+  }catch(e){}
+  $('oLimit').value=(L&&parseInt(L)>0)?parseInt(L):PROF[profile].limit;
+  $('oLines').value=(N!==null&&parseInt(N)>=0)?parseInt(N):PROF[profile].lines;
+  $('oNote').textContent=PROF[profile].note;
+}
+function setView(v){
+  view=v;
+  $('tSend').className=(v==='split'&&profile==='send')?'on':'';
+  $('tShip').className=(v==='split'&&profile==='ship')?'on':'';
+  $('tRule').className=(v==='rule')?'on':'';
+  $('pSplit').className=(v==='split')?'panel':'panel hide';
+  $('pRule').className=(v==='rule')?'panel':'panel hide';
+  if(v==='split'){
+    $('who').textContent='profile: '+PROF[profile].name;
+    $('dock').className=chunks.length?'dock show':'dock';
+    sync(true);
+  }else{
+    $('who').textContent='Ruler — exact character generator';
+    $('dock').className=chunks.length?'dock show':'dock';
+    renderCal();
+  }
+}
+function setProfile(p){
+  profile=p;loadProf();saveProf();setView('split');
+}
+$('tSend').onclick=function(){setProfile('send');};
+$('tShip').onclick=function(){setProfile('ship');};
+$('tRule').onclick=function(){setView('rule');};
+
+/* ---------------- ruler ---------------- */
+var EM=['🎳','🫧','💎','🧩','🪜','🔮','🔥','🌱','🧪','📋'];
+function makeExact(n,dens,emoPct){
+  if(n<1)return '';
+  var s='',ei=0,col=0,ln=1;
+  var fill='The quick brown fox jumps over the lazy dog. Pattern recognition. ';
+  var fi=0;
+  while(s.length<n){
+    var room=n-s.length;
+    if(emoPct>0&&room>=2&&Math.random()<emoPct/100){
+      s+=EM[ei%EM.length];ei++;col+=2;
+    }else{
+      s+=fill.charAt(fi%fill.length);fi++;col++;
+    }
+    if(dens>0&&col>=dens&&s.length<n){s+='\n';col=0;ln++;}
+  }
+  if(s.length>n)s=s.substring(0,n);
+  while(s.length<n)s+='X';
+  return s;
+}
+function calKey(){return 'ff_cal_'+$('rTarget').value;}
+function getCal(){
+  try{return JSON.parse(localStorage.getItem(calKey()))||{};}catch(e){return {};}
+}
+function setCal(c){
+  try{localStorage.setItem(calKey(),JSON.stringify(c));}catch(e){}
+  renderCal();
+}
+function nextSize(){
+  var c=getCal();
+  if(c.good&&c.bad){
+    if(c.bad-c.good<=1)return c.good;
+    return Math.floor((c.good+c.bad)/2);
+  }
+  if(c.good)return c.good+100;
+  if(c.bad)return Math.max(1,c.bad-100);
+  return parseInt($('rSize').value)||4038;
+}
+function renderCal(){
+  var c=getCal(),h='';
+  if(c.good){
+    h+='✅ pass <b>'+nf(c.good)+'</b> ch';
+    if(c.goodLines)h+=' / '+c.goodLines+' ln';
+    if(c.goodEmo!==undefined)h+=' / '+c.goodEmo+'% emoji';
+    if(c.goodDate)h+=' <span class="lbl">'+c.goodDate+
+      (daysSince(c.goodDate)>30?' ⚠️ verify':'')+'</span>';
+  }else h+='✅ pass —';
+  h+='<br>';
+  if(c.bad)h+='❌ fail <b>'+nf(c.bad)+'</b> ch';
+  else h+='❌ fail —';
+  if(c.good&&c.bad){
+    if(c.bad-c.good<=1)h+='<br><span class="ok">SOLVED → '+nf(c.good)+'</span>';
+    else h+=' · gap '+nf(c.bad-c.good);
+  }
+  h+='<br>next: <b>'+nf(nextSize())+'</b>';
+  $('rCal').innerHTML=h;
+  $('rNextN').textContent=nf(nextSize());
+}
+var lastGen={size:0,lines:0,emo:0,dens:0};
+$('rGen').onclick=function(){
+  var n=parseInt($('rSize').value);
+  if(!n||n<1){toast('enter 1 or more',true);return;}
+  if(n>2000000){toast('too big',true);return;}
+  var d=parseInt($('rDens').value)||0;
+  var e=parseInt($('rEmo').value)||0;
+  var s=makeExact(n,d,e);
+  lastGen={size:s.length,lines:lineCount(s),emo:e,dens:d};
+  $('rStat').innerHTML='<b>'+nf(s.length)+'</b> ch · <b>'+nf(lineCount(s))+
+    '</b> ln · '+e+'% emoji'+
+    '<br><span class="'+(s.length===n?'ok':'bad')+'">'+
+    (s.length===n?'exact':'off by '+(s.length-n))+'</span> — ✅/❌ records '+nf(s.length);
+  chunks=[s];idx=0;$('dock').className='dock show';paint();
+  copyText(s,function(){idx=1;paint();toast('✅ '+nf(s.length)+' ch copied');},
+    function(){toast('tap the bar to copy',true);});
+};
+$('rNext').onclick=function(){$('rSize').value=nextSize();};
+$('rPass').onclick=function(){
+  if(!lastGen.size){toast('make a file first',true);return;}
+  var c=getCal();
+  if(!c.good||lastGen.size>c.good){
+    c.good=lastGen.size;c.goodLines=lastGen.lines;
+    c.goodEmo=lastGen.emo;c.goodDate=today();
+  }
+  if(c.bad&&lastGen.size>=c.bad)c.bad=null;
+  setCal(c);toast('✅ '+nf(lastGen.size));
+};
+$('rFail').onclick=function(){
+  if(!lastGen.size){toast('make a file first',true);return;}
+  var c=getCal();
+  if(!c.bad||lastGen.size<c.bad)c.bad=lastGen.size;
+  if(c.good&&lastGen.size<=c.good)c.good=null;
+  setCal(c);toast('❌ '+nf(lastGen.size));
+};
+$('rReset').onclick=function(){
+  try{localStorage.removeItem(calKey());}catch(e){}
+  renderCal();toast('reset');
+};
+$('rTarget').onchange=function(){renderCal();};
+
+/* ---------------- boot ---------------- */
+(function(){
+  var p=null;
+  var u='';
+  try{u=(location.href||'').toUpperCase();}catch(e){u='';}
+  if(u.indexOf('CLAUDE')>=0)p='send';
+  else if(u.indexOf('DEEP')>=0)p='ship';
+  else if(u.indexOf('RULER')>=0||u.indexOf('TEST')>=0)p='rule';
+  if(!p){
+    var h=(location.hash||'').toLowerCase();
+    if(h.indexOf('send')>=0||h.indexOf('claude')>=0)p='send';
+    else if(h.indexOf('ship')>=0||h.indexOf('deep')>=0)p='ship';
+    else if(h.indexOf('rule')>=0)p='rule';
+  }
+  if(!p){
+    try{
+      var last=localStorage.getItem('ff_last');
+      if(last&&PROF[last])p=last;
+    }catch(e){}
+  }
+  if(!p)p='send';
+  if(p==='rule'){profile='send';loadProf();setView('rule');}
+  else{setProfile(p);}
+  $('inp').focus();
+})();
+</script>
+</body>
+</html>

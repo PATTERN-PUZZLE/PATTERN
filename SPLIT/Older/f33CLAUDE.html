@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎳 Fragmentor</title>
+<style>
+*{box-sizing:border-box;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif}
+body{background:#020208;background-image:radial-gradient(ellipse at 20% 80%,rgba(100,60,160,.06) 0%,transparent 50%),radial-gradient(ellipse at 80% 20%,rgba(40,80,180,.04) 0%,transparent 50%);color:#f0f0f0;margin:auto;padding:4px 6px 118px;max-width:600px;min-height:100vh;overflow-x:hidden}
+.panel{background:rgba(15,15,30,.75);border:1px solid rgba(100,140,255,.2);border-radius:9px;padding:8px 9px;margin-bottom:5px}
+textarea,input,select{width:100%;background:rgba(30,30,50,.85);color:#e0e0ff;border:1px solid rgba(100,140,255,.25);border-radius:7px;padding:8px;font-size:16px;margin-bottom:4px;-webkit-appearance:none}
+textarea::placeholder{text-align:center}
+textarea:focus,input:focus,select:focus{outline:2px solid #ffaa33}
+button{background:linear-gradient(135deg,rgba(40,80,180,.75),rgba(20,40,120,.85));color:#fff;border:1px solid rgba(100,140,255,.3);padding:8px 12px;border-radius:8px;font-weight:bold;cursor:pointer;margin:2px;font-size:14px;min-height:38px;transition:all .15s}
+button:active{transform:scale(.96)}
+.errbar{display:none;background:rgba(255,40,60,.92);color:#fff;font-family:monospace;font-size:11px;padding:6px 8px;border-radius:7px;margin-bottom:5px;line-height:1.4;word-break:break-word}
+.errbar.show{display:block}
+.tabs{display:flex;gap:3px;align-items:center;margin-bottom:5px}
+.tabs button{flex:1;background:rgba(40,40,60,.8);font-size:11px;padding:3px 2px;min-height:26px;border-radius:6px;margin:0}
+.tabs button.active{background:#ffaa33;color:#0f0f1a}
+.tabs .gear{flex:0 0 34px;font-size:13px}
+.tabs .gear.on{background:#ffaa33;color:#0f0f1a}
+.act{display:block;width:100%;margin:5px 0 0;font-size:15px;min-height:40px;background:linear-gradient(135deg,rgba(40,80,200,.8),rgba(20,40,120,.9));border:2px solid rgba(100,160,255,.5)}
+.strip{font-size:11.5px;color:#c9d4ff;background:rgba(0,0,0,.35);border:1px solid rgba(100,140,255,.18);border-radius:7px;padding:5px 7px;line-height:1.5;margin:4px 0 0}
+.strip b{color:#ffaa33}
+.strip .ok{color:#33ff88}.strip .warn{color:#ffaa33}.strip .risk{color:#ff5555}
+.strip .p1{color:#cc99ff}
+.mini{background:rgba(40,40,60,.7);font-size:11px;padding:3px 8px;min-height:26px;border-radius:6px;color:#aaddff}
+.row{display:flex;gap:4px;align-items:center;flex-wrap:wrap}
+.preset-btn{background:rgba(40,40,60,.8);color:#aaddff;font-size:12px;padding:4px 8px;border:2px solid rgba(100,140,255,.3);min-height:30px;margin:1px}
+.preset-btn.active{background:#ffaa33;color:#0f0f1a;border-color:#ffaa33}
+.preset-btn.dead{opacity:.45;border-style:dashed}
+.rl{font-size:10px;min-width:50px;color:#8899cc}
+.ref{font-size:9px}
+#optPanel{display:none}#optPanel.show{display:block}
+.opt{display:flex;align-items:center;gap:6px;font-size:12px;color:rgba(150,180,255,.75);margin:3px 0}
+.opt input[type=checkbox]{width:auto;margin:0}
+.opt input[type=number]{width:62px;padding:3px;font-size:12px;margin:0;min-height:auto}
+.deploy-only{display:none}.deploy-only.show{display:block}
+.chunk-box{background:rgba(20,20,40,.6);border-left:3px solid rgba(255,170,51,.6);margin:7px 0;border-radius:5px}
+.chunk-box.done{border-left-color:rgba(51,255,136,.7);opacity:.6}
+.chunk-label{background:rgba(40,40,60,.8);padding:4px 8px;border-radius:4px 4px 0 0;font-family:monospace;font-size:11px;display:flex;justify-content:space-between;align-items:center}
+.chunk-copy-btn{background:rgba(255,170,51,.3);color:#ffaa33;border:1px solid rgba(255,170,51,.5);padding:2px 8px;border-radius:5px;font-size:11px;min-height:auto;font-weight:bold;margin:0}
+.chunk-box textarea{margin:0;border-radius:0 0 4px 4px;border:none;background:rgba(20,20,40,.8);color:#c0c0dd;font-size:12px}
+#chunksContainer{display:none}#chunksContainer.show{display:block}
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:50;background:rgba(8,8,18,.96);border-top:1px solid rgba(255,170,51,.35);padding:5px 7px 7px;display:none;backdrop-filter:blur(6px)}
+.dock.show{display:block}
+.pills{display:flex;gap:4px;overflow-x:auto;padding:1px 0 4px;-webkit-overflow-scrolling:touch}
+.pill{flex:0 0 auto;min-width:29px;height:29px;min-height:29px;border-radius:50%;font-size:12px;padding:0;margin:0;background:rgba(40,40,60,.9);color:#aaddff;border:1px solid rgba(100,140,255,.35)}
+.pill.done{background:rgba(51,255,136,.22);color:#33ff88;border-color:rgba(51,255,136,.5)}
+.pill.next{background:#ffaa33;color:#0f0f1a;border-color:#ffaa33}
+.dockrow{display:flex;gap:5px}
+.next-btn{flex:1;font-size:16px;min-height:46px;margin:0;background:linear-gradient(135deg,rgba(255,170,51,.9),rgba(200,130,20,.95));border:2px solid rgba(255,170,51,.7);color:#150f00}
+.dockrow .mini{flex:0 0 auto;min-height:46px}
+.info-box{display:none;font-size:11px;color:rgba(150,180,255,.65);margin:4px 0;padding:6px 8px;background:rgba(15,15,30,.5);border-radius:6px;border:1px solid rgba(100,140,255,.15);line-height:1.45}
+.info-box.show{display:block}
+.info-box strong{color:#ffaa33}
+.info-btn{background:transparent;border:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.45);font-size:11px;padding:0 6px;min-height:22px;border-radius:50%;margin:0}
+.info-row{display:flex;gap:5px;flex-wrap:wrap;font-size:12px;color:#aaaacc}
+.info-row span{background:rgba(30,30,50,.7);padding:4px 7px;border-radius:5px;border:1px solid rgba(100,140,255,.2)}
+.log-panel{margin-top:4px;padding:5px 7px;background:rgba(0,0,0,.5);border-radius:6px;border:1px solid rgba(100,140,255,.2);max-height:150px;overflow-y:auto;font-family:monospace;font-size:11px;line-height:1.4;display:none}
+.log-entry{padding:1px 3px;margin:1px 0;border-radius:3px;background:rgba(255,255,255,.03)}
+.log-entry.success{background:rgba(0,255,136,.1)}.log-entry.error{background:rgba(255,51,102,.1)}
+.cal{margin-top:6px;padding:6px 8px;background:rgba(0,0,0,.35);border-radius:7px;border:1px solid rgba(204,153,255,.25)}
+.cal h4{margin:0 0 4px;font-size:12px;color:#cc99ff;display:inline-block}
+.cal .v{font-size:11.5px;color:#c9d4ff;line-height:1.65}
+.cal .v b{color:#ffaa33}
+.cal .solved{color:#33ff88;font-weight:bold}
+.cal input[type=number]{width:70px;padding:3px;font-size:12px;margin:0;min-height:auto}
+.cal select{width:auto;padding:3px 5px;font-size:11px;min-height:auto;margin:0}
+.lbl{font-size:10.5px;color:#8899cc}
+.genstat{font-size:11px;color:#33ff88;margin:2px 0}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:96px;background:rgba(51,255,136,.94);color:#04140a;font-weight:bold;font-size:13px;padding:8px 16px;border-radius:18px;z-index:99;opacity:0;transition:opacity .2s;pointer-events:none;max-width:92%;text-align:center}
+.toast.show{opacity:1}
+.toast.bad{background:rgba(255,190,90,.96)}
+.hud{position:fixed;bottom:2px;left:6px;font-family:monospace;font-size:9px;color:rgba(150,180,255,.3);z-index:60;pointer-events:none}
+</style>
+</head>
+<body>
+
+<div class="errbar" id="errbar"></div>
+<script>
+/* first thing on the page: if anything below dies, show it instead of failing silently */
+window.onerror=function(msg,src,line,col){
+  var e=document.getElementById('errbar');
+  if(e){e.className='errbar show';e.textContent='⚠️ JS error line '+line+':'+col+' — '+msg;}
+  return false;
+};
+</script>
+
+<div class="tabs">
+  <button id="modeSplit" class="active">🎳 Split</button>
+  <button id="modeCount">📏 Count</button>
+  <button id="modeGen">🧪 Test</button>
+  <button id="btnOpts" class="gear">⚙</button>
+</div>
+
+<div class="panel">
+  <textarea id="inputText" rows="6" placeholder="👆 Paste here — splits itself"></textarea>
+  <div class="row">
+    <button class="mini" id="btnPaste">📥 Paste</button>
+    <button class="mini" id="btnClearInput">✕ Clear</button>
+    <button class="mini" id="btnRefresh">🔄</button>
+    <button class="info-btn" id="btnSplitInfo">?</button>
+  </div>
+  <div class="strip" id="strip">Paste text — it splits automatically</div>
+
+  <div class="info-box" id="splitInfoBox">
+    <strong>🎳 Verified limits</strong><br><br>
+    <strong>🟣 CLAUDE APP — Clean mode</strong><br>
+    Below the point where a paste becomes an attachment.<br>
+    <b style="color:#33ff88">4,038 ✅ · 4,039 ❌</b> — bisected, at ~45 lines, 10% emoji.<br>
+    Earlier: ~3,969 ch at ~74 lines <b>failed</b>. Fewer chars,<br>
+    more lines, still failed → <strong>line count is a real second<br>
+    constraint</strong>. The max preset pairs 4,038 with 45 lines;<br>
+    that exact pair is the only fully verified one.<br>
+    4,038 isn't round in chars, bytes or codepoints, so this<br>
+    likely isn't a plain buffer. Emoji are 2 UTF-16 units but<br>
+    4 UTF-8 bytes — re-run at 0% emoji for a clean number.<br><br>
+    <strong>🟠 DEEPSEEK PASTE — Raw mode</strong><br>
+    <b style="color:#33ff88">163,840 ✅ · 163,841 ❌</b> = exactly 160 KiB.<br>
+    Sits inside the earlier 163,823 ✅ / 163,873 ❌ bracket, so<br>
+    two independent runs agree. At max: 1,884 lines, 26,738 words.<br>
+    <b style="color:#ff5555">165K and 168K are above the ceiling</b> — they cannot pass<br>
+    a paste. Kept greyed only because a reported 280K single-line<br>
+    emoji paste contradicts a flat cap and needs re-testing.<br><br>
+    <strong>🔵 URL FETCH</strong><br>
+    75K GitHub #readme · 65K raw URL · 40K universal.<br>
+    Perplexity: paste 40,130, cannot fetch URLs.<br><br>
+    <strong>MODES</strong><br>
+    Clean = byte-for-byte, nothing added, ever.<br>
+    Raw = 🎳 n/N label + --- + anchor (DeepSeek).<br>
+    Deploy = full .md with nav headers.<br><br>
+    ⚠️ Fresh instance for every calibration test.
+  </div>
+
+  <div id="optPanel">
+    <div class="row" style="margin-top:6px">
+      <span class="rl">Mode</span>
+      <select id="outputMode" style="width:auto;padding:4px 6px;font-size:12px;min-height:auto;margin:0">
+        <option value="clean" selected>Clean (nothing added)</option>
+        <option value="raw">Raw</option>
+        <option value="deploy">Deploy</option>
+      </select>
+    </div>
+    <div class="opt"><input type="checkbox" id="optAutoSplit" checked><label for="optAutoSplit">⚡ Split automatically</label></div>
+    <div class="opt"><input type="checkbox" id="optAutoCopy" checked><label for="optAutoCopy">📋 Auto-copy part 1 on paste</label></div>
+    <div class="opt"><input type="checkbox" id="optLineCap" checked><label for="optLineCap">Max lines / chunk:</label><input type="number" id="lineCapValue" value="45" min="1" max="99999"></div>
+    <div class="opt"><input type="checkbox" id="optShowChunks"><label for="optShowChunks">Show chunk boxes</label></div>
+
+    <div class="row" style="margin-top:5px"><span class="rl" style="color:#cc99ff">🟣 Claude</span>
+      <button class="preset-btn" data-limit="4038" data-lines="45">4038</button><span class="ref" style="color:#33ff88">verified</span>
+      <button class="preset-btn" data-limit="3900" data-lines="70">3900</button><span class="ref" style="color:#ffaa33">wide</span>
+      <button class="preset-btn" data-limit="3200" data-lines="40">3200</button>
+    </div>
+    <div class="row"><span class="rl" style="color:#ffaa33">🟠 Paste</span>
+      <button class="preset-btn" data-limit="163840" data-lines="0">163840</button><span class="ref" style="color:#33ff88">verified</span>
+      <button class="preset-btn" data-limit="163000" data-lines="0">163K</button>
+      <button class="preset-btn dead" data-limit="165000" data-lines="0">165K✗</button>
+      <button class="preset-btn dead" data-limit="168000" data-lines="0">168K✗</button>
+    </div>
+    <div class="row"><span class="rl" style="color:#88aaff">🔵 Fetch</span>
+      <button class="preset-btn" data-limit="75000" data-lines="0">75K</button>
+      <button class="preset-btn" data-limit="65000" data-lines="0">65K</button>
+      <button class="preset-btn" data-limit="40000" data-lines="0">40K</button>
+      <button class="preset-btn" data-limit="custom" id="btnCustom">✎</button>
+    </div>
+    <div id="customRow" style="display:none"><input type="number" id="customLimit" value="4038" placeholder="Custom chars..."></div>
+
+    <div class="deploy-only" id="deployFilename">
+      <div class="row" style="margin-top:4px">
+        <span class="rl">Name</span>
+        <input type="text" id="baseFilename" value="STANDARDS" style="flex:1;margin:0;font-size:13px;padding:5px">
+        <span class="lbl">.md</span>
+      </div>
+      <div class="lbl" id="filenamePreview"></div>
+      <div class="lbl" id="deployOverheadNote"></div>
+      <button id="btnHeaderSettings" class="mini">⚙️ Header</button>
+      <div id="headerSettings" style="display:none;margin-top:4px;padding:5px 7px;background:rgba(0,0,0,.3);border-radius:6px">
+        <div class="lbl">Base URL</div>
+        <input type="text" id="baseUrl" value="source-sepia-alpha.vercel.app" style="font-size:12px;padding:4px">
+        <div class="lbl">Folder</div>
+        <input type="text" id="folderPath" value="SPLIT" style="font-size:12px;padding:4px">
+        <div class="lbl">Source path</div>
+        <input type="text" id="sourcePath" value="BUILDER" style="font-size:12px;padding:4px">
+        <div class="lbl">Title format</div>
+        <input type="text" id="titleFormat" value="## 🏠 [FILE] — Part [N] of [TOTAL]" style="font-size:12px;padding:4px">
+      </div>
+    </div>
+  </div>
+
+  <button class="act" id="btnAction">📋 Copy part 1</button>
+</div>
+
+<div class="panel" id="panelOutput" style="display:none">
+  <div class="row" style="justify-content:space-between">
+    <strong id="outputLabel" style="font-size:12px">Chunks</strong>
+    <span>
+      <button class="mini" id="btnToggleChunks">▾ boxes</button>
+      <button class="mini" id="btnCopyAll">📋 All</button>
+      <button class="mini" id="btnClear">✕</button>
+    </span>
+  </div>
+  <div id="chunksContainer"></div>
+</div>
+
+<div class="panel" id="panelCount" style="display:none">
+  <div class="row" style="justify-content:space-between;margin-bottom:4px">
+    <span><strong style="font-size:12px">Stats</strong> <button class="info-btn" id="btnCountInfo">?</button></span>
+    <span><button class="mini" id="btnRefresh2">🔄 Refresh</button><button class="mini" id="btnCopyStats">📋 Stats</button></span>
+  </div>
+  <div class="info-box" id="countInfoBox">
+    Live on input, on 🔄, and on a 400ms safety poll.<br><br>
+    <strong>REFERENCE MAXIMA</strong><br>
+    Claude app message: 4,038 ch (at ~45 lines).<br>
+    DeepSeek paste: 163,840 ch · 1,884 ln · 26,738 w.<br><br>
+    Line count constrains both platforms independently<br>
+    of characters — watch the ch/ln figure. Under 40<br>
+    ch/line means many lines per chunk, so the line cap<br>
+    will bind before the character limit does.
+  </div>
+  <div class="info-row" id="countStats"></div>
+</div>
+
+<div class="panel" id="panelGen" style="display:none">
+  <div class="row" style="justify-content:space-between">
+    <label style="font-size:13px">Target size (chars)</label>
+    <button class="info-btn" id="btnTestInfo">?</button>
+  </div>
+  <div class="info-box" id="testInfoBox">
+    <strong>🧪 Calibration</strong><br><br>
+    Files regenerate automatically when you change any<br>
+    setting — nothing to remember. The target box is never<br>
+    overwritten; the suggested next size sits beside it<br>
+    with a → button to accept it.<br>
+    ✅/❌ record the <strong>generated file's real length</strong>, not the<br>
+    input box, so editing the field can't corrupt a result.<br><br>
+    <strong>METHOD</strong><br>
+    1. Copy from the dock, paste into the target app.<br>
+    2. Tap ✅ inline / ❌ attached (or failed).<br>
+    3. Take the suggested size. Repeat until gap = 1.<br>
+    4. ⬆ Use as preset.<br><br>
+    <strong>ISOLATE LINES FROM CHARS</strong><br>
+    Re-run at ~20 ch/line. If the passing char count<br>
+    collapses, lines are the binding trigger. Claude's<br>
+    4,038 was measured at ~45 lines; ~3,969 at ~74 lines<br>
+    failed, so lines already look load-bearing.<br><br>
+    <strong>EMOJI = 0% BY DEFAULT</strong><br>
+    Emoji are 2 UTF-16 units but 4 UTF-8 bytes, so they<br>
+    make a char-count measurement encoding-dependent.<br><br>
+    ⚠️ Fresh instance for EVERY test.
+  </div>
+  <div class="row">
+    <input type="number" id="genSize" value="4038" min="100" max="1000000" style="flex:1;margin:0">
+    <button class="mini" id="btnUseNext">→ <span id="nextSizeLbl">4038</span></button>
+  </div>
+  <div class="row" style="margin-top:4px">
+    <span class="rl">Lines</span>
+    <select id="lineDensity" style="width:auto;padding:4px;font-size:12px;min-height:auto;margin:0">
+      <option value="0">none</option><option value="80">~80</option><option value="73" selected>~73</option><option value="40">~40</option><option value="20">~20</option><option value="custom">✎</option>
+    </select>
+    <input type="number" id="customLineDensity" value="73" min="1" max="500" style="width:52px;padding:4px;font-size:12px;min-height:auto;display:none;margin:0">
+    <span class="rl">Emoji</span>
+    <select id="emojiPercent" style="width:auto;padding:4px;font-size:12px;min-height:auto;margin:0">
+      <option value="0" selected>0%</option><option value="5">5%</option><option value="10">10%</option><option value="25">25%</option><option value="50">50%</option><option value="100">100%</option><option value="custom">✎</option>
+    </select>
+    <input type="number" id="customEmojiPercent" value="10" min="0" max="100" style="width:48px;padding:4px;font-size:12px;min-height:auto;display:none;margin:0">
+    <button class="mini" id="btnToggleLog">📝</button>
+  </div>
+  <div class="genstat" id="genStat">—</div>
+  <div class="log-panel" id="logPanel"><div id="logContent"></div></div>
+
+  <div class="cal">
+    <div class="row" style="justify-content:space-between">
+      <h4>🎯 Threshold</h4>
+      <select id="calTarget">
+        <option value="claude" selected>Claude app</option>
+        <option value="deepseek">DeepSeek paste</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <div class="v" id="calState"></div>
+    <div class="row" style="margin-top:4px">
+      <button class="mini" id="calPass" style="background:rgba(51,255,136,.2);color:#33ff88">✅ Passed</button>
+      <button class="mini" id="calFail" style="background:rgba(255,90,90,.2);color:#ff8888">❌ Failed</button>
+      <button class="mini" id="calUse">⬆ Use as preset</button>
+      <button class="mini" id="calReset">↺</button>
+    </div>
+    <div class="row" style="margin-top:6px;border-top:1px solid rgba(100,140,255,.15);padding-top:6px">
+      <span class="lbl">real paste: part 1</span>
+      <input type="number" id="calPart1" placeholder="0">
+      <span class="lbl">+ extra that fit</span>
+      <input type="number" id="calExtra" placeholder="0">
+      <button class="mini" id="calRecord">Record</button>
+    </div>
+  </div>
+</div>
+
+<div class="dock" id="dock">
+  <div class="pills" id="pills"></div>
+  <div class="dockrow">
+    <button class="next-btn" id="btnCopyNext">📋 Copy</button>
+    <button class="mini" id="btnDockUp">▲</button>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+<div class="hud">BUILD <span id="buildNumber"></span> <span id="buildEmoji"></span></div>
+
+<script>
+/* ---------- clipboard ---------- */
+function copyText(t,cb,fail){
+  if(navigator.clipboard&&window.isSecureContext){
+    navigator.clipboard.writeText(t).then(function(){if(cb)cb();})
+      .catch(function(){if(fallbackCopy(t)){if(cb)cb();}else if(fail){fail();}});
+    return;
+  }
+  if(fallbackCopy(t)){if(cb)cb();}else if(fail){fail();}
+}
+function fallbackCopy(t){
+  var ta=document.createElement('textarea');ta.value=t;
+  ta.style.position='fixed';ta.style.left='-9999px';ta.style.top='0';
+  document.body.appendChild(ta);ta.focus();ta.select();
+  var ok=false;try{ok=document.execCommand('copy');}catch(e){ok=false;}
+  document.body.removeChild(ta);return ok;
+}
+function toast(m,bad){
+  var t=document.getElementById('toast');t.textContent=m;
+  t.className='toast show'+(bad?' bad':'');
+  clearTimeout(t._t);t._t=setTimeout(function(){t.classList.remove('show');},1800);
+}
+
+/* ---------- build ---------- */
+(function(){
+  var s=localStorage.getItem('ff_build');
+  var b=s?parseInt(s)+Math.floor(Math.random()*5)+1:Math.floor(10000+Math.random()*90000);
+  localStorage.setItem('ff_build',b);
+  document.getElementById('buildNumber').textContent=b;
+  var e=['🎳','✨','🫧','💎','🧩','🪜','🔮','🖕','🌱','🔥','🧪','📋','📏','🎯','⭐'],p='';
+  for(var i=0;i<4;i++)p+=e[Math.floor(Math.random()*e.length)];
+  document.getElementById('buildEmoji').textContent=p;
+})();
+
+/* ---------- refs ---------- */
+var $=function(id){return document.getElementById(id);};
+var inputText=$('inputText'),chunksContainer=$('chunksContainer'),panelOutput=$('panelOutput'),
+panelCount=$('panelCount'),panelGen=$('panelGen'),outputLabel=$('outputLabel'),customRow=$('customRow'),
+customLimitInput=$('customLimit'),countStats=$('countStats'),btnAction=$('btnAction'),
+btnCopyNext=$('btnCopyNext'),strip=$('strip'),baseFilename=$('baseFilename'),
+filenamePreview=$('filenamePreview'),deployOverheadNote=$('deployOverheadNote'),outputMode=$('outputMode'),
+deployFilename=$('deployFilename'),optAutoSplit=$('optAutoSplit'),optAutoCopy=$('optAutoCopy'),
+optLineCap=$('optLineCap'),lineCapValue=$('lineCapValue'),optShowChunks=$('optShowChunks'),
+optPanel=$('optPanel'),dock=$('dock'),pills=$('pills'),genStat=$('genStat');
+
+var AUTO_MAX=400000;
+var mode='split',limit=4038,isCustom=false,lastOutputs=[],copyIndex=0,
+    lastVal=null,pendingIdx=null,splitTimer=null,genTimer=null,
+    lastGen={size:0,lines:0,density:0,emoji:0};
+var modeBtns={split:$('modeSplit'),count:$('modeCount'),gen:$('modeGen')};
+
+/* ---------- settings ---------- */
+function loadSettings(){
+  var l=localStorage.getItem('ff_limit');if(l)limit=parseInt(l)||4038;
+  var om=localStorage.getItem('ff_outmode');if(om)outputMode.value=om;
+  var lc=localStorage.getItem('ff_linecap');
+  if(lc!==null){optLineCap.checked=lc!=='0';if(lc!=='0')lineCapValue.value=lc;}
+  var as=localStorage.getItem('ff_autosplit');if(as!==null)optAutoSplit.checked=as==='1';
+  var ac=localStorage.getItem('ff_autocopy');if(ac!==null)optAutoCopy.checked=ac==='1';
+  var sc=localStorage.getItem('ff_showchunks');if(sc!==null)optShowChunks.checked=sc==='1';
+  var fn=localStorage.getItem('ff_filename');if(fn)baseFilename.value=fn;
+}
+function saveSettings(){
+  localStorage.setItem('ff_limit',limit);
+  localStorage.setItem('ff_outmode',outputMode.value);
+  localStorage.setItem('ff_linecap',optLineCap.checked?(parseInt(lineCapValue.value)||0):0);
+  localStorage.setItem('ff_autosplit',optAutoSplit.checked?'1':'0');
+  localStorage.setItem('ff_autocopy',optAutoCopy.checked?'1':'0');
+  localStorage.setItem('ff_showchunks',optShowChunks.checked?'1':'0');
+}
+function restoreActivePreset(){
+  var m=false;
+  var all=document.querySelectorAll('.preset-btn');
+  for(var i=0;i<all.length;i++){
+    all[i].classList.remove('active');
+    if(all[i].dataset.limit!=='custom'&&parseInt(all[i].dataset.limit)===limit){
+      all[i].classList.add('active');m=true;}
+  }
+  if(!m){$('btnCustom').classList.add('active');isCustom=true;
+    customRow.style.display='block';customLimitInput.value=limit;}
+}
+
+/* ---------- limits ---------- */
+function currentLineCap(){
+  if(!optLineCap.checked)return 0;
+  var v=parseInt(lineCapValue.value);
+  return v>0?v:0;
+}
+function deployOverhead(){
+  var bu=$('baseUrl').value.trim()||'source-sepia-alpha.vercel.app';
+  var fo=$('folderPath').value.trim()||'SPLIT';
+  var sp=$('sourcePath').value.trim()||'BUILDER';
+  var tf=$('titleFormat').value.trim()||'## 🏠 [FILE] — Part [N] of [TOTAL]';
+  var fn=baseFilename.value.trim()||'FILE';
+  var sn=fn+'-SPLIT999';
+  var nav='← '+fn+'-SPLIT998.md · 999 of 999 · Next: '+fn+'-SPLIT1000.md →';
+  var ti=tf.replace('[FILE]',fn).replace('[N]','999').replace('[TOTAL]','999');
+  var h='🔗 📋 '+sn+'.md\nhttps://'+bu+'/'+fo+'/'+sn+'.md\n\n🔗 REVisions. Load both, see the full picture.\n→ Current: '+fn+'.md\nhttps://'+bu+'/'+sp+'/'+fn+'.md\n\n'+ti+'\n\n'+nav+'\n\n\n\n---\n'+nav+'\n♦️'+sn+'-99999\n';
+  return h.length+32;
+}
+function effectiveLimit(){
+  if(outputMode.value==='deploy')return Math.max(500,limit-deployOverhead());
+  if(outputMode.value==='raw')return Math.max(100,limit-48);
+  return limit;
+}
+
+/* ---------- splitter (sequential, lossless) ---------- */
+function buildChunks(text,eff,maxLines){
+  var out=[],total=text.length,pos=0,guard=0;
+  while(pos<total&&guard++<200000){
+    var end=Math.min(pos+eff,total);
+    if(end<total){
+      var nl=text.lastIndexOf('\n',end-1);
+      if(nl>pos)end=nl+1;
+    }
+    if(maxLines>0){
+      var c=0,cut=-1;
+      for(var i=pos;i<end;i++){
+        if(text.charCodeAt(i)===10){c++;if(c===maxLines){cut=i+1;break;}}
+      }
+      if(cut>pos&&cut<end)end=cut;
+    }
+    if(end<=pos)end=Math.min(pos+eff,total);
+    out.push(text.substring(pos,end));
+    pos=end;
+  }
+  return out;
+}
+function srcText(){return inputText.value.trim();}
+function wordCount(t){var m=t.trim().match(/\S+/g);return m?m.length:0;}
+function density(t){var l=t.split('\n');return l.length<2?0:Math.round(t.length/l.length);}
+
+/* ---------- stats + auto-split ---------- */
+function updateStrip(){
+  var t=srcText();
+  if(!t){strip.textContent='Paste text — it splits automatically';return;}
+  if(t.length>AUTO_MAX){
+    strip.innerHTML='<b>'+t.length.toLocaleString()+'</b> ch · '+
+      t.split('\n').length.toLocaleString()+' ln — too large for live preview, tap 🔄';
+    return;
+  }
+  var ch=buildChunks(t,effectiveLimit(),currentLineCap());
+  var p1=ch[0]||'';
+  var note='',cls='ok',maxC=0;
+  if(limit<=10000){
+    for(var i=0;i<ch.length;i++)if(ch[i].length>maxC)maxC=ch[i].length;
+    note='largest <b>'+maxC.toLocaleString()+'</b> ch';
+  }else{
+    var d=density(t);
+    if(d>60){note='✅ safe';}
+    else if(d>=40){note='⚠️ dense in lines';cls='warn';}
+    else if(d>0){note='⚠️ very many lines';cls='risk';}
+  }
+  strip.innerHTML='<b>'+t.length.toLocaleString()+'</b> ch · <b>'+wordCount(t).toLocaleString()+
+    '</b> w · <b>'+t.split('\n').length.toLocaleString()+'</b> ln · ~'+density(t)+
+    ' ch/ln → <b>'+ch.length+'</b> chunks ('+outputMode.value+')'+
+    '<br><span class="p1">part 1: <b>'+p1.length.toLocaleString()+'</b> ch / <b>'+
+    (p1?p1.split('\n').length:0)+'</b> ln</span> · <span class="'+cls+'">'+note+'</span>';
+}
+function updateCount(){
+  var t=inputText.value;
+  var sec=(t.match(/^##\s+/gm)||[]).length;
+  countStats.innerHTML='<span>📏 <strong>'+t.length.toLocaleString()+'</strong> chars</span>'+
+    '<span>🔤 <strong>'+wordCount(t).toLocaleString()+'</strong> words</span>'+
+    '<span>📄 <strong>'+t.split('\n').length.toLocaleString()+'</strong> lines</span>'+
+    '<span>📐 ~<strong>'+density(t)+'</strong> ch/ln</span>'+
+    (sec>0?'<span>📑 <strong>'+sec+'</strong> sections</span>':'');
+}
+function updateFilenamePreview(){
+  var fn=baseFilename.value.trim()||'FILE';
+  var t=srcText();
+  if(t&&t.length<=AUTO_MAX){
+    var n=buildChunks(t,effectiveLimit(),currentLineCap()).length,p='';
+    for(var i=1;i<=Math.min(n,3);i++)p+=fn+'-SPLIT'+i+'.md ';
+    if(n>3)p+='+ '+(n-3)+' more';
+    filenamePreview.textContent=p;
+    deployOverheadNote.textContent='~'+deployOverhead()+' ch/chunk header (measured)';
+  }else{
+    filenamePreview.textContent='';
+    deployOverheadNote.textContent='';
+  }
+}
+function autoSplit(){
+  if(!optAutoSplit.checked||mode!=='split')return;
+  var t=srcText();
+  if(!t){
+    lastOutputs=[];copyIndex=0;chunksContainer.innerHTML='';
+    panelOutput.style.display='none';dock.classList.remove('show');
+    return;
+  }
+  if(t.length>AUTO_MAX)return;
+  renderOutputs(makeOutputs(t));
+  if(pendingIdx!==null){copyIndex=pendingIdx;pendingIdx=null;paintPills();}
+}
+function syncNow(force){
+  var v=inputText.value;
+  if(!force&&v===lastVal)return;
+  lastVal=v;
+  updateCount();
+  clearTimeout(splitTimer);
+  splitTimer=setTimeout(function(){
+    updateStrip();updateFilenamePreview();autoSplit();
+  },220);
+}
+(function(){
+  var evs=['input','keyup','change','cut','paste','blur','focus'];
+  for(var i=0;i<evs.length;i++){
+    inputText.addEventListener(evs[i],function(){
+      setTimeout(function(){syncNow();},0);
+    });
+  }
+})();
+setInterval(function(){syncNow();},400);
+$('btnRefresh').addEventListener('click',function(){syncNow(true);toast('🔄 Refreshed');});
+$('btnRefresh2').addEventListener('click',function(){syncNow(true);toast('🔄 Refreshed');});
+
+/* ---------- modes ---------- */
+(function(){
+  var keys=['split','count','gen'];
+  for(var i=0;i<keys.length;i++){
+    (function(k){
+      modeBtns[k].addEventListener('click',function(){switchMode(k);});
+    })(keys[i]);
+  }
+})();
+function switchMode(m){
+  mode=m;
+  modeBtns.split.classList.remove('active');
+  modeBtns.count.classList.remove('active');
+  modeBtns.gen.classList.remove('active');
+  modeBtns[m].classList.add('active');
+  panelCount.style.display='none';
+  panelGen.style.display='none';
+  if(m==='split'){
+    btnAction.style.display='block';btnAction.textContent='📋 Copy part 1';
+  }else if(m==='count'){
+    btnAction.style.display='none';panelCount.style.display='block';
+  }else{
+    btnAction.style.display='block';btnAction.textContent='🧪 Regenerate';
+    panelGen.style.display='block';renderCal();queueGen();
+  }
+  syncNow(true);
+}
+$('btnOpts').addEventListener('click',function(){
+  optPanel.classList.toggle('show');this.classList.toggle('on');
+});
+outputMode.addEventListener('change',function(){
+  deployFilename.classList.toggle('show',this.value==='deploy');
+  saveSettings();syncNow(true);
+});
+optAutoSplit.addEventListener('change',function(){saveSettings();syncNow(true);});
+optAutoCopy.addEventListener('change',function(){saveSettings();syncNow(true);});
+optLineCap.addEventListener('change',function(){saveSettings();syncNow(true);});
+optShowChunks.addEventListener('change',function(){
+  saveSettings();chunksContainer.classList.toggle('show',optShowChunks.checked);
+});
+lineCapValue.addEventListener('input',function(){saveSettings();syncNow(true);});
+baseFilename.addEventListener('input',function(){
+  updateFilenamePreview();localStorage.setItem('ff_filename',baseFilename.value);
+});
+$('btnHeaderSettings').addEventListener('click',function(){
+  var p=$('headerSettings');
+  p.style.display=p.style.display==='none'?'block':'none';
+});
+$('btnSplitInfo').addEventListener('click',function(){$('splitInfoBox').classList.toggle('show');});
+$('btnCountInfo').addEventListener('click',function(){$('countInfoBox').classList.toggle('show');});
+$('btnTestInfo').addEventListener('click',function(){$('testInfoBox').classList.toggle('show');});
+$('btnClearInput').addEventListener('click',function(){inputText.value='';syncNow(true);});
+$('btnToggleLog').addEventListener('click',function(){
+  var p=$('logPanel');
+  p.style.display=p.style.display==='none'?'block':'none';
+});
+function addLog(m,t){
+  var lc=$('logContent'),e=document.createElement('div');
+  e.className='log-entry'+(t?' '+t:'');
+  e.textContent=m;
+  lc.appendChild(e);lc.scrollTop=lc.scrollHeight;
+}
+function clearLog(){$('logContent').innerHTML='';}
+
+/* ---------- presets ---------- */
+(function(){
+  var all=document.querySelectorAll('.preset-btn');
+  for(var i=0;i<all.length;i++){
+    all[i].addEventListener('click',function(){
+      var others=document.querySelectorAll('.preset-btn');
+      for(var j=0;j<others.length;j++)others[j].classList.remove('active');
+      this.classList.add('active');
+      var l=this.dataset.limit;
+      if(l==='custom'){
+        isCustom=true;customRow.style.display='block';
+        customLimitInput.value=limit;customLimitInput.focus();
+      }else{
+        isCustom=false;customRow.style.display='none';
+        limit=parseInt(l);
+        var ln=parseInt(this.dataset.lines||'0');
+        if(ln>0){optLineCap.checked=true;lineCapValue.value=ln;}
+        else{optLineCap.checked=false;}
+        if(this.classList.contains('dead'))toast('Above the verified ceiling — expected to fail',true);
+      }
+      saveSettings();syncNow(true);
+    });
+  }
+})();
+customLimitInput.addEventListener('input',function(){
+  if(isCustom){limit=parseInt(this.value)||4038;saveSettings();syncNow(true);}
+});
+
+/* ---------- paste ---------- */
+$('btnPaste').addEventListener('click',function(){
+  if(!navigator.clipboard||!navigator.clipboard.readText){
+    toast('Long-press the box → Paste',true);inputText.focus();return;
+  }
+  navigator.clipboard.readText().then(function(t){
+    if(!t){toast('Clipboard empty',true);return;}
+    inputText.value=t;lastVal=t;
+    updateCount();updateStrip();updateFilenamePreview();
+    renderOutputs(makeOutputs(srcText()));
+    if(optAutoCopy.checked&&lastOutputs.length){
+      copyText(lastOutputs[0],function(){
+        copyIndex=1;paintPills();
+        toast('✅ Part 1/'+lastOutputs.length+' copied');
+      },function(){toast('Tap Copy 1',true);});
+    }
+  }).catch(function(){
+    toast('Blocked — long-press box → Paste',true);inputText.focus();
+  });
+});
+inputText.addEventListener('paste',function(e){
+  if(!optAutoCopy.checked||mode!=='split')return;
+  var p='';
+  try{p=(e.clipboardData||window.clipboardData).getData('text');}catch(err){p='';}
+  if(!p)return;
+  var all=inputText.selectionStart===0&&inputText.selectionEnd===inputText.value.length;
+  var combined=(inputText.value===''||all)?p:(inputText.value+p);
+  var outs=makeOutputs(combined.trim());
+  if(!outs.length)return;
+  copyText(outs[0],function(){toast('✅ Part 1/'+outs.length+' copied');},
+    function(){toast('Tap Copy 1 in the bar',true);});
+  pendingIdx=1;
+  setTimeout(function(){syncNow(true);},0);
+});
+
+/* ---------- outputs ---------- */
+function makeOutputs(text){
+  if(!text)return [];
+  var chunks=buildChunks(text,effectiveLimit(),currentLineCap());
+  var num=chunks.length;
+  var fn=baseFilename.value.trim()||'FILE';
+  var m=outputMode.value;
+  var anchor=Math.floor(10000+Math.random()*90000);
+  var out=[];
+  for(var i=0;i<num;i++){
+    var body=chunks[i],n=i+1,last=(n===num);
+    if(m==='clean'){out.push(body);continue;}
+    if(m==='raw'){
+      var lab=limit>=100000?'PASTE':(limit>=70000?'REPO':(limit>=10000?'FETCH':'MSG'));
+      out.push('🎳 '+n+'/'+num+' '+lab+'\n'+body+(last?'\nCHUNK-ANCHOR: '+anchor:'\n---'));
+      continue;
+    }
+    var bu=$('baseUrl').value.trim()||'source-sepia-alpha.vercel.app';
+    var fo=$('folderPath').value.trim()||'SPLIT';
+    var sp=$('sourcePath').value.trim()||'BUILDER';
+    var tf=$('titleFormat').value.trim()||'## 🏠 [FILE] — Part [N] of [TOTAL]';
+    var sn=fn+'-SPLIT'+n,nav;
+    if(num===1)nav=sn+'.md · 1 of 1';
+    else if(n===1)nav=sn+'.md · 1 of '+num+' · Next: '+fn+'-SPLIT2.md →';
+    else if(last)nav='← '+fn+'-SPLIT'+(n-1)+'.md · '+n+' of '+num+' · END';
+    else nav='← '+fn+'-SPLIT'+(n-1)+'.md · '+n+' of '+num+' · Next: '+fn+'-SPLIT'+(n+1)+'.md →';
+    var ti=tf.replace('[FILE]',fn).replace('[N]',n).replace('[TOTAL]',num);
+    out.push('🔗 📋 '+sn+'.md\nhttps://'+bu+'/'+fo+'/'+sn+
+      '.md\n\n🔗 REVisions. Load both, see the full picture.\n→ Current: '+fn+
+      '.md\nhttps://'+bu+'/'+sp+'/'+fn+'.md\n\n'+ti+'\n\n'+nav+'\n\n'+body+
+      '\n\n---\n'+nav+'\n♦️'+sn+'-'+anchor+'\n');
+  }
+  return out;
+}
+function renderOutputs(outs){
+  lastOutputs=outs;copyIndex=0;chunksContainer.innerHTML='';
+  if(!outs.length){panelOutput.style.display='none';dock.classList.remove('show');return;}
+  panelOutput.style.display='block';
+  dock.classList.add('show');
+  chunksContainer.classList.toggle('show',optShowChunks.checked);
+  var fn=baseFilename.value.trim()||'FILE';
+  var dep=outputMode.value==='deploy';
+  var totalOut=0;
+  for(var k=0;k<outs.length;k++)totalOut+=outs[k].length;
+  outputLabel.textContent=outs.length+' chunks • '+totalOut.toLocaleString()+' ch out';
+  for(var i=0;i<outs.length;i++){
+    (function(o,i){
+      var n=i+1,last=(n===outs.length);
+      var div=document.createElement('div');
+      div.className='chunk-box';div.dataset.idx=i;
+      var head=document.createElement('div');head.className='chunk-label';
+      var sp=document.createElement('span');
+      sp.textContent=(dep?fn+'-SPLIT'+n+'.md':'Chunk '+n+'/'+outs.length)+' • '+
+        o.length.toLocaleString()+' ch • '+o.split('\n').length+' ln'+(last?' • FINAL':'');
+      var cb=document.createElement('button');
+      cb.className='chunk-copy-btn';cb.textContent='📋';
+      head.appendChild(sp);head.appendChild(cb);
+      var ta=document.createElement('textarea');
+      ta.rows=5;ta.readOnly=true;ta.value=o;
+      div.appendChild(head);div.appendChild(ta);
+      cb.addEventListener('click',function(e){e.stopPropagation();copyOne(i);});
+      ta.addEventListener('click',function(){this.select();});
+      chunksContainer.appendChild(div);
+    })(outs[i],i);
+  }
+  paintPills();
+}
+function paintPills(){
+  pills.innerHTML='';
+  for(var i=0;i<lastOutputs.length;i++){
+    (function(i){
+      var b=document.createElement('button');
+      b.className='pill';b.textContent=i+1;
+      if(i<copyIndex)b.classList.add('done');
+      if(i===copyIndex)b.classList.add('next');
+      b.addEventListener('click',function(){copyOne(i);});
+      pills.appendChild(b);
+    })(i);
+  }
+  var boxes=chunksContainer.querySelectorAll('.chunk-box');
+  for(var j=0;j<boxes.length;j++)boxes[j].classList.toggle('done',j<copyIndex);
+  var n=lastOutputs.length;
+  if(!n)btnCopyNext.textContent='📋 Copy';
+  else if(copyIndex>=n)btnCopyNext.textContent='✅ all '+n+' done — tap to reset';
+  else btnCopyNext.textContent='📋 Copy '+(copyIndex+1)+' / '+n;
+}
+function copyOne(i){
+  copyText(lastOutputs[i],function(){
+    copyIndex=i+1;paintPills();
+    toast('✅ '+(i+1)+'/'+lastOutputs.length+' copied');
+  },function(){
+    toast('Copy blocked — open boxes & select',true);
+  });
+}
+btnCopyNext.addEventListener('click',function(){
+  if(!lastOutputs.length)return;
+  if(copyIndex>=lastOutputs.length){copyIndex=0;paintPills();return;}
+  copyOne(copyIndex);
+});
+$('btnDockUp').addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
+$('btnToggleChunks').addEventListener('click',function(){
+  optShowChunks.checked=!optShowChunks.checked;
+  saveSettings();
+  chunksContainer.classList.toggle('show',optShowChunks.checked);
+  this.textContent=optShowChunks.checked?'▴ boxes':'▾ boxes';
+});
+$('btnCopyAll').addEventListener('click',function(){
+  copyText(lastOutputs.join('\n\n'),function(){toast('✅ All copied');});
+});
+$('btnClear').addEventListener('click',function(){
+  chunksContainer.innerHTML='';panelOutput.style.display='none';
+  dock.classList.remove('show');lastOutputs=[];copyIndex=0;
+});
+$('btnCopyStats').addEventListener('click',function(){
+  var t=inputText.value;
+  copyText('Chars: '+t.length.toLocaleString()+' | Words: '+wordCount(t).toLocaleString()+
+    ' | Lines: '+t.split('\n').length.toLocaleString()+' | Density: ~'+density(t)+
+    ' ch/ln | Limit: '+limit.toLocaleString(),function(){toast('✅ Stats copied');});
+});
+btnAction.addEventListener('click',function(){
+  if(mode==='gen'){generateTestFile();return;}
+  if(!srcText()){toast('Paste something first',true);return;}
+  if(!lastOutputs.length)renderOutputs(makeOutputs(srcText()));
+  if(lastOutputs.length)copyOne(0);
+});
+
+/* ---------- calibration (per platform) ---------- */
+var CAL_SEED={
+  claude:{good:4038,bad:4039,goodLines:45,note:'bisected · 10% emoji'},
+  deepseek:{good:163840,bad:163841,goodLines:0,note:'160 KiB exactly · 1,884 ln · 26,738 w'},
+  other:{}
+};
+function calKey(){return 'ff_cal_'+$('calTarget').value;}
+function cal(){
+  try{return JSON.parse(localStorage.getItem(calKey()))||{};}catch(e){return {};}
+}
+function setCal(c){localStorage.setItem(calKey(),JSON.stringify(c));renderCal();}
+function nextTestSize(){
+  var c=cal();
+  if(c.good&&c.bad){
+    if(c.bad-c.good<=1)return c.good;
+    return Math.floor((c.good+c.bad)/2);
+  }
+  if(c.good)return c.good+100;
+  if(c.bad)return Math.max(200,c.bad-100);
+  return 4038;
+}
+function renderCal(){
+  var c=cal(),el=$('calState');
+  var g='—';
+  if(c.good)g='<b>'+c.good.toLocaleString()+'</b> ch'+(c.goodLines?' / '+c.goodLines+' ln':'');
+  var b='—';
+  if(c.bad)b='<b>'+c.bad.toLocaleString()+'</b> ch';
+  var solved=c.good&&c.bad&&(c.bad-c.good)<=1;
+  var s='✅ largest pass: '+g+'<br>❌ smallest fail: '+b;
+  if(solved)s+='<br><span class="solved">SOLVED → '+c.good.toLocaleString()+' ch</span>';
+  else if(c.good&&c.bad)s+=' · gap '+(c.bad-c.good).toLocaleString();
+  if(c.note)s+='<br><span class="lbl">'+c.note+'</span>';
+  el.innerHTML=s;
+  $('nextSizeLbl').textContent=nextTestSize().toLocaleString();
+  if(!$('calPart1').value&&lastOutputs.length)$('calPart1').placeholder=lastOutputs[0].length;
+}
+$('calTarget').addEventListener('change',function(){renderCal();});
+$('btnUseNext').addEventListener('click',function(){
+  $('genSize').value=nextTestSize();queueGen(true);
+});
+function recordPass(s,lines){
+  var c=cal();
+  if(!c.good||s>c.good){c.good=s;if(lines)c.goodLines=lines;c.note='';}
+  if(c.bad&&s>=c.bad)c.bad=null;
+  setCal(c);toast('✅ pass @ '+s.toLocaleString());
+}
+$('calPass').addEventListener('click',function(){
+  if(!lastGen.size){toast('Generate a file first',true);return;}
+  recordPass(lastGen.size,lastGen.lines);
+});
+$('calFail').addEventListener('click',function(){
+  if(!lastGen.size){toast('Generate a file first',true);return;}
+  var c=cal(),s=lastGen.size;
+  if(!c.bad||s<c.bad){c.bad=s;c.badLines=lastGen.lines;}
+  if(c.good&&s<=c.good)c.good=null;
+  c.note='';setCal(c);toast('❌ fail @ '+s.toLocaleString());
+});
+$('calRecord').addEventListener('click',function(){
+  var p=parseInt($('calPart1').value)||parseInt($('calPart1').placeholder)||0;
+  var x=parseInt($('calExtra').value)||0;
+  if(!p){toast('Split something first',true);return;}
+  recordPass(p+x,0);
+});
+$('calUse').addEventListener('click',function(){
+  var c=cal();
+  if(!c.good){toast('No verified pass yet',true);return;}
+  var solved=c.bad&&(c.bad-c.good)<=1;
+  limit=solved?c.good:Math.floor(c.good*0.98);
+  if(c.goodLines){optLineCap.checked=true;lineCapValue.value=c.goodLines;}
+  isCustom=true;customRow.style.display='block';customLimitInput.value=limit;
+  var all=document.querySelectorAll('.preset-btn');
+  for(var i=0;i<all.length;i++)all[i].classList.remove('active');
+  $('btnCustom').classList.add('active');
+  saveSettings();syncNow(true);
+  toast('Preset → '+limit.toLocaleString()+(solved?' (exact)':' (2% margin)'));
+});
+$('calReset').addEventListener('click',function(){
+  localStorage.removeItem(calKey());renderCal();toast('↺ reset');
+});
+(function(){
+  var keys=['claude','deepseek','other'];
+  for(var i=0;i<keys.length;i++){
+    var k=keys[i];
+    if(localStorage.getItem('ff_cal_'+k)===null){
+      var has=false;
+      for(var p in CAL_SEED[k]){has=true;break;}
+      if(has)localStorage.setItem('ff_cal_'+k,JSON.stringify(CAL_SEED[k]));
+    }
+  }
+})();
+
+/* ---------- test generator (auto) ---------- */
+function queueGen(now){
+  clearTimeout(genTimer);
+  genTimer=setTimeout(generateTestFile,now?0:400);
+}
+(function(){
+  var ids=['genSize','customLineDensity','customEmojiPercent'];
+  for(var i=0;i<ids.length;i++){
+    $(ids[i]).addEventListener('input',function(){if(mode==='gen')queueGen();});
+  }
+})();
+$('lineDensity').addEventListener('change',function(){
+  $('customLineDensity').style.display=this.value==='custom'?'inline-block':'none';
+  if(mode==='gen')queueGen(true);
+});
+$('emojiPercent').addEventListener('change',function(){
+  $('customEmojiPercent').style.display=this.value==='custom'?'inline-block':'none';
+  if(mode==='gen')queueGen(true);
+});
+function generateTestFile(){
+  var size=parseInt($('genSize').value);
+  if(!size||size<100){genStat.textContent='—';return;}
+  clearLog();
+  var dv=$('lineDensity').value;
+  var ld=dv==='custom'?(parseInt($('customLineDensity').value)||73):(parseInt(dv)||0);
+  if(dv!=='0'&&!ld)ld=73;
+  var ev=$('emojiPercent').value;
+  var epRaw=ev==='custom'?(parseInt($('customEmojiPercent').value)||0):(parseInt(ev)||0);
+  var ep=epRaw/100;
+  var anchor=Math.floor(10000+Math.random()*90000);
+  var c='TEST '+size.toLocaleString()+' ch • ANCHOR '+anchor+
+    (ld===0?' • no breaks':' • ~'+ld+' ch lines')+
+    (ep>0?' • '+epRaw+'% emoji':'')+'\n';
+  var em=['🎳','🫧','💎','🧩','🪜','🔮','🖕','🔥','🌱','✨','🧪','📋','📏','🎯','⭐','◾'];
+  var ei=0,ln=1;
+  while(c.length<size-30){
+    if(ep>0&&Math.random()<ep){c+=em[ei%em.length];ei++;}
+    else if(ld===0){c+='X';}
+    else{
+      var rt=c.length;
+      var ts=rt>=1000?'~'+Math.round(rt/1000)+'K':String(rt);
+      var pre='L'+String(ln).padStart(6,'0')+' · '+ts.padStart(6,' ')+' ';
+      var fil='The quick brown fox jumps over the lazy dog. Pattern recognition across substrates. ';
+      var maxL=pre.length+ld,line=pre,cc=pre.length;
+      for(var k=0;k<fil.length&&cc<maxL;k++){line+=fil[k];cc++;}
+      if(c.length+line.length+30>size)break;
+      c+=line+'\n';ln++;
+    }
+  }
+  while(c.length<size-15)c+='X';
+  c=c.substring(0,size);
+  var al='\nANCHOR '+anchor,cut=size-al.length;
+  if(cut>0)c=c.substring(0,cut)+al;
+  var lines=c.split('\n').length;
+  lastGen={size:c.length,lines:lines,density:ld,emoji:epRaw};
+  genStat.textContent='✅ generated '+c.length.toLocaleString()+' ch · '+lines+' ln · '+
+    wordCount(c)+' w'+(ep>0?' · '+epRaw+'% emoji':' · plain ASCII')+
+    ' — ✅/❌ will record '+c.length.toLocaleString();
+  addLog('built '+c.length.toLocaleString()+' ch (diff '+(c.length-size)+') · '+lines+' lines',
+    c.length===size?'success':'error');
+  renderOutputs([c]);
+  outputLabel.textContent='Test • '+c.length.toLocaleString()+' ch · '+lines+' ln';
+  renderCal();
+}
+
+/* ---------- init ---------- */
+loadSettings();
+deployFilename.classList.toggle('show',outputMode.value==='deploy');
+restoreActivePreset();
+switchMode('split');
+renderCal();
+syncNow(true);
+</script>
+</body>
+</html>

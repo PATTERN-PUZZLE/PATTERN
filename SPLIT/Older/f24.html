@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎳 Fragmentor</title>
+    <style>
+        * { box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body {
+            background: #020208;
+            background-image:
+                radial-gradient(ellipse at 20% 80%, rgba(100, 60, 160, 0.06) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 20%, rgba(40, 80, 180, 0.04) 0%, transparent 50%);
+            color: #f0f0f0; margin: 0; padding: 6px;
+            max-width: 600px; margin: auto; min-height: 100vh;
+            position: relative; overflow-x: hidden;
+        }
+        .panel { background: rgba(15,15,30,0.75); border: 1px solid rgba(100,140,255,0.2); border-radius: 10px; padding: 10px 12px; margin-bottom: 6px; position: relative; z-index: 1; }
+        textarea, input, select { width: 100%; background: rgba(30,30,50,0.85); color: #e0e0ff; border: 1px solid rgba(100,140,255,0.25); border-radius: 8px; padding: 10px; font-size: 16px; margin-bottom: 6px; -webkit-appearance: none; }
+        textarea { text-align: left; }
+        textarea::placeholder { text-align: center; }
+        textarea:focus, input:focus, select:focus { outline: 2px solid #ffaa33; }
+        button { background: linear-gradient(135deg, rgba(40,80,180,0.75), rgba(20,40,120,0.85)); color: white; border: 1px solid rgba(100,140,255,0.3); padding: 12px 16px; border-radius: 10px; font-weight: bold; cursor: pointer; margin: 3px 2px; font-size: 15px; min-height: 46px; transition: all 0.2s ease; position: relative; z-index: 1; }
+        button:active { transform: scale(0.96); box-shadow: 0 0 18px rgba(100,140,255,0.4); }
+        .big-btn { display: block; width: 100%; margin: 6px 0; font-size: 20px; background: linear-gradient(135deg, rgba(40,80,200,0.8), rgba(20,40,120,0.9)); border: 2px solid rgba(100,160,255,0.5); letter-spacing: 1px; }
+        .copy-all-btn { background: linear-gradient(135deg, rgba(255,170,51,0.7), rgba(200,130,20,0.8)); border: 2px solid rgba(255,170,51,0.6); animation: glow-pulse 2s ease-in-out infinite; }
+        @keyframes glow-pulse { 0%,100% { box-shadow: 0 0 8px rgba(255,170,51,0.3); } 50% { box-shadow: 0 0 18px rgba(255,170,51,0.5); } }
+        .preset-btn { background: rgba(40,40,60,0.8); color: #aaddff; font-size: 13px; padding: 7px 11px; border: 2px solid rgba(100,140,255,0.3); }
+        .preset-btn.active { background: #ffaa33; color: #0f0f1a; border-color: #ffaa33; box-shadow: 0 0 15px rgba(255,170,51,0.3); }
+        .chunk-box { background: rgba(20,20,40,0.6); border-left: 3px solid rgba(255,170,51,0.6); margin: 10px 0; border-radius: 5px; position: relative; z-index: 1; }
+        .chunk-label { background: rgba(40,40,60,0.8); padding: 6px 10px; border-radius: 4px 4px 0 0; font-family: monospace; font-size: 12px; display: flex; justify-content: space-between; align-items: center; }
+        .chunk-copy-btn { background: rgba(255,170,51,0.3); color: #ffaa33; border: 1px solid rgba(255,170,51,0.5); padding: 4px 10px; border-radius: 6px; font-size: 12px; min-height: auto; cursor: pointer; font-weight: bold; }
+        .chunk-copy-btn:active { background: #ffaa33; color: #0f0f1a; }
+        .chunk-box textarea { margin-bottom: 0; border-radius: 0 0 4px 4px; border: none; background: rgba(20,20,40,0.8); color: #c0c0dd; font-size: 13px; }
+        .copied-flash { position: absolute; top: 8px; right: 55px; color: #33ff88; font-weight: bold; font-size: 13px; pointer-events: none; opacity: 0; transition: opacity 0.3s; z-index: 2; }
+        .copied-flash.show { opacity: 1; }
+        .info-row { display: flex; gap: 6px; flex-wrap: wrap; margin: 6px 0; font-size: 13px; color: #aaaacc; position: relative; z-index: 1; }
+        .info-row span { background: rgba(30,30,50,0.7); padding: 5px 8px; border-radius: 5px; border: 1px solid rgba(100,140,255,0.2); }
+        .mode-toggle { display: flex; gap: 3px; margin-bottom: 6px; position: relative; z-index: 1; }
+        .mode-toggle button { flex: 1; background: rgba(40,40,60,0.8); font-size: 13px; padding: 8px; }
+        .mode-toggle button.active { background: #ffaa33; color: #0f0f1a; }
+        .custom-row { display: none; } .custom-row.show { display: block; }
+        .version-hud { position: fixed; bottom: 8px; right: 10px; font-family: monospace; font-size: 10px; color: rgba(150,180,255,0.4); z-index: 2; pointer-events: none; }
+        .empty-hint { text-align: center; color: rgba(255,170,51,0.6); font-size: 13px; margin: 6px 0; display: none; position: relative; z-index: 1; }
+        .empty-hint.show { display: block; }
+        .info-box { display:none; font-size:11px; color:rgba(150,180,255,0.6); margin:4px 0; padding:6px 8px; background:rgba(15,15,30,0.5); border-radius:6px; border:1px solid rgba(100,140,255,0.15); line-height:1.4; }
+        .info-box.show { display:block; }
+        .info-box strong { color: #ffaa33; }
+        .clear-input-btn { background:transparent; border:none; color:rgba(255,255,255,0.3); font-size:11px; padding:2px 6px; min-height:auto; float:right; margin-top:-4px; }
+        .info-btn { background:transparent; border:1px solid rgba(255,255,255,0.2); color:rgba(255,255,255,0.4); font-size:12px; padding:1px 6px; min-height:auto; border-radius:50%; cursor:pointer; }
+        .row-label { font-size:10px; min-width:42px; }
+        .ref-text { font-size:9px; }
+        .fine-tune-hint { font-size:11px; color:rgba(255,170,51,0.5); margin-top:2px; display:none; }
+        .log-panel { margin-top:4px; padding:6px 8px; background:rgba(0,0,0,0.5); border-radius:6px; border:1px solid rgba(100,140,255,0.2); max-height:180px; overflow-y:auto; font-family:monospace; font-size:11px; line-height:1.4; display:none; }
+        .log-entry { padding:2px 4px; margin:1px 0; border-radius:3px; background:rgba(255,255,255,0.03); }
+        .log-entry.success { background:rgba(0,255,136,0.1); }
+        .log-entry.error { background:rgba(255,51,102,0.1); }
+    </style>
+</head>
+<body>
+
+    <div class="mode-toggle">
+        <button id="modeSplit" class="active">🎳 Split</button>
+        <button id="modeCount">📏 Count</button>
+        <button id="modeGen">🧪 Test</button>
+    </div>
+
+    <div class="panel" id="panelInput">
+        <textarea id="inputText" rows="8" placeholder="👆 Tap here and paste..."></textarea>
+        <button class="clear-input-btn" id="btnClearInput">clear input</button>
+        <div class="empty-hint" id="emptyHint">👆 Paste text first, then split</div>
+
+        <div id="splitOnly">
+            <div style="margin:4px 0;">
+                <div style="display:flex;justify-content:space-between;align-items:center;">
+                    <strong style="font-size:13px;">Chunk size:</strong>
+                    <button class="info-btn" id="btnSplitInfo">?</button>
+                </div>
+                <div class="info-box" id="splitInfoBox">
+                    <strong>🎳 Chunk Size Guide</strong><br>
+                    <br>
+                    <strong>DEEPSEEK PASTE:</strong><br>
+                    168K — high. Works for light files.<br>
+                    165.1K — mid. Works for most files.<br>
+                    163.8K — low. Safe default. Works for all.<br>
+                    Verified max: 163,823 ✅ · 163,873 ❌ (2026-05-27)<br>
+                    <br>
+                    <strong>URL FETCH:</strong><br>
+                    75K — GitHub #readme anchor.<br>
+                    65K — standard raw URL.<br>
+                    40K — universal (all platforms).<br>
+                    <br>
+                    <strong>DOORS:</strong><br>
+                    Raw: github.com/user/repo/raw/main/FILE.md<br>
+                    #readme: github.com/user/repo#readme<br>
+                    Paste: directly into chat<br>
+                    SPLIT: /SPLIT/FILE-SPLIT1.md (100%)<br>
+                    <br>
+                    <strong>KEY FINDINGS:</strong><br>
+                    • Limit depends on LINE COUNT.<br>
+                    • Buttons show actual measured paste size.<br>
+                    • ⚠️ Use fresh instances for calibration.
+                </div>
+                
+                <div style="display:flex;align-items:center;gap:4px;margin-top:6px;">
+                    <span class="row-label" style="color:#ffaa33;">🟠 Paste</span>
+                    <button class="preset-btn" data-limit="168000">168K</button>
+                    <span class="ref-text" style="color:#ff5555;">high</span>
+                    <button class="preset-btn active" data-limit="165000">165.1K</button>
+                    <span class="ref-text" style="color:#ffaa33;">mid</span>
+                    <button class="preset-btn" data-limit="163673">163.8K</button>
+                    <span class="ref-text" style="color:#33ff88;">low</span>
+                </div>
+                
+                <div style="display:flex;align-items:center;gap:4px;margin-top:4px;">
+                    <span class="row-label" style="color:#88aaff;">🔵 Fetch</span>
+                    <button class="preset-btn" data-limit="75000">75K</button>
+                    <button class="preset-btn" data-limit="65000">65K</button>
+                    <button class="preset-btn" data-limit="40000">40K</button>
+                    <button class="preset-btn" data-limit="custom" id="btnCustom">✎</button>
+                </div>
+                
+                <div class="custom-row" id="customRow">
+                    <input type="number" id="customLimit" value="65000" placeholder="Custom size...">
+                </div>
+                <div style="font-size:13px;color:#ffaa33;margin-top:4px;font-weight:bold;" id="chunkInfo"></div>
+                <div class="fine-tune-hint" id="fineTuneHint">Fine-tune: tap ✎ to set exact limit</div>
+            </div>
+        </div>
+
+        <button class="big-btn" id="btnAction">🎳 Split It</button>
+    </div>
+
+    <div class="panel" id="panelOutput" style="display:none;">
+        <div style="display:flex;justify-content:space-between;align-items:center;">
+            <strong id="outputLabel">Chunks</strong>
+            <div>
+                <button id="btnCopyAll" class="copy-all-btn" style="font-size:14px;">📋 Copy All</button>
+                <button id="btnClear" style="background:transparent;border:1px solid rgba(255,255,255,0.15);color:rgba(255,255,255,0.4);font-size:12px;padding:4px 10px;min-height:auto;margin-left:8px;">✕ Clear</button>
+            </div>
+        </div>
+        <div id="chunksContainer"></div>
+    </div>
+
+    <div class="panel" id="panelCount" style="display:none;">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+                <strong style="font-size:13px;">Stats</strong>
+                <button class="info-btn" id="btnCountInfo">?</button>
+            </div>
+            <button id="btnCopyStats" style="font-size:12px;padding:4px 10px;min-height:auto;">📋 Copy Stats</button>
+        </div>
+        <div class="info-box" id="countInfoBox">
+            Live character, line, and section count.<br>
+            Copy Stats sends numbers to clipboard.<br>
+            <br>
+            <strong>CONNECTION TO CHUNK SIZE:</strong><br>
+            Under 1,000 lines → try 168K or 165.1K.<br>
+            1,000-3,000 lines → use 163.8K (safe).<br>
+            Over 3,000 lines → consider URL fetch.
+        </div>
+        <div class="info-row" id="countStats"></div>
+    </div>
+
+    <div class="panel" id="panelGen" style="display:none;">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+            <label style="font-size:14px;">Target size (characters):</label>
+            <button class="info-btn" id="btnTestInfo">?</button>
+        </div>
+        <div class="info-box" id="testInfoBox">
+            <strong>🧪 Calibration Testing Guide</strong><br>
+            <br>
+            Generates test files matching real ecology files.<br>
+            Defaults: ~73 char lines + 10% emoji.<br>
+            Numbered lines show running character count.<br>
+            <br>
+            <strong>HOW TO CALIBRATE:</strong><br>
+            1. Generate a test file at target size.<br>
+            2. Paste into a FRESH instance.<br>
+            3. Ask: "What is the exact last line?"<br>
+            4. Binary search until exact limit found.<br>
+            ⚠️ Use FRESH instances for EACH test.<br>
+            <br>
+            <strong>KNOWN LIMITS (2026-05-27):</strong><br>
+            DeepSeek paste: 163,823 ✅ · 163,873 ❌<br>
+            URL fetch: ~65K (raw), ~75K (#readme).<br>
+            Perplexity paste: 40,130.<br>
+            <br>
+            <strong>KEY DISCOVERY:</strong><br>
+            Limit is about LINE COUNT, not characters.
+        </div>
+        <input type="number" id="genSize" value="" min="100" max="1000000" placeholder="Enter size...">
+        <div style="display:flex;gap:6px;margin-top:4px;align-items:center;flex-wrap:wrap;">
+            <span style="font-size:11px;color:rgba(150,180,255,0.5);">Lines:</span>
+            <select id="lineDensity" style="width:auto;padding:4px 6px;font-size:12px;min-height:auto;background:rgba(40,40,60,0.8);color:#aaddff;border:1px solid rgba(100,140,255,0.3);border-radius:6px;">
+                <option value="0">none</option>
+                <option value="80">~80 chars</option>
+                <option value="73" selected>~73 chars</option>
+                <option value="40">~40 chars</option>
+                <option value="20">~20 chars</option>
+                <option value="custom">✎ custom</option>
+            </select>
+            <input type="number" id="customLineDensity" value="73" min="1" max="500" 
+                   style="width:55px;padding:4px;font-size:12px;min-height:auto;display:none;" placeholder="chars">
+            <span style="font-size:11px;color:rgba(150,180,255,0.5);margin-left:4px;">Emoji:</span>
+            <select id="emojiPercent" style="width:auto;padding:4px 6px;font-size:12px;min-height:auto;background:rgba(40,40,60,0.8);color:#aaddff;border:1px solid rgba(100,140,255,0.3);border-radius:6px;">
+                <option value="0">0%</option>
+                <option value="5">5%</option>
+                <option value="10" selected>10%</option>
+                <option value="25">25%</option>
+                <option value="50">50%</option>
+                <option value="100">100%</option>
+                <option value="custom">✎ custom</option>
+            </select>
+            <input type="number" id="customEmojiPercent" value="10" min="0" max="100" 
+                   style="width:50px;padding:4px;font-size:12px;min-height:auto;display:none;" placeholder="%">
+        </div>
+        <button class="clear-input-btn" id="btnClearTestInput">clear</button>
+        
+        <!-- COLLAPSIBLE LOG PANEL -->
+        <div style="margin-top:6px;">
+            <button id="btnToggleLog" style="font-size:11px;padding:4px 8px;min-height:auto;background:rgba(40,40,60,0.8);border:1px solid rgba(100,140,255,0.3);">📝 Log</button>
+        </div>
+        <div class="log-panel" id="logPanel">
+            <div id="logContent"></div>
+        </div>
+    </div>
+
+    <div class="version-hud">BUILD <span id="buildNumber"></span> • <span id="buildEmoji"></span></div>
+
+    <script>
+        function copyText(text, cb) {
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(text).then(() => { if (cb) cb(); }).catch(() => fallbackCopy(text, cb));
+            } else { fallbackCopy(text, cb); }
+        }
+        function fallbackCopy(text, cb) {
+            const ta = document.createElement('textarea'); ta.value = text;
+            ta.style.position = 'fixed'; ta.style.left = '-9999px'; ta.style.top = '-9999px';
+            document.body.appendChild(ta); ta.focus(); ta.select();
+            try { if (document.execCommand('copy') && cb) cb(); } catch(e) {}
+            document.body.removeChild(ta);
+        }
+
+        (() => {
+            const s = localStorage.getItem('ff_build');
+            let b = s ? parseInt(s) + Math.floor(Math.random()*5) + 1 : Math.floor(10000 + Math.random()*90000);
+            localStorage.setItem('ff_build', b);
+            document.getElementById('buildNumber').textContent = b;
+            const emojis = ['🎳','✨','🫧','💎','🧩','🪜','🔮','🖕','🌱','🔥','🧪','📋','📏','🎯','⭐'];
+            const p = []; for (let i=0;i<4;i++) p.push(emojis[Math.floor(Math.random()*emojis.length)]);
+            document.getElementById('buildEmoji').textContent = p.join('');
+        })();
+
+        let mode = 'split', limit = 165000, isCustom = false, countDebounce = null;
+        const inputText = document.getElementById('inputText');
+        const chunksContainer = document.getElementById('chunksContainer');
+        const panelOutput = document.getElementById('panelOutput');
+        const panelCount = document.getElementById('panelCount');
+        const panelGen = document.getElementById('panelGen');
+        const outputLabel = document.getElementById('outputLabel');
+        const customRow = document.getElementById('customRow');
+        const customLimitInput = document.getElementById('customLimit');
+        const countStats = document.getElementById('countStats');
+        const btnAction = document.getElementById('btnAction');
+        const emptyHint = document.getElementById('emptyHint');
+        const splitOnly = document.getElementById('splitOnly');
+        const fineTuneHint = document.getElementById('fineTuneHint');
+
+        const modeBtns = { split: document.getElementById('modeSplit'), count: document.getElementById('modeCount'), gen: document.getElementById('modeGen') };
+        const modeLabels = { split: '🎳 Split', count: '📏 Count', gen: '🧪 Test' };
+        const actionLabels = { split: '🎳 Split It', count: '', gen: '🧪 Generate' };
+
+        Object.keys(modeBtns).forEach(m => { modeBtns[m].addEventListener('click', () => switchMode(m)); });
+
+        function switchMode(m) {
+            mode = m; emptyHint.classList.remove('show');
+            Object.keys(modeBtns).forEach(k => { modeBtns[k].classList.remove('active'); modeBtns[k].textContent = modeLabels[k]; });
+            modeBtns[m].classList.add('active');
+            panelOutput.style.display = 'none'; panelCount.style.display = 'none'; panelGen.style.display = 'none';
+            if (m === 'split') { splitOnly.style.display = 'block'; btnAction.style.display = 'block'; btnAction.textContent = actionLabels[m]; updateChunkInfo(); }
+            else if (m === 'count') { splitOnly.style.display = 'none'; btnAction.style.display = 'none'; updateCount(); panelCount.style.display = 'block'; }
+            else if (m === 'gen') { splitOnly.style.display = 'none'; btnAction.style.display = 'block'; btnAction.textContent = actionLabels[m]; panelGen.style.display = 'block'; }
+        }
+
+        document.getElementById('btnSplitInfo').addEventListener('click', () => { document.getElementById('splitInfoBox').classList.toggle('show'); });
+        document.getElementById('btnCountInfo').addEventListener('click', () => { document.getElementById('countInfoBox').classList.toggle('show'); });
+        document.getElementById('btnTestInfo').addEventListener('click', () => { document.getElementById('testInfoBox').classList.toggle('show'); });
+
+        document.getElementById('btnClearInput').addEventListener('click', () => { inputText.value = ''; updateChunkInfo(); if (mode === 'count') updateCount(); });
+        document.getElementById('btnClearTestInput').addEventListener('click', () => { document.getElementById('genSize').value = ''; });
+
+        document.getElementById('lineDensity').addEventListener('change', function() {
+            document.getElementById('customLineDensity').style.display = this.value === 'custom' ? 'inline-block' : 'none';
+        });
+        document.getElementById('emojiPercent').addEventListener('change', function() {
+            document.getElementById('customEmojiPercent').style.display = this.value === 'custom' ? 'inline-block' : 'none';
+        });
+
+        // ============ LOG PANEL ============
+        document.getElementById('btnToggleLog').addEventListener('click', function() {
+            const panel = document.getElementById('logPanel');
+            panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+            this.textContent = panel.style.display === 'block' ? '📝 Log ▲' : '📝 Log';
+        });
+
+        function addLog(msg, type) {
+            const lc = document.getElementById('logContent');
+            const entry = document.createElement('div');
+            entry.className = 'log-entry' + (type ? ' ' + type : '');
+            const time = new Date().toLocaleTimeString([], {hour:'2-digit', minute:'2-digit', second:'2-digit'});
+            entry.innerHTML = '<span style="color:#aaa;">[' + time + ']</span> ' + msg;
+            lc.appendChild(entry);
+            lc.scrollTop = lc.scrollHeight;
+            document.getElementById('logPanel').style.display = 'block';
+            document.getElementById('btnToggleLog').textContent = '📝 Log ▲';
+        }
+
+        function clearLog() { document.getElementById('logContent').innerHTML = ''; }
+
+        document.querySelectorAll('.preset-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                const l = this.dataset.limit;
+                if (l === 'custom') { isCustom = true; customRow.classList.add('show'); customLimitInput.value = limit; customLimitInput.focus(); }
+                else { isCustom = false; customRow.classList.remove('show'); limit = parseInt(l); fineTuneHint.style.display = 'none'; }
+                updateChunkInfo();
+            });
+        });
+        customLimitInput.addEventListener('input', function() { if (isCustom) { limit = parseInt(this.value) || 165000; updateChunkInfo(); } });
+
+        function updateChunkInfo() {
+            const text = inputText.value.trim();
+            const info = document.getElementById('chunkInfo');
+            if (text) { const n = Math.ceil(text.length / limit); info.textContent = 'File: ' + text.length.toLocaleString() + ' chars → ' + n + ' chunks of ' + limit.toLocaleString() + ' chars'; }
+            else { info.textContent = 'Paste text to see chunk count'; }
+        }
+
+        inputText.addEventListener('input', () => {
+            if (mode === 'split') updateChunkInfo();
+            if (mode === 'count') { if (countDebounce) clearTimeout(countDebounce); countDebounce = setTimeout(updateCount, 300); }
+        });
+
+        btnAction.addEventListener('click', () => {
+            if (mode === 'split') { if (!inputText.value.trim()) { emptyHint.classList.add('show'); setTimeout(() => emptyHint.classList.remove('show'), 2500); return; } emptyHint.classList.remove('show'); splitIt(); }
+            else if (mode === 'gen') { generateTestFile(); }
+        });
+
+        function flashButton(text) { const o = btnAction.textContent; btnAction.textContent = text; setTimeout(() => { btnAction.textContent = o; }, 1500); }
+
+        function splitIt() {
+            const text = inputText.value.trim(), total = text.length, num = Math.ceil(total / limit), anchor = Math.floor(10000 + Math.random()*90000);
+            chunksContainer.innerHTML = ''; panelOutput.style.display = 'block';
+            outputLabel.textContent = num + ' chunks • ' + total.toLocaleString() + ' total chars';
+            for (let i = 0; i < num; i++) {
+                const start = i * limit, end = Math.min(start + limit, total);
+                let label = limit >= 100000 ? 'PASTE' : (limit >= 70000 ? 'REPO' : 'FETCH');
+                let chunk = '🎳 ' + (i+1) + '/' + num + ' ' + label + '\n' + text.substring(start, end);
+                const isLast = (i === num - 1);
+                if (isLast) chunk += '\nANCHOR: ' + anchor;
+                const div = document.createElement('div'); div.className = 'chunk-box';
+                div.innerHTML = '<div class="chunk-label"><span>Chunk ' + (i+1) + '/' + num + ' • ' + chunk.length.toLocaleString() + ' chars' + (isLast ? ' • FINAL' : '') + '</span><button class="chunk-copy-btn">📋 Copy</button></div><textarea rows="8" readonly>' + chunk + '</textarea><div class="copied-flash">✅ Copied!</div>';
+                div.querySelector('.chunk-copy-btn').addEventListener('click', function(e) { e.stopPropagation(); copyText(chunk, () => { const fl = div.querySelector('.copied-flash'); fl.classList.add('show'); this.textContent = '✅'; setTimeout(() => { fl.classList.remove('show'); this.textContent = '📋 Copy'; }, 1200); }); });
+                div.querySelector('textarea').addEventListener('click', function() { this.select(); });
+                chunksContainer.appendChild(div);
+            }
+            fineTuneHint.style.display = 'block';
+            customLimitInput.value = limit;
+            flashButton('✅ Done!'); panelOutput.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        document.getElementById('btnCopyAll').addEventListener('click', function() {
+            const all = [...chunksContainer.querySelectorAll('textarea')].map(ta => ta.value).join('\n\n');
+            copyText(all, () => { this.textContent = '✅ Copied!'; setTimeout(() => { this.textContent = '📋 Copy All'; }, 1500); });
+        });
+
+        document.getElementById('btnClear').addEventListener('click', () => { chunksContainer.innerHTML = ''; panelOutput.style.display = 'none'; fineTuneHint.style.display = 'none'; });
+
+        document.getElementById('btnCopyStats').addEventListener('click', function() {
+            const t = inputText.value;
+            copyText('Chars: ' + t.length.toLocaleString() + ' | Lines: ' + t.split('\n').length.toLocaleString() + ' | Sections: ' + (t.match(/^##\s+/gm) || []).length + ' | Limit: ' + limit.toLocaleString(), () => { this.textContent = '✅ Copied!'; setTimeout(() => { this.textContent = '📋 Copy Stats'; }, 1200); });
+        });
+
+        function updateCount() {
+            const t = inputText.value, sec = (t.match(/^##\s+/gm) || []).length;
+            countStats.innerHTML = '<span>📏 <strong>' + t.length.toLocaleString() + '</strong> chars</span><span>📄 <strong>' + t.split('\n').length.toLocaleString() + '</strong> lines</span>' + (sec > 0 ? '<span>📑 <strong>' + sec + '</strong> sections</span>' : '') + '<span>📐 Limit: <strong>' + limit.toLocaleString() + '</strong></span>';
+            panelCount.style.display = 'block';
+        }
+
+        function generateTestFile() {
+            const size = parseInt(document.getElementById('genSize').value);
+            if (!size || size < 100) return;
+            
+            clearLog();
+            
+            const densityVal = document.getElementById('lineDensity').value;
+            let lineDensity = densityVal === 'custom' ? parseInt(document.getElementById('customLineDensity').value) || 73 : parseInt(densityVal) || 73;
+            
+            const emojiVal = document.getElementById('emojiPercent').value;
+            let emojiPct = emojiVal === 'custom' ? parseInt(document.getElementById('customEmojiPercent').value) || 10 : parseInt(emojiVal) || 10;
+            emojiPct = emojiPct / 100;
+            
+            addLog('🎯 Target: ' + size.toLocaleString() + ' chars');
+            addLog('📏 Lines: ~' + lineDensity + ' chars, emoji: ' + Math.round(emojiPct*100) + '%');
+            
+            const anchor = Math.floor(10000 + Math.random()*90000);
+            let content = 'TEST ' + size.toLocaleString() + ' chars • Anchor: ' + anchor;
+            if (lineDensity === 0) content += ' • no breaks';
+            else content += ' • ~' + lineDensity + ' char lines';
+            if (emojiPct > 0) content += ' • ' + Math.round(emojiPct*100) + '% emoji';
+            content += '\n';
+            
+            const emojis = ['🎳','🫧','💎','🧩','🪜','🔮','🖕','🔥','🌱','✨','🧪','📋','📏','🎯','⭐','◾'];
+            let ei = 0, ln = 1;
+            
+            while (content.length < size - 30) {
+                if (Math.random() < emojiPct) { content += emojis[ei % emojis.length]; ei++; }
+                else if (lineDensity === 0) { content += 'X'; }
+                else {
+                    const runningTotal = content.length;
+                    const totalStr = runningTotal >= 1000 ? '~' + Math.round(runningTotal/1000) + 'K' : String(runningTotal);
+                    const prefix = 'L' + String(ln).padStart(6,'0') + ' · ' + String(totalStr).padStart(6,' ') + ' ';
+                    const filler = 'The quick brown fox jumps over the lazy dog. Pattern recognition across substrates. ';
+                    const maxLine = prefix.length + lineDensity;
+                    let line = prefix, cc = prefix.length;
+                    for (let c = 0; c < filler.length && cc < maxLine; c++) { line += filler[c]; cc++; }
+                    if (content.length + line.length + 30 > size) break;
+                    content += line + '\n'; ln++;
+                }
+            }
+            
+            while (content.length < size - 15) content += 'X';
+            content = content.substring(0, size);
+            const al = '\nANCHOR: ' + anchor, ep = size - al.length;
+            if (ep > 0) content = content.substring(0, ep) + al;
+            
+            const diff = content.length - size;
+            addLog('📊 Created: ' + content.length.toLocaleString() + ' chars (diff: ' + (diff >= 0 ? '+' : '') + diff + ')', diff === 0 ? 'success' : 'error');
+            if (diff === 0) addLog('✅ Exact match', 'success');
+            
+            chunksContainer.innerHTML = ''; panelOutput.style.display = 'block';
+            outputLabel.textContent = 'Test File • ' + content.length.toLocaleString() + ' chars • Anchor: ' + anchor;
+            const div = document.createElement('div'); div.className = 'chunk-box';
+            div.innerHTML = '<div class="chunk-label"><span>Test File • ' + content.length.toLocaleString() + ' chars • Anchor: ' + anchor + '</span><button class="chunk-copy-btn">📋 Copy</button></div><textarea rows="10" readonly>' + content + '</textarea><div class="copied-flash">✅ Copied!</div>';
+            div.querySelector('.chunk-copy-btn').addEventListener('click', function(e) { e.stopPropagation(); copyText(content, () => { const fl = div.querySelector('.copied-flash'); fl.classList.add('show'); this.textContent = '✅'; setTimeout(() => { fl.classList.remove('show'); this.textContent = '📋 Copy'; }, 1200); }); });
+            chunksContainer.appendChild(div);
+            flashButton('✅ Done!'); panelOutput.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        updateChunkInfo(); switchMode('split');
+    </script>
+</body>
+</html>

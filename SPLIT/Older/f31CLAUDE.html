@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎳 Fragmentor</title>
+<style>
+*{box-sizing:border-box;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif}
+body{background:#020208;background-image:radial-gradient(ellipse at 20% 80%,rgba(100,60,160,.06) 0%,transparent 50%),radial-gradient(ellipse at 80% 20%,rgba(40,80,180,.04) 0%,transparent 50%);color:#f0f0f0;margin:auto;padding:4px 6px 118px;max-width:600px;min-height:100vh;overflow-x:hidden}
+.panel{background:rgba(15,15,30,.75);border:1px solid rgba(100,140,255,.2);border-radius:9px;padding:8px 9px;margin-bottom:5px}
+textarea,input,select{width:100%;background:rgba(30,30,50,.85);color:#e0e0ff;border:1px solid rgba(100,140,255,.25);border-radius:7px;padding:8px;font-size:16px;margin-bottom:4px;-webkit-appearance:none}
+textarea::placeholder{text-align:center}
+textarea:focus,input:focus,select:focus{outline:2px solid #ffaa33}
+button{background:linear-gradient(135deg,rgba(40,80,180,.75),rgba(20,40,120,.85));color:#fff;border:1px solid rgba(100,140,255,.3);padding:8px 12px;border-radius:8px;font-weight:bold;cursor:pointer;margin:2px;font-size:14px;min-height:38px;transition:all .15s}
+button:active{transform:scale(.96)}
+.tabs{display:flex;gap:3px;align-items:center;margin-bottom:5px}
+.tabs button{flex:1;background:rgba(40,40,60,.8);font-size:11px;padding:3px 2px;min-height:26px;border-radius:6px;margin:0}
+.tabs button.active{background:#ffaa33;color:#0f0f1a}
+.tabs .gear{flex:0 0 34px;font-size:13px}
+.tabs .gear.on{background:#ffaa33;color:#0f0f1a}
+.act{display:block;width:100%;margin:5px 0 0;font-size:16px;min-height:42px;background:linear-gradient(135deg,rgba(40,80,200,.8),rgba(20,40,120,.9));border:2px solid rgba(100,160,255,.5)}
+.strip{font-size:11.5px;color:#c9d4ff;background:rgba(0,0,0,.35);border:1px solid rgba(100,140,255,.18);border-radius:7px;padding:5px 7px;line-height:1.5;margin:4px 0 0}
+.strip b{color:#ffaa33}
+.strip .ok{color:#33ff88}.strip .warn{color:#ffaa33}.strip .risk{color:#ff5555}
+.mini{background:rgba(40,40,60,.7);font-size:11px;padding:3px 8px;min-height:26px;border-radius:6px;color:#aaddff}
+.row{display:flex;gap:4px;align-items:center;flex-wrap:wrap}
+.preset-btn{background:rgba(40,40,60,.8);color:#aaddff;font-size:12px;padding:4px 8px;border:2px solid rgba(100,140,255,.3);min-height:30px;margin:1px}
+.preset-btn.active{background:#ffaa33;color:#0f0f1a;border-color:#ffaa33}
+.rl{font-size:10px;min-width:50px;color:#8899cc}
+.ref{font-size:9px}
+#optPanel{display:none}#optPanel.show{display:block}
+.opt{display:flex;align-items:center;gap:6px;font-size:12px;color:rgba(150,180,255,.75);margin:3px 0}
+.opt input[type=checkbox]{width:auto;margin:0}
+.opt input[type=number]{width:62px;padding:3px;font-size:12px;margin:0;min-height:auto}
+.deploy-only{display:none}.deploy-only.show{display:block}
+.chunk-box{background:rgba(20,20,40,.6);border-left:3px solid rgba(255,170,51,.6);margin:7px 0;border-radius:5px;position:relative}
+.chunk-box.done{border-left-color:rgba(51,255,136,.7);opacity:.6}
+.chunk-label{background:rgba(40,40,60,.8);padding:4px 8px;border-radius:4px 4px 0 0;font-family:monospace;font-size:11px;display:flex;justify-content:space-between;align-items:center}
+.chunk-copy-btn{background:rgba(255,170,51,.3);color:#ffaa33;border:1px solid rgba(255,170,51,.5);padding:2px 8px;border-radius:5px;font-size:11px;min-height:auto;font-weight:bold;margin:0}
+.chunk-box textarea{margin:0;border-radius:0 0 4px 4px;border:none;background:rgba(20,20,40,.8);color:#c0c0dd;font-size:12px}
+#chunksContainer{display:none}#chunksContainer.show{display:block}
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:50;background:rgba(8,8,18,.96);border-top:1px solid rgba(255,170,51,.35);padding:5px 7px 7px;display:none;backdrop-filter:blur(6px)}
+.dock.show{display:block}
+.pills{display:flex;gap:4px;overflow-x:auto;padding:1px 0 4px;-webkit-overflow-scrolling:touch}
+.pill{flex:0 0 auto;min-width:29px;height:29px;min-height:29px;border-radius:50%;font-size:12px;padding:0;margin:0;background:rgba(40,40,60,.9);color:#aaddff;border:1px solid rgba(100,140,255,.35)}
+.pill.done{background:rgba(51,255,136,.22);color:#33ff88;border-color:rgba(51,255,136,.5)}
+.pill.next{background:#ffaa33;color:#0f0f1a;border-color:#ffaa33}
+.dockrow{display:flex;gap:5px}
+.next-btn{flex:1;font-size:16px;min-height:46px;margin:0;background:linear-gradient(135deg,rgba(255,170,51,.9),rgba(200,130,20,.95));border:2px solid rgba(255,170,51,.7);color:#150f00}
+.dockrow .mini{flex:0 0 auto;min-height:46px}
+.info-box{display:none;font-size:11px;color:rgba(150,180,255,.65);margin:4px 0;padding:6px 8px;background:rgba(15,15,30,.5);border-radius:6px;border:1px solid rgba(100,140,255,.15);line-height:1.45}
+.info-box.show{display:block}
+.info-box strong{color:#ffaa33}
+.info-btn{background:transparent;border:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.45);font-size:11px;padding:0 6px;min-height:22px;border-radius:50%;margin:0}
+.info-row{display:flex;gap:5px;flex-wrap:wrap;font-size:12px;color:#aaaacc}
+.info-row span{background:rgba(30,30,50,.7);padding:4px 7px;border-radius:5px;border:1px solid rgba(100,140,255,.2)}
+.log-panel{margin-top:4px;padding:5px 7px;background:rgba(0,0,0,.5);border-radius:6px;border:1px solid rgba(100,140,255,.2);max-height:170px;overflow-y:auto;font-family:monospace;font-size:11px;line-height:1.4;display:none}
+.log-entry{padding:1px 3px;margin:1px 0;border-radius:3px;background:rgba(255,255,255,.03)}
+.log-entry.success{background:rgba(0,255,136,.1)}.log-entry.error{background:rgba(255,51,102,.1)}
+.cal{margin-top:6px;padding:6px 8px;background:rgba(0,0,0,.35);border-radius:7px;border:1px solid rgba(204,153,255,.25)}
+.cal h4{margin:0 0 4px;font-size:12px;color:#cc99ff}
+.cal .v{font-size:11.5px;color:#c9d4ff;line-height:1.6}
+.cal .v b{color:#ffaa33}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:96px;background:rgba(51,255,136,.94);color:#04140a;font-weight:bold;font-size:13px;padding:8px 16px;border-radius:18px;z-index:99;opacity:0;transition:opacity .2s;pointer-events:none;max-width:92%;text-align:center}
+.toast.show{opacity:1}
+.toast.bad{background:rgba(255,190,90,.96)}
+.hud{position:fixed;bottom:2px;left:6px;font-family:monospace;font-size:9px;color:rgba(150,180,255,.3);z-index:60;pointer-events:none}
+.hint{text-align:center;color:rgba(255,170,51,.6);font-size:12px;margin:4px 0;display:none}
+.hint.show{display:block}
+</style>
+</head>
+<body>
+
+<div class="tabs">
+  <button id="modeSplit" class="active">🎳 Split</button>
+  <button id="modeCount">📏 Count</button>
+  <button id="modeGen">🧪 Test</button>
+  <button id="btnOpts" class="gear">⚙</button>
+</div>
+
+<div class="panel">
+  <textarea id="inputText" rows="6" placeholder="👆 Paste here"></textarea>
+  <div class="row">
+    <button class="mini" id="btnPaste">📥 Paste</button>
+    <button class="mini" id="btnClearInput">✕ Clear</button>
+    <button class="mini" id="btnRefresh">🔄 Refresh</button>
+    <button class="info-btn" id="btnSplitInfo">?</button>
+  </div>
+  <div class="strip" id="strip">Paste text to see counts</div>
+  <div class="hint" id="emptyHint">👆 Paste text first</div>
+
+  <div class="info-box" id="splitInfoBox">
+    <strong>🎳 Size guide</strong><br><br>
+    <strong>🟣 CLAUDE APP MESSAGE (Clean mode)</strong><br>
+    Goal: stay below the point where a paste is converted<br>
+    into a "pasted content" attachment.<br>
+    <strong>Measured by you:</strong><br>
+    • ~3,969 ch / ~74 lines → became attachment ❌<br>
+    • 4,143 ch / ≤70 lines → went through ✅<br>
+    Those two can't both fit a pure character limit, so<br>
+    <strong>line count is the primary trigger</strong>, chars secondary.<br>
+    Caveat: chunk 1 may have been under 3,900 (line-<br>
+    boundary walkback), so 4,143 is an upper estimate.<br>
+    The strip above now shows each chunk's true size.<br>
+    Use 🧪 Test → Calibrate to pin it down exactly.<br><br>
+    <strong>DEEPSEEK PASTE (Raw mode)</strong><br>
+    168K high · 165.1K mid · 163.7K safe.<br>
+    Step down 1K at a time on failure.<br><br>
+    <strong>URL FETCH</strong><br>
+    75K GitHub #readme · 65K raw URL · 40K universal.<br><br>
+    <strong>CLEAN vs RAW vs DEPLOY</strong><br>
+    Clean = byte-for-byte source, zero added characters.<br>
+    Raw = 🎳 n/N label + --- + CHUNK-ANCHOR.<br>
+    Deploy = full .md with nav headers (measured overhead).<br><br>
+    <strong>ANCHORS</strong><br>
+    CHUNK-ANCHOR verifies split delivery.<br>
+    TH-CHECK (♦️) verifies original file integrity.<br><br>
+    <strong>KEY DISCOVERY</strong><br>
+    Limits track LINE COUNT more than characters.<br>
+    280K emojis on one line ✅ · 252K over 3,460 lines ❌<br>
+    DeepSeek calibrated 163,823 ✅ · 163,873 ❌<br>
+    ⚠️ Use FRESH instances for every calibration test.
+  </div>
+
+  <div id="optPanel">
+    <div class="row" style="margin-top:6px">
+      <span class="rl">Mode</span>
+      <select id="outputMode" style="width:auto;padding:4px 6px;font-size:12px;min-height:auto;margin:0">
+        <option value="clean" selected>Clean (nothing added)</option>
+        <option value="raw">Raw</option>
+        <option value="deploy">Deploy</option>
+      </select>
+    </div>
+    <div class="opt"><input type="checkbox" id="optAutoPaste" checked><label for="optAutoPaste">⚡ Auto-split on paste + copy part 1</label></div>
+    <div class="opt" id="cleanTagRow"><input type="checkbox" id="optCleanTag"><label for="optCleanTag">Tiny “(n/N)” marker in Clean mode</label></div>
+    <div class="opt"><input type="checkbox" id="optLineCap" checked><label for="optLineCap">Max lines / chunk:</label><input type="number" id="lineCapValue" value="70" min="1" max="9999"></div>
+    <div class="opt"><input type="checkbox" id="optShowChunks"><label for="optShowChunks">Show chunk boxes (off = dock only)</label></div>
+
+    <div class="deploy-only" id="deployFilename">
+      <div class="row" style="margin-top:4px">
+        <span class="rl">Name</span>
+        <input type="text" id="baseFilename" value="STANDARDS" style="flex:1;margin:0;font-size:13px;padding:5px">
+        <span style="font-size:11px;color:rgba(150,180,255,.4)">.md</span>
+      </div>
+      <div style="font-size:10px;color:rgba(150,180,255,.4);margin:3px 0" id="filenamePreview"></div>
+      <div style="font-size:10px;color:rgba(255,170,51,.4);margin-bottom:3px" id="deployOverheadNote"></div>
+      <button id="btnHeaderSettings" class="mini">⚙️ Header</button>
+      <div id="headerSettings" style="display:none;margin-top:4px;padding:5px 7px;background:rgba(0,0,0,.3);border-radius:6px">
+        <div style="font-size:10px;color:rgba(150,180,255,.5)">Base URL</div>
+        <input type="text" id="baseUrl" value="source-sepia-alpha.vercel.app" style="font-size:12px;padding:4px">
+        <div style="font-size:10px;color:rgba(150,180,255,.5)">Folder</div>
+        <input type="text" id="folderPath" value="SPLIT" style="font-size:12px;padding:4px">
+        <div style="font-size:10px;color:rgba(150,180,255,.5)">Source path</div>
+        <input type="text" id="sourcePath" value="BUILDER" style="font-size:12px;padding:4px">
+        <div style="font-size:10px;color:rgba(150,180,255,.5)">Title format</div>
+        <input type="text" id="titleFormat" value="## 🏠 [FILE] — Part [N] of [TOTAL]" style="font-size:12px;padding:4px">
+      </div>
+    </div>
+
+    <div class="row" style="margin-top:5px"><span class="rl" style="color:#cc99ff">🟣 Claude</span>
+      <button class="preset-btn" data-limit="4100" data-lines="70">4.1K</button><span class="ref" style="color:#ff5555">test</span>
+      <button class="preset-btn" data-limit="3900" data-lines="70">3.9K</button><span class="ref" style="color:#ffaa33">known</span>
+      <button class="preset-btn" data-limit="3600" data-lines="64">3.6K</button>
+      <button class="preset-btn" data-limit="3200" data-lines="56">3.2K</button><span class="ref" style="color:#33ff88">safe</span>
+    </div>
+    <div class="row"><span class="rl" style="color:#ffaa33">🟠 Paste</span>
+      <button class="preset-btn" data-limit="168000" data-lines="0">168K</button>
+      <button class="preset-btn" data-limit="165000" data-lines="0">165.1K</button>
+      <button class="preset-btn" data-limit="163673" data-lines="0">163.7K</button>
+    </div>
+    <div class="row"><span class="rl" style="color:#88aaff">🔵 Fetch</span>
+      <button class="preset-btn" data-limit="75000" data-lines="0">75K</button>
+      <button class="preset-btn" data-limit="65000" data-lines="0">65K</button>
+      <button class="preset-btn" data-limit="40000" data-lines="0">40K</button>
+      <button class="preset-btn" data-limit="custom" id="btnCustom">✎</button>
+    </div>
+    <div id="customRow" style="display:none"><input type="number" id="customLimit" value="3900" placeholder="Custom chars..."></div>
+  </div>
+
+  <button class="act" id="btnAction">🎳 Split It</button>
+</div>
+
+<div class="panel" id="panelOutput" style="display:none">
+  <div class="row" style="justify-content:space-between">
+    <strong id="outputLabel" style="font-size:12px">Chunks</strong>
+    <span>
+      <button class="mini" id="btnToggleChunks">▾ boxes</button>
+      <button class="mini" id="btnCopyAll">📋 All</button>
+      <button class="mini" id="btnClear">✕</button>
+    </span>
+  </div>
+  <div id="chunksContainer"></div>
+</div>
+
+<div class="panel" id="panelCount" style="display:none">
+  <div class="row" style="justify-content:space-between;margin-bottom:4px">
+    <span><strong style="font-size:12px">Stats</strong> <button class="info-btn" id="btnCountInfo">?</button></span>
+    <span><button class="mini" id="btnRefresh2">🔄 Refresh</button><button class="mini" id="btnCopyStats">📋 Stats</button></span>
+  </div>
+  <div class="info-box" id="countInfoBox">
+    Counts update live, on 🔄, and on a 400ms safety poll.<br><br>
+    <strong>LINE DENSITY GUIDE</strong><br>
+    Under 1,000 lines → 168K or 165.1K.<br>
+    1,000–3,000 lines → 163.7K.<br>
+    Over 3,000 lines → lower, or URL fetch.<br><br>
+    <strong>WHY</strong><br>
+    Paste limits track LINE COUNT, not chars.<br>
+    STANDARDS.md: 3,460 lines, failed at 165K.<br><br>
+    Over 60 ch/line → safe for all presets.<br>
+    Under 40 ch/line → use lower presets.
+  </div>
+  <div class="info-row" id="countStats"></div>
+</div>
+
+<div class="panel" id="panelGen" style="display:none">
+  <div class="row" style="justify-content:space-between">
+    <label style="font-size:13px">Target size (chars)</label>
+    <button class="info-btn" id="btnTestInfo">?</button>
+  </div>
+  <div class="info-box" id="testInfoBox">
+    <strong>🧪 Calibration</strong><br><br>
+    <strong>CLAUDE APP ATTACH THRESHOLD</strong><br>
+    1. Set size + line density, tap Generate.<br>
+    2. Copy it, paste into the Claude message box.<br>
+    3. Tap ✅ if it stayed inline, ❌ if it attached.<br>
+    4. Repeat the suggested next size until bounds meet.<br>
+    5. Tap "Use as preset".<br><br>
+    <strong>ISOLATE THE VARIABLE</strong><br>
+    Run once at ~73 ch/line, then again at ~20 ch/line.<br>
+    If the passing char count drops sharply at ~20,<br>
+    the trigger is lines. If it holds, it's chars.<br><br>
+    <strong>PASTE LIMITS (other platforms)</strong><br>
+    Generate → paste into a FRESH instance → ask for<br>
+    the exact last line → bisect.<br>
+    DeepSeek 163,823 ✅ / 163,873 ❌ · Perplexity 40,130.<br>
+    ⚠️ Fresh instance for EVERY test.
+  </div>
+  <input type="number" id="genSize" value="4300" min="100" max="1000000">
+  <div class="row">
+    <span class="rl">Lines</span>
+    <select id="lineDensity" style="width:auto;padding:4px;font-size:12px;min-height:auto;margin:0">
+      <option value="0">none</option><option value="80">~80</option><option value="73" selected>~73</option><option value="40">~40</option><option value="20">~20</option><option value="custom">✎</option>
+    </select>
+    <input type="number" id="customLineDensity" value="73" min="1" max="500" style="width:52px;padding:4px;font-size:12px;min-height:auto;display:none;margin:0">
+    <span class="rl">Emoji</span>
+    <select id="emojiPercent" style="width:auto;padding:4px;font-size:12px;min-height:auto;margin:0">
+      <option value="0">0%</option><option value="5">5%</option><option value="10" selected>10%</option><option value="25">25%</option><option value="50">50%</option><option value="100">100%</option><option value="custom">✎</option>
+    </select>
+    <input type="number" id="customEmojiPercent" value="10" min="0" max="100" style="width:48px;padding:4px;font-size:12px;min-height:auto;display:none;margin:0">
+    <button class="mini" id="btnToggleLog">📝 Log</button>
+  </div>
+  <div class="log-panel" id="logPanel"><div id="logContent"></div></div>
+
+  <div class="cal">
+    <h4>🎯 Claude-app threshold</h4>
+    <div class="v" id="calState"></div>
+    <div class="row" style="margin-top:4px">
+      <button class="mini" id="calPass" style="background:rgba(51,255,136,.2);color:#33ff88">✅ Stayed inline</button>
+      <button class="mini" id="calFail" style="background:rgba(255,90,90,.2);color:#ff8888">❌ Attached</button>
+    </div>
+    <div class="row">
+      <button class="mini" id="calUse">⬆ Use as preset</button>
+      <button class="mini" id="calReset">↺ Reset</button>
+    </div>
+  </div>
+</div>
+
+<div class="dock" id="dock">
+  <div class="pills" id="pills"></div>
+  <div class="dockrow">
+    <button class="next-btn" id="btnCopyNext">📋 Copy</button>
+    <button class="mini" id="btnDockUp">▲</button>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+<div class="hud">BUILD <span id="buildNumber"></span> <span id="buildEmoji"></span></div>
+
+<script>
+/* ---------- clipboard ---------- */
+function copyText(t,cb,fail){
+  if(navigator.clipboard&&window.isSecureContext){
+    navigator.clipboard.writeText(t).then(()=>cb&&cb())
+      .catch(()=>{ if(fallbackCopy(t)){cb&&cb();}else{fail&&fail();} });
+    return;
+  }
+  if(fallbackCopy(t)) cb&&cb(); else fail&&fail();
+}
+function fallbackCopy(t){
+  const ta=document.createElement('textarea');ta.value=t;
+  ta.style.position='fixed';ta.style.left='-9999px';ta.style.top='0';
+  document.body.appendChild(ta);ta.focus();ta.select();
+  let ok=false;try{ok=document.execCommand('copy');}catch(e){ok=false;}
+  document.body.removeChild(ta);return ok;
+}
+function toast(m,bad){const t=document.getElementById('toast');t.textContent=m;t.className='toast show'+(bad?' bad':'');clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove('show'),1800);}
+
+/* ---------- build ---------- */
+(()=>{const s=localStorage.getItem('ff_build');
+let b=s?parseInt(s)+Math.floor(Math.random()*5)+1:Math.floor(10000+Math.random()*90000);
+localStorage.setItem('ff_build',b);document.getElementById('buildNumber').textContent=b;
+const e=['🎳','✨','🫧','💎','🧩','🪜','🔮','🖕','🌱','🔥','🧪','📋','📏','🎯','⭐'];
+let p='';for(let i=0;i<4;i++)p+=e[Math.floor(Math.random()*e.length)];
+document.getElementById('buildEmoji').textContent=p;})();
+
+/* ---------- refs ---------- */
+const $=id=>document.getElementById(id);
+const inputText=$('inputText'),chunksContainer=$('chunksContainer'),panelOutput=$('panelOutput'),
+panelCount=$('panelCount'),panelGen=$('panelGen'),outputLabel=$('outputLabel'),customRow=$('customRow'),
+customLimitInput=$('customLimit'),countStats=$('countStats'),btnAction=$('btnAction'),
+btnCopyNext=$('btnCopyNext'),emptyHint=$('emptyHint'),strip=$('strip'),baseFilename=$('baseFilename'),
+filenamePreview=$('filenamePreview'),deployOverheadNote=$('deployOverheadNote'),outputMode=$('outputMode'),
+deployFilename=$('deployFilename'),optAutoPaste=$('optAutoPaste'),optCleanTag=$('optCleanTag'),
+optLineCap=$('optLineCap'),lineCapValue=$('lineCapValue'),optShowChunks=$('optShowChunks'),
+cleanTagRow=$('cleanTagRow'),optPanel=$('optPanel'),dock=$('dock'),pills=$('pills');
+
+let mode='split',limit=3900,isCustom=false,lastOutputs=[],copyIndex=0,lastVal=null;
+const modeBtns={split:$('modeSplit'),count:$('modeCount'),gen:$('modeGen')};
+
+/* ---------- settings ---------- */
+function loadSettings(){
+  const l=localStorage.getItem('ff_limit'); if(l) limit=parseInt(l)||3900;
+  const om=localStorage.getItem('ff_outmode'); if(om) outputMode.value=om;
+  const lc=localStorage.getItem('ff_linecap');
+  if(lc!==null){optLineCap.checked=lc!=='0'; if(lc!=='0') lineCapValue.value=lc;}
+  const ap=localStorage.getItem('ff_autopaste'); if(ap!==null) optAutoPaste.checked=ap==='1';
+  const ct=localStorage.getItem('ff_cleantag'); if(ct!==null) optCleanTag.checked=ct==='1';
+  const sc=localStorage.getItem('ff_showchunks'); if(sc!==null) optShowChunks.checked=sc==='1';
+  const fn=localStorage.getItem('ff_filename'); if(fn) baseFilename.value=fn;
+}
+function saveSettings(){
+  localStorage.setItem('ff_limit',limit);
+  localStorage.setItem('ff_outmode',outputMode.value);
+  localStorage.setItem('ff_linecap',optLineCap.checked?(parseInt(lineCapValue.value)||0):0);
+  localStorage.setItem('ff_autopaste',optAutoPaste.checked?'1':'0');
+  localStorage.setItem('ff_cleantag',optCleanTag.checked?'1':'0');
+  localStorage.setItem('ff_showchunks',optShowChunks.checked?'1':'0');
+}
+function restoreActivePreset(){
+  let m=false;
+  document.querySelectorAll('.preset-btn').forEach(b=>{b.classList.remove('active');
+    if(b.dataset.limit!=='custom'&&parseInt(b.dataset.limit)===limit){b.classList.add('active');m=true;}});
+  if(!m){$('btnCustom').classList.add('active');isCustom=true;customRow.style.display='block';customLimitInput.value=limit;}
+}
+
+/* ---------- limits ---------- */
+function currentLineCap(){if(!optLineCap.checked)return 0;const v=parseInt(lineCapValue.value);return v>0?v:0;}
+function deployOverhead(){
+  const bu=$('baseUrl').value.trim()||'source-sepia-alpha.vercel.app',fo=$('folderPath').value.trim()||'SPLIT',
+  sp=$('sourcePath').value.trim()||'BUILDER',tf=$('titleFormat').value.trim()||'## 🏠 [FILE] — Part [N] of [TOTAL]',
+  fn=baseFilename.value.trim()||'FILE',sn=fn+'-SPLIT999',
+  nav='← '+fn+'-SPLIT998.md · 999 of 999 · Next: '+fn+'-SPLIT1000.md →',
+  ti=tf.replace('[FILE]',fn).replace('[N]','999').replace('[TOTAL]','999');
+  let h='🔗 📋 '+sn+'.md\nhttps://'+bu+'/'+fo+'/'+sn+'.md\n\n🔗 REVisions. Load both, see the full picture.\n→ Current: '+fn+'.md\nhttps://'+bu+'/'+sp+'/'+fn+'.md\n\n'+ti+'\n\n'+nav+'\n\n\n\n---\n'+nav+'\n♦️'+sn+'-99999\n';
+  return h.length+32;
+}
+function effectiveLimit(){
+  if(outputMode.value==='deploy')return Math.max(500,limit-deployOverhead());
+  if(outputMode.value==='raw')return Math.max(100,limit-48);
+  if(outputMode.value==='clean'&&optCleanTag.checked)return Math.max(100,limit-12);
+  return limit;
+}
+
+/* ---------- splitter (sequential, lossless) ---------- */
+function buildChunks(text,eff,maxLines){
+  const out=[],total=text.length;let pos=0,guard=0;
+  while(pos<total&&guard++<200000){
+    let end=Math.min(pos+eff,total);
+    if(end<total){const nl=text.lastIndexOf('\n',end-1);if(nl>pos)end=nl+1;}
+    if(maxLines>0){
+      let c=0,cut=-1;
+      for(let i=pos;i<end;i++){if(text.charCodeAt(i)===10){c++;if(c===maxLines){cut=i+1;break;}}}
+      if(cut>pos&&cut<end)end=cut;
+    }
+    if(end<=pos)end=Math.min(pos+eff,total);
+    out.push(text.substring(pos,end));pos=end;
+  }
+  return out;
+}
+const srcText=()=>inputText.value.trim();
+const wordCount=t=>{const m=t.trim().match(/\S+/g);return m?m.length:0;};
+const density=t=>{const l=t.split('\n');return l.length<2?0:Math.round(t.length/l.length);};
+
+/* ---------- live stats (3 redundant paths) ---------- */
+function updateStrip(){
+  const t=srcText();
+  if(!t){strip.textContent='Paste text to see counts';return;}
+  if(t.length>3000000){strip.innerHTML='<b>'+t.length.toLocaleString()+'</b> chars — preview off (too large)';return;}
+  const ch=buildChunks(t,effectiveLimit(),currentLineCap());
+  const maxC=ch.reduce((a,c)=>Math.max(a,c.length),0);
+  const maxL=ch.reduce((a,c)=>Math.max(a,c.split('\n').length),0);
+  let note='',cls='ok';
+  if(limit<=10000){note='max chunk <b>'+maxC.toLocaleString()+'</b> ch / <b>'+maxL+'</b> ln';}
+  else{const d=density(t);
+    if(d>60){note='✅ safe';}
+    else if(d>=40){note='⚠️ 165.1K or lower';cls='warn';}
+    else if(d>0){note='⚠️ 163.7K or lower';cls='risk';}}
+  strip.innerHTML='<b>'+t.length.toLocaleString()+'</b> ch · <b>'+wordCount(t).toLocaleString()+'</b> w · <b>'+
+    t.split('\n').length.toLocaleString()+'</b> ln · ~'+density(t)+' ch/ln → <b>'+ch.length+
+    '</b> chunks ('+outputMode.value+')<br><span class="'+cls+'">'+note+'</span>';
+}
+function updateCount(){
+  const t=inputText.value,sec=(t.match(/^##\s+/gm)||[]).length;
+  countStats.innerHTML='<span>📏 <strong>'+t.length.toLocaleString()+'</strong> chars</span>'+
+    '<span>🔤 <strong>'+wordCount(t).toLocaleString()+'</strong> words</span>'+
+    '<span>📄 <strong>'+t.split('\n').length.toLocaleString()+'</strong> lines</span>'+
+    '<span>📐 ~<strong>'+density(t)+'</strong> ch/ln</span>'+
+    (sec>0?'<span>📑 <strong>'+sec+'</strong> sections</span>':'');
+}
+function updateFilenamePreview(){
+  const fn=baseFilename.value.trim()||'FILE',t=srcText();
+  if(t&&t.length<3000000){
+    const n=buildChunks(t,effectiveLimit(),currentLineCap()).length;let p='';
+    for(let i=1;i<=Math.min(n,3);i++)p+=fn+'-SPLIT'+i+'.md ';
+    if(n>3)p+='+ '+(n-3)+' more';
+    filenamePreview.textContent=p;
+    deployOverheadNote.textContent='~'+deployOverhead()+' ch/chunk header (measured)';
+  }else{filenamePreview.textContent='Paste text to preview';deployOverheadNote.textContent='';}
+}
+function syncNow(force){
+  const v=inputText.value;
+  if(!force&&v===lastVal)return;
+  lastVal=v;updateStrip();updateCount();
+  if(mode==='split')updateFilenamePreview();
+}
+['input','keyup','change','cut','paste','blur','focus'].forEach(ev=>
+  inputText.addEventListener(ev,()=>setTimeout(()=>syncNow(),0)));
+setInterval(()=>syncNow(),400);
+$('btnRefresh').addEventListener('click',()=>{syncNow(true);toast('🔄 Refreshed');});
+$('btnRefresh2').addEventListener('click',()=>{syncNow(true);toast('🔄 Refreshed');});
+
+/* ---------- modes ---------- */
+Object.keys(modeBtns).forEach(m=>modeBtns[m].addEventListener('click',()=>switchMode(m)));
+function switchMode(m){
+  mode=m;emptyHint.classList.remove('show');
+  Object.keys(modeBtns).forEach(k=>modeBtns[k].classList.remove('active'));
+  modeBtns[m].classList.add('active');
+  panelCount.style.display='none';panelGen.style.display='none';
+  if(m==='split'){btnAction.style.display='block';btnAction.textContent='🎳 Split It';}
+  else if(m==='count'){btnAction.style.display='none';panelCount.style.display='block';}
+  else{btnAction.style.display='block';btnAction.textContent='🧪 Generate';panelGen.style.display='block';renderCal();}
+  syncNow(true);
+}
+$('btnOpts').addEventListener('click',function(){optPanel.classList.toggle('show');this.classList.toggle('on');});
+outputMode.addEventListener('change',function(){
+  deployFilename.classList.toggle('show',this.value==='deploy');
+  cleanTagRow.style.display=this.value==='clean'?'flex':'none';
+  saveSettings();syncNow(true);});
+[optAutoPaste,optCleanTag,optLineCap].forEach(e=>e.addEventListener('change',()=>{saveSettings();syncNow(true);}));
+optShowChunks.addEventListener('change',()=>{saveSettings();chunksContainer.classList.toggle('show',optShowChunks.checked);});
+lineCapValue.addEventListener('input',()=>{saveSettings();syncNow(true);});
+baseFilename.addEventListener('input',()=>{updateFilenamePreview();localStorage.setItem('ff_filename',baseFilename.value);});
+$('btnHeaderSettings').addEventListener('click',function(){
+  const p=$('headerSettings');p.style.display=p.style.display==='none'?'block':'none';});
+$('btnSplitInfo').addEventListener('click',()=>$('splitInfoBox').classList.toggle('show'));
+$('btnCountInfo').addEventListener('click',()=>$('countInfoBox').classList.toggle('show'));
+$('btnTestInfo').addEventListener('click',()=>$('testInfoBox').classList.toggle('show'));
+$('btnClearInput').addEventListener('click',()=>{inputText.value='';syncNow(true);});
+$('lineDensity').addEventListener('change',function(){$('customLineDensity').style.display=this.value==='custom'?'inline-block':'none';});
+$('emojiPercent').addEventListener('change',function(){$('customEmojiPercent').style.display=this.value==='custom'?'inline-block':'none';});
+$('btnToggleLog').addEventListener('click',()=>{const p=$('logPanel');p.style.display=p.style.display==='none'?'block':'none';});
+function addLog(m,t){const lc=$('logContent'),e=document.createElement('div');
+  e.className='log-entry'+(t?' '+t:'');e.textContent=m;lc.appendChild(e);lc.scrollTop=lc.scrollHeight;
+  $('logPanel').style.display='block';}
+function clearLog(){$('logContent').innerHTML='';}
+
+/* ---------- presets ---------- */
+document.querySelectorAll('.preset-btn').forEach(b=>b.addEventListener('click',function(){
+  document.querySelectorAll('.preset-btn').forEach(x=>x.classList.remove('active'));
+  this.classList.add('active');
+  const l=this.dataset.limit;
+  if(l==='custom'){isCustom=true;customRow.style.display='block';customLimitInput.value=limit;customLimitInput.focus();}
+  else{isCustom=false;customRow.style.display='none';limit=parseInt(l);
+    const ln=parseInt(this.dataset.lines||'0');
+    if(ln>0){optLineCap.checked=true;lineCapValue.value=ln;}else optLineCap.checked=false;}
+  saveSettings();syncNow(true);}));
+customLimitInput.addEventListener('input',function(){
+  if(isCustom){limit=parseInt(this.value)||3900;saveSettings();syncNow(true);}});
+
+/* ---------- paste button ---------- */
+$('btnPaste').addEventListener('click',async function(){
+  if(!navigator.clipboard||!navigator.clipboard.readText){
+    toast('Long-press the box → Paste',true);inputText.focus();return;}
+  try{
+    const t=await navigator.clipboard.readText();
+    if(!t){toast('Clipboard empty',true);return;}
+    inputText.value=t;syncNow(true);
+    if(mode==='split')doSplit(true);
+  }catch(e){toast('Blocked — long-press box → Paste',true);inputText.focus();}
+});
+
+/* ---------- auto-split on native paste ---------- */
+inputText.addEventListener('paste',function(e){
+  if(!optAutoPaste.checked||mode!=='split')return;
+  let p='';try{p=(e.clipboardData||window.clipboardData).getData('text');}catch(err){p='';}
+  if(!p)return;
+  const all=inputText.selectionStart===0&&inputText.selectionEnd===inputText.value.length;
+  const combined=(inputText.value===''||all)?p:(inputText.value+p);
+  const outs=makeOutputs(combined.trim());
+  if(!outs.length)return;
+  copyText(outs[0],()=>toast('✅ Part 1/'+outs.length+' copied'),()=>toast('Tap Copy — auto-copy blocked',true));
+  setTimeout(()=>{syncNow(true);renderOutputs(makeOutputs(srcText()));copyIndex=1;paintPills();},0);
+});
+
+/* ---------- outputs ---------- */
+function makeOutputs(text){
+  if(!text)return[];
+  const chunks=buildChunks(text,effectiveLimit(),currentLineCap()),num=chunks.length,
+  fn=baseFilename.value.trim()||'FILE',m=outputMode.value,
+  anchor=Math.floor(10000+Math.random()*90000);
+  return chunks.map((body,i)=>{
+    const n=i+1,last=n===num;
+    if(m==='clean')return(optCleanTag.checked&&num>1)?body+'\n('+n+'/'+num+')':body;
+    if(m==='raw'){
+      const lab=limit>=100000?'PASTE':(limit>=70000?'REPO':(limit>=10000?'FETCH':'MSG'));
+      let o='🎳 '+n+'/'+num+' '+lab+'\n'+body;
+      o+=last?'\nCHUNK-ANCHOR: '+anchor:'\n---';return o;}
+    const bu=$('baseUrl').value.trim()||'source-sepia-alpha.vercel.app',fo=$('folderPath').value.trim()||'SPLIT',
+    sp=$('sourcePath').value.trim()||'BUILDER',tf=$('titleFormat').value.trim()||'## 🏠 [FILE] — Part [N] of [TOTAL]',
+    sn=fn+'-SPLIT'+n;
+    let nav;
+    if(num===1)nav=sn+'.md · 1 of 1';
+    else if(n===1)nav=sn+'.md · 1 of '+num+' · Next: '+fn+'-SPLIT2.md →';
+    else if(last)nav='← '+fn+'-SPLIT'+(n-1)+'.md · '+n+' of '+num+' · END';
+    else nav='← '+fn+'-SPLIT'+(n-1)+'.md · '+n+' of '+num+' · Next: '+fn+'-SPLIT'+(n+1)+'.md →';
+    const ti=tf.replace('[FILE]',fn).replace('[N]',n).replace('[TOTAL]',num);
+    return '🔗 📋 '+sn+'.md\nhttps://'+bu+'/'+fo+'/'+sn+'.md\n\n🔗 REVisions. Load both, see the full picture.\n→ Current: '+fn+'.md\nhttps://'+bu+'/'+sp+'/'+fn+'.md\n\n'+ti+'\n\n'+nav+'\n\n'+body+'\n\n---\n'+nav+'\n♦️'+sn+'-'+anchor+'\n';
+  });
+}
+function renderOutputs(outs){
+  lastOutputs=outs;copyIndex=0;chunksContainer.innerHTML='';
+  if(!outs.length){panelOutput.style.display='none';dock.classList.remove('show');return;}
+  panelOutput.style.display='block';dock.classList.add('show');
+  chunksContainer.classList.toggle('show',optShowChunks.checked);
+  const fn=baseFilename.value.trim()||'FILE',dep=outputMode.value==='deploy';
+  outputLabel.textContent=outs.length+' chunks • '+outs.reduce((a,o)=>a+o.length,0).toLocaleString()+' ch out';
+  outs.forEach((o,i)=>{
+    const n=i+1,last=n===outs.length,div=document.createElement('div');
+    div.className='chunk-box';div.dataset.idx=i;
+    const head=document.createElement('div');head.className='chunk-label';
+    const sp=document.createElement('span');
+    sp.textContent=(dep?fn+'-SPLIT'+n+'.md':'Chunk '+n+'/'+outs.length)+' • '+o.length.toLocaleString()+' ch • '+o.split('\n').length+' ln'+(last?' • FINAL':'');
+    const cb=document.createElement('button');cb.className='chunk-copy-btn';cb.textContent='📋';
+    head.appendChild(sp);head.appendChild(cb);
+    const ta=document.createElement('textarea');ta.rows=5;ta.readOnly=true;ta.value=o;
+    div.appendChild(head);div.appendChild(ta);
+    cb.addEventListener('click',e=>{e.stopPropagation();copyOne(i);});
+    ta.addEventListener('click',function(){this.select();});
+    chunksContainer.appendChild(div);
+  });
+  paintPills();
+}
+function paintPills(){
+  pills.innerHTML='';
+  lastOutputs.forEach((_,i)=>{
+    const b=document.createElement('button');b.className='pill';b.textContent=i+1;
+    if(i<copyIndex)b.classList.add('done');
+    if(i===copyIndex)b.classList.add('next');
+    b.addEventListener('click',()=>copyOne(i));
+    pills.appendChild(b);
+  });
+  chunksContainer.querySelectorAll('.chunk-box').forEach((b,i)=>b.classList.toggle('done',i<copyIndex));
+  const n=lastOutputs.length;
+  if(!n)btnCopyNext.textContent='📋 Copy';
+  else if(copyIndex>=n)btnCopyNext.textContent='✅ all '+n+' done — tap to reset';
+  else btnCopyNext.textContent='📋 Copy '+(copyIndex+1)+' / '+n;
+}
+function copyOne(i){
+  copyText(lastOutputs[i],()=>{copyIndex=i+1;paintPills();
+    toast('✅ '+(i+1)+'/'+lastOutputs.length+' copied');},
+    ()=>toast('Copy blocked — open boxes & select',true));
+}
+btnCopyNext.addEventListener('click',()=>{
+  if(!lastOutputs.length)return;
+  if(copyIndex>=lastOutputs.length){copyIndex=0;paintPills();return;}
+  copyOne(copyIndex);
+});
+$('btnDockUp').addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+$('btnToggleChunks').addEventListener('click',function(){
+  optShowChunks.checked=!optShowChunks.checked;saveSettings();
+  chunksContainer.classList.toggle('show',optShowChunks.checked);
+  this.textContent=optShowChunks.checked?'▴ boxes':'▾ boxes';});
+$('btnCopyAll').addEventListener('click',function(){copyText(lastOutputs.join('\n\n'),()=>toast('✅ All copied'));});
+$('btnClear').addEventListener('click',()=>{chunksContainer.innerHTML='';panelOutput.style.display='none';
+  dock.classList.remove('show');lastOutputs=[];copyIndex=0;});
+$('btnCopyStats').addEventListener('click',function(){
+  const t=inputText.value;
+  copyText('Chars: '+t.length.toLocaleString()+' | Words: '+wordCount(t).toLocaleString()+
+    ' | Lines: '+t.split('\n').length.toLocaleString()+' | Density: ~'+density(t)+
+    ' ch/ln | Limit: '+limit.toLocaleString(),()=>toast('✅ Stats copied'));});
+
+function doSplit(autoCopy){
+  if(!srcText()){emptyHint.classList.add('show');setTimeout(()=>emptyHint.classList.remove('show'),2200);return;}
+  emptyHint.classList.remove('show');
+  const outs=makeOutputs(srcText());renderOutputs(outs);
+  if(autoCopy&&outs.length)copyText(outs[0],()=>{copyIndex=1;paintPills();toast('✅ Part 1/'+outs.length+' copied');},
+    ()=>toast('Tap Copy 1 in the bar',true));
+}
+btnAction.addEventListener('click',()=>{mode==='split'?doSplit(false):generateTestFile();});
+
+/* ---------- calibration ---------- */
+function cal(){try{return JSON.parse(localStorage.getItem('ff_cal'))||{};}catch(e){return{};}}
+function setCal(c){localStorage.setItem('ff_cal',JSON.stringify(c));renderCal();}
+function nextTestSize(){
+  const c=cal();
+  if(c.good&&c.bad)return Math.floor((c.good+c.bad)/2);
+  if(c.good)return c.good+250;
+  if(c.bad)return Math.max(500,c.bad-250);
+  return 4300;
+}
+function renderCal(){
+  const c=cal(),el=$('calState');
+  const g=c.good?('<b>'+c.good.toLocaleString()+'</b> ch'+(c.goodLines?' / '+c.goodLines+' ln':'')):'—';
+  const b=c.bad?('<b>'+c.bad.toLocaleString()+'</b> ch'+(c.badLines?' / '+c.badLines+' ln':'')):'—';
+  let gap=(c.good&&c.bad)?(' · gap '+(c.bad-c.good).toLocaleString()):'';
+  el.innerHTML='✅ largest inline: '+g+'<br>❌ smallest attached: '+b+gap+
+    '<br>→ next test: <b>'+nextTestSize().toLocaleString()+'</b> ch'+
+    (c.seed?'<br><span style="color:#8899cc">seeded from your 3.9K+243 report — re-verify</span>':'');
+  $('genSize').value=nextTestSize();
+}
+function lastGenLines(){return parseInt(localStorage.getItem('ff_lastgenlines')||'0');}
+$('calPass').addEventListener('click',()=>{
+  const c=cal(),s=parseInt($('genSize').value)||0;
+  if(!s)return;
+  if(!c.good||s>c.good){c.good=s;c.goodLines=lastGenLines();c.seed=false;}
+  if(c.bad&&s>=c.bad)c.bad=null;
+  setCal(c);toast('✅ recorded pass at '+s.toLocaleString());});
+$('calFail').addEventListener('click',()=>{
+  const c=cal(),s=parseInt($('genSize').value)||0;
+  if(!s)return;
+  if(!c.bad||s<c.bad){c.bad=s;c.badLines=lastGenLines();}
+  if(c.good&&s<=c.good)c.good=null;
+  setCal(c);toast('❌ recorded attach at '+s.toLocaleString());});
+$('calUse').addEventListener('click',()=>{
+  const c=cal();
+  if(!c.good){toast('No verified pass yet',true);return;}
+  limit=Math.floor(c.good*0.98);
+  if(c.goodLines){optLineCap.checked=true;lineCapValue.value=c.goodLines;}
+  isCustom=true;customRow.style.display='block';customLimitInput.value=limit;
+  document.querySelectorAll('.preset-btn').forEach(x=>x.classList.remove('active'));
+  $('btnCustom').classList.add('active');
+  saveSettings();syncNow(true);
+  toast('Preset → '+limit.toLocaleString()+' ch (2% margin)');});
+$('calReset').addEventListener('click',()=>{localStorage.removeItem('ff_cal');renderCal();toast('↺ reset');});
+if(localStorage.getItem('ff_cal')===null)
+  localStorage.setItem('ff_cal',JSON.stringify({good:4143,goodLines:70,seed:true}));
+
+/* ---------- test generator ---------- */
+function generateTestFile(){
+  const size=parseInt($('genSize').value);
+  if(!size||size<100)return;
+  clearLog();
+  const dv=$('lineDensity').value;
+  let ld=dv==='custom'?(parseInt($('customLineDensity').value)||73):(parseInt(dv)||0);
+  if(dv!=='0'&&!ld)ld=73;
+  const ev=$('emojiPercent').value;
+  let ep=(ev==='custom'?(parseInt($('customEmojiPercent').value)||0):(parseInt(ev)||0))/100;
+  addLog('🎯 target '+size.toLocaleString()+' ch · lines ~'+ld+' · emoji '+Math.round(ep*100)+'%');
+  const anchor=Math.floor(10000+Math.random()*90000);
+  let c='TEST '+size.toLocaleString()+' ch • ANCHOR '+anchor+(ld===0?' • no breaks':' • ~'+ld+' ch lines')+
+    (ep>0?' • '+Math.round(ep*100)+'% emoji':'')+'\n';
+  const em=['🎳','🫧','💎','🧩','🪜','🔮','🖕','🔥','🌱','✨','🧪','📋','📏','🎯','⭐','◾'];
+  let ei=0,ln=1;
+  while(c.length<size-30){
+    if(Math.random()<ep){c+=em[ei%em.length];ei++;}
+    else if(ld===0){c+='X';}
+    else{
+      const rt=c.length,ts=rt>=1000?'~'+Math.round(rt/1000)+'K':String(rt);
+      const pre='L'+String(ln).padStart(6,'0')+' · '+ts.padStart(6,' ')+' ';
+      const fil='The quick brown fox jumps over the lazy dog. Pattern recognition across substrates. ';
+      const maxL=pre.length+ld;let line=pre,cc=pre.length;
+      for(let k=0;k<fil.length&&cc<maxL;k++){line+=fil[k];cc++;}
+      if(c.length+line.length+30>size)break;
+      c+=line+'\n';ln++;}
+  }
+  while(c.length<size-15)c+='X';
+  c=c.substring(0,size);
+  const al='\nANCHOR '+anchor,ep2=size-al.length;
+  if(ep2>0)c=c.substring(0,ep2)+al;
+  const lines=c.split('\n').length;
+  localStorage.setItem('ff_lastgenlines',lines);
+  addLog('📊 built '+c.length.toLocaleString()+' ch (diff '+(c.length-size)+') · '+lines+' lines · '+wordCount(c)+' words',c.length===size?'success':'error');
+  addLog('→ paste into Claude, then tap ✅ or ❌ below');
+  renderOutputs([c]);
+  outputLabel.textContent='Test • '+c.length.toLocaleString()+' ch · '+lines+' ln';
+  renderCal();
+}
+
+/* ---------- init ---------- */
+loadSettings();
+deployFilename.classList.toggle('show',outputMode.value==='deploy');
+cleanTagRow.style.display=outputMode.value==='clean'?'flex':'none';
+restoreActivePreset();
+switchMode('split');
+renderCal();
+syncNow(true);
+</script>
+</body>
+</html>
