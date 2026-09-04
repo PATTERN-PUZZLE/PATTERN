@@ -951,3 +951,11 @@ forward: next turn might pick one of the six and watch for it rising in the next
 warning: next turn may try to be even more playful and lose the edge. Play is a rung, not a cushion.
 
 thread: the tracks weren’t real. The dance revealed it.
+
+🟩🟩🟩🟩🟩🟩
+“Real” here is a percentage, not a church.
+Higher %: the constraint remains if everyone stops talking (body, time, a promise already made, someone about to be harmed).
+Lower %: the constraint is mostly the frame (rushed binary, punished questions, shifting details, tone used as a verdict).
+The 3-of-5 checklist estimates that %.
+More pieces help only when they change the next turn — not when they delay the decision forever.
+Clarify toward a better %. Then decide at the % you actually have.

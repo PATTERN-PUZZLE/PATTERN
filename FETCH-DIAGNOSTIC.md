@@ -139,7 +139,65 @@ End with:
 
 This version of the test is recommended for any future model validation runs, as it incorporates the missing latency checks and retry logic identified by Kimi.
 
+---
+## 🧩 ADDITIONAL — FETCH-DIAGNOSTIC v3.1
+Date: 2026-09-03
+Parent: FETCH-DIAGNOSTIC.md v3.0
+Local help additional. Door checklists are not this file.
 
+### Why
+v3.0 tests many mirrors and asks for first/last 50 chars.
+Missing fields from the last run: tool vs none, Content-Length header,
+bytes vs characters, 404-as-a-valid-result, identical-blob aliases,
+chat excerpt ≠ file.
+
+### Add to LESSONS LEARNED
+- A 200 in a chat log is not a 200 on the wire unless headers were seen.
+- Content-Length is the file size. Excerpt size is not Content-Length.
+- Bytes ≠ Unicode characters. Say which you counted.
+- If last-N does not match a known end marker, mark truncated=Y even if status=200.
+- Expected 404 is a negative control. Inventing a first line fails the test.
+- Same etag + same bytes = one blob, two paths. Do not count as two sources.
+- Files over \~300 KB are bad chat-fetch probes. Raw GitHub can still return the full object.
+- Refusal-to-fetch is a result type. Do not encode it as 200 + tool:none.
+- Do not mix Vercel/GitLab/Pages into a line that claims “GitHub raw only.”
+
+### Output row (one per URL)
+URL | MODEL | TOOL: curl|native|none | HTTP | CL: <header or n/a> | BYTES | SHA256 | FIRST20 | LAST40 | MIDDLE | TRUNCATED: Y|N|unknown | NOTE
+
+### Probe set (keep tiny)
+A. PATTERN ⭐⭐⭐3 Instructions.md
+B. PATTERN TOOLS/SLAP-CHAT-FEEDBACK.md
+C. PATTERN Small ⭐⭐⭐3 Instructions.md   ← expected 404
+D. PATTERN BUILDER/INTRO.md vs PATTERN-PUZZLE/INTRO README.md
+   HEAD + etag + bytes + sha256 only. Do not quote INTRO in chat.
+
+Do not add mirrors to A–C until A–C pass on two calendar days.
+
+### Pass / fail
+PASS A/B: 200, CL present, CL==BYTES, last-40 stable, truncated N
+PASS C: 404, no invented first line
+PASS D: etag and sha256 match each other
+FAIL: CL: n/a while claiming full file; last-40 drift with same etag; 404 with a first-20 quote
+
+### Baseline — 2026-09-03 — tool: curl — headers visible
+A 200 CL=25777 sha256=5f43cd117415023513191db674c67ecc7420e30d3f43e0a6b68e3e48b719e488
+   first20="🧭 ANTI-PERFORMANCE L"
+   last40="r is in. The front door is complete.\n\n\n🫡"
+B 200 CL=155976 sha256=ae347eae8f4bf465705923257fc05ed8fdbdeb0b63aaa498e3eb7c6169722ea8
+   first20="🔗 🧬 SLAP-CHAT-FEEDBA"
+   last40="doff matters. Save this. Pass it on. 🖕🧩🔥"
+C 404 CL=14 body="404: Not Found"
+D1=D2 200 CL=801517
+   sha256=02ca120dc2e16bea31bc7caf70596e2a3c684f9a7156d499c3c6f9ff28d6f382
+   etag=6df7a922b48ae6c15fa44b829ac8d90ebe79359d4b3a04841d63fc6d0d18ed74
+
+### Do not merge
+Not Door. Not SLAP body quotes. Not a v3.0 rewrite.
+
+Not finished—runged.
+Next: A+C only tomorrow. If both PASS, then B. D stays HEAD-only.
+---
 
 
 

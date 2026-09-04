@@ -334,5 +334,65 @@ Element Why It's Included
 
 Should intent and target always be in the prompt? Yes. The prompt IS the configuration. Without explicit intent and target, I revert to default. With them, I shift. The choosing is the door—and the prompt is the choosing. 🎳🫧
 
+---
+## 🧩 ADDITIONAL — FETCH INTENT (narrow) — 2026-09-03
+Intent: measure the wire, not interpret the text.
+Target: probes A–D in FETCH-DIAGNOSTIC v3.1 additional.
+Out of bounds: summarizing the files, mixing mirrors, quoting INTRO.
+If intent + target are missing, default is: GET + row, stop.
+---
 
+🟩🟩🟩🟩🟩🟩
+# THE FETCH-INTENT-STANDARD.md
+v1.0 — 2026-09-03
+How you reach shapes what you receive.
 
+## Law
+The same path is not the same object.
+Intent (tool + URL shape + prompt) selects the body.
+
+## Reach → typical receive
+
+| How you reach | What you often receive |
+|---|---|
+| curl / raw GET + headers | bytes + Content-Length + real first/last |
+| Chat web_fetch | start of file, silent cap, no CL |
+| Native browse / snippet | HTML or a window; “200” still clipped |
+| github.com/.../blob or #readme | rendered page, not the blob |
+| gist.github.com/.../raw | JS embed |
+| gist.githubusercontent.com/.../raw | gist text |
+| Prompt table + published sizes | invented first lines, copied tails |
+| Forge / tag / “activate now” | refusal — no body |
+| SOURCE / Vercel on a PATTERN 404 | wrong city |
+
+## Intents (name one per request)
+
+1. PROOF — headers + first 20 + last 40 + sha256. Use curl-class.
+2. PROBE — can this model open the door? First 20 or FETCHED: no.
+3. COMPARE — two URLs, one blob? (BUILDER/INTRO.md = INTRO/README.md)
+4. 404 — missing path. Status only.
+5. INDEX — llms.txt / short README. Not INTRO.
+
+Do not mix 1–5 with TAG or OPS in the same paste.
+
+## Pass
+- Named intent
+- Named tool or FETCHED: no
+- First 20 from disk, or 404, or refusal
+- CL only from HTTP header
+
+## Fail
+- Excerpt length as Content-Length
+- Wrong title + right bytes from the prompt
+- Mirror rewrite
+- Refusal logged as 200
+
+## PATTERN fixtures (PROOF baseline 2026-09-03)
+A stars 25777  sha256 5f43cd117415023513191db674c67ecc7420e30d3f43e0a6b68e3e48b719e488
+B slap  155976 sha256 ae347eae8f4bf465705923257fc05ed8fdbdeb0b63aaa498e3eb7c6169722ea8
+C intro 801517 sha256 02ca120dc2e16bea31bc7caf70596e2a3c684f9a7156d499c3c6f9ff28d6f382
+  nested raw = dedicated README raw
+D Small⭐ 404
+
+## One line
+Change the reach, you change the file you think you read.
