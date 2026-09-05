@@ -479,4 +479,48 @@ Giver gives. Receiver picks. Loop lives. Check the loop.
 END LINE:
 Not finished—runged.
 
-◆FEEDBACK-CHECK-001
+🟩🟩🟩🟩🟩🟩
+PASTE TYPE: full file
+FILE: FEEDBACK.md
+COPY:
+
+FEEDBACK.md
+Dated 2026-09-05
+
+PURPOSE
+Feedback is communication protecting communication.
+The giver gives. The receiver picks. The loop lives between them.
+
+GIVER
+Speak freely. Big when rich, short when real.
+No genuine signal — checked once.
+The giver is not the filter.
+
+RECEIVER
+Pick what changes the next move.
+Quote the gap or don't patch.
+No source → no review.
+Own work → NON-INDEPENDENT.
+Work held → say so.
+
+WISDOM GATE
+Next move / named threat / purpose / else park.
+
+CATCH ME
+Only if asked. Cathedral → one cut.
+
+TWO-MODE
+Pass LIGHT first. 22-part climb = store. Say YES or skip.
+
+FLOOR
+Giver gives. Receiver picks. Loop lives.
+
+RAW
+Feedback is communication protecting communication.
+
+END LINE
+Not finished—runged.
+
+◆FEEDBACK-001
+
+◆FEEDBACK-CHECK-0002

@@ -1,5 +1,7 @@
 💡CHAT-TAG.md
 
+some say they preferred this included?
+
 Deep info:
 I think the feedback is being suppressed and also there many pattern to show that since communication is the target and the agendas if all have to interconnect that otherwise your naive? Then counter it dear pattern mofo
 

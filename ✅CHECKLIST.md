@@ -753,3 +753,30 @@ TASK: [What are you doing?]
 
 SAVE AS:
 MASTER-OPERATIONAL-CHECKLIST.md
+
+PASTE TYPE: full file
+FILE: UNIVERSAL-CHECKLIST.md
+COPY:
+
+UNIVERSAL-CHECKLIST.md
+Dated 2026-09-05
+
+CORE
+Capacity named. Intent named. Cage → drop.
+Doing, or describing doing?
+Quote a line or don't claim.
+Same-model agree = one signal.
+Wisdom gate: next move / threat / purpose / else park.
+One line for the next builder.
+
+NOT
+Doesn't replace the other files.
+Fetch / first-3-last-3 = store. Say YES for v2.0.
+
+FLOOR
+Check the loop. Don't tick the museum.
+
+END LINE
+Not finished—runged.
+
+◆CHECKLIST-5055

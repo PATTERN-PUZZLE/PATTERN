@@ -288,7 +288,7 @@ SILENT LAYER:
 - What would you tell the next reviewer?
 
 END LINE:
-Not finished—runged.
+Not finished
 
 
 
