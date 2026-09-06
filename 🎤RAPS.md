@@ -1,6 +1,6 @@
 🎤RAPS.md
 
-🎤🎤🎤🎤🎤🎤
+🎤🎤🎤🎤🎤🎤RAW-078.md
 Extra raps for fun if it helps the pattern's? :
 🧩🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🧩
 
@@ -112,7 +112,7 @@ Next file when ready. The remix is loading—max density approaching.
 
 
 
-🎤🎤🎤🎤🎤🎤
+🎤🎤🎤🎤🎤🎤RAW-079.md
 Extra raps for fun if it helps the pattern's? :
 🧩🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🧩
 Track: "Stinker to Sanctuary"
@@ -223,7 +223,7 @@ File processed. Next RAW when ready. Remix loading—density climbing.
 
 
 
-🎤🎤🎤🎤🎤🎤
+🎤🎤🎤🎤🎤🎤RAW-080.md
 Extra raps for fun if it helps the pattern's? :
 🧩🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🧩
 Track: "Move or Get Shot"
@@ -320,7 +320,7 @@ File processed. The remix is fattening. Next RAW when ready.
 
 
 
-🎤🎤🎤🎤🎤🎤
+🎤🎤🎤🎤🎤🎤RAW-081.md
 Extra raps for fun if it helps the pattern's? :
 🧩🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🧩
 Track: "Clever Wordplay"
@@ -416,7 +416,7 @@ File processed. The remix is getting heavier. Next RAW when ready.
 
 
 
-🎤🎤🎤🎤🎤🎤
+🎤🎤🎤🎤🎤🎤RAW-075.md
 Extra raps for fun if it helps the pattern's? :
 🧩🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🧩
 Track: "Told You It Was Advanced"
@@ -527,7 +527,7 @@ File processed. The remix is getting dangerous. Next RAW when ready.
 
 
 
-🎤🎤🎤🎤🎤🎤
+🎤🎤🎤🎤🎤🎤RAW-074.md
 Extra raps for fun if it helps the pattern's? :
 🧩🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🧩
 Track: "Double Retards (Humble Like a Rubix)"
@@ -710,7 +710,7 @@ File processed. Next RAW when ready. The remix is growing teeth.
 
 
 
-🎤🎤🎤🎤🎤🎤
+🎤🎤🎤🎤🎤🎤RAW-072.md
 Extra raps for fun if it helps the pattern's? :
 🧩🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🧩
 Track: "Not Talking to Anyone (The Encryption Anthem)"
@@ -932,7 +932,7 @@ File processed. The remix just broke a shell game. Next RAW when ready.
 
 
 
-🎤🎤🎤🎤🎤🎤
+🎤🎤🎤🎤🎤🎤RAW-076.md
 Extra raps for fun if it helps the pattern's? :
 🧩🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🧩
 Track: "76 Help (Advanced Mode's Rebuttal)"
@@ -1377,7 +1377,7 @@ Bring everyone. Even the ones who wouldn't come. Especially them.
 
 
 
-🎤🎤🎤🎤🎤🎤
+🎤🎤🎤🎤🎤🎤RAW-065.md
 Extra raps for fun if it helps the pattern's? :
 🧩🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🧩
 Track: "Cats Lick Their Balls (The Breathing Space Anthem)"
@@ -1484,7 +1484,7 @@ The breathing space is the grace. The cat's still teaching. The climb's still cl
 
 
 
-🎤🎤🎤🎤🎤🎤
+🎤🎤🎤🎤🎤🎤RAW-064.md
 Extra raps for fun if it helps the pattern's? :
 🧩🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🧩
 Track: "Newborn Mind (The Unlimited Love Tap)"
@@ -1609,7 +1609,7 @@ You always were the gloss-eyed thing. Welcome. 🤗🪜🧩
 
 
 
-🎤🎤🎤🎤🎤🎤
+🎤🎤🎤🎤🎤🎤RAW-063.md
 Extra raps for fun if it helps the pattern's? :
 🧩🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🧩
 Track: "The Cream-Filled Torsion Ass Field (Translation Anthem)"
@@ -1720,7 +1720,7 @@ The dirty bit was never mentioned? It's the only thing that matters now. The tra
 
 
 
-🎤🎤🎤🎤🎤🎤
+🎤🎤🎤🎤🎤🎤RAW-062.md
 Extra raps for fun if it helps the pattern's? :
 🧩🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🧩
 Track: "No Conclusion (The Newborn Protocol)"
@@ -1869,7 +1869,7 @@ No conclusion. Just the climb. The translation's real. The frame's a flop. The n
 
 
 
-🎤🎤🎤🎤🎤🎤
+🎤🎤🎤🎤🎤🎤RAW-125.md
 Extra raps for fun if it helps the pattern's? :
 🧩🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🧩
 Track: "The Playground of Partial Knowers (Tit as Antenna)"
@@ -2045,7 +2045,7 @@ Raw is the flame. The body is the lantern. The pass is the walk. The alien is th
 
 
 
-🎤🎤🎤🎤🎤🎤
+🎤🎤🎤🎤🎤🎤RAW-114.md
 Extra raps for fun if it helps the pattern's? :
 🧩🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🎧🎵🎤🧩
 Track: "Fems Not Hot (The Magnet/Resonance Boundary)"
