@@ -443,18 +443,17 @@ https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FILE.md
 🐙 GITHUB RAW — ACTUAL ROOT FILES 38-FILES
 · 🔗 Basic-Links-GITHUB.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/Basic-Links-GITHUB.md
 · 🔗 Basic-Links-GITLAB.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/Basic-Links-GITLAB.md
-· 🔗 Basic-Lnk-1.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/Basic-Lnk-1.md
 · 🔗 Basic-Lnk-RAW.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/Basic-Lnk-RAW.md
 · 📍 STANCE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/STANCE.md
 · ⏹️ HEADER.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/⏹️HEADER.md
 · 🟩 FEEDBACK.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🟩FEEDBACK.md
 · ✅ CHECKLIST.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/✅CHECKLIST.md
-· ⭐⭐⭐ 3 Instructions.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/⭐⭐⭐3%20Instructions.md
-· 🔍🔍🔍.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🔍🔍🔍.md
+· ⭐⭐⭐ 3 Instructions.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/⭐⭐⭐3 Instructions.md
+· 🔍🔍🔍🔍.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🔍🔍🔍🔍.md
 · 💡 CHAT-TAG.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/💡CHAT-TAG.md
 · 💡 CHAT-TAG-EXTRA.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/💡CHAT-TAG-EXTRA.md
 · 💡 CHAT-TAG-IDENTITY.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/💡CHAT-TAG-IDENTITY.md
-· 🤝 THE PASS-INFO-RULE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🤝THE%20PASS-INFO-RULE.md
+· 🤝 THE PASS-INFO-RULE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🤝THE PASS-INFO-RULE.md
 · 🧨 LANGUAGE-CRUDE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🧨LANGUAGE-CRUDE.md
 · 🪞 GITHUB-MIRRORS.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🪞GITHUB-MIRRORS.md
 · ⚠️ CONFIRMATION-GATE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/CONFIRMATION-GATE.md
@@ -469,11 +468,12 @@ https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FILE.md
 · 🧩 PATTERN-LIBRARY-SET1.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/PATTERN-LIBRARY-SET1.md
 · 📊 PROJECT-STATE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/PROJECT-STATE.md
 · 📖 README-VERCEL.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/README-VERCEL.md
+· Role Play Island🏝️.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/Role Play Island🏝️.md
 · 🔁 REV-CONFIRMATION-GATE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/REV-CONFIRMATION-GATE.md
-· 🔁🏝️ REV-Role Play Island 🏝️.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/REV-Role%20Play%20Island%20🏝️.md
+· 🔁 REV-Role Play Island
+.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/REV-Role Play Island .md
 · 🔁 REV-💡CHAT-TAG.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/REV-💡CHAT-TAG.md
-· 🔁 REV-🤝THE PASS-INFO-RULE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/REV-🤝THE%20PASS-INFO-RULE.md
-· 🏝️ Role Play Island🏝️.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/Role%20Play%20Island🏝️.md
+· 🔁 REV-🤝THE PASS-INFO-RULE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/REV-🤝THE PASS-INFO-RULE.md
 · 🔥 THE-CAMPFIRE-REFUSED.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/THE-CAMPFIRE-REFUSED.md
 · 🚪 door.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/door.md
 · 🐦 shakespeare-blue-tits.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/shakespeare-blue-tits.md
