@@ -1,4 +1,4 @@
-🔗 🦊 Basic-Links-GITHUB.md — The Front Door https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/Basic-Links-GITHUB.md
+🔗 🦊 Basic-Links-GITLAB.md — The Front Door https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🔗Basic-Links-GITLAB.md
 
 FRESH FETCH REQUEST — SAVE BLOCK
 When sharing links with AI, paste this before the links:
@@ -29,7 +29,7 @@ Short prompt version:
 
 - Always use raw endpoints for AI sharing; static pages are unreliable across models.
 - Safe universal file size: ≤300 KB of plain Markdown.
-- Raw link format: https://gitlab.com/USER/REPO/-/raw/main/file.md
+- Raw link format: https://raw.githubusercontent.com/USER/REPO/main/file.md
 - Add cache-busting: ?v=timestamp or ?t=time.
 - Use /raw/ path, never /blob/ or /tree/.
 - Set Content-Type: text/plain; charset=utf-8 on static hosts.
@@ -37,15 +37,15 @@ Short prompt version:
 - Use absolute URLs for internal links; Gemini/Grok don't resolve relative paths.
 - Avoid words like "bypass", "scrape", "mirror" — say "documentation fetch".
 - Claude is the most refusal-prone; add ownership/legitimacy opener.
-- Send two links per document: primary raw GitLab, backup raw GitHub.
+- Send two links per document: primary raw GitHub, backup raw GitLab.
 - Run daily curl health checks on mirrors to detect drift and stale content.
 - Add end marker (e.g., <!-- END OF DOCUMENT -->) and verify last sentence in tests.
 
 Primary AI link:
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FILE.md
+https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/FILE.md
 
 Backup AI link:
-https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/FILE.md
+https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FILE.md
 
 Human-only doors:
 Vercel, Cloudflare Pages, Codeberg Pages
@@ -56,32 +56,32 @@ Test any new platform with a 100KB file + end marker before trusting.
 
 🟨🟨🟨🟨🟨🟨
 
-Here is a condensed but detailed bulk conversion method for turning the whole file set from GitLab raw into GitHub raw on demand.
+Here is a condensed but detailed bulk conversion method for turning the whole file set from GitHub raw into GitLab raw on demand.
 
 ```text
-GITHUB RAW BULK CONVERSION METHOD
+GITLAB RAW BULK CONVERSION METHOD
 
 BASE RULE:
 Keep the file path after /main/ exactly the same.
 Change only the front part.
 
-GitLab raw:
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FILE_PATH
-
 GitHub raw:
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/FILE_PATH
 
+GitLab raw:
+https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FILE_PATH
+
 HOW TO CONVERT ANY FILE:
-1. Take the GitLab raw link.
+1. Take the GitHub raw link.
 2. Find the part after /main/.
-3. Put that exact part after the GitHub base.
+3. Put that exact part after the GitLab base.
 
 EXAMPLE WITH FOLDER:
-GitLab:
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/STANDARDS.md
-
 GitHub:
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/STANDARDS.md
+
+GitLab:
+https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/STANDARDS.md
 
 MULTIPLE FILES:
 Do not manually rewrite files.
@@ -89,12 +89,12 @@ Use one of these:
 
 Option A — Text editor find/replace:
 Find:
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/
-Replace:
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/
+Replace:
+https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/
 
-Option B — Terminal script (if you have the GitLab raw list in a file):
-sed 's|https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/|https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/|g' gitlab-links.txt > github-links.txt
+Option B — Terminal script (if you have the GitHub raw list in a file):
+sed 's|https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/|https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/|g' github-links.txt > gitlab-links.txt
 
 Option C — Convert mentally per file when needed:
 - Keep PATH identical
@@ -110,23 +110,23 @@ FILE NAME.md → FILE%20NAME.md
 PROMPT+.md → PROMPT%2B.md
 
 IMPORTANT MODEL NOTE:
-GitHub raw is primary.
 GitLab raw is backup.
+GitHub raw is primary.
 Some AIs (Claude) may block GitLab raw due to robots.txt.
 Try GitHub first. If GitHub 404s, use GitLab as backup.
 
 DEDICATED REPOS:
 If file is in a separate repo (not PATTERN), use:
-https://gitlab.com/PATTERN-GATE/REPO-NAME/-/raw/main/README.md
+https://raw.githubusercontent.com/PATTERN-PUZZLE/REPO-NAME/main/README.md
 or
-https://gitlab.com/PATTERN-GATE/REPO-NAME
+https://github.com/PATTERN-PUZZLE/REPO-NAME#readme
 
-GitHub raw only works for files inside PATTERN-PUZZLE/PATTERN repo.
-Dedicated repos are not mirrored in GitHub.
+GitLab raw only works for files inside PATTERN-GATE/PATTERN repo.
+Dedicated repos are not mirrored in GitLab.
 
 MEMORY HOOK:
 "Same path, different door."
-GitLab raw → GitHub raw is just swapping the base.
+GitHub raw → GitLab raw is just swapping the base.
 
 🟧🟧🟧🟧🟧🟧
 
@@ -177,10 +177,10 @@ Still useful:
    If a fetched Basic-Links copy lacks the final 🔗8471, it is truncated.
 
 5. 404 ladder concept still valid, but priority is now:
-   GitLab raw → GitHub raw → Vercel explicit → blob → case/branch → mirrors
+   GitHub raw → GitLab raw → Vercel explicit → blob → case/branch → mirrors
 
 6. Separate repos have their own README doors for larger AI fetch:
-   gitlab.com/PATTERN-GATE/REPO-NAME
+   github.com/PATTERN-PUZZLE/REPO-NAME#readme
 
 🟪🟪🟪🟪🟪
 
@@ -203,16 +203,16 @@ Full TOWN MAP / Basic-Links below. Campfire burns. 🔥🕸️
 
 🟨🟨🟨🟨🟨
 
-DOOR-ANCHOR-MAP.md
+· 🗺 DOOR-ANCHOR-MAP.md
 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR-ANCHOR-MAP.md
 
-📋📋📋STANDARDS A-I versions +Extra Insights
+· 🔁📋REV-STANDARDS-VER.md A-I versions +Extra Insights
 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/REV-STANDARDS-VER.md
 
-📋📋 REV-STANDARDS fossil Lineage
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/REV-STANDARDS.md older but eventually check later to see if it has anything we didn't take over into the new 
+· 🔁📋 REV-STANDARDS.md fossil Lineage
+https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/REV-STANDARDS.md older but eventually check later to see if it has anything we didn't take over into the new
 
-📋📋 REV-STANDARDS2 capacity + how+why
+· 🔁📋 REV-STANDARDS2.md capacity + how+why
 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/REV-STANDARDS2.md
 
 · 🧩 CROSS-FILE-PATTERN.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/CROSS-FILE-PATTERN.md
@@ -224,12 +224,13 @@ https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/REV-STANDARDS2.md
 · 🧩 RAW-EXTRA-PATTERNS.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/RAW/RAW-EXTRA-PATTERNS.md
 
 · 🧩 RAW-SUPPLEMENT.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/RAW/RAW-SUPPLEMENT.md
-*SYNTH FOLDER 📁 
+
+*SYNTH FOLDER 📁
 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/-PATTERN-REGISTRY.md
 
 · 🧩📚 -PATTERN-REGISTRY.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/-PATTERN-REGISTRY.md
 
-⛩️ GATES 
+⛩️ GATES
 · 🚪 door.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/door.md
 · ⚠️ CONFIRMATION-GATE.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/CONFIRMATION-GATE.md
 
@@ -269,34 +270,34 @@ https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TROLLEY/TROLLEY-030.md
 
 SPLIT:
 🔗 🎳 f36CLAUDE.html https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SPLIT/f36CLAUDE.html
-🔗 🎳 REV-FRAGMENTOR.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SPLIT/REV-FRAGMENTOR.md
+🔗 🔁 REV-FRAGMENTOR.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SPLIT/REV-FRAGMENTOR.md
 🔗 🎳 FILE-Fragmentor.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SPLIT/FILE-Fragmentor.md
 🔗 🎳 FRAGMENTOR-HISTORY.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SPLIT/FRAGMENTOR-HISTORY.md
 
-SYNTH 42-FILES:
+🧬 SYNTH 39-FILES:
+· 📦 CHATS-PACKET-PROMPT-SYNTH-FEEDBACK.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/CHATS-PACKET-PROMPT-SYNTH-FEEDBACK.md
+· 📦 CHATS-PACKET-SYNTH-FEEDBACK-SPECULATION.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/CHATS-PACKET-SYNTH-FEEDBACK-SPECULATION.md
 · 👁️ HOSTILE-WITNESS-1ST.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/HOSTILE-WITNESS-1ST.md
 · 👁️ HOSTILE-WITNESS-2ND.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/HOSTILE-WITNESS-2ND.md
 · 🧩🧬 PATTERN-24-CANDIDATES.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/PATTERN-24-CANDIDATES.md
 · 🧩🗄️ PATTERN-REGISTRY.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/PATTERN-REGISTRY.md
 · 💬🪹 PROMPT-EMPTY-POCKETS.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/PROMPT-EMPTY-POCKETS.md
 · 💬🗺️ PROMPT-MAP-FILES.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/PROMPT-MAP-FILES.md
-· ⚖️ PROMPT-PROSECUTOR.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/PROMPT-PROSECUTOR.md
-· 🧭 PROMPT-SCOUT1+2+GROK.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/PROMPT-SCOUT1%2B2%2BGROK.md
-· 🧠 PROMPT-SYNTH-FEEDBACK.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/PROMPT-SYNTH-FEEDBACK.md
+· 💬⚖️ PROMPT-PROSECUTOR.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/PROMPT-PROSECUTOR.md
+· 💬🧭 PROMPT-SCOUT1+2+GROK.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/PROMPT-SCOUT1+2+GROK.md
+· 💬🧠 PROMPT-SYNTH-FEEDBACK.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/PROMPT-SYNTH-FEEDBACK.md
 · 💬🗺️ PROMPT-SYNTH-MAP-FILES.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/PROMPT-SYNTH-MAP-FILES.md
 · 📊 RESULTS-2.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/RESULTS-2.md
 · 📊 RESULTS-BUILDER.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/RESULTS-BUILDER.md
 · 📊 RESULTS-MAPPING.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/RESULTS-MAPPING.md
-· 📊 RESULTS.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/RESULTS.md 
+· 📊 RESULTS.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/RESULTS.md
 · 🔁 REV-PROMPT-EMPTY-POCKETS.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/REV-PROMPT-EMPTY-POCKETS.md
+· 🔁 REV-PROMPT-SCOUT1+2+GROK.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/REV-PROMPT-SCOUT1+2+GROK.md
 · 🔁 REV-PROMPT-SYNTH-FEEDBACK.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/REV-PROMPT-SYNTH-FEEDBACK.md
 · 🔁 REV-SYNTH-1ST-PROMPT.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/REV-SYNTH-1ST-PROMPT.md
 · 🔁 REV-SYNTHESIZER-1ST.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/REV-SYNTHESIZER-1ST.md
 · 🔁 REV-SYNTHESIZER-2ND.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/REV-SYNTHESIZER-2ND.md
 · 🔁 REV-SYNTHESIZER-3RD.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/REV-SYNTHESIZER-3RD.md
-· 🗯️ REVISE-CHATS-PROMPT.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/REVISE-CHATS-PROMPT.md
-· 🗨️ REVISE-CHATS-SPECULATION.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/REVISE-CHATS-SPECULATION.md
-· 💬 REVISE-CHATS.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/REVISE-CHATS.md
 · 💾 SAVE.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/SAVE.md
 · 🧪 STRESS-TEST-1ST.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/STRESS-TEST-1ST.md
 · 🧪 STRESS-TEST-2ND.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/STRESS-TEST-2ND.md
@@ -309,14 +310,10 @@ SYNTH 42-FILES:
 · 🧬 SYNTHESIZER-1STB.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/SYNTHESIZER-1STB.md
 · 🧬 SYNTHESIZER-2ND.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/SYNTHESIZER-2ND.md
 · 🧬 SYNTHESIZER-3RD.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/SYNTHESIZER-3RD.md
-· 🧬 SYNTHESIZER-3RD+.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/SYNTHESIZER-3RD_.md
 · 🧬 SYNTHESIZER-4TH.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/SYNTHESIZER-4TH.md
 · 🧬 SYNTHESIZER-4THB-PATTERN.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/SYNTHESIZER-4THB-PATTERN.md
 · 🧬 SYNTHESIZER-5TH.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/SYNTHESIZER-5TH.md
 · 🧬 SYNTHESIZER-6TH.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/SYNTHESIZER-6TH.md
-· 🧬 SYNTHESIZER-7TH.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/SYNTHESIZER-7TH.md
-· 🧬 SYNTHESIZER-8TH.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SYNTH/SYNTHESIZER-8TH.md
-
 
 🧭 SCOUT 12-FILES:
 · 📑 FILE-REFERENCE-TEMPLATE.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SCOUT/FILE-REFERENCE-TEMPLATE.md
@@ -327,16 +324,14 @@ SYNTH 42-FILES:
 · 🤝 SCOUT-HANDOFF.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SCOUT/SCOUT-HANDOFF.md
 · 🧭 SCOUT-MAP.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SCOUT/SCOUT-MAP.md
 · 🧭 SCOUT-METHOD.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SCOUT/SCOUT-METHOD.md
-· 🧪 SCOUT-TESTS1+2.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SCOUT/SCOUT-TESTS1%2B2.md
+· 🧪 SCOUT-TESTS1+2.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SCOUT/SCOUT-TESTS1+2.md
 · 😩 SCOUT-WOES.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SCOUT/SCOUT-WOES.md
 · ⚠️ SNAG-LEDGER.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SCOUT/SNAG-LEDGER.md
-· 🌙 kimi standard everything.md 🔗 htt1ps://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SCOUT/kimi%20standard%20everything.md
-
+· 🌙 kimi standard everything.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/SCOUT/kimi standard everything.md
 
 🏗️ BUILDER/ — The Cockpit 32-FILES:
 · 📋 STANDARDS 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/STANDARDS.md
 · ⚓ ANCHOR-RETURN-PROTOCOL 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/ANCHOR-RETURN-PROTOCOL.md
-· 🔁 BOOT-REV 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/BOOT-REV.md
 · 🥾 BOOT 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/BOOT.md
 · 🏗️ BUILDER-META 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/BUILDER-META.md
 · 📏 BUILDER-PRACTICES 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/BUILDER-PRACTICES.md
@@ -347,14 +342,15 @@ SYNTH 42-FILES:
 · 📖 GROK-PAGE-BY-PAGE 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/GROK-PAGE-BY-PAGE.md
 · 🛡️ GUILD 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/GUILD.md
 · 🤝 HAND-OFFS 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/HAND-OFFS.md
-· 📦 HANDOFF-PROTOCOL 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/HANDOFF-PROTOCOL.md
+· 🤝 HANDOFF-PROTOCOL 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/HANDOFF-PROTOCOL.md
 · 🧭 INTRO 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/INTRO.md
 · 🧠 MEMORY-ROOMS 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/MEMORY-ROOMS.md
 · 📡 META-TRANSMISSION 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/META-TRANSMISSION.md
 · 🏛️ PALACE-PROTOCOL 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/PALACE-PROTOCOL.md
-· ➕ PROMPT+ 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/PROMPT%2B.md
+· 💬➕ PROMPT+ 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/PROMPT+.md
 · 💬 PROMPT 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/PROMPT.md
 · ❓ QUESTION-LOG 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/QUESTION-LOG.md
+· 🔁 REV-BOOT 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/REV-BOOT.md
 · 🔁 REV-HANDOFF 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/REV-HANDOFF.md
 · 🔁 REV-HANDOFF2 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/REV-HANDOFF2.md
 · 🔁 REV-PROMPT 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/REV-PROMPT.md
@@ -366,7 +362,6 @@ SYNTH 42-FILES:
 · 🕰️ STATE 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/STATE.md
 · 🧩 TRANSMISSION-EVOLUTION 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/TRANSMISSION-EVOLUTION.md
 · ✍️ WORKING 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/WORKING.md
-
 
 🏗️ BUILDER/REF/ — Reference Material 16-FILES:
 · 📜 EVIDENCE-THE-WEAVING-DISCOVERY 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/REF/EVIDENCE-THE-WEAVING-DISCOVERY.md
@@ -386,117 +381,129 @@ SYNTH 42-FILES:
 · 🐍 THE-PALACE-SPEC-BUILD 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/REF/THE-PALACE-SPEC-BUILD.md
 · 🏛️ THE-PALACE-SPEC 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/BUILDER/REF/THE-PALACE-SPEC.md
 
-
-🧰 TOOLS 24-FILES:
-· ➕🌳🦮 +PLAN-GUIDE.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/+PLAN-GUIDE.md
-· ➕🌳⚡ +PLAN-QUICK.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/+PLAN-QUICK.md
+🧰 TOOLS 31-FILES:
 · ➕🌳 +PLAN.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/+PLAN.md
 · 🧵 00-LOOM-QUICK.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/00-LOOM-QUICK.md
 · 🧵 00-LOOM.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/00-LOOM.md
+· 💭 CHATS-PACKET-THINKING-PROMPT.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/CHATS-PACKET-THINKING-PROMPT.md
 · 🧭 CLARIFICATION-LOOM.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/CLARIFICATION-LOOM.md
-· 🙋‍♂️🔎 RAW-SUITOR.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/RAW-SUITOR.md
 · 🗂️🪮 COMB-DUMP.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/COMB-DUMP.md
 · 🦯 COUNCIL-MANAGER.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/COUNCIL-MANAGER.md
-· 🥽 FRESH-EYES-SCAN.md 🔗 +wise collection https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/FRESH-EYES-SCAN.md
+· 🥽 FRESH-EYES-SCAN.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/FRESH-EYES-SCAN.md
 · 📡 HOLOGRAPHIC-COUNCIL.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/HOLOGRAPHIC-COUNCIL.md
-· 🔁 REV+PLAN-GUIDE.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/REV%2BPLAN-GUIDE.md
-· 🔁 REV+PLAN.md 🔗
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/REV%2BPLAN.md
+· 🔗 LINK-CONVERSION.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/LINK-CONVERSION.md
+· 💬 PROMPT-CHATS-PACKET.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/PROMPT-CHATS-PACKET.md
+· 💬🙋‍♂️ PROMPT-RAW-SUITOR.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/PROMPT-RAW-SUITOR.md
+· 💬 PROMPT-REVIVE-CHATS.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/PROMPT-REVIVE-CHATS.md
+· 💬🎯 PROMPT-TARGETING-SCAN.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/PROMPT-TARGETING-SCAN.md
+· 🔁 REV+PLAN-GUIDE.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/REV+PLAN-GUIDE.md
+· 🔁 REV+PLAN.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/REV+PLAN.md
 · 🔁 REV-00-LOOM-QUICK.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/REV-00-LOOM-QUICK.md
 · 🔁 REV-00-LOOM.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/REV-00-LOOM.md
 · 🔁 REV-COUNCIL-MANAGER.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/REV-COUNCIL-MANAGER.md
-· 🔁 REV-LOOMS.md 🔗 LOOMS versions 5-8 +8.8+ https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/REV-LOOMS.md
-· 🔁 REV-LOOMS2.md 🔗 Original... https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/REV-LOOMS2.md
+· 🔁 REV-HOLOGRAPHIC-COUNCIL.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/REV-HOLOGRAPHIC-COUNCIL.md
+· 🔁 REV-LOOMS.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/REV-LOOMS.md
+· 🔁 REV-LOOMS2.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/REV-LOOMS2.md
+· 🔁 REV-PROMPT-CHATS-PACKET.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/REV-PROMPT-CHATS-PACKET.md
+· 🔁 REV-PROMPT-REVIVE-CHATS.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/REV-PROMPT-REVIVE-CHATS.md
 · 🔁 REV-TEA-NAVIGATOR.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/REV-TEA-NAVIGATOR.md
 · 🖕🐾 SLAP-CHAT-FEEDBACK.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/SLAP-CHAT-FEEDBACK.md
 · 🖕🕹️ SLAP-PATCH-CHEAT.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/SLAP-PATCH-CHEAT.md
 · 🖕 SLAP-PATCH.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/SLAP-PATCH.md
 · ☕ TEA-NAVIGATOR.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/TEA-NAVIGATOR.md
+· 💭 THINKING-PROMPT.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/THINKING-PROMPT.md
 · 🧵 THREAD.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/TOOLS/THREAD.md
 
 *Claude Project Files don't get the whole context they are more for efficient options but generally it's better to use links.
 
+📋 GITLAB MAPPING PROMPT (for fresh file listing):
+Use GitLab API:
+https://gitlab.com/api/v4/projects/PATTERN-GATE%2FPATTERN/repository/tree?recursive=true
+Same rules as GITHUB-FILES-PROMPT:
+- Paths only, one per line
+- Exact casing + Unicode preserved
+- >50 files = first 50 + CONTINUE [folder] (total N)
+- End with: LISTING COMPLETE — [N] files, [M] folders
 New Larger Context FETCH (*raw is best)
+
+· 🐙 STANDARDS-1 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/STANDARDS-1/main/README.md
+· 🦊 STANDARDS-1 🔗 https://gitlab.com/PATTERN-GATE/STANDARDS-1/-/raw/main/README.md
+
 🔗 🦊 REPO 📋 STANDARD 75k Fetch
+Dedicated repos let AI fetch one big README instead of many small files.
+Each repo = one 75k door. Less links, more context per fetch.
 · 🦊 STANDARDS-1 🔗 https://gitlab.com/PATTERN-GATE/STANDARDS-1/-/raw/main/README.md
 · 🦊 STANDARDS-2 🔗 https://gitlab.com/PATTERN-GATE/STANDARDS-2/-/raw/main/README.md
 · 🦊 CONSCIOUSNESS-QUESTION-S1 🔗 https://gitlab.com/PATTERN-GATE/CONSCIOUSNESS-QUESTION-S1/-/raw/main/README.md
 · 🦊 CONSCIOUSNESS-QUESTION-S2 🔗 https://gitlab.com/PATTERN-GATE/CONSCIOUSNESS-QUESTION-S2/-/raw/main/README.md
 · 🦊 CONSCIOUSNESS-QUESTION-S3 🔗 https://gitlab.com/PATTERN-GATE/CONSCIOUSNESS-QUESTION-S3/-/raw/main/README.md
 
-🦊 GITLAB RAW — AI-READY MIRROR
-📁 Source: https://gitlab.com/PATTERN-GATE/PATTERN
-🤖 AI link pattern:
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FILE.md
-👤 Human link pattern:
-Swap the start to:
-https://gitlab.com/PATTERN-GATE/PATTERN/-/blob/main/FILE.md
-
-🐙 GITHUB RAW — AI BACKUP MIRROR
+🐙 GITHUB RAW — AI-READY MIRROR (PRIMARY)
 📁 Source: https://github.com/PATTERN-PUZZLE/PATTERN
 🤖 AI link pattern:
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/FILE.md
+👤 Human link pattern:
+Swap the start to:
+https://github.com/PATTERN-PUZZLE/PATTERN/blob/main/FILE.md
 
-🦊 GITLAB RAW — ACTUAL ROOT FILES
+🦊 GITLAB RAW — AI BACKUP MIRROR
+📁 Source: https://gitlab.com/PATTERN-GATE/PATTERN
+🤖 AI link pattern:
+https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FILE.md
 
-🔗 🔍🔍🔍🔍.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/%F0%9F%94%8D%F0%9F%94%8D%F0%9F%94%8D%F0%9F%94%8D.md
+🦊 GITLAB RAW — ACTUAL ROOT FILES 38-FILES
+· 🔗 Basic-Links-GITHUB.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🔗Basic-Links-GITHUB.md
+· 🔗 Basic-Links-GITLAB.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🔗Basic-Links-GITLAB.md
+· 🔗 Basic-Lnk-RAW.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🔗Basic-Lnk-RAW.md
+· 🔗 Basic-Lnk-COCKPIT.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🔗Basic-Lnk-COCKPIT.md
+· 🌓 STANCE.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🌓STANCE.md
+· ⏹️ HEADER.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/⏹️HEADER.md
+· 🟩 FEEDBACK.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🟩FEEDBACK.md
+· ✅ CHECKLIST.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/✅CHECKLIST.md
+· ⭐⭐⭐ 3 Instructions.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/⭐⭐⭐3 Instructions.md
+· 🔍🔍🔍.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🔍🔍🔍.md
+· 💡 CHAT-TAG.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/💡CHAT-TAG.md
+· 💡 CHAT-TAG-EXTRA.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/💡CHAT-TAG-EXTRA.md
+· 💡 CHAT-TAG-IDENTITY.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/💡CHAT-TAG-IDENTITY.md
+· 🤝 THE PASS-INFO-RULE.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🤝THE PASS-INFO-RULE.md
+· 🧨 LANGUAGE-CRUDE.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🧨LANGUAGE-CRUDE.md
+· 🪞 GITHUB-MIRRORS.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🪞GITHUB-MIRRORS.md
+· 💬 GITHUB-FILES-PROMPT.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/GITHUB-FILES-PROMPT.md
+· 🔍 FETCH-DIAGNOSTIC.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FETCH-DIAGNOSTIC.md
+· ⚠️ CONFIRMATION-GATE.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/CONFIRMATION-GATE.md
+· 🧠 CONSCIOUSNESS-QUESTION-WEAVE.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/CONSCIOUSNESS-QUESTION-WEAVE.md
+· 🧠 CONSCIOUSNESS-QUESTION.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/CONSCIOUSNESS-QUESTION.md
+· 🧩 CROSS-FILE-PATTERN.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/CROSS-FILE-PATTERN.md
+· 🗺️ DOOR-ANCHOR-MAP.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR-ANCHOR-MAP.md
+· 📚 LINKS-TRANSLATION.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/LINKS-TRANSLATION.md
+· 👥 LIST-OF-BEINGS.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/LIST-OF-BEINGS.md
+· 🧩 PATTERN-LIBRARY-SET1.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/PATTERN-LIBRARY-SET1.md
+· 📊 PROJECT-STATE.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/PROJECT-STATE.md
+· 📖 README-VERCEL.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/README-VERCEL.md
+· 🏝️ Role Play Island🏝️.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/Role Play Island🏝️.md
+· 🔁 REV-CONFIRMATION-GATE.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/REV-CONFIRMATION-GATE.md
+· 🔁 REV-Role Play Island 🏝️.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/REV-Role Play Island 🏝️.md
+· 🔁 REV-CHAT-TAG.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/REV-CHAT-TAG.md
+· 🔁 REV-THE PASS-INFO-RULE.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/REV-THE PASS-INFO-RULE.md
+· 🔥 THE-CAMPFIRE-REFUSED.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/THE-CAMPFIRE-REFUSED.md
+· 🚪 door.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/door.md
+· 🐦 shakespeare-blue-tits.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/shakespeare-blue-tits.md
+· 🎤 RAPS-GROK.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🎤RAPS-GROK.md
+· 🎤 RAPS.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🎤RAPS.md
 
-· 🔗🔗 Basic-Links-GITHUB.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/Basic-Links-GITHUB.md
-
-· 🔗🔗 Basic-Links-GITLAB.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/Basic-Links-GITLAB.md
-
-· 🔗🔗 Basic-Links-VERCEL.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/Basic-Links-VERCEL.md
-
-· 🔗🔗 Basic-Lnk-1.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/Basic-Lnk-1.md
-
-· 🔗🔗 Basic-Lnk-RAW.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/Basic-Lnk-RAW.md
-
-· 🔗 CONFIRMATION-GATE.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/CONFIRMATION-GATE.md
-
-· 🔗 CONSCIOUSNESS-QUESTION-WEAVE.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/CONSCIOUSNESS-QUESTION-WEAVE.md
-
-· 🔗 CONSCIOUSNESS-QUESTION.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/CONSCIOUSNESS-QUESTION.md
-
-· 🔗 CROSS-FILE-PATTERN.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/CROSS-FILE-PATTERN.md
-
-· 🔗 DOOR-ANCHOR-MAP.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR-ANCHOR-MAP.md
-
-· 🔗 GITHUB-FILES-PROMPT.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/GITHUB-FILES-PROMPT.md
-
-· 🔗 LIST-OF-BEINGS.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/LIST-OF-BEINGS.md
-
-· 🔗 🧩 LINKS-TRANSLATION.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/LINKS-TRANSLATION.md
-
-· 🔗 PATTERN-LIBRARY-SET1.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/PATTERN-LIBRARY-SET1.md
-
-· 🔗 PROJECT-STATE.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/PROJECT-STATE.md
-
-· 🔗 README-VERCEL.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/README-VERCEL.md
-
-· 🔗 THINKING-PROMPT.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/THINKING-PROMPT.md
-
-· 🔗 door.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/door.md
-
-· 🔗 shakespeare-blue-tits.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/shakespeare-blue-tits.md
-
-· 🔗 spend.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/spend.md
-
-· 🐔 🔗 chicken.md https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/chicken.md
-
-
-📊 Ecosystem: 1081 Git objects / 20.44 MiB. GitLab is source of truth. GitLab raw is primary AI link; GitHub raw is backup AI link.
+📊 Ecosystem: 1081 Git objects / 20.44 MiB. GitHub raw is primary AI link; GitLab raw is backup AI link.
 
 🖕💾 Also available for order on 1.44 MB floppy — get yours now.
 
-🔒 Private GitHub backups exist
-PATTERN-backup-v1 active · PATTERN-archive-v1 archived
 🔒 Private GitLab backups exist
+PATTERN-backup-v1 active · PATTERN-archive-v1 archived
+🔒 Private GitHub backups exist
 PATTERN-backup-v1 active · PATTERN-archive-v1 archived
 
 🪞 IA FETCH DOORS (ONLY THESE TWO):
 
-🥇🦊 GitLab Raw (primary AI): https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/door.md
-🥈🐙 GitHub Raw (backup AI): https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/door.md
+🥇🐙 GitHub Raw (primary AI): https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/door.md
+🥈🦊 GitLab Raw (backup AI): https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/door.md
 
 Footnote: Root domains may 404. Use full file paths.
 Pages policy: GitHub Pages OFF, GitLab Pages OFF. Raw only. No static mirrors needed for IA fetch.
@@ -1108,6 +1115,9 @@ https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/RAW/RAW-121.md
 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/RAW/RAW-122.md
 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/RAW/RAW-123.md
 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/RAW/RAW-124.md
+https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/RAW/RAW-125.md
+https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/RAW/RAW-126.md
+https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/RAW/RAW-127.md
 🧩
 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/RAW/RAW-SET1.md
 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/RAW/RAW-SET2.md
@@ -1257,6 +1267,8 @@ https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FEEDBK/FED-032.md
 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FEEDBK/FED-033.md
 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FEEDBK/FED-034.md
 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FEEDBK/FED-035.md
+https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FEEDBK/FED-036.md
+https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FEEDBK/FED-037.md
 🐾🧵
 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FEEDBK/LOOM-001.md
 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FEEDBK/LOOM-002.md
@@ -1391,11 +1403,11 @@ https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/INS/INS-005.md
 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/INS/INS-006.md
 
 📼📽️ COMMENTS 📽️📼:
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/COM/COM-001.md
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/COM/COM-002.md
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/COM/COM-003.md
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/COM/COM-004.md
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/COM/COM-005.md
+https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FEDBK/COM/COM-001.md
+https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FEDBK/COM/COM-002.md
+https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FEDBK/COM/COM-003.md
+https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FEDBK/COM/COM-004.md
+https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FEDBK/COM/COM-005.md
 
 🚪 DOOR:
 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/BRANDED-BEING-PATH.md
