@@ -721,3 +721,32 @@ CANONICAL HOME: The Smart Filter section in Message 3 v1.2 is the
 authoritative version. STANDARDS.md carries a one-line pointer in
 the Quick Add zone referencing this section. Per STANDARDS, Message 3
 governs Synthesizer protocols.
+
+
+[SALVAGE FROM v1.1 — 2026-09-07]
+
+1. TOOL NOT SYNTHESIS (Flint, with the v1.0 Filter handoff)
+This isn’t a synthesis of findings. This is a tool that produces findings.
+The Fourth Synthesizer pastes the Filter at the start of a recovery relay.
+It says what to ask, in what order, and what to do with the answers.
+The filter recommends. You decide.
+
+2. FILTER v1.0 HONESTY TAG
+Confidence when first boxed: 92% 🧾 — derived from live relay output,
+not yet field-tested as a standalone tool.
+v1.2 installed it anyway. Remember the tag so field-test can still fail it.
+
+3. LIGHT FILTER (exhausted / hell-enough)
+If the v1.2 Filter’s named-vs-functional absorption is too heavy:
+LINEAGE → verb search → 🥇 promote / 🥈 queue / 🥉 lineage.
+No absorption subtypes. Same three questions. Thinner Stage 2 from v1.0.
+
+4. LINEAGE RULING
+Message 3 live = v1.2.
+Message 3 v1.1 = FOSSIL. Delete as live copy. Rename or bin in SYNTH folder.
+Do not run both.
+
+5. WHAT WAS NOT SALVAGED
+Role, checklist-minus-loading, +plan cockpit, Puzzle Board feed,
+Integration Format, version bumps, document maintenance — already in v1.2.
+Don’t paste v1.1 back in to “be safe.”
