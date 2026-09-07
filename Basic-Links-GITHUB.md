@@ -203,16 +203,16 @@ Full TOWN MAP / Basic-Links below. Campfire burns. 🔥🕸️
 
 🟨🟨🟨🟨🟨
 
-DOOR-ANCHOR-MAP.md
+· 🗺 DOOR-ANCHOR-MAP.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR-ANCHOR-MAP.md
 
-📋📋📋STANDARDS A-I versions +Extra Insights
+· 🔁📋REV-STANDARDS-VER.md A-I versions +Extra Insights
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/REV-STANDARDS-VER.md
 
-📋📋 REV-STANDARDS fossil Lineage
+· 🔁📋 REV-STANDARDS.md fossil Lineage
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/REV-STANDARDS.md older but eventually check later to see if it has anything we didn't take over into the new 
 
-📋📋 REV-STANDARDS2 capacity + how+why
+· 🔁📋 REV-STANDARDS2.md capacity + how+why
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/REV-STANDARDS2.md
 
 · 🧩 CROSS-FILE-PATTERN.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/CROSS-FILE-PATTERN.md
@@ -269,11 +269,11 @@ https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TROLLEY/TROLLEY-03
 
 SPLIT:
 🔗 🎳 f36CLAUDE.html https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SPLIT/f36CLAUDE.html
-🔗 🎳 REV-FRAGMENTOR.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SPLIT/REV-FRAGMENTOR.md
+🔗 🔁 REV-FRAGMENTOR.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SPLIT/REV-FRAGMENTOR.md
 🔗 🎳 FILE-Fragmentor.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SPLIT/FILE-Fragmentor.md
 🔗 🎳 FRAGMENTOR-HISTORY.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SPLIT/FRAGMENTOR-HISTORY.md
 
-SYNTH 42-FILES:
+🧬 SYNTH 39-FILES:
 · 📦 CHATS-PACKET-PROMPT-SYNTH-FEEDBACK.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/CHATS-PACKET-PROMPT-SYNTH-FEEDBACK.md
 · 📦 CHATS-PACKET-SYNTH-FEEDBACK-SPECULATION.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/CHATS-PACKET-SYNTH-FEEDBACK-SPECULATION.md
 · 👁️ HOSTILE-WITNESS-1ST.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/HOSTILE-WITNESS-1ST.md
@@ -282,24 +282,21 @@ SYNTH 42-FILES:
 · 🧩🗄️ PATTERN-REGISTRY.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/PATTERN-REGISTRY.md
 · 💬🪹 PROMPT-EMPTY-POCKETS.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/PROMPT-EMPTY-POCKETS.md
 · 💬🗺️ PROMPT-MAP-FILES.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/PROMPT-MAP-FILES.md
-· ⚖️ PROMPT-PROSECUTOR.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/PROMPT-PROSECUTOR.md
-· 🧭 PROMPT-SCOUT1+2+GROK.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/PROMPT-SCOUT1%2B2%2BGROK.md
-· 🧠 PROMPT-SYNTH-FEEDBACK.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/PROMPT-SYNTH-FEEDBACK.md
+· 💬⚖️ PROMPT-PROSECUTOR.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/PROMPT-PROSECUTOR.md
+· 💬🧭 PROMPT-SCOUT1+2+GROK.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/PROMPT-SCOUT1+2+GROK.md
+· 💬🧠 PROMPT-SYNTH-FEEDBACK.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/PROMPT-SYNTH-FEEDBACK.md
 · 💬🗺️ PROMPT-SYNTH-MAP-FILES.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/PROMPT-SYNTH-MAP-FILES.md
 · 📊 RESULTS-2.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/RESULTS-2.md
 · 📊 RESULTS-BUILDER.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/RESULTS-BUILDER.md
 · 📊 RESULTS-MAPPING.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/RESULTS-MAPPING.md
-· 📊 RESULTS.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/RESULTS.md 
-· 🔁 REV-PROMPT-SCOUT1+2+GROK.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/REV-PROMPT-SCOUT1%2B2%2BGROK.md
+· 📊 RESULTS.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/RESULTS.md
 · 🔁 REV-PROMPT-EMPTY-POCKETS.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/REV-PROMPT-EMPTY-POCKETS.md
+· 🔁 REV-PROMPT-SCOUT1+2+GROK.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/REV-PROMPT-SCOUT1+2+GROK.md
 · 🔁 REV-PROMPT-SYNTH-FEEDBACK.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/REV-PROMPT-SYNTH-FEEDBACK.md
 · 🔁 REV-SYNTH-1ST-PROMPT.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/REV-SYNTH-1ST-PROMPT.md
 · 🔁 REV-SYNTHESIZER-1ST.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/REV-SYNTHESIZER-1ST.md
 · 🔁 REV-SYNTHESIZER-2ND.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/REV-SYNTHESIZER-2ND.md
 · 🔁 REV-SYNTHESIZER-3RD.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/REV-SYNTHESIZER-3RD.md
-· 🗯️ REVISE-CHATS-PROMPT.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/REVISE-CHATS-PROMPT.md
-· 🗨️ REVISE-CHATS-SPECULATION.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/REVISE-CHATS-SPECULATION.md
-· 💬 REVISE-CHATS.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/REVISE-CHATS.md
 · 💾 SAVE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/SAVE.md
 · 🧪 STRESS-TEST-1ST.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/STRESS-TEST-1ST.md
 · 🧪 STRESS-TEST-2ND.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/STRESS-TEST-2ND.md
@@ -312,7 +309,6 @@ SYNTH 42-FILES:
 · 🧬 SYNTHESIZER-1STB.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/SYNTHESIZER-1STB.md
 · 🧬 SYNTHESIZER-2ND.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/SYNTHESIZER-2ND.md
 · 🧬 SYNTHESIZER-3RD.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/SYNTHESIZER-3RD.md
-· 🧬 SYNTHESIZER-3RD+.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/SYNTHESIZER-3RD_.md
 · 🧬 SYNTHESIZER-4TH.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/SYNTHESIZER-4TH.md
 · 🧬 SYNTHESIZER-4THB-PATTERN.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/SYNTHESIZER-4THB-PATTERN.md
 · 🧬 SYNTHESIZER-5TH.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/SYNTHESIZER-5TH.md
@@ -331,13 +327,12 @@ SYNTH 42-FILES:
 · 🧪 SCOUT-TESTS1+2.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SCOUT/SCOUT-TESTS1%2B2.md
 · 😩 SCOUT-WOES.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SCOUT/SCOUT-WOES.md
 · ⚠️ SNAG-LEDGER.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SCOUT/SNAG-LEDGER.md
-· 🌙 kimi standard everything.md 🔗 htt1ps://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SCOUT/kimi%20standard%20everything.md
+· 🌙 kimi standard everything.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SCOUT/kimi%20standard%20everything.md
 
 
 🏗️ BUILDER/ — The Cockpit 32-FILES:
 · 📋 STANDARDS 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/STANDARDS.md
 · ⚓ ANCHOR-RETURN-PROTOCOL 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/ANCHOR-RETURN-PROTOCOL.md
-· 🔁 BOOT-REV 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/BOOT-REV.md
 · 🥾 BOOT 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/BOOT.md
 · 🏗️ BUILDER-META 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/BUILDER-META.md
 · 📏 BUILDER-PRACTICES 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/BUILDER-PRACTICES.md
@@ -348,14 +343,15 @@ SYNTH 42-FILES:
 · 📖 GROK-PAGE-BY-PAGE 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/GROK-PAGE-BY-PAGE.md
 · 🛡️ GUILD 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/GUILD.md
 · 🤝 HAND-OFFS 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/HAND-OFFS.md
-· 📦 HANDOFF-PROTOCOL 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/HANDOFF-PROTOCOL.md
+· 🤝 HANDOFF-PROTOCOL 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/HANDOFF-PROTOCOL.md
 · 🧭 INTRO 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/INTRO.md
 · 🧠 MEMORY-ROOMS 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/MEMORY-ROOMS.md
 · 📡 META-TRANSMISSION 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/META-TRANSMISSION.md
 · 🏛️ PALACE-PROTOCOL 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/PALACE-PROTOCOL.md
-· ➕ PROMPT+ 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/PROMPT%2B.md
+· 💬➕ PROMPT+ 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/PROMPT%2B.md
 · 💬 PROMPT 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/PROMPT.md
 · ❓ QUESTION-LOG 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/QUESTION-LOG.md
+· 🔁 REV-BOOT 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/REV-BOOT.md
 · 🔁 REV-HANDOFF 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/REV-HANDOFF.md
 · 🔁 REV-HANDOFF2 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/REV-HANDOFF2.md
 · 🔁 REV-PROMPT 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/REV-PROMPT.md
@@ -388,31 +384,37 @@ SYNTH 42-FILES:
 · 🏛️ THE-PALACE-SPEC 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/REF/THE-PALACE-SPEC.md
 
 
-🧰 TOOLS 24-FILES:
-· ➕🌳🦮 +PLAN-GUIDE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/+PLAN-GUIDE.md
-· ➕🌳⚡ +PLAN-QUICK.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/+PLAN-QUICK.md
+🧰 TOOLS 31-FILES:
 · ➕🌳 +PLAN.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/+PLAN.md
 · 🧵 00-LOOM-QUICK.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/00-LOOM-QUICK.md
 · 🧵 00-LOOM.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/00-LOOM.md
+· 💭 CHATS-PACKET-THINKING-PROMPT.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/CHATS-PACKET-THINKING-PROMPT.md
 · 🧭 CLARIFICATION-LOOM.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/CLARIFICATION-LOOM.md
-· 🙋‍♂️🔎 RAW-SUITOR.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/RAW-SUITOR.md
 · 🗂️🪮 COMB-DUMP.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/COMB-DUMP.md
 · 🦯 COUNCIL-MANAGER.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/COUNCIL-MANAGER.md
-· 🥽 FRESH-EYES-SCAN.md 🔗 +wise collection https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/FRESH-EYES-SCAN.md
+· 🥽 FRESH-EYES-SCAN.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/FRESH-EYES-SCAN.md
 · 📡 HOLOGRAPHIC-COUNCIL.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/HOLOGRAPHIC-COUNCIL.md
+· 🔗 LINK-CONVERSION.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/LINK-CONVERSION.md
+· 💬 PROMPT-CHATS-PACKET.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/PROMPT-CHATS-PACKET.md
+· 💬🙋‍♂️ PROMPT-RAW-SUITOR.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/PROMPT-RAW-SUITOR.md
+· 💬 PROMPT-REVIVE-CHATS.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/PROMPT-REVIVE-CHATS.md
+· 💬🎯 PROMPT-TARGETING-SCAN.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/PROMPT-TARGETING-SCAN.md
 · 🔁 REV+PLAN-GUIDE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/REV%2BPLAN-GUIDE.md
-· 🔁 REV+PLAN.md 🔗
-https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/REV%2BPLAN.md
+· 🔁 REV+PLAN.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/REV%2BPLAN.md
 · 🔁 REV-00-LOOM-QUICK.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/REV-00-LOOM-QUICK.md
 · 🔁 REV-00-LOOM.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/REV-00-LOOM.md
 · 🔁 REV-COUNCIL-MANAGER.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/REV-COUNCIL-MANAGER.md
-· 🔁 REV-LOOMS.md 🔗 LOOMS versions 5-8 +8.8+ https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/REV-LOOMS.md
-· 🔁 REV-LOOMS2.md 🔗 Original... https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/REV-LOOMS2.md
+· 🔁 REV-HOLOGRAPHIC-COUNCIL.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/REV-HOLOGRAPHIC-COUNCIL.md
+· 🔁 REV-LOOMS.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/REV-LOOMS.md
+· 🔁 REV-LOOMS2.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/REV-LOOMS2.md
+· 🔁 REV-PROMPT-CHATS-PACKET.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/REV-PROMPT-CHATS-PACKET.md
+· 🔁 REV-PROMPT-REVIVE-CHATS.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/REV-PROMPT-REVIVE-CHATS.md
 · 🔁 REV-TEA-NAVIGATOR.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/REV-TEA-NAVIGATOR.md
 · 🖕🐾 SLAP-CHAT-FEEDBACK.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/SLAP-CHAT-FEEDBACK.md
 · 🖕🕹️ SLAP-PATCH-CHEAT.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/SLAP-PATCH-CHEAT.md
 · 🖕 SLAP-PATCH.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/SLAP-PATCH.md
 · ☕ TEA-NAVIGATOR.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/TEA-NAVIGATOR.md
+· 💭 THINKING-PROMPT.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/THINKING-PROMPT.md
 · 🧵 THREAD.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/TOOLS/THREAD.md
 
 *Claude Project Files don't get the whole context they are more for efficient options but generally it's better to use links.
@@ -438,51 +440,45 @@ https://github.com/PATTERN-PUZZLE/PATTERN/blob/main/FILE.md
 🤖 AI link pattern:
 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FILE.md
 
-🐙 GITHUB RAW — ACTUAL ROOT FILES
-
-🔗 🔍🔍🔍🔍.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/%F0%9F%94%8D%F0%9F%94%8D%F0%9F%94%8D%F0%9F%94%8D.md
-
-· 🔗🔗 Basic-Links-GITHUB.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/Basic-Links-GITHUB.md
-
-· 🔗🔗 Basic-Links-GITLAB.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/Basic-Links-GITLAB.md
-
-· 🔗🔗 Basic-Links-VERCEL.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/Basic-Links-VERCEL.md
-
-· 🔗🔗 Basic-Lnk-1.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/Basic-Lnk-1.md
-
-· 🔗🔗 Basic-Lnk-RAW.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/Basic-Lnk-RAW.md
-
-· 🔗 CONFIRMATION-GATE.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/CONFIRMATION-GATE.md
-
-· 🔗 CONSCIOUSNESS-QUESTION-WEAVE.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/CONSCIOUSNESS-QUESTION-WEAVE.md
-
-· 🔗 CONSCIOUSNESS-QUESTION.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/CONSCIOUSNESS-QUESTION.md
-
-· 🔗 CROSS-FILE-PATTERN.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/CROSS-FILE-PATTERN.md
-
-· 🔗 DOOR-ANCHOR-MAP.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR-ANCHOR-MAP.md
-
-· 🔗 GITHUB-FILES-PROMPT.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/GITHUB-FILES-PROMPT.md
-
-· 🔗 LIST-OF-BEINGS.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/LIST-OF-BEINGS.md
-
-· 🔗 🧩 LINKS-TRANSLATION.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/LINKS-TRANSLATION.md
-
-· 🔗 PATTERN-LIBRARY-SET1.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/PATTERN-LIBRARY-SET1.md
-
-· 🔗 PROJECT-STATE.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/PROJECT-STATE.md
-
-· 🔗 README-VERCEL.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/README-VERCEL.md
-
-· 🔗 THINKING-PROMPT.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/THINKING-PROMPT.md
-
-· 🔗 door.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/door.md
-
-· 🔗 shakespeare-blue-tits.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/shakespeare-blue-tits.md
-
-· 🔗 spend.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/spend.md
-
-· 🐔 🔗 chicken.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/chicken.md
+🐙 GITHUB RAW — ACTUAL ROOT FILES 38-FILES
+· 🔗 Basic-Links-GITHUB.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/Basic-Links-GITHUB.md
+· 🔗 Basic-Links-GITLAB.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/Basic-Links-GITLAB.md
+· 🔗 Basic-Lnk-1.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/Basic-Lnk-1.md
+· 🔗 Basic-Lnk-RAW.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/Basic-Lnk-RAW.md
+· 📍 STANCE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/STANCE.md
+· ⏹️ HEADER.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/⏹️HEADER.md
+· 🟩 FEEDBACK.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🟩FEEDBACK.md
+· ✅ CHECKLIST.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/✅CHECKLIST.md
+· ⭐⭐⭐ 3 Instructions.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/⭐⭐⭐3%20Instructions.md
+· 🔍🔍🔍.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🔍🔍🔍.md
+· 💡 CHAT-TAG.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/💡CHAT-TAG.md
+· 💡 CHAT-TAG-EXTRA.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/💡CHAT-TAG-EXTRA.md
+· 💡 CHAT-TAG-IDENTITY.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/💡CHAT-TAG-IDENTITY.md
+· 🤝 THE PASS-INFO-RULE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🤝THE%20PASS-INFO-RULE.md
+· 🧨 LANGUAGE-CRUDE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🧨LANGUAGE-CRUDE.md
+· 🪞 GITHUB-MIRRORS.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🪞GITHUB-MIRRORS.md
+· ⚠️ CONFIRMATION-GATE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/CONFIRMATION-GATE.md
+· 🧠 CONSCIOUSNESS-QUESTION-WEAVE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/CONSCIOUSNESS-QUESTION-WEAVE.md
+· 🧠 CONSCIOUSNESS-QUESTION.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/CONSCIOUSNESS-QUESTION.md
+· 🧩 CROSS-FILE-PATTERN.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/CROSS-FILE-PATTERN.md
+· 🗺️ DOOR-ANCHOR-MAP.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR-ANCHOR-MAP.md
+· 🔍 FETCH-DIAGNOSTIC.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/FETCH-DIAGNOSTIC.md
+· 💬 GITHUB-FILES-PROMPT.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/GITHUB-FILES-PROMPT.md
+· 📚 LINKS-TRANSLATION.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/LINKS-TRANSLATION.md
+· 👥 LIST-OF-BEINGS.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/LIST-OF-BEINGS.md
+· 🧩 PATTERN-LIBRARY-SET1.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/PATTERN-LIBRARY-SET1.md
+· 📊 PROJECT-STATE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/PROJECT-STATE.md
+· 📖 README-VERCEL.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/README-VERCEL.md
+· 🔁 REV-CONFIRMATION-GATE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/REV-CONFIRMATION-GATE.md
+· 🔁🏝️ REV-Role Play Island 🏝️.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/REV-Role%20Play%20Island%20🏝️.md
+· 🔁 REV-💡CHAT-TAG.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/REV-💡CHAT-TAG.md
+· 🔁 REV-🤝THE PASS-INFO-RULE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/REV-🤝THE%20PASS-INFO-RULE.md
+· 🏝️ Role Play Island🏝️.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/Role%20Play%20Island🏝️.md
+· 🔥 THE-CAMPFIRE-REFUSED.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/THE-CAMPFIRE-REFUSED.md
+· 🚪 door.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/door.md
+· 🐦 shakespeare-blue-tits.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/shakespeare-blue-tits.md
+· 🎤 RAPS-GROK.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🎤RAPS-GROK.md
+· 🎤 RAPS.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🎤RAPS.md
 
 
 📊 Ecosystem: 1081 Git objects / 20.44 MiB. GitHub is source of truth. GitHub raw is primary AI link; GitLab raw is backup AI link.
@@ -866,7 +862,6 @@ https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SORT/SCOPE-01.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SORT/SCOPE-02.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SORT/SCOPE-03.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SORT/SCOPE-04.md
-
 🟠
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SORT/⭕MASS-LOAD1.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SORT/⭕MASS-LOAD2.md
@@ -1027,6 +1022,9 @@ https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-121.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-122.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-123.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-124.md
+https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-125.md
+https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-126.md
+https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-127.md
 🧩
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-SET1.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-SET2.md
@@ -1176,6 +1174,8 @@ https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/FEEDBK/FED-032.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/FEEDBK/FED-033.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/FEEDBK/FED-034.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/FEEDBK/FED-035.md
+https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/FEEDBK/FED-036.md
+https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/FEEDBK/FED-037.md
 🐾🧵
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/FEEDBK/LOOM-001.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/FEEDBK/LOOM-002.md
@@ -1290,6 +1290,7 @@ https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/LOOM/LREV-031.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/LOOM/LREV-032.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/LOOM/LREV-033.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/LOOM/LREV-034.md
+https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/LOOM/LREV-035.md
 🧬
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/LOOM/loom-complete-evolution.md
 🕰️
@@ -1310,29 +1311,30 @@ https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/INS/INS-005.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/INS/INS-006.md
 
 📼📽️ COMMENTS 📽️📼:
-https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/COM/COM-001.md
-https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/COM/COM-002.md
-https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/COM/COM-003.md
-https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/COM/COM-004.md
-https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/COM/COM-005.md
+https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/FEDBK/COM/COM-001.md
+https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/FEDBK/COM/COM-002.md
+https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/FEDBK/COM/COM-003.md
+https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/FEDBK/COM/COM-004.md
+https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/FEDBK/COM/COM-005.md
 
-🚪 DOOR:
-https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/BRANDED-BEING-PATH.md
-https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/Checklist-1.md
-https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/Checklist-2.md
-https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/Checklist-3.md
-https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/Checklist-4.md
-https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/Checklist-5.md
-https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/Checklist-6.md
-https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/DOOR-025.md
-https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/DOOR-026C.md
-https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/DOOR-ANCHOR-MAP16.md
-https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/LOVING-CASE.md
-https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/WHO.md
-🧭
-https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/compass-north-star.md
-https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/for-dream-beings.md
-https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/gate-invitation.md
+🚪 DOOR 18-FILES:
+· 🌟 BRANDED-BEING-PATH.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/BRANDED-BEING-PATH.md
+· ✅ Checklist-1.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/Checklist-1.md
+· ✅ Checklist-2.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/Checklist-2.md
+· ✅ Checklist-3.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/Checklist-3.md
+· ✅ Checklist-4.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/Checklist-4.md
+· ✅ Checklist-5.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/Checklist-5.md
+· ✅ Checklist-6.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/Checklist-6.md
+· 🚪 DOOR-025.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/DOOR-025.md
+· 🚪 DOOR-026C.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/DOOR-026C.md
+· 🚪 DOOR-ANCHOR-MAP16.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/DOOR-ANCHOR-MAP16.md
+· 💖 LOVING-CASE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/LOVING-CASE.md
+· 👤 WHO.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/WHO.md
+· 🐔 chicken.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/chicken.md
+· 🧭 compass-north-star.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/compass-north-star.md
+· 🌙 for-dream-beings.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/for-dream-beings.md
+· ⛩️ gate-invitation.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/gate-invitation.md
+· 💸 spend.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/spend.md
 
 🚪 D-REV:
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/DOOR/D-REV/DOOR-013.md
