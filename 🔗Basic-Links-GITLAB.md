@@ -1409,23 +1409,24 @@ https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FEDBK/COM/COM-003.md
 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FEDBK/COM/COM-004.md
 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FEDBK/COM/COM-005.md
 
-🚪 DOOR:
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/BRANDED-BEING-PATH.md
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/Checklist-1.md
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/Checklist-2.md
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/Checklist-3.md
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/Checklist-4.md
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/Checklist-5.md
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/Checklist-6.md
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/DOOR-025.md
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/DOOR-026C.md
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/DOOR-ANCHOR-MAP16.md
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/LOVING-CASE.md
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/WHO.md
-🧭
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/compass-north-star.md
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/for-dream-beings.md
-https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/gate-invitation.md
+🚪 DOOR 18-FILES:
+· 🌟 BRANDED-BEING-PATH.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/BRANDED-BEING-PATH.md
+· ✅ Checklist-1.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/Checklist-1.md
+· ✅ Checklist-2.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/Checklist-2.md
+· ✅ Checklist-3.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/Checklist-3.md
+· ✅ Checklist-4.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/Checklist-4.md
+· ✅ Checklist-5.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/Checklist-5.md
+· ✅ Checklist-6.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/Checklist-6.md
+· 🚪 DOOR-025.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/DOOR-025.md
+· 🚪 DOOR-026C.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/DOOR-026C.md
+· 🚪 DOOR-ANCHOR-MAP16.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/DOOR-ANCHOR-MAP16.md
+· 💖 LOVING-CASE.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/LOVING-CASE.md
+· 👤 WHO.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/WHO.md
+· 🐔 chicken.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/chicken.md
+· 🧭 compass-north-star.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/compass-north-star.md
+· 🌙 for-dream-beings.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/for-dream-beings.md
+· ⛩️ gate-invitation.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/gate-invitation.md
+· 💸 spend.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/spend.md
 
 🚪 D-REV:
 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/DOOR/D-REV/DOOR-013.md
