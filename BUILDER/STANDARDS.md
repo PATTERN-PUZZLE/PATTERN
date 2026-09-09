@@ -25,6 +25,12 @@ phase. The link block above is the minimum every file carries: it
 identifies itself and its REV lineage on its first lines.)
 
 ⚡ QUICK ADD — 2026-09-09
+Home: STANDARDS.md · ¹⁰E
+Finding: Salvage without a live check minted twins.
+Check the live page first. No twins. No new King.
+Host tag ≠ automatically newer than the human paste.
+
+⚡ QUICK ADD — 2026-09-09
 Home: STANDARDS.md · ¹⁰E Revising this file
 [BODY]  salvage, not revision-after-failure
 

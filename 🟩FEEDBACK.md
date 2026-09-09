@@ -524,3 +524,35 @@ Not finished—runged.
 ◆FEEDBACK-001
 
 ◆FEEDBACK-CHECK-0002
+
+⚡ QUICK ADD — 2026-09-09
+Home: 🟩FEEDBACK.md + ✅CHECKLIST.md
+Finding: Job cards reprinted the loop and called it help.
+Salvage grew its own feedback and checklist, then had to cut them.
+
+THE RULE
+These two stay the universals.
+Other files inherit. They do not copy the body.
+
+FEEDBACK = the loop (giver gives, receiver picks, wisdom gate).
+CHECKLIST = the floor (intent, proof, source, don’t get heavier).
+A job card may add a LAYER for that job only.
+Example: 🏚PROMPT-OLD-FILE-SALVAGE.md salvage boxes + UNDER explain-list.
+If the layer is heavier than the file, the layer is wrong.
+
+ALSO
+Name which host you opened. Same filename can drift.
+Paste can be newer than GitHub. Say which copy you used.
+LIGHT first. The 22-part climb is store, not the default paste.
+
+WHAT IT IS NOT
+Not a salvage rewrite.
+Not capacity lights on every small turn.
+Not “skip the universals.” Point, then add only the missing box.
+
+FLOOR
+Inherit the loop and the floor. Layer the job. Don’t twin the universal.
+
+RAW
+Don’t copy Feedback or Checklist into the next file.
+Point. Add one layer if the job needs it.

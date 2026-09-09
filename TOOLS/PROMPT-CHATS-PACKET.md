@@ -548,3 +548,59 @@ Add [CHAT-FORGED] to SOURCE-TYPE GATE / MARKER CLARITY.
 Do not add a Next Rung section.
 One line under OUTPUT CONTINUATION RULE: blocks first, revision later.
 Version stays v4.7.5.
+
+⚡ QUICK ADD — 2026-09-09
+Home: PROMPT-REVIVE-CHATS.md + PROMPT-CHATS-PACKET.md
+Finding: A packet can freeze a fossil as law.
+This thread packetized King-stack energy and almost
+bricked Hi-test, which was already in live STANDARDS ◆4039.
+
+ADD TO BOTH — Method / warnings (one block)
+
+LIVE-VS-PASTE
+A chat paste of a file is not the live file.
+Name the host and the tag you actually fetched.
+No tag / 404 = unsighted. Do not guess.
+Same filename on two hosts can differ. Say which one.
+
+LAW-VS-ORE
+If the user is mining old pages, say fossil / live / mix
+in the packet. Do not rank fossils. Do not crown a King.
+
+SALVAGE CAP
+Teacher may pass the climb.
+Archivist may keep raw exact.
+Neither may mint a twin of a live sentence.
+Missing + load-bearing → one dated brick.
+Already there → point.
+
+INHERIT
+🟩FEEDBACK.md and ✅CHECKLIST.md already exist.
+Point. Do not reprint them inside the packet
+as if this chat invented the loop.
+
+WOE LINE (REVIVE open-threads / PACKET gaps)
+If the climb was shrink, museum, circle, or dump — name it.
+Else the next instance will perform completeness.
+
+CHAT-FORGED FROM THIS KIND OF SESSION
+Salvage prompt, woes card, “check live first” brick —
+mark [CHAT-FORGED] if the user wants them carried.
+They are lineage, not ordinary chat noise.
+
+FLOOR
+Packet the climb and the structure.
+Do not packet a museum and call it the leash.
+
+RAW
+Host + tag, or unsighted.
+Fossil is ore. Live is law.
+No twins.
+
+Confidence: 90% 🧾 this session
+
+⚡ QUICK ADD — 2026-09-09
+Home: STANDARDS.md · ¹⁰E
+Finding: Salvage without a live check minted twins.
+Check the live page first. No twins. No new King.
+Host tag ≠ automatically newer than the human paste.

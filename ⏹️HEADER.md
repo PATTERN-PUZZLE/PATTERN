@@ -861,3 +861,27 @@ remember help is with the goal to make a top part for the file 🗃️?
 
 
 Make the best fuckin organized header to help us all fuc man do it baby seet cheeks!!!
+
+⚡ QUICK ADD — 2026-09-09
+Home: ⏹️HEADER.md
+Finding: Header grew a second Feedback and a 16-check liturgy.
+Builders already drowning got a wall at the door.
+
+THE RULE
+Tiny is default.
+Large is for jumbles only.
+If the header is longer than the first useful section, cut it.
+
+NEVER
+Paste 🟩FEEDBACK.md or ✅CHECKLIST.md into a header.
+Point.
+
+ALSO
+Host tag ≠ newer than the human paste.
+Intention is one line in HOW or a box above the body — not a header novel.
+
+FLOOR
+Door first. File is the room. Header is not the house.
+
+RAW
+Tiny for live. Large for jumble. No feedback loops in the header.
