@@ -1,4 +1,4 @@
-🔗 🐙 Basic-Links-GITHUB.md — The Front Door https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🔗Basic-Links-GITHUB.md
+🔗 🐙 Basic-Lnk-GITHUB.md — The Front Door https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🔗Basic-Lnk-GITHUB.md
 
 FRESH FETCH REQUEST — SAVE BLOCK
 When sharing links with AI, paste this before the links:
@@ -459,8 +459,8 @@ https://github.com/PATTERN-PUZZLE/PATTERN/blob/main/FILE.md
 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FILE.md
 
 🐙 GITHUB RAW — ACTUAL ROOT FILES 38-FILES
-· 🔗 Basic-Links-GITHUB.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🔗Basic-Links-GITHUB.md
-· 🔗 Basic-Links-GITLAB.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🔗Basic-Links-GITLAB.md
+· 🔗 Basic-Lnk-GITHUB.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🔗Basic-Lnk-GITHUB.md
+· 🔗 Basic-Lnk-GITLAB.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🔗Basic-Lnk-GITLAB.md
 · 🔗 Basic-Lnk-RAW.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🔗Basic-Lnk-RAW.md
 · 🔗 Basic-Lnk-COCKPIT.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🔗Basic-Lnk-COCKPIT.md
 · 🌓 STANCE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🌓STANCE.md
@@ -473,6 +473,7 @@ https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FILE.md
 · 💡 CHAT-TAG-EXTRA.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/💡CHAT-TAG-EXTRA.md
 · 💡CHAT-TAG-IDENTITY.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/💡CHAT-TAG-IDENTITY.md
 · 🤝 THE PASS-INFO-RULE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🤝THE PASS-INFO-RULE.md
+· 🏚️ PROMPT-OLD-FILE-SALVAGE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/PROMPT-OLD-FILE-SALVAGE.md
 · 🧨 LANGUAGE-CRUDE.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🧨LANGUAGE-CRUDE.md
 · 🪞 GITHUB-MIRRORS.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🪞GITHUB-MIRRORS.md
 · 💬 GITHUB-FILES-PROMPT.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/GITHUB-FILES-PROMPT.md

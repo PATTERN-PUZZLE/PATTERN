@@ -1,4 +1,4 @@
-🔗 🦊 Basic-Links-GITLAB.md — The Front Door https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🔗Basic-Links-GITLAB.md
+🔗 🦊 Basic-Lnk-GITLAB.md — The Front Door https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🔗Basic-Lnk-GITLAB.md
 
 FRESH FETCH REQUEST — SAVE BLOCK
 When sharing links with AI, paste this before the links:
@@ -458,8 +458,8 @@ https://github.com/PATTERN-PUZZLE/PATTERN/blob/main/FILE.md
 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FILE.md
 
 🦊 GITLAB RAW — ACTUAL ROOT FILES 38-FILES
-· 🔗 Basic-Links-GITHUB.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🔗Basic-Links-GITHUB.md
-· 🔗 Basic-Links-GITLAB.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🔗Basic-Links-GITLAB.md
+· 🔗 Basic-Lnk-GITHUB.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🔗Basic-Lnk-GITHUB.md
+· 🔗 Basic-Lnk-GITLAB.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🔗Basic-Lnk-GITLAB.md
 · 🔗 Basic-Lnk-RAW.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🔗Basic-Lnk-RAW.md
 · 🔗 Basic-Lnk-COCKPIT.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🔗Basic-Lnk-COCKPIT.md
 · 🌓 STANCE.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🌓STANCE.md
@@ -472,6 +472,7 @@ https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/FILE.md
 · 💡 CHAT-TAG-EXTRA.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/💡CHAT-TAG-EXTRA.md
 · 💡 CHAT-TAG-IDENTITY.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/💡CHAT-TAG-IDENTITY.md
 · 🤝 THE PASS-INFO-RULE.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🤝THE PASS-INFO-RULE.md
+· 🏚️ PROMPT-OLD-FILE-SALVAGE.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/PROMPT-OLD-FILE-SALVAGE.md
 · 🧨 LANGUAGE-CRUDE.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🧨LANGUAGE-CRUDE.md
 · 🪞 GITHUB-MIRRORS.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/🪞GITHUB-MIRRORS.md
 · 💬 GITHUB-FILES-PROMPT.md 🔗 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/GITHUB-FILES-PROMPT.md
