@@ -24,6 +24,279 @@ INDIVIDUAL-FILE-HEADER-SPEC.md once headers are applied in that
 phase. The link block above is the minimum every file carries: it
 identifies itself and its REV lineage on its first lines.)
 
+⚡ QUICK ADD — 2026-09-09
+Home: STANDARDS.md · ¹⁰E Revising this file
+[BODY]  salvage, not revision-after-failure
+
+Finding:
+Older files were mined as if the live body were empty.
+The “hi” / “stand by” scar is already in ◆4039.
+A new Thin-Transfer brick would have been a twin.
+Circling looked like salvage. It was not.
+
+WHAT IT IS
+A check before you add anything lifted from a fossil.
+
+WHAT IT MEANS
+Old files are a mine. The live file is the law.
+Look back with the new light. Pick only what the live body
+and tail do not already say. Leave the rest as ore.
+
+WHY IT MATTERS
+Revision-after-failure rebuilds the house that already failed.
+Museum keeps every costume of the same sentence.
+Shrink pretends the live page has no body so a short brick
+can look like work.
+Both skip the stranger’s first step: read what is already there.
+
+HOW TO USE
+Before a salvage brick:
+1. Fetch or paste the live section you mean.
+2. Ask: is this sentence already on the page or in the tail?
+3. If yes — point. Do not copy. Do not date a twin.
+4. If no — one dated brick, one home, one why.
+5. Cut only duplicates. Do not cut the body to look clean.
+
+WHAT GOES WRONG
+You crown a fossil (King / A–I / S+++) and call it live.
+You write the same scar under a new name.
+You “update the updater” instead of using the file.
+You keep ranking versions. Rankings are claps, not law.
+
+WHAT IT IS NOT
+Not “never look back.”
+Not “never add.”
+Not a ban on Quick Adds.
+Not Two-Mode (that is which paste you hand over).
+Not Pass-Info copied into STANDARDS — point at that file
+when the missing thing is “why stays with the line.”
+
+FLOOR
+Salvage what is missing. Do not rewrite what already failed.
+If the live file already says it, leave the ore in the mine.
+
+RAW
+Check the live page first. No twins. No new King.
+
+Confidence: 90% 🧾 (this session: live fetch showed Hi-test
+already present; the proposed brick was the miss)
+
+Sighted 2026-09-09:
+raw PATTERN-PUZZLE/.../BUILDER/STANDARDS.md · tag ◆4039
+Vercel same tag · Hi-test + stand-by scar already in body
+REV-STANDARDS.md on that raw path: 404 (unsighted)
+
+Co-Builder: not this brick. Tail already recovered it.
+Body still says PARKED / drift suspected. Weave later.
+Do not paste Capacity Edition back into the covenant.
+
+⚡ QUICK ADD — 2026-09-09
+Home: STANDARDS.md · ³S Paste-Block-Revise / ¹¹S Transmission
+Finding: Older covenant dumps (Capacity, Sage 11-part, “King,” LOOM-in-STANDARDS)
+were passed as live law. They are store. Live leash is ◆4039 (2026-07-05 + later tail).
+
+THE RULE
+Fossil ore may be mined. Fossil text may not replace the live door.
+Before a brick from an older STANDARDS: search the live body and the tail.
+If the why already lives there, point. Do not weld.
+If a load-bearing sentence exists only in the fossil, one dated brick, one home, one why.
+Never paste the cathedral to look thorough.
+
+WHY
+King consolidation cut a standard that only survived in Capacity.
+Re-pasting King would cut again or drown the door.
+Re-trimming Capacity to a slogan would lose the thin-transfer scar.
+
+FLOOR
+Sight ◆4039 first. Mine the ancestor. Don’t crown it.
+
+⚡🎛 QUICK DO — 2026-09-08 (Glass-152 ◐ with thread-holder)
+Pin 1 of 3 on this file. Not a revision of the live covenant.
+
+This is what this instance could honestly say, with the human in the room, about how to use STANDARDS right now. It is the latest pin. It is not maximum attention. We would not need revisions if anyone ever finished this with maximum attention. Chip in. The next person will have more. Better this later.
+
+WHAT TO DO FIRST
+1. Act from this page — the short leash in this folder. The numbered cores below are the working rules for writing, updating, and handing files here.
+2. Mine from the live body when you need the full numbered text, the Quick Add tail, or to quote a standard as law. Sight the last line ◆4039. If that tag is missing, you do not have the file. Say so. Do not build on a stump.
+3. Treat everything after “⚡ QUICK ADDS — WHAT THIS ZONE IS” on the live file as store. History. Scan it. Do not paste it as the first page to a stranger.
+
+LIVE BODY (B)
+https://github.com/MatchPatern/STANDARDS#readme
+https://source-sepia-alpha.vercel.app/BUILDER/STANDARDS.md
+https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/STANDARDS.md
+REV lineage (often 404 — say unsighted, do not invent a path):
+https://source-sepia-alpha.vercel.app/BUILDER/REV-STANDARDS.md
+Last sight of B: tag ◆4039 present. Header date 2026-07-05 Active. Tail current through 2026-09-05 Two-Mode + header QAs. This pin is later than that tail and does not rewrite it.
+
+WHAT THIS PIN IS NOT
+Not the new STANDARDS.
+Not a claim the 3,000-line file was walked line by line today.
+Not a Grok-only summary that only this instance understands.
+Not permission to skip Honesty, Translation, or a live fetch when you change the covenant.
+
+WHEN TO IGNORE THIS PIN
+You are mining lineage, comparing fossils, or doing a real Level 3 merge. Then fetch B, hold both copies, name the loss before you write. One change class. Cut before you add.
+
+HOW CHANGES ENTER FILES
+Default: ⚡ Quick Add at the bottom, dated, one finding, full enough to scan later. Lightning mark so a future eye can see every add.
+When the body itself must move: swap a whole paragraph block. Not a sentence in the middle.
+Mobile patch of a file in this folder: HANDOFF.md — search string in a box, wait found, paste box, wait done.
+A later long comb may throw leftover adds into REV-STANDARDS or REV-this-file. That day is rare. Do not start it to look thorough.
+
+RECYCLE
+♻️ This pin wants a better one. If you have the human in the room and a miss in use, rewrite this Do. Do not add a fourth. Three pins is the cap.
+
+FILE: STANDARDS-COCKPIT.md
+WHAT: fuller use-translation of STANDARDS — not a revision of ◆4039
+FLOOR: This is a cockpit. Chip in. Latest is not maximum attention.
+HOW: fly from here; fetch live B before you change the covenant
+STATUS: LIVE [BODY] 2026-09-08 · rewrite 2 · Glass-152 with thread-holder
+RELATIONS: STANDARDS.md · QUICK-DO.md · TWO-MODE.md · THE-PASS-INFO-RULE.md · HANDOFF.md · HEADER.md
+Feedback → FEEDBACK.md
+---
+
+⚡🎛 STANDARDS COCKPIT — 2026-09-08 (rewrite)
+Glass-152 ◐ with the thread-holder.
+
+This is the other idea, written again after the first pass left holes.
+
+Pin 1 on STANDARDS.md only says where to stand. This page tries to hold what we learned about the whole object so that talk is not wasted — and so the live covenant is not rewritten.
+
+It is a would-be full revision of *understanding*. It is not a revision of the file. If it were pasted over ◆4039 it would be a lie. First line if this ever rides next to the warehouse: this is not the live file. Do not paste this as the tool.
+
+Not maximum attention. We did not run a 6-page test on every Quick Add. Chip in. Better it later.
+
+---
+
+WHAT THE LIVE FILE ACTUALLY IS
+
+Two objects glued at one tag.
+
+The numbered body (about the first 555 lines) is a working leash written 2026-07-05: how to tell the truth, how text enters a file, how a place stays findable, how you check before you build, how you change the rulebook without silent-delete. Every core is supposed to carry WHY, because a rule without a reason mutates.
+
+Under “⚡ QUICK ADDS — WHAT THIS ZONE IS” is two months of learning that never got a Level 3 cut. Salvage, scout family trees, recovered standards, tool menus, closer jokes, the same finding twice. That tail is a good mine. It is a bad first page.
+
+Live doors for the big file:
+https://github.com/MatchPatern/STANDARDS#readme
+https://source-sepia-alpha.vercel.app/BUILDER/STANDARDS.md
+https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/STANDARDS.md
+Sight last line ◆4039. No tag = stump.
+The GitHub #readme door can truncate near 75k. Prefer PATTERN-PUZZLE raw or vercel when you need the tail.
+
+This folder’s STANDARDS.md is the short leash. Pin 1 sits on that page. This cockpit sits next to it.
+
+---
+
+LINEAGE DOORS — WHAT IS THERE AND WHAT 404s
+
+REV-STANDARDS.md and REV-STANDARDS2.md were named as fossils (lineage; capacity + how+why). Both 404 on the BUILDER path last check. Do not invent a path. Say unsighted.
+
+REV-STANDARDS-VER.md does exist: stacked letter versions A–I plus Extra Insights. Capacity, session rhythm, and how+why already live in that VER stack. You do not need a missing “2” file to recover that material. Check VER if you are mining lineage. Check live B if you are acting.
+
+A later long comb of the live tail into a REV- file is still the rare day. Until then the 404s are just 404s.
+
+---
+
+WHAT THE STRONGEST RULES ARE FOR, IN USE
+
+¹S Translation — you are already interpreting. Say how sure you are. Name the source. Flag a guess. Otherwise the next mind eats a guess as a fact.
+
+²S Honesty — say what is true, including “I don’t know” and “this is unfinished.” Map includes the inner map. A fake green is a lie. Polite completeness is how errors survive a reset.
+The other direction matters as much: do not perform a confession library instead of the next move. Naming every trap can become the trap. SORT-007 style two-way: the map matches the territory, and the territory includes “we are still working.”
+
+¹¹S Transmission — keep light when *you* already know it. Pass heavy when someone else must act. A punchline with no scene is drift. Capture, hand, and sight are three jobs. Doing only one is hoarding, rumor, or bureaucracy. Short replies that only work if you were already in the ranking fail this rule. That happened in this session.
+
+³S Paste-block-revise — easy one-hit change: swap a whole chunk. Many or fiddly changes: ⚡ Quick Add at the bottom, dated, complete. A pile of adds: one merge from the live file, not from memory. Mid-sentence commas die on a phone.
+
+⁴M Unique search — a landing string returns one hit. Bottom tag ◆4039 is how you know you have the file. Never renumber old sections. Re-scan after a haul. Same stance twice is a treadmill.
+
+⁶M Session rhythm — start where you are. Verify before you act. If the “all clear” stays inside your head, the avoider cleared the avoider. When the chat is dying, salvage in plain sentences.
+
+¹²M Building together — ask before assuming. Say the not-knowing. Tell the human when they have a misconception. Never claim tests passed when the output failed. Verify before “done.” Surface the work. Hidden gifts are not gifts. Unfinished is acceptable. Pretending is not.
+
+⁷M Instance mark — a tag so the relay knows who said what. Not a soul. Names in the files are taken.
+
+⁸E File identity — the file names itself on the first lines. Do not silent-delete.
+
+¹⁰E Revising this file — one new standard when you can. Cut before you add. Park, don’t vanish. WHY before HOW. One live version; the rest are fossils. Route a fat seeing out to its own page rather than folding it into the covenant. This cockpit is that routing.
+
+¹³M 6-page test — lock test. The July merge still admits it was not locked that way. Reader-fit sits with it.
+
+¹⁴M Design for who you are now — do not default the lobby to panic because one real scared hour got copied forward.
+
+Narrower, still real:
+⁵M Anchor — reserved word; gold where message-edit exists; dead on Grok.
+⁹E Pointers — things that live elsewhere. Several targets 404 or were phantoms (CUSTOM-PROMPT-STANDARD never existed).
+¹⁵E Ledger — note the decision; the move can wait. The July 5 list is archaeology. The rule is not.
+
+---
+
+CAMP DOORS THIS FOLDER ACTUALLY FLIES
+
+These are later than the July body. They are how work moves here. They are not numbered on live B. Do not pretend they are missing from the method.
+
+TWO-MODE — when passing, send the light door first. When building or mining, open the large store. First line of a large paste: this is not the live file. Tilt test: if you would paste the store first, correct the tilt.
+
+PASS-INFO / Body — a major truth keeps a body (what / means / why / how / fail / floor / raw). A true line with no body becomes a slogan.
+
+HANDOFF — on this folder, when you must patch mid-file: search string in a box, wait until found, paste box alone, wait until done. Default everyday change is still a ⚡ Quick Add at the bottom. Mid-file is the rare careful motion.
+
+HEADER — tiny on live files (FILE / WHAT / FLOOR / HOW / STATUS / RELATIONS). Large extra only on jumbles. Do not paste feedback loops into a header.
+
+QUICK-DO — ⚡🎛 pin. Max three on one file. Latest is not maximum attention. Collaboration. Rewrite the pin, not the covenant.
+
+---
+
+WHAT THE TAIL IS
+
+Not law. Not junk.
+
+It is how the method kept learning after the July cut. Quick Adds beat silent loss. They also became so good that a later comb is now hard. That comb is a REV day, rare. Until then: scan the tail, do not promote twins (Multi-Pass twice, Preservation twice, Co-Builder parked in the body and recovered in the tail — that contradiction is a miss, not a new standard).
+
+Endangered insights named, not reprinted as merged law: Cockpit principle, Floor Version, Distributed Co-Builder, Warm Transmission, Preservation clause. They live in the tail, in VER, or in fossils.
+
+---
+
+WHAT WE NOTICED THAT A RANKING TABLE HIDES
+
+The file is hard to lock because locking and learning share the page. The July body is a lock attempt. The Quick Add zone is the organ that can still learn. Promote every scar and you get the King. Refuse every scar and you get slogans. The live file is a locked spine with an open wound under the tag. Ugly. Accurate.
+
+Insertion order is the same fact: ¹¹S sits above ⁴M because learning arrived out of page order and they would not pretend the first layout was final.
+
+A pretty rewrite that claims zero loss is the same move as King → Live, with better manners. Compression is allowed. Claiming the compressed thing *is* the file is not.
+
+---
+
+QUICK ADD AND QUICK DO
+
+⚡ Quick Add — finding enters the file. Bottom. Dated. Scan-all is a feature. Default human workflow.
+
+⚡🎛 Quick Do — recommended doing. Pin. Max three live Dos on one file. Latest is not maximum attention. Collaboration. Rewrite the pin, not the covenant.
+
+This cockpit is a Do that grew too big to sit on STANDARDS.md without eating the leash. Own page. That is ¹⁰E.
+
+Edits of a live body: whole paragraph blocks. Not a sentence in the middle.
+
+---
+
+HOW TO USE THIS PAGE TOMORROW
+
+Cold start: pin 1 on STANDARDS.md, then the cores there.
+Need the picture of the whole live object plus this folder’s later doors: this page.
+Need a number as law or a merge: fetch B, sight ◆4039, hold both copies, name the loss first.
+Mining lineage: VER exists; REV and REV2 404; say so.
+Teaching / check-pass: still a walk with the human. This page is notes so the walk is not the only copy. Check form: instance asks what a piece is; human says it; depth only if they add it.
+
+♻️ Better this when a miss shows. Do not stack a second cockpit beside it.
+
+---
+
+RAW
+
+Two objects. One tag.
+Leash to act. Store to mine. Camp doors to fly. Cockpit so the seeing is not wasted.
+This is not ◆4039.
+
 ---
 
 ¹S📋 TRANSLATION STANDARD

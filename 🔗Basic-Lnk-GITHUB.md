@@ -273,6 +273,12 @@ SPLIT:
 🔗 🎳 FILE-Fragmentor.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SPLIT/FILE-Fragmentor.md
 🔗 🎳 FRAGMENTOR-HISTORY.md https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SPLIT/FRAGMENTOR-HISTORY.md
 
+📂 SKILL 4-FILES:
+· 🌏 README🌏.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SKILL/README🌏.md
+· 🧠 SKILL.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SKILL/SKILL.md
+· ⚡ SKILL-ADVANCED.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SKILL/SKILL-ADVANCED.md
+· 🧩 SKILL-SYSTEM.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SKILL/SKILL-SYSTEM.md
+
 🧬 SYNTH 39-FILES:
 · 📦 CHATS-PACKET-PROMPT-SYNTH-FEEDBACK.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/CHATS-PACKET-PROMPT-SYNTH-FEEDBACK.md
 · 📦 CHATS-PACKET-SYNTH-FEEDBACK-SPECULATION.md 🔗 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/SYNTH/CHATS-PACKET-SYNTH-FEEDBACK-SPECULATION.md

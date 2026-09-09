@@ -827,3 +827,10 @@ A thin header plus a ceiling claim is a contradiction.
 
 END LINE:
 Not finished—runged.
+
+⚡ QUICK ADD — 2026-09-08
+Home: 00-LOOM.md / QUICK LOOM
+Finding: We talked about LOOM more than we stayed with a text.
+Stay-rule: a later read must differ, or you say “unchanged.”
+If you only report the method, you didn’t LOOM.
+FLOOR: Stay with the page. The count is not the work.

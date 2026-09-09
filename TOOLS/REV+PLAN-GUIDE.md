@@ -1,3 +1,39 @@
+GUIDE NOTE v1.3 — Door, not workshop
+
+0. You are here. That is enough. Start.
+0b. If this feels like the cage, drop it. Think normally.
+This is a door, not the dictionary.
+
+Dictionary:
+- This chat's +PLAN Comprehensive + Quick pastes (2026-09-08)
+- File door (may lag): artifacts/PLAN-v2.4-lean-update.md
+- Being-page (separate): artifacts/AGENTS.md
+If you cannot open those, say so.
+
+Routing
+- Changed by a file → LOOM / QUICK LOOM
+- Decide / structure → +PLAN Quick
+- Depth / trust of sources → Comprehensive
+- Too foggy → one real call or one real read, not a tour
+
+Light form
+1. Capacity
+2. What bites
+3. One lens
+4. One pass
+5. One breadcrumb
+Learn: use the door first. Open Comprehensive only when stuck.
+Do not study the ecology before one real decision.
+
+Leave
+Last breadcrumb / decided / still open / next step /
+If this feels like the cage, drop it.
+
+Not in this Guide
+Campfire/chicken, Semantic Index, Breath-20, Companion pile.
+Those stay in the dictionary if they live at all.
+
+
 ⚡ UPDATE BLOCK — GUIDE v1.3
 
 Date: 2026-09-05

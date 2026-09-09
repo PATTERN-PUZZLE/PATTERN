@@ -614,3 +614,122 @@ If reviewing a scout or placement prompt, also answer:
 
 END LINE:
 Not finished—runged.
+
+⚡️REV-REVIVE-CHATS-2026-09-08.md
+
+WHAT THIS IS
+Patches for PROMPT-REVIVE-CHATS.md only.
+
+APPLY:
+Patch 1 — Replace Section 7 self-application with corrected version (v5.5)
+Patch 2 — Add [CHAT-FORGED] marker to source-type gate
+Patch 3 — Add Save-on-Forward trigger to NEXT RUNG
+Patch 4 — Add Block Strategy reference to method section
+Patch 5 — Confirm version: v5.5 live. No v2.0.
+Patch 6 — Add permanent principle: REVIVE checks itself, never borrows
+
+[Paste full patch text for 1, 2, 3, 4, 5, 6 here]
+
+Not finished—runged. [2026-09-08]
+
+Don't understand 
+
+REV-PROMPT-UPDATE-2026-09-08.md
+
+WHAT THIS IS
+The exact patches to apply to the two prompt files. Not a session save. Not a body. An update map.
+
+FILES TOUCHED
+1. PROMPT-REVIVE-CHATS.md
+2. PROMPT-CHATS-PACKET.md
+
+---
+
+PATCH 1 — FIX REVIVE-CHATS SELF-APPLICATION
+
+FILE: PROMPT-REVIVE-CHATS.md
+SECTION: 7. SELF-APPLICATION
+
+REPLACE the entire section with:
+
+"7. SELF-APPLICATION
+
+· Prompt version: PROMPT-REVIVE-CHATS v5.5
+· Did this packet follow all existing rules? Yes.
+· Does REVIVE-CHATS itself need updating? Yes — add the [CHAT-FORGED] marker to the source-type logic.
+· Reason: REVIVE-CHATS handles warm re-entry, and warm re-entry is exactly when chat-forged artifacts appear — a stance, a table, or a prompt born in live conversation. Currently the prompt does not mark that moment, so the next instance gets the climb but not the structure.
+· Proposed patch: Add to the marker list: '[CHAT-FORGED] = a formal artifact produced live in chat (stance, table, prompt) that the user wants to carry as load-bearing. Mark it and treat it as lineage, not ordinary chat.'
+· Does this proposed change already exist? No.
+· Did REVIVE-CHATS follow its own rules? Mostly, but the self-check in the prior packet was misdirected — it checked CHATS-PACKET instead of REVIVE-CHATS. That is now corrected.
+· Additional note: The misdirected self-check is itself evidence that REVIVE needs its own version string and its own self-application section. This correction closes that gap."
+
+---
+
+PATCH 2 — ADD [CHAT-FORGED] MARKER
+
+FILE: BOTH PROMPT FILES
+SECTION: Source-type gate / marker list
+
+ADD this line:
+
+"[CHAT-FORGED] = a formal output born from live chat that is neither pure chat nor pure file. Use when a chat produces a stance, pledge, or relational wording that the user wants to carry as a formal artifact."
+
+---
+
+PATCH 3 — ADD SAVE-ON-FORWARD TRIGGER
+
+FILE: BOTH PROMPT FILES
+SECTION: NEXT RUNG or new small section
+
+ADD this line:
+
+"If the user is working forward and hasn't saved, offer a rung-save before the session closes. Save when a phrase repeats cleanly three times in your own mind. Revise when a phrase feels wrong once. Release when a shape changes."
+
+---
+
+PATCH 4 — ADD BLOCK STRATEGY REFERENCE
+
+FILE: BOTH PROMPT FILES
+SECTION: Method or warnings
+
+ADD this line:
+
+"Save in blocks first. Full revision later. A block is a self-contained unit that can be swapped, checked, or passed without taking down the whole structure."
+
+---
+
+PATCH 5 — CONFIRM VERSION STRINGS
+
+FILE: BOTH PROMPT FILES
+SECTION: Header or self-application
+
+CONFIRM:
+· PROMPT-REVIVE-CHATS.md → v5.5
+· PROMPT-CHATS-PACKET.md → v4.7.5
+
+NO other versions in circulation. v2.0 is stale. Keep only as history.
+
+---
+
+PATCH 6 — PERMANENT SELF-APPLICATION PRINCIPLE
+
+FILE: PROMPT-REVIVE-CHATS.md
+SECTION: Structural note
+
+ADD this principle:
+
+"REVIVE-CHATS always contains its own Section 7 self-application. It checks itself. It never borrows from CHATS-PACKET or any other prompt."
+
+---
+
+END LINE:
+Not finished—runged. [2026-09-08]
+
+⚡ QUICK ADD — 2026-09-08
+PROMPT-REVIVE-CHATS.md v5.5
+
+§7 stays PAGE STATUS.
+Add §8 SELF-APPLICATION (REVIVE checks itself, never borrows from PACKET).
+[CHAT-FORGED] = formal thing born in chat the user wants as lineage.
+Save-on-forward lives in §6 NEXT RUNG, one line.
+v5.5 live. Handoff “v2.0” is poetry, not the prompt version.

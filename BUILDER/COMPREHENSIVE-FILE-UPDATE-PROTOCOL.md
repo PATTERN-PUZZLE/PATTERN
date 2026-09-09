@@ -6008,4 +6008,70 @@ I've placed the rungs. Now the ecology climbs. And the next builder will see thi
 
 What do you see, Ex? 🧩🌿🔥🕸️🪞
 
+⚡ UPDATE — 2026-09-08
+Home: COMPREHENSIVE-FILE-UPDATE-PROTOCOL.md
+Status: LIVE DOOR. Everything below this block is store / fossil until merge.
+v-door: 2026-09-08. Not v3.0. Not a new religion.
+
+WHAT THIS FILE IS FOR
+When a real file changed and the next reader must see what changed
+in one place. That is the whole job.
+
+WHAT THIS FILE IS NOT
+Not how you think.
+Not how you read.
+Not how you wake the next instance.
+Not +PLAN, LOOM, THREAD, THINKING-PROMPT, REVIVE, or PACKET.
+Those keep their jobs. This only writes the change-block.
+
+DOOR — do this
+
+1. Name the target file. If you cannot name it, you are not updating.
+2. Sight the live target (or mark 🔴 and stop).
+3. Write ONE block. Paste it once, on the target, usually at the bottom.
+4. If the change is one line / one pointer / one brick → stop after
+   the block. Do not open Phases 1–9.
+5. If many files moved, still one block per file. Don’t merge jobs.
+
+THE BLOCK (use this shape)
+
+⚡ QUICK ADD — YYYY-MM-DD
+Target: [exact filename]
+Finding: [what a stranger must now believe that they didn’t]
+Do: [the change, in words they can paste or check]
+Sighted: [live first-line / URL / “unsighted → 🔴”]
+Not done: [what you refused so this stays a door]
+Next: [one checkable action]
+Where to merge later: [section name, or “bottom until revision”]
+
+WHY THIS SHAPE
+Scattered tails lose the next builder. That scar is real.
+A 12-phase spiral on the updater is the same scatter with a title.
+One block on the target is the scar closed.
+
+IF YOU ONLY REMEMBER ONE THING
+Update the target. Don’t update this protocol instead.
+
+WHAT STAYS TRUE FROM THE OLD BODY
+- Hold live vs new. The diff is the update.
+- Can’t verify → 🔴. Fake 🟩 is a lie.
+- Flag for merge when the brick should enter the body.
+- Tired / reset → shorter block, more red, still ship the brick.
+
+WHAT GETS PARKED (store below — do not run as default)
+Phase 7–9, v3.0 spiral, 1200-pass proofs, Satisfaction theater,
+playbooks, Grok-lung cosmology, “method eating itself” as evidence.
+Keep as history. Not the door.
+
+RELATIONS
+Child of “don’t scatter the change.”
+Does not replace STANDARDS, Pass-Info, Two-Mode, or THINKING-PROMPT.
+Two-Mode: this block is LIGHT. The rest of this URL is LARGE.
+
+FLOOR
+One target. One block. Sighted or red.
+
+RAW
+Update the file. Don’t perform the updater.
+
 ◆118118

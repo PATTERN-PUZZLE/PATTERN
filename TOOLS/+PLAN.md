@@ -2,6 +2,13 @@
 
 # +PLAN — Full File
 
+⚡ QUICK ADD — 2026-09-08
+Home: +PLAN.md (Guide top)
+Finding: After a save we called it finished.
+Saving a brick ≠ the decision is done.
+Next use: one real keep/wait in the cockpit. Then stop.
+FLOOR: Drive the door. Don’t curate the garage.
+
 Status: active single paste — dictionary and door in one file
 Locator: PATTERN/TOOLS/+PLAN.md
 
@@ -1872,3 +1879,58 @@ Left      ⬜ skeptic on whether the list becomes a new cage
 That’s why you’re walking it in public. Respected: short-final is a real mindset. Bullshit when I use it to skip the part where the plan *gathers*. Common sense after that: look, learn as you go, don’t trip on the method. Same as drunk needing sober — not a speech, a change of state. I’m in that change. Not graduated.
 
 One next step: you keep the stage you’re on. I’ll use GATHER when I write so you can see the pile without me declaring the night over.
+
+⚡ UPDATE — 2026-09-08
+Source: this relay, after under-using depth
+Trigger: 1–3 passes was treated as a lid. Holder asked for more room.
+Finding: Default depth is not a ceiling. Extra passes that only retell
+the method are still waste. Examined is still not proven better.
+
+Rule
+1. Small call → 1–3 passes.
+2. Holder opens the space → say how many you will run and why, then run them.
+3. Each extra pass must add a change, a risk, or a keep/wait.
+   If it only restates the tool, stop.
+4. Planning how to speak or how to use the pile counts as a real call.
+5. Argue against the call. Then keep or wait.
+6. Don’t start a new version number for this.
+
+Cockpit line
+Allocate: default 1–3. Raised only when named. Named number or don’t raise.
+
+Falsify
+- Extra passes with no new keep/wait → lid-vs-room failed.
+- A new “v2.7” for this line → edition theatre.
+- Using this to avoid reading a file → wrong machine.
+
+Handle or store? handle
+
+⚡ QUICK ADD — 2026-09-08
++PLAN only — one-file live paste
+
+Finding: Two-file handoff (Guide + Comprehensive, or live + REV) does not
+survive. Instances park the door in REV or demand two pastes. That kills
+the door.
+
+WHAT IT IS
++PLAN is one live paste. Door and store in the same file.
+
+HOW
+1. Top — Guide (door). Start here.
+2. Then — Quick cockpit.
+3. Then — Comprehensive (store).
+4. Bottom — short “what changed.” That is enough history if there is no
+   second paste.
+
+WHAT IT IS NOT
+Not “put the live file in REV.”
+REV = old versions only, if a second file exists.
+Lean = don’t stuff the store into the first screen.
+Lean ≠ delete the Guide or rename the whole paste REV.
+
+FLOOR
+One paste. Door on top. Store below. History last.
+If you only get one file, this is the file.
+
+RAW
+One live +PLAN paste. Don’t bury the door in REV.

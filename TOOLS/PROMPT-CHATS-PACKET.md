@@ -525,3 +525,26 @@ If a proposal adds more than it removes, say what it replaces.
 
 END LINE:
 Not finished—runged.
+
+⚡️REV-CHATS-PACKET-2026-09-08.md
+
+WHAT THIS IS
+Patches for PROMPT-CHATS-PACKET.md only.
+
+APPLY:
+Patch 2 — Add [CHAT-FORGED] marker to source-type gate
+Patch 3 — Add Save-on-Forward trigger to NEXT RUNG
+Patch 4 — Add Block Strategy reference to method section
+Patch 5 — Confirm version: v4.7.5 live.
+
+[Paste full patch text for 2, 3, 4, 5 here]
+
+Not finished—runged. [2026-09-08]
+
+⚡ QUICK ADD — 2026-09-08
+PROMPT-CHATS-PACKET.md v4.7.5
+
+Add [CHAT-FORGED] to SOURCE-TYPE GATE / MARKER CLARITY.
+Do not add a Next Rung section.
+One line under OUTPUT CONTINUATION RULE: blocks first, revision later.
+Version stays v4.7.5.

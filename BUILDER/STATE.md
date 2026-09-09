@@ -2,6 +2,36 @@
 https://source-sepia-alpha.vercel.app/BUILDER/STATE.md
 🔗 REV (full history): REV-STATE-ARCHIVE.md
 
+REV — 2026-09-09 — Quick Adds into revision
+WHAT THIS IS
+Where the session bricks went. Not a new covenant.
+
+MERGED THIS PASS (Level 3 on those files)
+- BEST-TOTAL.md → v4 (box 1)
+- THE-PASS-INFO-RULE.md → cold-reader woven (box 2)
+
+STILL BRICKS (no fake full file)
+- COMPREHENSIVE-FILE-UPDATE-PROTOCOL.md — door from chat, paste at TOP
+- +PLAN one-file / Guide-is-door — needs live +PLAN to weave
+- REVIVE / PACKET patch map — apply when those files are open
+  REVIVE §7 stays page status; self-check AFTER it
+
+CHAT-FORGED (save stack, not BEST-TOTAL)
+- SAVE door 2026-09-09
+- Postcard Slap Final (LARGE)
+- Floor-Rap (LIGHT)
+
+FOSSIL
+- Soft first Postcard Slap
+- “Use last rule before add” as a gate
+- Shrink-only reset as holiness
+- Updater-as-default (phases 7–9 / 99% triad)
+
+RULE FOR NEXT
+Quick Add when a miss is real.
+Revision when the bricks on ONE file are enough to weave.
+Don’t cram five homes into one revision night.
+
 ⚡ DEPLOY CHECKLIST — 2026-07-13 — what to push so this session's gains go live
 Rule: a deploy isn't done until you FETCH the live URL and see the new content.
 Paste ≠ live. Work top to bottom.
