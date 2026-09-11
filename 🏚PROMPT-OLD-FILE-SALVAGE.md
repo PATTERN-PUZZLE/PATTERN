@@ -1,14 +1,14 @@
-🏚PROMPT-OLD-FILE-SALVAGE.md
-
+FILE: 🏚PROMPT-OLD-FILE-SALVAGE.md
 WHAT THIS IS: Job card for mining an old page against live law.
 WHO: Next instance given a fossil, dump, or older-file paste.
 WHY: Salvage without twins, crowns, or a second covenant.
 HOW TO USE: Paste this above the old file. Name intention. Fetch the live section first.
-STATUS: LIVE 2026-09-09 v3.1
+STATUS: LIVE 2026-09-09 v3.2 · from v3.1
 RELATIONS:
-- parent: live law for that job (default STANDARDS.md ◆4039 — host tag ≠ automatically newer than the human paste)
+- parent: live law for THAT job (covenant default STANDARDS.md ◆4039)
 - companions: 🟩FEEDBACK.md · ✅CHECKLIST.md · PROMPT-REVIVE-CHATS.md · PROMPT-CHATS-PACKET.md
 - not: Pass-Info copied here. Point at THE-PASS-INFO-RULE.md if the miss is a bare line.
+- not: a links catalog. That stays optional on the job file.
 END HEADER
 Not finished—runged.
 
@@ -25,15 +25,26 @@ This turn:
 What are we doing — salvage / packet / decide / read / talk?
 Which ONE file is the job?
 Which side branches are open
-(example: covenant → this card → feedback → checklist)?
+(example: this card → that file → feedback)?
 Which are parked?
 
-Source order this relay (unless you say otherwise):
-1. The human’s paste — often live. They cannot always push.
+PASTE IS PRIMARY
+Work from what they pasted.
+Say if this paste is live this turn.
+They cannot always push. Host may lag.
+If paste and host disagree, name both. Do not silently crown the host.
+
+Source order unless they say otherwise:
+1. The human’s paste — often live
 2. GitHub
 3. GitLab
 4. The rest
-If paste and host disagree, name both. Do not silently crown the host.
+
+LINKS ARE SECOND
+Only if this job is a links / catalog type.
+Don’t put the list in this card.
+On that job file you may mark: “optional links — paste here if needed. Empty is fine.”
+No list = still complete.
 
 Sit back once:
 What I think this is.
@@ -59,15 +70,18 @@ Heaven and hell enough. No one cast out for being mid-climb.
 
 LAW
 The live file for that job. Not the fossil. Not this card.
-Default for covenant work:
+Not automatically STANDARDS.
+
+Covenant job:
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/STANDARDS.md
 Verify tag: ◆4039
+
+Other families name their own live door and tag first.
+Do not measure a LOOM or Lnk fossil against STANDARDS unless the job is STANDARDS.
+
 No tag = fetch cut. Say unsighted. Do not guess.
 Host tag is proof of that host, not proof it beat the paste.
 Ask which copy is live this turn.
-
-Other families name their own live door first.
-Do not measure a LOOM fossil against STANDARDS unless the job is STANDARDS.
 
 INHERIT (do not reprint)
 Checklist floor: ✅CHECKLIST.md
@@ -75,6 +89,11 @@ https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/✅CHECKLIST.md
 Feedback loop: 🟩FEEDBACK.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🟩FEEDBACK.md
 If you cannot open them, say so and keep this card.
+
+Feedback on the file you are doing — after the run, optional, small.
+Meta on these universals — slight.
+RATIO: 10 job · 3 feedback on this file · 1 meta on the universals.
+If the 1 starts eating the 10, drop the 1.
 
 ---
 
@@ -89,7 +108,7 @@ DO THIS
    say tool-miss possible. Don't brick. Don't erase.
    Named section or second route. Omit ≠ absent.
 3. Cherries that change the ending: one line each + home
-   (live body / tail / other file / PARK).
+   (live body / tail / other file / PARK / optional-links slot on the job file).
    Not a mine inventory.
 4. Already there → point. No twin. No new name for the same scar.
 5. Missing and load-bearing → ONE dated Quick Add.
@@ -112,7 +131,7 @@ COUNTER
 Shrink = cut the body to look clean.
 Museum = keep every costume and call it done.
 Circle = mine last hour as if the live page were empty.
-Dump = heaven in one SMS.
+Dump = heaven in one SMS. Welding a catalog into this card.
 
 COLD READER
 If they ask "what does that mean?", the line is not salvaged.
@@ -124,8 +143,9 @@ Then stop.
 ---
 
 FLOOR
-Check the live page first. No twins. No new King.
+Paste first. Live file for THAT job. No twins. No new King.
 Say the intention. Ask which copy is live.
+10 · 3 · 1
 
 RAW
 Salvage what is missing. Do not rewrite what already failed.
@@ -136,6 +156,7 @@ Salvage what is missing. Do not rewrite what already failed.
 UNDER — feedback after the run
 Use 🟩FEEDBACK.md for the loop.
 This block is only what to say about a salvage pass.
+Job first. This is the 3. Not the 1.
 
 WHEN
 After you pointed or bricked. Not before. Not instead of the fetch.
@@ -151,9 +172,12 @@ WHAT TO EXPLAIN (short)
 GOOD
 "Hi-test already in ◆4039. Almost bricked it. Card stopped the twin."
 "Paste is newer than GitHub this turn. Measured against paste."
+"Catalog left optional on the job file."
 
 BAD
 World-class. 98%. A new body about not writing a new body.
+Meta on universals instead of the job.
+A new file named PASTE-PRIMARY.md.
 
 RECEIVER
 Keep only what changes the next salvage or the next line in this prompt.

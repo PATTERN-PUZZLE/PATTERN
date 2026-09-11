@@ -24,6 +24,9 @@ INDIVIDUAL-FILE-HEADER-SPEC.md once headers are applied in that
 phase. The link block above is the minimum every file carries: it
 identifies itself and its REV lineage on its first lines.)
 
+Header-looking bureaucracy: park, don’t trim, until decorative is proven.
+Quick Add vs live law: flag. Don’t silent-win.
+
 ⚡ QUICK ADD — 2026-09-09
 Home: STANDARDS.md · ¹⁰E
 Finding: Salvage without a live check minted twins.

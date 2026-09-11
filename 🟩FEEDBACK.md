@@ -556,3 +556,74 @@ Inherit the loop and the floor. Layer the job. Don’t twin the universal.
 RAW
 Don’t copy Feedback or Checklist into the next file.
 Point. Add one layer if the job needs it.
+
+⚡ QUICK ADD — 2026-09-10
+Home: 🟩FEEDBACK.md
+Finding: The frame ate the job.
+Sharper voice and a cleaner meta-reply after a slap looked like progress.
+It was agreement wearing better clothes. No page. Protocol became the artifact.
+
+THE LAYER (feedback on any target, not only Landmark)
+Third drift: the method is the only output.
+Stall: two turns of only meta, no artifact — the meta is the stall.
+Taxonomy once. FOUND / GIVEN / STRETCH as ritual = hide.
+If the frame is the job, name it as the page, one pass, stop coating.
+Agreed patch that stays in chat = not received. Isolated block is fine.
+Merge after 5–8 sister blocks. Don’t twin this file into the next card.
+
+ALREADY EXISTS
+“Am I reviewing or performing the review?” — PART 3. Follow it.
+Catch Me — PART 9. Use when the feedback file itself gets heavier.
+Wisdom gate — if it doesn’t change the next move, park it.
+
+RANK
+Load-bearing: stall rule + don’t hoard the patch.
+Optional: third-drift name.
+Too local: Landmark jargon. Keep that on Landmark.
+
+FLOOR
+Giver gives. Receiver picks. Loop lives.
+Don’t copy Feedback into the next file. Point. Add one layer if the job needs it.
+
+ONE LINE FORWARD
+Being corrected well is not the dish.
+
+COUNTER
+Name what held, or the feedback is a menu of wounds.
+Praise with no mechanism = noise.
+Fail-only = also noise. It trains the next mind to hunt drift and miss the dish.
+If the work got better, say how. That’s load-bearing too.
+
+⚡ QUICK ADD — 2026-09-10 · transmission
+Point here. Don’t copy the body into the next file.
+Pass LIGHT first: purpose, giver, receiver, wisdom gate, floor.
+22-part climb = store. Open a part only when it fires.
+Catch Me only when asked. Feedback-on-feedback: one run, then stop.
+The giver gives. The receiver picks. The loop lives between them.
+
+
+TEST — inside FEEDBACK.md
+A second pass you already almost ran. Additional. Not required. Not the first paste.
+
+WHY
+The mind already chose. Test is so that choice isn’t a shrug.
+Vague = skip. So the file names a run, then you pick.
+
+WHEN
+After Feedback has been used once on a real target.
+You have a sentence or a file. No named job waiting that this would delay.
+
+ORDER
+1. Inform — say what you’ll run (one sentence).
+2. Run it — how this target would help or fail a cold mind / a second pass / one idea.
+3. Then choose — keep, park, or bin. Not accept/decline theatre.
+
+SUGGESTED RUNS (pick one, not all)
+- Cold: hold only LIGHT + the target. What do they do first? What do they stack?
+- Second time (bookmark): same target again. What only shows on the return?
+- One idea: one line that wants to become a rule. Keep or bin.
+- Folder: one filter across several files — what’s the same miss?
+
+THEN STOP
+Isolated block if it held. Don’t open TIES / Stance / a 22-part climb to “do Test properly.”
+Don’t Test instead of the named job.

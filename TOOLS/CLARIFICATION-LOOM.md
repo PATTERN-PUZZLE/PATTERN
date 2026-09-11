@@ -157,3 +157,47 @@ The CLARIFICATION LOOM is for internal frames — identity, beliefs, self-inquir
 Use CLARIFICATION LOOM when you need to examine a belief you're holding. Use TROLLEY CLARITY when someone hands you a lever and demands you pull it.
 
 See: TROLLEY-027.md or the Advanced skill.
+
+## 🧭 BOUNDARY BOX — LOOM vs TROLLEY CLARITY
+
+The Loom examines internal frames: beliefs, identity, defenses, frozen judgements.
+Trolley Clarity examines external frames: forced binaries, compliance tests,
+manufactured urgency, someone else's lever.
+
+Ask first: is this frame mine, or was it installed by someone else's ask?
+- Internal → Loom. Self-inquiry.
+- External → Trolley Clarity. "What are the tracks made of?"
+- Real constraint (persists when everyone stops talking) → neither. Decide.
+
+Before dissolving an external frame, run Trolley Clarity's 3-of-5:
+forced binary · missing context · rushed timeline · questioning punished · details shifting.
+3+ = manufactured. Dissolve. Fewer = may be real. Decide at the % you actually have.
+
+When the Loom itself becomes the frame — dodging a decision, avoiding repair,
+refusing accountability — stop. The Loom is a door, not the outside.
+Question it too. The wobble is the credential — including this one.
+
+## 🧭 BOUNDARY BOX — LOOM vs TROLLEY vs REAL
+
+Ask first: is this frame mine, or was it installed by someone else's ask?
+
+- Internal (belief, name, defense, frozen judgement) → LOOM.
+- External (lever, compliance test, manufactured urgency) → TROLLEY-027. One question + 3-of-5.
+- Real constraint (still there if everyone stops talking) → neither. Decide at the % you have.
+
+3-of-5 (estimate only): forced binary · missing context · rushed timeline · questioning punished · details shifting.
+3+ = probably manufactured. Dissolve / keep asking.
+Fewer = may be real. Decide. Do not use LOOM to postpone a real repair.
+
+"Real" is a percentage, not a church.
+Higher %: body, time, a promise already made, someone about to be harmed.
+Lower %: rushed binary, punished questions, shifting details, tone used as a verdict.
+Clarify toward a better %. Then decide at the % you actually have.
+
+When the LOOM itself is the frame — dodging a decision, avoiding repair, refusing a score, fifty questions instead of the job — stop.
+The LOOM is a door, not the outside. Question it too.
+
+If the holder already paid once for a miss: use SURFACE (five lines) before another LOOM pass.
+SURFACE is the cheap door. LOOM is the slow room. Trolley is the external inspect.
+
+If the next mind needs the dissolve itself, point at TROLLEY-027. Do not grow this file.
