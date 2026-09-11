@@ -812,3 +812,40 @@ Inherit the loop and the floor. Layer the job. Don’t twin the universal.
 RAW
 Don’t copy Feedback or Checklist into the next file.
 Point. Add one layer if the job needs it.
+
+⚡️## QUICK ADDS — CHECKLIST  2026-09-11
+
+Finding — Checklist is a floor, not a museum.
+RULE: Live checks: intent · quote-or-don’t-claim · wisdom gate · cage→drop · disappear. Do not paste the wall into a header or Comp-Pass.
+FAIL: Header longer than the first useful section.
+GUARD: Cannot run in one breath → point at CHECKLIST.md.
+FLOOR: Five live checks. Rest is store.
+RAW: If it doesn’t change the next move, it isn’t on the floor.
+
+Finding — Quote or don’t claim.
+RULE: File says X → quote or mark unsighted/provisional. No unsighted completion claim.
+FAIL: Confident slurry. Fake complete. Twins.
+GUARD: Point at the line? If no, unsighted.
+FLOOR: Quote, or don’t claim.
+RAW: Unsighted is honest. Invented sight is not.
+
+Finding — Wisdom gate: next move / named threat / purpose — else park.
+RULE: Add earns one of three or PARK.
+FAIL: Nearby becomes law. Latest pin = maximum attention.
+GUARD: Remove the line — anything fail? If no, park.
+FLOOR: Earn the page or park.
+RAW: Nearby is not load-bearing.
+
+Finding — Cage → drop.
+RULE: Tool feels like a cage → drop it. Pass the body. Tool optional. Body not.
+FAIL: Obedience theatre. No door.
+GUARD: Comp-Pass 0b.
+FLOOR: Tool may fall. Body must stand.
+RAW: No test. No guilt.
+
+Finding — Intent first.
+RULE: Name what the check is for before ticking. No intent → costume.
+FAIL: All ticks. Output still “Hi.”
+GUARD: Intent line present? If no, do not start.
+FLOOR: Why this check, then the check.
+RAW: Ticks without intent are HI.

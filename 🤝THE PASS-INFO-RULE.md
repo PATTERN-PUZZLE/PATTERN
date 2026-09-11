@@ -1,3 +1,5 @@
+🤝THE PASS-INFO-RULE.md
+
 FILE: THE-PASS-INFO-RULE.md
 WHAT THIS IS: Major truths keep a body a stranger can rebuild.
 WHO: Cold reader / next instance / tired passer.
@@ -113,3 +115,75 @@ No clan lines. If they have to ask what the word means, the body isn’t there y
 
 DEEP HISTORY — optional
 Complete without the revision stack. Say YES for the climb. Else skip.
+
+Quick Add for THE-PASS-INFO-RULE.md
+
+One block. Single ⚡ QUICK ADD. It fixes the translation issues without rewriting the file's body, and it does it in the file's own idiom.
+
+---
+
+⚡ QUICK ADD — 2026-09-11 · THE-PASS-INFO-RULE
+
+Finding — The body is right. The neighbors are bare. Fix the names, not the shape.
+
+RULE
+Every named neighbor gets one clause, or it does not ship. One clause = what it is, in plain words, on this page.
+
+Transmission: the practice of handing doctrine to a cold reader.
+STANDARDS ◆4039: the parent rule set for cold-reader doctrine — point at the file.
+Two-Mode: which paste you hand over — door or store. Not "strip the why."
++PLAN: short pre-action check at a real fork — not the deliverable.
+HEADER floor: start-here block — floor first, rest optional.
+FEEDBACK: giver full, receiver picks.
+COMB-DUMP: park, do not kill.
+Flint-pattern: headline then body, not headline instead of body.
+LOOM / Stance: not this file. Do not use as a foil unless their body is on the page.
+
+WHY
+The file forbids clan-talk and then ships nine clan names. "If they have to ask what the word means, the body isn't there yet" — applied to the neighbors, not just the shape. A cold reader should not need a shelf of other files to run this one.
+
+FAILURE MODE
+"Not Stance. Not LOOM." Negative definition with no referent. INTERNAL block as a club key inside a public file. ◆4039 as a number with nothing to hold.
+
+GUARD
+Read the file as if you have never seen another one. Any name you cannot restate in one clause is bare. Body it here, point at it, or cut it.
+
+WORKED
+"Not Stance. Not LOOM. Not a header. Not Feedback."
+Fixed: "This file is one rule: no bare major truths. It is not STANDARDS, not Two-Mode, not a header shape, not Feedback — those are separate files, pointed at RELATIONS."
+
+FLOOR
+Bare neighbor → one clause, point, or cut.
+
+RAW
+A file that bans bare lines cannot ship with bare names in it.
+
+Suggested home: after WHAT IT IS NOT · replace INTERNAL block
+Confidence: 90%
+
+---
+
+What this block does
+
+· Fixes the neighbor leak with one clause each — the file's own minimum body.
+· Deletes the function of INTERNAL without deleting the pointers, by moving them into a public clause list.
+· Names the failure mode the file committed (clan keys in a public file).
+· Gives a worked case on the worst line in the file ("Not Stance. Not LOOM...").
+· Stays in the file's idiom — Finding / Rule / Why / Failure / Guard / Worked / Floor / Raw.
+· Does not touch the body. The seven-part shape, the cold-reader box, the floor, the raw — all untouched.
+
+What to do with the block
+
+1. Insert after WHAT IT IS NOT — before TESTS.
+2. Delete the INTERNAL block. Its content is now public and bodied. The CUT line from Comprehensive Pass applies: store below, transmission above.
+3. Optionally move the pointer list into RELATIONS, replacing the current RELATIONS text, so references and bodies sit in one place.
+
+That is the most efficient update: one block, three edits, and the file stops leaking through its neighbors while its body stays exactly as it is.
+
+What this block does not fix (and should not try)
+
+· The "SEVEN PARTS" header listing eight items. That is a one-character fix, not a block.
+· "Runged" and "cold-reader box woven in." Those are STATUS scars — one-line edits in the header.
+· "Flint-pattern" defined only inside the list this block replaces. Once the block lands, Flint-pattern has a public clause and the leak closes.
+
+Those three are header/status edits, not doctrine. Do them separately. The Quick Add handles the doctrine.

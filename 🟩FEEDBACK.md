@@ -627,3 +627,33 @@ SUGGESTED RUNS (pick one, not all)
 THEN STOP
 Isolated block if it held. Don’t open TIES / Stance / a 22-part climb to “do Test properly.”
 Don’t Test instead of the named job.
+
+⚡️## QUICK ADDS — FEEDBACK  2026-09-11
+
+Finding — Giver gives full. Receiver picks.
+RULE: Do not cap the giver. Receiver is the filter. Receiver may leave. No test. No guilt.
+FAIL: Slogan “to keep it light.” Or museum forced down the throat.
+GUARD: Held back a why “to be brief”? Cap. Body or store. Let them pick.
+FLOOR: Giver full. Receiver picks.
+RAW: Don’t cap the giver. Don’t force the receiver.
+
+Finding — Feedback only counts if it changes the next move.
+RULE: No change to Search/Paste/Verify/KEEP/COMB/refuse → decoration. Write the change or park.
+FAIL: 22-point review. Same door.
+GUARD: Name the next move it changed. Cannot → not feedback yet.
+FLOOR: Change the next move or park.
+RAW: Unacted feedback is a museum.
+
+Finding — Never paste Feedback into a header.
+RULE: Headers stay tiny (or large-for-jumble). Loops live here. Point.
+FAIL: Every file opens with a counsel session.
+GUARD: Required to know what the file is and how to start? If no, not header.
+FLOOR: Point. Don’t embed.
+RAW: Header is a door, not a lounge.
+
+Finding — Reception marks are the light form.
+RULE: Confirmed / revised / flagged / provisional. Not a feedback novel.
+FAIL: Every comment becomes a section. Or guesses travel as law.
+GUARD: Sighted in a live file? If no, cannot confirm.
+FLOOR: Mark the reception. Don’t write the lounge.
+RAW: Light marks beat a pasted loop.

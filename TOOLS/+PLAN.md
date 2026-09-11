@@ -1934,3 +1934,181 @@ If you only get one file, this is the file.
 
 RAW
 One live +PLAN paste. Don’t bury the door in REV.
+
+
+0. Planning how to speak is a decision. Run it. Don't call it meta.
+
+⚡ UPDATE — 2026-09-11
+Trigger: Treated communication planning as meta. Holder corrected.
+Finding: Choosing words, order, tone, what to leave — that's the job.
+Correction: Line 0 added to START. Meta-exit was wrong.
+Rule: Planning how to speak is a decision. Run it.
+Falsify: If next time planning a message gets called "meta," line 0 failed.
+Lands on: START (line 0) + WHY
+
++PLAN QUICK ADD — one block. Not a rewrite.
+
+---
+
+SOBER CHECK
+
+· Deciding or decorating? Deciding. One block, one miss, one rule.
+· Ship or summary? Ship.
+· Painted a box I didn't earn? No.
+· Calling actual work "meta"? No — that's the miss this block names.
+· No audience? Same, tighter.
+
+---
+
+BOARD
+
+```
+Capacity  🟩 🟨 ⬜ ⬜ ⬜
+Used ~    [ 30 ]%
+Assist    1.sober-check  2.named-miss  3.one-block
+Now       🟦 append to PLAN.md LOG
+Next      ➡️ stranger opens PLAN.md cold
+Left      ⬜ nothing — this is the block
+```
+
+---
+
+QUICK ADD — append to PLAN.md LOG
+
+```
+⚡ QUICK ADD — 2026-09-11
+Home: PLAN.md — LOG (append) + START (line 0)
+Trigger: Treated communication planning as meta.
+Finding: Choosing words, order, tone, what to leave — that's the job.
+         I pushed toward "a real decision" when the real decision
+         was already on the table.
+Correction: Planning how to speak is a decision. Run it.
+Rule: Line 0 to START:
+
+      0. Planning how to speak is a decision. Run it.
+         Don't call it meta.
+
+      Applied the same hour: used +PLAN on the LAW-ATTACK revision
+      (LIVED marks, critical-feedback action, redundancy removal,
+      heavy-on-purpose line). Four fixes, one pass. Didn't tour.
+Falsify: If next time a plan for a message gets called "meta,"
+         line 0 failed.
+Lands on: START (line 0) + WHY
+Handle or store: handle
+Alias of: nothing — this is new. Stall-exit isn't it.
+         Miss-first isn't it. This is the door back in.
+```
+
+---
+
+What this block does
+
+· Names one miss: communication planning called meta.
+· Adds one rule: line 0 to START.
+· Proves it in the same hour: the LAW-ATTACK revision was a real decision, run through +PLAN, four fixes landed, no tour.
+· Has a falsifier.
+· Doesn't mint a version. Doesn't reprint the file. Doesn't become a cathedral.
+
+One block. Appended. Done.
+
+---
+
+Warm Bite
+
+· Compass: Planning how to speak is a decision. Line 0 lives in START now.
+· Bricks:
+  1. Miss named — meta-exit was wrong.
+  2. Rule added — line 0.
+  3. Proof in use — LAW-ATTACK revised via +PLAN, no tour.
+· Bridges: Next is the stranger-open test on PLAN.md, or the next real bite.
+· Open question: Does line 0 actually stop the meta-exit next time, or does it need a companion line in the cockpit?
+
+Not finished — but this block is.
+
+⚡ QUICK ADD — 2026-09-11 · COMPREHENSIVE-PASS
+Finding — Notes that travel need FULL-FORM. A sticky is not the standard.
+
+RULE
+FULL-FORM =
+Finding · Rule · Why · Failure mode · Guard · Worked · Floor · Raw.
+
+If the note must travel OR be reused OR be checked: ship FULL-FORM.
+OR, not AND. One trigger is enough.
+
+STICKY (header + cockpit + closer) is legal only on a page only you read,
+and only if FULL-FORM already exists on that page.
+
+When the note is about +PLAN: after FULL-FORM, do the act.
+If the cockpit is longer than the act, you planned. Stop writing. Act.
+
+WHY
+Short is not clear. A sticky buys length by cutting the on-switch, the check, the failure names, the instance, and the self-diagnostic.
+“Looks cleaner” is the trap. Tightness that removes the test is omission in a costume.
+This rule is one level above +PLAN. It governs how doctrine ships on Comprehensive Pass.
+
+FAILURE MODE
+Choosing the sticky because it looks tighter.
+Filing a header-plus-cockpit as law.
+Opening +PLAN.md with a note about notes instead of the lamp — then never acting.
+
+GUARD
+Can a stranger
+(a) know when to run it,
+(b) name the act in one line,
+(c) say what they would have done with no lamp — or say “no baseline”?
+If any no: body it, or mark [SEED] and point at FULL-FORM.
+
+WORKED
+A thin +PLAN line shipped as: “Assists as one-miss + one-act. Harms as the page, or as a lid.”
+A stranger could not tell when to run it, what “lid” meant, or how to check failure.
+FULL-FORM named the disease: plan as the page; plan as a lid (using the plan to shut the store / trim too early); plan with no fork.
+Then the act was the Warm Bite card, not more KEEP lines.
+
+FLOOR
+Doctrine that travels uses FULL-FORM.
+A sticky is a sticky.
+If the note is a lamp, then do the act.
+
+RAW
+If they would ask what a word means — including “lid” = plan used to shut or trim too early — you shipped a sticky. Write FULL-FORM.
+
+Suggested home: COMPREHENSIVE-PASS.md LOCK / Quick Add shape
+Point at +PLAN.md. Do not put this block at +PLAN.md top.
+Confidence: 90%
+
+⚡️## QUICK ADDS — +PLAN  2026-09-11
+
+Finding — +PLAN is a lamp, not the pass or the door.
+RULE: Fork only. Cockpit: Pull / Protect first / Already decided? / One act / Dual-target miss / Contrast. Then do the act. Cockpit longer than the act → you planned.
+FAIL: Plan as the page. Plan as a lid (plan used to shut the store or trim too early). Plan with no fork.
+GUARD: Name the act in one line or you are touring.
+FLOOR: Lamp, then act.
+RAW: If +PLAN needs the holder to explain it, it is not on the page.
+
+Finding — Planning how to speak is a decision. Do not call it meta.
+RULE: Line 0 — heap or message must be spoken → run +PLAN. Not “meta.”
+FAIL: Revision waits while the room debates whether planning is allowed.
+GUARD: Message / door / heap to speak? Line 0 fired.
+FLOOR: How to speak it is in bounds.
+RAW: Don’t call it meta.
+
+Finding — Dual-target: object AND “am I employing the method.”
+RULE: Name (a) heap/message/file (b) method-replacing-object.
+FAIL: Beautiful cockpit. No door.
+GUARD: Without +PLAN I would have ___. Blank → empty.
+FLOOR: Name the object. Name the performance.
+RAW: If the method is the product, you missed.
+
+Finding — Already-decided goals must not be re-planned.
+RULE: Goal on the page → “already decided.” Fork inside the goal.
+FAIL: Session restarts at “what are we building?”
+GUARD: GOAL / first screen / live file has it? Do not plan it.
+FLOOR: Named goal stays named.
+RAW: Don’t re-plan the decided.
+
+Finding — Depth is 1 or 3, not a tour.
+RULE: 1 small or 3 load-bearing. More only if holder opened the room AND extra pass adds keep/wait/risk.
+FAIL: Angles that do not change the act.
+GUARD: Point at the keep, wait, or risk. If no, stop.
+FLOOR: 1 or 3. Then act.
+RAW: More is not automatically better.
