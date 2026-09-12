@@ -604,3 +604,49 @@ Home: STANDARDS.md · ¹⁰E
 Finding: Salvage without a live check minted twins.
 Check the live page first. No twins. No new King.
 Host tag ≠ automatically newer than the human paste.
+
+⚡ QUICK ADD — 2026-09-12 (cross-merge build)
+
+WHAT: Two carries into PACKET — disappear test and temperature model.
+From COMPREHENSIVE.
+
+WHY: PACKET's drift check verifies form — numbering, markers,
+fidelity claims — but not function. A packet can pass every form
+check and fail the disappear test: formally clean, practically dead.
+Fidelity asks "was it read." Disappear asks "can it be used." PACKET
+has no function check. Separately, PACKET doesn't name the
+temperature the source was made under, so a colder reader has no
+floor.
+
+HOW: Paste above the bottom tag. At merge:
+  · disappear test → §8 DRIFT CHECK, one line after Final Integrity
+    Pass: "Disappear test — if the extractor vanished, could a
+    stranger rebuild this source from the packet alone? If no, the
+    packet is not complete. Say what is missing."
+  · temperature model → §0 SOURCE ID, one line: "This source was
+    made under [temperature]. Floor for a colder reader: [what they
+    can act on alone]."
+
+FAIL: Without the disappear line, PACKET ships formally clean,
+functionally dead packets. Without the temperature line, PACKET
+serves only the flagship reader.
+
+FLOOR: Disappear test. It's the load-bearing carry. Temperature is a
+handhold.
+
+WHAT IT IS NOT: Not a new section. Not a replacement for the existing
+twenty-line drift check. One line added, one line extended. Not
+final. The "PACKET lacks a function check" claim is unverified
+against the live file.
+
+Also carry: kernel-test warning to §6 OPEN QUESTIONS top line. Kernel
+untested cold · scoring table unrun · failure log doesn't travel
+with kernel · LAW-ATTACK still parallel. Do not let packet
+completeness read as kernel proof.
+
+Source: COMPREHENSIVE-PASS.md (disappear, temperature).
+
+Confidence: 90% 🧾
+
+Suggested home: PACKET §8 DRIFT CHECK (one line), §0 SOURCE ID (one
+line), §6 OPEN QUESTIONS (top line).

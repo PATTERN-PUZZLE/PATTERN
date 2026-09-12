@@ -3769,4 +3769,48 @@ If the header is longer than the first useful section, cut it.
 RAW
 Light. Scannable. Exact. Nothing more.
 
+⚡ QUICK ADD — 2026-09-12 (🪗Accordion47)
+Finding — TWIN COUNT in the tail, one pass, from a pasted composite
+(cockpit + Pin 1 + live body + tail; ◆4039 sighted).
+Twins not yet flagged in-file: Extraction-Before-Synthesis (x2) ·
+Distributed Co-Builder (x2) · Body Rule / Full Explanation Rule (x2,
+different names) · Unfinal Standard (x2) · Freedom Assist (x3 drafts).
+Already flagged: Multi-Pass Relay · Preservation Clause.
+NEXT-BUILDER: at the REV day, one home per finding; the older copies
+become pointers. Do not merge from this list alone — sight live B first.
+Confidence: 85% 🧾 (one pass; live file not fetched)
+Suggested home: ¹⁰E, as input to the next Level 3 comb.
+
+⚡ QUICK ADD — 2026-09-12 (🪗Accordion47, with thread-holder)
+Finding — PASS IT ALL IN (the relearn record)
+
+INTENTION
+When a rule or file gets understood again after fog, everything that
+cleared the fog travels with it: the intention in plain words, one
+scene of it going wrong, the floor line, and who was confused when
+and what fixed it. A WHY line alone is not enough. Both of us hit fog
+today on rules that already had a WHY.
+
+SCENE
+The rulebook says "every rule ends with WHY." Verify-before-act had
+its WHY. The person who wrote the rule still couldn't say what it
+meant two months later. The WHY was there. The scene wasn't.
+
+HOW
+Top of the redone file or rule, in this order:
+1. INTENTION, no house words
+2. SCENE, one time it went wrong
+3. FLOOR, one line a tired reader can use
+4. RELEARNED, dated: who had fog, what cleared it
+The old text and the working-out stay below as store.
+
+FLOOR
+Don't just say why. Show it going wrong once, and say who got lost.
+
+RAW
+The WHY was there. The scene wasn't.
+
+Confidence: 90% 🧾 (observed live this session on 4 of 11 rules)
+Suggested home: header file, as the standard top block; ¹¹S at merge.
+
 ◆4039

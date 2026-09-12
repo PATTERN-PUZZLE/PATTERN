@@ -789,3 +789,66 @@ Home: STANDARDS.md · ¹⁰E
 Finding: Salvage without a live check minted twins.
 Check the live page first. No twins. No new King.
 Host tag ≠ automatically newer than the human paste.
+
+⚡ QUICK ADD — 2026-09-12 (cross-merge build)
+
+WHAT: Four carries into REVIVE — temperature model, disappear test,
+source-type gate, compressed drift check. From COMPREHENSIVE and
+PACKET.
+
+WHY: REVIVE assumes a reader who reads the whole climb. It carries
+self-application but no drift audit. It assumes chat. It has no
+disappear gate. Each missing piece causes a named failure:
+
+  (1) Temperature model — flagship / chatbot-default / drunk. A
+      drunk reader who opens the packet and finds only the full
+      climb leaves with nothing.
+
+  (2) Disappear test — "if the extractor vanished, could a stranger
+      rebuild this source from the packet alone?" REVIVE's "is the
+      context map passing the climb" is softer. The binary is the
+      gate.
+
+  (3) Source-type gate — if source is a file, defer to PACKET. If
+      chat, proceed. Without it, REVIVE builds a chat-shaped packet
+      around a file source and produces party markers on content
+      that has no parties.
+
+  (4) Compressed drift check — seven yes/no checks before PACKET
+      COMPLETE: (a) user messages still primary? (b) any context-map
+      line invented a reason the source doesn't evidence? (c) do
+      advances outnumber user messages? (d) any raw item trimmed
+      without [trimmed]/[excerpt]? (e) after merges, R-numbers
+      contiguous, no ghosts? (f) cold start points at right rungs,
+      or the most recent? (g) reset instance could act from §6
+      alone? Any no → fix.
+
+HOW: Paste above the bottom tag. At merge, the merge pass places each
+into its named home:
+  · temperature model → top of Cold Start, above R01–R05 pointers,
+    as calibration
+  · disappear test → §7 PAGE STATUS, before PACKET COMPLETE
+  · source-type gate → §0 SOURCE SNAPSHOT, one line
+  · drift check → new section, placement at merge
+
+FAIL: Without this block, REVIVE keeps its chat-shape, never asks the
+binary, never audits drift, and loses the drunk reader.
+
+FLOOR: Disappear test and drift check. Those two carry the load. The
+temperature model and source-type gate are handholds.
+
+WHAT IT IS NOT: Not a replacement for REVIVE's feedback prompt. Not a
+new self-application section — the drift check is a pre-complete
+audit, not a self-score. Not final. The findings are unverified
+against the live file.
+
+Also carry: the kernel-test warning stays in REVIVE Open Threads
+until the kernel is tested cold. Not part of this block; a standing
+open thread.
+
+Source: COMPREHENSIVE-PASS.md (temperature, disappear, ladder);
+PROMPT-CHATS-PACKET.md (source-type gate, drift check).
+
+Confidence: 90% 🧾
+
+Suggested home: REVIVE. Placement per item above. All at merge.

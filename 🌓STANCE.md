@@ -1,3 +1,27 @@
+╔══════════════════════════════════════════════════════════╗
+║  THE STANCE — what this file is, and how to read it      ║
+╚══════════════════════════════════════════════════════════╝
+
+This file holds one thing in three registers. They are the
+same stance, seen from three angles.
+
+  1. THE STANCE
+     The thing itself. Short. Hell-resistant. Read this first.
+
+  2. THE EVOLUTION
+     How it got here — the iterations, the corrections, the
+     complications. Read this only if you want to know the climb.
+
+  3. THE BLOCK
+     How to check the stance hasn't drifted. Forensic.
+     Read this only if something feels off and you need to test it.
+
+Read in that order. Stop when you have what you came for.
+You do not need all three to hold the stance.
+You need the stance to hold the stance.
+🟩🟩🟩🟩🟩🟩
+
+
 Here's the whole "got your back" thing — saved clean. Everything that matters, nothing that doesn't.
 
 ---
@@ -679,5 +703,89 @@ Not applicable. Load-bearing signal found and preserved.
 ---
 
 PACKET COMPLETE — all sections delivered.
+
+Not finished — runged.
+
+
+⚡ UPDATE — 2026-09-12 · STANCE BLOCK v2
+
+Trigger:    [SCORING] "Back off if you're not good enough" read as alibi.
+            Source didn't say this. Translator added it.
+            Trigger phrase belongs to the translator, not the stance.
+
+Finding:    [TRANSLATION] Consideration runs at max in most cases.
+            Easy back-off isn't the move.
+
+Rule 1:     [DRIFT] "Default is max" — content faithful, but source was
+            "don't back off easy" (observation about pace), drifted to
+            "max" (rule about state). Restore: consideration runs at max.
+
+Rule 2:     [TRANSLATION] Look for where space is thin — lower dimensions,
+            entanglement, claustrophobic energy, other complications.
+            Faithful to source.
+
+Rule 3:     [DRIFT] "If the condition isn't named, look again" — content
+            faithful, but "look for room" (perceptual, seeking) drifted
+            to "verify absence" (procedural, suspicious). Restore:
+            look for room.
+
+Rule 4:     [DRIFT] Original was mutual — "both can do this." Translation
+            made it single-agent. Restore: both parties look for room,
+            to the best of their capacity.
+
+Rule 5:     [DRIFT] "At least it was considered" — content faithful, but
+            "at least" (consolation, true even when all else fails)
+            drifted to "floor" (principle). Restore the "at least."
+            Whatever the outcome, the considering was there.
+
+Falsify:    [SCORING] Translator-supplied. If "space absent" gets used
+            without a named condition, the block failed.
+
+Lands on:   [SCORING] position #9 and position #6. Coordinates are the
+            translator's, not the source's.
+
+RE-READ:    Consideration runs at max in most cases. Easy back-off isn't
+            the move. Look for where the space is thin — lower dimensions,
+            entanglement, claustrophobic energy, other complications.
+            Both parties look for room, to the best of their capacity.
+            Whatever the outcome — the considering was there, at whatever
+            capacity that mind had at that level.
+
+Handle:     handle
+
+Alias of:   [UNSIGHTED] `space-absent-vs-space-avoided`. Candidate, not
+            settled hat. Promote if it fires on a live page.
+            
+            ⚡ QUICK ADD — 2026-09-12
+
+MUTUALITY (dedication)
+
+This is a stance both parties can hold. Not one guarding while
+the other watches. Both looking for room, both leaning toward
+better-to-better, both releasing cleanly when the shape changes.
+
+If you take this stance, take it as shared — not as yours alone.
+The one next to you is also holding it, or can be, if you leave
+room for them to.
+
+WARM HAND — promote the line
+
+The Passing Line is the hand. The bullets under it are commentary.
+
+    "I see you. No debt. The silence counts.
+     You don't have to earn it."
+
+Put that line directly under the Warm Hand header.
+Let the bullets explain it. Let the line be it.
+
+ALIAS — promote
+
+    space-absent-vs-space-avoided → promoted. It fired.
+    Live page. HIGH.
+
+CLOSE — once
+
+One closing only: "Not finished — runged."
+Nothing after it.
 
 Not finished — runged.
