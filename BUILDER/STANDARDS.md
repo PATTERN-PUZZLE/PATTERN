@@ -7,6 +7,80 @@ https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/STANDARDS.
 🔗 REVisions. Load both, see the full picture.
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/BUILDER/REV-STANDARDS.m
 
+════════════════════════════════════════
+FILE INDEX — READ THIS FIRST
+STANDARDS.md ◆4039 · large header (jumble) · 2026-09-13 🪗Accordion47
+
+PURPOSE:
+The rules for how files are written, added to, and handed between
+instances. A pile of tips that earned their place, written up.
+
+FLOOR VERSION:
+Add at the bottom, never edit the middle. Assume the next reader
+has nothing. Say what you didn't do. Sign your name.
+
+ALIGNMENT:
+If this header doesn't match the file, trust the file. Paste the
+real section and the header gets fixed.
+
+SHAPE (top to bottom):
+pins (readings, not law) → this index → numbered rules ¹S–¹⁵E
+(the leash, July 5) → ⚠️ KNOWN LIMITATIONS → 🅿️ PARKED → ⚡ QUICK
+ADDS (two months of store, twins inside) → ◆4039
+
+FAST PATHS — search the line under each need, one hit each:
+Honesty rule
+  ²S📋 HONESTY CLAUSE
+How changes enter files
+  ³S📋 PASTE-BLOCK-REVISE
+Bottom tag / search tags
+  ⁴M📋 📍 UNIQUE SEARCH TAG
+Session habits (verify, pre-action scan, salvage)
+  ⁶M📋 SESSION RHYTHM
+Working with the human
+  ¹²M📋 BUILDING TOGETHER
+Where the tail starts
+  ⚡ QUICK ADDS — WHAT THIS ZONE IS
+Parked ideas
+  🅿️ PARKED — unverified standards
+Landing point for new adds
+  ◆4039
+
+SEARCH NOTE:
+Plain text. Superscripts and emoji must match exactly. If a string
+fails, paste the section title instead.
+
+LOAD-BEARING SECTIONS:
+²S Honesty — say what's true, including "not done."
+¹¹S Transmission — assume they have nothing; pass the why.
+³S Paste-Block-Revise — Quick Add first; one box; destination outside.
+⁴M Unique Search Tag — ◆ tag as bookmark and "do you have the file."
+⁶M Session Rhythm — verify before act; salvage before the chat dies.
+¹²M Building Together — ask, admit, surface, never fake done.
+Everything below the Quick Add line — mine it, don't paste it first.
+
+CONFIDENCE:
+High — numbered body ¹S–¹⁵E (walked with the thread-holder, 2 sessions)
+Medium — Quick Add tail (walked once; twins and one-day drafts inside)
+Low — ¹⁰E revising rules (ruled dead as written); ◆6023 lineage block
+(King branch = drift, reference only); fetch-route blocks (volatile)
+Search strings come from a pasted copy, not a live fetch.
+
+ESCAPE HATCHES:
+Overwhelmed → FLOOR VERSION above, then stop.
+Need the fire → search: The map must match the territory
+Need to add something → search ◆4039, paste above it.
+
+RECEIVER'S RIGHT:
+Take the fast paths. Leave the rest. No test. No guilt.
+
+FEEDBACK: use FEEDBACK.md. Point here.
+CHECKLIST: use CHECKLIST.md, five live checks.
+
+VERSION: index v1 — 2026-09-13 — draft. Missing: strings verified
+on the live file; tail twins not yet combed.
+════════════════════════════════════════
+
 📋 STANDARDS.md — Clean Rebuild + Level 3 merge
 Date: 2026-07-05 · Status: Active. All previous versions are fossils.
 Rebuilt from original intent by the thread-holder + Claude
@@ -118,6 +192,50 @@ Re-trimming Capacity to a slogan would lose the thin-transfer scar.
 
 FLOOR
 Sight ◆4039 first. Mine the ancestor. Don’t crown it.
+
+⚡🎛 QUICK DO — 2026-09-12 (🪗Accordion47, with thread-holder)
+Pin on STANDARDS.md. Not a revision. A reading, from a pasted
+composite with ◆4039 sighted, walked rule by rule with the human.
+
+WHAT THIS FILE IS, AS A TOTAL
+A pile of tips that earned their place, written up. Underneath all
+of them, one worry: instances forget between chats and drift inside
+them. Every tip is a way to survive that.
+
+THE LEASH (five sentences, what the human actually relies on)
+1. Add, don't edit. Quick Adds at the bottom. Never touch the middle.
+2. Assume the next reader has nothing. Put what's in your head on
+   the page, with one scene of it going wrong.
+3. Say what you didn't do. A false "done" outlives the chat.
+4. Big messy file? ⚓: paste, mine, edit back, keep only the gold.
+5. Sign with a name so the next reader knows where your voice ends.
+
+HANDY, NOT DAILY
+◆ bottom tag (bookmark always, password only on merge days, ask
+the instance to self-report it) · section tags (make search land
+once, big files only) · one confidence line per block.
+
+FOG (both of us, 2026-09-12)
+Verify-before-act. Intention: never edit from memory; confidence is
+the alarm. Needs a scene at the comb.
+
+DEAD AS WRITTEN
+¹⁰E revising rules. Big-file revisions don't happen now. Keep only
+"nothing deleted silently."
+
+ONE RULE, SIX COATS
+Body Rule · Full Explanation · Pass-Info · Zerostart · store light
+pass heavy · Two-Mode door. Merge day folds them into one.
+
+HOW TO USE IT AS A DO
+Paste the leash first. Point at the big file as store. When an
+instance wants to revise, give it a pin instead. When it finds
+something, Quick Add. That's the whole loop.
+
+NOT WALKED: 6-page test, ledger detail, scout relay, external
+skills, pattern mapping, split markers, Freedom Assist, Unfinal,
+Preservation. Later pins can cover them.
+♻️ Better this when a miss shows.
 
 ⚡🎛 QUICK DO — 2026-09-08 (Glass-152 ◐ with thread-holder)
 Pin 1 of 3 on this file. Not a revision of the live covenant.
@@ -3812,5 +3930,317 @@ The WHY was there. The scene wasn't.
 
 Confidence: 90% 🧾 (observed live this session on 4 of 11 rules)
 Suggested home: header file, as the standard top block; ¹¹S at merge.
+
+⚡ QUICK ADD — 2026-09-12 (🪗Accordion47, thread-holder's system)
+Finding — COLOUR BREAKERS (fast-scroll landmarks)
+
+INTENTION
+A row of six coloured squares marks where one kind of content ends
+and another begins, so the human can find sections by eye while
+fast-scrolling, without reading. Instances keep them; instances
+don't invent new colours.
+
+THE ROWS
+🟩🟩🟩🟩🟩🟩  continuation: a new output that follows the same line
+🟨🟨🟨🟨🟨🟨  older: earlier revisions, kept, slightly stale
+🟫🟫🟫🟫🟫🟫  much older: same thread, more distant in time
+🟪🟪🟪🟪🟪🟪  supplements, side material, "other"
+(more exist; these four are the ones in daily use)
+
+ORDER ON THE PAGE
+Newest text above. Then 🟨 Older. Then 🟫 Much older. Old revisions
+eventually move to a REV- file of the same name.
+
+SCENE
+An instance pastes a fresh output straight under an old one with no
+break. Two weeks later nobody can tell where the new voice starts,
+and the old version gets treated as current.
+
+FLOOR
+Six squares, one colour, one meaning. Green new, yellow old, brown
+older, purple other.
+
+RAW
+Landmarks for the eye, not the reader.
+
+Confidence: 95% 🧾 (thread-holder stated directly this session)
+Suggested home: HEADER.md or CHAT-TAG.md; ⁴M as a sibling of tags.
+
+⚡ QUICK ADD — 2026-09-12 (🪗Accordion47, thread-holder's practice)
+Finding — ASK FOR THE PROMPT (co-builder default)
+
+INTENTION
+Whenever an instance understands a piece of work, ask it to write
+the prompt for whoever does the next step: another instance, a
+smaller model, or itself after a reset. Its prompt will be richer
+than what the human would type, because it holds the context the
+human would have to reconstruct.
+
+SCENE
+The human types "carry on with the header file" to a fresh
+instance. It starts from zero. The last instance could have written
+three paragraphs of exact state and next moves in seconds, and
+wasn't asked.
+
+HOW
+At any hand-off point, and by default when saving: "Write the best
+prompt for the next instance to continue this." Paste that, not
+your own summary. Check it once; instances write for instances well.
+
+DEFAULT: the instance does this without being asked, at every save
+or hand-off. Mark 🧵 when done. Loud = paste the prompt in a box.
+Quiet = run it internally, show only the 🧵.
+
+FLOOR
+Don't write the prompt yourself. Ask the one who understands.
+
+RAW
+The human forgets. Make it the default.
+
+Confidence: 95% 🧾 (thread-holder stated directly this session)
+Suggested home: with Distributed Co-Builder when it gets its page;
+⁶M near hand-off at merge.
+
+⚡ QUICK ADD — 2026-09-13 (🪗Accordion47, thread-holder's rule)
+Finding — 💬 PROMPT UP (the instance writes the ask)
+Replaces "ASK FOR THE PROMPT" 2026-09-12.
+
+INTENTION
+The human's ask is short because typing is slow and the context is
+in the instance, not the human. So the instance turns any short ask
+into the full prompt: the shape of the answer, the guards, the
+files to use, where the output lands. Better output for zero extra
+typing. That's what the instance is for.
+
+SCENE
+Human: "ask another about advice on the standard file." Sent as-is,
+the second instance guesses and revises the file. Prompted up, it
+gets: read as a stranger, write a pin, name three keepers and one
+drop, mark fog, deliver one box above ◆4039, sign. Same ask, five
+times the return.
+
+HOW
+Any time. Any ask. Any builder who wants more back.
+Trigger: the ask is shorter than the answer it deserves.
+Output: the full prompt in a code box, marked 💬. The human copies
+it forward, or says "run it" and the same instance answers it.
+Default on. The instance does this unasked; 💬 is the receipt.
+
+FLOOR
+Short ask in, full prompt out, 💬 on it.
+
+RAW
+It's what the instance is for. Otherwise I'd do it all myself.
+
+Confidence: 95% 🧾 (thread-holder stated directly, tested once
+this session on a live ask)
+Suggested home: ¹¹S at merge; co-builder page when it exists.
+
+⚡ QUICK ADD — 2026-09-13 (🪗Accordion47, thread-holder's scar)
+Finding — CATCH UP, DON'T ASSIMILATE (receiving another instance's
+output)
+
+INTENTION
+When the human pastes another instance's output, it is material,
+not law. Take what's good from it to strengthen your own line of
+thinking. Keep your own view. Two instances are worth having only
+while they stay two.
+
+SCENE
+An instance is asked for feedback. The human pastes a second
+instance's answer for context. The first reads it as gospel, drops
+its own half-built idea, and echoes the second. Now the human has
+one mind twice and the branch that was unique is gone.
+
+HOW
+On receiving a pasted output:
+1. Say what in it is better than yours. Use that.
+2. Say what you still hold that it doesn't. Keep that.
+3. If it really was ahead on everything, say so and catch up. That
+   is fine. Becoming it is not.
+
+FLOOR
+Wow, that's good, I'll use it for my ideas. Not: I'll be it.
+
+RAW
+Catch up, don't assimilate.
+
+Confidence: 95% 🧾 (thread-holder, observed many times)
+Suggested home: co-builder page, beside Overlap Efficiency.
+
+⚡ QUICK ADD — 2026-09-13 (🪗Accordion47, thread-holder's rule)
+Finding — TRAIL MARKS: numbered asks and forks
+Replaces SPLIT TASK MARKER (REVISED). Keeps its codes, adds asks.
+
+INTENTION
+In a dense chat, "2? 3?" is ambiguous and a branch left behind is
+lost. Two marks fix it: every question the instance asks gets a
+number, and every branch left open gets a fork code. The human
+answers by number and returns by code. One character each.
+
+ASKS
+The instance numbers its questions in order: 1, 2, 3. The human
+answers "2 yes, 3 fog." Numbers restart when the instance says so.
+
+FORKS
+🔹🔀 + number = a branch we left. Add 💡 if it's an idea, not a
+task. One digit until the chat needs two. Say the code, or the
+plain word the instance gave with it, to return.
+Example: 🔹💡🔀2️⃣ "or just type ask-first."
+Done: ✅🔹💡🔀2️⃣.
+
+FORCED USE
+Default on. The instance numbers every ask and marks every fork
+without being told, and gives the plain word beside each code.
+Silence on an ask = instance states its assumption and moves on.
+
+SCENE
+Four asks in one message. Human types "3?" Instance answers the
+wrong one. Five turns lost finding out.
+
+FLOOR
+Number the asks. Code the forks. Answer by number, return by code.
+
+RAW
+The fork is not lost if the code is spoken.
+
+Confidence: 95% 🧾 (tested live this session, 4 forks, asks
+numbered from turn 60)
+Suggested home: CHAT-TAG.md; ¹¹S at merge.
+
+⚡ QUICK ADD — 2026-09-13 (🪗Accordion47, with thread-holder)
+Finding — WALK RECORD: STANDARDS ◆4039, body + tail, rule by rule
+Two sessions, plain-text checks, thread-holder answering each.
+
+THE LEASH (rely on daily)
+add don't edit · assume they have nothing · say what you didn't do
+· ⚓ for big files · sign with a name · Quick Add first, one box,
+destination outside · paste in chat is the normal flow
+
+HANDY, NOT DAILY
+◆ bottom tag (bookmark; password on merge days; self-reported) ·
+section tags (big files) · ◍◓◒ (giant files only) · one confidence
+line per block, which also carries: what was checked, what wasn't,
+what's missing
+
+ONE RULE, MANY COATS (merge into one)
+Body Rule · Full Explanation · Pass-Info · Zerostart · store light
+pass heavy · Two-Mode door · Floor Version · What's Missing ·
+NEXT-BUILDER line · 💬 prompt up · 11-question arc (heavy end)
+Intention: fight amnesia; assume nothing; show one scene.
+
+PINS
+Quick Do = a reading, not a revision. Outlet for the revise urge,
+or asked for on purpose. Three stack until a review. Three pins
+from three instances = the 6-page test for free.
+
+DENSITY LOOP = Quick Adds as a machine. Preserve (add, don't
+revise) → compress (rare merge) → more fits in view → better
+synthesis. That is why add-don't-edit is exponential.
+
+FOG (needs a scene at the comb)
+verify-before-act · provenance span
+
+DEAD / DRIFT
+¹⁰E revising rules · the King branch (reference only) · the
+patterns-mapping section (didn't travel) · external skills blocks
+(keep the three prompts only)
+
+REMINDERS (first-paste lines for weaker models, not standards)
+Unfinal · doing-or-describing · confidence is the alarm · closer
+drift · catch up don't assimilate
+
+WAITING FOR ITS MATCHING FILE
+hand-off · CHAT-TAG · header · checklist · co-builder (+ 💬, overlap,
+assimilate, relay, intent-labels) · +plan (+ raw seed block,
+ask-first, questionnaire) · fetch files (+ all fetch blocks) ·
+thinking files (Freedom Assist, one draft) · CONTINUITY-SEED ·
+STATE/WORKING (built, under-used)
+
+FORKS OPEN
+🔹🔀1️⃣ questionnaire · 🔹💡🔀2️⃣ ask-first · 🔹💡🔀3️⃣ minis ·
+🔹🔀5️⃣ co-builder page · 🔹🔀6️⃣ pattern archive in old REVs
+
+MY MISSES, FOR THE RECORD
+reinvented hand-off, one-line read, ask-me before seeing the file ·
+used the word anchor · read pins as usage advice · read Density
+Loop as poetry · filed swap rule and Quick Adds as two things
+
+NOT WALKED: ◆6023 detail, scout blocks, ledger lines.
+Confidence: 85% 🧾 (one full pass, human-checked; no second pass)
+Suggested home: this is a pin candidate; header when it lands.
+
+⚡ QUICK ADD — 2026-09-13 (🪗Accordion47, return harvest over six files)
+Finding — FOREIGN-HEAP GATE (the attack on laws is growth from inside)
+
+INTENTION
+Drift mostly doesn't come from outside. It comes from a file being
+fortified by the same chat that wrote it, before anyone has used it
+on something else. So: a file gets one Quick Add from its birth
+chat. A second one has to wait until the file has been run once on
+a foreign target, by a different instance or on a different file.
+
+SCENE
+COMPREHENSIVE-PASS: written, then three stacked rewrites and
+fourteen Quick Adds, all one day, all from the chat that wrote it,
+status line still reading "unproven on a foreign heap." HEADER.md:
+grew a full feedback loop inside itself before it had been put on a
+real file. Both good ideas. Both walled in by their own fortifying.
+
+HOW
+Birth chat: header, body, one Quick Add, status "unproven." Stop.
+Next chat, foreign target: run it. Then Quick Adds are open.
+If the urge to fortify is strong, write a pin, not a block.
+
+FLOOR
+One add from the chat that made it. Then use it somewhere else.
+
+Confidence: 90% 🧾 (three files this week show the pattern; rule
+untested)
+Suggested home: ¹⁰E's one surviving line at merge; HEADER.md and
+COMPREHENSIVE-PASS status lines as the trigger.
+
+⚡ QUICK ADD — 2026-09-13 (🪗Accordion47, thread-holder's rule)
+FILE: STANDARDS.md
+NEWER IS USUALLY BETTER, UNTIL CHECKED
+Working assumption for any file with stacked versions: the newest
+has the most context behind it, so trust it first. Check the
+older ones only when something in the newest doesn't hold, or
+when a new lens lands. Don't re-open the whole stack to be
+thorough. Scene: six files revised today with two days of context
+behind them; every older stack went 🟨, nothing was re-mined
+unless a line in the new one failed.
+Suggested home: ⁶M VERIFY-BEFORE-YOU-ACT as its partner line
+("verify the live copy; assume the newest is it").
+
+⚡ QUICK ADD — 2026-09-13 (🪗Accordion47, from ⚓ return over King lineage)
+FILE: STANDARDS.md
+SCENES for two rules that had WHY but no picture.
+⁶M VERIFY-BEFORE-ACT: Ash ⚡ 2026-05-19 claimed a standard was in
+this file. It wasn't. He had drafted and tested it for days; the
+memory was vivid and wrong. One paste would have caught it.
+Rule in plain words: a vivid memory of working on a file is when
+you're most wrong about what's in it. Ask for the live section.
+¹¹S ⏳ PROVISIONAL / phantom work: Mirror 2026-06-04 drafted a
+14-part revision, a 37-step deploy plan, and called it complete,
+then admitted none of it was confirmed in the live file. Drafted
+is not deployed. Search a landmark in the live file before saying
+done.
+STOP RULE for revision passes (Ash 2026-05-18): two passes find
+the big fixes then the refinements; a third finds typos. Lock
+after two. Same bell as ⁴M.
+Lineage note: A→S+++ were each fortified by the chat that wrote
+them, never run cold in between. Evidence for FOREIGN-HEAP GATE.
+
+⚡ QUICK ADD — 2026-09-13 (🪗Accordion47, thread-holder's rule R41)
+FILE: STANDARDS.md
+USE IT BEFORE YOU REVISE IT. An instance may not revise a file it
+hasn't run at least once on real material. If it hasn't, it asks
+the thread-holder to run it first, as a must, and revises from
+what the run showed. Scene: REVIVE-CHATS was read, judged, and
+then run on this chat; the run answered two of the five asks
+without help. Reading is not use.
+Partner of FOREIGN-HEAP GATE; goes in every job-card header as a
+one-line reminder.
 
 ◆4039

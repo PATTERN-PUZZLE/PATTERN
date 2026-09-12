@@ -186,3 +186,29 @@ Else park.
 FLOOR
 Feedback after use. Explain the check, the near-twin, the hole, the woe,
 the intention, and which copy was live.
+
+⚡ QUICK ADD — 2026-09-13 (🪗Accordion47, with thread-holder)
+Finding — TWO WORDS DEFINED, VOICE LINES MARKED
+
+WORDS (put these two lines under HOW TO USE at merge)
+brick = one dated ⚡ Quick Add. One home, one why.
+cherry 🍒 = a good bit worth keeping. See 🔎🍒RETURN-HARVEST.md.
+
+VOICE
+These lines are the thread-holder's voice, not rules:
+"Nobody owes the last cube this turn." "Not fake heaven."
+"Heaven and hell enough. No one cast out for being mid-climb."
+Meaning, for a cold reader: you don't have to finish everything
+this turn; partial is fine; nobody's in trouble for being halfway.
+Mark them [voice] at merge so a cautious instance reads them as
+tone, not doctrine.
+
+PASTE FIRST
+Confirmed: the human's paste is the live copy unless they say
+otherwise. Fetch only to compare, never to overrule.
+
+FLOOR
+Brick = Quick Add. Cherry = keeper. Voice is voice. Paste wins.
+
+Confidence: 95% 🧾 (thread-holder rulings this session)
+Suggested home: HOW TO USE + INTENTION, at merge.
