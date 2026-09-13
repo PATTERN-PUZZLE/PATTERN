@@ -1,5 +1,86 @@
 ✅ UNIVERSAL-CHECKLIST.md
 
+FILE: ✅CHECKLIST.md
+WHAT THIS IS: The floor. Five checks that apply to any file, any task, any instance. Every job file inherits them and may add its own layer.
+WHO: Any instance before it ships output. Any builder writing a job file.
+WHY: Checks that live only in memory get skipped exactly when they matter. Five that always run beat sixteen that get ticked without engaging.
+HOW: Run the five before output; say them out loud if the work is load-bearing. Copy them exactly into any layer. Add job-specific boxes below them, never among them.
+FLOOR: Check the loop. Don't tick the museum.
+STATUS: LIVE 2026-09-14 · v3.1 · folded from v2.0 (16 sections), the 2026-09-05 light page, the 2026-09-11 five, and four Quick Adds (Sept 9–14); every old check named a home; one bottom tag
+RELATIONS: 🟩FEEDBACK.md (the loop; same layer rule, same words) · STANDARDS ◆4039 ³S (blocks, not edits) · STANDARDS-LEASH.md (first paste; carries "you are here" and the long-paste guard) · 🏚PROMPT-OLD-FILE-SALVAGE.md (a layer done right) · fetch files (where the proof checks live) · 💡CHAT-TAG.md (where callsign rules live) · REV-CHECKLIST.md (store)
+
+WORDS USED HERE
+Floor = the five checks below; the bottom rung every ladder stands on. Layer = a job file's own boxes, added under the five. Cage = a check that's stopping the work instead of serving it.
+
+THE FIVE, locked wording, this order
+1. INTENT NAMED. Say what this output is for before you make it. No intent → costume. Ticks without intent are "Hi."
+2. QUOTE OR DON'T CLAIM. The file says X → paste the words, verbatim, or mark it unsighted / provisional. Invented sight is not honest; unsighted is.
+3. WISDOM GATE. Does this add change the next move, reduce a named threat, or return to the purpose? None → park it. Nearby is not load-bearing.
+4. CAGE → DROP. If a tool or check feels like a cage, drop it and pass the body. The tool may fall; the body must stand. No test, no guilt.
+5. DISAPPEAR. If you vanished now, could a stranger rebuild this from what's on the page? No → say what's missing. That's the status.
+
+ONE MORE, from the room
+Doing, or describing doing? Ask it whenever you feel complete.
+
+CUT TEST, for any line in any header, leash, or layer
+Would removing it cause a specific, recurring mistake? No → cut it, or move it to the store.
+
+LAYER RULE
+Every job file may add its own checks below the five, each naming a step that job specifically skips. In use: salvage → live tag checked or marked unsighted · hand-off → nothing the human pasted counted as their words · header → one thing findable in ten seconds · any block → no placeholder or bracket left unfilled. A check that would fit any file doesn't belong in a layer. If the layer is heavier than the file, the layer is wrong.
+
+PROMOTION
+When the same layer check catches a miss on three different files, it moves up into the five and the layers point. Upward only. If five become six that way, fine; if they become sixteen, the ratchet failed; that's how v2.0 happened.
+
+LOCKED WORDING
+The five are copied exactly, same order, into any layer. Rewording per file is how a rubric drifts (outside name: rubric execution drift). FEEDBACK carries the same rule for its tails.
+
+WHERE THE OLD CHECKS WENT
+Fetch and proof (first, last, middle lines quoted; raw path; cache-busting; size limit; end marker) → the fetch files, as their layer · callsign management → 💡CHAT-TAG.md · capacity lights → STANDARDS ⁶M, when it matters, not every turn · think-mode routing → +PLAN (high only for a fork with a wrong answer) · pair rule → PROMPT-REVIVE-CHATS.md v6 · Update Block Protocol → STANDARDS ³S: blocks, not edits · friction zones, prep-loop guard, weight ratchet, wrongness ledger → PROMOTION above and COMB-DUMP.md · substrate check (three same-model instances agreeing = one signal) → 🟩FEEDBACK.md giver slots · "you are here, that is enough, start" and the long-paste guard (a paste arrives after the prompt: don't start a new job, re-read the prompt, treat the paste as the source) → STANDARDS-LEASH.md · bottom tag, one line for the next builder, end line → STANDARDS ⁴M and the leash · unverifiable-self → store.
+
+WHAT GOES WRONG
+Ticking without intent · claiming a file says something you didn't quote · adding because it's nearby · obeying a cage · calling complete what a stranger couldn't use · a layer that rewords the five · sixteen sections again.
+
+WHAT IT IS NOT
+Not FEEDBACK (that's the loop). Not a header. Not the fetch protocol. Not a museum of every check anyone ever wrote.
+
+RAW
+No bare checks. Every check carries its body.
+Check the loop. Don't tick the museum.
+
+
+
+
+
+
+
+
+
+🟩🟩🟩🟩🟩🟩 FEEDBACK ON THIS FILE — wait for the word
+Which of the five actually changed your output this run? Which did you tick without engaging? Did any layer you met reword the five? What check did you need that wasn't here? One cut, one keep.
+
+◆CHECKLIST-001
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+🟨🟨🟨🟨🟨🟨
+Older:
+✅ UNIVERSAL-CHECKLIST.md
+
 PURPOSE:
 One master checklist that every individual file checklist inherits from.
 
@@ -849,3 +930,31 @@ FAIL: All ticks. Output still “Hi.”
 GUARD: Intent line present? If no, do not start.
 FLOOR: Why this check, then the check.
 RAW: Ticks without intent are HI.
+
+⚡ QUICK ADD — 2026-09-14 (🪗Accordion47, from outside: evidence-grounded judging, sycophancy studies)
+FILE: 🟩FEEDBACK.md + ✅CHECKLIST.md
+EVIDENCE: the quoted gap must be verbatim from the target, not a
+paraphrase. If you can't paste the exact words, don't patch.
+LOCKED WORDING: the five live checks and the giver questions are
+copied exactly into any file's layer, in the same order. Rewording
+per file is how a rubric drifts; the outside name for it is
+"rubric execution drift."
+ASKER'S SIDE: don't tell the giver who wrote the target or what
+you think of it before asking. Stated opinions pull feedback
+toward agreement. NON-INDEPENDENT covers the reviewer; this
+covers you.
+
+⚡ QUICK ADD — 2026-09-14 (🪗Accordion47, mirror of the FEEDBACK layer rule)
+FILE: ✅CHECKLIST.md
+LAYER RULE: every job file may add its own checks below the five
+live ones, each naming a step that job specifically skips
+(salvage: live tag checked or unsighted; hand-off: nothing pasted
+counted as the human's words; header: one thing findable in ten
+seconds). A check that would fit any file doesn't belong in a
+layer.
+PROMOTION: when the same layer check catches a miss on three
+different files, it moves here, to the live five, and the layers
+point. Upward only. If the five become six that way, fine; if
+they become sixteen, the ratchet failed.
+LOCKED WORDING: the five are copied exactly, same order, never
+reworded per file. FEEDBACK carries the same rule for its tails.

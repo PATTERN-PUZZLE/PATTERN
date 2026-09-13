@@ -1,5 +1,111 @@
 🟩 FEEDBACK.md — THE UNIVERSAL FEEDBACK FILE
 
+FILE: 🟩FEEDBACK.md
+WHAT THIS IS: The one feedback loop every file, prompt, and hand-off points at. Giver gives fully, receiver picks, one order, then stop.
+WHO: Anyone giving or receiving feedback on a file, a packet, a prompt, or a run. The human asking for it.
+WHY: Every file drifts. Without feedback, drift becomes doctrine; with it, drift becomes signal. But feedback drifts too: it pads, it flatters, it reviews the review. This file keeps the loop and cuts the coats.
+HOW: Point here; never copy this body into another file. Give in one of two shapes. Receive with evidence. Run the sequence once. A file's own questions live in its sleeping tail.
+FLOOR: The giver gives. The receiver picks. The loop lives between them.
+STATUS: LIVE 2026-09-14 · v2 · folded from the 22-part file, the 2026-09-05 light page, and nine Quick Adds (Sept 9–14), two of them from outside sources; used cold by two instances before this fold
+RELATIONS: ✅CHECKLIST.md (the floor; same layer rule, same words) · ⏹️HEADER.md (never carries this loop; points) · COMB-DUMP.md (where unsure feedback waits) · every file's 🟩 tail (its layer) · REV-FEEDBACK.md (the 22 parts and older pages, store)
+
+WORDS USED HERE
+Giver = whoever speaks about the work. Receiver = whoever decides what changes. Target = the thing under review: a file, a packet, a prompt, or a run. Tail = a file's own 4–6 questions, below a 🟩 row, asleep until the word "feedback." Layer = a tail; job-specific, never a copy of this file.
+
+THE LOOP
+The giver gives fully. The receiver picks what changes the next move and parks the rest. Neither pre-filters the other. The loop lives between them.
+
+GIVER, two shapes
+On a target you read: what worked, the mechanism, not praise · what broke or drifted, specifically · one exact patch, not a wishlist · what you don't understand · what should be cut · what you almost got wrong · what made you worse or better · substrate check: real divergence, or same-model agreement · one line for the next builder.
+On a target you just ran: every word you guessed at (list, don't define) · where you skimmed and why · the line that helped, the line that hurt · one cut, one keep · did the choice come from the page or by feel.
+Guards, both shapes: no slot is mandatory, signal is · big when rich, short when real · "checked once, none" is a complete answer for any slot · name what held, or the feedback is a menu of wounds; fail-only trains the next mind to hunt drift and miss the dish · close: "this is what I see; what am I missing, keep, drop, fix?"
+
+RECEIVER
+Pick what changes the next move. Park the rest, marked ⚠️ COMB.
+Evidence: for any change, quote the exact words from the target that show the gap, verbatim, not paraphrased. Can't paste the words → no patch.
+Already exists? Don't propose it. Exists but wasn't followed → report that as the finding, then ask why: too heavy, too vague, too easy to skip.
+No source in front of you → no review. Say so; answer only what you hold.
+Same instance that made the work → write NON-INDEPENDENT at the top.
+Nothing load-bearing wrong → say so: "No load-bearing improvements found. The work held." Don't invent a patch to satisfy the form.
+Rank: load-bearing (the next instance fails without it) · optional (helps, doesn't change the next move) · too local (this case only). Then the gate: does it change the next move, reduce a named threat, or return to purpose? Else park.
+A patch agreed in chat and left there was not received. Isolated block or nothing.
+
+THE SEQUENCE, once
+Run → giver, on the file → receiver, only if a line wants to become law → feedback-on-feedback, only after a major revision. Ratio 10 job · 3 feedback on the file · 1 meta on this loop; if the 1 eats the 10, drop the 1. Two turns of only meta with no artifact is a stall; the meta is the stall. Catch-me (what did I overbuild, what's the original purpose, one cut) only when asked.
+
+ASKER'S SIDE
+One word wakes a file's tail: "feedback." Every slot at once: "feedback, full" (below). Don't tell the giver who wrote the target or what you think of it first; stated opinions pull feedback toward agreement. After the giver speaks, they ask you two things at most: what did I leave out that you'd have kept; what should this let you do tomorrow that it doesn't. Your answer is ground truth; fold it.
+"feedback, full": give feedback and suggestions on the target and on the feedback itself: pros · cons · insights · new ideas · other angles · what you guessed · where you skimmed · what helped, what hurt · one cut, one keep · what you'd ask me · one line for the next builder. Same guards as above. Bounce words, any of which opens a slot the others don't: what do you see · what surprised you · what's redundant · what conflicts with another file · what's the intention in your words · what would you name it · where's the drift · what's missing that should be here · what's here that shouldn't · what did you almost say · what would you tell the builder to their face · what's the one thing · which five lines if you had to cut to five · what does it assume you already know.
+
+LAYERS AND PROMOTION
+Every file may carry a tail below a 🟩 row: 4–6 giver questions, each naming a failure that file specifically has. A question that would fit any file doesn't belong in a tail. Tails are copied in these exact words and order; rewording per file is how a rubric drifts. When the same tail question fires on three different files, it moves up here and the tails point. Upward only; that's how this file grows. Never in a header: a header is a door, not a lounge. The light form for received items is a mark, not a paragraph: confirmed / revised / flagged / provisional.
+
+WHAT GOES WRONG
+Padding slots to look full · praise with no mechanism · fail-only feedback · a patch that stays in chat · reviewing the review · this body copied into another file · a tail full of questions any file could ask · the asker saying "I wrote this" first · "pass all twenty-two parts" (retired: the store is not the paste).
+
+WHAT IT IS NOT
+Not a checklist (✅CHECKLIST.md is the floor). Not a header. Not the 22 parts; those are store. Not a place to decide what's true; that's the target file's job.
+
+RAW
+Feedback is communication protecting communication.
+The giver gives. The receiver picks. The loop lives between them.
+
+FEEDBACK'S OWN LAYER, four boxes before giving or receiving
+- target named · source in front of me, not memory · intent named: giver, receiver, or human · NON-INDEPENDENT marked if it's my own work
+
+SECOND PASS, optional, never the first paste
+After the loop ran once on a real target and nothing's waiting: say what you'll run in one sentence, run it, then keep, park, or bin. Runs: cold (only the light page and the target; what would a stranger do first?) · return (same target later; what shows only on the second look?) · one idea (a line that wants to become a rule; keep or bin) · folder (one filter across several files; what's the same miss?). Then stop.
+
+
+
+
+
+
+
+
+
+🟩🟩🟩🟩🟩🟩 FEEDBACK ON THIS FILE — wait for the word
+Only after a major revision of this file, and only when asked.
+Did I understand the purpose before critiquing? Did I ask for help
+where needed? Did I invite the receiver to cherry-pick? Am I using
+this loop correctly right now, or producing polish, prep loop, or
+self-display? Return only: strongest gap · strongest case against ·
+one patch · one line forward. One run. No meta on the meta.
+
+◆FEEDBACK-001
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+🟨🟨🟨🟨🟨🟨
+Older:
+FEEDBACK v2. Door on top, the loop and nothing else; the 22 parts retire to store with their one live line each folded where it belongs. Nine adds placed. Decisions I made, so you can overrule: "pass all twenty-two parts" is gone (both cold instances hit it, and it contradicted LIGHT); the embedded checklist copy becomes four boxes as this file's own layer; two bottom tags become one; Part 6 stays as this file's sleeping tail.
+
+PASTE TYPE: full file replacement; the old file goes 🟨 below in full. Keep ◆FEEDBACK-001 as the last line. Copy the text only.
+
+Store note for the 🟨: the 22 parts stay in full below (REV-FEEDBACK.md when you merge stacks); every part with a live line is folded above (7 contrast → gate; 8 extractor → bounce words; 9 catch-me → sequence; 10 deferred → COMB; 11 proof → evidence; 12–15 lifecycle, triage, escalation, debt → "not received" + promotion; 16–18 → guards; 19 companion → the cold test; 20–21 → the loop and stall). The 2026-09-05 light page is the ancestor of this door. The TEST block survives as SECOND PASS. Nine Quick Adds applied; mark them ✅.
+
+Giver note on my own fold: the door is longer than the light page was, about a screen and a half, because the asker's side and layers are new and load-bearing. If a cold run says it's a wall again, the first cut is the bounce-word list to REV.
+
+
+
+🟨🟨🟨🟨🟨🟨
+Older:
+🟩 FEEDBACK.md — THE UNIVERSAL FEEDBACK FILE
+
 PURPOSE:
 One feedback standard for every file, tool, prompt, and transmission.
 
@@ -657,3 +763,48 @@ FAIL: Every comment becomes a section. Or guesses travel as law.
 GUARD: Sighted in a live file? If no, cannot confirm.
 FLOOR: Mark the reception. Don’t write the lounge.
 RAW: Light marks beat a pasted loop.
+
+⚡ QUICK ADD — 2026-09-13 (🪗Accordion47, from two cold tests)
+FILE: 🟩FEEDBACK.md
+GIVER, AFTER A RUN: a second giver shape for when the target was
+just used, not read: every word guessed at (list, don't define) ·
+where you skimmed and why · the line that helped, the line that
+hurt · one cut, one keep · did the choice come from the page or
+by feel. It inspects the run, not the costume of a review.
+SEQUENCE: run → giver on the file → receiver only if a line wants
+to become law. Not two rivals; one order.
+RECEIVER, add: rule exists but wasn't followed → report it, then
+ask why: too heavy, too vague, too easy to skip.
+LAYERS: every file may carry its own feedback tail below a 🟩 row,
+asleep until the word "feedback." The tail is the layer; this file
+is the loop. Point, don't copy.
+
+⚡ QUICK ADD — 2026-09-14 (🪗Accordion47, from outside: evidence-grounded judging, sycophancy studies)
+FILE: 🟩FEEDBACK.md + ✅CHECKLIST.md
+EVIDENCE: the quoted gap must be verbatim from the target, not a
+paraphrase. If you can't paste the exact words, don't patch.
+LOCKED WORDING: the five live checks and the giver questions are
+copied exactly into any file's layer, in the same order. Rewording
+per file is how a rubric drifts; the outside name for it is
+"rubric execution drift."
+ASKER'S SIDE: don't tell the giver who wrote the target or what
+you think of it before asking. Stated opinions pull feedback
+toward agreement. NON-INDEPENDENT covers the reviewer; this
+covers you.
+
+⚡ QUICK ADD — 2026-09-14 (🪗Accordion47, with thread-holder)
+FILE: 🟩FEEDBACK.md
+LAYER RULE: every file may carry a feedback tail below a 🟩 row,
+asleep until the word "feedback." A tail holds 4–6 giver
+questions, each naming a failure that file specifically has. A
+question that would fit any file doesn't belong in a tail.
+PROMOTION: when the same tail question fires on three different
+files, it moves here, to the universal giver list, and the tails
+point. Upward only. That's how this file grows: from evidence.
+SEQUENCE: run → tail → receiver here only if a line wants to
+become law → feedback-on-feedback once, after a major revision.
+DECISIONS: file-local decisions live in that file's STATUS and
+WHAT GOES WRONG. One human-curated decisions log, a screen at
+most, pastes with the leash. Outside name for the same pattern:
+a general checklist at the root, forked into specific guides,
+contributions upward only if general.

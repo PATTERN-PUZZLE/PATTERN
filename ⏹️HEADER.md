@@ -885,3 +885,15 @@ Door first. File is the room. Header is not the house.
 
 RAW
 Tiny for live. Large for jumble. No feedback loops in the header.
+
+⚡ QUICK ADD — 2026-09-14 (🪗Accordion47, from outside: AGENTS.md guides)
+FILE: ⏹️HEADER.md + STANDARDS-LEASH.md
+CUT TEST for any header or first-paste line: would removing it
+cause a specific, recurring mistake? No → cut it or move it to the
+store. Sharper than "changes the next move"; use it first.
+BUDGET: a model follows roughly 150–200 instructions, and its own
+system prompt already spends ~50. A first paste gets about a
+hundred. Count instructions, not lines. The leash is 7.
+HAND-CRAFTED: no header ships until the human has said what the
+file is (ASK THE HOLDER ONCE PER FILE). The instance drafts; the
+walk is the craft.2
