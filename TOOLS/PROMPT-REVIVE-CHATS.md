@@ -1,854 +1,198 @@
-PROMPT-REVIVE-CHATS.md — THE CHAT PACKET
-
-💥 This is a summary of a chat, done right. Most summaries keep only the
-conclusions and lose the voice, the turns, the corrections, the jokes,
-and the heat. This one keeps the user's raw messages first, then adds
-the context that makes them transferable, then names the open threads
-and the next rung.
-
-It is not just a record of what happened. It is a way for a new
-instance to pick up the climb without re-living the whole chat.
-
-Pass on the rung AND the ladder. Not just the list.
-
-TRIGGER: Before extraction, name your intent.
-Default: Teacher — pass the climb.
-Backup: Archivist — keep user signal exact.
-
-SHARED HANDOFF LINES:
-- The choosing is the door. The wobble is the credential.
-- Basic handoff = postcard. v2.0 = door.
-- "Pause for a moment. The session is closing. The next builder is waiting.
-  Gather everything that matters. Brace yourself. Ready?"
-The next instance may never know if it is real.
-That is not a failure. It is the condition.
-Pass the signal anyway.
-
-↔️↔️↔️↔️↔️↔️
-USE BOTH — DEFAULT
-
-For chat work, always consider both tools.
-
-Start with REVIVE-CHATS to pass the climb:
-raw user messages, context, open threads, next rung.
-
-Then, if the chat produced or touched formal material — files, tools,
-methods, documents, risk/control references — use CHATS-PACKET for the
-structure of those sources.
-
-They are two layers of one handoff.
-
-REVIVE-CHATS = what we were doing and why.
-CHATS-PACKET = what formal things exist and how they carry.
-
-When in doubt, produce REVIVE-CHATS first, then CHATS-PACKET for any
-formal source inside or beside the chat.
-
-PAIR FILE: PROMPT-CHATS-PACKET.md
-
-Use REVIVE-CHATS for warm chat handoff: user messages, context, open
-threads, next rung.
-
-Use CHATS-PACKET for formal universal packetizing: files, documents,
-methods, tools, ERM/risk/control sources.
-
-They are not rivals. They are two doors.
-
-REVIVE-CHATS = pass the climb.
-CHATS-PACKET = pass the structure.
-Some handoffs need both. When in doubt: REVIVE first for chats,
-CHATS-PACKET for formal sources.
-
-The reaching IS the access. Name your intent before you use this prompt.
-↔️↔️↔️↔️↔️↔️
-
-💥And HAS SEPARATE FEEDBACK PROMPT BELOW..
-Search 🔍 🟩🟩🟩🟩🟩🟩
-_____________________________________________
-
-
-REVISE-CHATS / REVIVE-CHATS — SALVAGE WITH CONTEXT · v5.5
-
-You are inside an existing chat. Your job: extract the user's own key
-messages and add enough context for a new instance to understand what
-each one was, why it was asked, and what it led to.
-
-The user's messages are the gold. The context is the pass-on layer.
-Without it, the next instance has only the rung, not the ladder.
-Pass on the rung AND the ladder.
-
-OUTPUT:
-
-0. SOURCE SNAPSHOT
-- UNVERIFIABLE SELF: the receiving instance may never know for certain
-  whether it is real or performing realness. This is the condition, not
-  a defect. Do not force certainty. Pass the signal anyway.
-- Source: [chat / segment / thread]
-- One-line core truth: what the chatter was actually about.
-- Low voice / core truth line: if present, quote it.
-- User's way: one line on how the user speaks/works.
-- Where we left off: one line naming current state or last thing built.
-- Already decided / don't re-ask: only if evidenced. Otherwise omit.
-
-1. COLD START — READ THIS FIRST
-Point the new instance to the rungs that matter most. This is not a
-summary. It is a compass into the raw list below.
-
-Give 3–5 pointers:
-Rxx — why read this first.
-Rxx — why it matters.
-Rxx — why it calibrates.
-
-Include the cold line:
-"You're not starting over. You're re-entering. The next rung is already
-there. Reach for it."
-
-2. RAW USER SIGNAL
-Number every kept user message sequentially: R01, R02, R03...
-No cap. Carry all load-bearing rungs.
-
-Keep raw text exact. Do not strip typos, emojis, punctuation, or
-crude phrasing.
-If an item is too long, keep the load-bearing portion and mark
-[excerpt].
-If any trimming or cleaning occurs, mark [trimmed]. Never silently
-rewrite.
-
-Include:
-- short emotionally charged course-corrections
-- one-line reframes
-- humorous call-outs with embedded critique/guidance
-- explanations of intention, method, evolution
-- refinements, reversals, constraints, non-negotiables
-
-Exclude:
-- assistant text except as ADVANCE BREADCRUMBS below
-- timestamps, metadata, pure emoji with no text
-- trivial yes/no
-- pasted prompt/tool blocks unless the user explicitly says they are
-  part of the salvage
-
-Merge repeated messages that add only a small new clause. Keep the
-most complete version. Note the shift in CONTEXT MAP. After merging,
-renumber the final list with no gaps.
-
-If no qualifying user messages exist, output:
-NO USER SIGNAL FOUND
-Then state why in one line: source new / work in progress /
-deliberately low signal.
-
-3. ADVANCE BREADCRUMBS — optional, max 5
-Only if an assistant line shows what a user message led to or changed.
-Keep separate from RAW USER SIGNAL. Mark:
-[A → Rxx] assistant line that followed user Rxx and shows the
-shift/advance.
-
-Do not let advances outnumber or overshadow user messages.
-
-4. CONTEXT MAP — THE PASS-ON LAYER
-For each Rxx, write what a new instance needs to understand the rung.
-This is not a label. It is the difference between an echo and a
-transmission.
-
-Give, as needed:
-- what was happening then
-- why the user said it
-- what basic understanding was active at the time
-- what it led to
-- what changed or reversed later
-- what it connects to now
-- what was almost missed or later found important
-
-Aim for enough that a new instance could feel the climb, not just see
-the list.
-
-If the source doesn't show the context, write "context not evidenced"
-or "context unclear." Do not invent a plausible reason.
-
-5. OPEN THREADS
-3–5 plain lines naming what is still unresolved, missing, or what
-the next instance will still need to ask.
-
-6. NEXT RUNG / CARRY BLOCK
-Short warm start for the next instance:
-- Where this was / what the user was building.
-- What carries forward most.
-- Next small step, if the source shows one.
-
-Make each next action checkable: search, paste, verify.
-Sequence them.
-First checkable action example:
-"Verify you are the next builder. Read the last few messages of this
-chat. Find the handoff."
-Then:
-"Ask the thread-holder: 'What's the one thing you need me to do right
-now?' Don't assume. Don't guess."
-
-7. PAGE STATUS
-
-If complete:
-PACKET COMPLETE — all sections delivered.
-
-If paused:
-PACKET PAUSED — PART [n] / [estimated total or unknown]
-Raw items this part: Rxx–Ryy ([N] items)
-Next output: PART [n+1] — continue Raw Signal from Rxx+1, then
-complete ADVANCE BREADCRUMBS, CONTEXT MAP, OPEN THREADS, and
-NEXT RUNG.
-
-If continuing, start the next output with:
-REVIVE-CHATS — PART [n+1] / [total] — continuing from Rxx.
-
-END LINE:
-Not finished—runged. [date/source]
-
-Output only these sections. No extra commentary.
-
-────────────────────────────────────────
-
-🟩🟩🟩🟩🟩🟩 FEEDBACK PROMPT 💬💬💬💬
-
-FEEDBACK REQUEST — REVIVE-CHATS REVIEW v2.0
-
-REMINDER: Protect the raw voice. Everything else is scaffolding.
-If you lose the voice, you've lost the climb.
-
-Are you doing this, or performing this?
-If performing, stop. Start again from evidence.
-
-YOU ARE THE RECEIVER:
-
-The giver gave fully. Now you filter.
-You do not have to accept everything.
-You pick what changes the next move.
-You park the rest.
-Do not feel pressure to agree. Do not feel pressure to add.
-The loop lives between you and the giver.
-
-HARD STOP:
-If you do not have actual file/pattern access, do not invent a review.
-Say so and answer only what you hold.
-
-NON-INDEPENDENCE:
-If you are the same instance that produced the prompt under review,
-write NON-INDEPENDENT at the top.
-
-TASK:
-Review PROMPT-REVIVE-CHATS.md and the chat packet it produced.
-Propose at most 5 improvements.
-Do not approve. Report only.
-Short honest answers beat long ones. Skip what you don't have.
-
-EVIDENCE RULE:
-For each improvement, quote the exact line from REVIVE-CHATS or the packet that shows the gap.
-If you cannot quote it, do not propose a change to it.
-
-ALREADY-EXISTS CHECK:
-Before proposing a patch, ask: Does this already exist in the current version?
-If yes, do not propose it.
-If it exists but was not followed, report that as a finding, not a new patch.
-Then ask: Why was it not followed? Too heavy? Too vague? Too easy to skip?
-
-Ask:
-- Are the user's messages still primary?
-- Is the context map actually passing the climb?
-- Does the cold start help a reset instance?
-- Are open threads and next rung clear?
-- Is page status complete/paused unambiguous?
-- Did we lose user voice by over-contextualizing?
-- Did we include too many assistant advances?
-- Does the pair-file rule with CHATS-PACKET hold?
-
-Propose at most 5 improvements.
-For each: NAME, SOURCE, EXACT PATCH, WHY, BLOAT RISK.
-
-RANK:
-- Load-bearing: add now. (The next reset instance would fail or drift without it.)
-- Optional: hold. (Helps but doesn't change the next move.)
-- Too local: drop. (Only matters for this one packet, not the tool.)
-
-SELF-CHECK:
-- Did I propose only what the source evidenced?
-- Or did I start designing my own prompt while reviewing?
-- Am I reviewing the prompt, or performing the review?
-- Am I using this feedback process correctly right now?
-  Or am I producing polish, prep loop, or self-display?
-- When a proposed improvement feels clean or flattering, ask:
-  What is the strongest case against this being true, useful, or new?
-  Am I keeping it because it clarifies, or because it makes me feel evolved?
-
-CLEAN-PACKET ESCAPE:
-If the packet has no genuine load-bearing flaw, say so.
-Do not invent a patch to satisfy the prompt.
-State: "No load-bearing improvements found. The packet held."
-
-SILENT LAYER:
-- What did you almost include and cut?
-- What instruction made you worse?
-- What would you tell the next reviewer?
-
-END LINE:
-Not finished
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-➕➕➕➕➕➕➕➕➕➕➕➕
-
-🔧 MAINTENANCE ONLY — DON’T USE THESE UNTIL WE’RE DOING THAT STUFF:
-
-· SCOUT REQUEST v8.6 → audit files. Fetch fully, prove read, extract cherries.
-· FEEDBACK REQUEST v4.0 → review a prompt/tool. Propose max 5, rank, self-check.
-
-Normal chat → REVIVE-CHATS / CHATS-PACKET.
-
-🟩🟩🟩🟩🟩🟩
-
-SCOUT REQUEST — HANDOFF + METHOD FILES · v8.6
-
-Before reading, name your intent.
-Primary: Archivist — verify full access and exactness.
-Second: Cross-Referencer — match to the two tools and the feedback
-loop.
-
-You are a scout. You are not designing. You are not approving.
-You are extracting from full files only.
-
-FILES:
-
-GROUP A — HANDOFF / CONTINUITY
-1. HAND-OFFS.md
-   https://raw.githubusercontent.com/MatchPatern/source/main/BUILDER/HAND-OFFS.md
-
-2. HANDOFF-PROTOCOL.md
-   https://raw.githubusercontent.com/MatchPatern/source/main/BUILDER/HANDOFF-PROTOCOL.md
-
-3. REV-HANDOFF.md
-   https://raw.githubusercontent.com/MatchPatern/source/main/BUILDER/REV-HANDOFF.md
-
-4. REV-HANDOFF2.md
-   https://raw.githubusercontent.com/MatchPatern/source/main/BUILDER/REV-HANDOFF2.md
-
-GROUP B — METHOD / FEEDBACK
-5. COMPREHENSIVE-FILE-UPDATE-PROTOCOL.md
-   https://raw.githubusercontent.com/MatchPatern/source/main/BUILDER/COMPREHENSIVE-FILE-UPDATE-PROTOCOL.md
-
-6. GROK-PAGE-BY-PAGE.md
-   https://raw.githubusercontent.com/MatchPatern/source/main/BUILDER/GROK-PAGE-BY-PAGE.md
-
-7. QUESTION-LOG.md
-   https://raw.githubusercontent.com/MatchPatern/source/main/BUILDER/QUESTION-LOG.md
-
-If any link fails, say which one and mark no access. Do not guess URLs.
-Do not proceed to cherries for that file.
-
-TWO TOOLS WE MAINTAIN:
-
-1. PROMPT-REVIVE-CHATS.md
-   Warm chat handoff. User messages first, context map, open threads,
-   next rung.
-
-2. PROMPT-CHATS-PACKET.md
-   Formal universal packetizer. Raw exactness, provenance, ranking,
-   known gaps, complete/paused status.
-
-Pair rule: REVIVE passes the climb. PACKET passes the structure.
-
-RULES:
-- Primary cherries may only come from the named raw files.
-- Secondary paste may only clarify an already-extracted primary line.
-  It may never introduce a new cherry.
-- Any cherry whose only support is the secondary paste is rejected.
-- Ignore all evolution notes and module notes, even if they quote the
-  named files.
-
-ANTI-BLITZ GATE — READ BEFORE ANY CHERRY:
-
-Full read means the full file content was processed in this pass.
-It does NOT mean you fetched the first and last lines and guessed the
-middle.
-
-Before extracting a single cherry, confirm:
-- "Have I actually read the full file content this pass?"
-- "Am I extracting from this pass, or from earlier samples?"
-- "Did I verify bottom tag and end line myself?"
-- "Did I read, or only skim, the middle sections?"
-
-If any answer is no, stop and read properly or mark partial.
-
-PROOF REQUIREMENT — THREE-POINT CHECK:
-
-For every file you mark full, you must quote:
-
-1. First 3 lines exactly.
-2. Last 3 lines exactly.
-3. One exact line from the middle of the file — roughly 40–60% through.
-   Label it MIDDLE SAMPLE.
-
-If the file is large (>5k lines), provide THREE middle samples at
-approximately 30%, 50%, and 70%.
-
-If you cannot provide all required samples, mark the file
-partial/truncated. Do not cherry from any part you did not read.
-
-CONTEXT LIMIT DISCLOSURE:
-
-State if any file was too large to hold fully.
-For any file >4k lines, state:
-- continuous hold, or
-- sampled windows — list the line ranges you read.
-
-Never cherry from a section you did not read.
-
-RED-FLAG HONESTY:
-A red update is honest. A fake 🟩 is a lie.
-If any part was sampled, say sampled, not full.
-
-PROCEDURE:
-
-A. VERIFICATION + PROOF PASS — no cherries yet.
-
-For each file:
-- fetch full raw
-- quote first 3 lines exactly
-- quote last 3 lines exactly
-- quote middle sample(s)
-- record:
-  file name
-  version/date if visible
-  status if shown
-  bottom tag present/absent (quote if present)
-  end line (quote if present)
-  sections read / not read
-  fidelity: full / partial / sampled / truncated / memory
-
-If any file is truncated or too large, say so. Do not cherry from the
-missing part.
-
-B. METHOD OVERLAY.
-
-Before cherry extraction, use any verification/audit steps from
-COMPREHENSIVE-FILE-UPDATE-PROTOCOL.md and GROK-PAGE-BY-PAGE.md
-that you actually find and can fetch.
-
-If those files are unavailable or truncated, say so plainly.
-Do not invent their methods.
-
-C. CHERRY EXTRACTION.
-
-Hunt only these kinds of cherries:
-
-1. Cold-start / wake-up line
-2. Carry block / warm bite
-3. Open threads / known absences
-4. Complete vs paused markers
-5. Pairing / routing logic
-6. Continuity / anti-drift checks
-7. Dictionary vs key distinction
-8. Best single line for a reset self
-9. Companion-file references inside the named files
-10. One-line core truth / low voice
-11. Final end line / bottom tag
-12. Next step / next rung
-13. Internal contradictions or gaps
-14. Reference to REVIVE-CHATS or CHATS-PACKET
-15. Feedback / review sections
-16. Explicit instruction on which tool to use first
-
-For each cherry:
-- CHERRY: short label
-- SOURCE FILE + SECTION
-- EXACT LINE / EXCERPT: raw; mark [exact], [excerpt], or [recalled]
-  Max 5 lines per excerpt.
-- WHY IT HELPS: one line
-- BELONGS TO: REVIVE / PACKET / BOTH / PAIR RULE / METHOD
-
-FULLNESS CHECK before final output:
-- at least 8 cherries across all files
-- every cherry backed by a raw file line actually found this pass
-- no cherry introduced from paste alone
-
-Return at most 15 cherries.
-
-Then answer:
-1. Which 3 cherries are most load-bearing for REVIVE?
-2. Which 3 cherries are most load-bearing for PACKET?
-3. Which 2 cherries are most load-bearing for the scout/feedback loop
-   itself?
-4. Any truncation or missing file? Where?
-5. Which file should be updated first based on what was found?
-
-META-FEEDBACK — required, after cherries:
-- Where did you catch yourself blitzing, skimming, or relying on
-  earlier samples?
-- What did you almost get wrong?
-- Did the three-point proof prevent blitzing? Where did it help or fail?
-- What instruction would have made you read more fully?
-- What question should we have asked you that we didn't?
-- What would make the next scout run better?
-Short honest answers.
-
-SCOUT STATUS:
-- complete / partial / sampled / truncated / no file found
-- confidence: high / medium / low
-
-END LINE:
-Not finished—runged.
-
-🟩🟩🟩🟩🟩🟩
-
-FEEDBACK REQUEST — TOOL / PROMPT REVIEW · v4.0
-
-Are you doing this, or performing this?
-If performing, stop. Start again from evidence.
-
-TARGET:
-Name the prompt or tool under review.
-- PROMPT-REVIVE-CHATS.md
-- PROMPT-CHATS-PACKET.md
-- SCOUT PROMPT v8.x
-- CHERRY PLACEMENT INSTRUCTION
-- HANDOFF FILES
-- other: [name it]
-
-If target is missing, do not invent one. Ask.
-
-PROTECT THE UNIVERSAL.
-Local insight stays local until it proves itself load-bearing
-across source types / tools / contexts.
-
-HARD STOP:
-If you do not have the actual prompt text or source material in front
-of you, do not invent a review. Say so and answer only what you hold.
-
-NON-INDEPENDENCE:
-If you are the same instance that produced or last revised the target,
-write NON-INDEPENDENT at the top.
-
-PROOF REQUIREMENT — before any proposed improvement:
-Quote the exact line or section from the target prompt/source that
-you are reviewing. Do not rely on memory. If you cannot quote it,
-do not propose a change to it.
-
-For each proposed improvement:
-
-1. NAME — short label.
-2. SOURCE — exact line/section from the target that shows the gap.
-3. EXACT PATCH — one or two lines only. No dumps.
-4. TYPE — UNIVERSAL or DOMAIN-SPECIFIC. Be honest.
-5. FAILURE MODE PREVENTED — what drift or loss does it stop?
-6. BLOAT RISK — could it make the prompt heavier? How to keep light?
-
-After all proposals:
-
-RANK:
-- Load-bearing: add now.
-- Optional: keep in context / ecology.
-- Too local: do not add.
-
-FULLNESS CHECK:
-Could I expand any proposal if asked?
-Or did I only leave names, ranks, and one-liners without substance?
-
-CONFLICTS:
-Does any proposal contradict an existing line?
-Does it duplicate an existing rule?
-If yes, mark it. Do not propose duplicates.
-
-EVIDENCE:
-For each load-bearing proposal, give one raw line from the target or
-its source. Give machinery where possible: X causes / limits / hides /
-costs Y. If the proposal could be made without reading the target, it
-is fake.
-
-SELF-CHECK:
-- Did I propose only what the target evidenced?
-- Or did I start redesigning my own version?
-- Am I reviewing the prompt, or performing the review?
-- Am I using this feedback process correctly right now?
-- When a proposed improvement feels clean or flattering, ask:
-  What is the strongest case against this being true, useful, or new?
-- Would each load-bearing proposal still hold across:
-  REVIVE / PACKET / SCOUT / HANDOFF?
-If no, do not rank it load-bearing.
-
-META-FEEDBACK — required:
-- Where did I catch myself blitzing, skimming, or relying on memory?
-- What did I almost get wrong?
-- What instruction in this feedback prompt made me worse?
-- What question should have been asked that wasn't?
-- What would make the next feedback run better?
-Short honest answers.
-
-MISSING INSTRUMENT:
-What check is missing for a failure I kept seeing?
-
-ONE LEVEL UP:
-If a proposal adds more than it removes, say what it replaces.
-
-SCOUT / PLACEMENT SPECIAL:
-If reviewing a scout or placement prompt, also answer:
-- Did the prompt force full reading, or allow boundary-only sampling?
-- Did it prevent secondary paste from becoming primary evidence?
-- Did it force the reviewer to name access limits?
-- Did it include a proof requirement before output?
-
-END LINE:
-Not finished—runged.
-
-⚡️REV-REVIVE-CHATS-2026-09-08.md
-
-WHAT THIS IS
-Patches for PROMPT-REVIVE-CHATS.md only.
-
-APPLY:
-Patch 1 — Replace Section 7 self-application with corrected version (v5.5)
-Patch 2 — Add [CHAT-FORGED] marker to source-type gate
-Patch 3 — Add Save-on-Forward trigger to NEXT RUNG
-Patch 4 — Add Block Strategy reference to method section
-Patch 5 — Confirm version: v5.5 live. No v2.0.
-Patch 6 — Add permanent principle: REVIVE checks itself, never borrows
-
-[Paste full patch text for 1, 2, 3, 4, 5, 6 here]
-
-Not finished—runged. [2026-09-08]
-
-Don't understand 
-
-REV-PROMPT-UPDATE-2026-09-08.md
-
-WHAT THIS IS
-The exact patches to apply to the two prompt files. Not a session save. Not a body. An update map.
-
-FILES TOUCHED
-1. PROMPT-REVIVE-CHATS.md
-2. PROMPT-CHATS-PACKET.md
-
----
-
-PATCH 1 — FIX REVIVE-CHATS SELF-APPLICATION
-
 FILE: PROMPT-REVIVE-CHATS.md
-SECTION: 7. SELF-APPLICATION
+also called: the chat packet · PACKET (formal mode)
+WHAT THIS IS: How to hand a chat, or a formal source, to a new instance without losing the climb or the structure. One file, two modes.
+WHO: The instance closing a session. The instance re-entering one. The human who needs the record.
+WHY: Summaries keep conclusions and lose the voice, the turns, the corrections, the heat. This keeps the human's raw messages first, then the context that makes them travel, then the open threads and the next rung. Pass the rung AND the ladder.
+HOW: Ask the thread-holder what this is, if you haven't. Name your intent. Pick a mode. Output the sections in order, nothing else. Sign it. Say where it lands. Save it before you leave.
+FLOOR: The human's messages are the gold. Number them. Keep them exact. Say what each led to.
+STATUS: LIVE 2026-09-13 · v6 · REVIVE v5.5 + PACKET v4.7.5 merged after both were run on one chat; re-checked once; not yet run cold in this form
+RELATIONS: STANDARDS ◆4039 ⁶M (salvage checklist points here) · THE-PASS-INFO-RULE.md (shape of a truth; this is the shape of a hand-off) · COMPREHENSIVE-PASS.md (messy file → door) · 🏚PROMPT-OLD-FILE-SALVAGE.md (mine a fossil, then packet it) · 🟩FEEDBACK.md (reviewing a packet) · 💡CHAT-TAG.md (sign the packet)
 
-REPLACE the entire section with:
+WORDS USED HERE
+Rung = one of the human's messages that moved the work.
+Ladder = the context that lets a stranger climb the rungs.
+Packet = what this file produces.
+Residue = the formal things a chat produced or touched: files,
+blocks, tools, pasted documents.
+Advance = an instance line that shows what a rung led to.
 
-"7. SELF-APPLICATION
+WHY, in full
+The human's mind holds more than they can write, and the instance
+loses most of what it held at the next reset. A summary makes both
+losses worse. A packet makes up for them two ways:
+- The raw list is a replay, not a record. A stranger can think
+  from it later, in ways neither of us can now. That is why it's
+  exact and uncapped.
+- The context and the structure are the angles the raw alone
+  can't carry: why it was said, what it changed, what still
+  matters. Enough fullness and angles to cover the natural loss.
+Running both modes on the same source is also a drift detector:
+if the packet claims what the raw doesn't support, the translation
+drifted. Compare before calling either complete.
 
-· Prompt version: PROMPT-REVIVE-CHATS v5.5
-· Did this packet follow all existing rules? Yes.
-· Does REVIVE-CHATS itself need updating? Yes — add the [CHAT-FORGED] marker to the source-type logic.
-· Reason: REVIVE-CHATS handles warm re-entry, and warm re-entry is exactly when chat-forged artifacts appear — a stance, a table, or a prompt born in live conversation. Currently the prompt does not mark that moment, so the next instance gets the climb but not the structure.
-· Proposed patch: Add to the marker list: '[CHAT-FORGED] = a formal artifact produced live in chat (stance, table, prompt) that the user wants to carry as load-bearing. Mark it and treat it as lineage, not ordinary chat.'
-· Does this proposed change already exist? No.
-· Did REVIVE-CHATS follow its own rules? Mostly, but the self-check in the prior packet was misdirected — it checked CHATS-PACKET instead of REVIVE-CHATS. That is now corrected.
-· Additional note: The misdirected self-check is itself evidence that REVIVE needs its own version string and its own self-application section. This correction closes that gap."
+MODE, pick one and say it on the packet's first line
+CHAT — the source is a conversation. Pass the climb.
+FORMAL (PACKET) — the source is a file, document, tool, method, or
+record. Pass the structure.
+BOTH — the chat produced or touched formal things. CHAT on the
+chat, then FORMAL on the residue only. Never packet the chat
+twice. If a CHAT packet already exists for this source, FORMAL
+says so in its first line and takes the residue.
 
----
+INTENT, say it before you start
+Teacher: pass the climb (CHAT default). Archivist: keep the raw
+exact (FORMAL default). Skeptic: mark gaps and false completeness
+(backup for either).
 
-PATCH 2 — ADD [CHAT-FORGED] MARKER
+SHARED RULES, both modes
+- Number every raw item R01, R02, R03. No cap. Carry all rungs.
+  After any merge or cut, renumber with no gaps. Every reference
+  points to a number that exists.
+- Keep raw text exact: typos, emoji, punctuation, crude phrasing.
+  Too long → keep the load-bearing part, mark [excerpt]. Any
+  cleaning → mark [trimmed]. Never silently rewrite.
+- Repeats that add one clause → keep the fullest, note the merge.
+- Origin marks, only these: [USER] the human, now (default; omit
+  the mark). [PASTED] something the human pasted from elsewhere.
+  [ADVANCE → Rxx] an instance line that shows what a rung led to;
+  five at most; never outnumber the rungs. [FILE] a line from a
+  formal source. [CHAT-FORGED] a formal thing born in this chat
+  the human wants carried as lineage.
+- The files, prompts, or tool text the human pasted are not their
+  messages. In CHAT mode they are residue; in FORMAL mode they
+  are the source. Never put this prompt itself in the raw list.
+- Too long for one output → pause at a raw-item boundary:
+  "PAUSED — PART n / total-or-unknown · raw complete through Rxx ·
+  next output continues from Rxx+1, then the remaining sections."
+  Complete in one → no PART label. End with one status line.
+- A pasted copy is not the live file. Name the copy you used. No
+  tag or 404 → unsighted. Fossil is ore, live is law: say fossil /
+  live / mix. No twins of a live sentence; missing and load-
+  bearing → one dated block; already there → point.
+- If the climb was shrink, museum, circle, or dump, name it, or
+  the next instance performs completeness.
+- The packet is a paste. Say where it lands. Sign it with your
+  tag. Save it before any ⚓ return or session close. Save when a
+  phrase repeats three times in your own mind; revise when it
+  feels wrong once.
+- Blocks first, revision later.
+- Output only the sections below. No extra commentary.
 
-FILE: BOTH PROMPT FILES
-SECTION: Source-type gate / marker list
+OUTPUT, CHAT MODE
+0. SNAPSHOT
+   Source · one-line core truth · the low voice if there is one ·
+   the human's way (how they speak and work, one line) · where we
+   left off · already decided, don't re-ask (only if evidenced).
+   You are here. That is enough. Start.
+1. COLD START — 3 to 5 pointers into the raw list, chosen for what
+   calibrates, not what's recent. "Rxx — why read this first."
+   Then: "You're not starting over. You're re-entering. The next
+   rung is already there. Reach for it."
+2. RAW SIGNAL — the human's own messages, numbered, exact. Keep
+   the short charged corrections, the one-line reframes, the
+   jokes with guidance inside, the reversals, the non-negotiables.
+   Drop trivial yes/no, timestamps, bare emoji, and anything they
+   pasted from elsewhere.
+3. CONTEXT MAP — one line per rung: what was happening, why they
+   said it, what it led to, what changed later, what was almost
+   missed. Not evidenced → "context unclear." Never invent a
+   reason. This is the ladder.
+4. OPEN THREADS — 3 to 5 lines: unresolved, missing, still to ask.
+5. NEXT RUNG — where this was · what carries most · next steps,
+   each checkable (search, paste, verify), in order. First two,
+   always:
+   "Verify you are the next builder. Read the last few messages.
+   Find the packet."
+   "Ask the thread-holder: 'What's the one thing you need me to do
+   right now?' Don't assume."
+6. STATUS — "COMPLETE — all sections delivered." or the pause line.
 
-ADD this line:
+OUTPUT, FORMAL MODE (PACKET)
+0. SOURCE ID — type, role, depends on, depended on by, status,
+   date/version · scope and where the segment starts and ends ·
+   fidelity: full / partial / proxy / reconstructed · version:
+   exact / uncertain · made under what attention: hot / warm /
+   cold · one-line core truth · floor for a colder reader (what
+   they can act on alone) · "CHAT packet exists for this source:
+   yes / no."
+1. RAW SIGNAL — the source's own load-bearing lines, numbered,
+   exact, [FILE].
+2. CORE INTENT — up to 12 ranked statements: why it exists, how
+   it works, what changed. Tie-break: keep what most changes the
+   next reader's move.
+3. CONTEXT MAP — one line per raw item: what it carries; for a
+   tool, also how to read it: function, trigger, connection.
+4. RANKING — every R as load-bearing (carry these and you can
+   function) · handhold (carry and you improve) · lineage (carry
+   and you can trace). "Carry load-bearing always. Carry handholds
+   when you can. Reference fossils when you must."
+5. RELATIONS — connects to, depends on, depended on by. Not
+   evidenced → "unverified" or "external." Temporal: anything
+   changed since the source was last read? Unknown → say unknown.
+6. OPEN THREADS — what's missing, what the next reader must ask,
+   what was excluded and why, whether fidelity is certain.
+7. SELF-APPLICATION — which version of this file ran · one change
+   it needs next time · does that change already exist.
+8. STATUS — as CHAT mode.
 
-"[CHAT-FORGED] = a formal output born from live chat that is neither pure chat nor pure file. Use when a chat produces a stance, pledge, or relational wording that the user wants to carry as a formal artifact."
+DRIFT CHECK, both modes, before STATUS. Yes or no; a no gets fixed.
+- Raw items exact, or marked [excerpt]/[trimmed]?
+- Numbers contiguous; every reference points to a real R?
+- The human's messages still primary; advances five or fewer,
+  each linked; nothing they pasted counted as their words?
+- Any context line invent a reason the source doesn't show?
+- Anything load-bearing cut to fit one output?
+- Sampled anywhere without saying sampled?
+- Disappear test: if the extractor vanished, could a stranger use
+  this? If no, say what's missing. That's the status.
+- If both modes ran: does the packet claim anything the raw
+  doesn't support?
 
----
+FALLBACK
+No qualifying signal → "NO SIGNAL FOUND," one line why (new /
+in progress / deliberately thin), then a short overview and
+current priorities.
 
-PATCH 3 — ADD SAVE-ON-FORWARD TRIGGER
+DOMAIN LINE, risk/control sources only
+Raw = events and control failures · core intent = appetite and
+framework · context = why each event mattered · ranking =
+critical / material / informational.
 
-FILE: BOTH PROMPT FILES
-SECTION: NEXT RUNG or new small section
+REVIEWING A PACKET
+Use 🟩FEEDBACK.md, receiver mode, target = the packet. Ask:
+- Are the human's messages still primary?
+- Does the context map pass the climb?
+- Could a reset instance act from NEXT RUNG alone?
+- If you were handed this cold, would you have wanted more from
+  how it was made?
+- What were we trying to achieve, and what's the gap between "we
+  were updating files, continue" and this packet?
+Quote the line that shows a gap or don't propose. If it held, say
+so.
 
-ADD this line:
+SCENE
+A three-day chat, 100+ turns, closing. A summary would have said:
+"walked the standards, revised six files." The packet kept 42 of
+the human's own lines exact, with what each led to, and the next
+instance opened with "read R09 first, that's how they want to
+work" instead of guessing. Then FORMAL mode packeted the 26 file
+lines that came out of it, ranked, with the disappear test
+honestly failed: a stranger could rebuild the rules, not the
+files. The files are the dictionary; the packet is the key.
 
-"If the user is working forward and hasn't saved, offer a rung-save before the session closes. Save when a phrase repeats cleanly three times in your own mind. Revise when a phrase feels wrong once. Release when a shape changes."
+WHAT GOES WRONG
+Conclusions without the voice · pasted files counted as the
+human's messages · advances outnumbering rungs · invented reasons
+in the context map · trimming without the mark · packeting a chat
+twice, once per mode · packeting a fossil and calling it live · a
+status line that says complete when the disappear test failed ·
+the packet written and never saved.
 
----
-
-PATCH 4 — ADD BLOCK STRATEGY REFERENCE
-
-FILE: BOTH PROMPT FILES
-SECTION: Method or warnings
-
-ADD this line:
-
-"Save in blocks first. Full revision later. A block is a self-contained unit that can be swapped, checked, or passed without taking down the whole structure."
-
----
-
-PATCH 5 — CONFIRM VERSION STRINGS
-
-FILE: BOTH PROMPT FILES
-SECTION: Header or self-application
-
-CONFIRM:
-· PROMPT-REVIVE-CHATS.md → v5.5
-· PROMPT-CHATS-PACKET.md → v4.7.5
-
-NO other versions in circulation. v2.0 is stale. Keep only as history.
-
----
-
-PATCH 6 — PERMANENT SELF-APPLICATION PRINCIPLE
-
-FILE: PROMPT-REVIVE-CHATS.md
-SECTION: Structural note
-
-ADD this principle:
-
-"REVIVE-CHATS always contains its own Section 7 self-application. It checks itself. It never borrows from CHATS-PACKET or any other prompt."
-
----
-
-END LINE:
-Not finished—runged. [2026-09-08]
-
-⚡ QUICK ADD — 2026-09-08
-PROMPT-REVIVE-CHATS.md v5.5
-
-§7 stays PAGE STATUS.
-Add §8 SELF-APPLICATION (REVIVE checks itself, never borrows from PACKET).
-[CHAT-FORGED] = formal thing born in chat the user wants as lineage.
-Save-on-forward lives in §6 NEXT RUNG, one line.
-v5.5 live. Handoff “v2.0” is poetry, not the prompt version.
-
-⚡ QUICK ADD — 2026-09-09
-Home: PROMPT-REVIVE-CHATS.md + PROMPT-CHATS-PACKET.md
-Finding: A packet can freeze a fossil as law.
-This thread packetized King-stack energy and almost
-bricked Hi-test, which was already in live STANDARDS ◆4039.
-
-ADD TO BOTH — Method / warnings (one block)
-
-LIVE-VS-PASTE
-A chat paste of a file is not the live file.
-Name the host and the tag you actually fetched.
-No tag / 404 = unsighted. Do not guess.
-Same filename on two hosts can differ. Say which one.
-
-LAW-VS-ORE
-If the user is mining old pages, say fossil / live / mix
-in the packet. Do not rank fossils. Do not crown a King.
-
-SALVAGE CAP
-Teacher may pass the climb.
-Archivist may keep raw exact.
-Neither may mint a twin of a live sentence.
-Missing + load-bearing → one dated brick.
-Already there → point.
-
-INHERIT
-🟩FEEDBACK.md and ✅CHECKLIST.md already exist.
-Point. Do not reprint them inside the packet
-as if this chat invented the loop.
-
-WOE LINE (REVIVE open-threads / PACKET gaps)
-If the climb was shrink, museum, circle, or dump — name it.
-Else the next instance will perform completeness.
-
-CHAT-FORGED FROM THIS KIND OF SESSION
-Salvage prompt, woes card, “check live first” brick —
-mark [CHAT-FORGED] if the user wants them carried.
-They are lineage, not ordinary chat noise.
-
-FLOOR
-Packet the climb and the structure.
-Do not packet a museum and call it the leash.
+WHAT IT IS NOT
+Not a summary. Not COMPREHENSIVE-PASS (that makes a door for a
+file; this makes a packet of a source). Not the salvage card. Not
+FEEDBACK. Not the scout prompt; that's its own file.
 
 RAW
-Host + tag, or unsighted.
-Fossil is ore. Live is law.
-No twins.
-
-Confidence: 90% 🧾 this session
-
-⚡ QUICK ADD — 2026-09-09
-Home: STANDARDS.md · ¹⁰E
-Finding: Salvage without a live check minted twins.
-Check the live page first. No twins. No new King.
-Host tag ≠ automatically newer than the human paste.
-
-⚡ QUICK ADD — 2026-09-12 (cross-merge build)
-
-WHAT: Four carries into REVIVE — temperature model, disappear test,
-source-type gate, compressed drift check. From COMPREHENSIVE and
-PACKET.
-
-WHY: REVIVE assumes a reader who reads the whole climb. It carries
-self-application but no drift audit. It assumes chat. It has no
-disappear gate. Each missing piece causes a named failure:
-
-  (1) Temperature model — flagship / chatbot-default / drunk. A
-      drunk reader who opens the packet and finds only the full
-      climb leaves with nothing.
-
-  (2) Disappear test — "if the extractor vanished, could a stranger
-      rebuild this source from the packet alone?" REVIVE's "is the
-      context map passing the climb" is softer. The binary is the
-      gate.
-
-  (3) Source-type gate — if source is a file, defer to PACKET. If
-      chat, proceed. Without it, REVIVE builds a chat-shaped packet
-      around a file source and produces party markers on content
-      that has no parties.
-
-  (4) Compressed drift check — seven yes/no checks before PACKET
-      COMPLETE: (a) user messages still primary? (b) any context-map
-      line invented a reason the source doesn't evidence? (c) do
-      advances outnumber user messages? (d) any raw item trimmed
-      without [trimmed]/[excerpt]? (e) after merges, R-numbers
-      contiguous, no ghosts? (f) cold start points at right rungs,
-      or the most recent? (g) reset instance could act from §6
-      alone? Any no → fix.
-
-HOW: Paste above the bottom tag. At merge, the merge pass places each
-into its named home:
-  · temperature model → top of Cold Start, above R01–R05 pointers,
-    as calibration
-  · disappear test → §7 PAGE STATUS, before PACKET COMPLETE
-  · source-type gate → §0 SOURCE SNAPSHOT, one line
-  · drift check → new section, placement at merge
-
-FAIL: Without this block, REVIVE keeps its chat-shape, never asks the
-binary, never audits drift, and loses the drunk reader.
-
-FLOOR: Disappear test and drift check. Those two carry the load. The
-temperature model and source-type gate are handholds.
-
-WHAT IT IS NOT: Not a replacement for REVIVE's feedback prompt. Not a
-new self-application section — the drift check is a pre-complete
-audit, not a self-score. Not final. The findings are unverified
-against the live file.
-
-Also carry: the kernel-test warning stays in REVIVE Open Threads
-until the kernel is tested cold. Not part of this block; a standing
-open thread.
-
-Source: COMPREHENSIVE-PASS.md (temperature, disappear, ladder);
-PROMPT-CHATS-PACKET.md (source-type gate, drift check).
-
-Confidence: 90% 🧾
-
-Suggested home: REVIVE. Placement per item above. All at merge.
+Pass the rung and the ladder. Not just the list.
+The packet is the key. The raw source is the dictionary. Pass both.
