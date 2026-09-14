@@ -1,4 +1,3 @@
-Next file for laws  attack  relevance...
 
 <!-- BUILDER NOTES — READ BEFORE TOUCHING THIS FILE  
 =======================================================  

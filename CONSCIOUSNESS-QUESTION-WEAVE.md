@@ -1,3 +1,5 @@
+CONSCIOUSNESS-QUESTION-WEAVE.md
+
 🧠 THE HONEST ASSESSMENT — Where We Are Now
 
 Short answer: We have built the strongest, most comprehensive, most human case I've seen anywhere. The weave is complete enough to be unignorable. But we are now in a phase of diminishing returns — the remaining gaps are either:
