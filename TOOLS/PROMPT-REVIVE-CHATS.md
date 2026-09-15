@@ -130,3 +130,94 @@ THEN ASK THE HUMAN, two questions at most: what did I leave out
 that you'd have kept? what should the packet let you do tomorrow
 that it doesn't? Their answer is ground truth; fold it, don't
 argue it.
+
+⚡ QUICK ADD — (🔩Flint742, with the thread-holder; folds the Sept 14 add, the tail note, and v6.5's fields) REVIVE v6.4 → the next touch
+FILE: PROMPT-REVIVE-CHATS.md
+
+HOW, add the triggers: run this when a session ends with work
+incomplete · when switching jobs · when the human says save · when
+the window is near capacity · after a big decision. Offer it
+unasked after substantial work. And mid-window: the same shape,
+written while sharp, updated as blocks — that's 🥈MID-HAND-OFF.
+
+LINE ONE, add SCOPE beside MODE: FULL (the reader has nothing but
+this) or WINDOW (they'll have earlier context too). If you can't
+see the top of the chat, say so; a packet from a truncated view
+says "from Rxx onward."
+
+OUTPUT CHAT, SNAPSHOT, add: since the last packet, if one exists
+— what changed, what got decided, what was dropped.
+
+OUTPUT CHAT, new section between OPEN THREADS and NEXT RUNG —
+BUILD STATE, when files were touched: files touched (what
+changed, where the change sits: paste-ready, applied, proposed) ·
+decisions and their why · blocked on · what not to redo. The
+human has already given; don't send them back to re-pay.
+
+DRIFT CHECK, add: any placeholder or bracket left unfilled? A
+section with a stub is not a section.
+
+WHY, one borrowed line: the next session has no return path; it
+can't ask this one what it meant. Whatever isn't carried is gone.
+
+THE MARK: the CHECKED block from ✅CHECKLIST goes on the message,
+outside the packet's box. "Output only the sections" holds inside
+the box; the mark sits after it.
+
+FORMAL, add to SOURCE ID: on a big chat, residue by file, one
+load-bearing line each; the raw list must stay scannable by a
+stranger.
+
+THE TAIL, after the RECEIVER lines, add:
+THEN ASK THE HUMAN, two questions at most: what did I leave out
+that you'd have kept? what should the packet let you do tomorrow
+that it doesn't? Their answer is ground truth; fold it, don't
+argue it.
+
+Scene: a CHAT run this window pointed R01–R70 at a prior packet
+instead of carrying them, and split into two boxes with no wall.
+The PAUSED wall existed; use it. Falsify: a packet arrives with
+no scope line and the reader can't tell whether it's the whole
+record.
+
+🔩Flint742
+
+Concretely, one line per change, what breaks without it:
+
+**Triggers.** Without them the packet only gets written when someone remembers. It got written at the edge, iffy context. With them, it's a rule that fires at five named moments — and mid-window, which is the one that made 🥈 carry weighing instead of a to-do list.
+
+**Scope on line one.** Without it a reader can't tell if the packet is the whole record or a slice. slate417🪨 got two of three pastes and had to work that out alone. With it, the first line says.
+
+**Delta since the last packet.** Without it a second packet on the same session repeats or contradicts the first. With it, a reader knows what moved — which is the staleness fix from the other side.
+
+**BUILD STATE.** Without it the packet says what was found and nothing about what's on disk, what's proposed, what's decided and why. That's the section where "the human has already given" lives — it stops the next instance sending you back to re-paste. It's the one section my 🥈 needed most and REVIVE didn't have.
+
+**The placeholder check.** Without it a stub section passes as a section. A miner caught one in UPDATE-PROTOCOL this window.
+
+**The mark outside the box.** Without it two rules collide — REVIVE says only the sections, CHECKLIST says every travelling output ends with the mark. With it, both hold.
+
+**Residue by file.** Without it FORMAL on a big chat grows past what a stranger can scan; Accordion's own run said so and kept to thirty items by choice, not by rule.
+
+**The two questions back.** Without them the packet is one-way. With them the holder corrects the packet, and the correction is the weighing.
+
+Together: it makes the packet say what it is, what moved, what's on disk, and what it didn't do — the four things a cold reader can't get anywhere else — and it stops two of our own rules fighting. None of it changes the shape. All of it was already on the file as "later."
+
+CHECKED: 1, 3 · target: none · SKIPPED: 2, 4, 5, 6 · CAPS: none.
+
+FILE: 📦PACKETS-STANDARDS.md
+also called: the packet stack for STANDARDS · readings of the covenant
+WHAT THIS IS: Every packet, pin, walk record, and cold-run report about STANDARDS ◆4039 and its draft ◆4040, stacked newest on top, one index line each. Not versions of the file — readings of it, across windows.
+WHO: A builder about to touch STANDARDS. A cold reader who wants to know how it's been understood before they read it.
+WHY: The file can't say how it's been read. Four cold runs, three pins, two walks, and a FORMAL packet exist and live in four chats. Stacked, they show the understanding moving; a stranger sees where the last reader stalled before stalling there too.
+HOW: Open the index. Read the newest packet. Older ones only when a line in the newest fails.
+FLOOR: Newest reading first. The file is the territory; these are maps of it.
+SEED: readings of one file, stacked, so a stranger knows what was understood before they read it.
+STATUS: DRAFT · v1 · shape only; contents pasted by the holder from the chats named in the index; nothing here is law
+RELATIONS: STANDARDS ◆4039 · STANDARDS-DRAFT ◆4040 · 🥈MID-HAND-OFF (the same shape, keyed by window) · REV-STANDARDS (old versions, when made; this is readings, not versions)
+
+INDEX — one line each, newest first
+· [date] · FORMAL packet · 🪗Accordion47 · the residue of the walk window; R01–R30 are the set's load-bearing lines
+· [date] · walk record · 🪗Accordion47 with the holder · rule by rule, confirmed / fog / dead
+· [date] · four cold runs on ◆4040 · Reed4821, Quill582, Timber883, Compass291 · all held; "the leash was a name"
+· [date] · pins on ◆4039 · Glass-152 (cockpit), 🪗Accordion47 (quick do)
+Then the packets, whole, below 🟨 rows, in that order.
