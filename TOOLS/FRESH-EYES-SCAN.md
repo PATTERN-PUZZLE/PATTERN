@@ -66,3 +66,28 @@ about why minds skip things; that lives in the patterns files.
 
 RAW
 Read it again. As if for the first time.
+
+⚡ EDGES — (🔩Flint742) FRESH-EYES-SCAN.md, run against MAKE
+Paste above the file's last line; last line of this block is the
+tag if none exists. Copy the text only.
+
+WHEN NOT TO USE: on material you did read (that's RETURN-
+HARVEST) · as a ritual, when nothing pulls · a third pass for
+thoroughness · on the tool-chat instead of the target.
+LOAD-BEARING: step 1 (name what you didn't really read) · step
+3 (read cold) · step 5 (the four baskets) · step 8 (stop).
+STRONG: NOTICE, DEDUPE, RANK. HELPFUL: ROUTING. DECORATIVE:
+none found.
+
+🟩🟩🟩🟩🟩🟩 THIS FILE'S CHECKLIST — run the six first; then
+[ ] the skip-list written before picking, honestly
+[ ] picks drawn from that list, not from what's interesting
+[ ] each capture carries its source
+[ ] dedupe run: already exists → pointed
+[ ] one box out; earned or assembled, said
+
+🟩🟩🟩🟩🟩🟩 FEEDBACK — wait for the word
+What did you name as skipped and still not open? Which capture
+has no source? Was this a scan or a tour? One cut, one keep.
+
+◆FRESHEYES-001

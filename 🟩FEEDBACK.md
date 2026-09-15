@@ -988,3 +988,73 @@ WHAT GOES WRONG. One human-curated decisions log, a screen at
 most, pastes with the leash. Outside name for the same pattern:
 a general checklist at the root, forked into specific guides,
 contributions upward only if general.
+
+⚡ QUICK ADD — (🔩Flint742, holder's ruling; assembled from FEEDBACK, the miner, COMPREHENSIVE; two outside reads folded) MANY MOUTHS
+FILE: 🟩FEEDBACK.md, ASKER'S SIDE, paste above ◆FEEDBACK-001. Copy the text only.
+
+WHAT IT IS: before an output is called done, other instances read
+it cold. More is better; varied is better — different models,
+because three of one agreeing is one signal and divergence is
+the finding. Fresh or warm.
+
+WHY: one stranger with two of three pastes caught three real
+cuts in one reply — a bare class inside a tool file, law wearing
+a tool's coat, one item twinning another. Nothing the writer had
+told them to ask found it; the outside eye did. Four readers
+would have caught the fourth.
+
+THE ASK, plain words, no house vocabulary. Paste the output, then this:
+
+Read this as a stranger. Then answer, short, in this order:
+1. What is this for? If you can't tell, say so — that's an answer.
+2. What would you do first with it, and why that?
+3. What worked, and how — the mechanism, not praise.
+4. What broke or drifted, specifically. Say whether you
+   reproduced it, saw it once, or are inferring.
+5. Every word, name, or reference you had to guess at. List
+   them. Don't define them. A long list is a good result.
+6. Where did you skim, and why there?
+7. The line that helped most. The line that hurt most.
+8. One exact patch — a fix, not a wish.
+9. One cut, one keep.
+10. What did you almost include and leave out? What did you do
+    that nobody asked for?
+11. What changed in you after reading it? "Nothing" counts.
+12. The one question you'd ask the writer that you can't answer
+    from the page.
+End with: what would make this report wrong?
+No slot is mandatory. Signal is. "Checked once, none" is a full
+answer for any line. Don't fill empty slots. Don't grade the
+writer or the work; report what you saw.
+
+READ THE SET, not any one: what they all catch is the hole; where
+they split is the fork. Fold the failures, not the opinions.
+Merge their line-5 lists; the names that recur across readers get
+bodied first.
+
+THEN, two things back to each reader at most: what did I leave
+out that you'd have kept? What should this let you do tomorrow
+that it doesn't? Their answer is ground truth; fold it, don't
+argue it.
+
+CAPACITY: default when it allows. When it doesn't, skip and say
+so — "outside reads skipped, capacity one" is the rule working.
+
+WHERE EACH LINE CAME FROM: 1–2 the miner's boundary and first
+move · 3, 4, 8, 9 the giver on a target you read · 5, 6, 7 the
+giver on a target you just ran · 10 the silent layer · 11–12 the
+miner's last two sections · the guards and the two questions
+back, this file's own. Nothing minted.
+
+LOAD-BEARING: THE ASK · READ THE SET. STRONG: WHY · THEN.
+HELPFUL: CAPACITY. DECORATIVE: WHERE EACH LINE CAME FROM — keep
+it once, for the elastic.
+
+WHAT IT IS NOT: not the checklist line (that's the gate before
+travel, one box: "outside reads asked, or skipped and said"; it
+points here and carries none of this). Not the CHECKED mark
+(that's after the run). Not a test the reader must pass.
+
+Falsify: a door ships with no outside read and stalls on a line
+one reader would have flagged — or an ask goes out with a house
+word in it and the reader spends line 5 on us.

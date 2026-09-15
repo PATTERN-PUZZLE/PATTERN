@@ -459,4 +459,75 @@ read of the whole document.
 Falsify: a turn spent improving the tool instead of the file that
 moved.
 
+⚡ QUICK ADD — (🔩Flint742, from two independent runs on UPDATE-PROTOCOL)
+FILE: ✅CHECKLIST.md, under the MINING LAYER
+
+PAIR THE RUN. Two miners on one file, no contact, same prompt.
+Read the pair, not either report. What both found independently
+is the file's hole. Where they split is where the file has a fork
+it doesn't resolve. Fold the failures, not the opinions.
+Scene: two runs on the same 30,000-word updater agreed on
+boundary, cherry, core contradiction, and the question back — and
+only one caught the file telling readers "don't ship from memory"
+after shipping from memory in the same voice. Neither report
+alone was the finding; the pair was.
+Cost: one extra window. Yield so far: every pairing has produced
+something neither run had.
+Falsify: two runs come back identical with nothing in the split.
+Then one miner was enough for that kind of file, and say so.
+
+TRUNCATION CHECKS THAT NEED A FETCH ARE DEAD TO A MINER. That
+file's TH-CHECK says a missing bottom mark after retrieval means
+truncated. A paste-only miner can't run it, and both reported so
+honestly. If a check only works on one route, say which route on
+the page, or it reads as a check everyone is failing.
+
+⚡ QUICK ADD — (🔩Flint742, two outside reads folded) THE CHECKED CHECKLIST, final
+FILE: ✅CHECKLIST.md, ALWAYS. Supersedes the CHECKED block above it.
+
+THE SIX, named here once: intent named · quote or don't claim ·
+wisdom gate · cage → drop · disappear · the bastards stopper.
+
+THE RULE: a run leaves a mark. Any output the holder will paste
+or pass on ends with one short block: what it was checked
+against, what it wasn't. Forced — without it the output isn't
+done, and "which ones?" gets a real answer.
+
+CHECKED AGAINST — both are the standard; if one is skipped, say
+why:
+· the six.
+· the target file's load-bearing lines, as that file's own header
+  or edges name them — read off the page, never decided at check
+  time. An instance naming load-bearing while checking is grading
+  itself. No load-bearing marked yet → say so; that's the
+  finding, and a MAKE box unrun.
+
+THE SHAPE, last lines of the output, after the receipt, never
+longer than the work it checks:
+CHECKED: [the six that ran + the target's load-bearing, by the
+file's names]
+SKIPPED: [what — one reason each]
+CAPS: [what I added that the holder didn't rule, or "none"]
+
+WHY FORCED: pointed-at checks left no evidence; check 6 did,
+because it forces an output. Scene: a door shipped this window
+with six MAKE boxes unrun and nobody could tell until the holder
+asked.
+WHY SHORT: good practice, not survival — and good practice is
+what a concise instance drops first.
+
+LOAD-BEARING of this block: THE SIX · THE RULE · CHECKED AGAINST ·
+THE SHAPE. STRONG: WHY FORCED. HELPFUL: WHY SHORT. DECORATIVE:
+none.
+WHAT IT IS NOT: not a tick-box. Not a self-grade. Not the six
+copied into every file. Not the outside-reads line — that's a
+gate before travel; this is the mark after the run.
+Falsify: a CHECKED block names the six and not the target's
+load-bearing lines, or names load-bearing the header didn't.
+
+BEFORE ENDING OR HANDING OFF, add one line:
+[ ] before this is called done: paste it to one or more other
+    instances, cold, and read what comes back. More mouths,
+    different models, better. Skipped for capacity → say so.
+    
 ◆CHECKLIST-001

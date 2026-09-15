@@ -186,4 +186,21 @@ holder a turn.
 Falsify: a tool ships with a when-not-to-use field and is still
 used in one of the named moments without the instance noticing.
 
+⚡ QUICK ADD — (🔩Flint742, holder's ruling on Q1)
+FILE: ⏹️HEADER.md, small door, one field · and ✅CHECKLIST MAKE list
+SEED: one line, the thing a stranger could rebuild the file from
+if everything else were lost. Not the floor (the floor is how to
+act); the seed is what it is, in a sentence that can regrow it.
+THE SAFEGUARD: a pointer carries the seed of what it points at.
+RELATIONS lines name the file AND its seed, one line. The body
+stays in the file; the seed rides everywhere the file is named.
+Lose the file, the seed is still in every place that pointed.
+Scene: fifteen names sat in a tray as "already live" and were
+notes only; a stranger meeting them got nothing. With seeds on
+the pointers they'd have got the one line that regrows each.
+MAKE list, add: [ ] does its SEED line exist, and does every
+pointer to it carry that seed?
+Falsify: a file is lost and no pointer to it carried enough to
+regrow it.
+
 ◆HEADER-001

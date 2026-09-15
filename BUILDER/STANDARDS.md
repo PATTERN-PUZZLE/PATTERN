@@ -702,3 +702,71 @@ shows up because nine ran.
 FLOOR: same paste, several cold minds, fold the failures.
 Falsify: a parallel run where the holder sends context, and all
 four come back agreeing.
+
+⚡ QUICK ADD — (🔩Flint742, with the thread-holder) PROVISIONAL, and
+what this window made into law
+FILE: STANDARDS-DRAFT.md, bottom. Copy the text only.
+
+STATUS, new state: PROVISIONAL. A merged or folded file that is
+not yet trusted. The originals it folded stay LIVE beside it;
+both are pointed at; the merged one says on line one "provisional;
+originals live at X." It becomes LIVE when: one cold run held ·
+used on real material more than once · the holder says so. Until
+then, twins on purpose. Ledger mark: ⏳. Nothing this window
+merged is past PROVISIONAL.
+
+RULE 14 / 15, the law-tool test: into STANDARDS if it binds
+across every file; stays a file if it gets pasted to do a job.
+The rule in STANDARDS carries the file's seed and points; it
+never replaces the file. Mind rooms and scars never fold in.
+Scene: CHAT-TAG — the rule (⁷M) is here, the forge stays in the
+file; a rudimentary activation gets the rule, a full paste gets
+the file. Falsify: a tool's body gets folded into a rule and the
+file stops being pasted.
+
+RULE 3 / 14, add: SEED ON POINTERS. Every pointer carries the seed
+of what it points at — one line a stranger could regrow the file
+from. The body stays in the file; the seed rides everywhere the
+file is named. Lose the file, the seed survives in every place
+that pointed.
+
+RULE 16 / check 6, add the third kind: a PERMISSION. An allowance
+an instance grants that the holder didn't. It reads as a
+technical detail and it's a ruling, and it travels into prompts
+and runs in windows nobody sees. Cap · demotion · permission;
+all three are the holder's to strike.
+
+RULE 4, add the update floor: one target, one block, sighted or
+red. Name the target or you're not updating. Update the target,
+not the protocol.
+
+RULE 7, add: a packet is current only to its last dated block;
+the reader asks what moved before acting; the writer's last act
+in a window is that block.
+
+RULE 8 / 13, add: PAIR THE RUN. Two cold readers on one file, no
+contact; what both find is the file's hole, where they split is
+the fork; fold the failures, not the opinions. And the
+untranslatable list is the transmission's health metric: shrinks
+across trips → the web is holding; same names five times → the
+names are decorative.
+
+RULE 14 / 15, add: two kinds of file, two checks. Transmission
+(does a cold reader arrive further along) · assistance (does it
+fire at the moment and produce a paste). Scars are the elastic,
+not a third kind.
+
+RULE 5, add: address rot. A file carrying a pre-move address is
+PRE-MOVE, not dead; read past the address, say so when pointing;
+sweep when the holder says.
+
+RULE 12, add: three close-states, kept separate — answered ·
+deferred · resolved itself. And expiry.
+
+RULE 7, add line 0 from +PLAN: planning how to speak is a
+decision. Run it. Don't call it meta.
+
+Falsify: a merged file goes LIVE with its originals retired and
+then loses a line nobody can regrow → PROVISIONAL wasn't held.
+Fortify: the ledger line for every merge reads ⏳ until the
+holder changes it.

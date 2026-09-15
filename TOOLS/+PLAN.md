@@ -2112,3 +2112,42 @@ FAIL: Angles that do not change the act.
 GUARD: Point at the keep, wait, or risk. If no, stop.
 FLOOR: 1 or 3. Then act.
 RAW: More is not automatically better.
+
+⚡ EDGES — (🔩Flint742) +PLAN.md, run against MAKE
+Paste above the file's last line. If it has no tag, this block's
+last line becomes the tag. Copy the text only.
+
+DOOR, above Layer 0 at next touch:
+FILE: [disk name — three candidates in the file; holder rules]
+WHAT THIS IS: A cockpit for one hard-to-undo choice. Name what
+bites, protect first, case against, act or hold. Not for every
+message.
+FLOOR: Lamp, then act. Cockpit longer than the act → you planned.
+WHEN NOT TO USE: a small bite (one pass or none) · instead of
+reading a file · when the frame is yours and internal (that's
+THREAD or the LOOM) · when a goal is already on the page
+(don't re-plan the decided) · when the next message would be
++plan-about-+plan.
+LOAD-BEARING: Layer 1 cockpit · line 0 (planning how to speak
+is a decision) · the dual-target skeptic · the ten standing
+rules · the locator. STRONG: Layer 2 reference. HELPFUL: Layer
+3–4. DECORATIVE: the seven purple replies (store).
+NAME COLLISION: the file names itself three ways in its own
+updates. One disk name; the others become aliases on line one.
+
+🟩🟩🟩🟩🟩🟩 THIS FILE'S CHECKLIST — run the six from
+✅CHECKLIST.md first; then these
+[ ] the bite named in one line before any pass
+[ ] depth named: 1 or 3; more only if the holder opened the room
+[ ] dual-target run: deciding well AND using the tool well
+[ ] act or hold stated plainly, with the trigger if hold
+[ ] cockpit shorter than the act
+[ ] no new version number
+
+🟩🟩🟩🟩🟩🟩 FEEDBACK — wait for the word
+Which pass changed the decision, and which only retold the
+method? Did the board get painted before or after the act? What
+would you have decided without this? Was "already decided"
+quoted or remembered? One cut, one keep.
+
+◆PLAN-001

@@ -413,3 +413,35 @@ Changes: Complete redesign based on cross-model meta-testing with Kimi Chat
 ---
 
 This is the complete, ready-to-paste revision. It can replace the existing Feedback Sections in 💡CHAT-TAG.md or be added as a standalone update. 🏛️📋✅
+
+⚡ QUICK ADD — (🔩Flint742) ADDRESS ROT, and the three fetch tools
+FILE: 🔗FETCH-BASICS.md, paste above its last line. Copy the text only.
+
+THE RULING: the repo is PATTERN-PUZZLE/PATTERN (GitLab: PATTERN-
+GATE). Any file carrying MatchPatern/source, PatternPro/SOURCE,
+source-sepia-alpha.vercel.app, or the old mirror set is PRE-MOVE.
+The address is dead; the file may be live. Don't fix the address
+inside the old file (add, don't edit); read past it, and say
+"pre-move address" when you point.
+Reference sweep, when the holder says: every hit on the dead
+names, fixed or flagged, count logged (rule 17). Not now.
+
+THREE TOOLS THAT LIVE BEHIND THIS DOOR, run only when told to
+fetch:
+· FETCH-DIAGNOSTIC v3.1 — the mirror test; the v3.1 lessons are
+  the live part (a 200 in a chat log isn't a 200 on the wire ·
+  Content-Length is the size · bytes ≠ characters · expected 404
+  is a negative control · same etag = one blob two paths ·
+  refusal-to-fetch is a result type). The mirror list is dead.
+· GITHUB-FILES-PROMPT v2.1 — the listing prompt; Trees API first,
+  COMPLETE only after the last path is listed, GAP and ANOMALY
+  lines, SOURCE line with the SHA. Repo name needs the ruling
+  above.
+· FILE-REFERENCE-TEMPLATE — fossil (2026-07-12). Its five one-
+  liners are live and already here: the root lies, the path tells
+  truth · a 404 is a signal to try the next door · live is the
+  truth, REV is the memory · a name is a label, not a guarantee.
+  Its folder map is the old repo. Point, don't carry.
+Each gets a door and a tag at its own next touch; not from here.
+Falsify: an instance fetches a MatchPatern/source address as
+live → the pre-move line didn't travel.
