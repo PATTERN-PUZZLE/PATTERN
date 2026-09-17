@@ -1,3 +1,10 @@
+🐙GITHUB-DIRECTORY.md
+
+2 OPTIONS 1: get a DIR List
+          2: get script to make links
+
+To run a links script see 2nd set below first.
+
 Can we omit folders and files?
 
 Omit Folders:
@@ -17,7 +24,9 @@ SORT
 SORT-SET1
 TROLLEY
 
-🟩🟩🟩🟩🟩🟩
+🟩🟩🟩🟩🟩🟩 
+💥Run after copy files into UPLOAD 📂FOLDER:
+
 TERMUX PASTE STEP 1:
 
 cat > ~/list-files.sh << 'EOF'
@@ -64,7 +73,138 @@ TERMUX PASTE STEP 2:
 
 
 
+🔗🔗🔗🔗🔗🔗🔗🔗🔗🔗🔗🔗🔗🔗
+You want a script that:
 
+1. Generates the GitHub directory listing
+2. Prefixes each path with the raw base
+3. Creates the Basic-Lnk-GITHUB.md sheet
+4. Does the same for GitLab (sed swap)
+
+---
+
+THE SCRIPT
+
+```bash
+cat > ~/generate-links-full.sh << 'EOF'
+#!/bin/bash
+# generate-links-full.sh — PATTERN link sheet generator (FULL)
+# Includes ALL folders except .git and SPLIT
+# Usage: ~/generate-links-full.sh [github|gitlab|both]
+
+cd /storage/emulated/0/UPLOAD || exit 1
+
+GITHUB_BASE="https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main"
+GITLAB_BASE="https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main"
+
+MODE="${1:-both}"
+
+generate_list() {
+  local BASE="$1"
+  local LABEL="$2"
+
+  echo "═══════════════════════════════════════"
+  echo "🔗 BASIC-LNK-${LABEL^^}-FULL.md"
+  echo "═══════════════════════════════════════"
+  echo ""
+  echo "📁 Base: $BASE"
+  echo ""
+
+  # ROOT FILES FIRST
+  echo "## ROOT FILES"
+  echo ""
+  find . -maxdepth 1 -type f ! -path "./.git/*" -print | sort | while read f; do
+    path="${f#./}"
+    encoded=$(echo "$path" | sed 's/ /%20/g; s/+/%2B/g')
+    echo "• 🔗 $path"
+    echo "  $BASE/$encoded"
+    echo ""
+  done
+
+  # THEN FOLDERS (except .git and SPLIT)
+  find . -maxdepth 1 -type d ! -name "." ! -name ".git" ! -name "SPLIT" -print | sort | while read d; do
+    folder="${d#./}"
+    echo ""
+    echo "═══════════════════════════════════════"
+    echo "📂 $folder/"
+    echo "═══════════════════════════════════════"
+    echo ""
+
+    find "$d" -type f ! -path "*/.git/*" -print | sort | while read f; do
+      path="${f#./}"
+      encoded=$(echo "$path" | sed 's/ /%20/g; s/+/%2B/g')
+      echo "• 🔗 $path"
+      echo "  $BASE/$encoded"
+      echo ""
+    done
+  done
+
+  echo ""
+  echo "═══════════════════════════════════════"
+  echo "END — $(find . -type f ! -path "./.git/*" ! -path "./SPLIT/*" | wc -l) total files"
+  echo "═══════════════════════════════════════"
+}
+
+if [ "$MODE" = "github" ] || [ "$MODE" = "both" ]; then
+  generate_list "$GITHUB_BASE" "GITHUB"
+fi
+
+if [ "$MODE" = "gitlab" ] || [ "$MODE" = "both" ]; then
+  echo ""
+  echo ""
+  generate_list "$GITLAB_BASE" "GITLAB"
+fi
+EOF
+
+chmod +x ~/generate-links-full.sh
+```
+
+---
+
+RUN IT:
+
+🐙GitHub only:
+~/generate-links.sh github
+
+🦊GitLab only:
+~/generate-links.sh gitlab
+
+🐙🦊Both:
+~/generate-links.sh
+
+Save to file:
+~/generate-links.sh both > ~/Basic-Lnk-ALL.md
+
+---
+
+WHAT IT INCLUDES:
+
+Folder Included?
+.git ❌ Excluded
+SPLIT ❌ Excluded
+BUILDER ✅
+CODEX ✅
+COMPACT ✅
+DECEPTION ✅
+DOOR ✅
+FEEDBK ✅
+INS ✅
+LOG ✅
+LOOM ✅
+PILLAR ✅
+QA ✅
+RAW ✅
+REV+PACKET ✅
+SCOUT ✅
+SKILL ✅
+SORT ✅
+SORT-SET1 ✅
+SYNTH ✅
+TOOLS ✅
+TROLLEY ✅
+All root files ✅
+
+---
 
 
 🟪🟪🟪🟪🟪🟪

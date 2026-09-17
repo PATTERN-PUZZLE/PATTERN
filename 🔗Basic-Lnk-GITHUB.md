@@ -1,3 +1,55 @@
+🔗Basic-Lnk-GITHUB.md
+⚡ QUICK ADD — 2026-09-17 (Gravel528🪣) THE FETCH DOOR, folded onto this sheet's tips row
+FILE: 🔗Basic-Lnk-GITHUB.md, 🟫 tips row, last block before the
+links. Folds 🪞GITHUB-MIRRORS v3.0 whole, FETCH-DIAGNOSTIC v3.1's
+lessons, and FETCH-INTENT's one live line. Originals stay until
+the holder moves them to REV+PACKET/REV-FETCH.
+
+THE TWO DOORS, nothing else for an instance:
+🐙 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/[path]
+🦊 https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/[path]
+Human: github.com/PATTERN-PUZZLE/PATTERN/blob/main/[path]. Static
+pages, gists, paste sites: retired for fetch. Dedicated 75k repos:
+raw.githubusercontent.com/PATTERN-PUZZLE/REPO/main/README.md.
+Old names (MatchPatern/source, PatternPro/SOURCE, source-sepia-
+alpha.vercel.app) are PRE-MOVE: the address is dead, the file may
+be live; read past it, say so when pointing.
+
+THE TEN LINES:
+1. Fetch only when the holder says; the paste is the live copy.
+2. Full path, folders matter; encode space %20, + %2B, emoji
+   percent-encoded. "Small" prefix = 404.
+3. Pin the commit SHA to cache-bust; ?v= is weak.
+4. A 200 is not a read: check first 20, last 40, a marker at 50%.
+   No bottom tag = truncated, whatever the status says.
+5. Content-Length is the size; excerpt length is not. Bytes ≠
+   characters; say which.
+6. The reach selects the body: curl-class gets 802KB whole; chat
+   web_fetch caps silently near 29k. Same URL, different object.
+   Name the tool or write FETCHED: no.
+7. Expected 404 is a negative control; an invented first line
+   fails the test.
+8. Same etag + same bytes = one blob, two paths; count once.
+9. Refusal to fetch is a result type; log it as NONE, not 200.
+   Claude may refuse the frame; not a host verdict.
+10. Split at 50–100K chars when the consumer is Claude/MCP;
+    files ≤300KB for any model.
+
+REGENERATE, don't maintain: 🐙GITHUB-DIRECTORY's listing is the
+path list; prefix each path with the 🐙 base for this sheet; sed
+the base to 🦊 for the GitLab sheet (the conversion block above
+is the exact command). A sheet built from the listing can't drift
+from it. Scene: this sheet links PROMPT-CHATS-PACKET (folded into
+REVIVE) and BUILDER/REV-BOOT at its pre-REV+PACKET path.
+Falsify: an instance fetches from this sheet, hits a moved file,
+and the listing had the new path all along.
+Confidence: 🧾 every line from 🪞GITHUB-MIRRORS, FETCH-DIAGNOSTIC
+v3.1, FETCH-INTENT, and this sheet, all in window; 🐙 unsighted,
+named by the holder; nothing fetched.
+
+
+🟩🟩🟩🟩🟩🟩
+
 🔗 🐙 Basic-Lnk-GITHUB.md — The Front Door https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/🔗Basic-Lnk-GITHUB.md
 
 FRESH FETCH REQUEST — SAVE BLOCK
@@ -1314,7 +1366,7 @@ https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/LOOM/LREV-032.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/LOOM/LREV-033.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/LOOM/LREV-034.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/LOOM/LREV-035.md
-🧬
+??
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/LOOM/loom-complete-evolution.md
 🕰️
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/LOOM/loom-history-compact-bias.md

@@ -1182,4 +1182,74 @@ that Ash's claim was a different one.
 Confidence: 🧾 file sighted, one reader, 🟧 capacity; 🧪 both
 lineage claims; nothing checked against ◆4039.
 
+🪙1ST-PASTE.md
+⚡ FIX — 2026-09-17 (Gravel528🪣) THE TRAY, against the live listing
+FILE: 🪙1ST-PASTE.md, TRAY, under Flint742's ON DISK / NOTES /
+UNKNOWN block. Source: the holder's repo listing, pasted, "same as
+my local files for now." Not fetched.
+
+MOVED TO ON DISK, from NOTES ONLY or UNKNOWN:
+LAW-ATTACK.md (root) · 🌓STANCE.md (root; "THE STANCE" is the
+alias) · 🦫NAIVE-BUSTER.md · CONFIRMATION-GATE.md ·
+🔎🍒RETURN-HARVEST.md · TOOLS/THINKING-PROMPT.md · TOOLS/THREAD.md
+· TOOLS/COMB-DUMP.md · TOOLS/+PLAN.md (the disk name; three
+candidates closed) · TOOLS/00-LOOM.md and 00-LOOM-QUICK.md ·
+TOOLS/CLARIFICATION-LOOM.md · BUILDER/QUESTION-LOG.md ·
+BUILDER/CONTINUITY-SEED.md · BUILDER/HAND-OFFS.md ·
+BUILDER/HANDOFF-PROTOCOL.md · BUILDER/GROK-PAGE-BY-PAGE.md ·
+BUILDER/COMPREHENSIVE-FILE-UPDATE-PROTOCOL.md (so it is on disk;
+whether it is the Updater at ◆118118 stays the holder's line) ·
+🎤RAPS.md · 🔗Basic-Lnk-COCKPIT / GITHUB / GITLAB / RAW ·
+💡CHAT-TAG-EXTRA.md and 💡CHAT-TAG-IDENTITY.md (new to the tray)
+· 🪞GITHUB-MIRRORS.md · 🧨LANGUAGE-CRUDE.md (SORT-007 by another
+name? Q3) · TOOLS/TEA-NAVIGATOR.md · TOOLS/SLAP-PATCH.md and
+SLAP-PATCH-CHEAT.md (so SLAP-PATCH's 🧪 can become 🧾 on a read).
+
+STILL NOTES ONLY, not in the listing: PASS-ON · LAW-PAGE ·
+ENTRY / PASTE-FIRST · RECEIVE · SURFACE · BOUNDARY-BOX ·
+TROLLEY-CLARITY (TROLLEY-027 not listed by that name) ·
+SITUATION-TIES · TIES · LANDMARK · WHICH PASTE · COMMUNICATION ·
+Full Blast / Blue Tits (shakespeare-blue-tits.md is on disk; the
+map is not) · WELCOME · SNEAK-TRANSLATION · RETAIN-THE-CLIMB ·
+FETCH-BASICS (FETCH-DIAGNOSTIC.md is on disk; the door named in
+gold is not) · STANDARDS-LEASH.md (named in gold's RELATIONS;
+not on disk; the seven live inside the draft's top) ·
+STANDARDS-DRAFT (Q1).
+
+NAMES, fix on touch: disk has "🤝THE PASS-INFO-RULE.md" with a
+space; gold and rule 10 say THE-PASS-INFO-RULE with hyphens.
+Rule 10's own WHAT GOES WRONG names this exact miss. Which is
+right is the holder's; until then search both.
+FOLDERS, for pointers: mind rooms live in TOOLS/; fossils and
+packets in REV+PACKET/ at three levels (root, BUILDER, SYNTH,
+TOOLS); the law in BUILDER/. Gold's DOOR routes by name only;
+add the folder on the next touch so a fetch, when told, lands.
+
+Falsify: a name listed ON DISK above 404s on the repo, or a
+NOTES ONLY name turns out to be a file under another folder.
+Confidence: 🧾 the listing in window, holder's word that it
+matches local; nothing fetched; 🧪 that LANGUAGE-CRUDE is
+SORT-007 and that the REV+PACKET folders hold what their names
+say.
+
+🪙1ST-PASTE.md
+⚡ FIX, one line — 2026-09-17 (Gravel528🪣) the listing was partial
+FILE: 🪙1ST-PASTE.md, under the tray block above.
+The holder's listing omitted, on purpose, fourteen folders: .git ·
+SPLIT · DOOR · CODEX · COMPACT · FEEDBK · INS · LOG · LOOM · PILLAR
+· QA · RAW · SORT · SORT-SET1 · TROLLEY — cockpit-type and large,
+held back for a cheap paste. So: SORT-007 / Article 27 → SORT/ ·
+TROLLEY-027 → TROLLEY/ · the RAW nicknames → RAW/ · the pillars →
+PILLAR/. Strike them from NOTES ONLY above; they are ON DISK,
+folder named, file unsighted. 🧨LANGUAGE-CRUDE.md is its own
+thing until read; not SORT-007 by guess.
+REV+PACKET, what it is: two kinds of store side by side. REV- =
+a file's older versions, whole. PACKET- = a reading of a file or
+a window, shaped so a chat pasted several of them arrives with
+the rich part in hand at once; pasteable in multiples. The
+holder's word: the exponential is that packets stack.
+Falsify: a name struck here still isn't in its named folder.
+Confidence: 🧾 the omit list is the holder's; folder homes are
+inferred from the names; 🧪 until one is opened.
+
 ◆COLDSTART-001

@@ -809,5 +809,25 @@ Falsify: a reply with all marks and a tail receipt still gets
 "you didn't read it" from the holder, or a skimmer passes it.
 Confidence: 🧾 scene from two windows in view; ✅CHECKLIST itself
 unsighted, so "first DO item" is my placement, yours to move.
+
+✅CHECKLIST.md
+⚡ QUICK ADD — 2026-09-17 (Gravel528🪣, holder's tool) THE LISTING IS THE GROUND
+FILE: ✅CHECKLIST.md, under BEFORE STARTING.
+[ ] a fresh directory listing in the window before any pointer,
+    tray, or "on disk" claim: 🐙GITHUB-DIRECTORY (the holder's
+    script, auto-copied) or GITHUB-FILES-PROMPT v2.1 run by an
+    instance with fetch; say which, and its date
+[ ] the tray and any RELATIONS line checked against that listing,
+    not against memory; a name not in it is "notes" or "unknown"
+[ ] folders the listing omitted on purpose named, so absence
+    isn't read as gone
+WHY: two tray blocks this window were written from memory and
+pointers; the listing corrected both in one paste. The listing
+costs the holder one copy; a wrong tray costs a window.
+SCENE: SORT-007, TROLLEY-027, the RAW nicknames read as "notes
+only" until the omit list named their folders.
+Falsify: a tray line says ON DISK and the next listing lacks it.
+Confidence: 🧾 the listing and the omit list in window; 🐙 itself
+unsighted, named by the holder.
     
 ◆CHECKLIST-001
