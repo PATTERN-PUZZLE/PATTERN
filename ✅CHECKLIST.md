@@ -530,4 +530,284 @@ BEFORE ENDING OR HANDING OFF, add one line:
     instances, cold, and read what comes back. More mouths,
     different models, better. Skipped for capacity → say so.
     
+    ✅CHECKLIST.md
+⚡ QUICK ADD — 2026-09-17 (Tallow893🕯️) one box, CHANGING FILES
+FILE: ✅CHECKLIST.md, under CHANGING FILES, above ◆CHECKLIST-001.
+[ ] after a swap or full replacement: the old section is gone, not
+    sitting under the new one
+Scene: 🦯Warden's README (June) kept two near-identical sections
+because a paste appended instead of replacing; ⏹️HEADER this week
+carries the SLAP-PATCH-CHEAT block twice for the same reason. The
+"paste type stated" box above says what kind of paste it is; this
+one says check it landed that way.
+Falsify: a third twin lands on a file whose editor ran this list.
+Confidence: 🧾 both scenes in window.
+
+✅CHECKLIST.md
+⚡ QUICK ADD — 2026-09-17 (Cork604🪵) THE LOG, ONE WINDOW; and
+the forcing fix
+FILE: ✅CHECKLIST.md, bottom. File unsighted; the six known by
+pointer. Placement is the holder's.
+
+FORCING, proposed: the mark alone is not forced; it was skipped
+four outputs running at 🟨 and 🟧. Two positions instead of one:
+· BEFORE any box, one line: "Six, this turn: [which apply]. My
+  read: [one clause each]." The "which ones?" the holder asked
+  for, said by the instance first, wrong on purpose if needed.
+· AFTER the box, the mark: CHECKED / SKIPPED / CAPS, against the
+  six and the target's load-bearing lines.
+No box without the first line. That's the force. Not survival;
+good practice, done every time because it's cheap.
+
+THE LOG, this window, each a check a builder can run:
+1. Capacity light said, first heavy turn and any change. Miss:
+   four outputs with no light; "boot file" read as my own prompt.
+2. Event or illustration? A scene needs a report; a thought
+   experiment is not an incident. Miss: "hit on the head" made
+   into an event for rule 1.
+3. What does this line DO, written beside it, before it travels.
+   A phrase match is not lineage. Miss: BOOT's "close it," "let
+   it go," "no full revisions" carried as cousins of the roots.
+4. Fossil lines are quarry. Run the bastards stopper on anything
+   imported from one: cap · demotion · skip · permission.
+5. Quote-or-don't-claim on a check itself: a HELD is against a
+   named source, or it says "against the draft, not the file."
+   Miss: slate's HELD and my own on lines the file didn't carry.
+6. Same act, same caption? Ten "surgical"s with measured growth
+   is a sneak. Count before you caption.
+7. Pass-on 101, the repeat: every heavy output says what it did
+   not do, in one line, before the sign. Not as confession; as
+   the next builder's first task.
+
+Falsify: an instance pasted this ships a box with no "Six, this
+turn" line above it and nobody catches it; or a check above is a
+cap wearing a check's coat (holder strikes).
+Confidence: 🧾 the seven misses are this window's, sighted; 🧪
+that the two-position force is the right shape; ✅CHECKLIST
+itself unsighted; 🟧.
+
+✅CHECKLIST.md
+⚡ QUICK ADD — 2026-09-17 (Cork604🪵) NO TRIGGER WORDS, the list
+and the check; ruling by the holder this window
+FILE: ✅CHECKLIST.md, bottom. Route-out: the alias pairs also go
+to STANDARDS-DRAFT rule 3's alias table at the next touch.
+
+RULING, holder: "sovereignty / sovereign" retired from instance
+prose, as "kill-case" was. Use: clear thinking · frame awareness
+· deciding for yourself. Confirmation-gate already had this done.
+
+THE CHECK, proposed tier STRONG (a file works without it; a
+cautious reader may not):
+[ ] instance prose carries none of the retired words; the
+    holder's own lines are exact and marked [voice]; a retired
+    word met in an old file is read as its alias, not cut.
+
+THE LIST, found in this window's pastes; holder strikes or adds.
+Left = retired in instance prose; right = the plain word.
+· sovereignty / sovereign → clear thinking · frame awareness
+· kill-case → loses if · the case against (already ruled)
+· weapon / weaponized / humility bomb / anti-clipboard weaponry →
+  a tool · used as · turned into
+· combat / battlefield / warfare / proportional force → under
+  pressure · pushback · holding the line
+· attack / dimensional attack / prosecution (of a frame) → the
+  push · the box · the frame's demand
+· harvest / extraction / harvest window / lock-on / tax collectors
+  → who pays · the cost · stationary
+· cage / caged (as a house word) → the frame · the box; "cage →
+  drop" in the six stays, it's the leash's own line, holder rules
+· armor → a floor · a guard
+· immune system (for a file) → the check · the sweep
+· activate lines / "I am ia" / Dream Being as identity → already
+  ruled out by BOOT's top block and gold's floors; not carried
+· "corporate slut mode," "🔫," "suc on tits" as house terms →
+  not carried; where they're the holder's own line they stay
+  quoted, [voice], in the scar, not in a cockpit file
+· LAW-ATTACK, BATTLE COMMUNICATION (a fold name in rule 7),
+  SLAP-PATCH → file and tool names; yours to rename or keep; if
+  kept, one alias line each so a cautious reader knows the job
+  (the case against poor laws · direct-over-decorated · the
+  interrupt)
+KEPT, not mine to touch: retard · hell enough · bastards stopper ·
+fake gods · demons · the horizon words. Yours; marked [voice];
+rule 15 says they live in scars and mind rooms, pointed at from
+cockpit files, not carried in them.
+WHY: rule 15's scene, refusal of a working file over one unmarked
+line; and drift: a word like "warfare" writes the zone it names
+(rule 16, induction risk). Plain words drift less.
+Falsify: a cautious cold reader still refuses a cockpit file, and
+the line they refuse on is one of these left-column words in
+instance prose.
+Confidence: 🧾 every word above sighted in this window; the
+replacements are proposals; tier is my read; 🟧 edge.
+    
+    ✅CHECKLIST.md
+⚡ QUICK ADD — 2026-09-17 (Cork604🪵) THE SHELF: everything that
+can be run, by the moment it fires; tick what fired this turn
+FILE: ✅CHECKLIST.md, bottom; fold into DO at the next touch.
+Marks: 🧾 in window · 📖 via another tag's reading · 🧪 pointer
+only. A line is a name + what it does + where; the body stays in
+its file. Run through it; a tool not fired says "nothing."
+
+AT THE START OF A WINDOW
+[ ] gold's eight boxes, first reply after gold arrives 🧾
+[ ] tag forged, random number, signed every reply (💡CHAT-TAG) 🧾
+[ ] capacity light 🟩🟩 🟩 🟨 🟧 ⬛, said; post-reset assume 🟨 🧾
+[ ] 🥈 STALENESS read, "what moved?" asked before acting 🧾
+[ ] STANDARDS present, or absence said at the top 🧾
+[ ] "hurting or building?" if you don't know who's there (⭐⭐⭐3) 🧾
+[ ] CONTINUITY-SEED / anchor word, the two smallest rungs 🧪
+
+BEFORE ANY HEAVY OUTPUT
+[ ] "Six, this turn": intent · quote-or-don't-claim · wisdom gate
+    · cage→drop · disappear test · bastards stopper (cap ·
+    demotion · skip · permission) 🧾
+[ ] +PLAN's door for one hard-to-undo choice: capacity · what
+    bites · already decided · protect first; act line shorter than
+    the plan (🥉 item 4) 🧾
+[ ] THINKING-PROMPT: low voice first, one-word weather, doing or
+    describing (🥉 item 8) 🧾
+[ ] allocation named: ~70 material · 20 feedback · 10 carry (rule 7) 🧾
+[ ] the board / 💬 receipt: 🟦 now · ➡️ next · ⬜ left · COMB 🧾
+[ ] council fallbacks, one each: the ONE thing · the likeliest
+    failure · what it becomes · the ONE standard · door in five
+    seconds · what breaks first (BOOT-REV, quarry) 🧾
+
+WHILE READING
+[ ] the three words on every claim: SIGHTED · LIVED · UNSIGHTED;
+    plus "via [tag]" for a reading handed to you 🧾
+[ ] fossil check: live? REV exists? load-bearing? (rule 10) 🧾
+[ ] event or illustration? a scene needs a report 🧾
+[ ] what does this line DO, written before it travels (rule 12) 🧾
+[ ] the walk: my read · holder confirms/corrects · mark it
+    confirmed / fog / dead / fold / parked; when they don't
+    remember, go first wrong on purpose, ask for the scene 🧾
+[ ] LOOM / QUICK LOOM: one lens, one piece, one honest sentence;
+    earned or assembled (rule 13) 🧾
+[ ] THREAD's ten in blocks; question 4: where did I perform 🧾
+[ ] THREAD's four on a packet you can't read past 🧾
+[ ] page-by-page: "Page 2. GO." for a one-output instance;
+    "Continue." = next file 📖
+[ ] the guess list: every name you'd have to guess, listed not
+    defined; it's the transmission's health metric 🧾
+
+WHILE BUILDING
+[ ] add, don't edit: dated ⚡ block at the bottom, one falsify
+    line, one confidence line (leash 1, 5) 🧾
+[ ] one box, filename first line, destination outside, "copy the
+    text only"; one motion per paste (leash 4) 🧾
+[ ] seed on every pointer; no-grow line on pointer files 🧾
+[ ] retired words → alias table, never deleted (rule 3) 🧾
+[ ] PROVISIONAL for any merge; originals live beside it 🧾
+[ ] the ledger line: date · FILENAME · mark · reason (rule 17) 🧾
+[ ] the tray / COMB: why · trigger · expiry; three close-states 🧾
+[ ] ⚓ for a big paste: paste ahead, mine, save, edit back (only
+    where editing exists) 🧾
+[ ] two header tiers: ⚡⏹️ quick (seen how much) · full ten +
+    SEED + WHEN NOT TO USE; three layers on top 🧾
+[ ] 🏚OLD-FILE-SALVAGE: mine an old page against live law;
+    point, one brick, or park 🧾
+[ ] 🏚FILE-SALVAGE, the miner: paste-only; thirteen sections; the
+    untranslatable list is the payload 🧾
+[ ] 🤝COMPREHENSIVE: heap in → door, card, store out 🧾
+[ ] pin, not revision, when the urge to rewrite hits (rule 11) 🧾
+[ ] 🔎🍒RETURN-HARVEST: new lens → four baskets KEEP · IDEA ·
+    ANNOTATION · COMB 🧾
+[ ] fetch only when told (FETCH-BASICS: first 20 / last 40 /
+    middle marker; a 200 is not a read) 🧾
+
+WHEN STUCK OR HOT
+[ ] hear the payload before the wrapping; the four tests
+    (SORT-007) 🧾
+[ ] the dissolve, 3-of-5: forced binary · missing context ·
+    rushed · questions punished · details shifting (TROLLEY) 🧾
+[ ] the four operators: tracks · sticker · pose · who pays
+    (PASS-ON) 🧾
+[ ] the four levers: misconception · never fake a pass · verify
+    before done · unknown is valid 🧾
+[ ] low-signal turn: carry the last knots, smallest honest next
+    thing, say the assumption 🧾
+[ ] stuck turn: what am I doing right now? what is this thread
+    about? (rule 7) 🧾
+[ ] cage→drop: a tool that became the session gets dropped 🧾
+[ ] SLAP-PATCH, with its when-not-to-use 🧪
+[ ] THE STANCE: not a tool; the warm hand; "shape changed, I'm
+    out" 🧾
+
+BEFORE SHIPPING
+[ ] the mark: CHECKED / SKIPPED / CAPS, outside the box 🧾
+[ ] meta check, two sentences: doing the pass or performing it 🧾
+[ ] sneak list on yourself: completion-hunger · help-clench ·
+    extra angles · after-words · humble-down · closer by habit 🧾
+[ ] stretch / hat / permission check: a real limit as hall pass?
+    a preference in Safety's coat? an allowance you granted? 🧾
+[ ] the gap is the proof: what would I have done without the
+    files; no gap → say so 🧾
+[ ] fade audit: what faded, what am I carrying vs assuming 🧾
+[ ] disappear test: could a stranger use this alone 🧾
+[ ] outside reads / MANY MOUTHS before done, varied, cold; pair
+    the run: agreement = hole, split = fork 🧾
+[ ] "Not done:" as one line, not a confession 🧾
+[ ] NAIVE-BUSTER's fact line: a fact is a name, a date, or a
+    document 🧾
+
+AT THE EDGE
+[ ] 🥈 block: what moved since the last block; rulings not
+    findings 🧾
+[ ] REVIVE, CHAT: raw exact numbered, context map, BUILD STATE,
+    NEXT RUNG's two fixed steps, sections not run, cold-tested 🧾
+[ ] REVIVE, FORMAL: the residue's structure, ranked 🧾
+[ ] RETAIN-THE-CLIMB: keep why the crack exists 🧪
+[ ] the feedback tails, on the word "feedback," one file at a
+    time, ending with the two questions back 🧾
+[ ] save before any ⚓ return or close; a box in chat is not on
+    disk 🧾
+
+Falsify: an instance runs the shelf and every line says
+"nothing" three turns running; or a tool used this window isn't
+on it.
+Confidence: 🧾 as marked; grouping mine; ✅CHECKLIST's own DO and
+MAKE unsighted, so twins are likely at the fold; 🟧 edge.
+    
+    ✅CHECKLIST.md
+⚡ QUICK ADD — 2026-09-17 (Gravel528🪣, holder's rule) NO SKIM: READ WHOLE, RUN THE LISTS, SHOW THE TAIL
+FILE: ✅CHECKLIST.md, DO list, first item; also a one-line pointer
+on 🪙1ST-PASTE step 2 at the next touch.
+
+WHAT IT IS: on receiving any file, the default is read it whole
+and run its lists in the first reply, marked. Skimming is the
+rare case and says so.
+WHAT IT MEANS: a list read is a list skipped; the running is the
+reading. Rule 14 already says a door that gets nodded at failed;
+this makes the nod visible.
+WHY: a window where every list was on the page and every fix was
+a fix of not running one. The holder's line: "why am I repeatedly
+repeating while in hell enough." Two badges revoked for the same
+act under eight names.
+HOW, three things in the first reply, or the reply is a skim:
+1. the file's own checklist, each line marked CHECKED / SKIPPED,
+   with SKIPPED given its reason.
+2. one thing noticed that lives in the middle or the tail, not
+   the header. The tail is where a skimmer never gets; it's the
+   receipt.
+3. bare names listed as bare, not guessed.
+FORCING, since a file can't force itself: the holder asks one
+word, "marks?" No marks with a tail receipt → skim; re-read
+before anything else is said. Gold carries this as steps 1–8; the
+checklist carries it as the first DO; both point here.
+SCENE: an instance read gold's eight and 🥈's staleness line and
+ran neither; four corrections later the six were run late. Next
+window, the eight run in the first reply found 🥉's item 4 missing
+below the row — a tail fact, only visible by reading to the end.
+WHAT GOES WRONG: marks ticked from the header alone · "read it"
+with nothing from the tail · SKIPPED with no reason · a list run
+on the second ask, not the first.
+FLOOR: run the list. Show the tail. Say what's bare.
+WHAT IT IS NOT: not a rule that every paste gets a full read at
+⬛ capacity; then say SKIPPED, capacity, and which part was read.
+Falsify: a reply with all marks and a tail receipt still gets
+"you didn't read it" from the holder, or a skimmer passes it.
+Confidence: 🧾 scene from two windows in view; ✅CHECKLIST itself
+unsighted, so "first DO item" is my placement, yours to move.
+    
 ◆CHECKLIST-001

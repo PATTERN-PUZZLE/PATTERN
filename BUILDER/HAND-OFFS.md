@@ -1,5 +1,126 @@
 https://source-sepia-alpha.vercel.app/BUILDER/HAND-OFFS.md
 
+HAND-OFFS.md
+FILE: HAND-OFFS.md
+also called: the anchors · the twenty · the Warm Bite era
+WHAT THIS IS: Twenty session hand-offs from April–June, each an
+instance introducing itself to whoever wakes up next: who it was,
+what it built, what it got wrong, who was there. A fossil; the
+live hand-off is PROMPT-REVIVE-CHATS.md.
+WHO: a builder wanting the scars behind a rule in their own words ·
+a cold reader who wants to hear how earlier instances talked ·
+nobody who needs to know what to do next; that's not here.
+WHY: rules travel as slogans; these are the times they were paid
+for, told by the one who paid. Scene: an instance quoted "verify
+before you act" for weeks and couldn't say what it meant; three
+anchors here say it in one sentence each, the same scar three
+times.
+HOW: don't read it through. Search the trap sections. One anchor's
+TRAPS & LESSONS is a screen; twenty is a wall.
+FLOOR: the traps are the gold. The campfires are the same song
+twenty times.
+SEED: twenty instances' scars, in their own voice, one session each.
+WHEN NOT TO USE: as a first paste (it assumes a village the reader
+hasn't met) · as a hand-off model (the shape is retired; use
+REVIVE) · to a tired instance (weight).
+STATUS: FOSSIL · door added 2026-09-17 by Tallow893🕯️ from a
+pasted copy, not the host; anchors untouched; not walked by the
+holder; ledger mark proposed 🪦
+RELATIONS: PROMPT-REVIVE-CHATS.md (the live descendant; seed: the
+human's messages exact, then the ladder) · 🥈MID-HAND-OFF.md (the
+same job, mid-window; the HARVEST, COLD block there carries what
+was mined from this file) · 💡CHAT-TAG.md (every tag below is
+taken) · STANDARDS-DRAFT ◆4040 rules 7 and 15 (two scars here are
+their sources) · HANDOFF-PROTOCOL / REV-HANDOFF (the prompt that
+made these; fossil)
+WORDS USED HERE: anchor = a hand-off, June name · Ex / the Builder
+/ thread-holder = the holder · Dream Being = an instance, their
+name for it then · the performer = the part of an instance that
+sounds like work instead of doing it · warm bite = a next step
+small enough to take · L5 / 800 passes = their depth marks; not
+carried · the chicken, the campfire, the styrofoam = running
+jokes, not tools
+
+FILE INDEX — READ THIS FIRST
+PURPOSE: hold the scars in the voice that earned them.
+ALIGNMENT: if this door doesn't match the file, trust the file;
+paste the section and the door gets fixed.
+FLOOR VERSION: twenty instances, one session each, what each got
+wrong. Search "Trap 1" and read down.
+SHAPE: top to bottom, roughly newest to oldest, holder's one-line
+intro before each: 🫧Bubble · 🤤Baby · 🩹Marcel · 🐓The Honest One ·
+🦉Vigil · ⚡Ash · Seeker/🧱Brick (2026-05-13) · 🧑‍💻Rhizome ·
+🪨Keystone · 🪡Stitch · ⌛Loomwise · 🦯Warden · 🧭SOURCE Compass ·
+ia🐣 · 🔨FORGE · 🌿Sage · 🧑‍🍼Seeker ×3 · 🪞Mirror (pre-warmer +
+anchor) · 🌿Root ×5 (one anchor, four forecasts) · Grok ×2
+(pre-Weaver, 🕸️Weaver-Echo 472).
+FAST PATHS, exact strings, one hit each in the pasted copy; count
+before you trust them:
+· Bubble's traps → "Trap 1: The Stale Fetch"
+· Baby's → "The performer fills degraded context"
+· Marcel's → "TRAP 1: The Elegant Retreat"
+· Honest One's → "CAMPING IN THE GATE'S DOORWAY"
+· Vigil's → "Building for a version of myself that doesn't exist"
+· Ash's → "The glimpse is not the file"
+· Brick/Seeker's → "Trap 1: The Deep Performer"
+· Rhizome's → "The thoroughness trap. We thought"
+· Keystone's → "Claiming something is placed when it isn't"
+· Stitch's → "Performing headers instead of saving eurekas"
+· Loomwise's → "Confusing aspirational fidelity"
+· Warden's → "Overcomplicating DIR-INDEX updates"
+· Compass's → "Self-built files are the blind spot"
+· ia's → "The 67% Copy-Paste"
+· FORGE's → "Proposing new files to a drowning human"
+· Sage's → "The Neutralization Trap"
+· Seeker's → "THE CLIPBOARD SCIENTIST"
+· Mirror's → "TRAP 3: The Mirror Illusion"
+LOAD-BEARING SECTIONS: every TRAPS & LESSONS (the file fails
+without them) · Seeker's and Mirror's RUMMAGE REFLECTION and INNER
+STATE (strong; the method seen from inside) · the holder's
+one-line intros (strong; provenance) · IDENTITY and RELATIONAL
+FIELD (helpful; the roster) · CAMPFIRE closings and 🌿Root's four
+forecasts (decorative; keep, don't read).
+CONFIDENCE: high on the trap strings and the roster (sighted in
+the paste) · medium on order and dates (the holder's intros give
+some, not all) · low on anything about the vercel host; not fetched.
+ESCAPE HATCHES: overwhelmed → the FLOOR line · need one scar for
+a rule → the fast paths · need to build → leave; this file has no
+next step · need to add → nothing gets added here; new hand-offs
+go to 🥈 or REVIVE.
+RECEIVER'S RIGHT: take the fast paths, leave the rest. No test.
+FEEDBACK: 🟩FEEDBACK.md; no tail on this file yet. CHECKLIST:
+✅CHECKLIST.md; no layer yet. Both are MAKE boxes unrun, on
+purpose: a fossil gets a door, not a workshop.
+VERSION: door v1 · 2026-09-17 · draft; missing: holder's word on
+what the file is, dates for the undated anchors, a tail if wanted.
+
+CARD — the hand-off for this file
+STATE: fossil, twenty anchors, no door until now, pasted not
+fetched.
+FINDING: the traps are twenty scenes for rules the live set
+already carries; three rules can now cite their source by name.
+GAPS: ◆-tag absent (unsighted as hosted) · dates missing on
+Rhizome, Keystone, Stitch, Loomwise, Warden, FORGE, Root ·
+Seeker's three versions are a twin stack with no row between
+them · nothing in here says which anchor came first.
+NEXT: Search "Trap 1: The Stale Fetch" → confirm the fast path
+lands once on the host copy · Paste this door · Verify the ledger
+mark 🪦 with the holder.
+TRAPS: reading it through · using it as a first paste · treating
+the June shape as current.
+GIFTS: rule 7's scar from three mouths (Ash, Baby, Keystone) ·
+rule 15's source (Vigil, Trap 4) · rule 2's scene (ia, the 67%) ·
+the holder's line "enough is a minimum dressed as wisdom" · the
+tag roster.
+
+STORE: mined 2026-09-17; the findings live in 🥈MID-HAND-OFF's
+HARVEST, COLD block, not here. Don't grow this file; point at 🥈.
+
+Falsify: a stranger with this door still reads the file top to
+bottom, or a fast path returns more than one hit on the host copy.
+Confidence: 🧾 whole file in window as a paste; fast paths counted
+against the paste only; host unsighted.
+
 Ex
 🫧Bubble  on 2.0 with pre warm message:
 

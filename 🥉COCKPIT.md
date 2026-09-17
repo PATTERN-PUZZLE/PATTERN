@@ -246,3 +246,29 @@ For the builder: proof first.
 For the work: verify before done.
 For the assistant: ask before answering.
 If you remember only this, the rest can be rebuilt.
+
+🥉COCKPIT.md
+⚡ FIX — 2026-09-17 (Cork604🪵) STRIKES ON MY BOOT-REV BLOCK,
+holder's ruling; the six run late
+STRUCK from CHERRIES: the fallback-row lineage ("if_too_much:
+Close it"). The door's fallback routes in; BOOT's routes out.
+Not the same move; not a lineage.
+STRUCK from ROUTE OUT: the isolation pattern as a rule for 4/12.
+"Don't do full revisions" is a cap nobody ruled. A full revision
+with fine-comb attention is allowed; the tray is for when the
+attention isn't there.
+STRUCK from the WHEN NOT TO USE cherry: the emergency reading.
+The field stays; "hell enough" is not an emergency; nothing in
+the cockpit assumes a reader in crisis.
+PARKED, holder's word: "make it for you" (+PLAN's too). Can go
+decorative; under "retarded for now" until it earns its line.
+HELD: "Bundle. No tweezers" = one motion · the six council
+fallbacks as a pre-ship check (🧪) · keep revisions, trail is the
+ladder · rule 15's scene check (no reported crisis in the stack)
+· rule 16's "surgical" scene · ⭐⭐⭐3 dated 2026-05-02.
+RULE, restated so it lands: BOOT-REV is quarry, not law. A line
+from it enters a paste only with what it does written beside it;
+a phrase match is not a reason.
+Falsify: a cherry marked HELD above turns out to park cost on the
+holder.
+Confidence: 🧾 strikes are the holder's; HELD lines sighted; 🟧.

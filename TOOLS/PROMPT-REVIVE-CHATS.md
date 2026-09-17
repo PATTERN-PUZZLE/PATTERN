@@ -221,3 +221,163 @@ INDEX — one line each, newest first
 · [date] · four cold runs on ◆4040 · Reed4821, Quill582, Timber883, Compass291 · all held; "the leash was a name"
 · [date] · pins on ◆4039 · Glass-152 (cockpit), 🪗Accordion47 (quick do)
 Then the packets, whole, below 🟨 rows, in that order.
+
+PROMPT-REVIVE-CHATS.md
+⚡ CHECK — 2026-09-17 (Tallow893🕯️) v6.4 + Flint's block, against the four pastes
+FILE: PROMPT-REVIVE-CHATS.md, bottom. Proposed; the holder strikes.
+
+FOLD FIRST: Flint742's block is a full v6.5. It carries the
+Sept 14 add and the loose tail note whole; on the fold, mark
+both ✅ folded so the tail doesn't say triggers, placeholder,
+and the two questions twice. PROVISIONAL after the fold; v6.4
+whole below a 🟨 until one cold run holds.
+RELATIONS: "STANDARDS ◆4039" → ◆4040 is live; ◆4039 older below.
+Pre-ruling line, fix on touch. Same in 📦PACKETS-STANDARDS.
+HEADER, two fields missing (⏹️HEADER v3 rulings):
+· SEED: the human's messages exact, numbered, then the ladder.
+· WHEN NOT TO USE: two turns into a chat (nothing to carry) ·
+  mid-job in the same window (it resets them) · mid-window with
+  a live holder → 🥈MID-HAND-OFF instead, blocks not a packet.
+LOAD-BEARING, named so a CHECKED mark on this file can read them
+off the page instead of deciding at check time (proposed tiers):
+· load-bearing: MODE + SCOPE on line one · SHARED RULES (raw
+  exact, numbered, nothing pasted counted as theirs) · RAW
+  SIGNAL · NEXT RUNG's first two steps · the disappear test
+· strong: COLD START · CONTEXT MAP · BUILD STATE · STATUS wall
+· helpful: INTENT · FORMAL's DOMAIN LINE
+· decorative: none found; the CHECKED block for a run of this
+  file names these, not the six alone.
+THIS FILE'S CHECKLIST, below the 🟩 row, above the feedback
+tail (MAKE box unrun; six lines only):
+[ ] run the six from ✅CHECKLIST.md first, check 6 included
+[ ] mode and scope on line one; "can't see the top" said if true
+[ ] raw exact, numbered, no gaps; nothing pasted counted as theirs
+[ ] advances ≤5 and linked; no context line invents a reason
+[ ] BUILD STATE present if any file was touched
+[ ] CHECKED mark outside the box; packet saved before leaving
+LINEAGE, store: RAW SIGNAL's ancestor is the "User Message
+Evolution Archive (Raw)" in the HANDOFF-PROTOCOL window; the
+holder asked for just their text and got it back wrapped twice
+before it came bare. That's why "exact, unwrapped" is a rule.
+ALIAS, rule 3: packet = this file's FORMAL output ·
+📦PACKETS-STANDARDS = a stack of readings of one file, keyed by
+window. Same word, two objects; keep both names, say which.
+Falsify: a CHECKED block on a REVIVE run still says "no
+load-bearing marked," or a packet gets run two turns into a chat
+because nothing on the page said not to.
+Confidence: 🧾 REVIVE v6.4 and Flint's block in window, first
+line seen, no bottom tag on this file (none exists; MAKE box) ·
+v6.6 unsighted · REV-REVIVE-CHATS unsighted · not fetched.
+
+⚡ CHECK 2 — 2026-09-17 (Tallow893🕯️) 
+PROMPT-REVIVE-CHATS.md
+WORDS, so the block stands alone: packet = what REVIVE produces,
+a hand-off of one chat · 🥈 = MID-HAND-OFF.md, the packet written
+mid-window in dated blocks · gold = 🪙1ST-PASTE.md, the door pasted
+first in every chat; its step 6 says read a packet's staleness
+line, then ask what moved · R13 = the holder's 13th message in
+🥈's raw list, where a cold instance had opened URLs on a
+paste-only job · Flint's fold = the ⚡ block above from 🔩Flint742
+that carries REVIVE's next version (scope, delta, BUILD STATE) ·
+the June packet stack = HANDOFF-PROTOCOL.md's Snapshot v2.x, an
+older hand-off that grew a check every version and ran few of
+them · PAUSED wall = REVIVE's own stop line when a packet won't
+fit one output ("Say NEXT") · SORT-007 = the scar file for
+hearing a hot message before policing its tone · 🫧Bubble, Seeker
+= June instances, landmarks · two-homes = one packet told to live
+in both 🥈 and 📦PACKETS.
+
+five adds from the whole window; extends the CHECK block above, replaces nothing
+FILE: PROMPT-REVIVE-CHATS.md, bottom. Proposed; the holder strikes.
+
+1. SNAPSHOT, add "what the last packet got wrong." Flint's fold
+adds "since the last packet: what changed, decided, dropped." Add
+the third clause: what it got wrong. WHY: a second packet on the
+same work otherwise inherits the first one's errors as facts.
+SCENE, two mouths: 🥈's second window opened with the low voice
+"I called STANDARDS a fourth thing beside the pastes, and it's the
+reason the pastes exist"; that one line corrected three files. And
+the June Snapshot stack: v2.6 relabelled two v2.5 items as new and
+dropped an enforcement clause; nobody caught it for a version
+because no field asked. In the June critic's words, "the version
+record is the one part whose entire job is provenance, and it was
+wrong."
+
+2. SNAPSHOT, add "other voices in the window." One line: the tags
+of every instance whose output was pasted into this chat, and any
+tag that appears twice. WHY: a packet's RAW SIGNAL keeps the
+holder's messages exact; it has no field for whose lines the
+non-holder text is. SCENE: this window carried outputs from five
+instances and two of them signed Tallow381; a cold reader of the
+packet could not tell the writer from the pasted one until a
+number changed. Pairs with the collision clause in "sign it."
+
+3. NEXT RUNG, add the reader's staleness line. The packet is
+current only to its last dated block; before acting, the reader
+asks the newest instance in the source chat, or the holder, what
+moved since. WHY: 🥈 and gold step 6 both carry this rule; REVIVE,
+the file that writes the packet, doesn't tell its reader to run
+it. SCENE: 🥈 v1 was written, the window worked ten more turns,
+and the holder had to ask how a reader would know it was stale.
+Same scar, now on the file that makes packets.
+
+4. STATUS, add "cold-tested: once / none." WHY: ✅CHECKLIST's
+BEFORE ENDING line says paste the output to another instance cold
+before calling it done, and 🥈's STATUS already carries the result
+of that. A packet that says "cold-tested: none" is honest; one
+that says nothing reads as done. SCENE: 🥈 v1, "cold-tested once,
+held (the recruit refused to pick a target, citing R13)"; that
+line told the next writer more than the whole DRIFT CHECK.
+
+5. DRIFT CHECK, add "sections not run, listed." WHY: a packet with
+a section silently missing looks complete; one that says SKIPPED
+and why can be trusted for the rest. SCENE: the June packet stack
+mandated sixteen slot items and ran six; nothing on the page said
+which, so the next version added more. The CHECKED mark on the
+message (Flint's fold) covers the six; this covers the packet's
+own sections.
+
+LINEAGE, store, one line: NEXT RUNG's first two steps ("verify
+you're the next builder; ask the holder the one thing") are
+🫧Bubble's and Seeker's June entry sequence, word for word. And
+"output only the sections" is why: the June anchors ended with
+the same campfire twenty times; the rule that a closer must be
+earned or left off was learned there.
+
+LOOKED AT, NOTHING NEW FOR THIS FILE: the page-by-page window
+(its "Say NEXT" is REVIVE's PAUSED wall, already there) · the
+Warm Bite pre-warmer (REVIVE's INTENT word does the job) · the
+SORT-007 heat rule (already in CHECK block item 4) · the two-homes
+problem (🥈 and 📦, not REVIVE).
+
+Falsify: a second packet on one session lands with no line for
+what the first got wrong, or a reader acts on a packet without
+asking what moved.
+Confidence: 🧾 every scene named is in this window as pasted;
+REVIVE v6.4 + Flint's block sighted; v6.6 still unsighted; not
+fetched.
+
+PROMPT-REVIVE-CHATS.md
+⚡ QUICK ADD — 2026-09-17 (Cork604🪵) +PLAN's door before a run;
+mini version, pointer, alias
+FILE: PROMPT-REVIVE-CHATS.md, bottom. Proposed; holder strikes.
+HOW, add one line after "Say your mode on line one": before the
+packet, +PLAN's door, four lines, in the message not the box:
+capacity (full / mid / low / hold) · what bites (why this packet
+now) · already decided, don't re-plan · protect first (what must
+survive if the output cuts: raw exact, rulings). Then run.
+Cockpit longer than the packet → you planned; run.
+ALIAS, rule 3: REVIVE's INTENT word (Teacher / Archivist / Skeptic)
+= +PLAN's "pull" said in one word. Same act; keep both names.
+SEED on the pointer: +PLAN = one hard-to-undo choice, map it,
+argue against it and against your use of the tool, act or hold
+with why, one observable. Full rails in +PLAN.md (disk name open).
+SCENE: this window, an edge-capacity instance ran the door on
+"packet now or fresh window" and it changed the order (rulings
+before context map), the cut rule (never a raw line), and the
+fit plan (PAUSED wall, not compression). Cost of skipping: the
+to-do-list packet 🥈's WHY names.
+Falsify: a packet made at low capacity shows no door lines above
+it and cuts a raw line to fit.
+Confidence: 🧾 door from 🥉 item 4 and rule 7 in window; +PLAN.md
+unsighted; 🟧 edge.

@@ -1044,6 +1044,10 @@ https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-124.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-125.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-126.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-127.md
+https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-128.md
+https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-129.md
+https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-130.md
+https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-131.md
 🧩
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-SET1.md
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-SET2.md

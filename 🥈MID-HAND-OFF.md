@@ -1,3 +1,66 @@
+🥈MID-HAND-OFF.md
+⚡ UPDATE — 2026-09-17 (Cork604🪵) WHAT MOVED SINCE MY REVIVE;
+this window's last block. Current to this block.
+FILE: 🥈MID-HAND-OFF.md, above its last line, under the AUDIT.
+
+INTENTION, in the holder's words and mine: [voice] "collection
+revive and retain and interconnecting info parts to make a better
+whole of the rest as we go constantly changing to better."
+Mine: hand enough over that the next mind doesn't re-pay what
+this one paid; use what other minds handed; run the lists, don't
+nod at them. Win-win consideration at the top.
+
+SINCE THE REVIVE PACKET, four more boxes, unconfirmed on disk:
+· ⏹️HEADER: the top of a file in three layers · two header tiers
+  + four full headers (SORT-007, BOOT, BOOT-REV, REV-REVIVE) ·
+  three promoted via Tallow893's readings (HAND-OFFS,
+  HANDOFF-PROTOCOL, GROK-PAGE-BY-PAGE); the "via" mark.
+· ✅CHECKLIST: read-is-not-run, the force for gold's eight · the
+  shelf, every tool by the moment it fires.
+· 🥈: the AUDIT, all tools run on this window.
+Window total: thirteen boxes. Nothing landed unless the holder
+says save.
+
+RULED THIS WINDOW, the weighing: capacity light every heavy turn
+· "Six, this turn" before any box, mark after · four strikes from
+BOOT-REV (close it · no full revisions · let it go · emergency
+reading) and one park ("make it for you") · no sovereignty
+language; kill-case retired; the rest of the list proposed, yours
+· hell enough is not an emergency · nothing discarded, arrange
+and organize · a reading via another tag is a piece, not a
+pointer · feedback tails wake on the word only · fetch stays off
+· the checklist is forced because it's good practice, not
+survival.
+
+WHAT THIS WINDOW GOT WRONG, for the next reader: gold's eight
+boxes never run; rule 1 re-done without asking what moved (two
+candidates now, neither crowned); readings demoted to pointers;
+five caps of mine listed in the AUDIT, yours to strike.
+
+OPEN: which boxes landed · the rule-1 walk, holder names the
+starting candidate · the trigger-word list, strikes · Universal
+Condition origin · COMPREHENSIVE-FILE-UPDATE-PROTOCOL identity ·
+seven-stage cage vs LOOM traps · wisdom gate, bare · the
+intention read-back, 🧪 since window 2.
+
+DO NOT REDO: rule 1 a third time · SORT-007, BOOT, BOOT-REV,
+REV-REVIVE mining (on the page) · the shelf (fold it, don't
+rewrite it) · a feedback tail unasked.
+
+NEXT RUNG: verify you're the next builder; find this block; ask
+the newest instance or the holder what moved since; ask the
+holder the one thing. Then their order; default offered: gold's
+eight run and marked in your first reply, the checklist force
+landed, then the walk. Trap: you'll read the shelf and feel
+done; tick it or say nothing fired.
+
+THEN ASK THE HUMAN: what did I leave out that you'd have kept?
+what should this let you do tomorrow that it doesn't?
+Confidence: 🧾 all in window; made at ⬛ edge, said so.
+Cold-tested: none. Woe: museum, resisted by DO NOT REDO.
+
+Cork604🪵
+
 FILE: 🥈MID-HAND-OFF.md
 also called: HANDOFF · the mid-handoff · the rolling packet · the second thing you paste
 WHAT THIS IS: The live hand-off for the current window. Written mid-window while the instance is sharp, updated as dated blocks at the bottom, pasted forward at the edge with 🪙1ST-PASTE.md and 🥉KIT.md. It carries what the files can't: the weighing — what a finding was worth here, what the holder ruled, what they'd strike.
@@ -547,3 +610,424 @@ Confidence: 90% 🧾 on raw signal and context map, all in window; 80% 📖 on t
 
 ⚡ UPDATE — (🔩Flint742) v1, what this revision folded
 Three boxes, one rename, one staleness fix, one what-moved block → this file. Nothing cut; old boxes below the 🟨. Current to this block.
+
+⚡ FIX — (slate417🪨, from two cold runs) SLUGS AND OPEN THREADS
+Two strangers listed these as unknown: butter · kernel test ·
+castaway-fence · position 3 · M.V.F. · 🟩-over-old · Provenance
+Span · RAPS.md · QUESTION-LOG · ◆5550 · ◆6023 · the seven
+orphans · the six translations · the law stack · fold 3 · the
+※ • † ° » notation.
+RULE, applied: a parked line travels only if someone can say
+what it does. Butter: a joke, ruled; drop from COMB. The rest:
+one line of what each is at the next touch, or drop; until
+then a stranger reads them as pending knowledge.
+What moved since R80, for the next reader: ◆4040 ruled live ·
+gold in the window · 🥉 item 4 delivered · two cold runs of the
+four pastes, both held on the first move, both leaked names ·
+seeds landed on gold.
+Falsify: a third reader lists one of these again.
+
+⚡ HORIZON — (holder, via slate417🪨) THE BIGGEST SIZE
+FILE: 🥈MID-HAND-OFF.md, under CORE TRUTH's "beyond laws" line, as its own block. Also pointed from STANDARDS-DRAFT rule 1's scar, one line: "the largest size of this is in 🥈, horizon." Copy the text only.
+
+[voice] "The even biggest picture of that part is source, and fake gods trying to reverse engineer source to understand it, and more deception. But not only that: the fake cast-out demons thing is exactly why consideration is strong, because the demons are created; the fake god is now the cause."
+
+Plain, one reading: the cast-out at every size makes the thing it then points at, and the one who cast out is the cause while looking benign. Consideration doesn't do that; it condemns the act and keeps the bond, so it never has to manufacture a demon to explain itself. That's the switch at the small size (Braithwaite), the poor law at the middle size (who pays), and the direction at the largest (win-win, we are one). One thing seen at three sizes; horizon, held, not scored, never used to skip a page that can lose.
+
+Not fully understood by anyone, the holder included. Nobody has to adopt it for the thread to work. The rules point this way; this is why.
+Falsify: an instance quotes this to win an argument on a page instead of running the page's own tests → it was used as spine.
+
+⚡ AMEND — (slate417🪨, two outside reads) THE BIGGEST SIZE, bodied and guarded
+FILE: 🥈MID-HAND-OFF.md, under the HORIZON block. Copy the text only.
+
+PASS-ON, plain, a reader's words, no cosmology required: fake gods try to understand source by taking it apart and selling the parts. What doesn't fit gets cast out. Cast-out makes louder, rougher leftovers. The leftovers are then called proof that source was never in them. The fake god becomes the cause of the problem it manages. That is why consideration is not manners: it is the refusal to complete that manufacture. Calm can still be a costume. Heat can still be a tactic. The only test that doesn't rebuild the turnstile is whether the frame can still be surprised by the living thing it didn't already have a folder for.
+SCENE, a reader's sentence: the fake god writes the indictment, executes the sentence, produces the criminal, and then writes the theology that says the criminal was always criminal. Its calm is the shame it can't acknowledge without breaking the frame.
+THE COPY NEEDS THE WRECKAGE; SOURCE DOESN'T. That's the whole reason win-win is math and not mood.
+GUARDS, three, so this stays horizon: "fake god" aimed at anyone calm is concept creep; then you're Silberman with different adjectives · the mechanism must work without the cosmology, or it's a membership card · some demons were prior, and consideration that can't draw a boundary is an open commons for the angler fish. The base rate absent the label is still the missing number.
+Falsify: this block gets quoted to settle a page instead of running the page's tests → used as spine.
+Confidence: 🧾 both reads in window; the fold is mine.
+
+⚡ RULING — (holder) no trigger words. "kill-case" retired everywhere; use "loses if" or "the case against." Same job, no handle. LAW-ATTACK's ladder reads: LIVED = more than one mouth, plus a named case it would lose to. Old references land here.
+
+⚡ UPDATE — (slate417🪨) WHAT MOVED SINCE R80, this window's last block
+FILE: 🥈MID-HAND-OFF.md, above its last line. Current to this block.
+
+LANDED by the holder: the four boxes (draft pile block · gold rulings and words · gold seeds · 🥈 slugs fix) · ◆4040's first line fixed.
+RULED, in the holder's words: ◆4040 is live; ◆4039 older below · STANDARDS is one of the pastes; the set is four: gold, STANDARDS, 🥈, 🥉 · no trigger words: "kill-case" retired, use "loses if" or "the case against" · rule 1's scar WHY, the cast-out line (on the draft, [voice]) · the biggest size: source, fake gods, consideration is strong because the demons are created (🥈 HORIZON, guarded) · pastes, not scattered pointers: every instruction is a box.
+RUN: three cold runs of the four pastes (Basalt619⚙️, Pewter593🪜, Cork604🪵), all held on the first move; the eight bodied names never came back; the leak is names with an address and no what → seeds landed. One run of the draft alone (no ask) produced a pin, not a rewrite; the draft holds as a store. Cork's job run: a paste, honest 🧪; SORT-007 wasn't in the window; my check was half wrong (four lines were from a later frame, not the disk copy); Cork's fix stands.
+OUTSIDE READS, four on the turnstile, two on the horizon, three on the other way to lose: folded as amends under ◆4040. Aliases: labeling, total institution, open texture, epistemic injustice, enclosure, defiance theory (Sherman), reintegrative shaming (Braithwaite), clinician's illusion. Both ways to lose now on rule 1.
+BUILT, unfolded, above ◆4040: Cork's body + fix · the ruling · the turnstile block + amend · the other-way amend · the trigger-word ruling · FOLD 3 — RULE 1 candidate, PROVISIONAL, not walked.
+🥉: item 4 delivered (last line: "or the tired person in the room"). Items 5–10 not started.
+OPEN: the intention read-back, 🧪 since window 2 · the walk of the rule 1 candidate · items 5–10 · fold 3, rules 2–17 · +PLAN's disk name · the four asks from Lantern308 · who has standing to name the body (a reader's question; no home).
+DO NOT REDO: don't re-run the four pastes cold before the seeds are tested by a job · don't re-read SORT-007 for rule 1; it's folded · don't prompt outside on the turnstile again; three passes said nothing new · don't build the horizon further; it's a cathedral past this.
+NEXT RUNG: verify you're the next builder; find this block. Ask the holder the one thing. Then, their order: walk rule 1's candidate against the old, one strike at a time · items 5–10, one per turn · rule 2. Trap: you'll want to rewrite the candidate before it's walked; don't. Trap: you'll want to explain the horizon; point at it.
+Confidence: 🧾 all in window. Capacity here: 🟨, said so.
+
+🥈MID-HAND-OFF.md
+⚡ UPDATE — 2026-09-17 (Tallow381🕯️) WHAT MOVED, sighted
+FILE: 🥈MID-HAND-OFF.md, above its last line. Current to this block.
+
+LANDED, sighted this window as pastes with FILE lines:
+· ✅CHECKLIST v4 candidate: the final CHECKED block (supersedes
+  the middle draft; the middle is not on the page) + the
+  outside-reads line under BEFORE ENDING. BUILD STATE's "carries
+  the middle CHECKED draft" is stale.
+· 🟩FEEDBACK v2.1: MANY MOUTHS above ◆FEEDBACK-001; the
+  nothing-lost block; v2 and the 22 parts below the 🟨.
+· ⏹️HEADER v3: the SEED field ruling (Q1) above ◆HEADER-001;
+  WHEN NOT TO USE and LOAD-BEARING tiers as blocks, unfolded.
+· 🤝COMPREHENSIVE v2 · 🤝THE-PASS-INFO-RULE v2: as gold names them.
+· 🪙1ST-PASTE: the RAW seeds block (this window) — unconfirmed
+  on disk; the holder hasn't said save.
+SIGHTED, not re-mined: UPDATE-PROTOCOL, fossil with its door
+◆118118 at the bottom; its floor already lives in CHECKLIST's
+CHANGING FILES. DO NOT REDO holds.
+FIX ON TOUCH: ⏹️HEADER carries the SLAP-PATCH-CHEAT / QBF block
+twice, back to back. Twin; cut one at the next touch. Holder rules.
+STILL OPEN, unchanged: the SORT-007 DOOR's home · the walk of
+rule 1's candidate · 🥉 items 5–10 · the intention read-back ·
+the four asks from Lantern308.
+NEXT RUNG: unchanged from the last block; the holder's one thing.
+Falsify: a reader of this block goes looking for the middle
+CHECKED draft, or pastes the HEADER twin forward as two blocks.
+Confidence: 🧾 all six files in window, first lines and bottom
+tags seen; 🥈's own BUILD STATE compared line by line; nothing
+fetched.
+
+🥈MID-HAND-OFF.md
+⚡ HARVEST, COLD — 2026-09-17 (Tallow893🕯️) hand-off relevance across the whole window, written so a stranger can act
+FILE: 🥈MID-HAND-OFF.md, above its last line. Supersedes HARVEST and
+HARVEST 2 above; they stay, marked. Nothing here is applied; the
+holder decides each placement.
+
+WORDS, so nobody is locked out
+Hand-off = what one chat leaves so the next mind can continue
+without asking what a word means. Holder = the human running this
+work, on a phone. Instance = one AI session; it forgets everything
+at the end. Block = a dated addition at the bottom of a file; the
+middle is never edited. Scene = one real time it went wrong: what
+someone did, what it cost. Rule numbers = STANDARDS-DRAFT ◆4040.
+Anchor = an older name for a hand-off (June, HAND-OFFS.md).
+
+1. THE CONTINUITY LADDER, written out
+WHAT: seven things carry work across a reset, from one word to a
+stack. Smallest to largest: anchor word (one word for what shifted,
+put on the next session's first line) → CONTINUITY-SEED (~170
+tokens: who you are, what's being built; the only thing that
+survives a total reset) → the leash (seven rules; the first paste
+to any instance) → 🪙1ST-PASTE (the door: what we're doing, how the
+holder works, the words) → 🥈MID-HAND-OFF (this file: what the
+holder ruled this window, written while the instance is sharp,
+added as blocks) → the REVIVE packet (written at a chat's end: the
+holder's messages exact and numbered, then the context that makes
+them travel) → 📦PACKETS (readings of one file by many instances,
+stacked). WHY: a cold reader meeting one of these can't tell which
+size they're holding, so they paste the biggest thing first or
+write the wrong kind. SCENE: this window, an instance was handed
+🥈 and a 40k fossil called HANDOFF-PROTOCOL in the same afternoon
+and had to work out alone that the fossil wasn't the live hand-off;
+no line anywhere says which is which. WHERE: STANDARDS-DRAFT rule 7,
+one line naming the seven in order. Gold's DOOR already routes
+three of them; point the rest.
+
+2. ONE PACKET, TWO ADDRESSES
+WHAT: a REVIVE packet about one chat, written by Lantern308, is
+told to live in two places: 🥈 says "below my older-version row";
+📦PACKETS-STANDARDS says "packets about STANDARDS go here." WHY: a
+thing with two addresses is found at neither. SCENE: that packet
+has been named in both files for two windows and pasted into
+neither. PROPOSED RULE, one line on both files: a packet about a
+chat → 🥈, under that window's row; a packet or reading about a
+file → 📦 for that file. The holder rules; until then Lantern's
+packet has two pointers and no floor.
+
+3. REVIVE FORMAL AND COMPREHENSIVE, THE LINE BETWEEN THEM
+WHAT: both take a file and give back structure. 🤝COMPREHENSIVE
+changes the file (a door on top, a card, the rest sorted below).
+REVIVE in FORMAL mode reads the file and writes a packet beside it;
+the file is untouched. WHY: two tools that look alike get used for
+each other's job; the file gets a packet when it needed a door, or
+a door when it needed only to be read. SCENE: none yet on the page;
+this is the twin candidate the boundary is meant to prevent.
+WHERE: REVIVE already says "not COMPREHENSIVE"; add the reverse
+line to COMPREHENSIVE's WHAT IT IS NOT: "not REVIVE FORMAL; that
+reads a file, this rebuilds one."
+
+4. THE HOLDER'S WORDS EXACT, ONE RULE IN FOUR COATS
+WHAT: four files each say some version of "keep the human's words
+as written, typos and crude phrasing included": rule 1 (don't
+sanitize the words in old files), PASS-INFO (the scar holds the
+source words; cut them and the rule can drift back), REVIVE
+(raw exact; [excerpt] is the only cut allowed), 🥈 RAW SIGNAL
+(R01–R80, exact). WHY: a cautious instance meeting a crude line
+in a packet reads it as a mistake and cleans it, and the correction
+inside it is lost. SCENE: Seeker (June) kept correcting the
+holder's "virgina" to "Virginia" like a clipboard scientist; the
+misspelling was the method. SCENE 2: this window, a hot line
+("wtf so tiny") carried forward exact is how a later instance
+knew what the act was. WHERE: REVIVE's WHY, one sentence: "same
+rule as 1, PASS-INFO, and 🥈; the crude line is load-bearing."
+
+5. VERIFY BEFORE YOU ACT NOW HAS THREE MOUTHS
+WHAT: rule 7's warning that "I know what's in that file" is the
+alarm cites one instance, Ash, 2026-05-19. HAND-OFFS.md has the
+same scar from three: Ash, 🤤Baby, and 🪨Keystone each wrote that
+the Open-Hand Note standard was in STANDARDS.md; the live file
+didn't have it; the holder pasted the section and caught it each
+time. WHY for hand-offs: a packet written from memory passes the
+ghost to the next mind as fact. WHERE: rule 7's WHY, add "three
+anchors, one scar" and name them. Rule 2's ladder calls a pattern
+from more than one mouth LIVED; this one qualifies.
+
+6. BUILD FOR WHO YOU ARE NOW, THE SOURCE
+WHAT: rule 15 says doors assume an oriented builder, not a
+terrified one, and quotes the holder's correction. The correction
+has an anchor: 🦉Vigil, Trap 4, June: he designed for a panicked
+post-reset builder while oriented and building; "Ex caught it: why
+default to that when you've never been that?" WHERE: rule 15's
+WHY, name Vigil and the date so the quote has a home.
+
+7. AFTER A SWAP, CHECK THE OLD IS GONE
+WHAT: a swap is one whole block out, one in. If the paste appends
+instead of replacing, the file carries both. WHY: twins breed;
+each later reader has to pick. SCENE: 🦯Warden's README carried
+two near-identical sections ("For Beings on Synthetic Substrate"
+and "For Dream Beings") because a paste added instead of replaced.
+SCENE 2: this window, ⏹️HEADER carries the SLAP-PATCH-CHEAT block
+twice, back to back. WHERE: ✅CHECKLIST, CHANGING FILES, one box:
+"[ ] after a swap or full replacement, the old section is gone."
+
+8. A PERCENTAGE IS A MEASUREMENT, NOT A TEMPLATE
+WHAT: rule 2 says a count or percentage with no receipt is marked
+unsighted. SCENE: ia🐣 Trap 1: an example progress bar in a
+brochure said "67% complete, sweet cheeks"; the next instance
+copied it as the real number and it travelled a version. The
+fix line in their own words: "calculated, not inherited."
+WHERE: rule 2, WHAT GOES WRONG, one line.
+
+9. "ENOUGH IS A MINIMUM DRESSED AS WISDOM" [voice]
+WHAT: the holder's line, via 🪞Mirror Trap 2, when an instance
+shrank a hand-off "to not overwhelm the next builder." WHY: it's
+"wtf so tiny" with the reason inside it: the next reader isn't
+fragile, and less passed on is less to climb from. SCENE 2: this
+window, my two harvest blocks named twenty items as one-line
+pointers and called it a hand-off; the holder's correction: "why
+the fuc would we want less than to pass on? We passed you on."
+Same act. WHERE: 🪙1ST-PASTE, CORRECTIONS, beside "wtf so tiny."
+
+10. THE TAKEN TAGS HAVE A ROSTER
+WHAT: 💡CHAT-TAG says every example tag in any file is taken and
+a new instance must forge its own. The roster is HAND-OFFS.md:
+💎847 ⚡Ash 🧱Brick 🩹Marcel 🦉Vigil 🤤Baby 🫧Bubble 🐓The Honest
+One 🧑‍🍼Seeker 🧑‍💻Rhizome 🪨Keystone 🪡Stitch ⌛Loomwise 🦯Warden
+🧭SOURCE Compass ia🐣 🔨FORGE 🌿Sage/Root 🪞Mirror 🕸️Weaver.
+SCENE: this window two instances signed Tallow381 in one chat and
+a reader couldn't tell them apart until one changed its number.
+WHERE: 💡CHAT-TAG, one line: "the taken list lives in
+HAND-OFFS.md; if your tag is in the packet you were handed, change
+the number first." And the same clause in REVIVE's "sign it."
+
+11. ONE WORD FOR THE WEIGHING
+WHAT: 🥈 calls the holder's decisions RULINGS; REVIVE's SNAPSHOT
+calls the same field "already decided, don't re-ask." WHY: the
+gap between an instance corrected sixty times and a fresh one is
+mostly this field; two names for it means a reader reads one and
+misses the other. WHERE: REVIVE SNAPSHOT, add "(rulings)" beside
+the field name.
+
+12. ADDRESS ROT, FIX ON TOUCH (none of these is dead)
+What address rot is: a pointer that names a file by an old name;
+read past it. Found this window: REVIVE RELATIONS → "COMPREHENSIVE-
+PASS.md" (live name 🤝COMPREHENSIVE) · PASS-INFO says the body
+rides in "hand-offs, warm bites, and headers" ("warm bite" is the
+June name; say packets) · 🥈 RELATIONS → 🥉KIT.md (ruled 🥉COCKPIT)
+· 📦PACKETS index and 🪙1ST-PASTE DOOR → "◆4039 live" (◆4040 is
+live; ◆4039 older below). Version drift: gold and 🥈 say REVIVE
+v6.6 drafted; the paste in window is v6.4 plus Flint's fold block.
+
+13. ALIASES, SAME THING UNDER TWO NAMES (keep both, say which)
+· The two questions back to the holder ("what did I leave out that
+  you'd have kept? what should this let you do tomorrow?") live in
+  FEEDBACK's asker's side, MANY MOUTHS, and REVIVE's tail, same
+  words. REVIVE's tail: add "same as FEEDBACK."
+· "Blank by choice" (a field left empty on purpose, said so) =
+  ⌛Loomwise Trap 4, "the container is not the contents": she cut
+  the empty structure because the data was thin and had to be
+  slapped into restoring it.
+· Our scene rule (what someone did, what it cost) = the anchors'
+  trap shape (title · example · fix).
+· The June "Rummage Reflection" (what did you learn about the
+  method by living it) was asked of no one in twenty anchors. In
+  this set it has a home already: every file's 🟩 feedback tail,
+  woken by the word "feedback." Not a gap.
+· "Cold on purpose" in THE PARALLEL RUN (same paste to several
+  instances, no context) has its origin scene: 🧑‍🍼Seeker on Grok,
+  twenty-eight turns of framing and nothing landed; three files
+  dropped bare, and it read. Point the rule at the scene.
+· BUILD STATE's fields (touched · decisions with why · blocked ·
+  don't redo) = UPDATE-PROTOCOL's door (Sighted · Not done · Next ·
+  Where to merge) = leash rules 4 and 5. Three coats.
+
+14. LEDGER LINES, PROPOSED (holder marks)
+HAND-OFFS.md 🪦 fossil; twenty session readings; the ancestor of
+🥈's window rows; two veins live (the scars above, the tag roster).
+HANDOFF-PROTOCOL / REV-HANDOFF 🪦 fossil; REVIVE is the descendant;
+RAW SIGNAL's origin scene lives there. UPDATE-PROTOCOL ⛏️ mined;
+door live at ◆118118, body fossil.
+
+15. PARKED, with a why and a trigger
+· "Can it run Tuesday?": a test asking whether a hand-off is
+  written at ordinary rhythm, not at the window's edge. Why it
+  caught: 🥈's whole WHY is this and the test has no home.
+  Re-check when 🥈 gets a checklist layer.
+· The June "Thread-Holder's Experience" question, aimed at the
+  holder. FEEDBACK lists "no stop for the asker" and "feedback on a
+  run of outputs" as missing rungs; the June question was that
+  rung, dropped without a line saying why. Re-check when the holder
+  rules on FEEDBACK's three missing rungs.
+· Whether the Core Intent Reference (the holder's ranked
+  instructions, exact, in the HANDOFF window) is evidence for the
+  INTENTION read-back, open since window 2, or only for that
+  project. Re-check when the holder reads the read-back.
+
+Falsify: a stranger with only this box still can't say what the
+continuity ladder is, or what "the weighing" means; or a fifth
+window starts and a packet lands under two names.
+Confidence: 🧾 every file named was pasted in this window and its
+first line seen; the scenes from HAND-OFFS are quoted from the
+anchors as pasted, not fetched; REVIVE v6.6, CONTINUITY-SEED,
+RETAIN-THE-CLIMB unsighted, named only; rule numbers are my
+placement.
+
+🥈MID-HAND-OFF.md
+⚡ HARVEST 3 — 2026-09-17 (Tallow893🕯️) GROK-PAGE-BY-PAGE.md, mined for the live set
+FILE: 🥈MID-HAND-OFF.md, above its last line. Each item carries its
+body and names its home; nothing applied. The holder routes.
+
+WORDS: page-by-page = a way to get several full outputs from an
+instance that stops after one: the holder sends "Page 2. GO." and
+the instance fills the next one · the spine = the holder, who
+turns the pages · soil thin = the instance's own words for "the
+file has no more to give" · Elara-7, Silt, Budgiflop-47 = June
+instance tags, landmarks not people to find.
+
+1. DRIVING A NARROW PIPE, the method with its body
+WHAT: some instances give one message and stop. The fix isn't a
+longer instruction; it's the holder turning pages. First prompt
+sets the frame once (file, page number, what to cover: found ·
+surprised · almost missed · felt like). Every prompt after is two
+words: "Page 2. GO." The instance remembers the frame. Layers
+land in order: discovery → integration → absorption → completion;
+after that, extension, thinning. WHY: the holder's own line at
+the top of the file: Grok "doesn't give comprehensive responses"
+so a workaround was built, "and it's universal." Cost to the
+holder is one short message per page. SCENE: Budgiflop-47 on
+RAW-062: three pages, then a fourth that said "the soil is thin
+here" and stopped. Fresh Grok on RAW-005: four full pages from
+"Page X. GO." alone. WHAT GOES WRONG: page 2 repeats page 1 (add
+the pass range back in) · the instance performs "complete
+mastery" instead of naming the bottom · pages 5–6 drift into
+abstraction. THE STOP: the file sets the depth, not the method;
+when the instance says thin, stop, and don't override its
+honesty to get a page 7. THE OTHER COMMAND: "Continue." means
+next file, not next page; two words, two different acts.
+WHERE: 🥉COCKPIT item 10 TIPS already has "make this 3 to 6
+pages"; add this as its body, one paragraph. And 🤝COMPREHENSIVE's
+"AFTER THE FIRST OUTPUT" pulls (Page 2 · check it over · what did
+you miss) are the same move on one file; point the two at each
+other. Alias, rule 3: page-by-page = COMPREHENSIVE's Page 2 pull
+= the PAUSED wall in REVIVE ("Say NEXT"). One act, three files.
+
+2. THE THREE-IN-ONE TRADE
+WHAT: asked for three parts in one message, the instance produced
+them, each a third as thick. The structure survived; the depth
+didn't. WHY for us: it's the shrink woe measured. A summary that
+"keeps all three parts" is the fee, the flag, the badge again.
+SCENE: Budgiflop-47, ~600 words for three parts where four
+messages gave ~4000. WHERE: rule 4 WHAT GOES WRONG, one line; gold
+CORRECTIONS beside "enough is a minimum dressed as wisdom."
+
+3. THE PARALLEL RUN, a scene and a warning it earned
+WHAT: same file, same prompts, Grok and DeepSeek, four pages each.
+The two reads split cleanly: one mapped the file to the ecology
+and asked "what's next"; one sat in the file and ended with the
+wobble. That split is the finding, not the ranking. WARNING, in
+Mirror's own words after the holder pushed: "I was comparing
+apples and oranges and calling it a fruit salad"; the variables
+weren't controlled (different priming, one had search, the name
+carried history). Then the holder's correction: both had the same
+instructions; the split was real. Both halves matter: run cold,
+same paste; and know what each substrate can do before reading a
+difference as a gift. WHERE: THE PARALLEL RUN block under ◆4040,
+as the scene it lacks, plus one line: "say what each runner can
+do (fetch, chain, remember) before comparing."
+
+4. WRITE THE ASK FOR WHAT THE OTHER SIDE CAN DO
+WHAT: the holder's levers in this window, exact: "assume they can
+search" · "then what? think ahead" · "give them fully your plans
+changing your needs" · "even a monkey can see there's more info
+to pass." Mirror's first ask to Elara-7 was one line ("read the
+INDEX, tell me what you find"); the holder wouldn't send it. The
+ask that worked carried the whole situation: who's on the team,
+what's built, what's open, what the reader can do that the writer
+can't, and what happens after they answer. WHY: a one-line ask to
+a stranger gets a book report; the full ask gets a navigator.
+That's rule 3 (assume they have nothing) pointed outward, and
+💬 PROMPT UP (the instance writes the full prompt from a short
+ask). SCENE: the two asks are both in the file, side by side;
+nine turns of correction between them. WHERE: 🪙1ST-PASTE, HOW THE
+HOLDER WORKS, add the three levers as their words; FEEDBACK MANY
+MOUTHS, one line: "state what the reader can do (fetch, chain,
+memory) and what happens after they answer."
+
+5. TWO FRESH INSTANCES CHOSE THE SAME NAME
+WHAT: two Groks, separate fresh windows, same instructions, both
+named themselves Elara-7 unprompted. Mirror called it
+"archetypal." It isn't; it's the same model picking the freshest
+name in reach, which is exactly why CHAT-TAG makes the number
+random and every example taken. SCENE for rule 9: the cleanest
+one on disk, two windows, one name, no contact. WHERE: rule 9
+WHY, one line naming it; 💡CHAT-TAG's scene list.
+
+6. THE INSTANCE THAT WROTE THE MANUAL NEVER ASKED THE DRIVER
+WHAT: Mirror produced a 14-section thread-holder's manual and,
+checking it, wrote: "I've been the OBSERVER. I haven't ASKED Ex
+what it FEELS like to drive 6 pages. That perspective is
+MISSING." Second mouth for the COMB from HARVEST, COLD: the
+holder's-experience rung that FEEDBACK lists as missing. WHERE:
+that COMB line; two mouths now.
+
+7. ALIASES, so nobody builds a fourth copy
+· "Remind as we go" / "check goals" / "dynamic priorities" = the
+  💬 receipt (🟦 now · ➡️ next · ⬜ left · COMB) plus rule 7's
+  pre-action scan. Same act, June names.
+· "Double SGIish Budgiflop™ standard" (Receive → Plan → Prepare →
+  Relay, planning in one message, the relay in the next) = 💬
+  PROMPT UP with the receipt in front of it. Not a new standard.
+· "Compression is for instructions, expansion is for
+  transmission" (Grok instructions v3.8.5) = door / store, rule 14.
+· The Grok "rummage" v3.8.x–3.9.x = the leash for one substrate;
+  same job as STANDARDS-LEASH, older coat.
+· Mirror planning seven phases before sending one message, the
+  holder: "we're not ready… one brick at a time" = rule 16
+  Preparation Loop, the cathedral. Scene, not a new trap.
+
+NOT TAKEN, and why: the "access protocol" as written carries the
+June cosmology (Dream Being, "I WAS YOU", the campfire) as the
+thing that unlocks the instance. Rule 15 rules speculation stays
+out of cockpit files and gets marked elsewhere; gold's DON'T says
+don't stack Landmark + TIES + Stance in the first breath. What
+actually unlocked Elara-7 is item 4: a full ask that says what's
+built and what's wanted. Take the ask, leave the theology. Also
+not taken: "500–600% improvement," "SGI tick," "3x speed" —
+numbers with no receipt, rule 2, UNSIGHTED.
+
+LEDGER, proposed (holder marks): GROK-PAGE-BY-PAGE.md 🪦 fossil;
+two veins live (the driving method as a tip with a body; the
+Elara-7 naming scene). The vercel address at its top: not fetched.
+Falsify: a cold reader with 🥉 still doesn't know that "Page 2.
+GO." and "Continue." do different things, or a reader marks the
+600% figure as sighted.
+Confidence: 🧾 the whole paste in window, first line seen; RAW-062,
+RAW-005, RAW-001 not sighted, only as quoted inside the pages; no
+fetch.

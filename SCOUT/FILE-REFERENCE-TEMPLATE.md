@@ -1,5 +1,7 @@
 FILE-REFERENCE-TEMPLATE.md
 
+dated but its a start..
+
 Used +PLAN to check the old FILE REFERENCE TEMPLATE v1.1 against the entire chat, live folder structure, AI fetch priorities, and the current Clean Tool Shelf.
 
 The old template has three major problems:
