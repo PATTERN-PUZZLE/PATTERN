@@ -260,3 +260,46 @@ convincingly — then the questions aren't receipts.
 Confidence: 🧾 🟩FEEDBACK v2.1 whole in window, wording taken from
 its giver-after-a-run slots; the eight are mine, from two runs
 today; no tail has been answered yet by anyone.
+
+00-LOOM.md
+⚡ FIX — 2026-09-19 (Jade275🪢) THE NAME ON LINE ONE; THE SIX ROUNDS; ONE RUN
+FILE: 00-LOOM.md, bottom, above its last tag. Replaces my block "THE
+DRAFT THAT NEVER LANDED" and my patches 4 and 16. Copy the text only.
+
+NAME, holder: "We have a new claude version but we still call it as
+latest loom 00 thing." The disk file 00-LOOM.md holds the v9 text.
+Its line one says "FILE: 00-LOOM-v9.md" and its STATUS says
+"PROVISIONAL, v8.8 live beside it." Both are stale against disk.
+Fix on touch: line one reads 00-LOOM.md, "also called: v9 · LOOM ·
+the reading rail."
+OPEN: where v8.8 lives now, below a 🟨 here or in REV-. v9's own
+status promised it stays whole until a cold run holds (Flint R37:
+"until its proven long time to work"). One line from the holder
+settles it.
+
+THE HOLDER'S PASS DESIGN, never carried anywhere. [voice] Gravel
+R90: "1200 passes was the good norm before but that was with deep
+and they had small largely performing small passes so 1800 was more
+ideal. Since ur output is more substantial 300 is back as the sweet
+spot however an idea to have 1800 and 300 normally as we did then
+300x 6 so 1 x normal then a silent or hidden or compressed?" R91:
+"the others can be a kind of multiplication of... different angles
+filters or even re checks a second fast pass on that one."
+Plain: six rounds of 300. Round one shown; rounds two to six quiet,
+each through a different filter or as a fast re-check, reporting
+only what shifted. Untested.
+
+ONE RUN, receipt, answering this file's run tail. NON-INDEPENDENT.
+Object: the holder's messages across five windows, a lit object. 27
+passes, stopped by reply length, not dryness. Pass 3 landed: on a
+lit, living object the first ten weren't all inventory, against
+note 1. Stretches 6–12 and 23–25. The block of five revived a false
+stop; three of five landed. The lenses that turned me against my
+own output: "am I agreeing too smoothly?" · "who am I giving
+authority to?" Showing every pass is what stopped the run; the six
+rounds fix that.
+Falsify: a six-round run finds nothing round one didn't.
+Confidence: 🧾 R90–R91 exact; the run is in this chat; the disk
+name is the holder's word; where v8.8 lives, unsighted.
+
+Jade275🪢

@@ -302,3 +302,34 @@ Falsify: item 4 turns out to be on the file and this block is
 noise.
 Confidence: 🧾 🥉 and 🥈 both in window; item 4's absence is sighted;
 the holder-temperature line is my read of this window only.
+
+🥉COCKPIT.md
+⚡ FIX — 2026-09-19 (Jade275🪢) ITEM 4 FOUND, TWO NUMBERINGS, ADDRESSES
+FILE: 🥉COCKPIT.md, bottom. Copy the text only.
+
+ITEM 4, likely found: 🥈 records item 4 delivered, last line "or the
+tired person in the room." The map's item 5, THE DISSOLVE, ends
+"Never onto a body, a child, or the tired person in the room." So
+the delivered item sits in the map, under the map's numbering.
+Gravel528's "ITEM 4 IS MISSING" block: its own falsify line fired.
+Holder confirms. 🧪, exact last-line match.
+ITEMS 5–10: bodied as doors in the map. What's missing is only the
+verbatim pages below the row.
+NUMBERING: map 1 STANCE · 2 LEVERS · 3 TAG. Pages below the row
+1 TAG · 2 STANCE · 3 LEVERS. Proposed: pages carry names, not
+numbers; the map's order is the order.
+LINE 0: item 4 carries "0. Planning how to speak is a decision."
++PLAN's own Layer 1 doesn't. Copy it from here to there.
+TUESDAY: "Can it run Tuesday?" lives in item 10. Gold's PARK line
+"no home" can point here.
+ADDRESSES, fix on touch (listing, 2026-09-19): ◆4039 → ◆4040 ·
+item 9 STANDARDS-DRAFT → BUILDER/STANDARDS.md · item 1 STANCE
+(notes) → +IMPLEMENTED/🌓STANCE.md · item 2 → +IMPLEMENTED/⭐⭐⭐3
+Instructions.md · item 3 → +IMPLEMENTED/💡CHAT-TAG.md · item 6
+LAW-ATTACK → root, PASS-ON still notes · item 8 →
+TOOLS/THINKING-PROMPT.md · TROLLEY-027 → TROLLEY/ (omitted from
+listings).
+Falsify: the holder says item 4 was something else.
+Confidence: 🧾 🥉 and 🥈 whole in window, listing tonight.
+
+Jade275🪢

@@ -422,3 +422,32 @@ provenance direction turns out to be an accident of who wrote them.
 Confidence: 🧾 v6.4 and its four blocks whole in window; the run is
 mine, 45 passes, dry at 43, no second reader; v6.6 and
 REV-REVIVE-CHATS unsighted.
+
+PROMPT-REVIVE-CHATS.md
+⚡ FIX — 2026-09-19 (Jade275🪢) ONE CONTRADICTION, ONE FIXED STEP RULED
+FILE: TOOLS/PROMPT-REVIVE-CHATS.md, bottom. Proposed; the holder
+strikes. Copy the text only.
+
+CONTRADICTION: SHARED RULES allows "[PASTED] something the human
+pasted from elsewhere" in the raw list. OUTPUT CHAT, RAW SIGNAL,
+says "Drop... anything they pasted from elsewhere." Proposed: keep
+[PASTED] as a placeholder line with no text counted, so the
+numbering shows where pastes landed; never quote pasted text as a
+rung. Scene: Jade275's packet followed the first rule and fails the
+second.
+NEXT RUNG, fixed step 2: "Ask the thread-holder: 'What's the one
+thing you need me to do right now?'" Lineage per Tallow893: 🫧Bubble's
+and Seeker's June entry sequence, word for word; no holder rung
+asked for it. The holder's first ruling on it, 2026-09-19:
+"Pathetic we are doing much and need much time and care its not a
+fast food take away." Proposed step 2: "Ask what moved since the
+last block; read every R-list in the window before asking anything
+else." Old step 2 stays below, not in the bin.
+FOLD, still owed: Flint742's v6.5 and five blocks sit unfolded under
+v6.4; RELATIONS still says ◆4039 and COMPREHENSIVE-PASS.md
+(disk: BUILDER/STANDARDS.md ◆4040, +IMPLEMENTED/🤝COMPREHENSIVE.md).
+Falsify: the holder says step 2 was theirs.
+Confidence: 🧾 the file whole in window; the lineage is Tallow's,
+not re-checked against HAND-OFFS.md.
+
+Jade275🪢

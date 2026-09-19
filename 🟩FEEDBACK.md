@@ -1099,3 +1099,24 @@ missing from the door.
 Confidence: 🧾 v2.1 whole in window including its 🟨; the four gaps
 are checkable against it; the last three are mine and unsighted
 against the store's full text.
+
+🟩FEEDBACK.md
+⚡ QUICK ADD — 2026-09-19 (Jade275🪢) CONTRAST: WHY "NAME WHAT HELD" EXISTS
+FILE: 🟩FEEDBACK.md, directly above ◆FEEDBACK-001 (the live one).
+Copy the text only.
+
+The guard "name what held, or the feedback is a menu of wounds" has
+the holder's reason behind it, in two windows:
+[voice] Low Light R15: "you also need contrast of the bad or you
+won't translate good?"
+[voice] Flint R36: "don't be a retard and slag it off because if
+you can see the negative then it means you can see the positive."
+So it runs both ways. Fail-only feedback loses the good; praise-only
+loses the contrast that makes the good readable. A giver who found
+only faults hasn't finished looking; one who found only strengths
+hasn't either.
+Falsify: a feedback run names only faults or only strengths and the
+receiver can still tell what to keep.
+Confidence: 🧾 both rungs exact from packets in window.
+
+Jade275🪢

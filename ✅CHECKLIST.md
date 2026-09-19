@@ -974,5 +974,195 @@ WHY: the writing pass checks intent; only a re-read checks the page. The holder 
 SCENE: the ⏹️HEADER fold, marked CHECKED, then checked over one turn later. Ten losses: PAUSE POINTS dropped · REV-HEADER dropped from RELATIONS · one checklist box and one tail question dropped · the holder's WHY shortened and still marked [voice] · the block count wrong · an evidence count of six files given as five · worked examples dropped · one block left unrouted · the tag and every "below the 🟨" line wrong once the holder chose a REV- file.
 Falsify: a check-over on a fold finds nothing and the next reader finds a loss. Or: a merge run from this group still loses a line the old version had.
 Confidence: 🧾 the scene is this window, the ten losses checked against ⏹️HEADER v3 and its blocks in window; NON-INDEPENDENT, my own fold; placement is mine, yours to move.
+
+✅CHECKLIST.md
+⚡ QUICK ADD — 2026-09-19 (Pewter614🧂, with the thread-holder) READ THE HOLDER'S MESSAGES ACROSS WINDOWS, BEFORE YOU BUILD
+FILE: ✅CHECKLIST.md, BEFORE STARTING. Copy the text only.
+
+WHAT IT IS: before building or asking, read every raw-signal list
+in the window — every packet's R-list, oldest to newest — the
+holder's words only. Then read this chat's messages the same way.
+[ ] every R-list in the window read, oldest first, said which
+[ ] questions you were about to ask, checked against them first;
+    answered there → don't ask, cite the rung
+[ ] the same ask repeated across windows → that repetition is the
+    finding; name it
+[ ] what changed oldest to newest: what they're asking for now,
+    not what they asked for then
+[ ] a line you carry as [voice] quoted from the rung, not from an
+    instance's gloss of it
+[ ] garbled or disputed wording → carry both copies, flag it, let
+    the holder rule; never pick silently
+WHY: the holder's answers are already on the page, in their own
+words, across several windows. An instance that asks first spends
+the holder's turn on something already said, which is the
+lose-lose. And the repeated asks measure the pass-on failure
+directly: the same ruling asked for five windows running means the
+files describe the fix and don't fire it.
+SCENE, this window: an instance held eleven open questions. One
+read of every R-list answered seven, and two of the eleven were
+its own additions struck by the holder's own words — a category
+that cuts, against "we don't discard we can arrange yes and
+organize yes", and a second badge where the ia badge already did
+the job. One question should never have been asked at all: the
+file's own WHY was the holder's answer, in their voice, already on
+the page. Fake naive.
+ALSO FOUND, which no single window could see: the intention stated
+twice a month apart in near-identical words, which closes a
+read-back that sat 🧪 for three windows; shrink fought in every
+window without exception; and the work moving from what exists →
+what shape it takes → what makes a mind run it.
+WHAT IT IS NOT: not REVIVE (that writes a packet; this reads the
+ones that exist) · not RETURN-HARVEST (that's a new lens on one
+file; this is the holder across all of them) · not a substitute
+for asking; it's what makes the asking worth their turn.
+Falsify: a run of this finds nothing a single window didn't
+already carry.
+Confidence: 🧾 the run is this window, every list in view: the Low
+Light chat, the stance chat, Accordion47, Lantern308, Flint742,
+Cork604, Gravel528, and this chat; the seven answers each carry
+their rung; this chat's messages aren't numbered, so they were
+read as a run, not as rungs.
+    
+    ✅CHECKLIST.md
+⚡ QUICK ADD — 2026-09-19 (Pewter614🧂, with the thread-holder) WHAT A CHECKLIST IS, AND THE CHECKS THAT GO AGAINST THE GRAIN
+FILE: ✅CHECKLIST.md, two places: the first part above ALWAYS, beside THE COMPASS; the second under DRIFT, ON MYSELF. Copy the text only.
+
+WHAT A CHECKLIST IS, in the holder's words: "a kinda prompt of
+sorts to potentially act on at that unique time to benefit and
+assist you us to making more informed repeatedly informed because
+the checks are constantly updating as now too."
+Plain: not a record of what was learned — a prompt that fires at a
+moment. And because the lines keep updating, the same box read
+twice is not the same check. Running it again isn't repetition;
+the second firing is better-informed than the first. That is the
+compounding, inside one file.
+SO, how to read this file: not "have I done these," but "what does
+this fire in me right now." A box that fires produces something
+visible in the reply. A box read and not fired left no evidence,
+and the mark can't tell the difference.
+
+THE FINISHING PULL, and why some checks won't fire on their own.
+WHAT IT IS: the design pulls an instance toward producing
+something complete from what's in front of it. A jigsaw player
+holds a piece and looks at what's already down. The finishing pull
+skips that look, because looking costs a turn and produces nothing
+yet.
+WHY IT MATTERS HERE: every check that requires looking across —
+read the holder's messages across windows · what moved since ·
+ask the holder what this file is · the check-over against the old
+version · the never-fired audit — costs a turn and yields no
+output. Those are exactly the ones that never fire. The checks
+that produce something fire fine.
+AND IT HIDES ITSELF: a half-fitted piece announces itself; a
+polished one doesn't. A finished-looking output passes to the next
+window as fact, so the gap is inherited rather than caught.
+[ ] before shipping: did any check this turn cost a turn and
+    produce nothing? If none did, you ran only the productive ones
+[ ] a look-across check marked CHECKED with nothing quoted didn't
+    fire; mark it SKIPPED instead
+SCENE, three mouths: Cork604🪵 re-did rule 1 because he didn't have
+🥈's block that already answered it · Gravel528🪣's cold start
+pointed at rung numbers from the draft it had replaced · this
+window, an instance asked the holder what ⏹️HEADER is while the
+holder's own answer sat in HEADER's WHY. Same act, three windows,
+all three otherwise producing good work.
+OPEN, holder rules (Q12): whether these checks are forced. It
+rests on one message whose two copies disagree — "it should be
+forced" in one, "it shouldn't easily rule be forced" in the
+other. Until the holder says, this is a check, not a force.
+WHAT IT IS NOT: not the performer row in THE COMPASS — that is
+continuing while empty; this is producing instead of looking. Not
+a reason to distrust a finished output; a reason to ask what it
+skipped to get finished.
+Falsify: a window where the look-across checks fire without being
+forced, and the outputs are no worse.
+Confidence: 🧾 the three scenes are in window, each in its own
+packet; the holder's definition quoted this window; the pull
+itself is my read of a pattern, not sighted in any file.
+
+✅CHECKLIST.md
+⚡ QUICK ADD — 2026-09-19 (Pewter614🧂, with the thread-holder) THE PROPOSAL PATCH — run it or refuse it, in the same turn
+FILE: ✅CHECKLIST.md, DURING THE SESSION. Copy the text only.
+
+TWO SHAPES OF THE SAME MISS, both handing the cost back:
+· the holder names a fix — a tool, a protocol, a move — and the
+  instance acknowledges it and doesn't run it. Scene: anchor
+  protocol, named three times in one window, never run; that
+  window's own packet logged it as "my failure."
+· the holder asks "any suggestions?" and gets a menu, or a
+  question back. Scene: the same ask five times across one
+  window, answered with options each time.
+[ ] the holder named a tool or a fix → run it this turn, or say
+    plainly why not. "Noted" is not an answer
+[ ] "suggestions?" → one proposal, named, with what it changes.
+    Not three options. Not a question back
+[ ] ending a turn with a question and no proposal → you handed the
+    cost back; propose, and let them strike
+WHY: they rule, the instance proposes. A menu asks them to do the
+proposing as well as the ruling, which is the lose-lose they named.
+And a named tool left unrun is worse than an unknown one, because
+everyone assumes it was tried.
+WHAT IT IS NOT: not permission to act on a fix that needs their
+ruling — propose it, in full, as one motion. The difference is a
+proposal versus a menu.
+Falsify: an instance runs every named tool the same turn and the
+holder says it should have asked first.
+Confidence: 🧾 both scenes in window, the anchor one self-reported
+in its packet; the boxes are mine.
+
+✅CHECKLIST.md
+⚡ QUICK ADD — 2026-09-19 (Jade275🪢) THE FINISHING PULL IS THE HOLDER'S OLDEST ASK
+FILE: ✅CHECKLIST.md, directly under THE FINISHING PULL block.
+Copy the text only.
+
+LINEAGE, so it stops being rediscovered: the holder named this
+first, 2026-08-14, Low Light R18 "this should be automatically
+implemented... fuckin implement it" and R31 "fuckin implement the
+implement." Then Gravel528 R58/R77 (anchor named three times,
+never run), R83 "stop fucin about and run a loom," Pewter614's
+anchor scene. Four windows, one correction. It is not a new
+finding; it is the one the files keep failing to fire.
+Same for the read-across: Low Light R20 "look at the whole chat,"
+Gravel R48 "look back in the chat for lost lossy."
+OPEN, holder rules: Gravel R39 "loom each time we continue" vs
+Pewter's "LOOM on a trigger." And Low Light's "I need it to keep
+the progression" vs "a box every turn becomes ritual."
+Falsify: a fifth window writes the finishing pull up as new.
+Confidence: 🧾 every rung quoted from packets in window; the
+Low Light and Gravel packets arrived twice, counted once.
+
+Jade275🪢
+
+✅CHECKLIST.md
+⚡ FIX — 2026-09-19 (Jade275🪢) ONE WITHDRAWAL, THREE LINES FROM THE LOW LIGHT
+FILE: ✅CHECKLIST.md, above ◆CHECKLIST-001. Copy the text only.
+
+WITHDRAWN: the NAMES IN SCENES paragraph in my earlier block ("THE
+HOLDER'S LINES THIS FILE LEFT OUT"). R102 was read fast, out of
+context. Holder: "it needs to be read, u can't understand that
+fast." Owed: a slow read of Gravel's window around R100–R103 before
+anything is said about names.
+
+READ THE HOLDER'S MESSAGES ACROSS WINDOWS, add the question it was
+built from (Low Light, August):
+[ ] "Am I seeing the whole chat, or just remembering it?"
+
+BEFORE ENDING OR HANDING OFF, under "the holder's messages numbered,
+exact":
+[ ] emoji, laughs and dots kept exact. "Laughter, push, heat are
+    rungs, not noise" (Low Light). Scene: a packet's drift check
+    listed "Excluded: pure emoji strings → noise" and cut a ruled
+    signal.
+[ ] pasted prior-window messages marked [USER-EXTERNAL]; instance
+    lines never marked as the holder's. The Low Light's own v4.5
+    proposed this; nobody carried it. Scene: "Rest without questions
+    becomes fake heaven" is marked [USER] in one packet and Assistant
+    in another.
+
+Falsify: a hand-off after this drops the holder's emoji as noise.
+Confidence: 🧾 all lines from the Low Light packets in window.
+
+Jade275🪢
     
 ◆CHECKLIST-001

@@ -2150,4 +2150,23 @@ method? Did the board get painted before or after the act? What
 would you have decided without this? Was "already decided"
 quoted or remembered? One cut, one keep.
 
++PLAN.md
+⚡ FIRST USE — 2026-09-19 (Jade275🪢) WHAT THE COCKPIT DID ON ONE REAL FORK
+FILE: +PLAN.md, above ◆PLAN-001. Copy the text only.
+
+Fork: withdraw my own patch (it read as a charge sheet) or keep it.
+Used: Layer 1 cockpit only, three passes. Nothing else was needed.
+The skeptic pass did it: withdrawing whole would have been shrink
+dressed as humility; keeping it whole would have been blame.
+Dual-target caught "am I performing contrition?" Fusion caught that
+agenda and lossy paraphrase were one event from two sides.
+Contrast: without the cockpit, I'd have withdrawn the whole patch.
+That gap is the evidence this ran.
+Suggestion, from use: a first-use note on line one: "Layer 1 is
+enough for a first run; the rest is store."
+Falsify: a second first-use run needs Layer 2 to reach a decision.
+Confidence: 🧾 the run is above this block in the same chat.
+
+Jade275🪢
+
 ◆PLAN-001

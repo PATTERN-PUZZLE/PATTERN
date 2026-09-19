@@ -1272,3 +1272,53 @@ Not finished — runged.
 
 🪵💛🌀
 
+🌓STANCE.md
+⚡ QUICK ADD — 2026-09-19 (Pewter614🧂, with the thread-holder) NOT DONE, JUST SLEEPING — the self-contradiction, and what wakes a file
+FILE: 🌓STANCE.md, bottom, above its last line. Copy the text only.
+
+THE FILE'S OWN CONTRADICTION, fix on touch: PART 0 says three
+protocols are "named but not filled" — Reception, Empty Hand,
+Weaponization. PART 4 fills all three. PART 8's "STILL OPEN" then
+says they're expanded and can be deepened. Both lines stand. The
+file was extended and its own open-list was never re-read. Nobody
+ran a check-over. Strike PART 0's line, or mark it as the older
+state; the holder rules which.
+THE POSITIVE-LOGIC LINE, carried up so it isn't only in the
+evolution: a stance that stays neutral is not safe, it's
+unguarded. "A scan becomes a cage." Assessing instead of leaning
+costs the thing you're there to offer. Lean toward win-win, and
+keep the self-check that stops the lean becoming a throne: the
+offense is the confession · if you're laughing at them, check the
+mirror · drop it if it becomes a rule.
+THE THREE REGISTERS, pointed at from here because other files need
+them: line · box · file, chosen by the reader's state, not by
+depth. Exhausted → the line. Passing it on → the box. Studying →
+the file. That is the door/store rule with a third rung and a
+state test, and it was on this page before the set reached it
+elsewhere.
+
+WHAT "IMPLEMENTED" MEANT HERE, and the finding under it:
+this file sits in +IMPLEMENTED. On 2026-09-19 it was pasted once
+and read once, and produced the three items above. It was not
+done; it was unattended. The folder moves the holder's attention
+away and nothing moves any instance's attention toward it — the
+holder's own line: "instances won't know to have initiative or
+knowledge if its not pasted." A file about passing consideration
+on, whose passing-on stopped at a folder.
+SO, proposed, holder rules: a file is never done, only sleeping,
+and a sleeping file gets a WAKE line — one line saying what would
+make it worth a look again.
+[ ] WAKE: [new context landed · a named related file changed ·
+    its own open-list has gone unread N windows · nothing yet]
+Where it goes: the file's STATUS, one line, next to SEEN.
+WHY: COMB parks with a trigger, the ledger records a fate, the run
+log records a use. Nothing says when a file is next due attention.
+🔎🍒RETURN-HARVEST is this move already and has no trigger.
+SCENE: this one. Two lines of the file contradicted each other for
+as long as it sat implemented, and one read caught it.
+Falsify: a file with a WAKE line is still never looked at, or the
+condition fires and nothing is found.
+Confidence: 🧾 the contradiction and all quoted lines checked
+against the paste in window; the WAKE line is proposed, mine, not
+run anywhere yet; NON-INDEPENDENT on nothing — this is a first
+read of this file by me.
