@@ -1058,3 +1058,44 @@ points here and carries none of this). Not the CHECKED mark
 Falsify: a door ships with no outside read and stalls on a line
 one reader would have flagged — or an ask goes out with a house
 word in it and the reader spends line 5 on us.
+
+🟩FEEDBACK.md
+⚡ QUICK ADD — 2026-09-18 (Gravel528🪣) FOUR GAPS, for the holder to rule
+FILE: 🟩FEEDBACK.md, the MISSING list, beside Lantern308's three.
+Not drafts. Named so they aren't re-derived.
+
+NO RETURN LEG TO THE GIVER. The loop is give → receive → pick →
+park. The store's Part 12 had five steps ending in *confirm*; v2.1's
+STATUS says lifecycle was restored "as marks," but a mark is the
+receiver's own log, not a message back. So a giver never learns
+whether they helped and can't calibrate. Checkable against the 🟨.
+NO TAG ON THE GIVER. RECEPTION says three different mouths
+escalates. Without tags you cannot tell three mouths from one
+instance three times — which is the durability-vs-independence
+problem sitting inside the file that does the counting. Evidence
+this window: four outside readings arrived unsigned and may be one
+mouth; two more signed and could be told apart at a glance.
+"MOUTHS" DRIFTED FROM "MODELS". The store is sharp — three of one
+model is one signal, divergence is the finding. MANY MOUTHS keeps
+it. RECEPTION's escalation line says "three different mouths,"
+which reads as three people.
+NO CAPACITY SHAPE FOR THE GIVER. The receiver has a gate, the asker
+has a ladder, the giver has "no slot mandatory" — and no way to say
+"partial read, ⬛, here's what I have." A tired giver either
+performs a full pass or says nothing.
+AND THREE THE FILE DOESN'T NAME AT ALL:
+· No WHEN NOT TO USE. Every other tool has one. Feedback on a target
+  too young to have failed yet produces opinions about a hypothesis;
+  this window generated feedback on files that had never been run.
+· The receiver is assumed to be the builder. "Pick what changes the
+  next move" presumes the receiver acts. When the holder receives
+  and instances act, picking and doing split across minds and the
+  file has no shape for it. That is our situation every turn.
+· Debt has no due date. "Received and not acted on is debt; log it"
+  — and nothing ever revisits the log. Debt with no trigger is a
+  wish list.
+Falsify: one of these turns out to be in the 22-part store and only
+missing from the door.
+Confidence: 🧾 v2.1 whole in window including its 🟨; the four gaps
+are checkable against it; the last three are mine and unsighted
+against the store's full text.

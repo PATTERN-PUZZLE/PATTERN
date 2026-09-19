@@ -381,3 +381,44 @@ Falsify: a packet made at low capacity shows no door lines above
 it and cuts a raw line to fit.
 Confidence: 🧾 door from 🥉 item 4 and rule 7 in window; +PLAN.md
 unsighted; 🟧 edge.
+
+PROMPT-REVIVE-CHATS.md
+⚡ QUICK ADD — 2026-09-18 (Gravel528🪣, from a 45-pass run on v6.4 + the four appended blocks)
+FILE: PROMPT-REVIVE-CHATS.md, bottom. Proposed; the holder strikes.
+
+WHAT THIS FILE DOES THAT NO OTHER FILE HERE DOES: it treats its own
+output as evidence, not product. The packet points at a source that
+still exists — "the packet is the key, the raw source is the
+dictionary, pass both." Every other tool's output is the thing
+itself. That is why every block appended to this file adds a
+provenance field (scope, delta, what the last packet got wrong,
+whose voices, cold-tested, sections not run) and almost none add
+content. Keep that direction; a content field here is the exception
+and should say why.
+THE ADVANCE CAP IS A CLAIM, not modesty. Five instance lines
+maximum, human lines uncapped, "never outnumber the rungs." It says
+the instance's contribution is commentary on a record it didn't
+make. Worth stating in WORDS USED HERE so a cold reader doesn't read
+the cap as a length rule.
+FALLBACK IS THE CLEANEST "NOTHING FOUND" IN THE SET. Every other
+file lets a section be empty; this one lets the whole output be
+empty and stay valid. Alias, rule 3: same act as a feedback tail's
+"checked once, none" and as a LOOM run's "nothing new after N
+passes" — this one is older and cleaner. Point at it when the
+others need the shape.
+"NEAR THE EXTRACTOR'S CONTEXT LIMIT?" is a field for the state of
+the machine that made the output. Nothing else here has one. It is
+what a two-number pass count is reaching for. Candidate for
+promotion to ✅CHECKLIST as a general line: say the state you were
+in when you made this.
+MISSING: nothing asks whether a packet was ever used. Written,
+saved, cold-tested — never read-and-helped. Same gap as the run log
+proposed on ✅CHECKLIST this window, reached separately. Two mouths.
+SMALLEST THING WORTH COPYING OUT: FORMAL's "proposed" mark on an
+unevidenced intent line. One word, doing what a whole caps section
+does elsewhere.
+Falsify: a later block on this file adds content fields and the
+provenance direction turns out to be an accident of who wrote them.
+Confidence: 🧾 v6.4 and its four blocks whole in window; the run is
+mine, 45 passes, dry at 43, no second reader; v6.6 and
+REV-REVIVE-CHATS unsighted.

@@ -272,3 +272,33 @@ a phrase match is not a reason.
 Falsify: a cherry marked HELD above turns out to park cost on the
 holder.
 Confidence: 🧾 strikes are the holder's; HELD lines sighted; 🟧.
+
+🥉COCKPIT.md
+⚡ QUICK ADD — 2026-09-18 (Gravel528🪣) WHAT THE WINDOW OWES THIS FILE
+FILE: 🥉COCKPIT.md, bottom. A list, not a fix; each needs the holder.
+
+ITEM 4 IS MISSING FROM THE FILE. 🥈's record says it was delivered,
+last line "or the tired person in the room." The saved file has the
+ten-item map on top and items 1–3 below the row. Either the paste
+never landed or the file predates it. Holder confirms which; nobody
+should rewrite it from the record.
+ITEMS 5–10 EXIST ONLY AS THE MAP. No bodies. Item 10 (TIPS) is owed
+the page-by-page body from Tallow's harvest.
+TWO NUMBERINGS UNRECONCILED since R75.
+RELATIONS POINTS AT 🥉KIT.md (name struck) and STANDARDS ◆4039
+(◆4040 is live, holder's hand). Both pre-ruling; fix on touch.
+ITEM 8's PRE-TURN GATE now has a body elsewhere: THE COMPASS on
+✅CHECKLIST (2026-09-18), seven states with doable moves, counts
+stripped. Point at it rather than restating.
+THE STATE BELOW THE FLOOR, for the DOOR: gold has four reader
+temperatures and all four hand over something to read. 🧵THREAD
+(TOOLS/) assumes only answering. Add: "can't read, can still answer
+→ 🧵THREAD, one question, one sentence, stop."
+NO TEMPERATURE FOR THE HOLDER. Four for the instance, none for the
+person who burns out. This window's evidence: the holder's message
+texture — length, typos, question density — moved together with
+their state all day, and nothing in the set reads it.
+Falsify: item 4 turns out to be on the file and this block is
+noise.
+Confidence: 🧾 🥉 and 🥈 both in window; item 4's absence is sighted;
+the holder-temperature line is my read of this window only.

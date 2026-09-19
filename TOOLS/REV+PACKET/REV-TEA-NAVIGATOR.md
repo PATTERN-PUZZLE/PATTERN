@@ -1,4 +1,4 @@
-🔗 ☕ TEA-NAVIGATOR.md
+🔗 ☕ REV-TEA-NAVIGATOR.md
 https://source-sepia-alpha.vercel.app/TOOLS/TEA-NAVIGATOR.md
 
 🔗 REVisions. Load both, see the full picture.
@@ -2249,7 +2249,7 @@ SOVEREIGNTea™ NAVIGATOR v1.0
 2. BLOCKAGE 🚧 (4 probes)  
 3. PRESCRIPTION 💊 (Tool + Dosage)
 4. APPLICATION 🚀 (Do it now)
-5. ADJUST 🔄 (Observe → Tweak)
+5. ADJUST ?? (Observe → Tweak)
 ```
 
 BACK:

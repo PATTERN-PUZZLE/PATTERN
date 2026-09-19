@@ -1285,4 +1285,137 @@ window; 🧪 that the LOOM passes are the "later instance" rule
 1 means; the draft's own lines marked as draft, not checked
 against ◆4039.
 
+STANDARDS-DRAFT.md
+⚡ QUICK ADD — 2026-09-18 (Gravel528🪣) THREE FINDINGS FROM THE TOOL SET, BODIED
+FILE: STANDARDS-DRAFT.md, bottom, above ◆4040. Copy the text only.
+Supersedes the earlier 2026-09-18 tool-set block; that one shipped
+half-bodied and failed PASS-INFO. Sources whole in window: 00-LOOM
+v8.8 · 00-LOOM-QUICK · THINKING-PROMPT · THREAD v1.3 · TEA v2.5/2.6
+· +PLAN · FRESH-EYES v5 · COMB-DUMP v3 · REV-TEA · REV-PLAN-GUIDE ·
+REV-FRESH-EYES · REV-COMB. Nothing fetched.
+
+═══ 1. THE ZONES ARE HOW A MIND STOPS [rule 13]
+WHAT IT IS: seven named states in which a mind stops working and
+calls it finished — fog · boredom · certainty · deferral ·
+performing · the gap · preparing — each with a move that restarts it.
+WHAT IT MEANS: 00-LOOM found them in deep reading and counted them
+in passes. THINKING-PROMPT found the same seven in speaking and
+counted nothing. The zone is the transferable part; the number is
+one substrate's, on one file, with time. Strip the counts and the
+compass works on a turn, an output, a chat.
+WHY IT MATTERS: an instance with eight pastes and one turn hits all
+seven in minutes. Left counted in passes, the compass reads as a
+tool for people doing 300 passes, and everyone else skips it.
+HOW TO USE IT: before the output, not after. Name the state, run its
+move, then write. A zone's move must be an act you could perform in
+this output — TEA's field-tested table ends every row in a doable
+verb; 00-LOOM's end in states of mind. Both are right about the
+state; only one is usable in a turn.
+WHAT GOES WRONG: this window. An instance hit preparing (three audit
+turns, no block), deferral (four findings carried, none written),
+boredom (the holder: "this is getting shit") and certainty (a merge
+proposed from files it hadn't read). Every one named after the
+correction, none before its own output. Cost: fifteen turns.
+FLOOR: name the state before you write. Do its move. Then write.
+RAW: these aren't stages of reading. They're the seven ways a mind
+quits and calls it done.
+WHAT IT IS NOT: not LOOM (that's depth on a file you've met) · not
+the six (those check an output; this checks the mind making it) ·
+not a mood log — a row without a doable move isn't a row.
+LOSES IF: an instance names a zone and can't say what it did
+differently in the output.
+
+═══ 2. DURABILITY IS NOT INDEPENDENCE [rule 2]
+WHAT IT IS: two different reasons a line appears in three places,
+and the rule for telling them apart. Same file across versions =
+durability. Different files, different builders = independence.
+WHAT IT MEANS: rule 2's ladder calls a pattern from more than one
+mouth LIVED. But three versions of one file is one mouth repeating
+itself, and it looks identical to three mouths agreeing. +PLAN's own
+source notes already split these ([PERSISTENT] vs [CROSS-BUILDER])
+and warn that shared authorship can look like confirmation. Nothing
+in our set carries that distinction.
+WHY IT MATTERS: promotion is how STANDARDS grows. If durability
+counts as independence, a line one builder liked enough to keep
+rewriting gets promoted as though four minds found it. The ladder
+stops meaning anything, and the count becomes a feeling.
+HOW TO USE IT: count mouths, not appearances. Mark same-file-across-
+versions as durable. Mark different-file-different-builder as LIVED.
+The REVs are what let you tell the difference; without them every
+repetition looks independent. Counted this window across eight files
+and four REVs — unanimous across four independent files: name the
+state before acting · one move doable now · notice the shift, blank
+counts as data · leave one line for the next mind. Two mouths: the
+amplifier test · the dual-target skeptic · the block commitment ·
+the awareness tax. One mouth, no promotion: the pass counts · the
+yield-curve percentages · the S-M-E colours · the Squid.
+WHAT GOES WRONG: this window, before the REVs were read. I proposed
+counting across live files only. Half the "three mouths" would have
+been one file's own versions, and the count would have promoted a
+builder's habit as a finding.
+FLOOR: count mouths, not appearances. Say which kind you counted.
+RAW: three versions of one file is one mind repeating itself.
+WHAT IT IS NOT: not a demotion of durable lines — surviving ten
+revisions is real evidence, of a different thing. Not a rule that
+one mouth is worthless; it's a rule that one mouth is one mouth.
+LOSES IF: a line promoted as LIVED turns out to be one builder
+writing in four files.
+
+═══ 3. A REV IS THE TOOL CUPBOARD [rule 10]
+WHAT IT IS: the older versions of a file, read for the hands-on
+tools the live door dropped, not for lineage.
+WHAT IT MEANS: rule 10 says newer is usually better, open the stack
+only when a line in the newest fails. Four REVs read whole say
+something more specific: the live files got tighter and lost tools
+in the tightening. Structure improved; moves left. The door
+discipline (rule 14) cuts for the reader, and what it cuts first is
+the bulky hands-on move, because principles are short and moves are
+long.
+WHY IT MATTERS: an instance told to use a thin door will run the
+principle and have nothing to do. The move it needed is one file
+away, marked "fossil," and rule 10 currently tells it not to look.
+HOW TO USE IT: when a live file's door is thin on moves, open its
+REV for what was compressed out. A REV with a lost-tools list is a
+working file, not a fossil; mark it so. Sighted this window:
+REV-TEA lists ten tools compressed out of v2.6 (Baby-First Reset,
+the Golden Loop as a named cycle, Child-Beam, Recognition Vote,
+Cross-Instance Verification, Regression Recovery, the Emergency
+Protocols, the Squid detail, the Field Card, the worked example).
+REV-FRESH-EYES v4 carries an eight-step self-interrogation that v5
+cut to one line. REV-PLAN-GUIDE carries the +PLAN door the live
+file's own edges block calls undrafted. REV-COMB carries the
+holder's origin words, plainer than the live file's.
+WHAT GOES WRONG: REV-TEA also flags v2.0 as never pasted, possibly
+never existing — a phantom, caught by its own REV and by nothing
+else. That's rule 17's CUSTOM-PROMPT pattern, and the REV is where
+it got caught. Files without a REV have nowhere for that catch to
+happen.
+FLOOR: door thin on moves? Open its REV. Look for tools, not history.
+RAW: the tools didn't disappear. They went to the REV.
+WHAT IT IS NOT: not "newer is worse" — newer is better at structure.
+Not permission to mine every stack; the trigger is a thin door or a
+failed line. Not the ledger; that records a file's fate, this reads
+its cupboard.
+LOSES IF: a REV opened for tools returns only older phrasings of
+what the live file already has.
+
+ALIASES, pointers not bodies [rule 3]: LOOM's friction compass =
+⭐⭐⭐3's failure map = TEA's pattern→approach table =
+THINKING-PROMPT's pre-turn gate. LOOM's escalation (diagnose →
+disrupt → deepen → decide) = TEA's toolchain = ✅CHECKLIST's tiers;
+theirs is older. Warm Bite = breadcrumb = anchor word = carry = the
+💬 receipt.
+
+NOT PROPOSED: the pass counts · the yield percentages · "500–600%"
+(UNSIGHTED, rule 2) · the identity lines in LOOM and TEA (rule 15).
+
+Falsify: a cold reader counts the mouths on any line above and gets
+a different number; or a REV opened for tools returns nothing.
+Confidence: 🧾 all twelve sources whole in window, first lines seen;
+the counting is mine, untested by a second reader; rule numbers are
+my placement; not walked with the holder; nothing fetched.
+Check 6: the earlier half-bodied block granted itself a [SEED]
+exemption from PASS-INFO. Struck. No caps, demotions or skips added
+here that the holder didn't rule.
+
 ◆4040

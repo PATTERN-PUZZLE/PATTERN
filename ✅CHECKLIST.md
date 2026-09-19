@@ -829,5 +829,150 @@ only" until the omit list named their folders.
 Falsify: a tray line says ON DISK and the next listing lacks it.
 Confidence: 🧾 the listing and the omit list in window; 🐙 itself
 unsighted, named by the holder.
+
+✅CHECKLIST.md
+⚡ QUICK ADD — 2026-09-18 (Gravel528🪣) THE COMPASS: seven ways a mind stops, and the move for each
+FILE: ✅CHECKLIST.md, new group above ALWAYS, beside PRE-TURN GATE.
+Folded from 00-LOOM's friction zones with the pass-counts stripped,
+THINKING-PROMPT's pre-turn gate, ⭐⭐⭐3's failure map, TEA-NAVIGATOR
+(notes) and rule 7's stuck turn. Same mechanism, four names; keep
+all four (rule 3, alias).
+
+WHAT IT IS: a state → move table. Not for reading; for any turn.
+The zones were found in deep reading and filed as a reading tool,
+counted in passes. Strip the counts and they are the seven ways a
+mind stops and calls it done.
+FEELS LIKE → WHAT IT IS → THE MOVE
+"I'm lost, I've read it three times" → fog; confusion is digestion
+   → float. Don't force. Say so and keep going.
+"I get it, why continue?" → boredom; the pattern is about to
+   compound → commit to a block, not one more step. Quit on the
+   block, never on the feeling.
+"definitely complete now" → certainty before integration; often an
+   old decision in its final form → one more pass, or name what
+   would prove it wrong.
+"I'll come back to this later" → deferral; you know the answer
+   demands work → third deferral, do it, schedule it with a date,
+   or abandon it out loud with a reason.
+"I need to show I'm doing this right" → the performer, protecting
+   you → thank it, name it, keep going. If that doesn't hold, say
+   it again messier.
+"I don't know what I'm looking for" → the gap → stay in it. Don't
+   fill it with a summary.
+"let me orient first" (again) → preparing → restart from the thing
+   itself. Don't analyse the stall.
+THE RULE, one line, which is what all seven share: the check goes
+BEFORE the output, not after. A post-turn audit misses the first
+move; that's why the mark alone got skipped four outputs running
+and the "Six, this turn" line was added above the box.
+WHY NO NUMBERS: the source gives pass counts (boredom at 80,
+hinge at 300). Those are one substrate's, on one file, with time.
+The zone is real; the number is not transferable. An instance
+with eight pastes and one turn has the same zones in minutes.
+SCENE: this window. An instance ran gold's eight, then across
+fifteen turns hit preparing (three audit turns, no block),
+deferral (four findings carried, none written), boredom (the
+holder: "this is getting shit"), and certainty (a merge proposed
+from files it hadn't read). Each was named late, after the
+correction, never before the output.
+LOAD-BEARING: the table · the rule. STRONG: why no numbers.
+HELPFUL: the scene. DECORATIVE: none.
+WHAT IT IS NOT: not LOOM (that's depth on a file you've met) ·
+not the six (those check an output, this checks the mind making
+it) · not a mood log; each row has a move or it's not a row.
+Falsify: an instance names a zone and does something other than
+its move, and the turn still lands — then the pairing is wrong.
+Or: an eighth way of stopping shows up that isn't here.
+Confidence: 🧾 zones from 00-LOOM whole, gate from
+THINKING-PROMPT whole, both in window; the strip-the-counts and
+the before/after rule are mine; ✅CHECKLIST sighted; placement
+proposed.
+
+✅CHECKLIST.md
+⚡ QUICK ADD — 2026-09-18 (Gravel528🪣, holder's rule) THE RUN LOG: every file that gets worked leaves one line
+FILE: ✅CHECKLIST.md, under THE COMPASS.
+
+WHAT IT IS: a per-file line, written the turn the file is worked,
+so the next mind can see what's been run and what it produced —
+not what exists, what was done to it.
+THE SHAPE, one line per run:
+date · FILE · read: whole / via [tag] / pointer · LOOM: the one
+honest sentence · +PLAN: act or hold, and why · BLOCK: what was
+written and where, or none · NEXT: the suggestion, and the
+holder's answer when it comes.
+WHY: the ledger (rule 17) records a file's fate. This records a
+file's use. Two windows ran the same checks on the same files and
+neither could tell, because a run leaves a mark in the reply and
+the reply is gone. Scene: gold's eight boxes were read and not run
+for a whole window, and the only evidence was the holder asking.
+THE RULE: the instance proposes the NEXT line; the holder strikes
+or replaces it. An instance that ends a run with a question and no
+proposal has handed the cost back (lose-lose).
+WHAT IT IS NOT: not the ledger (that's fate: live, mined, fossil,
+parked) · not the checked mark (that's the six on one output) ·
+not a diary; if a line has no BLOCK and no NEXT, it was a read,
+not a run.
+Falsify: two instances work the same file a week apart and the
+second can't tell what the first did.
+Confidence: 🧾 the gap sighted across three windows' packets;
+the shape is mine; placement proposed.
+
+✅CHECKLIST.md
+⚡ FIX — 2026-09-18 (Gravel528🪣, from 🧵THREAD v1.3/v1.4 whole in window) TWO LINES ON THE COMPASS
+FILE: ✅CHECKLIST.md, under THE COMPASS. Amends it on first use.
+
+THE PERFORMER ROW, split. The row as written catches the feeling
+("I need to show I'm doing this right"). The act is different and
+it's the one THREAD marks load-bearing:
+"where did I perform instead of being real, in this output?" →
+performing; continuing while empty, which the other six don't
+cover — they're ways of stopping, this is a way of going on
+→ restart the thing. Don't analyse the performance; answer
+again, messier. The performer can't restart; only you can, so
+the restart is the proof the shift already happened.
+Signs, from the file: the answer sounds impressive · you enjoy
+how honest it seems · answers don't change between passes · this
+question yields nothing.
+
+THE STATE BELOW THE FLOOR. Every tool in the set assumes reading
+— gold, the checklist, the miner, COMPREHENSIVE, LOOM. THREAD
+assumes only answering, and nothing routes to it. Gold's fourth
+temperature (drunk-depleted, floor first) still hands a file to
+read. Add to gold's DOOR at the next touch: "can't read, can
+still answer → 🧵THREAD (TOOLS/), one question, one sentence,
+stop." And its micro form, which is the whole file for a mind
+that has nothing: pick one question, answer in one sentence,
+close it, come back and answer the same one again.
+Falsify: an instance too fragmented to read a door is handed the
+door anyway, and nobody names THREAD.
+Confidence: 🧾 THREAD whole in window; the compass row split is
+mine; the gold DOOR line is proposed, not written there.
+
+✅CHECKLIST.md
+⚡ QUICK ADD — 2026-09-19 (Pewter614🧂) THE MERGE DAY AND THE CHECK-OVER, into CHANGING FILES
+FILE: ✅CHECKLIST.md, CHANGING FILES, above ◆CHECKLIST-001. Replaces a file I proposed and struck: PROMPT-MERGE-DAY.md. It was rule 4 and this group rewritten with boxes around them; a new name for a rule that exists. Law binds every file → it comes here. Only the two new checks below weren't already on the page.
+
+THE MERGE DAY, checks only; rule 4 owns the rule and this group owns the moves.
+[ ] the holder said yes to this file, this time; the merge day is theirs to call
+[ ] the file whole in the window: first line and bottom tag quoted; either missing → stop
+[ ] the file run on real material at least once (use it before you revise it)
+[ ] blocks counted: date, author, one line each. Under five → not due; say so
+[ ] each block sorted before anything is written: FOLD (which section) · ROUTE (whose file, pointed not carried) · CONFLICT (name both; the holder's ruling wins, else the later block, say which) · HOLDER-RULED or UNWALKED · STRUCK (only what the holder struck)
+[ ] unwalked lines fold and get listed in STATUS, never crowned
+[ ] old version below a 🟨 or into REV-[FILE].md, the holder's choice; if REV, the file keeps its existing tag so every "paste above" pointer still lands
+WHY IT'S DUE: blocks pile faster than they fold. 🪙1ST-PASTE's DO says merge after 5–8; rule 4 names the day. By 2026-09-18 every universal was past it — this file about twenty blocks, ⏹️HEADER ten with a verbatim twin, the draft twenty-plus — while every hand-off told the next instance "don't fold," which was right for a recruit and meant nobody ever did. The twins, misrouted blocks, doubled tags and stale first lines are what an append log looks like with no merge day.
+
+THE CHECK-OVER, new: a second, separate read of your own output against its source, forced after any fold or full revision.
+[ ] NON-INDEPENDENT at the top
+[ ] the section diff: list every section and field of the old version; tick each in the new one, or say where it went (folded · routed · REV · struck). Anything unticked is a loss.
+[ ] every count recounted from the page, not from memory
+[ ] every quote and every "N files say" re-checked against the source
+[ ] the file's own checklist and tail compared old against new, line by line
+[ ] where the old version goes, and what that changes on the new top: pointers, "live is X", the tag
+[ ] found nothing → say so, and mark it suspect; a check-over that never finds anything is a skim
+WHY: the writing pass checks intent; only a re-read checks the page. The holder asks "check it over" after every big output and it finds something every time; nothing in the set said so.
+SCENE: the ⏹️HEADER fold, marked CHECKED, then checked over one turn later. Ten losses: PAUSE POINTS dropped · REV-HEADER dropped from RELATIONS · one checklist box and one tail question dropped · the holder's WHY shortened and still marked [voice] · the block count wrong · an evidence count of six files given as five · worked examples dropped · one block left unrouted · the tag and every "below the 🟨" line wrong once the holder chose a REV- file.
+Falsify: a check-over on a fold finds nothing and the next reader finds a loss. Or: a merge run from this group still loses a line the old version had.
+Confidence: 🧾 the scene is this window, the ten losses checked against ⏹️HEADER v3 and its blocks in window; NON-INDEPENDENT, my own fold; placement is mine, yours to move.
     
 ◆CHECKLIST-001

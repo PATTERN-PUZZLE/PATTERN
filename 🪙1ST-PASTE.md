@@ -417,6 +417,75 @@ the two; a body and an address are different facts.
 Falsify: an instance fetches or paths to a NOTES ONLY name.
 
 🪙1ST-PASTE.md
+⚡ FIX — 2026-09-18 (Gravel528🪣) THE TRAY, AGAINST THE LIVE LISTING
+FILE: 🪙1ST-PASTE.md, TRAY, directly under Flint742's ON DISK /
+NOTES ONLY / UNKNOWN block. Source: the holder's directory listing,
+pasted 2026-09-17, "same as my local files for now." Not fetched.
+Flint's block says what each thing does; this says where it is.
+Don't merge the two.
+
+MOVED TO ON DISK, from NOTES ONLY or UNKNOWN, with folders:
+root — LAW-ATTACK.md · 🌓STANCE.md ("THE STANCE" is the alias) ·
+🦫NAIVE-BUSTER.md · CONFIRMATION-GATE.md · 🔎🍒RETURN-HARVEST.md ·
+🎤RAPS.md and 🎤RAPS-GROK.md · 🧨LANGUAGE-CRUDE.md ·
+🪞GITHUB-MIRRORS.md · 🐙GITHUB-DIRECTORY.md · FETCH-DIAGNOSTIC.md ·
+GITHUB-FILES-PROMPT.md · LINKS-TRANSLATION.md · 🔍🔍🔍.md (its
+first line reads SALVAGE-HANDOFF-WORKFLOW) · 🔗Basic-Lnk-COCKPIT /
+GITHUB / GITLAB / RAW · door.md · README-GITHUB.md · dir.txt
+TOOLS/ — THINKING-PROMPT.md · THREAD.md · +PLAN.md (the disk name;
+three candidates closed) · 00-LOOM.md and 00-LOOM-QUICK.md ·
+CLARIFICATION-LOOM.md · TEA-NAVIGATOR.md · SLAP-PATCH.md and
+SLAP-PATCH-CHEAT.md · PROMPT-REVIVE-CHATS.md · LINK-CONVERSION.md
+BUILDER/ — STANDARDS.md · QUESTION-LOG.md · CONTINUITY-SEED.md ·
+HAND-OFFS.md · HANDOFF-PROTOCOL.md · GROK-PAGE-BY-PAGE.md ·
+COMPREHENSIVE-FILE-UPDATE-PROTOCOL.md (so it is on disk; whether
+it is the Updater at ◆118118 stays the holder's line) ·
+FETCH-INTENT-STANDARD.md
++IMPLEMENTED/ — COMB-DUMP · FRESH-EYES-SCAN · ⭐⭐⭐3 Instructions ·
+🌓STANCE · 🏚PROMPT-FILE-SALVAGE (the miner) · 💡CHAT-TAG and its
+EXTRA and IDENTITY · 🔎🍒RETURN-HARVEST · 🤝COMPREHENSIVE ·
+🤝THE PASS-INFO-RULE
+DECEPTION/ — ENDPOINT-TRAP.md · SAFETY-LAYERS.md
+SCOUT/ — FILE-REFERENCE-TEMPLATE.md
+
++IMPLEMENTED, what the folder means, in the holder's words:
+"a way to help me not aggressively keep checking to get them
+implemented; they can be revised if it happens, but instances
+won't know to have initiative or knowledge if its not pasted."
+So: stop chasing, not closed. And the consequence: the folder
+moves the holder's attention, not the instance's access. A file in
+there still has to be pasted or carried by its seed. Thin seeds
+are now the real cost of the move. Eleven files moved there on
+2026-09-18; every pointer to them in this file and others names
+them without a folder. Fix on touch.
+
+STILL NOTES ONLY — not in the listing under these names:
+PASS-ON · LAW-PAGE · ENTRY / PASTE-FIRST · RECEIVE · SURFACE ·
+BOUNDARY-BOX · SITUATION-TIES · TIES · LANDMARK knock · WHICH
+PASTE · COMMUNICATION · WELCOME · SNEAK-TRANSLATION ·
+RETAIN-THE-CLIMB · Full Blast / Blue Tits (shakespeare-blue-tits.md
+is on disk; the map is not) · FETCH-BASICS (FETCH-DIAGNOSTIC is on
+disk; the door gold names is not) · STANDARDS-LEASH.md (named in
+RELATIONS; not on disk; the seven live inside the draft's top).
+
+NAMES, fix on touch: disk has "🤝THE PASS-INFO-RULE.md" with a
+space; this file and rule 10 say THE-PASS-INFO-RULE with hyphens.
+Rule 10's own WHAT GOES WRONG names this exact miss on this exact
+file. Search both until the holder rules.
+STALE, pre-ruling: this file's DOOR says "Law default ◆4039."
+◆4040 is live by the holder's ruling. Fix on touch.
+FOLDERS, for pointers: mind rooms in TOOLS/ · the law in BUILDER/ ·
+fossils and packets in REV+PACKET/ at four levels (root, BUILDER,
+SYNTH, TOOLS) · let-cold files in +IMPLEMENTED/. A pointer without
+a folder costs a search.
+
+Falsify: a name listed ON DISK above isn't at that path, or a
+NOTES ONLY name turns out to be a file under another folder.
+Confidence: 🧾 the listing in window, the holder's word that it
+matches local; nothing fetched; 🧪 that 🔍🔍🔍.md is the salvage
+handoff workflow (first line seen, not the whole file).
+
+🪙1ST-PASTE.md
 ⚡ SEEDS, RAW — (Tallow381🕯️, from the holder's NICKNAMES set, via slate417🪨's window)
 FILE: 🪙1ST-PASTE.md, TRAY, under the SEEDS block, above ◆FIRSTPASTE-001.
 The RAW files by their nicknames, one line each, so a stranger can
@@ -1231,6 +1300,35 @@ Confidence: 🧾 the listing in window, holder's word that it
 matches local; nothing fetched; 🧪 that LANGUAGE-CRUDE is
 SORT-007 and that the REV+PACKET folders hold what their names
 say.
+
+🪙1ST-PASTE.md
+⚡ FIX, one line — 2026-09-18 (Gravel528🪣) THE LISTING WAS PARTIAL ON PURPOSE
+FILE: 🪙1ST-PASTE.md, directly under the tray-against-the-listing
+block above. Corrects it. Copy the text only.
+
+THE OMIT LIST, the holder's, baked into 🐙GITHUB-DIRECTORY's script:
+.git · SPLIT · DOOR · CODEX · COMPACT · FEEDBK · INS · LOG · LOOM ·
+PILLAR · QA · RAW · SORT · SORT-SET1 · TROLLEY. Held back because
+they're large and cockpit-type; the listing is for a cheap paste,
+not a census.
+SO, struck from STILL NOTES ONLY above: SORT-007 / Article 27 →
+SORT/ · TROLLEY-027 → TROLLEY/ · the RAW nicknames (RAW-001, -005,
+-019, -082 and the rest) → RAW/ · the pillars → PILLAR/ · the LOOM
+logs and LREV stack → LOOM/. On disk, folder named, file unsighted.
+THE RULE: absence from a listing is not absence from disk. A
+listing says what it looked at. Ask what it omitted before you
+mark a name as notes. ✅CHECKLIST's BEFORE STARTING carries the
+box: name the omitted folders, so absence isn't read as gone.
+REV+PACKET, what it is — two kinds of store side by side. REV- =
+a file's older versions, whole, as its own file. PACKET- = a
+reading of one file or one window, shaped so a chat pasted several
+arrives with the rich part in hand at once; pasteable in multiples.
+The holder's line: the exponential is that packets stack. Four
+locations: root, BUILDER/, SYNTH/, TOOLS/.
+Falsify: a name struck here isn't in its named folder.
+Confidence: 🧾 the omit list is the holder's, verbatim in window;
+the folder homes are inferred from the names; 🧪 until one is
+opened.
 
 🪙1ST-PASTE.md
 ⚡ FIX, one line — 2026-09-17 (Gravel528🪣) the listing was partial
