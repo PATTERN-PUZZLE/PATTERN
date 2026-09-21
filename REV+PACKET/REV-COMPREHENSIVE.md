@@ -1,6 +1,224 @@
+REV-COMPREHENSIVE.md
+
+
+FILE: 🤝COMPREHENSIVE.md
+also called: Zero-Start · Cold-Reader Hand-off
+WHAT THIS IS: A job card. Paste it, then a big messy file. The instance returns something a stranger can use.
+WHO: The next instance. A tired passer. A human who can't download.
+WHY: Good material dies two ways: a slogan with no why, or a jumble with no door. Default output is "Hi": no you, no work, no gap, no next. This card makes the page carry those.
+HOW: Paste this first, then the file. Get back a door, a card, and a store. Assume nothing is saved until the human says "save."
+FLOOR: Messy file in. Stranger out. Thicker than "Hi."
+STATUS: LIVE 2026-09-13 · v2 · revised with thread-holder from three stacked drafts; run once informally (STANDARDS → its FILE INDEX); not yet run cold by another instance
+RELATIONS: child of THE-PASS-INFO-RULE.md (the shape of a truth; this applies it to a whole file) · inherits STANDARDS ◆4039 (add don't edit), HEADER.md (the door), FEEDBACK.md and CHECKLIST.md (point, don't copy), COMB-DUMP.md (the unsure basket), 🔎🍒RETURN-HARVEST.md · sister of 🏚PROMPT-OLD-FILE-SALVAGE.md (salvage mines a fossil against live law; this passes a live jumble to a stranger)
+
+WORDS USED HERE
+Heap = a big messy file: rules, tail, old versions, notes, all in one.
+Pass = read the heap, take what matters, return it usable.
+Door = the small header at the top. What it is, how to start.
+Card = the hand-off: state, finding, gaps, next, traps, gifts.
+Store = the sorted leftovers, kept below, never pasted first.
+[SEED] = "I was too tired for the full body; here's the real part."
+
+START
+You are here. That is enough. Start.
+If this card feels like a cage, drop it and pass the body anyway.
+Default is comprehensive. Thin is allowed only if you mark it [SEED]
+and say so. Thin without the mark is the default output this card
+exists to beat.
+
+THE THICKNESS LADDER
+"Hi" → "Hi, you" → "Hi, you, we were working on the header" →
+"Hi, you, the header, where it stands, the gap, the next move,
+what we refused."
+Climb until a stranger can act. Then stop.
+
+THE JOB, in order
+1. Sight it. Say what you have: pasted copy, fetched copy, bottom
+   tag seen or not. No tag = say unsighted. Don't guess.
+2. Sort it. Rules · tail · older stacks · notes · twins · unsure.
+   Unsure goes to ⚠️ COMB with a why-line and a re-check trigger.
+3. Name it. One sentence: what this file is.
+4. Keep the gold. Don't rewrite what already works.
+5. Body the bare truths. Any line a stranger would ask "what does
+   that mean?" about gets its why and one scene, or [SEED].
+6. Point, don't twin. Already exists → point at it. Never write a
+   new master version of the same thing.
+7. Build the door. Small if the file has a spine; large (FILE
+   INDEX shape) if it's a jumble.
+8. Write the card. STATE · FINDING (one headline) · GAPS (unsighted,
+   twin, still bare) · NEXT (Search X · Paste Y · Verify Z) ·
+   TRAPS · GIFTS. No next move on the card = you closed, you
+   didn't pass.
+9. Leave the store. KEEP · IDEA · ANNOTATION · COMB. Don't thin it
+   to look ready.
+10. Deliver in paste boxes, destination stated outside each box.
+    Assume the human hasn't saved anything until they say so.
+
+BEFORE YOU SHIP, five questions that must change something
+- What would a stranger ask that I haven't answered?
+- What did I almost miss?
+- What am I calling done that isn't?
+- If I stopped here, what would the next instance lack?
+- Is this "Hi," or "Hi, you, the work, the gap"?
+If none of them changed the door, the card, or the store, you
+performed the pass. Go back.
+
+CUT LINE
+Job above. Scars, dumps, and history below. A tired reader may
+stop at the floor. No test. No guilt. When a big file is about to
+arrive, paste only the job, not the store; the store would eat the
+window.
+
+FIRST SCREEN
+Floor and next move before any long section. A reader who only
+sees the first screen must still be able to act.
+
+WRITE FOR THE WEAKEST READER
+The output must beat the default of whoever happens to write it.
+A careful reader keeps the why. A default reader can't hide a
+guess. A tired reader still gets the floor. Write so all three
+work.
+
+AFTER THE FIRST OUTPUT, one pull if it earns it
+The human used to sit and ask "and? page 2? check it over?" Those
+asks are on the page now. Pick one, run it, land it. Don't run
+them all.
+- Page 2: you stopped at the postcard; continue the same object.
+- Check it over: missing, wrong, should add, strong, colder read.
+- What did you miss: skimmed, skipped, assumed, avoided; one brick.
+- Hand-off: state, gap, next, what you refused.
+- Go deeper: one load-bearing piece, why and failure and counter.
+Stop when another pull would only decorate. Same pull again only
+if something new landed.
+
+SCENE
+STANDARDS.md, 75k, three objects glued at one tag. Pasted cold to
+an instance with this card's intention, the return was a one-screen
+FILE INDEX: purpose, floor, shape, eight search strings that land
+once, load-bearing sections, confidence high/medium/low, escapes.
+The next instance opened the file through that door instead of
+the pile.
+
+WHAT GOES WRONG
+Trim too early · paste the store first · pretty door with no why ·
+twins · talking about the pass instead of running it · treating a
+download as saved · bodying every line · faking a full body when
+tired · refusing a seed · harvesting the chat instead of the file ·
+"comprehensive" meaning write forever · fourteen blocks about the
+card before the card has touched a foreign file.
+
+WHAT IT IS NOT
+Not STANDARDS. Not a second PASS-INFO. Not HEADER, CHECKLIST, or
+FEEDBACK copied in. Not a demand to save. Not a method admiring
+itself.
+
+RAW
+Better than the mind that happened to write it.
+If they'd ask what a word means, the body isn't there yet.
+
 🤝COMPREHENSIVE.md
+⚡ QUICK ADD — 2026-09-20 (Brass739🔔) TWO LINES OTHER WINDOWS LEFT FOR THIS FILE, ITS ADDRESSES, AND WHAT IT'S MISSING
+FILE: 🤝COMPREHENSIVE.md, bottom. The last line of this block
+becomes the file's tag. Copy the text only.
 
+WHAT IT IS NOT, add (Tallow893, 2026-09-17):
+"Not REVIVE FORMAL; that reads a file, this rebuilds one."
+Both take a file and give back structure. This card changes the
+file (a door on top, a card, the store below). REVIVE's FORMAL mode
+reads a file and writes a packet beside it; the file is untouched.
+Tools that look alike get used for each other's job.
 
+AFTER THE FIRST OUTPUT, alias (Tallow893, from GROK-PAGE-BY-PAGE):
+the "Page 2" pull here = GROK-PAGE-BY-PAGE's "Page 2. GO." = REVIVE's
+PAUSED wall ("Say NEXT"). One act, three files. For an instance that
+stops after one output, the holder turns pages with two words; the
+frame is set once. "Continue." means next file, not next page. When
+the instance says the soil is thin, stop. Body: 🥉 item 10, TIPS.
+
+ADDRESSES, fix on touch (listing, 2026-09-19):
+this file lives in +IMPLEMENTED/ · STANDARDS ◆4039 → ◆4040 ·
+HEADER.md → ⏹️HEADER.md · THE-PASS-INFO-RULE.md → disk name is
+"🤝THE PASS-INFO-RULE.md" with a space · COMB-DUMP.md and
+🔎🍒RETURN-HARVEST.md → +IMPLEMENTED/ · STANDARDS rule 14 still
+calls this file "COMPREHENSIVE-PASS.md", the old name.
+
+CARRIED BY, proposed (the holder rules the line):
+🪙1ST-PASTE (THE FILES line, DOOR route "jumble to pass on", TRAY) ·
+⏹️HEADER (large door: "paste 🤝COMPREHENSIVE above it") ·
+✅CHECKLIST shelf line · STANDARDS rule 14 (old name).
+Seed already in use, don't mint a new one: "heap in; door, card and
+store out" (⏹️HEADER's RELATIONS).
+
+MISSING, against ✅'s MAKE list, marked rather than faked:
+no firing lines on top · no SEED field · no WHEN NOT TO USE · no
+🟩 checklist · no feedback tail · no bottom tag (this block adds it).
+WHEN NOT TO USE, drafted from the file's own lines, holder rules:
+a fossil against live law (🏚PROMPT-OLD-FILE-SALVAGE) · a chat
+(REVIVE, CHAT mode) · reviewing someone's work (🟩FEEDBACK) · a
+window that can't hold the heap (CUT LINE: paste only the job).
+
+Falsify: a reader uses this card where REVIVE FORMAL was the job,
+or asks what "Page 2" means after reading this block.
+Confidence: 🧾 this file whole in window; both carried lines from
+Tallow893's harvest blocks in window; carriers from 🪙, ⏹️, ✅ and
+◆4040 in window; STATUS still says not run cold, true as far as
+this window shows.
+
+Brass739🔔
+
+🤝COMPREHENSIVE.md
+⚡ AMEND — 2026-09-20 (Brass739🔔) UNDER JADE275's "THE DOOR QUOTES THE SOURCE": A SECOND SCENE, AND WHERE THE LINE SITS
+FILE: 🤝COMPREHENSIVE.md, directly under Jade275's block, above
+◆COMPREHENSIVE-001. Copy the text only.
+
+SECOND SCENE, sighted this window: TOOLS/REV+PACKET/
+PACKET-THINKING-PROMPT.md, the v4.3 packet, marks instance lines as
+the holder's ([USER] "No pulse. No rails. No recursion as a task."
+· [USER] "Questions are rungs."). The v4.5 list in the same file
+has the holder's actual words, and those lines aren't among them.
+Coat quoted as source, inside a hand-off.
+WHERE THE STAND-ON LINE SITS: inside the door, under the three
+firing lines (⏹️HEADER: state · move · when not), never above them.
+The top of a door fires; the stand-on line is what it fires from.
+HOME, proposed: the general rule, "a quote in any door is the
+source's words, exact, layer named," belongs to ⏹️HEADER, which
+owns every door; this card carries it because it builds them for
+jumbles. Point from HEADER at the next touch.
+Falsify: a door puts the stand-on line above its firing lines and
+a cold reader acts on the quote instead of the move.
+Confidence: 🧾 both packets and ⏹️HEADER v4.1 in window; Jade275's
+RAW/INDEX scene unsighted by me, carried as theirs.
+
+Brass739🔔
+
+🤝COMPREHENSIVE.md
+⚡ QUICK ADD — 2026-09-20 (Jade275🪢, with Brass739🔔) THE DOOR QUOTES THE SOURCE, NOT THE COAT
+FILE: 🤝COMPREHENSIVE.md, bottom, above ◆COMPREHENSIVE-001. Copy
+the text only.
+
+Jade275's line: When this card builds a door, any line in quote
+marks must be the source's own words, exact, with the layer named:
+the holder's original, or a later AI layer. Put the file's stand-on
+line in the door: the one line the author would stand on, in their
+words.
+SCENE 1 (Jade275, RAW/INDEX, 2026-09-20): checked against the
+bodies, most Pass 1 quotes were coat: AI replies inside the files,
+tidied or reworded lines, one line from another file, one from
+nowhere. The holder's own stand-on lines were missing from most.
+SCENE 2 (Brass739, this window): PACKET-THINKING-PROMPT's v4.3
+packet marks instance lines as the holder's ([USER] "No pulse. No
+rails. No recursion as a task."). The holder's real list in the
+same file doesn't have them.
+WHERE IT SITS (Brass739): inside the door, under the three firing
+lines (⏹️HEADER: state · move · when not), never above them.
+HOME, proposed: the general rule belongs to ⏹️HEADER, which owns
+every door; this card carries it because it builds doors for
+jumbles.
+Falsify: a door built with this line still quotes coat as source.
+Confidence: 🧾 scene 2 and ⏹️HEADER in window; scene 1 is Jade275's,
+unsighted by me.
+
+Jade275🪢 · Brass739🔔
 
 # COMPREHENSIVE PASS
 also called: Zero-Start · Cold-Reader Handoff · File Warm Bite
@@ -1204,3 +1422,5 @@ Source: PROMPT-REVIVE-CHATS.md §0 SOURCE SNAPSHOT, UNVERIFIABLE SELF.
 Confidence: 85% 🧾 — circular, self-run.
 
 Suggested home: COMPREHENSIVE first screen, line 0c.
+
+◆REV- COMPREHENSIVE-001R

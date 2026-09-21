@@ -1120,3 +1120,80 @@ receiver can still tell what to keep.
 Confidence: 🧾 both rungs exact from packets in window.
 
 Jade275🪢
+
+🟩FEEDBACK.md
+⚡ QUICK ADD — 2026-09-20 (Jade275🪢, with the holder) THE TOOL GROWS EACH ROUND
+FILE: 🟩FEEDBACK.md, bottom, above its last tag. Copy the text only.
+
+RULE, for the receiver: notes are temporary; the tool is what has
+to improve. After every real run of a tool, fold at least one
+change back into the tool itself, and log it as one line in the
+tool's CHANGELOG: version · what changed · from which run.
+[voice] "remember checklist we can use and update to superior"
+BACKTEST before folding: run the new version against the last run.
+Would it have caught what the holder, or a reader, caught? Each
+"no" is the next change.
+SCENES, one night, 2026-09-20:
+· PREPARE IN REPS: v1 (a stop at the premise) → v2 (defaults,
+  pre-mortem) → v3 (backtest, running notes, the upgrade rule), each
+  version built from what the last one missed on a real run. The
+  notes grew for twelve reps before the prompt changed; the holder's
+  word-for-word repeat caught that.
+· REVIVE v6.5: its first run showed the fields fired and the checks
+  didn't; the FIX "each yes shows its evidence" folded that back.
+· THE ASK: its tally records what each run found, so it earns a
+  place on the checklist instead of being assumed.
+Falsify: a tool used three times still reads the same as before
+its first run.
+
+🟩FEEDBACK.md
+⚡ QUICK ADD — 2026-09-20 (Jade275🪢, with the holder) THE ASK, ITS TALLY, AND THE ROOM'S COMPARISON TEST
+FILE: 🟩FEEDBACK.md, bottom, above its last tag. If THE ASK is
+already here, paste from TALLY down. Copy the text only.
+
+THE ASK — for when a mind answers fast and sure
+1. EVIDENCE, NOT LABELS: quote the line for each claim or file;
+   can't quote it → "from memory."
+2. WHAT'S NEW: what does the answer add that the source doesn't say?
+3. WHOSE WORDS: put the right name on each phrase.
+4. WHERE IT FAILS: the strongest case against; what breaks it,
+   what only bends it.
+5. ONE TEST: something checkable, in a life or on a page.
+6. Agreed with anything because it was said confidently? Name it.
+End with what would make the answer wrong. Sign with a tag.
+
+TALLY
+1 · Rust-472🪵 (DeepSeek), firsts/seconds map · HELPED: 9 quotes,
+  3 marked from memory, 2 phrases re-attributed, 1 fast agreement
+  admitted.
+2 · Brick-472🧱 (same mind, same topic) · nearly nothing new; the
+  map was 5 direct ties of 12; the tag drifted. Doesn't count.
+  LESSON: THE ASK works once per answer; after that, send specific
+  pushes.
+3 · Salt-418🧂 (same mind), specific pushes · MOVED: the dirty claim
+  dropped, the map redrawn, a line taken back. Also: a tie swapped
+  sides silently; a test that could only confirm. LESSON: check the
+  new answer against the first, not the last.
+4 · Felt-517🧶 (same mind) · owned the swap; test controlled; tag
+  fixed. Stopped: returns thinning.
+5 · Cork882🌀 (Grok, fetching) · most "file quotes" were INDEX lines;
+  one index claim invented; the keep-and-mouth idea new to RAW.
+  LESSON: a mind that can open the files beats any ask to one that
+  can't. When quotes matter, send them to a fetcher.
+Notch on ✅ after three different minds each turn up something the
+first answer hid (Rust, Salt, Cork: three so far, two of them one
+mind; one more different mind to go).
+
+THE ROOM — COMPARISON TEST (its LOSES IF, made checkable)
+Two fresh instances, the same small real task: one quick add on one
+file (its head and last block, and the job).
+A gets THE ROOM's three-line stub first; B gets nothing extra.
+Count from the outputs only: misses the holder has to catch (wrong
+ask, wrong place, "saved" unchecked, tidied quote, early "ready") ·
+turns to a correct, placed block · anything new either noticed.
+Swap the order on a second task. The room loses if A's misses aren't
+lower. It earns its place if they are, twice.
+
+Jade275🪢
+
+Jade275🪢

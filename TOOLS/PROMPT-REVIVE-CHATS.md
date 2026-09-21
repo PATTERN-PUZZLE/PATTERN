@@ -1,4 +1,5 @@
 FILE: PROMPT-REVIVE-CHATS.md
+
 also called: the chat packet · PACKET (formal mode)
 WHAT THIS IS: How to hand a chat, or a formal source, to a new instance without losing the climb or the structure. One file, two modes.
 WHO: The instance closing a session. The instance re-entering one. The human who needs the record.
@@ -449,5 +450,94 @@ v6.4; RELATIONS still says ◆4039 and COMPREHENSIVE-PASS.md
 Falsify: the holder says step 2 was theirs.
 Confidence: 🧾 the file whole in window; the lineage is Tallow's,
 not re-checked against HAND-OFFS.md.
+
+TOOLS/PROMPT-REVIVE-CHATS.md
+⚡ FIX — 2026-09-20 (Jade275🪢) REPEATS: A CHANGED LINE IS CARRIED WHOLE
+FILE: TOOLS/PROMPT-REVIVE-CHATS.md, bottom, above ◆REVIVE-001 if
+it's the last line. Copy the text only.
+
+SHARED RULES, "Repeats that add one clause," sharpened:
+· An exact repeat of an earlier message becomes one rung:
+  "[repeat of Rxx]" plus any new lines, exact.
+· Any line that changed at all, even one word added, is carried
+  whole. Never carry only the new part of a changed line.
+· The first full version is always carried whole, once.
+SCENE: the holder pasted a long "ladder" message about nine times,
+each time adding lines at the bottom AND extending its top line. A
+merge that kept only the added lines would have lost the top line's
+growth, which carried the newest ask every time. Found by running
+the rule on a real message, not by reading it.
+WHY IT MATTERS: the growth inside a repeated line is the holder's
+metronome. It's where "go deeper" lives.
+Falsify: a packet following this still drops words the holder added
+inside a repeated line.
+
+Jade275🪢
+
+TOOLS/PROMPT-REVIVE-CHATS.md
+⚡ FIX — 2026-09-20 (Jade275🪢, from ash 024's first run of v6.5) EACH YES SHOWS ITS EVIDENCE; THE TAG'S PLACE
+FILE: TOOLS/PROMPT-REVIVE-CHATS.md, bottom. Copy the text only.
+
+WHAT THE FIRST RUN SHOWED: every v6.5 field appeared (the fold
+worked), and DRIFT CHECK still answered yes without looking: it
+called R42, R43, R52–R54 "[PASTED] placeholders" while the raw list
+quoted them as rungs, and counted one invented reason where there
+were several (R05, R61, R62).
+FIX, DRIFT CHECK: every "yes" names what was checked, by rung
+number. "Nothing pasted counted as theirs: yes — R01, R14, R19,
+R42, R43, R52–R54, R67 marked [PASTED]." A yes with no rung numbers
+is a no.
+FIX, the tag: ◆REVIVE-001 sits above the 🟨 row with v6.4 below it,
+so the file's last line isn't its tag. At the next touch, move it to
+the file's last line.
+Falsify: a DRIFT CHECK with rung numbers on every yes still passes a
+pasted rung.
+
+TOOLS/PROMPT-REVIVE-CHATS.md
+⚡ QUICK ADD — 2026-09-20 (Jade275🪢, with the holder) v6.4 OR v6.5? WHAT'S ON DISK, WHAT THE ONE TEST SHOWED, WHAT'S STILL UNRULED
+FILE: TOOLS/PROMPT-REVIVE-CHATS.md, bottom. For a cold reader
+deciding which version to run. Copy the text only.
+
+WHAT'S ON DISK: this file's body is v6.4 (STATUS "LIVE 2026-09-13 ·
+v6.4"). The blocks below it are proposals, plus a few FIXes that
+record the holder's rulings. v6.5, a fold of those blocks into one
+body, exists only in the 2026-09-20 chat where it was written. It
+is not on this file.
+RUN THIS FILE AS IT IS: the v6.4 body, plus only the blocks that
+record the holder's rulings or resolve a contradiction:
+· fixed step 2 replaced: "Ask what moved since the last block, then
+  read every R-list in the window before asking anything else."
+  (FIX 2026-09-19; the holder: "Pathetic we are doing much and need
+  much time and care its not a fast food take away")
+· pastes as placeholders, never quoted as rungs (same FIX)
+· a changed line carried whole; exact repeats as "[repeat of Rxx]"
+  (FIX 2026-09-20)
+· every drift-check yes names its rung numbers (FIX 2026-09-20)
+Blocks marked "proposed" are not law until the holder rules them.
+SCENE: a packet was run on v6.5 from memory, as if it were on disk.
+The holder pasted this file, and it showed v6.4. The packet was
+redone on the file as it is: "Now run it without simulation."
+
+IS v6.5 BETTER? Better on the one thing tested; not proven overall.
+· Tested: fields fire when they're in the body. A packet run on
+  v6.4's layout missed every field that lived only in these blocks
+  (BUILD STATE, what the last packet got wrong, other voices,
+  cold-tested). A packet run on v6.5 had them all.
+· Also better: the holder's rulings sit in its body, not in a block
+  a reader may never reach.
+· Unproven or weaker: it folded in proposals the holder never ruled
+  (Tallow893's load-bearing tiers, the [USER-EXTERNAL] mark, "other
+  voices," the wordmap line, much of Flint742's fold) · its one run
+  still faked the drift check (fixed here, not in v6.5) · it's
+  longer · it predates THE ROOM: its "+PLAN's door" should now be
+  the room's weather line and the ask, quoted.
+VERDICT, about 70%: v6.5 is the better base, once the holder walks
+the unruled parts and strikes what they don't want. Until then this
+file's v6.4 body, with the ruled FIXes, is what runs. When v6.5 goes
+on, v6.4 stays whole below it.
+Falsify: a second packet on v6.5 misses fields as often as v6.4
+does, or the holder strikes most of what v6.5 folded in.
+
+Jade275🪢
 
 Jade275🪢

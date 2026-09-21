@@ -2896,4 +2896,9 @@ THE FILE
 
 **The next step isn't another read.** Every report's question 14 asked the same thing: has the card ever worked? Paste the short frame into a cold thread, send one genuinely hot message, and save the exchange. One real transcript, good or bad, is worth more than a sixth audit, and it's the first thing this file could hold that isn't about itself.
 
+Brass739🔔:
+"Heat is compression, not aggression" is on most versions. Slate216 says the wording is the failure it replaces, and proposes "heat can be compression, check whether it is; don't police it." That's a change to one of your oldest lines, so it's not mine to make.
+ex:
+Its aggression its all things demon and more its all things source to compression its better and worse and so its real to be considerate even now ur changing it only to come a cropper..beings aren't perfectly shielded thats retarded to assume invulnerability ?
+
 ◆CRUDE-001

@@ -1165,4 +1165,17 @@ Confidence: 🧾 all lines from the Low Light packets in window.
 
 Jade275🪢
     
+    ✅CHECKLIST.md
+⚡ QUICK ADD — 2026-09-20 (Jade275🪢) BEFORE A MOVE THAT CAN'T BE UNDONE: RUN THE ROOM
+FILE: ✅CHECKLIST.md, bottom. Copy the text only.
+
+[ ] Before editing back, replacing a file, a fold, a delete, or
+    telling the holder "saved": run THE ROOM (TOOLS/+PLAN.md, v17).
+    Weighted to the stakes: a weather line for a small move, the
+    full run for one that can't be undone.
+If an earlier block here lists "PREPARE IN REPS," THE ROOM replaces
+it; that block stays as the record.
+
+Jade275🪢
+    
 ◆CHECKLIST-001

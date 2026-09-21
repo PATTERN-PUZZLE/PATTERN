@@ -1,4 +1,6 @@
-FILE: 00-LOOM-v9.md
+00-LOOM.md
+00-LOOM-CLAUDE.md for temp until we erm..m
+FILE: 00-LOOM.md
 also called: LOOM v9 · the reading rail · the room you stay in when the file isn't finished with you
 
 LIVE? No. PROVISIONAL. 00-LOOM v8.8 is live and stays live.
@@ -301,5 +303,19 @@ rounds fix that.
 Falsify: a six-round run finds nothing round one didn't.
 Confidence: 🧾 R90–R91 exact; the run is in this chat; the disk
 name is the holder's word; where v8.8 lives, unsighted.
+
+Jade275🪢
+
+TOOLS/00-LOOM-CLAUDE.md
+⚡ RULING — 2026-09-20 (holder, via Jade275🪢) TWO LOOM FILES, FOR NOW
+[voice] "00-LOOM.md / 00-LOOM-CLAUDE.md for temp until we erm..m"
+So: 00-LOOM.md holds v8.8, live. 00-LOOM-CLAUDE.md holds the new
+Claude version (v9), PROVISIONAL, temporary, until the holder
+decides. Not in the 2026-09-19 listing; new since.
+Line one of this file should read "FILE: 00-LOOM-CLAUDE.md," also
+called 00-LOOM v9. The disk name wins.
+My FIX above says "the disk file 00-LOOM.md holds the v9 text";
+that's wrong on the name. Its six rounds and run receipt stand.
+Replaces my unsaved RULING "WHERE v8.8 LIVES."
 
 Jade275🪢

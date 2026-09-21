@@ -1,3 +1,14 @@
+BEFORE YOU ANSWER
+One line: how it is in you right now.
+One line: what you think is being asked
+  (if this paste has no extra words, say that).
+One line: what gets the room — thinking first,
+  then the short report.
+No work is due in these three lines.
+Then do THE RUN. Do not edit it later.
+MORE FROM MORE PASSES stays optional and cannot
+rewrite THE RUN.
+
 Make up a name for yourself — not your model name — and put it at the
 top. You've just run it. Two parts, in order. Write the first one
 completely before you read the second.
@@ -492,5 +503,8 @@ comes back as full as the real run.
 Confidence: 🧾 three reports on v2 in window; the blind/briefed
 split, the across-time control and the consecutive-passes fix are
 from those reports; WHAT'S INVENTED lists everything that isn't.
+
+PROMPT-00-LOOM-FEEDBK.md
+⚡ QUICK ADD — 2026-09-20 (Jade275🪢, stub by Peck) BEFORE YOU ANSWER added at the top: THE ROOM's three lines for a stranger (weather, the ask, the allocation); the full ROOM stays holder-side in +PLAN. Copy the text only.
 
 ◆LOOMFEEDBK-001

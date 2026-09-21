@@ -196,11 +196,6 @@ FLOOR: unsure? Park it with a note, a trigger, and an expiry. Decide later.
 RAW: the dump isn't junk. It's ore that already got looked at once.
 LOSES IF: a parked item is decided from memory, or never decided at all. Still binds if the work got better: yes.
 
-══════════════════════════════════
-⏸ PART 4B DONE. STOPPING HERE.
-Say NEXT for rules 13–17, the retired list amended, and the tail index.
-══════════════════════════════════
-
 ════════════════════════════════════
 13. RETURN AND FRESH EYES [⁴M re-scan → 🔎🍒RETURN-HARVEST.md · FRESH-EYES-SCAN.md · QUICK LOOM]
 WHAT IT IS: two ways back over covered ground, and one way to read at all. Return: new context lands, scan seen material once more with the new lens. Fresh eyes: read what you skimmed, skipped, assumed, avoided, or ignored, as if never seen. A pass, of either kind: one lens, one small piece, one honest sentence, notice what shifted. Lenses, router, and checks live in QUICK LOOM; this rule loses if it ever lists a second lens.
@@ -1688,6 +1683,40 @@ Scene: five boxes this evening pointed at names not on disk; two
 withdrawn, three re-addressed.
 Falsify: a block addressed by this rule still lands nowhere.
 Confidence: 🧾 both cases in window; the listing is 09-17's.
+
+Jade275🪢
+
+BUILDER/STANDARDS.md
+⚡ QUICK ADD — 2026-09-20 (Jade275🪢, with the holder) QUOTES NAME THEIR LAYER
+FILE: BUILDER/STANDARDS.md, bottom, above ◆4040. Copy the text only.
+
+RULE: anything in quote marks says whose words it is and which
+layer it came from. Words carried without their layer get read
+with the holder's authority, and a paraphrase gets quoted onward
+as the source.
+THE MARKS, for any file:
+· [voice] or ORE — the holder's own words, exact, typos kept
+· BODY-COAT — exact, but from a later layer inside a file (an AI
+  reply, a header compression); say which
+· TIDIED — the same words with spacing or punctuation changed
+· REWORDED — a paraphrase; give the source words beside it
+· NOT IN SOURCE — invented, or carried in from another file; name it
+STAND-ON LINE: a door, index or summary of a file leads with the
+one line its author would stand on, in their words, exact.
+SCENES, one night, five places, 2026-09-20:
+· RAW/INDEX: most Pass 1 quotes were coat or tidied; the holder's
+  stand-on lines were missing (Cork882🌀's fetch, with URLs).
+· A mind quoted RAW/INDEX lines as the files' own words, and an
+  index claim that doesn't exist.
+· The Book file v1 carried two tidied lines as the holder's.
+· "no memory past the thread," an instance line in 🪙's floors,
+  cited as the holder's.
+· Two REVIVE packets counted pasted instance replies as the
+  holder's rungs.
+Same drift every time: someone else's words carried with the
+holder's authority, and the holder's words left behind.
+Falsify: a file following this still has a quote whose layer a
+reader can't tell.
 
 Jade275🪢
 
