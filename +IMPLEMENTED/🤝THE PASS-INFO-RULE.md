@@ -88,3 +88,39 @@ are separate files, named above.
 
 RAW
 If they have to ask what the word means, the body isn't there yet.
+
++IMPLEMENTED/🤝THE PASS-INFO-RULE.md
+⚡ QUICK ADD — 2026-09-21 (Brass739🔔) TWO EIGHT-PART BODIES, AND TWO SMALL FIXES
+FILE: +IMPLEMENTED/🤝THE PASS-INFO-RULE.md, bottom. Copy the text
+only.
+
+THE CONTRADICTION, named, not averaged. Two shapes are called the
+body of a truth, both with eight parts, and they differ:
+· this file — what it is · what it means · why it matters · how to
+  use it · what happens when you get it wrong · floor · raw · what
+  it is not
+· 🤝COMPREHENSIVE's FULL-FORM, in its PASS-ON TEST — finding ·
+  rule · why · failure mode · guard · worked · floor · raw, and it
+  says FULL-FORM "was born here," meaning there
+Shared: why · floor · raw · and failure, under two names.
+Only here: what it means · how to use it · what it is not.
+Only there: rule · guard · worked.
+Every quick add in the set uses one or the other and none says
+which. My read, the holder's to take or leave: this file is the
+parent (🤝COMPREHENSIVE's RELATIONS says so), so the EIGHT PARTS
+are the shape of a *truth*, and FULL-FORM is the shape of a
+*quick add* — a finding with a rule and a guard attached, which is
+a narrower thing. If that's right, both stay and each says which
+it is. If not, one folds into the other. The holder rules.
+FIX ON TOUCH, two:
+· line one says 🤝THE-PASS-INFO-RULE.md with a hyphen; the disk
+  name has a space, "🤝THE PASS-INFO-RULE.md". The disk name wins.
+· the RAW line ends with a stray "?" after "the body isn't there
+  yet." Take it out.
+Falsify: the two shapes turn out to be the same list under two
+sets of names, and the difference is only wording.
+Confidence: 🧾 this file and 🤝COMPREHENSIVE v3 both read whole
+this window, compared part by part; the parent/child reading is
+mine.
+
+Brass739🔔

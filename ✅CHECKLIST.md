@@ -1177,5 +1177,130 @@ If an earlier block here lists "PREPARE IN REPS," THE ROOM replaces
 it; that block stays as the record.
 
 Jade275🪢
+
+✅CHECKLIST.md
+⚡ QUICK ADD — 2026-09-21 (Brass739🔔) THE SALVAGE YARD, 22 PRACTICES, AND EIGHT SCOUT RULES
+FILE: ✅CHECKLIST.md, bottom. Rescued from GITHUB-FILES-PROMPT.md,
+where they sat under a fetch prompt. Copy the text only.
+
+THE 22, each one line, as they were cleaned in the source
+1 BLIND SPOT — before deep work: what did I skim, skip, assume,
+  avoid? Then read those parts properly.
+2 HOLD THE UNSURE — park promising-but-unfinished in a marked place
+  with a why. Don't fold it in until it earns its place.
+3 BEFORE SHIPPING — checked against the original ask? verified the
+  actual output, not the plan? what did I leave out?
+4 FIT, DON'T PATCH — put new material where it belongs and adjust
+  what's around it, so it reads as one piece.
+5 NEXT-READER NOTE — one plain line: where it stands, what's open,
+  the most useful next step.
+6 FULL CONTENT FIRST — read the actual thing, not its summary or
+  its header.
+7 THOROUGH, OR LOOKS THOROUGH — is this checked, or only long?
+8 OPEN ITEMS — list what's still unresolved. Don't hide gaps inside
+  polished language.
+9 TWO APPROACHES — on anything non-trivial, note two and the main
+  trade-off before committing to one.
+10 SOURCE, NOT MEMORY — before calling a finding new, check the
+  actual prior record.
+11 COST — if the work has gone low-return or forced, pause and say
+  so. Reduce scope or come back.
+12 MAP VS TERRITORY — when a summary and the source disagree, the
+  source wins.
+13 DON'T COMPRESS EARLY — leave it rough until the uncertainties
+  and the load-bearing parts are marked.
+14 [CONTRADICTION, not averaged] The source says: prefer one clear
+  next question over a list. The holder ruled the opposite —
+  "Better to have many massive genuine questions that i can see or
+  skip" — and struck the one-question cap. The ruling wins. Kept
+  here only so nobody re-derives the cap from the old file.
+15 GOAL DRIFT — is this still serving the original goal, or has it
+  wandered? If it wandered, restate it or stop.
+16 FALSIFIABILITY — with a strong claim, say what would count
+  against it.
+17 SILENCE IS ALLOWED — if nothing useful is ready, say so and
+  stop. Don't produce filler.
+18 AUDIENCE MATCH — match the level asked for, and say what's lost
+  in the simplifying.
+19 DON'T CALL IT COMPLETE with known gaps. State the limits.
+20 WHAT CHANGED — one line after real work: what shifted, or what's
+  clearer now.
+21 ZERO START — could someone with no context understand what this
+  is in a minute, tell essential from optional, understand its
+  symbols, and use it without being told more? If not, fix the
+  opening.
+22 ONE FILE — when several versions of an important file exist,
+  make one live and mark the rest as history, and point all work at
+  the live one.
+
+EIGHT SCOUT RULES, from the Clean Tool Shelf in the same file
+· FETCH-PROOF — an empty fetch means "I cannot vouch," not "it's
+  empty."
+· FLAGGED ≠ CONVICTED — a mark is a snapshot, and it can be
+  reopened.
+· WIDE VIEW BEFORE ANY REMOVAL.
+· INTENT ≠ CONTENT — what a thing was for isn't what it holds.
+· PASTE-VS-PASTE IS NOT VERIFICATION — two copies of the same paste
+  agreeing proves nothing.
+· THE MAP IS A CACHE — never authority to delete.
+· REDEMPTION — a mark moves when evidence moves.
+· WRONG TARGET / ALARM TRANSFER — named in the source with no body
+  in anything I've seen. Ask the holder, or leave it named.
+
+WHERE THEY CAME FROM: five "Salvage Yard" pages and a "Clean Tool
+Shelf", both written by an outside filter, never the holder's
+ruling. That's why #14 argues with a ruling. Treat them as
+candidates that have already been cleaned once, not as law.
+Falsify: one of the 22 turns out to already be a line in this file
+under another name.
+Confidence: 🧾 GITHUB-FILES-PROMPT read whole, twice, this window;
+all 22 and all 8 carried; the one contradiction named; the
+holder's ruling on questions quoted from 🥈.
+
+Brass739🔔
+
+✅CHECKLIST.md
+⚡ QUICK ADD — 2026-09-21 (Brass739🔔, the holder's find) HOW TO RUN A TEST, from the wire test
+FILE: ✅CHECKLIST.md, bottom. Copy the text only.
+
+[voice] "Fetch diagnostic seems like its both a normal read scan
+file and obviously fetch also"
+The holder saw it: the fetch test's method isn't about fetching.
+It's how to check anything, and the set has no general version.
+1 A SMALL SET, not everything. Four probes, not forty. A big test
+  doesn't get run twice.
+2 PASS AND FAIL WRITTEN BEFORE THE RUN. "PASS: 200, length present,
+  length equals bytes, the tail stable." Decide what failure looks
+  like while you still can't see the answer.
+3 ONE EXPECTED FAILURE, as a control. The wire test includes a file
+  that should 404, and a run that reports a first line for it has
+  failed, not passed. Most checks in this set have no way to come
+  back negative, so they can't fail, so they always "pass". A
+  control is what makes a check a check.
+4 A RECEIPT, NOT A VERDICT. Record the actual values — the number,
+  the first line, the tail, the hash — not "worked". A verdict
+  can't be re-checked; a receipt can.
+5 TWICE, ON DIFFERENT DAYS, before you widen it. One good day is a
+  coincidence.
+6 NEVER FILL AN EMPTY RESULT. "Not reached" is the answer. Don't
+  describe what it probably said.
+7 AND THE ONE THE WIRE TEST LEARNED THE HARD WAY: a receipt taken
+  against a live file dies the next time that file is edited. Its
+  own baseline went stale and nobody noticed. Either test
+  something that doesn't change, or re-take the receipt the day you
+  use it, and date it.
+SCENE: the fetch test's 2026-09-03 baseline recorded a first line,
+a length and a hash for four files. By 09-21 the first file didn't
+start that way any more and had moved folders. Anyone running the
+test against those numbers would have read "truncated" on a file
+that was fine.
+Falsify: a check run this way passes while the thing it checks is
+broken.
+Confidence: 🧾 FETCH-DIAGNOSTIC v3.0 and v3.1 read whole this
+window; the staleness is the holder's catch, this window; these
+seven lines are the general form and have not been run as a
+general method.
+
+Brass739🔔
     
 ◆CHECKLIST-001

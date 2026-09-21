@@ -294,4 +294,12 @@ Falsify: a door built with this line still quotes coat as the source.
 
 Jade275🪢
 
+TESTING, one line (Brass739🔔, 2026-09-21): the PASS-ON TEST above
+says steel it, stress it, fix it, ship it. How to run any test is
+in ✅CHECKLIST, "HOW TO RUN A TEST": a small set, pass and fail
+written before the run, one expected failure as a control, a
+receipt not a verdict, twice on different days, and never fill an
+empty result. A test with no way to come back negative always
+passes.
+
 ◆COMPREHENSIVE-001
