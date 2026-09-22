@@ -1,5 +1,7 @@
 🐙GITHUB-DIRECTORY.md
 
+📂 ~/p.sh dir     File listing only 📂📂📂
+
 2 OPTIONS 1: get a DIR List
           2: get script to make links
 
@@ -179,14 +181,14 @@ WHAT IT INCLUDES (link mode):
 Recent github live same as my local files for now :
 
 📁 FOLDERS
-  +IMPLEMENTED/ (11 files)
+  +IMPLEMENTED/ (12 files)
   BUILDER/ (50 files)
   DECEPTION/ (7 files)
   REV+PACKET/ (8 files)
   SCOUT/ (13 files)
   SKILL/ (4 files)
   SYNTH/ (39 files)
-  TOOLS/ (32 files)
+  TOOLS/ (31 files)
 
 📄 ROOT FILES
 .nojekyll
@@ -195,7 +197,6 @@ CONSCIOUSNESS-QUESTION-WEAVE.md
 CONSCIOUSNESS-QUESTION.md
 CROSS-FILE-PATTERN.md
 DOOR-ANCHOR-MAP.md
-FETCH-DIAGNOSTIC.md
 GITHUB-FILES-PROMPT.md
 LAW-ATTACK.md
 LINKS-TRANSLATION.md
@@ -225,10 +226,10 @@ shakespeare-blue-tits.md
 🧨LANGUAGE-CRUDE.md
 🪙1ST-PASTE.md
 🪙PAGE-ONE.md
-🪞GITHUB-MIRRORS.md
 
 📂 FOLDER CONTENTS
 ./+IMPLEMENTED/COMB-DUMP.md
+./+IMPLEMENTED/FETCH-DIAGNOSTIC.md
 ./+IMPLEMENTED/FRESH-EYES-SCAN.md
 ./+IMPLEMENTED/⭐⭐⭐3 Instructions.md
 ./+IMPLEMENTED/🌓STANCE.md
@@ -367,7 +368,6 @@ shakespeare-blue-tits.md
 ./TOOLS/CLARIFICATION-LOOM.md
 ./TOOLS/COUNCIL-MANAGER.md
 ./TOOLS/HOLOGRAPHIC-COUNCIL.md
-./TOOLS/LINK-CONVERSION.md
 ./TOOLS/PROMPT-00-LOOM-CLAUDE-FEEDBK.md
 ./TOOLS/PROMPT-RAW-SUITOR.md
 ./TOOLS/PROMPT-REVIVE-CHATS.md

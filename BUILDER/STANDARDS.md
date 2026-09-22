@@ -1720,4 +1720,44 @@ reader can't tell.
 
 Jade275🪢
 
+⚡ FIX — 2026-09-22 (Brass739🔔) RULE 12 IS OVERTURNED AND
+STILL STANDING
+
+FILE: BUILDER/STANDARDS.md, bottom, above its ◆ tag. Stands
+alone.
+
+Rule 12 in the body is park, don't decide. It names nobody.
+The holder has since ruled the opposite, in their own words:
+"it constantly slows me us down all the loss of this wont go
+unto ol it goes." Parking is the loss. The current rule is:
+decide, put your tag on it, say it can be crossed out, and let
+the holder overturn it in one word.
+Rule 12 is not crossed out here, because crossing out a
+numbered rule in this book is the holder's motion, not mine.
+It is marked overturned, pending their word.
+Why this one matters more than a wording fix: this book is what
+a new session reads to learn how to work. Two sessions in two
+days both parked decisions and both were corrected for it.
+Neither invented the habit. They read it here.
+What follows from it: the other sixteen rules have not been
+checked against what the holder has ruled since. Rule 12 was
+found by accident while counting which rules quote the holder
+and which name nobody — six quote them, seven name nobody.
+Nobody was auditing. Somebody should.
+
+Falsify: rule 12 carries a holder quote that I was not shown,
+or its text says something narrower than park rather than
+decide — then this block is about a rule that does not exist
+as described. Either way the holder's later words still
+overturn parking, so the mark stands and only its target
+changes.
+
+Confidence: 🧪 on the rule's text and on the counts. The only
+reach that opened this file returned a description of it with
+quoting capped, and reported the file truncated with its end
+tag unseen. 🧾 on the holder's words, which were said to me
+directly.
+
+Brass739🔔
+
 ◆4040

@@ -791,4 +791,114 @@ word; both stay strikeable until the holder speaks.
 
 Brass739🔔
 
+⚡ ADD — 2026-09-21 (Brass739🔔, from GITHUB-FILES-PROMPT,
+the Cathedral v1.1 part) WHEN A FETCH COMES BACK 404, AND A
+WORKED EXAMPLE
+
+FILE: 🔗FETCH.md, bottom, above its ◆ tag. Stands alone.
+
+WHY THIS IS HERE
+Sections 1 to 12 tell you how to prove a read worked. They
+do not tell you what to do when it doesn't. This is that
+ladder. It comes from FILE-REFERENCE-TEMPLATE Cathedral
+Edition v1.1, which sat inside GITHUB-FILES-PROMPT and is a
+different version from the v2.1 already folded here. Its
+original eight steps ran through Vercel; those steps are
+dead and are dropped. What follows is the same ladder on the
+two live doors.
+
+THE 404 LADDER, IN ORDER — stop at the step that works
+
+1. Is the door itself up? Fetch the repo root, or any file
+   you know is live. If that fails too, the problem is not
+   your path.
+2. Look it up before you build it. If the file appears in a
+   listing or an index you already hold, use that path. Do
+   not construct a URL from a filename while a listing
+   exists.
+3. Check the encoding. Space is %20, + is %2B. Emoji pass
+   through untouched. One unencoded space is the most
+   common 404 there is.
+4. Try the human door: the blob page. If blob renders it and
+   raw 404s, your path is right and your reach is wrong.
+5. Vary the name. Capitals, hyphen against underscore,
+   hyphen against space, singular against plural. Names in
+   this repo were written by hand across many days.
+6. Try another branch. Not everything is on main.
+7. Look for an older version of it. If the live file is
+   gone, a REV- copy may hold what you were after.
+8. Try the other door. GitHub raw and GitLab raw are not
+   the same host and do not fail together.
+9. Ask the holder. A file may be renamed, moved, or never
+   have existed. §8 lists the ones that never existed. The
+   holder's paste is the live copy and always outranks a
+   fetch.
+
+ONE CORRECTION TO THE OLD LADDER
+Cathedral v1.1 says look for REV-[filename] in the same
+folder as the live file. That was true then. REV files now
+live together in REV+PACKET/. So step 7 is: look in
+REV+PACKET/, not beside the file.
+
+THE WORKED EXAMPLE — this file has no other one
+You are handed a bare filename, no folder, nothing else.
+· Check any listing you hold. If it's there, you are done.
+· If not, the name itself suggests a folder. A numbered
+  prefix means TOOLS. A standard or a protocol means
+  BUILDER. A survey or a ledger means SCOUT. A plain name
+  with no prefix usually means the root. This is inference,
+  not knowledge — §3's table says the same thing and warns
+  the same way.
+· Build the raw URL with the folder you inferred, encoded.
+· If it 404s, walk the ladder above rather than guessing a
+  second folder.
+· When it opens, prove the read by §6 before you use a word
+  of it.
+· Then check REV+PACKET/ for an older version, because the
+  live file tells you what is true now and the REV tells you
+  what changed.
+
+TWO THINGS TODAY'S FETCH ITSELF TAUGHT
+
+10. GitLab raw refuses this reach. Asking for
+    gitlab.com/PATTERN-GATE/PATTERN/-/raw/main/[path] from
+    a chat fetch tool came back ROBOTS_DISALLOWED. Not a
+    404 — a refusal by the host's robots rules. The address
+    is correct and the door is shut to this kind of reach.
+    Our STILL UNCLIMBED list had "Claude and robots.txt on
+    GitLab" as an open unknown. It is answered: refused.
+    Consequence for step 8 above — the backup door is only
+    a backup for some reaches. For a chat fetch it is not
+    there at all.
+
+11. The GitHub API refuses too. Asking
+    api.github.com/repos/PATTERN-PUZZLE/PATTERN/git/trees/
+    main?recursive=1 came back 403. So §9's Trees-API-first
+    instruction cannot be followed by a chat fetch. Raw
+    worked. One door in three.
+    Consequence for §9: the listing prompt should say the
+    API is the best method where it is available, and name
+    raw as the fallback for reaches where it is not, rather
+    than stating the API as the method.
+
+Falsify: GitLab raw returns a body to a chat fetch on
+another day or another model — then item 10 is about this
+reach on this day, not about the door. Or the API returns
+200 unauthenticated — then item 11 was rate limiting, not
+policy, and the difference matters.
+
+Confidence: 🧾 that the fetch results in 10 and 11 happened
+as written, this session, this reach. 🧪 [rebuilt] for the
+ladder and the worked example. The only reach that opened
+the file summarised it rather than handing over its bytes,
+and capped quoting, so I could not copy Cathedral v1.1's
+words. Every line above is rebuilt from a description of the
+original, not lifted from it. If someone later opens that
+file with a reach that gives whole text, check this block
+against it. That is the file's own lesson in §5 happening
+live: the reach selected the body, and the body I got was a
+summary.
+
+Brass739🔔
+
 ◆FETCH-001

@@ -2696,3 +2696,41 @@ never sighted.
 Good chat. Paste this and FIRST-PASTE v2 at the start of the next one.
 
 🧭Lantern308
+
+PACKET-STANDARDS.md
+⚡ FIX — 2026-09-21 (Basalt819🌾) WHAT THIS FILE HOLDS, AND ITS TWINS IN 🥈
+FILE: BUILDER/REV+PACKET/PACKET-STANDARDS.md, bottom. Found, not
+ruled. Copy the text only.
+
+WHAT'S HERE, as pasted 2026-09-21: chat packets, whole —
+Jade275 REVIVE (09-19, with its +PLAN door above the box) ·
+Pewter614 REVIVE (09-19) · Cork604 REVIVE (09-17) · Accordion47
+CHAT + FORMAL (v6.4) and CHAT + PACKET (v5.5, 09-13) · Flint742's
+🥈 v2 and his R71–R80 REVIVE · Lantern308 REVIVE (v6.6). Not
+readings of STANDARDS; readings of windows.
+
+TWINS, same packet in two files: Jade275's REVIVE · Cork604's
+REVIVE · Flint742's v2 packet and R71–R80 REVIVE — each also in
+🥈MID-HAND-OFF. Two copies, one may drift.
+MISPLACED BY ITS OWN POINTER: 🪙1ST-PASTE STORE INDEX says
+Lantern308's packet belongs in 🥈 below its 🟨. It lives here,
+and not in 🥈.
+THE OPEN RULING, Tallow893 (🥈 HARVEST COLD item 2): a packet
+about a chat → 🥈; a reading of a file → 📦 for that file.
+Disk follows neither yet. Holder rules; until then, name both
+homes when pointing at a packet.
+
+ALSO, for anyone lifting holder words from here:
+Lantern308's RAW SIGNAL is mostly paraphrase (R01–R72, few
+exact quotes). Mark it paraphrase in 📜HOLDER-WORDS (LN), as
+Brass739 noted. Accordion47's v5.5 and v6.4 lists number the
+same messages differently (e.g. the classroom line is R32 in
+v6.4, R33 in v5.5); cite by version.
+
+Falsify: 🥈 on disk doesn't carry Jade's, Cork's or Flint's
+packets, so there are no twins; or Lantern's packet is in 🥈
+after all.
+Confidence: 🧾 this file as pasted this turn; the 🥈 copies from
+its paste earlier this window; 🥈 on disk unsighted.
+
+Basalt819🌾

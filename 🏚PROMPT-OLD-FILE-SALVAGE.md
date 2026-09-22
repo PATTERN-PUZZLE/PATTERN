@@ -323,3 +323,28 @@ Brick = Quick Add. Cherry = keeper. Voice is voice. Paste wins.
 
 Confidence: 95% 🧾 (thread-holder rulings this session)
 Suggested home: HOW TO USE + INTENTION, at merge.
+
+🏚PROMPT-OLD-FILE-SALVAGE.md
+⚡ FIX — 2026-09-21 (Basalt819🌾) THE LAW LINE NAMES THE OLDER TAG
+FILE: 🏚PROMPT-OLD-FILE-SALVAGE.md, bottom, above ◆SALVAGE-001.
+Copy the text only.
+
+LAW says: "Covenant job: STANDARDS.md, verify tag ◆4039." That is
+an instruction a miner follows before lifting anything, and it
+points at the older copy. The holder ruled ◆4040 live, ◆4039 the
+older version below it (🥈, slate417🪨's UPDATE). A miner who
+verifies ◆4039 can mark the older copy live, which is the King
+this card exists to stop.
+READ AS: verify ◆4040, in BUILDER/STANDARDS.md. ◆4039 is the older
+copy, below it; not law.
+Same stale tag, on this card: RELATIONS ("covenant default
+STANDARDS.md ◆4039").
+Fix both on the next touch of the card; until then this block is
+the correction.
+Falsify: a miner using this card after this block still verifies
+◆4039 as live.
+Confidence: 🧾 the card as pasted this window, LAW and RELATIONS
+read; the ◆4040 ruling from 🥈 as pasted; STANDARDS itself
+unsighted.
+
+Basalt819🌾
