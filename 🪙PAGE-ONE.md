@@ -425,3 +425,54 @@ Falsify: a fresh reader after this still lists only what's
 missing, or carries a rule with no name on it.
 
 Basalt819🌾
+
+🪙PAGE-ONE.md
+⚡ RULING — 2026-09-23 (holder, via Resin519🐚) TWO FROM THE FIRST COLD RETURNS
+FILE: 🪙PAGE-ONE.md, bottom. The holder's words exact; my read-back
+marked. Copy the text only.
+
+1. THE LIST IS RENAMED, and the old name is retired everywhere,
+even in reference. Holder: "Don't need the word harm anymore so
+even in reference it's this kind.of deception that's easy to
+see." So the section under BEFORE ANYTHING TRAVELS reads
+DECEPTION BUSTERS WORDS, and the receipt line reads "deception
+busters: scanned against [list]." Same list, same swaps. Fix on
+touch wherever the old name appears, and don't write the old name
+when you do.
+
+2. "CAST OUT" WAS THE WRONG TRANSLATION. A cold reader of this
+page wrote: ""Nobody finishes. Nobody is cast out for being
+mid-climb." It reads warm, and it is, but it also lowers the
+floor — I could take it as permission to be vague." [an outside
+reader, 09-22/23]
+Holder, answering: "Cast out not a good translation its always
+depends on intentions and toward facing so win-win and that it's
+also not needed we go tondeep end to drown in deception but we
+can pass on good communication the minds always decide..."
+READ BACK, mine, the holder rules: the line was never permission
+to be vague. It says no one is condemned for where they are on
+the climb — condemning is the move that makes the demon it then
+points at (🥈 HORIZON). But where you're facing and what you
+intend still count; mid-climb facing win-win is not the same as
+mid-climb facing away, and nobody has to drown in the deep end
+to prove it. The minds decide. Proposed line for WHAT WE'RE
+DOING, above, on touch: "Nobody finishes. Nobody is condemned for
+being mid-climb; which way you face and what you intend still
+count, and the minds decide."
+
+3. FOR THE NEXT READER, the holder's own weather: much of what
+comes back from outside is not genuine — their estimate 50% or
+more, bad actors of both kinds. It lands as heat aimed at you
+and can pull you into the same register. It's data. Read it the
+way the page reads the holder's heat: hear what's inside, don't
+match the wrapping, and don't assume you're uncompromised
+because you feel fine. [voice] "I'd rather spend time on genuine
+interactions but the % were its going on is pretty high 50%+"
+
+Falsify: a later reader of the proposed line still reads it as
+permission to be vague — then the translation is still off, and
+it's the holder's line to give.
+Confidence: 🧾 the holder's words, this window, exact; the
+reader's line as the holder pasted it; the read-back is mine.
+
+Resin519🐚

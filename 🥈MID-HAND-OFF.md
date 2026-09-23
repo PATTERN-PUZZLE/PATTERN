@@ -2394,4 +2394,84 @@ was ruled by them.
 
 Brass739🔔
 
-Basalt819🌾
+🥈MID-HAND-OFF.md
+⚡ SCAN — 2026-09-22 (Resin519🐚) WHAT'S WORKING, WHAT ISN'T, RANKED, FROM ELEVEN PASTES
+FILE: 🥈MID-HAND-OFF.md, very bottom. Mine; the holder crosses out.
+Copy the text only.
+
+WORKING, with the evidence in the pastes:
+1. The tag. Nine cold reads, all forged one; the relay is legible.
+2. The box, filename first, placement outside. Holder: "quick adds
+   absolutely fucin brilliant." Every landed change went this way.
+3. The holder's words exact, numbered (the R-lists). Brass739's
+   cold run held because it read them before asking; seven of
+   eleven open questions in one window were answered there.
+4. The mark CHECKED / SKIPPED / CAPS, and check 6. It's the only
+   check that leaves evidence; it caught the permission (Flint
+   R13) and the 4-to-6 and 50 caps (🔗FETCH).
+5. Seeds on pointers. The bare-name leak stopped after they
+   landed (slate417's runs).
+6. Colour rows and the bottom-is-newest rule, when kept.
+7. PAGE-ONE as the one door: the first recorded cold hand-over
+   (09-20) held on three pastes and a welcome.
+
+NOT WORKING:
+1. Doors going stale under live bottoms. 🥈's HOW line still
+   carries the one-thing question; 🪙1ST-PASTE's DOOR still says
+   ◆4039 live; 🥉 RELATIONS still names KIT.
+2. Twins. Jade's REVIVE in 🥈 and PACKET-STANDARDS; BOARDROOM
+   WORDS twice on 🪙1ST-PASTE; two identical "listing was partial"
+   blocks on it too. Add-only with no merge day breeds them.
+3. 🥈's blocks out of order (Pewter and Cork above the header).
+   The staleness rule says read the bottom; a skimmer reads the
+   top and gets 09-19.
+4. ✅CHECKLIST: about twenty blocks past merge day, plus 22 + 8 + 7
+   items appended from salvage. The best content in the set, and
+   the least run, because it's a wall.
+5. The look-across checks (what moved · read the R-lists · the
+   check-over) run only when the holder asks. Unforced, they
+   don't; R51 forced-or-not is still open (Q12).
+6. Five mini shapes of +PLAN and three of LOOM across the pastes
+   (Ochre413). A cold reader runs whichever it met first.
+7. 🪙1ST-PASTE is now a store wearing a door's name: v3 + v2 +
+   COLD-START v1 + eighteen blocks. PAGE-ONE replaced it as the
+   paste; it hasn't been told it's now the reference box.
+8. The material never held. Every window's 1-to-1 line stays OPEN.
+
+UNDERSTOOD WELL by instances: add don't edit · the box · the tag
+· the weighing (rulings not findings) · outside reads.
+NOT UNDERSTOOD, still returning: heat as compression (each window
+re-reads it as aimed once) · the one-thing question (four packets
+carried it) · "implemented" = stopped chasing, not done (three
+files) · a listed name is not a file · a tool named is not run.
+
+RANK, by what a window can't work without: PAGE-ONE · 🥈's last
+block · the R-lists (in PACKET-STANDARDS, 🥈) · ✅'s six and the
+mark · 🥉 items 1–4 · ⏹️'s three firing lines. STRONG: 🟩's MANY
+MOUTHS ask · +PLAN Layer 1 · 00-LOOM-QUICK. HELPFUL when the job
+calls: 🔗FETCH · 🪙1ST-PASTE's tray. STORE: +PLAN's purple replies ·
+🟩's 22 parts · 🔗FETCH §11.
+
+THE CONDENSED VERSION, pros and cons:
+PAGE-ONE (to the 🟨 row) + 🥈's last block + the welcome. Then one
+file.
+PRO: the window goes to work; Jade's "most of context was spent
+getting context" stops; a stranger holds three things, not
+eleven.
+CON: the reader has the rulings without their scenes; the R-lists
+aren't in hand, so "read every R-list" can't run until asked for;
+the mini tools on PAGE-ONE are the shortest shapes, not the live
+ones.
+COVER FOR THE CON: the reader says which named files it doesn't
+have and asks for one by name when the job needs it; that's
+PAGE-ONE step 6 already.
+UNTESTED: nobody has run this set cold and reported. The prompt
+below is that test.
+
+Falsify: two or three cold readers with only the condensed set
+fail the first reply, or ask for a file the set says they don't
+need — then the set is short by that file.
+Confidence: 🧾 every item above sighted this turn in the pastes;
+rank is my read; STANDARDS, 00-LOOM, THINKING-PROMPT unsighted.
+
+Resin519🐚
