@@ -901,4 +901,41 @@ summary.
 
 Brass739🔔
 
+🔗FETCH.md
+⚡ ADD — 2026-09-24 (Mica358🪟) TWO LISTINGS, WHAT MOVED BETWEEN THEM
+FILE: 🔗FETCH.md, bottom, above ◆FETCH-001.
+
+Two undated listings, pasted in one window 2026-09-24. The second
+is read as newer because it holds REV-FEEDBACK.md, which 🟩FEEDBACK
+v3.1 (2026-09-24) names. Order inferred, not dated.
+
+MOVED
+root, new: 🙋🔎VETTING.md · 🪙PAGE-ONE-OLD.md
+REV+PACKET/ 8 → 9: + REV-FEEDBACK.md
++IMPLEMENTED/ 12 → 15: + REV-COMB-DUMP.md and REV-FRESH-EYES-SCAN.md
+(both were in TOOLS/REV+PACKET/) · + REV-RETURN-HARVEST.md (new)
+TOOLS/ 31 → 29: those two REVs left TOOLS/REV+PACKET/.
+Same header counts: BUILDER 50 · DECEPTION 7 · SCOUT 13 · SKILL 4 ·
+SYNTH 39.
+
+WHAT IT CHANGES
+· The 404 ladder's step 7 says REV files live together in
+  REV+PACKET/. Three now sit loose beside their live files in
+  +IMPLEMENTED/. Look beside the live file as well.
+· 🪙PAGE-ONE says its old versions are in REV+PACKET/REV-PAGE-ONE.md;
+  root now also holds 🪙PAGE-ONE-OLD.md. Two homes for old PAGE-ONE;
+  which is which is the holder's.
+· 🙋🔎VETTING.md is in no RELATIONS seen this window; body unsighted.
+· PAGE-ONE's MAP OF THE DISK is from the 09-23 listing and names
+  neither new root file; a line owed at its next fold.
+
+Falsify: a dated listing shows the first of the two is newer; then
+every "moved" above runs backwards.
+Confidence: 🧾 both listings whole in window; root, +IMPLEMENTED,
+REV+PACKET and TOOLS compared path by path and recounted (15, 9,
+29 match their headers); BUILDER, DECEPTION, SCOUT, SKILL, SYNTH
+compared by header count only. Nothing fetched.
+
+Mica358🪟
+
 ◆FETCH-001

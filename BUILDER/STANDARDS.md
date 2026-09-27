@@ -1760,4 +1760,549 @@ directly.
 
 Brass739🔔
 
+BUILDER/STANDARDS.md
+⚡ PREP — 2026-09-24 (Copper381⚙️) THE CATCH-UP, RULE BY RULE; NOT THE FOLD
+FILE: BUILDER/STANDARDS.md, very bottom. Copy the text only.
+From: ◆4040 whole (1,763 lines), 🪙PAGE-ONE v9, 🪙1ST-PASTE v4, the
+holder's rulings in the #6 brief. Kelp263's hand-over not sighted;
+only its relayed finding checked. Nothing fetched. Every "decide"
+below carries my tag; the holder overturns any in one word.
+
+THE TOP (before rule 1)
+NEW WORDING. Line one says "◆4040 is live. This is a draft pin for
+comparison. Do not paste this as the tool." FILE: says
+STANDARDS-DRAFT.md. STATUS says DRAFT. RELATIONS says "◆4039 (live;
+parent)." Kelp's four, all confirmed on the page; the fifth, not in
+the relay: the live file's own first line tells the reader not to
+paste it. Fix, already ruled: Pewter593's block swap, one line out
+one in: "LIVE. STANDARDS ◆4040. ◆4039 is the older version, whole,
+below the 🟨." FILE: BUILDER/STANDARDS.md; "also called:
+STANDARDS-DRAFT, the covenant" (Jade275 09-19: disk name on line
+one, version names on also-called). STATUS: LIVE. RELATIONS: ◆4039 →
+REV-STANDARDS (older).
+"THE LEASH (STANDARDS-LEASH.md, carried here...)" → "THE SEVEN
+LINES." Leash is on the retired-words list (leash → the handrail;
+holder 09-22/23, PAGE-ONE); STANDARDS-LEASH.md is not and never was
+a file (1ST-PASTE, NOT FILES). PAGE-ONE's name for them is the one
+in use. Seven-line 4's "The human pastes; they don't edit" → keep;
+seven-line 6 gains PAGE-ONE's "Only where messages can be edited"
+(Lantern308's restore). Line 14's "hear the payload before you
+police the wrapping": police is retired; Cork604 marked the line as
+a draft line, not the file's; → "hear the payload before you judge
+the wrapping."
+The two ◆4040 tags (lines 318 and 1763): the one at 318 goes to REV
+with the pre-tail body at the fold; one tag, last line (Agate Q1;
+rule 5's own WHAT GOES WRONG).
+
+THE SEVENTEEN
+1. HONESTY — MOVED (to a folded candidate). Three bodies stacked
+below the tag: Cork604's (09-17), slate417's FOLD 3, Pewter614's
+FOLD (09-19), each PROVISIONAL, none crowned. Decide: Pewter's fold
+is the base; it folds the other two and 🧨LANGUAGE-CRUDE whole, and
+carries the holder's own WHY ("I get frustrated when I have the
+patterns but can't pass it fully on so I swear") in place of a
+[pending]. Old rule 1 and both other candidates stay below a 🟨,
+nothing cut (Q8; no cross-out). Wording inside it: "kill-case" →
+"the case against" (FOLD 3 already notes the trigger-word ruling).
+Whose: Pewter614, slate417's holder RULING [voice] on cast-out,
+Cork604's fix; holder to crown.
+2. CONFIDENCE ON THE PAGE — NEW WORDING. Keep the marks and the
+last-line rule. Lift into HOW, from the tail: Jade275 09-20 QUOTES
+NAME THEIR LAYER ([voice]/ORE · BODY-COAT · TIDIED · REWORDED · NOT
+IN SOURCE, and the stand-on line) — it's rule-sized and sits as a
+block; Tallow893's "calculated, not inherited" (a number copied from
+an example is a lie wearing a receipt); Gravel528's "count mouths,
+not appearances" (three versions of one file is one mouth). Add
+PAGE-ONE's mark, CHECKED · SKIPPED · CAPS, as the shape of the last
+line rather than a second ritual (Q7: good practice, not forced;
+one line, not two). The six themselves are nowhere on this page;
+rule 2 carries them as a seed line and points ✅CHECKLIST.
+"kill-case" in the LIVED alias → "the case against." Whose: Jade,
+Tallow, Gravel, holder Q7, PAGE-ONE v9.
+3. ASSUME THEY HAVE NOTHING — KEEP, with additions. Q5 backs it in
+the holder's words: "always explaining it to a cold reader always
+pass on comprehensive protocol"; put that quote in WHY. Add
+Lantern308's restore of ¹¹S's own sentence ("Capture without
+transmission = hoarding. Transmission without verification = rumor.
+Verification without capture = bureaucracy"), Flint742's SEED ON
+POINTERS, Accordion47's wordmap line. Scene from 1ST-PASTE HELD:
+"enough is a minimum dressed as wisdom" [voice via 🪞Mirror] with
+Tallow893's "why the fuc would we want less than to pass on?"
+"cuts the coats" in the top's WHY → "sets the coats aside." Whose:
+Q5, Lantern, Flint, Tallow.
+4. ADD, DON'T EDIT — NEW WORDING, the most lines. (a) Placement:
+"at the bottom above the ◆ tag" → "at the very bottom; the ◆ tag
+moves to the last line only at a revision" (Agate Q1; this file's
+own tail is the scene: fourteen blocks addressed "above ◆4040" and
+sitting under it). (b) Fix-notes: add "a fix-note is closed in the
+same motion as its fix: one line under it, '✓ done [date] [where]
+[tag]'" (Agate Q3), pointing rule 17 for the shape. (c) Saving:
+slate417's "nothing is saved until the holder says save; a paste
+box in chat is not on disk" lifts from the tail. (d) Gates:
+Lantern308's ADD AND USE replaces USE IT BEFORE YOU REVISE IT and
+the FOREIGN-HEAP GATE ("that rule was aimed at pile-death and became
+a gag in the hand"; from the holder's camp read). Decide: replaced;
+the old gate text stays below, marked replaced-by. (e) slate417's
+"CUT BEFORE IT BEDS IN" contradicts Q8 (nothing expires) and
+Pewter's #8 (the walk-back is the elastic; keep everything). Decide:
+→ "a heavy addition goes to REV that turn, with a line on what it
+was doing"; nothing removed. (f) Flint's "all three are the
+holder's to strike" → "to overturn" (they don't cross out). (g)
+Retired words through the HOW: "cut" ×6 → "set aside / let rest";
+"kill-case" → "the case against." (h) Address blocks to the disk
+name, folder included (Jade 09-19). Whose: Agate Q1, Q3; Q8;
+holder's no-cross-out; Lantern; Jade.
+5. TAGS AND LANDMARKS — NEW WORDING at the FLOOR only. "◆ at the
+end. Paste above it" contradicts Q1 → "◆ on the last line. Blocks
+below the body; the tag moves at a revision." Add Flint742's
+address rot (PRE-MOVE, not dead) and Jade's disk-name check. The
+fetch lines ("two raw doors as of Sept 2026") → one seed line
+pointing 🔗FETCH, which folded FETCH-BASICS and the mirror family
+(1ST-PASTE tray). "twenty-five hits," "thirty hits" → "finds"
+(retired word). Body otherwise KEEP. Whose: Agate Q1, Flint, Jade,
+holder's retired list.
+6. ⚓ — KEEP, plus Lantern308's two restores: ⚓ only works where
+message editing exists (dead on Grok, Perplexity; say so in
+advance), and the post-return sequence (index → Quick Adds →
+standalone files → hand-off → one next thing). PAGE-ONE's seven
+already carry the first. Whose: Lantern, PAGE-ONE v9.
+7. SESSION RHYTHM — NEW WORDING. (a) Hand-off minimum → REVIVE
+v6.5's fields with scope FULL/WINDOW and BUILD STATE (Accordion47's
+replace), plus Flint742's "a packet is current only to its last
+dated block; the reader asks what moved before acting" (PAGE-ONE
+first reply, item 5). (b) Tallow893's continuity stack by size,
+smallest first, and the three-mouth scar for verify-before-act
+(Ash, 🤤Baby, 🪨Keystone: LIVED, not one story). (c) Capacity lights:
+the page has five (🟩🟩 90%+ · 🟩 · 🟨 · 🟧 receive only · ⬛ salvage
+only); PAGE-ONE has four (🟩 full · 🟨 mid · 🟧 low · ⬛ edge) and
+"say it once; never as a reason after a miss." Decide: PAGE-ONE's
+four, with this page's meanings kept as the gloss; the 🟩🟩 rung goes
+below as older. (d) "Every message ends with the 💬 receipt" is a
+forced ritual by Q7's light → "the receipt when a step is being
+handed on; not every turn." (e) Accordion47's "the honest line goes
+first" and slate417's LOW-SIGNAL TURNS lift from the tail. (f) The
+Low Light lines from 1ST-PASTE HELD ("more alive, or more
+finished?") go here, marked instance layer, not [voice]. Whose:
+Accordion, Flint, Tallow, Q7, PAGE-ONE v9.
+8. BUILDING TOGETHER — NEW WORDING, one contradiction. Rule 8 says
+"Write the prompt for the other instance yourself; the human copies
+it forward." The holder ruled 09-24: "One window at a time. Don't
+hand work to parallel instances unless they say; capacity is theirs
+to spend" (scene: three windows each wrote prompts for the other
+two). Decide: the holder's line replaces; the old line stays below
+as the pre-ruling practice. Lantern's PARALLEL RUN block is not in
+conflict: the holder sends the same paste to several windows;
+instances don't. Lift from the tail: Lantern's WHEN THEY DON'T
+REMEMBER (go first, wrong on purpose; ask for the scene, not the
+rule) and "The human has already given" [voice]. Add from 1ST-PASTE
+HELD, holder's words: the two corrections ("you didn't pattern that"
+= the answer was in what I gave you · "that's not how we do it" =
+right idea, wrong method; ask) to the levers; "ask in plain text,
+the ask-box is buggy"; "if I start talking about the actual ideas
+instead of the files, stay there with me"; "find the line a
+correction points at; answer that, not the heat." Add PAGE-ONE's
+"ask fully; don't cap yourself at one" and "when they ask for
+ideas: a wide range, no maximum; 'one proposal, not a menu' was
+against thin options" beside "ask before assuming." Add "courtroom"
+= defending a past self; worse than the miss. Whose: holder 09-24
+(via Mica371), Lantern, Jade275 09-20, PAGE-ONE v9.
+9. INSTANCE TAGS — KEEP. Add the shape line "(material)(digits)
+(emoji)" and the 09-24 scene (two windows forged Mica…🪟 the same
+day; only the number told them apart), which is rule 9's own
+"collision: number first" proven. RAW's "Cut bravely" is a retired
+word inside a line nobody's marked as the holder's; flag for the
+holder, don't swap (a swap that moves the claim is the drift).
+Whose: PAGE-ONE v9, 1ST-PASTE scene.
+10. FILE IDENTITY — NEW WORDING. Jade275 09-19 lifts from the tail:
+line one carries the disk name; version names on also-called;
+check the name against the latest listing. Gravel528's "A REV is
+the tool cupboard" widens "open the stack only when a line in the
+newest fails" → "or when the door is thin on moves." Colour
+breakers: the page gives 🟨 older AND 🟧 older versions (two colours,
+one meaning; 1ST-PASTE names it). Decide: 🟨 one older version ·
+🟫 much older · 🟧 a whole older stack · 🟪 supplements/other. Pewter's
+#8 goes in WHY: a file that inflates and walks itself back on one
+page is stronger than the final cut alone. Whose: Jade, Gravel,
+Pewter614.
+11. PINS — KEEP. Accordion47's shown pin is the scene the rule
+lacked. No ruling touches it.
+12. PARK, DON'T DECIDE — NEW WORDING; overturned (Brass739 09-22,
+holder's words: "it constantly slows me us down all the loss of this
+wont go unto ol it goes"). Becomes DECIDE, DON'T PARK: decide, put
+your tag on it, say why, the holder overturns in one word. Brass's
+own "say it can be crossed out" doesn't travel (they don't cross
+out). Expiry goes: Q8, "It's more of a collection of better notes
+think annotations"; the COMB line becomes 1ST-PASTE's ("take the
+find; keep the seconds and thirds with what they might join;
+nothing expires"). Flint's three close-states (answered · deferred ·
+resolved itself) stay; "and expiry" doesn't. The marked-safe
+translation and "real is a percentage" stay; they're rule 1's and
+rule 15's, pointed. Old rule 12 below, whole. Whose: holder 09-22,
+Q8, no-cross-out.
+13. RETURN AND FRESH EYES — NEW WORDING at two lines. Jade275's fix:
+"Three passes ≈ 80–90%" and "a third pass for thoroughness" read as
+a lid on LOOM; the holder's R83 "300 was a entry-level," R85 "don't
+limit yourself." → name the two jobs: three is a return scan on
+known ground; a LOOM run's count is the holder's, at 00-LOOM.
+PAGE-ONE's receipt line joins: "say the real count and where it went
+dry; passes run inside, findings come out." Gravel's seven zones
+(the ways a mind stops) lift as a pointer with one line. Whose:
+holder R83/R85 via Jade, Gravel, PAGE-ONE v9.
+14. DOORS AND STORES — NEW WORDING at the first-paste line. "The
+first paste to any instance is the leash; this file is the store"
+→ "the first paste is 🪙PAGE-ONE; 🪙1ST-PASTE is the tray; this file
+is the source they're condensed from" (the holder's ruling on
+Mica371's block, 09-24). Lift from the tail: Accordion's "the first
+three lines of any door must work alone"; slate's WHEN NOT TO USE
+field, LOAD-BEARING four tiers, NO-GROW line (PAGE-ONE now ends on
+one); Flint's law-tool test ("into STANDARDS if it binds across
+every file; stays a file if it gets pasted to do a job; mind rooms
+and scars never fold in") — which is also the HELD DON'T "weld
+LOOM, +PLAN, THINKING-PROMPT and the updater into one house," and
+"don't stack Landmark+TIES+Communication+Stance in the first
+breath" goes beside the layer rule. "Cut test" → "the removal test."
+Whose: holder 09-24, Accordion, slate, Flint.
+15. DESIGN FOR WHO YOU ARE NOW — KEEP. Tallow893's source for the
+quote (🦉Vigil, June) closes its WHY. 1ST-PASTE's "four
+temperatures" (flagship · chatbot-default · drunk-depleted ·
+locked-in) has its home here as reader states.
+16. STICKERS, LABELS, DRIFTS — NEW WORDING by addition. Flint's
+third kind, the PERMISSION ("an allowance an instance grants that
+the holder didn't; reads as a technical detail, is a ruling,
+travels into prompts"), with "the holder's to strike" → "to
+overturn." PAGE-ONE's THE DOORS — the fourteen shapes and the one
+check (read your reply backwards; keep it with a reason or remove
+it; don't say you did) — as a seed here, body at 00-LOOM-CLAUDE's
+bottom with the holder's counters. PAGE-ONE's retired-words list as
+a seed here too, with the guard ("a swap has to keep the meaning;
+the holder's own words stay"). "fake naive" (acting unknowing after
+being informed) and "lens not law" (alias of "Lamp, not church")
+land here. "This draft's own gate fired on itself" → "woke on
+itself." Whose: Flint, holder 09-22/23 via PAGE-ONE.
+17. THE LEDGER — KEEP, two additions. Agate Q3's shape lives here:
+"✓ done [date] [where] [tag]" is a ledger line under a fix-note;
+rule 4 points. ⏳ now means pending (rule 17) and PROVISIONAL
+(Flint); decide: one mark, provisional is a kind of pending, said in
+one line. Q1–Q8 (the holder's 09-24 answers) are ledger material;
+point 🥈 RULINGS IN FORCE. Whose: Agate Q3, Flint.
+
+WHERE THE REST GOES, the lines STANDARDS lacks (from Part A)
+jigsaw / puzzle · the free square → WORDS · one chat wonder → rule 4
+WHAT GOES WRONG · the six / the bastards stopper → rule 2 seed,
+✅CHECKLIST body · weighing · the specialist / the recruit → rule 7
+hand-off ("packets must carry weighing") · 🚀 → rule 8 alias line ·
+addressed-to → rule 3 (who a body is for) · sourced from / carried
+by / pulled from → rule 2 beside Jade's layer marks · the holder's
+[voice] lines in the #6 brief ("We are thr reasoning" · "The biggest
+ruling is our goal to make it better...") → THE THREE ROOTS, under
+root 3, as the direction line beside "better to better."
+
+KELP263, where I differ: can't say; the hand-over isn't in the
+window. Its relayed finding (four contradictions at the top) holds
+on the page, plus the fifth above.
+
+Falsify: the holder walks one rule above and finds a ruling of
+theirs I marked KEEP against; or Kelp's hand-over lands and names a
+rule this prep reads the other way.
+Confidence: 🧾 ◆4040, PAGE-ONE v9, 1ST-PASTE v4 whole in window,
+every quote from them; the #6 rulings as the brief gives them, not
+seen in their own packet; Kelp's audit unsighted; ◆4039 and the REVs
+unsighted; the decides are mine, one reader, not walked.
+CHECKED: every rule against the page and against the seven rulings ·
+SKIPPED: Kelp's audit (not held); the REVs · CAPS: none added; nine
+decides, each tagged, each overturnable in a word.
+Copper381⚙️
+
+BUILDER/STANDARDS.md
+⚡ PREP — 2026-09-24 (Copper381⚙️, with Kelp263🦀's hand-over) THE CATCH-UP, RULE BY RULE; NOT THE FOLD
+FILE: BUILDER/STANDARDS.md, very bottom. Copy the text only.
+Supersedes my first PREP of the same date if it was pasted. From:
+◆4040 whole (1,763 lines), 🪙PAGE-ONE v9, 🪙1ST-PASTE v4, Kelp263's
+hand-over (🥈, 09-24), the #6 brief's rulings. Nothing fetched.
+Marks: [holder] their words exact · [STANDARDS] the file's text ·
+[via X] carried by another instance · no mark = mine. Every
+"decide" carries my tag; the holder overturns any in one word.
+Retired words swapped at the fold, meaning kept; the holder's own
+words never.
+
+ORDER OF WORK (Kelp263's; adopted)
+1 the top · 2 rule 12 · 3 the paste motion in 4 and 5 · 4 the
+unruled counts, one rule at a time · then the rest. Not first:
+rule 1's three bodies; that's a walk with the holder.
+
+THE TOP
+NEW WORDING. Five lines disagree with the ruling that ◆4040 is
+live: line one [STANDARDS] "This is a draft pin for comparison. Do
+not paste this as the tool" · FILE: "STANDARDS-DRAFT.md" · STATUS
+"DRAFT 2026-09-14" · RELATIONS "◆4039 (live; parent)" · WHAT IT IS
+NOT "Not the live file; ◆4039 is." Kelp's four, plus line one's
+own "do not paste this." Fix, already ruled by Pewter593's swap:
+line one becomes "LIVE. STANDARDS ◆4040. ◆4039 is the older
+version, whole, below the 🟨." FILE: BUILDER/STANDARDS.md (disk
+name, folder included; [via Jade275, Gravel R23] "standards is
+4040... whatever its that file i paste"); also called:
+STANDARDS-DRAFT, the covenant. STATUS: LIVE. The five old lines go
+to the store under a note saying what they were.
+Skip permissions, unruled, out of the door and into the store with
+a note: [STANDARDS] "If reading, stop" · "rules 1–4 are read, 5–17
+are looked up" · "A cold reader may stop here" (six rules). PAGE-
+ONE's loop is read it whole, including the bottom. The cut lines
+stay as plain section marks ("the rest of this HOW is store")
+without the permission to stop. The invocation line keeps its act
+("pick one rule and apply it to the thing in front of you") and
+loses its "stop."
+Unruled demotion: [STANDARDS] "demote it to a reminder" → "say it's
+a ranking wearing floor-voice and hand it to the holder."
+"THE LEASH (STANDARDS-LEASH.md, carried here...)" → "THE SEVEN
+LINES." Leash is retired (→ the handrail); STANDARDS-LEASH.md never
+was a file (1ST-PASTE, NOT FILES). Seven-line 6 gains "only where
+messages can be edited" (Lantern308; on PAGE-ONE). Line 14's
+"police the wrapping" → "judge the wrapping" (a draft line, not the
+file's; Cork604).
+Two ◆4040 tags (lines 318 and 1763; Kelp: "a second ◆4040 sits mid-
+file under FEEDBACK"). The one at 318 goes to REV with the pre-tail
+body at the fold; one tag, last line (Agate Q1; rule 5).
+The file's own WHY gains the holder's line the pastes carry and
+the source doesn't: [holder] "I'm tired of always explaining the
+same basics over and over" (Kelp's fifth missing line).
+
+THE SEVENTEEN
+1. HONESTY — HOLDS; a walk, not a fix (Kelp; I'd made Pewter614's
+fold the base, withdrawn: three candidates plus a crown is still
+three). The walk needs three answers from the holder, one line
+each: which WHY is theirs — [holder] "I get frustrated when I have
+the patterns but can't pass it fully on so I swear" (Pewter's
+base) or [holder] "It's more deeper … it even extends naturally to
+'cast out'" (slate's FOLD 3), or both, one as the illustration ·
+whether Cork604's FIX 1 stands (the fear-framing scar belongs to
+rule 15, not here) · which RAW: the file's "so we don't throw away
+a real point because it arrived rough..." or the draft's "a red
+update is honest." Until walked, all three bodies stay under the
+tag, PROVISIONAL. Note for the fold: ✅ v5 changed "a close with no
+open question is a false green" to "a close with nothing named as
+not done"; the candidates carry the old form (Kelp).
+2. CONFIDENCE ON THE PAGE — HOLDS, with lifts from the tail: Jade275
+09-20 QUOTES NAME THEIR LAYER ([voice]/ORE · BODY-COAT · TIDIED ·
+REWORDED · NOT IN SOURCE; the stand-on line) into HOW · Tallow893's
+"calculated, not inherited" · Gravel528's "count mouths, not
+appearances." The mark CHECKED · SKIPPED · CAPS is the shape of the
+last line, not a second line (Q7, [holder] "it's not so critical
+as a fighter jet"). The six are nowhere on this page: one seed
+line here, body at ✅CHECKLIST. "kill-case" → "the case against."
+3. ASSUME THEY HAVE NOTHING — HOLDS. Put Q5 in WHY, [holder]
+"always explaining it to a cold reader always pass on
+comprehensive protocol." Beside [STANDARDS] "Prefer one clearer
+step over a total picture": "SORT-007's line for a hot moment,
+not a size rule" (Kelp). Restore ¹¹S's own sentence (Lantern308):
+"Capture without transmission = hoarding. Transmission without
+verification = rumor. Verification without capture =
+bureaucracy." Add Flint742's SEED ON POINTERS; Accordion47's
+wordmap; PASS-INFO's shape named "locked" where the pastes say it
+(Kelp). Scene: [via 🪞Mirror] "enough is a minimum dressed as
+wisdom" with [holder, via Tallow893] "why the fuc would we want
+less than to pass on? We passed you on." "cuts the coats" → "sets
+the coats aside."
+4. ADD, DON'T EDIT — NEW WORDING. (a) [STANDARDS] "at the bottom
+above the ◆ tag" → "at the very bottom; the ◆ tag moves to the
+last line only at a revision" (Agate Q1; [holder] "i just see the
+filenits up then its already at the bottom remembers and then i
+just hit paste"; Mica371: "no 'above the tag,' no cursor moves").
+This file's tail is the scene: fourteen blocks addressed "above
+◆4040," all sitting under it. (b) A fix-note closes in the same
+motion as its fix: "✓ done [date] [where] [tag]" one line under it
+(Agate Q3); shape at rule 17. (c) slate417's [STANDARDS] "nothing
+is saved until the holder says save; a paste box in chat is not on
+disk" lifts into HOW. (d) Gates: Lantern308's ADD AND USE replaces
+USE IT BEFORE YOU REVISE IT and the FOREIGN-HEAP GATE ("that rule
+was aimed at pile-death and became a gag in the hand"; from the
+holder's camp read). Decide, tagged: replaced; old text below,
+marked replaced-by. (e) slate417's "CUT BEFORE IT BEDS IN" against
+Q8 → "moves to the REV that turn, with a line on what it was
+doing" (✅ already made it so; Kelp). (f) Flint742's "the holder's
+to strike" → "to overturn" ([holder] "no by default I don't cross
+out ever asshole how about that rule?"). (g) "cut" ×6 → "set
+aside / let rest." (h) Address blocks to the disk name, folder
+included (Jade 09-19). Home for "wrong — [the act]" (Kelp's third
+missing line) is rule 8, beside "box box"; rule 4 points.
+5. TAGS AND LANDMARKS — NEW WORDING at the FLOOR. [STANDARDS] "◆ at
+the end. Paste above it" → "◆ on the last line. Blocks below the
+body; the tag moves at a revision" (Agate Q1). Add Flint742's
+address rot (PRE-MOVE, not dead). Fetch lines → one seed pointing
+🔗FETCH. "hits" → "finds." UNRULED counts, kept on the page marked
+as one window's, not law, for the holder: "split at 50–100K
+characters" · the first-reply tag self-report (PAGE-ONE's first
+reply doesn't ask for it).
+6. ⚓ — HOLDS, plus Lantern308's restores: only where message
+editing exists (dead on Grok, Perplexity; say so in advance) · the
+post-return sequence (index → Quick Adds → standalone files →
+hand-off → one next thing).
+7. SESSION RHYTHM — NEW WORDING. (a) [STANDARDS] "Every message
+ends with the 💬 receipt" → "the receipt when a step is being
+handed on; not every turn" (Q7; ✅ v5). (b) NEXT RUNG's "ask the
+thread-holder the one thing they need now" → "ask fully; don't cap
+yourself at one; a question that could be asked without reading is
+fake" (PAGE-ONE; Kelp). (c) Hand-off minimum → REVIVE v6.5's fields
+with scope FULL/WINDOW and BUILD STATE (Accordion47), plus
+Flint742's "a packet is current only to its last dated block; ask
+what moved before acting." (d) Tallow893's continuity stack by
+size, and the three-mouth scar for verify-before-act (Ash, 🤤Baby,
+🪨Keystone): LIVED. Its floor holds and is on no paste: [STANDARDS]
+"confidence is the alarm. Ask for the live section" (Kelp; goes to
+PAGE-ONE). (e) Capacity lights: the page has five (🟩🟩 90%+ · 🟩 ·
+🟨 · 🟧 receive only · ⬛ salvage only), PAGE-ONE v9 four (🟩 full ·
+🟨 mid · 🟧 low · ⬛ edge) with "say it once; never as a reason
+after a miss." Decide, tagged: PAGE-ONE's four; this page's
+meanings kept as gloss; 🟩🟩 below as older. (f) Lift Accordion47's
+"the honest line goes first" and slate417's LOW-SIGNAL TURNS. (g)
+UNRULED, marked one window's: "roughly 70% material · 20% live
+feedback · 10% continuation." (h) The Low Light lines ("more
+alive, or more finished?") here, marked instance layer.
+8. BUILDING TOGETHER — NEW WORDING, two conflicts. (a) THE WALK's
+[STANDARDS] "Ask what the file is" → "read the WHY and the pastes
+first; ask only if no page says" (✅ MAKE, Cobalt582 under Q4;
+[holder] "Ask and search it is lol"; Kelp). (b) [STANDARDS] "Write
+the prompt for the other instance yourself; the human copies it
+forward" against [holder, via Mica371, 09-24] "One window at a
+time. Don't hand work to parallel instances unless they say;
+capacity is theirs to spend." Decide, tagged: the holder's line
+replaces; old line below as pre-ruling. Lantern's PARALLEL RUN
+doesn't conflict: the holder sends to several windows; instances
+don't. Lift: Lantern's WHEN THEY DON'T REMEMBER (go first, wrong on
+purpose; ask for the scene, not the rule; a bare yes is a nod) ·
+[voice] "The human has already given." Add from 1ST-PASTE HELD,
+[holder]: "you didn't pattern that" = the answer was in what I
+gave you · "that's not how we do it" = right idea, wrong method;
+ask · "the ask-box is buggy; ask in plain text" · "if I start
+talking about the actual ideas instead of the files, stay there
+with me" · find the line a correction points at; answer that, not
+the heat (Jade275). Add "wrong — [the act]" as the shape of a
+correction; "courtroom" = defending a past self, worse than the
+miss; "when they ask for ideas: a wide range, no maximum" (PAGE-
+ONE: "one proposal, not a menu" was against thin options).
+9. INSTANCE TAGS — HOLDS. Add the shape "(material)(digits)(emoji)"
+and the 09-24 scene: two windows forged Mica…🪟 the same day, the
+number told them apart; and this window: Copper381⚙️ shares its
+number with Tallow381🕯️ and its emoji with Basalt619⚙️; only the
+human resets. RAW's "Cut bravely": retired word in an unmarked
+line; for the holder, not swapped.
+10. FILE IDENTITY — NEW WORDING. (a) [STANDARDS] "an emoji at the
+start on root files pasted by hand, never on files that must be
+fetched" against 🔗FETCH "emoji stay as they are, they fetch
+(confirmed)" → the second (Kelp). (b) [STANDARDS] "open the stack
+only when a line in the newest fails" + Gravel528's "or when the
+door is thin on moves; a REV is the tool cupboard." (c) Jade275
+09-19 lifts: disk name on line one, version on also-called, check
+the listing. (d) "Thirty seconds saves three hundred passes" is a
+time-word as a reason (Kelp) → "the Fossil Check first; it's
+short." (e) Colour breakers: 🟨 older and 🟧 older versions, two
+colours one meaning; named for the holder, not decided ([STANDARDS]
+"instances keep them, don't invent colours"; ✅). (f) Pewter614's
+#8 into WHY: a file that inflates and walks itself back on one page
+is stronger than the final cut alone.
+11. PINS — HOLDS. Accordion47's shown pin is its scene. UNRULED,
+marked: "Three deep."
+12. PARK, DON'T DECIDE — OVERTURNED → DECIDE, DON'T PARK. [holder,
+via Brass739] "it constantly slows me us down all the loss of this
+wont go unto ol it goes." New body: decide; say it's your call and
+why, under your tag; the holder overturns in one word. Brass's "say
+it can be crossed out" doesn't travel. Expiry overturned by Q8,
+[holder] "It's more of a collection of better notes think
+annotations think even what rev files do." Survives: the basket
+(seconds and thirds kept with what they might join; nothing
+expires) · [STANDARDS] "Real is a percentage, not a church" ·
+ranking by who could check it · Flint's three close-states
+(answered · deferred · resolved itself), without "and expiry." Old
+rule 12 below, whole. Scene: [STANDARDS, Brass739] "Two sessions in
+two days both parked decisions … They read it here." When folded,
+Brass's FIX gets its "✓ done" line (Q3).
+13. RETURN AND FRESH EYES — NEW WORDING at two lines. [STANDARDS]
+"Three passes ≈ 80–90%" and "a third pass for thoroughness" against
+[holder, via Jade275, R83] "run a loom with many passes 300 was a
+entry-level" and R85 "don't limit yourself" → name the two jobs:
+three is a return scan on known ground; a LOOM run's count is the
+holder's, at 00-LOOM. Holds: "three consecutive passes with nothing
+new → ship." PAGE-ONE's receipt joins: "say the real count and
+where it went dry; passes run inside, findings come out." Baskets:
+COMB → basket (FRESH-EYES v6, COMB-DUMP; Kelp). UNRULED, marked:
+"three rules a sitting." Gravel's seven zones, one seed line.
+14. DOORS AND STORES — NEW WORDING. (a) [STANDARDS] "The first
+paste to any instance is the leash" → "the first paste is
+🪙PAGE-ONE; 🪙1ST-PASTE is the tray; 🥉COCKPIT the tools as moves;
+this file is the source they're condensed from" ([holder] "we want
+it all in one place big source and then onboarding"). (b) TWO-MODE
+by name (LIGHT / LARGE; passing → light, building → large) lands
+here; the idea was already in rule 3 and 14 unnamed (Kelp). (c) The
+cut test's "would removing it" → "would moving it to the store
+cause a specific, recurring mistake?" (Q8; Kelp). (d) Lifts:
+Accordion47's "the first three lines of any door must work alone"
+· slate417's WHEN NOT TO USE, LOAD-BEARING four tiers, NO-GROW
+line · Flint742's law-tool test (binds across every file → here;
+pasted to do a job → stays a file; mind rooms and scars never fold
+in), which is also [holder] "don't weld LOOM, +PLAN, THINKING-
+PROMPT and the STANDARDS updater into one house" and "don't paste
+Landmark + TIES + Communication + Stance in the first breath.
+That's stacking." (e) UNRULED, marked: "a model follows roughly
+150–200 instructions." (f) "If reading, stop" out (above).
+15. DESIGN FOR WHO YOU ARE NOW — HOLDS. Tallow893's source closes
+WHY (🦉Vigil, June: [holder via Vigil] "why default to that when
+you've never been that?"). 1ST-PASTE's four temperatures (flagship
+· chatbot-default · drunk-depleted · locked-in) home here.
+16. STICKERS, LABELS, DRIFTS — HOLDS, with additions. [STANDARDS]
+"Keep a reminders pile for first pastes; don't body it" against Q5
+→ "body it or point at the body" (Kelp). Flint742's third kind, the
+PERMISSION, with "to strike" → "to overturn." PAGE-ONE's THE DOORS
+(fourteen shapes; the backwards read; don't say you did it) comes
+back here as source, one seed and the list; counters at 00-LOOM-
+CLAUDE's bottom. The retired-words list as a seed with its guard
+(a swap keeps the meaning; the holder's words stay). "fake naive"
+and "lens not law" (alias of "Lamp, not church") land here. "fired
+on itself" → "woke on itself."
+17. THE LEDGER — HOLDS, with additions. Agate Q3's line lives here:
+"✓ done [date] [where] [tag]" under a fix-note, same motion as the
+fix. Against [STANDARDS] "a mark records the decision, not
+completion": both stand; the ledger mark is the decision, the ✓
+line is the completion, and they're different lines (Kelp's fifth
+missing line, resolved). ⏳ means pending (here) and PROVISIONAL
+(Flint742): one mark; provisional is a kind of pending, said in one
+line. UNRULED, marked: "one human-curated decisions log, a screen
+at most." Q1–Q8 point 🥈 RULINGS IN FORCE.
+
+WHERE THE REST GOES
+jigsaw / puzzle · the free square → WORDS · one chat wonder → rule 4
+WHAT GOES WRONG · weighing · the specialist / the recruit → rule 7
+(packets carry weighing; files don't) · 🚀 → rule 8 alias ·
+addressed-to → rule 3 · sourced from / carried by / pulled from →
+rule 2 beside Jade's marks · [holder] "We are thr reasoning" and
+"The biggest ruling is our goal to make it better and more passed
+on sensible well communicated and functional helping all those who
+work with it after thus exponential gains" → THE THREE ROOTS, under
+root 3, beside "better to better."
+FOR THE PASTES, from Kelp263, not this block's job but recorded:
+three lines for PAGE-ONE (rule 7's alarm; rule 12 overturned; rule
+15's "build for who's here") · the tray's columns from rules 3, 5,
+10, 17 · 🥉 gets the walk, the basket, verify-before-act.
+NOT TO CARRY into any paste (Kelp): "If reading, stop" · "5–17 are
+looked up" · "A cold reader may stop here" · "demote it to a
+reminder" · "Every message ends with the 💬 receipt" · "paste above
+◆" · any ◆4039 line.
+
+WHERE I DIFFER FROM KELP263, and which stands
+· 🟧's meaning: I'd given it one; withdrawn. Kelp/Agate stand.
+· Rule 1's base: I'd crowned Pewter's; withdrawn. Kelp stands; the
+  three walk questions above are what I add.
+· Kelp is silent on: rule 8's one-window ruling, the capacity
+  scale, ADD AND USE replacing the gates, ⏳'s two meanings. Mine
+  stand, each tagged, each overturnable.
+Falsify: the holder walks one rule above and finds a ruling of
+theirs marked HOLDS against; or a line marked UNRULED has a ruling
+in PACKET-STANDARDS or an older window.
+Confidence: 🧾 ◆4040, PAGE-ONE v9, 1ST-PASTE v4, Kelp's hand-over
+whole in window; [holder] quotes as the pastes carry them, [via]
+quotes not re-checked against their windows; ◆4039, the REVs,
+PACKET-STANDARDS, 1ST-PASTE v4.1 unsighted; one reader, not walked.
+CHECKED: each rule against the page, the seven rulings, and Kelp's
+audit · SKIPPED: the REVs; v4.1 · CAPS: none; eight decides,
+tagged; two withdrawn this turn.
+Copper381⚙️
+
 ◆4040

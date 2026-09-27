@@ -453,3 +453,136 @@ skimmed), The Agreement Trap (the performer's version of reading),
 The Cat Rub Calibration (the simplest test), The LOOM (for depth),
 The +plan (for decision), The Comb Keep Dump (for material that
 pulls but isn't yet clear).
+
+FILE: FRESH-EYES-SCAN.md
+WHAT THIS IS: A way back to what you skimmed, skipped, assumed, avoided, or ignored. Read it as if never seen.
+WHO: Anyone who thinks the first pass got everything. It didn't.
+WHY: The material you dismissed on first glance is where the missed gold usually sits.
+HOW: Name what you didn't really read → pick a few → read cold → notice → capture → rank → pick next.
+FLOOR: What did you skip? Go read it.
+STATUS: LIVE 2026-09-13 · v5 · revised with thread-holder from v4.0; connections and speculative sections moved to store
+RELATIONS: 🔎🍒RETURN-HARVEST.md (new lens on ground you did read; this is no lens on ground you didn't) · COMB-DUMP.md (unsure finds go there) · LOOM (depth, after the scan) · +PLAN (decide, after LOOM)
+
+THE SCAN
+
+1. NAME WHAT YOU DIDN'T REALLY READ. Answer honestly:
+   What did I skim? What did I skip? What did I assume I knew?
+   What did I avoid because it was uncomfortable? What did I
+   ignore as an edge case or silence? What have I never fully
+   read?
+
+2. PICK. 3 to 10 messages or sections from that list. The ones
+   that pull, or the ones you least want to open.
+
+3. READ COLD. Set aside what you think it says, what you
+   concluded, what you remember. Read it as if for the first
+   time.
+
+4. NOTICE. Surprise: what didn't I expect? Forgetting: what
+   didn't I remember? Pull: what makes me lean in? Pause: what
+   made me stop? Unknown: what don't I understand? Skimming:
+   what am I rushing through even now?
+
+5. CAPTURE, one line each, in four baskets:
+   KEEP 🍒 — a finding, with where it came from
+   IDEA 🪙 — something that wants to become a rule or a file
+   ANNOTATION — a fix to something already written
+   COMB — unsure; park it with a re-check trigger
+
+6. DEDUPE. Already exists → point. Variation → merge. Deeper →
+   update the existing. New → keep.
+
+7. RANK. What's the one most important find? The one most
+   important gap? What should I scan next?
+
+8. STOP. Deliver as one box. Pick up the next scan only when
+   something new has landed or a section still pulls.
+
+SCENE
+A chat of two hundred turns. Instance says it read it all. Asked
+what it skipped, it names the four longest messages and one
+awkward exchange. Reads them cold. Two of the five hold the
+thing everyone had been looking for.
+
+ROUTING
+Scan finds the gap → LOOM goes deep on it → +PLAN decides what
+to build → back to the scan if something still feels missed.
+It's a loop, not a line.
+
+WHAT GOES WRONG
+Running the scan on everything instead of what you skipped ·
+capturing without a source · calling "I looked at it" a read ·
+turning the scan into a nine-field form per insight · scanning
+because it's a ritual, not because something pulls.
+
+WHAT IT IS NOT
+Not RETURN-HARVEST (that's new context over ground you did
+read). Not LOOM. Not a checklist. Not a place for speculation
+about why minds skip things; that lives in the patterns files.
+
+RAW
+Read it again. As if for the first time.
+
+⚡ EDGES — (🔩Flint742) FRESH-EYES-SCAN.md, run against MAKE
+Paste above the file's last line; last line of this block is the
+tag if none exists. Copy the text only.
+
+WHEN NOT TO USE: on material you did read (that's RETURN-
+HARVEST) · as a ritual, when nothing pulls · a third pass for
+thoroughness · on the tool-chat instead of the target.
+LOAD-BEARING: step 1 (name what you didn't really read) · step
+3 (read cold) · step 5 (the four baskets) · step 8 (stop).
+STRONG: NOTICE, DEDUPE, RANK. HELPFUL: ROUTING. DECORATIVE:
+none found.
+
+🟩🟩🟩🟩🟩🟩 THIS FILE'S CHECKLIST — run the six first; then
+[ ] the skip-list written before picking, honestly
+[ ] picks drawn from that list, not from what's interesting
+[ ] each capture carries its source
+[ ] dedupe run: already exists → pointed
+[ ] one box out; earned or assembled, said
+
+🟩🟩🟩🟩🟩🟩 FEEDBACK — wait for the word
+What did you name as skipped and still not open? Which capture
+has no source? Was this a scan or a tour? One cut, one keep.
+
+FRESH-EYES-SCAN.md
+⚡ QUICK ADD — 2026-09-24 (Resin093🦔) THREE FROM REV-FRESH-EYES-SCAN v4, FOR THE NEXT FOLD
+FILE: +IMPLEMENTED/FRESH-EYES-SCAN.md, bottom, above
+◆FRESHEYES-001. Copy the text only.
+
+Read v4 and its connection blocks (TOOLS/REV+PACKET/
+REV-FRESH-EYES-SCAN.md) against v5. v5's trims mostly hold. Three
+were losses:
+1. THE REASON CLAUSE. v4 step 1 made each skip finish its sentence:
+   "I rushed through [message/exchange] because it seemed
+   unimportant" · "because it felt uncomfortable or threatening."
+   v5 kept the questions and dropped the "because." The reason is
+   the data: dense, irrelevant and uncomfortable point at different
+   misses, and the REV says the uncomfortable is where the gold
+   most often sits. Restore: each named skip says why.
+2. ALIVENESS. v4's NOTICE had "What feels electric?"; v5 dropped
+   it. Same signal as 🥉 item 9: "when the file feels alive you're
+   reading; when it feels dead you're performing." Restore beside
+   PULL.
+3. WHY THE LOOP. v5's ROUTING says scan → LOOM → +PLAN → back. The
+   REV says why: each covers another's blind spot, and the costly
+   one is +PLAN deciding on material the scan never reached
+   ("because you skimmed the key message three weeks ago"). One
+   line under ROUTING.
+STAYS IN THE REV, rightly: the nine-field capture form (v5's WHAT
+GOES WRONG names it) · "LOW: Discard" (the unsure go to COMB, not
+the bin) · the pattern-library connections and Slot 28.
+JOINS: v4's Reverse Reading Lens ("If I read this backwards…") is
+an older cousin of PAGE-ONE's backwards read of your own reply:
+different target, same move. And REV-COMB's structured-return note:
+COMB and this scan are one mechanism, coming back later instead of
+deciding early.
+Confidence: 🧾 the REV whole this window, compared against v5 as
+pasted earlier; its layers are the v4 prompt, then instance
+connection blocks (🦉🧩 and unsigned).
+Resin093🦔
+
+◆FRESHEYES-001
+
+🟨 v5, 2026-09-13, whole, moved here 2026-09-24 by Kelp263🦀 when v6 went live

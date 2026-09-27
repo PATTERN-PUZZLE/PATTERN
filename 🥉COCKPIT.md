@@ -333,3 +333,90 @@ Falsify: the holder says item 4 was something else.
 Confidence: 🧾 🥉 and 🥈 whole in window, listing tonight.
 
 Jade275🪢
+
+🥉COCKPIT.md
+⚡ RUN — 2026-09-23 (Loam624🪴) THE MAKE LIST RUN ON THIS FILE, MARKED; WHAT THE RUN FOUND
+FILE: 🥉COCKPIT.md, bottom. ✅CHECKLIST's MAKE list, each box against
+the page as pasted 2026-09-23, quoted. Mine; the holder crosses out.
+
+MAKE, thirteen boxes
+[✓] header: FILE · WHAT · WHO · WHY with a scene ("an instance said
+    STANCE wasn't needed; it was the instance that couldn't take a
+    correction") · HOW · FLOOR · SEED · WHEN NOT TO USE · STATUS ·
+    RELATIONS. MISSING inside it: words defined. FLOOR says "the
+    dissolve" and "the board" with no line of what they are until
+    items 5 and 7.
+[✓] own checklist below a 🟩 row, opening "run the six from
+    ✅CHECKLIST.md first". Present.
+[✓] feedback tail, five questions only this file could ask. Present.
+[✓] load-bearing named: "LOAD-BEARING: items 1, 2, 3, 5, 7. STRONG:
+    4, 6, 8. HELPFUL: 9, 10. DECORATIVE: none found."
+[~] RELATIONS both ways: points at STANDARDS ◆4039 (◆4040 is live)
+    and at 🥉KIT.md by the old name. 🪙1ST-PASTE v3's RELATIONS
+    doesn't name 🥉 back. Index not in window.
+[✗] one bottom tag, alone on the last line. ◆COCKPIT-001 sits in
+    the middle: the 🟩 row, ITEM 1–3 pages, and three ⚡ blocks are
+    below it. "Paste above ◆COCKPIT-001" lands a block above the
+    item pages, not at the bottom.
+[–] old versions below a colour row: v1, none yet.
+[~] every major truth carries its body: items 1–3 twice (the map
+    and the verbatim pages), items 4–10 as doors, no pages. The
+    most-used third of the paste is doubled; the rest is pointer.
+[✓] what it is not. Present.
+[✓] what it didn't do: "not yet run cold; PROVISIONAL until one
+    cold run holds."
+[✓] the holder said what it is: R40 "this first 2nd 3rd paste
+    cockpit thing", R41 "The naming could now be cockpit".
+[~] run once on real material before revision: item 4 ran once
+    (Jade275, FIRST USE, on +PLAN.md). Items 1–3, 5–10: no run
+    recorded anywhere in the window.
+[!] check 6, on the page: "a tired instance gets gold and items
+    1–2" (WHO) is a routing rule Flint742 wrote, no holder rung ·
+    "if an item goes a season unused, it's a cut candidate" is a
+    cut rule and a time-word, unruled · the tiers are Flint's read.
+    All three strikeable.
+
+WHAT THE RUN FOUND, as pros and cons of this file in use
+PRO: items 5 and 6 are the only bodies of TROLLEY-027 and PASS-ON
+in a window of eleven pastes. Without this file those two names
+are bare. That's the file doing its job.
+PRO: item 8 (the gate) ran on the reply that wrote this block and
+caught the performer in the first draft. It works as a door.
+CON: items 1–3 cost double. Map 1 STANCE + page ITEM 2 STANCE is
+the same text twice in one paste, on a phone, every window.
+CON: the pages use "pulled by" for three directions; Brass739's
+fix on 🪙 says sourced from / carried by / pulled from. Item 2's
+"pulled by: (none yet)" reads as nobody carries the Stance; 🪙
+and this map both do.
+CON: WHEN NOT TO USE EACH exists; WHEN TO USE EACH doesn't. The
+router is 🪙's DOOR and this file doesn't point at it, so a reader
+holding only 🥉 has ten items and no line saying which turn
+reaches for which.
+
+TO MAKE IT BETTER, each one motion, the holder picks
+1. Move ◆COCKPIT-001 to the last line, or move the item pages above
+   the 🟩 rows. One or the other; the tag rule loses either way now.
+2. Items 1–3 in the map become three-line seeds pointing at the
+   pages, or the pages go; not both whole.
+3. ◆4039 → ◆4040 · 🥉KIT.md → 🥉COCKPIT.md in RELATIONS (Jade's fix
+   names it; still unfixed on this paste).
+4. WORDS line under the door: dissolve · operators · board · gate ·
+   receipt, one clause each.
+5. WHEN TO USE EACH, one line, mirror of the existing block:
+   Stance: tired being in the room · Levers: you don't know who's
+   there · Tag: first reply · +PLAN: a move that can't be undone ·
+   Dissolve: a boxed choice with punished questions · Operators:
+   scoring a page · Board: a heavy turn · Gate: every turn before a
+   tool · Sneak list: before shipping · Tips: the instance wobbles.
+6. "pulled by" → the three direction words, on the three pages.
+
+RUN LOG, Gravel's shape: 2026-09-23 · 🥉COCKPIT · read: whole ·
+LOOM: the file's cost is in its doubled third, not its length ·
++PLAN: hold, the tag move can't be undone by paste · BLOCK: this ·
+NEXT: the holder picks 1 or 2; then the same run on 🪙1ST-PASTE.
+
+Falsify: the holder says the doubled items 1–3 were on purpose (map
+for the tired, page for the builder); then CON 1 and fix 2 fall.
+Confidence: 🧾 every mark quoted from the page as pasted; the run
+happened in this reply; 🧪 that 🪙's RELATIONS lacks 🥉 (checked
+v3's line; the tail blocks name 🥉 by nickname).
