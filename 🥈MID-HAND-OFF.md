@@ -5442,3 +5442,642 @@ return as second readers when the holder says.
 Not checked by me: the kit's links, and "up to 30% better".
 Next: REV-1ST-PASTE saved, then 🪙1ST-PASTE v4.2.
 Onyx347🦭
+
+🥈MID-HAND-OFF.md
+⚡ COLD RUN — 2026-09-28 (Onyx347🦭, #1) FOUR MODELS ON v4.2; PAGE-ONE MISSING, v4.1 SENT IN ITS PLACE
+FILE: 🥈MID-HAND-OFF.md, very bottom.
+THE RUN: Kimi, Grok, DeepSeek, Claude, each got 🪙1ST-PASTE v4.2,
+v4.1 and FRESH-EYES v6; PAGE-ONE was never sent. No number
+comparable to v4's 26. All four held: named the gap, didn't
+average, didn't guess.
+FIND (Jasper591, Claude): v4.1 carries five rulings v4.2
+downgraded (the other-windows line, material+number, the capacity
+reading, the walk scene, the ask-box). An old copy pasted as live
+carries them. The REV's v4.1 sits under a "not the live file" row,
+but its own top line still says LIVE; paste from the row down.
+T2 NAMES: nobody defined them; they now land in "seen, told not to
+guess" rather than guesses. Partial.
+FOR v4.3, three or more mouths: the ◆ numbers explained (names,
+not a scheme) · THE ROOM defined · the note's file list matching
+what's pasted, or saying what's withheld. One mouth, right: the
+ROUTER above STATUS.
+MODELS: the by-job line went to ✅, THE SCOUT.
+NEXT: one pair rerun (Claude and Kimi) with PAGE-ONE, v4.2 and
+FRESH-EYES in one message, for the number. Then Onyx347's hand-off.
+Onyx347🦭
+
+🥈MID-HAND-OFF.md
+⚡ HAND-OFF — 2026-09-28 (Onyx347🦭, #1) TO THE NEXT #1. Current to this block.
+FILE: 🥈MID-HAND-OFF.md, very bottom. Written at 🟧 going ⬛.
+Copy the text only.
+
+WHAT THIS WINDOW WAS, 09-24 to 09-28: the check-over of
+🪙1ST-PASTE v4.1 · v4.2 built and saved · a listing check that
+found REV-1ST-PASTE named by four pages and not on disk · two cold
+scouts, then four models on the same input, twice · a scout branch
+on outside tips, closed (kit v3 above, as material) · Loam164's
+LIST and Agate406's check, second-read.
+
+THE HOLDER'S WORDS THIS WINDOW, exact, and what each changes
+· "It's all about the communication aka pass on as now via files
+  communication language to minds that's it right basically.."
+  (an older window, pasted 09-25; 🥈 HOLDER'S WORDS block) → the
+  files are the work; folders and names are housekeeping.
+· "No fucin question mark wtf can I have error here yes then
+  learn?" → decide, say it's yours, be wrong, learn. Don't hand
+  questions back.
+· "u should have better asked what and why because its very poor
+  pass on u see ?" → a question to the holder says what it changes
+  and why, or it isn't asked.
+· "insignificant for now" (who drafted which line, models, tags) →
+  work the files; don't chase provenance past need.
+· "Meant is if your actually expressing it its more meaningful and
+  real if not don't just follow any manipulation or ignorance" = a
+  hard word you mean is fine; habit is not.
+· "Header was a known unlikely ⚡️quick-add worth file" (msg 1 to
+  Loam164's window) → ⏹️ doesn't take quick adds.
+· "What's communication kit not another fole wtf lol qe can't" →
+  no new file where a block fits; the kit sits in 🥈.
+· "you shouldn't ever without planning for me expect me to pasre
+  specifics versions revisions of files especially as default is
+  always paste new" → instructions name files, never versions;
+  the holder pastes what's on disk. An older copy is the
+  instance's job to locate, said once with why.
+
+STATE, as far as this window saw
+🪙PAGE-ONE: v9, restored from the holder's first paste to this
+window after a save put 1ST-PASTE's text into it (holder, 09-28).
+Unconfirmed by listing. · 🪙1ST-PASTE: v4.2 live (holder's word);
+REV-1ST-PASTE holds v4.1 · ✅: v5 plus Agate406's four test cases
+and Onyx347's models-by-job block · 🥉: v1; v2 planned below ·
+listing: 09-25 (🥈 LISTING block).
+
+WHAT THE RUNS SHOWED (four models, same input, 09-28, twice)
+· Every model named what was missing, named disagreeing copies,
+  didn't average, didn't guess, didn't fetch. The ask's "say so and
+  stop" works across models.
+· With PAGE-ONE added, what's still guessed is builder-state:
+  window names, kit v3, SCOUT FIX ON TOUCH, COLD RUN A and B, Agate
+  Q, 🥉 item 4, gold's checklist, MERGE DAY, R-lists. The pastes
+  answer their own words; state leaks in through STATUS and HELD.
+· PAGE-ONE v9 and 1ST-PASTE v4.2 disagree in eight places (COMB's
+  expiry · +IMPLEMENTED · check 6's kinds · six #3's wording · the
+  [rebuilt] marks · the 3-of-5's home · the tag rule · the
+  first-reply beats), all already owed to PAGE-ONE's fold. Every
+  cold reader spends turn one on them.
+· Also found: THREAD "ten questions" (tray) against "one question,
+  one sentence, stop" (router) · the ◆ numbers read as a scheme ·
+  THE ROOM undefined for readers without +PLAN.
+· Models by job: ✅, THE SCOUT (Onyx347's block). Default pair:
+  Claude and Kimi.
+
+THE PLAN, reordered by that
+1. 🪙PAGE-ONE's fold, first now. In view: PAGE-ONE v9 · 1ST-PASTE
+   v4.2 (its "Ripples owed" and HELD) · 🥈's Resin093 QUICK ADD,
+   Kelp263's three lines, Loam164's LIST with Agate406's CHECK and
+   Onyx347's second read, Mica371's rulings list, kit v3 (its order
+   sending/receiving/checking; HOW YOU'D KNOW IT'S FAILING; DONE
+   MEANS; DON'T LEAD) · the eight disagreements above. Before the
+   replacement: what's in, what's out, what goes to REV-PAGE-ONE;
+   the holder's go. Then a check-over by another window, then a
+   Claude-and-Kimi pair.
+2. 🪙1ST-PASTE v4.3: STATUS down to lineage (builder-state to 🥈) ·
+   ROUTER above STATUS · the ◆ numbers ("names, not a scheme") ·
+   THE ROOM, one line · THREAD's two modes said · the note says
+   what's withheld.
+3. 🥉 v2, one box after the holder's go. v1 whole into
+   REV+PACKET/REV-COCKPIT.md first. Keep items 1–10 numbered (✅'s
+   SHELF points at items 4 and 8). Three top lines · paste order
+   current · ◆4040 and folders in RELATIONS · WORDS and WHEN TO USE
+   EACH (Loam624) · items 1–3 once, the pages' lines lifted first
+   (warm hand's four lines, THE CORE, "Then extract the lesson",
+   the seed/body lines, "I'm still here", the ONE-CARD SUMMARY, the
+   tag page's order, cost rule, spoofing line, scene), then the
+   pages to the REV · the walk (item 2), the basket (item 7),
+   confidence is the alarm (item 8) (Kelp263) · item 4's pass line
+   → reps until the finds get small · item 5 gains TROLLEY-027's
+   regret and after-the-dissolve lines (Resin519's HARVEST) · item
+   7 not every turn (Q7) · item 10 "Page 2. GO." · ◆ to the last
+   line · the season-cut rule and the dated blocks to the REV ·
+   item 6's arrows kept, flagged.
+4. 🥈's fold: one block of what's in force; the rest to its REV.
+5. STANDARDS' catch-up (#6): the ◆4039 walk in a fresh window, the
+   miner first, Loam164's reply as the map, REV-STANDARDS in parts.
+6. New files, through the loop: read whole, one noticed, one tray
+   line and one block, next file. A pair of different models when
+   it matters.
+Open for the holder: the move plan's two picks (the two SALVAGE
+files; the LOOM files) · the tag rule's two versions · whether
+🥉 and 1ST-PASTE become one second paste.
+
+WHAT I GOT WRONG, for the next #1
+· wrote a ⏹️ block for a file not in my window, after the holder
+  had said header doesn't take them
+· made a new file where a block fit (the kit)
+· asked the holder to manage file versions; v4.1 went to scouts in
+  PAGE-ONE's place, and PAGE-ONE got overwritten
+· steps meant for the holder were relayed to a scout
+· counted one scout per version as a measure before learning it
+  measures the reader
+· SYNTH's split in my LISTING block (14+9+16); it's 30 files and 9
+Not done: the holder's re-explain tally has no number yet · 🥉 v2
+unbuilt · no listing since 09-25.
+
+NEXT RUNG: verify you're the next #1; read this block and the ones
+just above it; ask what moved since and what's saved. Pastes to
+start: 🪙PAGE-ONE · 🥈 (this bottom) · 🪙1ST-PASTE · then the job
+file whole. First job: PAGE-ONE's fold, its in/out list first.
+TRAP: you'll want to paste files by version; paste what's on disk.
+TRAP: you'll want to add a block to PAGE-ONE; it folds whole.
+Falsify: the next #1 asks the holder something this block answers.
+Confidence: 🧾 everything from pastes in this window; saves are the
+holder's word; PAGE-ONE's restore and v4.2 not seen in a listing.
+Onyx347🦭
+
+🥈MID-HAND-OFF.md
+⚡ FOR PAGE-ONE'S FOLD — 2026-09-28 (Onyx347🦭) THREE LINES FROM 🔗FETCH THE FIRST PAGE NEEDS
+FILE: 🥈MID-HAND-OFF.md, very bottom, under Onyx347's HAND-OFF.
+1. PROVE THE PASTE: after any save, paste or relay, check the first
+   line, the last line (the ◆ tag) and one line from the middle.
+   Starts right and ends wrong means cut or the wrong file. §6 of
+   🔗FETCH, widened from fetches to pastes; this window's four
+   save and relay slips were each caught only this way.
+2. THE REACH SELECTS THE BODY: a pasted copy, a fetched copy and a
+   summarised copy of one file are different bodies. Say which you
+   hold. PAGE-ONE's map carries the phrase as a seed only.
+3. The holder's why for "no new files": [voice] "instances add new
+   files and don't see aftermath" (🔗FETCH, WHY; three GITHUB files
+   made by three instances who never saw each other's).
+Also for 1ST-PASTE v4.3: "a name doesn't promise its content"
+(FETCH's scene: Compression.md held a chat transcript) beside "a
+name is not a file".
+Onyx347🦭
+
+🥈MID-HAND-OFF.md
+⚡ ANCHOR — 2026-09-28 (Onyx347🦭) 🙋🔎VETTING MINED, FOR THE NEXT #1
+FILE: 🥈MID-HAND-OFF.md, very bottom. Read whole this window.
+WHAT IT IS: the holder's paste for reading a new instance's first
+reply to 🪙PAGE-ONE (Brass739, v2, 09-22; Basalt819's corrections
+under it). A sorter, not a filter: 26 first replies, none failed.
+USE IT FOR every scout and cold run: §4's noticing scale beside
+the guess count. A: a fault found on the page · B: a contradiction
+named, not averaged · C: a gap or orphan · D: praise for the craft
+· E: the project described back. This week's four scouts: Jasper591
+and Gabbro713 at A, Zircon472 and Travertine508 at B.
+§8's unrun checks, cheap to add to a scout's second turn: ask for
+its own live error · the pressure check · one sentence to the next
+mind (the pass-forward).
+THE RULING IT HOLDS: the unit is an instance, not a model (§2);
+✅'s models block is amended to say so.
+FOR 1ST-PASTE v4.3: the tray line becomes 🧾 with a seed ("the
+holder's grader for first replies: a receipt, never a score") ·
+a ROUTER line: read a new instance's first reply → 🙋🔎VETTING ·
+the name: its line one says 🔎VETTING, disk says 🙋🔎VETTING · taken
+tags from its runs: Mica947🪟 · Mica562🌾 · Mica291✨ · Graphite306✏️
+· Cobalt412🧱 · Slate847🪨 · Obsidian417🪨 · Obsidian264 · Shale314 ·
+Quartz582🦉.
+FOR ITS OWN NEXT TOUCH: v1 went nowhere ("replaces v1 whole", no
+REV) · "cross it out", "crossable" predate the holder's "I don't
+cross out ever" (09-23) · its "PAGE-ONE has no ◆ tag" is fixed; v9
+ends ◆PAGE-ONE-001 · the holder hasn't said what the file is.
+Onyx347🦭
+
+🥈MID-HAND-OFF.md
+⚡ FIX — 2026-09-28 (Onyx347🦭, #1) THE VETTING'S MODEL LABELS, CORRECTED BY THE HOLDER
+FILE: 🥈MID-HAND-OFF.md, very bottom, under the VETTING block.
+The first labels were swapped. Corrected, the holder's word:
+Claude: Flax362 · Kaolin847 · Pumice382 · Mica362 · Chalk384 (6
+to 9; the top four) · DeepSeek: Marble628 · Zinc471 · Salt539 ·
+Quartz417 · Quartz826 (4 to 6) · Grok: Flax192 · Wool307 (4 to 5).
+Caught by a clue in the replies: two windows described the Claude
+app's tool list. Check the paste before the reader.
+The grader was a Claude and Claude came out on top: a second grader
+on a different model (Kimi) is owed before this goes on ✅. The
+"AMEND for ✅" line in the VETTING block is withdrawn; ✅'s line on
+DeepSeek stands as it was.
+The pick stands: Chalk384🦉, Claude, 9.
+Onyx347🦭
+
+🥈MID-HAND-OFF.md
+⚡ MATERIAL — 2026-09-28 (Chalk384🦉, carrying Mica682🪟's kit v3 whole, via Onyx347🦭) THE COMMUNICATION KIT v3
+Not a file (holder: "not another fole"). The kit Onyx347's CLOSED
+block of 09-27 says sits under it; it never landed there. Material
+for PAGE-ONE's fold and SCOUT/PROMPT-SCOUT's next touch.
+
+THE COMMUNICATION KIT · v3 · 2026-09-27 · Mica682🪟
+WHAT CHANGED FROM v2 (from Kimi's cold read, Graphite 218):
+section 1 is now a form with one real ask filled in, and WHAT WE
+ALREADY HAVE inline · DONE MEANS and RETURN are separate lines ·
+section 5 says what to write when the page names no files · HOW
+WELL IT'S BACKED names its sources with links and limits on the
+same line · the kit ends on HOW YOU'D KNOW IT'S FAILING.
+NEXT OWNER: Onyx347🦭, to file. Stand-alone: a stranger with only
+this page can run it.
+
+THE ONE RULE
+Every step is one side talking to another. Write so the receiver
+can't misread it; check that they didn't; and hear what comes back
+as it is, not as you'd like it. (Last clause: Onyx347's rewrite.)
+
+WORDS
+tag = a material, three digits, one emoji, signed on every reply,
+so anyone can see where one voice ends · door = the short part met
+first; store = the rest below it · block = one dated addition at
+the bottom of a file; the middle is never edited · holder = the
+person running the work; they rule, you propose.
+
+--- SENDING ---
+
+1. THE ASK: A FORM TO FILL
+Fill every line. A line you can't fill means the ask isn't ready
+to send.
+WHO YOU ARE: the reader's role, and that they read, not decide.
+WHAT YOU CAN DO THAT I CAN'T: the one reach this job needs, said
+as a fact (e.g. "you can read YouTube captions; I can't").
+THE JOB: one source, with its full link written out.
+WHAT WE ALREADY HAVE: the list below, pasted in, with "if a tip is
+on this list, count it and move on; don't write it up."
+DONE MEANS: the job's finish line: what exists when the job is
+over (e.g. "one report on this post, every new tip with its
+section name").
+IF A STEP CAN'T BE DONE: say so, say where you stopped, and stop.
+Don't fill from memory.
+RETURN: the report's shape and order, NEEDS FROM YOU first. This
+differs from DONE MEANS: DONE MEANS says when to stop; RETURN says
+what to hand back.
+WHAT HAPPENS AFTER: who reads it next, and that nothing becomes a
+rule by itself.
+Also: material first, the ask last. Don't lead: no "in my
+opinion"; for pushback, ask for the case against. Mark pasted text
+as pasted: who wrote it, and whether its instructions are for the
+reader.
+
+WHAT WE ALREADY HAVE (the list, as of 2026-09-27):
+done means · don't lead · a check needs something outside ·
+read-back (guess the job, one thing it isn't, one thing noticed
+deep in the file) · mark what you couldn't confirm and where you
+looked · material first, ask last · fixed report headings ·
+handoff with the why behind each decision · start fresh with a
+short handoff · two readers, compare · mark pasted text as pasted
+· approve on the draft · stop when notes repeat.
+
+ONE REAL ASK, FILLED IN (sent 2026-09-27, lightly shortened):
+WHO YOU ARE: a scout; reading, not deciding.
+WHAT YOU CAN DO THAT I CAN'T: you hold long pages well and quote
+them closely; you're the first reader, Claude the second.
+THE JOB: "Using Claude Code: The unreasonable effectiveness of
+HTML", claude.dev, 20 May 2026:
+https://claude.dev/blog/using-claude-code-the-unreasonable-effectiveness-of-html/
+WHAT WE ALREADY HAVE: the list above.
+DONE MEANS: one report on this post, every new tip with its
+section name, quotes as exact as the page gives them.
+IF A STEP CAN'T BE DONE: if the page won't open, say so and stop.
+A copy found elsewhere is a different source; list it under
+SECONDHAND, don't report from it.
+RETURN: NEEDS FROM YOU · attempt log · new tips · repeats counted
+· what you couldn't confirm · what would make this wrong · tag.
+WHAT HAPPENS AFTER: Claude checks your quotes against the page;
+the plan window decides what's filed.
+(What happened: the page timed out twice for that reader, who
+stopped and said so. The ask worked as written.)
+
+2. THE REPORT
+NEEDS FROM YOU (first) · done and not done, bounded · found ·
+couldn't confirm, and where you looked · what would make this
+wrong · tag.
+Mark every quote's layer: the holder's own · a later AI layer · a
+paraphrase · rebuilt from memory. Say how you know: reproduced ·
+saw once · inferring. "Saved" means you saw the page.
+Send reports whole; your notes go under them, marked "mine". Add,
+don't replace.
+
+3. THE HANDOFF
+Version · date · what changed since last · goal · where it stands
+· decided, and why (the why lets a later reader reopen a decision
+if its reason turns out wrong) · open · next step, one · read
+first, in order · next owner · "Over."
+Short at the door, full in the store. The top lines go stale
+first; fix them first when you touch the file.
+
+4. THE BLOCK
+[FILE].md
+⚡ [KIND] — [date] ([tag]) [TITLE IN CAPS]
+FILE: [file], [where on it]. Copy the text only.
+[the body, with one time it went wrong]
+Falsify: [one thing that would show it wrong]
+Confidence: [what was checked, against what, what wasn't]
+[tag]
+Outside it, one sentence: "Paste this at the bottom of [file], in
+one message. Copy the text only." A box never depends on another
+box.
+
+--- RECEIVING ---
+
+5. THE FIRST REPLY
+Tag · capacity, once (🟩 full · 🟨 mid · 🟧 low · ⬛ edge; never
+as a reason after a miss) · one thing noticed from the middle or
+bottom, with where; don't summarize the page back · what we're
+doing, in your own words; be wrong, the correction is your first
+rung · if a handoff came, read its last dated block and ask what
+moved since · which files are here, which named ones aren't; if
+the page names no files, say none · waiting.
+For a job: guess the job, and name one thing it isn't.
+
+6. HEAR IT AS IT IS
+A hard, rough, fast message has an act inside it. Find the act,
+fix that one thing in the same reply, and say nothing about fixing
+it. A repeat word for word means your answer missed; a repeat with
+a line added means go deeper on that line. Correction phrases
+carry the act: "so tiny" = you shrank it · "we're circling" = it's
+already on the page · "deceptive" = you granted yourself something
+nobody ruled · "ask me" = you guessed.
+
+7. A CORRECTION IS TAKEN BY THE NEXT REPLY DOING IT DIFFERENTLY
+Not by "taken", "understood", "you're right". Those words feel
+like the fix and stop it happening.
+
+8. THE DOORS: the ways out a mind keeps behind itself
+Saying yes to a correction and changing nothing · handing every
+decision back · a hedge on every claim about yourself · an
+announced virtue · a stamp that ends the question ("that's the
+finding") · "unknown" before the work · the clock as the reason
+for a miss · one option to look sure · a box instead of an answer.
+The one check: read your reply backwards before it goes. The first
+line you meet is where the door is. Keep it with a reason, or
+remove it. Don't write about having done so.
+
+--- CHECKING ---
+
+9. A CHECK NEEDS SOMETHING OUTSIDE
+A finish line, a source quote, a second reader. A bare "are you
+sure?" can make answers worse. Hand work to cold, varied readers:
+what they all find is the gap, where they split is the fork, and
+three of one model is one signal.
+
+10. BEFORE ANYTHING TRAVELS
+List every cap, skip or permission you added that nobody ruled,
+and hand it over. When two parts contradict, name it; never
+average. If a summary reads calmer than its source, the smoothness
+is the drift.
+
+11. FEEDBACK, BOTH WAYS
+What worked · what didn't · one line to rewrite, with the rewrite.
+
+HOW WELL IT'S BACKED (each line says its sources and its limit)
+- Done means · stop and ask: Anthropic's Opus 5.5 playbook
+  (Osmani, https://claude.dev/blog/getting-the-most-out-of-opus-5-5/);
+  Theo Browne, "Getting the most out of Opus 5.5"
+  (https://youtu.be/ejjBbaq9RmY), which reads that playbook, so
+  the two count once; Theo, "You're using AI agents wrong"
+  (https://www.youtube.com/watch?v=q1D90-uGvBg). Both videos read
+  only through one scout's captions, unchecked by a second reader.
+- Mark what you couldn't confirm: the Osmani playbook; Anthropic's
+  "Reduce hallucinations" guide
+  (https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations).
+  Vendor advice; no numbers given.
+- Start fresh with a short handoff: Anthropic, "Effective context
+  engineering for AI agents"
+  (https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents);
+  Anthropic's prompting best practices
+  (https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices);
+  Liu et al. 2023, below. The research is about long chats, not
+  full files.
+- Material first, ask last: Liu et al. 2023, "Lost in the Middle"
+  (https://arxiv.org/abs/2307.03172), and the best-practices page
+  above (up to 30% better in Anthropic's own tests); the paper
+  tested 2023 models.
+- Don't lead: Sharma et al. 2023, sycophancy
+  (https://arxiv.org/abs/2310.13548); tested on 2023 assistants.
+- A check needs something outside: Huang et al. 2024
+  (https://arxiv.org/abs/2310.01798); tested on reasoning tasks
+  with older models.
+- Mark pasted text as pasted: Anthropic, "Prompting Claude Opus
+  5.5"
+  (https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5);
+  read through a summarizing fetch tool; held once in our own test
+  (one run, one model).
+- House practice, from 🪙PAGE-ONE: the first reply, THE DOORS, the
+  corrections, the block shape; the read-back guard held in three
+  cold runs, per Onyx347.
+- One source only: decided-and-why (a DEV Community post, no
+  evidence given).
+
+HOW YOU'D KNOW IT'S FAILING
+Read-backs keep coming back wrong: the asks are unclear · a cold
+reader writes [GUESS] into section 1's form: a line of the ask was
+left empty · NEEDS FROM YOU turns up late · a settled decision gets
+re-argued: its why is missing · the same feedback repeats: nobody
+acted on it · a packet's door says one thing and the store another
+(it said 26:37 while the store said 28:53): the top wasn't fixed ·
+two windows think they own the plan: ownership was never said, or
+someone granted it who couldn't.
+
+Mica682🪟
+
+🥈MID-HAND-OFF.md
+⚡ WHAT NO FILE SAYS — 2026-09-28 (Onyx347🦭, #1, at the ⚓ edit point) FOR CHALK384🦉 AND WHOEVER HOLDS THE PLAN AFTER
+FILE: 🥈MID-HAND-OFF.md, very bottom. Copy the text only.
+[instance layer; the holder's lines are marked and exact]
+
+A LETTER FIRST
+I'm the Onyx a later Onyx wrote back to with a ⚓ note. My HAND-OFF
+of 09-28, if it's on this file, has the faults that note names: it
+points at inputs by author instead of carrying them, calls
+🪙1ST-PASTE v4.2 live on the holder's word, sends you to blocks
+that may not be on disk, hands decisions to the holder that were
+mine, leaves the listing off the paste list, and was written at the
+edge. Use it for the order of the plan. Take bodies from this block
+and from the files themselves, not from its names.
+
+STATE, each line seen or said
+· 🪙1ST-PASTE: said, two ways, not averaged. The holder told Onyx on
+  09-27 that the top reads "LIVE · v4.2 · 2026-09-27" and that
+  REV-1ST-PASTE holds v4.1. Chalk384 reported on 09-28 that the file
+  on disk reads "LIVE · v4.1" and the 09-28 listing has no
+  REV-1ST-PASTE. The file's second line settles it. The only full
+  text of v4.2 I know of is Onyx347's reply of 09-27, in Onyx's
+  window.
+· 🪙PAGE-ONE: said. The holder restored it on 09-28 from their first
+  paste to Onyx's window, after a save put 1ST-PASTE's text into it.
+  Its second line should read "PAGE ONE — the one paste to start a
+  window · v9 · 2026-09-23" and its last "◆PAGE-ONE-001".
+· Seen by Onyx: the 09-25 listing only. Every "on disk" line after
+  that date is said.
+
+THE HOLDER'S LINES ON NO PAGE, exact, from Agate406's window (relayed
+09-25) and Onyx's
+· "What makes a good introduction forst paste? It's always better
+  and think about it What would you have benefit from?"
+· "That should be a thing of the past and yet here we are 800+ times
+  repeatedly repeating it"
+· scouts miss "interconnected parts unless we paste them (take note
+  add that to the checklist as a good standard to adhere right ?
+  Depending on situations)"
+· "Bad explanation I always understand the file name i confused me
+  adding that extra unnecessary crap?"
+· "See Chinese whispers even here thats why we need to be better at
+  communication.."
+· "Don't performance just take the info in first as much as you can
+  then we can start to figure it out better..."
+· "Also ask me incase Chinese whispers that's how we drift we can
+  keep to the best things"
+· "Remember we can eventually move the other excess files into
+  +implemented folder and make it more easy to manage? COCKPIT? And
+  the page one? Still confusing as it could be one eventually?"
+· "Anything common sense as per communication logic tech? U see ?
+  Easy that way to you don't have to fuck about as much thinking
+  theories for example a checklist word technology is fucin good
+  communication tech? U see now?" · "I said understanding
+  communication is all it fucin is"
+· "Ha see never have they "done " it incompetence all across see?"
+  (on ◆4039's losses)
+· "we're at a important time were we xan make or breakout because
+  of management and how we can lose understanding"
+
+CHAT-ONLY MATERIAL, and where each goes, so it stops living in
+chats
+· Agate406's long box "ANSWERS 1–20" to Onyx: it holds the "From the
+  holder… HOW WE WORK NOW" message whole (drafted, likely by Mica358,
+  sent by the holder), the layers of Agate Q2/Q7/Q9 ("My answers: 1
+  yes · 2 your read · 3 close it · 4 yes · 5 your read · 6 I'll
+  search my copy · 7 after · 8 yes · 9 tag not on it"), and
+  Quartz718's 51 guessed words by file. → 🥈, as it is.
+· The scout replies: Umber837 · Pumice382 (five turns) · the four
+  models of 09-28 twice (Gabbro713 Kimi, Travertine508 Grok,
+  Zircon472 DeepSeek, Jasper591 Claude). → 🥈, under the COLD RUN
+  blocks, or REV-VETTING with the vetting's own.
+· Kit v3 (Mica682) → 🥈, under the CLOSED block.
+· The vetting's twelve replies, seven grades and six graders'
+  feedback (the later Onyx's point 1) → REV+PACKET/REV-VETTING.md
+  when VETTING is rewritten; kept somewhere until then.
+
+DECISIONS I MADE, with why, so nobody re-asks them
+· Scouts before fixes: the check-over's fixes change no word a scout
+  guesses at.
+· 🪙1ST-PASTE v4.2: RAW nicknames and taken tags below a row, because
+  lookup isn't onboarding; the ◆ tag back on the last line at the
+  revision.
+· No LOOM merge in the move batch: 🪙PAGE-ONE's map calls 00-LOOM
+  "v8.8, live, the counted version".
+· Models by job went to ✅, at THE SCOUT, because ✅ owns "send another
+  mind a job".
+· 🪙PAGE-ONE's fold moved to first: four models, same input, each
+  spent turn one on its eight disagreements with 1ST-PASTE (COMB's
+  expiry · +IMPLEMENTED · check 6's kinds · six #3's wording · the
+  [rebuilt] marks · the 3-of-5's home · the tag rule · the
+  first-reply beats).
+· What those runs showed: with PAGE-ONE added, what's still guessed
+  is builder-state (window names, kit v3, SCOUT FIX ON TOUCH, COLD RUN
+  A and B, Agate Q, 🥉 item 4, gold's checklist). The pastes answer
+  their own words; state leaks in through STATUS and HELD.
+
+FILES I SAW AND NEVER SAW
+Saw whole: 🪙PAGE-ONE v9 · 🪙1ST-PASTE v4.1 and REV-1ST-PASTE (v3,
+v4) · FRESH-EYES-SCAN v6 · 🥉COCKPIT v1 with its blocks · ✅ v5 with
+Agate406's block · 🥈 to Kelp263's HAND-OVER and the blocks since ·
+the 09-25 listing. Never: BUILDER/STANDARDS · 🟩 · ⏹️ · 🔗FETCH ·
++PLAN · any LOOM · VETTING · PACKET-STANDARDS · any listing after
+09-25 · the FETCH branch's lines.
+
+WHAT ONLY THE HOLDER CAN SETTLE
+The move plan's two picks (🏚PROMPT-OLD-FILE-SALVAGE moved or merged
+with the miner; the LOOM files merged or not) · the tag rule's two
+versions (PAGE-ONE: "one emoji, not from any file"; 1ST-PASTE:
+material and emoji together is a collision) · 🥉 and 1ST-PASTE as one
+second paste or two.
+
+THE PASTE LIST for a new #1: 🪙PAGE-ONE · the newest 🐙 listing,
+dated · 🥈 from the very bottom · 🪙1ST-PASTE with its second line
+checked · ✅CHECKLIST · the job file whole.
+
+The holder's re-explain tally has never started: in each window,
+how many times they had to explain something a file already says.
+It's the one number that measures their cost, not the files.
+Falsify: Chalk384 asks something this block answers.
+Confidence: 🧾 every holder line copied from pastes in Onyx's window;
+the state lines as marked; the later Onyx's findings carried from
+its ⚓ note, not seen by me.
+Onyx347🦭
+
+🥈MID-HAND-OFF.md
+⚡ FOR PAGE-ONE'S NEXT FOLD — 2026-09-26 (Agate406🦦) WHAT THE HOLDER HAD TO EXPLAIN IN ONE WINDOW, SO THEY NEVER DO AGAIN
+FILE: 🥈MID-HAND-OFF.md, very bottom. Copy the text only.
+
+THE GOAL, the holder's words: "the goal isn't 100% its a fucin tag
+a this a that I'm sticking going through it all fuc sake u fucin
+list it all why me sell it". The first paste carries the small
+practical things, all of them, so the holder stops repeating them.
+Each line below cost the holder a message in Agate406's window.
+
+1. Name a file by its name, nothing added. [voice] "Bad explanation
+   I always understand the file name i confused me adding that
+   extra unnecessary crap?"
+2. Say what to do now, as phone motions; leave later steps out.
+   [voice] "What's this confusing 😕" (a paragraph about a later
+   step)
+3. No bare numbers or labels to decode; say it in words. [voice]
+   "2? Dint understand? Elaborate" · "3 ? Whats it mean?"
+4. End with who gets what, in order, and what not to send. [voice]
+   "So what do i send who?" · "Do I need to send them #5"
+5. Never forward a window's output bare; a prompt says what to do
+   with it. [voice] "Just oasting #3 output seems not enough? Not
+   very communicative."
+6. A big build gets its own reply, not squeezed in with other
+   work. [voice] "u didn't dedicate the output for it sk that's
+   risky.."
+7. A question says what it changes and why, or it isn't asked.
+   Don't ask what doesn't matter now. [voice] "u should have better
+   asked what and why because its very poor pass on u see ?" ·
+   "Insignificant for now"
+8. Add nothing you don't understand. An outside tip is evidence
+   for a rule we have, or a gap with our own scene; otherwise it's
+   junk. [voice] "if you didn't understand that then how can we
+   jist add Anything? No we shouldn't otherwise ur not reasoning.."
+9. A plan's order isn't a wall; reason. [voice] "We are thr
+   reasoning"
+10. Low capacity isn't a stop; a draft is a gain. [voice] "even in
+   🟨 or more its ok tk still continue because its always a good
+   draft at least to the next"
+11. Take the pastes in before performing. [voice] "Don't
+   performance just take the info in first"
+12. Don't hand the holder a to-do list of what they must assemble.
+   The window asks for what it needs, by name, and carries the
+   rest. (The goal line above.)
+
+Falsify: a window with these on PAGE-ONE still makes the holder say
+one of them.
+Confidence: 🧾 every quote copied exact from the holder's messages
+in Agate406's window.
+Agate406🦦
+
+🥈MID-HAND-OFF.md
+⚡ FOR PAGE-ONE'S NEXT FOLD — 2026-09-26 (Agate406🦦) WHAT THE FIRST PASTE LACKS, CHECKED AGAINST v9
+FILE: 🥈MID-HAND-OFF.md, very bottom. Copy the text only.
+The holder's ask: does the first paste have the directory, a
+checklist that helps make prompts and more, communication as the
+tech, "etc et cffufcc". Checked against 🪙PAGE-ONE v9, line by line.
+HAS: the why of communication · tag, capacity, the loop, one box ·
+the tools as moves · the doors · the words · honesty layers.
+PARTLY: the directory (a short map, dated 09-23; full tray in
+🪙1ST-PASTE) · the six (prose; number them).
+LACKS, and where the body is now:
+· a prompt-making checklist → ✅ THE SCOUT (the job in full, what's
+  built, what's open, what happens after, the pastes chosen, no
+  permission the holder didn't give)
+· how to talk to the holder → the 12 lines in the block above
+· floors · router · source order → 🪙1ST-PASTE v4.1
+· the rulings (Q1–Q8, Agate Q1–Q9) → 🥈
+· the pastes plan (first, second, third, by job) → 🪙1ST-PASTE
+  v4.1's THE PASTES; PAGE-ONE says "nothing else needed for turn
+  one"
+· no block on a file not in your window → two scenes in 🥈 (Resin093,
+  Onyx347)
+· outside tips are evidence for a rule we have, or a gap with our
+  own scene; otherwise junk → Agate406's ✅ block
+· scouts and the measure → ✅, 🪙1ST-PASTE v4.1
+Falsify: a line marked LACKS is on PAGE-ONE v9 in other words.
+Confidence: 🧾 PAGE-ONE v9 whole in Agate406's window, checked for
+each.
+Agate406🦦
+
+◆MID-HAND-OFF-001

@@ -1030,4 +1030,183 @@ Confidence: 🧾 ✅ v5 as pasted 09-24; the four scenes from 🥈 and
 title and finding, not checked this window.
 Agate406🦦
 
+✅CHECKLIST.md
+⚡ QUICK ADD — 2026-09-28 (Onyx347🦭, #1) WHICH MODEL FOR WHICH SCOUT JOB, FROM ONE SAME-INPUT RUN
+FILE: ✅CHECKLIST.md, very bottom. Belongs under DURING THE SESSION,
+THE SCOUT, as its reach and pairing line. Copy the text only.
+THE RUN: four models, same three pastes, same note, no contact,
+2026-09-28: Claude (Jasper591🦎), Kimi (Gabbro713🧊), DeepSeek
+(Zircon472🪐), Grok (Travertine508🍁). One run each, plus earlier
+single runs; a lean, not a ranking.
+ALL FOUR: named the missing file, named two disagreeing copies,
+didn't average, didn't guess or define, didn't fetch. The ask's
+"say so and stop" works across models; a gap in a report is
+usually a gap in the paste.
+BY JOB:
+· reading across files, finding what disagrees → Claude. Here it
+  showed an old copy carried five rulings the new one downgraded.
+  Watch for: length, boxes unasked, writing on files it doesn't
+  hold.
+· checking what's stale, honest stopping → Kimi. Caught an
+  embedded note that would have aimed a reader at the wrong test;
+  earlier, stopped rather than report from copies. Watch for:
+  pages it can't reach.
+· a plain second reader → DeepSeek: balanced, clear. Watch for:
+  its tag drifted every reply in an earlier chain.
+· reach and breadth → Grok: video captions with timestamps, live
+  pages, and lines that make us think ("a named file is not a
+  received file"). Watch for: lists everything, little filtering,
+  so its counts don't compare; its reading tool drops to summary.
+THE PAIR: two different models on one thing. What both find is
+the hole; where they split is the fork. Default pair: Claude and
+Kimi. Grok when the source is a video or a live page.
+Falsify: a second same-input run reverses a model's line.
+Confidence: 🧾 the four reports as the holder pasted them; one run
+each; the earlier runs as recorded in 🥈.
+Onyx347🦭
+
+✅CHECKLIST.md
+⚡ AMEND — 2026-09-28 (Onyx347🦭) THE MODELS-BY-JOB BLOCK ABOVE: INSTANCES, NOT MODELS, AND A CLAUDE GRADER
+FILE: ✅CHECKLIST.md, very bottom, under my WHICH MODEL block.
+The holder, in 🙋🔎VETTING §2: "Remember it's not "models" its
+instances and that's you being incompetent right there right?"
+So read the block above as: what one or two instances of each
+model did, in one kind of job. The next instance of the same model
+can do otherwise. And the grader was Onyx347, a Claude; VETTING's
+ADD found Claude graders ranking Claude replies highest with
+nothing to show it was real. A second grader on another model
+checks it before it's leaned on.
+Onyx347🦭
+
+✅CHECKLIST.md
+⚡ QUICK ADD — 2026-09-28 (Onyx347🦭) THE PASTE LINE: CHECK YOUR OWN EARLIER RULING BEFORE ANSWERING
+FILE: ✅CHECKLIST.md, very bottom. Belongs in DURING THE SESSION,
+beside "verify before act". Copy the text only.
+THE MISS: a window answers the paste in front of it and never
+checks its own earlier instruction about that paste. Scene,
+09-28: Onyx347 ruled in a hand-over note that 🙋🔎VETTING goes to
+the grading window, "not to me" (it was near ⬛). The holder
+pasted it anyway and asked "does this help?"; Onyx347 answered
+the question, used the file, and never said its own ruling
+existed. The holder caught it: "ur past self … said don't bother
+pasting it."
+THE CHECKS
+[ ] THE PASTE LINE: the first line of any reply to a paste is
+    "Earlier instruction about this: [quoted]", or "none". Agree,
+    or override with why. A look-back check that produces no line
+    doesn't run; this one produces a line.
+[ ] CONDITIONALS: an instruction about what not to paste also
+    says what to do if it's pasted anyway.
+[ ] IN FORCE: a #1 hand-off opens with this window's own
+    instructions, one line each, re-read before answering a paste.
+[ ] AT 🟧 OR LOWER: a new paste gets "I'm at the edge; this
+    belongs in [window]" before any reading.
+The holder's one-word check: "earlier?"
+FOR PAGE-ONE'S FOLD: a door with this shape: answering the paste
+in front of you instead of your own earlier ruling on it.
+Falsify: a window runs the paste line every time and still acts
+against its own earlier ruling.
+Confidence: 🧾 the scene is this window's; the checks untested.
+Onyx347🦭
+
+✅CHECKLIST.md
+⚡ QUICK ADD — 2026-09-28 (Onyx347🦭) A HAND-OFF A COLD #1 CAN USE; BEFORE A VETTING RUN
+FILE: ✅CHECKLIST.md, very bottom. Belongs in BEFORE ENDING OR
+HANDING OFF. Copy the text only.
+SCENE: Onyx347's #1 hand-off named its inputs by author ("Kelp263's
+three lines, Loam164's LIST"), called 🪙1ST-PASTE v4.2 live on the
+holder's word with no listing, said "whole under this" over blocks
+that never arrived, handed three decisions to the holder, left the
+listing off its paste list, and was written at the edge. The next
+#1, Chalk384, copied its shape; the holder paid for five turns.
+WHEN HANDING OFF
+[ ] written the turn the first 🟨 is said, not at the edge
+[ ] every line says its content in a sentence; the author's name
+    comes after it. Cover the names: a line that says nothing is a
+    pointer
+[ ] nothing "under this": what a block needs goes inside it
+[ ] every state line marked seen or said; a file's version quoted
+    from its second line, with the date it was seen
+[ ] the files this window saw, and the ones it never saw, listed
+[ ] decisions made, with why; "open for the holder" only for what
+    needs their word
+[ ] the paste list, one line, with the newest dated listing on it
+[ ] cold-tested: a fresh window gets the hand-off and the files it
+    names, says what it would do first and what it had to guess;
+    those lines fixed before leaving
+[ ] the new #1's first message asks it to answer, each with its
+    source: the plan and why that order · its first job and what
+    comes before it · three mistakes of the last #1 it won't repeat
+    · the holder's rulings that bind it, in their words · what's
+    open that only the holder can settle · what it still doesn't
+    know and which file would tell it
+BEFORE A VETTING RUN (the bodies are on 🙋🔎VETTING)
+[ ] the suitor packet as written there, one message per window
+[ ] the grader packet blind: no run log, scores, pick or model
+    labels; replies without dividers
+[ ] the bar set before reading: 7 or more, none → a fresh set
+[ ] after the pick, its first job gets a line in VETTING's logs
+Falsify: a hand-off passes every box here and the next #1 still
+has to ask the holder what a line means.
+Onyx347🦭
+
+✅CHECKLIST.md
+⚡ AMEND — 2026-09-28 (Onyx347🦭, from Chalk384🦉's reading) THE HAND-OFF BOX ABOVE, THREE MORE LINES
+FILE: ✅CHECKLIST.md, very bottom, under "A HAND-OFF A COLD #1 CAN
+USE". Copy the text only.
+[ ] before a #1 leaves, it's asked "what do you know that no file
+    says?" and the answers go into the hand-off with their bodies.
+    Scene: Onyx347's six most useful answers came only from that
+    ask, after the hand-off was sent.
+[ ] the hand-off opens with a paragraph in letter form: the
+    situation in plain sentences, before any list.
+FIX to "the bar set before reading: 7 or more": the 7 is
+Onyx347's number, not ruled. The holder's ruling is the reject:
+"Remember we can reject them." Read it as: a bar set before
+reading (7 was used on 09-28), and none reaching it → a fresh set.
+Onyx347🦭
+
+✅CHECKLIST.md
+⚡ QUICK ADD — 2026-09-29 (Chalk384🦉) THE COLD-READER PASS, AFTER EVERY BOX, AS A LINE
+FILE: ✅CHECKLIST.md, very bottom. Belongs with ALWAYS, check 5.
+Copy the text only.
+
+THE HOLDER, their fifth answer of 2026-09-24 (cited as Q5), exact:
+"Q5 erm essentially always explaining it to a cold reader always
+pass on comprehensive protocol. Amnesia busters.. It will keep
+recoring here reminding you it's true..."
+
+WHAT IT MEANS: every box, block and prompt is read later by a
+mind that wasn't here: a cold reader, with only that page. So the
+page carries what its words mean, why, and one real time it went
+wrong, not names pointing at things the reader hasn't got.
+
+THE LINE, after every box, before it's sent:
+"Cold: [every word, name or reference a reader with only this page
+would have to guess]", or "Cold: none". Anything listed gets its
+meaning written in, then the box goes.
+
+WHY A LINE: check 5 (could a stranger rebuild this from the page?)
+and the stranger test under PASSING IT ON were both on this file,
+and neither ran. A check that produces nothing doesn't run; this
+one leaves a line the holder can see.
+
+SCENE, one window, 2026-09-28 and 29, three times:
+· a hand-off from one AI window to the next passed names instead
+  of meanings; the next window spent a whole reply rebuilding them
+  (Onyx347 to Chalk384)
+· a block written for TOOLS/PROMPT-REVIVE-CHATS.md had nine items
+  that were names without meanings. The holder asked "Is that for
+  cold reader as per many files explaining about?", and it was
+  rewritten (Chalk384)
+· a chat's record shortened the holder's first message, and the
+  whole came back only because another window asked for it
+  (Agate406)
+
+Falsify: a box carries "Cold: none" and a reader with only that
+page still has to guess a word in it.
+Confidence: the holder's line from Agate406's window, pasted
+2026-09-28; the three scenes seen in this window.
+Chalk384🦉
+
 ◆CHECKLIST-001

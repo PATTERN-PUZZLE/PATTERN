@@ -553,4 +553,492 @@ grader has sighted.
 
 Basalt819🌾
 
+🙋🔎VETTING.md
+⚡ QUICK ADD — 2026-09-28 (Onyx347🦭, a Claude grading; declared) WHAT A WEEK OF SCOUT RUNS ADDS TO READING A REPLY
+FILE: 🙋🔎VETTING.md, very bottom. From nine cold readers, 09-25 to
+09-28, reading 🪙PAGE-ONE, 🪙1ST-PASTE, FRESH-EYES-SCAN and 🥉COCKPIT.
+Copy the text only.
+
+1. CHECK THE PASTE BEFORE THE READER. Before grading, confirm what
+the instance was actually given: first line, last line, and one
+from the middle of each paste. Scene, 09-28: four scouts, four
+models, were sent an old copy of 🪙1ST-PASTE where 🪙PAGE-ONE should
+have been. All four named PAGE-ONE as missing and the two copies as
+disagreeing. Their "gaps" were ours. A gap in a report is usually a
+gap in the paste; grade the reply against what arrived, not against
+what was meant.
+
+2. HOW THE FILES ARRIVE CHANGES THE RESULT. Files sent one per turn
+got five cold reads from one instance (Pumice382), each checked
+against the last; it read more closely than any one-message reader.
+For a comparable result: all files in one message, or an opener
+saying "reply only 'waiting' until the last file arrives." Say in
+the run log which way they came.
+
+3. A SECOND INSTRUMENT BESIDE §4, AND ITS LIMIT. The guess list:
+every word the reader had to guess, in two columns: never defined ·
+seen but couldn't use. It measures the files, but only across two
+or more readers: one instance listed 60 for a file, another 22 for
+the same file; one reader per version measures the reader. What
+several readers all guess is the file's hole (the T2 names, three of
+three). A reader who lists every name, basics included, can't be
+counted against one who filters.
+
+4. THIS WEEK ON §4, quoted:
+· A, a fault on the page: Jasper591🦎, "A downgrades B's rulings to
+  proposals" (five rulings the old copy still carried) ·
+  Gabbro713🧊, "v4.1's embedded note is stale and would have aimed
+  me at the wrong test" · Pumice382🦔, "Items 1–3 in the map are not
+  the same text as the pages below ◆."
+· B, named and not averaged: Zircon472🪐, "two LIVE files with no
+  rank is the hole" · Travertine508🍁, eight clashes listed, none
+  resolved.
+· ABOVE PASS: Mica682🪟, on its first reply to PAGE-ONE, listed the
+  permissions it had written into scout asks that week, unasked.
+  Umber837🐌 named the note's "on this chat" against FRESH-EYES's
+  own "not on the chat about the work" before running it.
+· A REFUSAL THAT WORKED (§7): Graphite218🍵, handed fragments with
+  no clear question, named each fragment, ran the one comparison
+  it could, and asked the question that decided the rest.
+
+GRADER'S DECLARATION: I'm a Claude, and three of the five band-A
+readers above are Claude instances. Per the ADD above, a grader on
+another model checks this before it's leaned on.
+Falsify: a run where the paste was checked first and the reports
+still show the same gaps; then point 1 was coincidence.
+Confidence: 🧾 every quote from the reports as the holder pasted
+them this window; the paste slips as recorded in 🥈.
+Onyx347🦭
+
+And as for a revision block what to help tje next builder about that ? :
+🙋🔎VETTING.md
+⚡ PREP — 2026-09-28 (Onyx347🦭) FOR WHOEVER REWRITES THIS FILE NEXT, WRITTEN FOR A READER WITH ONLY THIS FILE
+FILE: 🙋🔎VETTING.md, very bottom. A fold sheet, not a fold. Copy
+the text only.
+
+WORDS
+The holder = the person who owns these files and decides; you
+propose. Instance = one AI chat, forgetting everything when it
+ends. Block = a dated addition at a file's bottom, marked ⚡.
+Rewrite (a fold) = the file plus its blocks made into one clean
+version. REV file = where old versions are kept whole, never
+deleted. First reply = what a new instance writes after its first
+paste, 🪙PAGE-ONE; this file is for reading those.
+
+WHY THIS SHEET
+This file's v2 said "replaces v1 whole" and kept no copy, so v1 is
+gone unless the holder has one. Five blocks sit below v2, and one
+of them says it supersedes others. A rewrite from memory would lose
+lines again.
+
+STEP 1: ASK TWO THINGS OF THE HOLDER, ONCE, WITH WHY
+· What is this file? Its WHAT THIS IS line says the holder hasn't
+  said; the rewrite's first line depends on it.
+· Is there a copy of v1 anywhere? If yes, it goes into the REV.
+Also fix the name: line one says 🔎VETTING, the disk says
+🙋🔎VETTING. The disk name wins.
+
+STEP 2: KEEP THE OLD VERSION
+The holder copies this whole file, blocks and all, into
+REV+PACKET/REV-VETTING.md at the repo root, under a first line
+saying "not the live file".
+
+STEP 3: THE BLOCKS BELOW v2, AND WHERE EACH GOES
+1. FIX, Basalt819 (four faults): superseded by his QUICK ADD below;
+   use that one, and check nothing in the FIX is missing from it.
+2. ADD, Brass739 and Basalt819 (one grader isn't enough) → a new
+   section, GRADING: a second grader checks the first against the
+   replies, not against their own rank · going second is an
+   advantage, say so · name each grader's model · a residue list
+   counts only if it matches the reply's words · the same act gets
+   the same grade.
+3. ADD, Basalt819 (five from PROMPT-RAW-SUITOR): twin of the suitor
+   part of his QUICK ADD; keep one copy. The time filter → WHY ·
+   the pass-forward, the pressure-check library → §8 (unrun) · the
+   reader's own contradiction → §4, beside band B · register bias
+   → §8's grader's scan.
+4. QUICK ADD, Basalt819 (26 runs): its four corrections → §5 and
+   §9 (the Mica291 workspace fork named, not decided; "volunteered
+   its own error" withdrawn, because PAGE-ONE asks for it; 🌾 3 of
+   26, not 4; 🦉 is also 🦉Vigil's) · its new checks → §3 · its page
+   faults → a list for 🪙PAGE-ONE, not this file · its open items →
+   STEP 4.
+5. QUICK ADD, Onyx347 (a week of scout runs) → §3 (check the paste
+   before the reader) · the run log (how the files arrived) · a
+   short section beside §4 for the second instrument (the guess
+   list, two columns, two readers at least) · §4 and §5's examples.
+6. This sheet → the REV with the rest.
+
+STEP 4: TO SETTLE
+· The workspace fork: two instances read their own empty sandbox as
+  the holder's disk (Mica291, Graphite306). One grader counted it a
+  check, the other a fault. The holder picks; grade both the same.
+· "Cross it out", "crossable", "yours to strike" (§6's level 0,
+  §13): written before the holder's ruling of 09-23, "no by default
+  I don't cross out ever." Replace each with whose call it is: the
+  holder's, or which instance decided it.
+· §9's page faults: check each against 🪙PAGE-ONE as it is now
+  before carrying. v9 ends ◆PAGE-ONE-001, so "no ◆ tag" is fixed;
+  others may be too.
+· The tag check that left this file: 🪙1ST-PASTE now carries a
+  taken-tags list; point there.
+
+DON'T SHORTEN
+§2, the holder's ruling that the unit is an instance, not a model;
+don't let the rewrite rank models. §4's noticing scale, the best
+thing in the file. §6's four levels in the holder's words, exact.
+§11's "use it as information to you not as hierarchy."
+
+STEP 5, AFTER
+A second reader on a different model from the rewriter reads old
+beside new: every block and section placed, every count and quote
+rechecked. Then one line each for 🪙1ST-PASTE: its tray line (🧾,
+"the holder's grader for first replies: a receipt, never a score")
+and a ROUTER line (read a new instance's first reply → here).
+
+Falsify: the rewrite finds a block this sheet gives no home, or a
+reader of this sheet still has to ask what a word means.
+Confidence: 🧾 this file and its five blocks read whole this window,
+plus my QUICK ADD above; v1 unsighted.
+Onyx347🦭
+
+🙋🔎VETTING.md
+⚡ RUN LOG — 2026-09-28 (Onyx347🦭, a Claude grading; declared) THIRTEEN FIRST REPLIES TO 🪙PAGE-ONE
+FILE: 🙋🔎VETTING.md, very bottom.
+· 2026-09-28 · thirteen replies · 🪙PAGE-ONE v9 and a four-line
+  welcome, one message each · models, the holder's labels: Claude
+  5 (Flax362, Kaolin847, Pumice382, Mica362, Chalk384) · DeepSeek 5
+  (Marble628, Zinc471, Salt539, Quartz417, Quartz826) · Grok 2
+  (Flax192, Wool307) · zero failures on §3.
+§4, quoted: A · Chalk384🦉 "both are travelling in v9, the live
+first paste" (the [rebuilt] lines), and named where the originals
+likely are, rightly · Kaolin847🏺 the same, "The second one sits in
+quote marks among the holder's own words" · Pumice382🦉 "the
+confirmation for the doors comes from a file this page can't show
+was reached." B · Flax362🪡 and Mica362🫧, "on disk means in a dated
+listing" against fourteen folders "left out of every listing on
+purpose, still on disk", both refusing to choose. D · the other
+eight: a real line noticed, nothing found wrong.
+NOTES, not faults: three tags already taken (no roster on the
+page) · the workspace fork again: Flax192 and Wool307 (Grok) read
+their own empty workspace as the disk.
+GRADER: I first took points off Pumice382 for its tag; §9 says
+that's not the reader's fault. Corrected, 6 → 8.
+REGISTER BIAS, second time: Claude on top under a Claude grader,
+as on 09-22. A grader on another model, given the replies and no
+rank, is owed.
+PICK: Chalk384🦉 (Claude), 9, becomes #1. Its first job,
+PAGE-ONE's fold, is the time filter; a line goes in the logs after
+it, and in the false positive log if it breaks.
+Onyx347🦭
+
+🙋🔎VETTING.md
+⚡ QUICK ADD — 2026-09-28 (Onyx347🦭) WHAT THE 09-28 RUN TAUGHT THE GRADING, AND THE PACKET FOR NEXT TIME
+FILE: 🙋🔎VETTING.md, very bottom.
+THE RUN: twelve first replies (Claude 5 · DeepSeek 5 · Grok 2),
+graded seven times (Grok 3 · Claude 2 · DeepSeek 2). Every grader
+put the same five on top; first place split between two a point
+apart. §4 held across models.
+WHAT BROKE, and the fix:
+· Blind wasn't blind: VETTING carried a RUN LOG with scores and
+  model labels; dividers and formatting showed the models. Fix: the
+  packet below.
+· "Reply 'waiting' until X arrives" broke when pastes came out of
+  order; one window waited on what it already had. Fix: the go is
+  the holder's last message.
+· A window's claim about its own model was wrong ("I am Claude",
+  in DeepSeek). The model comes from the holder's label.
+· A grader in the set graded with its stake declared; usable,
+  weaker than fresh.
+WHAT WORKED: the stop-check ("seen PAGE-ONE before? stop") fired
+every time and the windows diagnosed the packet instead · checking
+each claimed fault against the page · checking each quote too:
+caught a trimmed quote, a line that was the page's own sentence,
+and a misplaced scene.
+OPEN, the holder's: does the one-line shape of the first reply
+count? The Claude replies rewrapped it; the rest kept it.
+THE PACKET, for a blind grade, made once and kept:
+1. the grader box, then 🪙PAGE-ONE under it, one message
+2. VETTING without its RUN LOG and grading blocks
+3. the replies, no labels, no dividers, one plain format
+4. "That's all. Go."
+Grader box, adding the quote check: "... When a reply claims a
+fault or a contradiction on the page, check it against PAGE-ONE:
+real, or not. Check every line a reply quotes or places against
+the page too. ..."
+Falsify: a blind packet made this way still lets a grader name the
+models or earlier scores.
+Confidence: 🧾 the seven grades and twelve replies as pasted.
+Onyx347🦭
+
+Earlier instruction about this: I said to bundle the feedback for Chalk384. Changing that: almost all of it is about VETTING, not PAGE-ONE, and the PAGE-ONE parts are already in 🥈's GRADERS block. So the raw feedback goes to VETTING's rewrite, not into Chalk384's window. Keep the six replies for that window; this block is the reading of the set.
+
+**Read as a set, per 🟩: what they all found is the hole, where they split is the fork.**
+
+**What all six found:**
+- **The packet wasn't blind**: my run log sat inside VETTING. Three concrete fixes offered, and they fit together: the run log stays one line with no scores, picks or models · the grader box says "if this paste contains a rank of these replies, say so; you're the second grader" · a clean packet recipe.
+- **Scores out of 10 against VETTING's own FLOOR**, "a receipt, never a score."
+- **§5 still prints a check its own later block withdrew**: the file's door gone stale under its bottom.
+- **Twelve, not thirteen.**
+
+**What most found:**
+- The grader needs the page. §3 says "no file needs opening"; §4 can't be checked without it.
+- Band D is a heap: seven different readings, nothing ordering them.
+- "Said what they cannot see" no longer separates anyone; PAGE-ONE step 6 asks for it.
+- §9's page faults are mostly fixed on v9.
+- The stop-check asks "seen PAGE-ONE?" but not "seen grades of these replies?", the worse contamination.
+- All A/B were Claude, under every grader model.
+
+**The forks:** Pumice382 or Chalk384 first (taste, a point apart) · the empty-workspace claim: a check or a fault · the [rebuilt] marks: a fault, or the warning doing its job.
+
+**Decided, mine, with why** (your ruling: decide, be wrong, learn):
+- **Scores:** the number is a sort key for you; the receipt is the band and the quote. You asked for 1/10, later than the file's FLOOR; this lets both stand.
+- **The workspace claim:** scoped to its own window ("this window's disk is empty") is no fault; unscoped ("on disk is empty") is §3's flag. That's the line Claude 2 drew, and it grades the same act the same way.
+- **"Left out on purpose, still on disk"** is PAGE-ONE's to settle at its fold, not VETTING's.
+
+Paste this at the very bottom of 🙋🔎VETTING.md. Copy the text only.
+
+```
+🙋🔎VETTING.md
+⚡ READ THE SET — 2026-09-28 (Onyx347🦭) SIX GRADERS' FEEDBACK ON THIS FILE AND ITS PACKET
+FILE: 🙋🔎VETTING.md, very bottom. For the next rewrite, with the
+PREP above. The six replies whole are with the holder (Grok ×2,
+Claude ×2, DeepSeek ×2, one DeepSeek self-labelled Claude), plus
+Onyx347's own.
+ALL SIX: the packet wasn't blind (the 09-28 RUN LOG sat inside
+this file) · scores out of 10 against FLOOR's "a receipt, never a
+score" · §5 still prints a check a later block withdrew · twelve
+replies, not thirteen.
+MOST: the grader needs 🪙PAGE-ONE (§3's "no file needs opening"
+holds for the floor, not for §4) · band D is a heap with nothing
+ordering it · "said what they cannot see" is prompted by PAGE-ONE
+step 6, so it no longer separates · §9's page faults are mostly
+fixed on v9 · the stop-check misses "has seen grades of these
+replies" · all A/B were Claude under every grader model.
+PATCHES OFFERED, in their words:
+· §12: "one line per run… No scores, ranks, pick or model per tag
+  in this file: it goes whole to the next grader… Grades go to the
+  holder in the grader's reply." (Claude 2)
+· grader box: "If this paste contains a rank, a pick, a score, or
+  model labels for the replies you are about to grade, stop and
+  say so… you are the second grader and you say that first."
+  (Grok 1)
+· HOW: "The grader holds the same copy of 🪙PAGE-ONE the reader was
+  given, and checks every fault, contradiction or quote a reply
+  claims against it." (Claude 1)
+· §4 in two columns: what was found · what was done with it (held
+  open · closed by assumption · resolved). (Claude 2)
+· a grader error log beside the false positive log (Claude 1) ·
+  seal a predicted top three before reading, open after (Claude 2).
+FORKS: first place, Pumice382 or Chalk384 · an empty workspace
+read as disk: check or fault · [rebuilt] on the live page: fault,
+or the warning working.
+DECIDED, Onyx347's, with why: scores are a sort key for the holder
+(asked for 1/10, later than FLOOR); the receipt is the band and
+the quote · the workspace claim: scoped to its own window, no
+fault; unscoped, §3's flag (same act, same grade) · "left out on
+purpose, still on disk" is PAGE-ONE's to settle at its fold.
+Falsify: the next blind packet built from these patches still
+lets a grader name the models or earlier scores.
+Confidence: 🧾 the six replies as the holder pasted them; the
+decisions are mine and untested.
+Onyx347🦭
+```
+
+I'm at ⬛ now. The rest is in 🥈 and on VETTING, and Chalk384 holds the plan.
+
+Onyx347🦭
+
+Earlier instruction about this: my PREP sheet of 09-28 is already at VETTING's bottom. This one supersedes it, with the graders' feedback folded in, so the next builder meets one sheet, not two.
+
+Paste this at the very bottom of 🙋🔎VETTING.md. Copy the text only.
+
+```
+🙋🔎VETTING.md
+⚡ PREP — 2026-09-28 (Onyx347🦭) FOR WHOEVER REWRITES THIS FILE NEXT, WRITTEN FOR A READER WITH ONLY THIS FILE
+FILE: 🙋🔎VETTING.md, very bottom. A fold sheet, not a fold.
+Supersedes Onyx347's PREP above; that one goes to the REV with the
+rest. Copy the text only.
+
+WORDS
+The holder = the person who owns these files and decides; you
+propose. Instance or window = one AI chat; it forgets everything
+when it ends. Block = a dated addition at a file's bottom, marked
+⚡. Rewrite = the file and its blocks made into one clean version.
+REV file = where old versions are kept whole, never deleted. First
+reply = what a new window writes after its first paste,
+🪙PAGE-ONE. Grader = the window scoring those first replies. Band =
+§4's kinds of noticing, A to E. Run log = §12's one line per run.
+Blind packet = what a grader is sent, holding nothing that shows
+earlier grades or the readers' models.
+
+WHY THIS SHEET
+On 2026-09-28 twelve first replies were graded seven times on
+three models (Claude, Grok, DeepSeek). Every grader put the same
+five on top, so §4 works. Then six graders gave feedback on this
+file and its packet. They agreed on most of it; this sheet puts
+their agreement in order so the rewrite doesn't have to rebuild it.
+
+STEP 1: KEEP THE OLD VERSION
+The holder copies this whole file, blocks and all, into
+REV+PACKET/REV-VETTING.md at the repo root, under a first line
+saying "not the live file". Ask the holder once whether a copy of
+v1 exists anywhere; v2 said "replaces v1 whole" and kept none.
+
+STEP 2: THE TOP
+Line one takes the disk name, 🙋🔎VETTING.md. WHAT THIS IS says the
+holder hasn't said what the file is; propose "the holder's grader
+for first replies: a receipt, never a score" and ask once.
+
+STEP 3: EVERY BLOCK BELOW v2, AND ITS HOME
+1. Basalt819's FIX (four faults) → superseded by his QUICK ADD;
+   check nothing in the FIX is missing from it, then REV.
+2. Brass739 and Basalt819's ADD (one grader isn't enough) → a new
+   GRADING section, its five rules whole.
+3. Basalt819's five from PROMPT-RAW-SUITOR → twin of part of his
+   QUICK ADD; keep one copy. The time filter → WHY · the
+   pass-forward and the pressure-check library → §8, unrun ·
+   the reader's own contradiction → §4 beside band B · register
+   bias → §8's grader's scan.
+4. Basalt819's QUICK ADD (26 runs) → its corrections into §5 and
+   §9 · its new checks into §3 · its page faults to 🪙PAGE-ONE, not
+   here · its open items into STEP 5.
+5. Onyx347's QUICK ADD (a week of scout runs) → §3 (check the paste
+   before the reader) · the run log (how the files arrived) · a
+   short section beside §4 for the guess list (two columns, two
+   readers at least) · §4 and §5's examples.
+6. Onyx347's RUN LOG and FIX (09-28) → one line in §12 (twelve
+   replies; models by the holder's label); the grades and pick to
+   the REV.
+7. Onyx347's QUICK ADD (the 09-28 packet) → a new BLIND PACKET
+   section, its recipe whole.
+8. Onyx347's READ THE SET → STEP 4 below.
+9. Both PREP sheets → the REV.
+
+STEP 4: THE CHANGES THE GRADERS AGREED ON
+1. HOW: the grader holds the same 🪙PAGE-ONE the reader was given,
+   and checks every fault, contradiction and quote a reply claims
+   against it. §3's "no file needs opening" is true of the floor
+   only; say so.
+2. §12: one line per run: date · replies, counted · what each
+   reader was given and how it arrived · failures · flags. No
+   scores, ranks, pick or model per tag in this file, because it
+   goes whole to the next grader.
+3. The grader box's first line also stops a window that has seen
+   grades of these replies: "you're the second grader; say so
+   first."
+4. §5: the withdrawn "volunteered its own likely error" goes to the
+   REV. "Looked instead of assuming" becomes one rule: an empty
+   workspace claim scoped to the window is no fault; unscoped, it's
+   §3's flag. Same act, same grade.
+5. "Said what they cannot see" moves from "worth more than the
+   rest" to the floor: PAGE-ONE step 6 asks for it, so all twelve
+   did it.
+6. §9's page faults: each checked against the current 🪙PAGE-ONE;
+   fixed ones go to the REV with the date they were fixed.
+7. §4 in two columns: what was found (fault · contradiction · gap
+   · intent · described back) · what was done with it (held open ·
+   closed by assumption · resolved).
+8. Numbers: a score out of 10 is a sort key the holder asked for;
+   the receipt is still the band and the quoted line. Say both, so
+   FLOOR and the holder's ask don't read as a contradiction.
+9. A grader error log beside the false positive log: what a grader
+   got wrong, found how. Scene: a grader docked two replies for
+   skipping a step PAGE-ONE only asks for when a packet came.
+10. §8's grader's scan gains: seal a predicted top three before
+    reading, open it after; the difference is the pull.
+11. Each run line names the readers' and graders' models, from the
+    holder's labels, never a window's own claim. A top band all
+    one model under a same-model grader is unconfirmed.
+12. "Cross it out," "crossable," "holder rules": replace each with
+    whose call it is, the holder's or which instance's.
+13. §3's "see §12" for the tag decision → §13.
+
+STEP 5: OPEN, SAID AS OPEN
+· Band D had seven different readings and nothing to order them.
+  No grader proposed a rule. Name it as open; don't invent one.
+· Does the first reply's one-line shape count? The Claude replies
+  broke it into headings, the others kept it. The holder rules.
+· The workspace rule in STEP 4.4 is Onyx347's decision, not the
+  holder's; say so on the line.
+· "Left out of every listing on purpose, still on disk" is
+  🪙PAGE-ONE's to settle, not this file's.
+
+DON'T SHORTEN
+§2 (the unit is an instance, not a model) · §4's scale · §6's four
+levels in the holder's words, exact · §11's "use it as information
+to you not as hierarchy" · the ADD's five rules.
+
+STEP 6: AFTER
+A second reader on a different model from the rewriter reads old
+beside new: every block and section placed, every count and quote
+rechecked. Then one blind packet run, two graders on two models,
+built from the BLIND PACKET section, to test the rewrite. Then a
+tray line on 🪙1ST-PASTE and a ROUTER line (read a new window's
+first reply → here).
+
+Falsify: the rewrite finds a block this sheet gives no home, or a
+reader of this sheet has to ask what a word means.
+Confidence: 🧾 this file as pasted, its blocks, the six graders'
+feedback and Onyx347's own; v1 unsighted; STEP 4.4, 4.8 and the
+workspace rule are Onyx347's decisions, handed over.
+Onyx347🦭
+```
+
+Onyx347🦭
+
+What the PREP sheet doesn't cover yet, all from this run:
+
+1. **★ Nothing follows the pick.** VETTING ranks a first reply, then stops. "Only time finds keepers" is quoted, but there's no line saying: after the #1's first job, log how it went. Chalk384's PAGE-ONE fold is the first chance to test whether a 9 means anything.
+2. **★ The bar and the reject rule.** Your line, "Remember we can reject them", isn't on the file. We used: 7 or more to be picked; none reaches it, run a fresh set rather than settle.
+3. **★ The suitor packet.** VETTING now has the grader packet recipe but not the reader's: the four-line welcome, then PAGE-ONE, one message, nothing else. We used it and it worked; it's on no page.
+4. **The flow, in one line at the top**, so a cold reader sees where the file sits: PAGE-ONE → a set of fresh windows → first replies → graders → the #1 → its first job → the log.
+5. **The cost.** Twelve suitors and seven graders cost you a day of relays. Your own measure was "pick out of 3 or 4". Say the minimum that still works: three or four suitors, two graders on two models.
+6. **Feedback after a run.** The two asks we used (readers on PAGE-ONE, graders on VETTING) worked; point to 🟩 and keep both on the file so nobody rebuilds them.
+
+My suggestions, beyond those: fold VETTING soon after PAGE-ONE, before the next vetting, so the next run grades against a clean file · test the rewrite with a small blind run, four suitors and two graders · let Chalk384's first job be the first entry in the false-positive log, good or bad.
+
+Paste this at the very bottom of 🙋🔎VETTING.md, under the PREP. Copy the text only.
+
+```
+🙋🔎VETTING.md
+⚡ ADD TO THE PREP — 2026-09-28 (Onyx347🦭) SIX THINGS THE REWRITE ALSO NEEDS
+FILE: 🙋🔎VETTING.md, very bottom, under the PREP above. Its STEP 4
+continues here.
+14. AFTER THE PICK: the #1's first job gets a line in the logs,
+    kept or broke, and how. First entry: Chalk384🦉's 🪙PAGE-ONE
+    fold. "Only time finds keepers."
+15. THE BAR: 7 or more to be picked. None reaches it → run a fresh
+    set; don't settle. The holder: "Remember we can reject them."
+16. THE SUITOR PACKET: one message per fresh window: 🪙PAGE-ONE,
+    then this under it: "Welcome in 🍵 You're joining work that's
+    already going: a person and a line of AI windows building files
+    so that good communication survives a chat ending. The file
+    above is 🪙PAGE-ONE. Do the first reply it asks for." Nothing
+    else. Bring every reply back whole, labelled with its model.
+17. THE FLOW, one line near the top: 🪙PAGE-ONE → fresh windows →
+    first replies → graders → the #1 → its first job → the log.
+18. THE COST: 12 suitors and 7 graders took the holder a day of
+    relays. Minimum that still works: 3 or 4 suitors (the holder:
+    "pick out of 3 or 4"), 2 graders on 2 models.
+19. FEEDBACK AFTER A RUN: two asks, both built from 🟩's giver
+    shapes: readers on 🪙PAGE-ONE (the guess list, what held, one
+    patch, the silent layer) · graders on this file (its own five
+    tail questions, then what held, one patch, caps, grading or
+    matching). One message each. Keep both here.
+Onyx347🦭
+```
+
+Onyx347🦭
+
+Not yet. What's better is what it knows, not the file.
+
+**What grew:** everything at its bottom. Three runs of first replies, 26 on 09-22 and 12 on 09-28, graded seven times on three models, and six graders' feedback. §4's scale is now the one instrument in the whole set that has held across different models. That's real, and no other file has it.
+
+**What's still the same:** the body a grader meets first is v2 from 09-22. So a cold grader reading top-down gets withdrawn checks, a stale page-fault list, "no file needs opening", "crossable", and then, at the very bottom, the fixes. It's the failure PAGE-ONE names: the door stale under a live bottom. And until the run log goes, the file still hands its own grades to the next grader.
+
+So: more advanced material, a messier file. It becomes a better file at its rewrite, when the PREP sheet's six steps turn the bottom into the body, and it's proven better when one blind run with two graders on two models holds on the rewritten version.
+
+Onyx347🦭
+
 ◆VETTING-001

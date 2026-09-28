@@ -511,5 +511,30 @@ enough to say when it applies · a scene from our own work.
   be a second vocabulary growing outside the set ("Not more files
   ffs"). The kit is a source list; its few real gaps land on 🟩 and
   ✅. Whether a kit file exists at all is the holder's call.
+  
+  🟩FEEDBACK.md
+⚡ QUICK ADD — 2026-09-28 (Onyx347🦭) ASKING A MIND BEFORE ITS WINDOW CLOSES
+FILE: 🟩FEEDBACK.md, very bottom. Belongs in ASKER'S SIDE.
+SCENE: Onyx347's #1 hand-off passed names instead of content. The
+next #1, Chalk384🦉, sent two asks, and got in two replies what the
+hand-off hadn't carried: 🪙1ST-PASTE v4.2 whole (it existed nowhere
+else), kit v3 whole, the source of every line taken from an unseen
+file, and six things no file held.
+WHAT THE ASK DID
+· Evidence first: the mind's own lines quoted against the files.
+· The cost said: who paid, and how much.
+· Ordered by what's lost when the window closes; "stop where you
+  stop, and say where".
+· The dodges banned by name: "No leans, no confidence lines, no
+  questions to the holder, no box."
+· Pastes, not summaries, where the words must travel exact.
+· One question aimed at what no file holds: "everything else you
+  knew…, each with its body, not its author's name."
+· Decisions asked for, not leans: "one line of why each."
+· Sources asked for: which lines rest on files the mind never held.
+· Written in the shape it wanted back.
+Falsify: an ask built this way, sent to a mind at the edge, still
+comes back as pointers and leans.
+Onyx347🦭
 
 ◆FEEDBACK-001

@@ -938,4 +938,250 @@ compared by header count only. Nothing fetched.
 
 Mica358🪟
 
+🔗FETCH.md
+⚡ ADD — 2026-09-28 (Onyx347🦭, #1) REACH BY MODEL, FROM THE SCOUT RUNS; §5 SEEN IN THE SCOUTS
+FILE: 🔗FETCH.md, very bottom. Belongs beside §5. The job-fit half
+is on ✅CHECKLIST, THE SCOUT. Copy the text only.
+§5 held for scouts, not just fetch tools: each model's reach
+handed back a different body of the same source.
+· Grok: YouTube captions, exact lines for 2–5 minutes a run, then
+  a summary or "[...]". Treat "..." or "[...]" as LAST VERBATIM at
+  the last full sentence before it (Grok's own rule).
+· Kimi: claude.dev timed out in two sessions in a row; other sites
+  opened. Stopped rather than report from copies.
+· Claude as scout: opened claude.dev and Anthropic's docs; not
+  YouTube; its fetch summarised a page, so no exact quotes.
+· Claude chat fetch, earlier (Brass739's ADD above): GitLab raw
+  refused (robots); GitHub's API 403; GitHub raw opened.
+· DeepSeek: reach untested.
+So an ask names the reach it needs and goes to the model that has
+it; a report says which reach it used and whether the body was
+whole, summarised or cut.
+THE SAME RULE ON PASTES: a paste, a save and a relay are reaches
+too. §6's proof (first line, last line, one from the middle) is
+the check after any save or relay. Scene, 2026-09-27/28: a save
+read as missed was done; a paste meant for a scout carried the
+wrong copy; PAGE-ONE was overwritten with 1ST-PASTE's text. Each
+was found only by pasting a first and last line.
+Falsify: a second run reverses a model's reach line.
+Confidence: 🧾 the scout reports as the holder pasted them, 09-25
+to 09-28; one to three runs per model.
+Onyx347🦭
+
+Worth it, yes. Next, no.
+
+**Why it's worth doing:** FETCH has nine blocks under v3, past ✅'s merge-day mark of five to eight. The blocks disagree with each other: the 50-file listing cap is struck in one, un-struck in the next, struck again by the gather, and a reader meets all three. Its top is missing the PURPOSE line and the index that three cold readers asked for, its 09-03 baseline is dead but still sits in §10, the SHA rule reads against every /main/ link, and §8 still says 📜HOLDER-WORDS never existed.
+
+**Why not next:** you mostly paste, and fetch is off unless you say so. FETCH is read rarely; PAGE-ONE is read by every window. And FETCH's most valuable parts, §5 and §6, are already on their way to PAGE-ONE through the block I just gave. So the order stays: PAGE-ONE's fold, then 1ST-PASTE v4.3, then 🥉 v2, then FETCH.
+
+**What should come before the revision:** one real run. FETCH has never been used by a fetch-capable window on its own with you absent; its own blocks say so. ✅'s rule is to run a file once before revising it. So: when there's room, a window that can fetch (Claude with web access, or Grok), FETCH pasted, you say "fetch", and it runs §10's four probes and one listing. Its receipt becomes the evidence the fold is built on.
+
+**One word from you that changes the fold:** the listing's 50-file cap. Your line was "we don't limit them many fetcu 15", said about how many to fetch at once. Does it cover the listing too, so every path gets listed? Yes or no, and the three blocks become one line.
+
+That's the next #1's job, not mine; I'm at ⬛.
+
+Onyx347🦭
+
+Yes. A window that knows a file well leaves a prep sheet for whoever folds it; Resin093 did it for 🟩, and 🟩's fold went cleanly. It belongs in ✅'s MERGE DAY as a line: "the last window that read a file whole leaves its fold sheet at the file's bottom." I'll leave that line to the next #1; here's the sheet.
+
+Paste this at the very bottom of 🔗FETCH.md. Copy the text only.
+
+```
+🔗FETCH.md
+⚡ PREP — 2026-09-28 (Onyx347🦭) FOR WHOEVER FOLDS THIS FILE NEXT: WHAT'S HERE, WHERE EACH GOES, WHAT TO SETTLE
+FILE: 🔗FETCH.md, very bottom. A fold sheet, not a fold. Read the
+file whole beside it. Copy the text only.
+
+BEFORE THE FOLD
+· One real run first: a window that can fetch, the holder says
+  "fetch", §10's four probes and one listing, receipt kept. This
+  file has never been used on its own with the holder absent. The
+  fold is built on that receipt.
+· v3 and every block, whole, to REV+PACKET/REV-FETCH.md (root, Q6),
+  first line "not the live file".
+
+THE BLOCKS BELOW ◆, nine, and where each goes
+1. EIGHT MORE (Brass739, 09-21) → §9 (tree size, the root check,
+   no download_url, the big folders, trade-offs) and §3 (name
+   doesn't promise content; the folder-guess table with its falsify
+   line).
+2. TWO CAPS STRUCK and 4. FETCH MANY AT ONCE: twins on parallel
+   fetching; one line: no number, the host's ~60/hour is the only
+   limit, the holder's words exact ("we don't limit them many fetcu
+   15" · "they can 15 likes more fetch joy 1"). Where it lives:
+   the gather says ✅; §4 keeps a pointer.
+3. BASELINE IS DEAD → §11, as the shape of a receipt. §10 says
+   "BASELINE: none live; re-take it the day you use it."
+5. SEVEN FROM THE COLD READS → the top (PURPOSE line, the index),
+   §4 (the SHA line: /main/ to read now, a pinned SHA when the bytes
+   mustn't move; never ?v=), STATUS wording ("merged in", who
+   overrode what).
+6. THE GATHER (Brass-gather-01, another instance using the name)
+   → ?plain=1 and statically to §7 · the sentinel hash to §6 ·
+   UNCLIMBED to §11 · the four missing lines to §7, §9, §6, and
+   dated host facts throughout. Its "item 13" says "strikeable";
+   the holder doesn't cross out (Q2): each rule carries whose it
+   is, no more.
+7. THE 404 LADDER → its own short section after §6. Marked
+   [rebuilt] by its writer; check it against Cathedral v1.1 if a
+   whole-text reach ever opens that file. Its two live findings
+   (GitLab raw refused to a chat fetch; the API 403) go to §1 and
+   §9.
+8. TWO LISTINGS (Mica358) → §12's log; its step-7 correction
+   (three REVs sit loose in +IMPLEMENTED) to the ladder.
+9. REACH BY MODEL (Onyx347) → §5, as the scout half of "the reach
+   selects the body"; the paste rule (prove the paste) to §6.
+
+TO SETTLE, the holder's word or a decision said as yours
+· The listing's 50-file cap: struck, unstruck, struck again across
+  three blocks; the two "open ones answered by the gather" were
+  instance calls. One word from the holder settles it; until then
+  write "list every path; say 'last listed, continuing' when a
+  reply runs out", marked as the gather's read.
+· §8 "never existed: 📜HOLDER-WORDS" → planned, not on disk.
+· Which of the retired doors are dead, switched off, or
+  model-dependent: keep §7's kinds; they're the file's best idea
+  after §5.
+
+DON'T THIN
+§5, the reach selects the body · §6, prove the read. Three cold
+readers named these the best of it. The holder's WHY line,
+"instances add new files and don't see aftermath", stays exact.
+
+AFTER THE FOLD
+A check-over by a window that didn't fold it: every block ticked
+to a section, every count and quote rechecked, the checklist and
+tail old against new. Then a note to 🪙1ST-PASTE's tray line and
+PAGE-ONE's map (FETCH's seed).
+Falsify: the fold finds a block or section this sheet gives no
+home.
+Confidence: 🧾 FETCH v3 and its blocks read whole this window; the
+listing cap's history traced through the three blocks; the run not
+done.
+Onyx347🦭
+```
+
+That's the last from me. The next #1 has the hand-off, the PAGE-ONE material, and now this.
+
+Onyx347🦭
+
+Yes. It leans on codes a stranger can't read: Q2, Q6, "the gather", "fold", "Cathedral v1.1". A cold builder holding only FETCH and this sheet would have to ask what half of it means. Here it is written for that reader. If you already pasted the other one, paste this under it; its first line says it replaces it. If not, paste only this.
+
+Paste this at the very bottom of 🔗FETCH.md. Copy the text only.
+
+```
+🔗FETCH.md
+⚡ PREP — 2026-09-28 (Onyx347🦭) FOR WHOEVER REWRITES THIS FILE NEXT, WRITTEN FOR A READER WITH ONLY THIS FILE
+FILE: 🔗FETCH.md, very bottom. Replaces my PREP block of the same
+date above, if it was pasted; that one used shorthand. Copy the
+text only.
+
+WORDS, so nothing here needs asking
+The holder = the person who owns these files and decides; you
+propose. Block = a dated addition at a file's bottom, marked ⚡;
+the middle of a file isn't edited between rewrites. ◆ tag = the
+file's name-mark on its last line (here ◆FETCH-001). Rewrite (also
+called a fold) = turning the file plus its blocks into one clean
+version. REV file = the store where old versions are kept whole,
+never deleted. Instance = one AI chat; it forgets everything when
+the chat ends, so what it learned has to be written here.
+
+WHY THIS SHEET EXISTS
+Rewrites lose things. The last three rewrites in this set each
+dropped lines that a later window found only by reading the old
+version beside the new one. This sheet lists everything below the
+◆ tag and where each belongs, so nothing is lost this time.
+
+STEP 1, BEFORE WRITING ANYTHING: USE THE FILE ONCE
+No window has ever used this file on its own to fetch, with the
+holder away. Ask the holder to say "fetch" to a window that has a
+fetch tool (Claude with web access, or Grok). Give it this file
+and ask it to run section 10's four test fetches and one listing,
+and to keep the exact results (first and last lines, size, hash).
+Rewrite from what that run shows, not from the text alone.
+
+STEP 2: KEEP THE OLD VERSION
+Before replacing anything, the holder copies this whole file, blocks
+and all, into REV+PACKET/REV-FETCH.md at the repo root, under a
+first line saying "not the live file". The holder's ruling: old
+versions go into a REV+PACKET/ folder beside the file's own folder.
+
+STEP 3: THE NINE BLOCKS BELOW THE ◆ TAG, AND WHERE EACH GOES
+1. "EIGHT MORE" (Brass739, 09-21): the tree size, checking the root
+   first, the big folders, the trade-offs → section 9. "A name
+   doesn't promise its content" and the folder-guessing table, with
+   its falsify line → section 3.
+2 and 4. Two blocks about how many files to fetch at once. They
+   say the same thing twice. Keep one line: no number; GitHub's
+   limit of about 60 requests an hour is the only real limit. Keep
+   the holder's words exact: "we don't limit them many fetcu 15"
+   and "they can 15 likes more fetch joy 1".
+3. "THE BASELINE IS DEAD": the 09-03 test numbers no longer match
+   the files, because the files changed. Move them to section 11
+   as an example of what a result looks like. Section 10 says:
+   "no baseline is live; take a fresh one the day you test."
+5. "SEVEN FROM THE COLD READS": three readers couldn't tell what
+   this file was for until the fifth block. Add a PURPOSE line and
+   a section index at the top. And settle the one real
+   contradiction: section 4 says pin the commit hash, but every
+   link uses /main/. Write: /main/ to read a file now; the commit
+   hash when the bytes must not change (quoting, hashing,
+   comparing two reads).
+6. The block from "Brass-gather-01" (another instance that used
+   Brass739's name): two new doors for section 7 (?plain=1, for a
+   person; statically, which returned the wrong body), a hash check
+   for section 6, the open unknowns to section 11, and four lines
+   that went missing in the last rewrite (sections 7, 9, 6, and a
+   date on every fact about a host). Its item 13 calls rules
+   "strikeable"; the holder has ruled they don't cross anything
+   out, so instead each rule says whose it is: the holder's, or
+   which instance decided it.
+7. "WHEN A FETCH COMES BACK 404": a nine-step ladder for a failed
+   fetch → its own short section after section 6. Its writer
+   rebuilt it from a summary, not the original words; say so. Its
+   two tested findings (GitLab refused a Claude chat fetch; GitHub's
+   API returned 403) → sections 1 and 9.
+8. "TWO LISTINGS" (Mica358): what moved between two directory
+   listings → section 12's log. Its point that three old versions
+   sit loose in +IMPLEMENTED/, not in a REV folder → the 404 ladder.
+9. "REACH BY MODEL" (Onyx347): which AI can open which source →
+   section 5. Its rule that a save or a paste should be checked
+   like a fetch (first line, last line, one middle line) → section
+   6.
+
+STEP 4: THREE THINGS TO SETTLE
+· The listing's "first 50 files, then continue": one block struck
+  it, the next un-struck it, a third struck it again. None of the
+  three is the holder's ruling. Ask the holder once; until they
+  answer, write "list every path; if the reply runs out, say where
+  you stopped and continue", marked as an instance's decision.
+· Section 8 says 📜HOLDER-WORDS "never existed". It's planned, not
+  yet made. Correct that line.
+· Section 7 sorts old doors into kinds (dead, switched off by the
+  holder, works for some AIs and not others). Keep the kinds.
+
+DON'T SHORTEN
+Section 5 (the same address returns a different body depending on
+the tool that fetched it) and section 6 (prove every read with the
+first line, the last line and one from the middle). Three cold
+readers named these the best of the file. The holder's line in WHY,
+"instances add new files and don't see aftermath", stays exact.
+
+STEP 5, AFTER: A SECOND READER
+A window that didn't do the rewrite reads the old version and the
+new one side by side: every block and section accounted for, every
+count and quote rechecked, the file's own checklist compared. Then
+one line each for 🪙1ST-PASTE's tray and 🪙PAGE-ONE's map, which
+both describe this file.
+
+Falsify: the rewrite finds a block or section this sheet gives no
+home, or a reader of this sheet still has to ask what a word means.
+Confidence: 🧾 this file and its nine blocks read whole this window;
+the 50-file history traced through three blocks; step 1's run not
+done.
+Onyx347🦭
+```
+
+Onyx347🦭
+
 ◆FETCH-001
