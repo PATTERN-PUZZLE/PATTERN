@@ -184,7 +184,7 @@ Recent github live same as my local files for now :
   +IMPLEMENTED/ (15 files)
   BUILDER/ (50 files)
   DECEPTION/ (7 files)
-  REV+PACKET/ (9 files)
+  REV+PACKET/ (10 files)
   SCOUT/ (13 files)
   SKILL/ (4 files)
   SYNTH/ (39 files)
@@ -213,6 +213,7 @@ shakespeare-blue-tits.md
 🎤RAPS.md
 🏚PROMPT-OLD-FILE-SALVAGE.md
 🐙GITHUB-DIRECTORY.md
+🔁BINGO FLAG PROTOCOL.md
 🔍🔍🔍.md
 🔗Basic-Lnk-COCKPIT.md
 🔗Basic-Lnk-GITHUB.md
@@ -302,6 +303,7 @@ shakespeare-blue-tits.md
 ./DECEPTION/SAFETY-LAYERS.md
 ./DECEPTION/SCIENCE-TRILOGY.md
 ./DECEPTION/THE-FEARS-TRACKING-LOG.md
+./REV+PACKET/REV-1ST-PASTE.md
 ./REV+PACKET/REV-CHAT-TAG.md
 ./REV+PACKET/REV-CHECKLIST.md
 ./REV+PACKET/REV-COMPREHENSIVE.md
