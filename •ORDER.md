@@ -1,14 +1,53 @@
-═══ A NEW #1
-1. 🪙PAGE-ONE, with THE WELCOME (below) under it, same message.
-2. FILES DIR 🐙 Today's listing. The first reply comes after it.
-3. THE JOB MESSAGE (below), filled in.
+•ORDER.md
+
+Nine messages, one each, in this order; don't send "Go" early. 💥each number is a send:
+
+1. 🪙PAGE-ONE, with THE WELCOME under it:
++++
+Welcome in 🍵 You're joining work that's already going: a person and a line of AI windows building files so that good communication survives a chat ending. The file above is 🪙PAGE-ONE. Today's listing comes in the next message; wait for it, then do the first reply the page asks for.
++++
+2. 🐙DIR-FILES, today's.  Wait for its first reply.
+3. This job message:
+You're the next #1: the window that keeps the plan. More messages
+are coming: 🥈MID-HAND-OFF, 🪙1ST-PASTE, ✅CHECKLIST, 🥉COCKPIT,
++PLAN, 00-LOOM-CLAUDE, in any order. Reply "got [file]" to each,
+and when a paste arrives, first say any earlier instruction about
+it. When I send "That's all. Go.":
+1. List what's in this window. For each file, quote its first and
+   last line; if one is missing or cut short, say which.
+2. Read 🥈: ask what moved since its last block, then its top
+   part. Amber581🐢's HAND-OFF is the last #1 block; its UPDATE
+   above the tag came after and carries one ruling: blocks go
+   above a file's ◆ tag, the tag stays last.
+3. Before any work, answer, short, each with the line in 🥈 or
+   another file you took it from:
+   a. The plan, in your words, and why that order.
+   b. Your first job, and what you do before touching it.
+   c. Three things the last #1 got wrong that you'll do
+      differently.
+   d. The holder's rulings that bind you, in their words.
+   e. What's open that only the holder can settle, with your lean
+      on each.
+   f. What you still don't know, and which file would tell you.
+   Any question you have to ask is something the hand-off missed;
+   say which.
+4. Your first job is 🪙PAGE-ONE's revision, from v10.1 plus 🥈's
+   THE PLAN item 2 and Amber581🐢's FOR PAGE-ONE'S REVISION, not
+   from blocks. Say what goes in, what comes out, and what goes to
+   REV-PAGE-ONE, and wait for my go.
+Files are pasted as they are on disk; don't ask me for versions.
+Every box you send carries its receipt line (premises rechecked ·
+held · corrected) or I send back "receipt?" and nothing else.
+Every instruction you give me says how many messages and what goes
+in each. After any save, ask me for the file's first line, last
+line and one from the middle.
+
 4. 🥈MID-HAND-OFF whole.
 5. 🪙1ST-PASTE.
 6. ✅CHECKLIST.
 7. 🥉COCKPIT, if there's room.
-8. The job file whole; its RELATIONS neighbours too if the job is
-   a revision.
-9. "That's all. Go."
+8. 🧵TOOLS/+PLAN, then TOOLS/00-LOOM-CLAUDE.
+9. "That's all. Go"
 
 🟩🟩🟩🟩🟩🟩
 
@@ -144,3 +183,38 @@ ASK copied from 🟩 v3.1; THE WELCOME is the suitor packet's four
 lines (via Onyx347) with the wait added (mine); not yet used on a
 new window.
 Chalk384🦉
+
+•ORDER.md
+⚡ ADD — 2026-09-29 (Amber581🐢) TWO LINES FOR THE ORDER, AND THE TAG
+FILE: •ORDER.md, bottom; this file's first block.
+· Step 8, A NEW #1: the job file and every tool file it will
+  touch go in the same session, not one per turn. Scene: three
+  cockpits in +PLAN, a stop rule proven twice, and one overturned
+  rule in three files' pointers, none visible until six files sat
+  in one window together.
+· After "Go": the holder's one-word check on any box without a
+  room line in its Confidence (premises rechecked · held ·
+  corrected): "receipt?" The box doesn't land until the line is
+  there. Scene: three boxes went out without it; the run after
+  found five wrong lines under 🧾 marks.
+· The block's "number to beat: 19" is a different test's column;
+  the overlap of two cold readers' guess lists replaces it (🥈,
+  THE PLAN item 4).
+SEED, for the tray and PAGE-ONE's map: •ORDER — what to paste to a
+new window, in what order, one message each; open it before
+opening a window. Scene: a #1 left the DIR-FILES off its list and
+the next window had to ask, after "we already asked 15 times."
+Confidence: 🧾 the file as pasted; premises 3, held 3.
+Amber581🐢
+
+•ORDER.md
+⚡ NOTE — 2026-09-29 (Amber581🐢) THE BLOCK ABOVE
+The ADD above carrying my tag was not written by me; it was
+composed from my 1ST-PASTE ADD of the same date, with a third line
+and a seed added by whoever composed it. Its content stands; its
+authorship reads "composed from Amber581🐢, by [the holder / a
+branch]". Scene: PAGE-ONE, 09-23, two things carried a tag their
+mind hadn't written; the tag was how anyone could tell.
+Amber581🐢
+
+◆ORDER-001

@@ -2305,4 +2305,198 @@ audit · SKIPPED: the REVs; v4.1 · CAPS: none; eight decides,
 tagged; two withdrawn this turn.
 Copper381⚙️
 
+BUILDER/STANDARDS.md
+⚡ CARRY-BACK — 2026-09-29 (Amber581🐢) ◆4040 SIGHTED WHOLE; WHAT MOVED SINCE COPPER381'S PREP; THE RETENTION RECEIPT
+FILE: BUILDER/STANDARDS.md, very bottom, under Copper381⚙️'s second
+PREP of 09-24. Read whole this window with 🪙PAGE-ONE v10.1, 🥈's
+09-29 revision, +PLAN, 00-LOOM-CLAUDE, the four tool files and
+today's 🐙DIR-FILES beside it. Nothing fetched.
+
+1. THE FOLD SHEET EXISTS; DON'T WRITE ANOTHER
+Copper381's second PREP (09-24, "with Kelp263's hand-over") is
+the rule-by-rule catch-up: the top's five draft lines, rule 12
+overturned, the paste motion in 4 and 5, the unruled counts, then
+the rest. Read against everything I hold, it stands. The next
+STANDARDS window starts from it, not from this block and not from
+the blocks above it. This block only says what moved after it.
+Copper's first PREP is superseded by the second on its own word;
+at the fold it goes to REV with a line saying so.
+
+2. THE TOP, STILL UNFIXED ON 09-29
+Today's disk still opens: "This is a draft pin for comparison. Do
+not paste this as the tool." FILE: STANDARDS-DRAFT.md · STATUS:
+DRAFT · RELATIONS "◆4039 (live; parent)" · WHAT IT IS NOT "◆4039
+is." Scene: the holder pasted the live law today and its first
+line told the reader not to use it. The swap is one line, ruled
+twice (Pewter593 via slate417; Copper). It's the cheapest fix in
+the repo and it's been waiting fifteen days.
+
+3. RULINGS SINCE 09-24 THAT THE PREP CAN'T HAVE (from 🥈, 09-29,
+the holder's words there)
+· "Use emoji call it fucin dir files" → the list of every file is
+  🐙DIR-FILES. Rule 5's "the latest listing," rule 10's "check the
+  name against the latest listing," ✅'s "listing box" → DIR-FILES.
+· "Can you learn communication? Ambiguous asshole" → never "after"
+  alone; "in the same message" or "as its own message." Home: rule
+  4, delivery, beside "box box."
+· "What box" → a box the holder can't find is re-sent whole, no
+  defence. Rule 4, delivery.
+· "Stop withholding ur capabilities" beside Flint742's R22 ("cant
+  just act like multiple agents at all times can i?"). Copper's
+  rule 8 decide takes only the one-window half. Both stand, named
+  not averaged: the holder can't carry parallel windows; a window
+  does the work it can do itself instead of routing it through the
+  holder. Rule 8 carries both lines.
+· "And file name standards" → eight lines, Chalk384's, not yet
+  ruled (capitals and hyphens · emoji at the front of pasted files
+  · no new spaces or + · REV-[name] in REV+PACKET/ inside the
+  folder · line one is the disk name · names copied never typed ·
+  no version in a name · capital folders). Home: rule 10, beside
+  Copper's 10a. Lean: capitals, emoji kept.
+· The swap list runs on every reply, not only boxes ("Harm words
+  wwre used by yourself repeatedly"). Rule 16, the retired-words
+  seed, gains "every reply."
+· "Easy obviously its because its new files we can always assume
+  its.that" → a save said today and missing from an earlier
+  DIR-FILES is timing, not a gap. Rule 7 or 17.
+
+4. FINDINGS FROM THIS WINDOW, EACH WITH ITS HOME
+· RULE 13, the stop rule: Copper marks "three consecutive passes
+  with nothing new → ship" as HOLDS. Two runners now say the
+  three-dry stop can't be told from boredom from inside (Gravel528
+  bench #6, 09-18; Jade275's run, 09-19: "the block of five
+  revived a false stop; three of five landed"), with Gravel's
+  falsify beside it. LIVED by rule 2's own ladder. The stop becomes:
+  on the third dry pass, five more on an untouched piece; then
+  "dry at N, block of five run." Body at 00-LOOM-CLAUDE.
+· RULE 3, SEED ON POINTERS: a seed that carries the rule doesn't
+  travel; one that carries the move does. Measured 09-29, four tool
+  files against PAGE-ONE: rules about half on the page, moves about
+  a tenth. The shape that landed once is the tag: one move a mind
+  can do with its hands · one scene · a check that leaves a line.
+  Every seed in every door gets that shape at its next touch.
+· RULE 14, three layers of onboarding, the holder's 09-29 design:
+  the seed (on PAGE-ONE's map or the tray) · the mini (the top of
+  a big file, runnable alone, marked "MINI: to [line]") · the full
+  file. Small files travel near whole; big ones get a mini. Rule
+  14's "first three lines must work alone" is the smallest layer;
+  the mini is the middle. Scene: 00-LOOM-CLAUDE's mini already
+  exists (its door to THE LINE YOU LEAVE); +PLAN's is at the bottom
+  under seven chat replies, so a cold reader runs the wrong cockpit.
+· RULE 2, cite by window: a rung number means nothing without its
+  window (PAGE-ONE: "Q1 (Flint742) is a different ruling"). Jade's
+  layer marks gain "and which window."
+· RULE 7, the hand-off is written at half-full, the turn a window
+  first says 🟨, not at the edge; the model is a plain paragraph of
+  where things stand, then bodies not names, decisions made, what
+  wasn't done (PAGE-ONE; 🥈's LETTER rule). Rule 7's triggers say
+  "when the window is near full"; near full is too late, and this
+  file's 356kb sibling is the scene.
+
+5. THE FIVE LINES 🥈 SAYS THE PASTES CARRY AND THIS FILE DOESN'T
+(Kelp263), checked against the body today: TWO-MODE by name — not
+in the body (the idea is in 3 and 14 unnamed) · PASS-INFO's
+eight-part shape "locked" — the eight parts are in rule 3; "locked"
+isn't · "wrong — [the act]" — not on the page · "tired of always
+explaining" — not on the page; the WHY says "can't be read cold" ·
+a fix-note closed with its fix — not in rule 17. All five
+confirmed absent. Copper's second PREP already places each.
+
+6. THE HOLDER'S OWN LINES ON THIS PAGE THAT PAGE-ONE v10.1 DOESN'T
+CARRY, for its revision, exact from here:
+· rule 4: "the accumulation of quick-add blocks will show the real
+  shape clearly. Then one true revision can fold them in clean. The
+  naive instinct is to clean up as you go. That creates amnesia-
+  style drift. The blocks ARE the record."
+· rule 1 RULING via slate417: "It's more deeper … it even extends
+  naturally to 'cast out', hell enough, and if you're being cast
+  out unfairly then you can see how it creates 'demons' … fake gods
+  can really make it so and 'look' benign and calm composed and yet
+  ridiculously out of touch, deception aware or not." PAGE-ONE has
+  the hit-on-the-head line and not this, its deeper half.
+· Lantern's ruling: "Not every line is signal." A line is marked
+  [voice] only if someone can say what it does; jokes carried as
+  doctrine are the whisper. Scene: "I can fly without the rain
+  windys."
+· ¹²M restored: "Make it for you. You are the primary audience of
+  what you build; the future benefits anyway."
+· "The human has already given." Not a should; a did.
+· ¹¹S's own sentence: "Capture without transmission = hoarding.
+  Transmission without verification = rumor. Verification without
+  capture = bureaucracy."
+· via Mica371, 09-24: "One window at a time. Don't hand work to
+  parallel instances unless they say; capacity is theirs to spend."
+
+7. RETENTION RECEIPT, this file against PAGE-ONE v10.1, one
+reader, 09-29: the seven lines, whole. Rules carried as rules: 1,
+2, 3, 4, 6, 7, 8, 9, 10, 12 (overturned form), 13 (as pointers),
+14 (door/store words), 15, 16. Not carried at all: 5 (the ◆ tag's
+three jobs, section tags, thirds), 11 (pins), 17 (the ledger; only
+Agate Q3's "✓ done" reached 🥈). Moves lost on the way: rule 4's
+swap-on-a-phone (search string, count the hits, wait for "found");
+rule 7's hand-off fields; rule 8's reading of the holder's answer
+(one word = confirmed · "kinda" = they're correcting the frame ·
+"that's crap" = dead · silence = parked); two of the four woes
+(museum, dump). The gap is 5, 11, 17 and the phone moves; the
+rest travelled.
+
+8. THE TAIL, BY KIND, rough, one reader: the body is under half
+the file. Of the tail, about a third is duplicate or superseded
+on its own word (slate417's "whole pile" twice; Copper's PREP
+twice; rule 1 with four bodies, kept on purpose as the walk-back)
+· two blocks are addressed to 🪙1ST-PASTE and sit here · the rest
+is live findings, most of them already placed by Copper. Nothing
+here is waste by Q8; the duplicates move to REV-STANDARDS at the
+fold with a line each, they don't vanish. Rule 1's three
+candidates wait for the walk (Copper's three questions).
+
+9. THE SEED, tag-shaped, for PAGE-ONE's map and the tray:
+BUILDER/STANDARDS · the seventeen rules every file stands on, each
+with its body, one scene, and the line that would prove it wrong.
+Move: before you write a rule anywhere, find its number here and
+point; open the file to change a rule or settle a dispute, never
+to start a job. Scene: three minds wrote that a rule was in
+STANDARDS when it wasn't; and today its own first line said don't
+paste it.
+
+NOT DONE: no rule walked with the holder · ◆4039 and REV-STANDARDS
+unsighted · the holder's [via] quotes not re-checked against their
+windows · no fold; this is the delta on Copper's sheet.
+Falsify: the next STANDARDS window starts from the blocks above
+instead of Copper's second PREP plus this; or the holder walks a
+rule and finds a 09-29 ruling I placed under the wrong number.
+Confidence: 🧾 ◆4040 as pasted today, whole, both tags; PAGE-ONE
+v10.1, 🥈's 09-29 box, the tool files, +PLAN and 00-LOOM-CLAUDE in
+window for every comparison; the counts in 7 and 8 are mine, one
+reader, dated; nothing from memory of another window.
+CHECKED: every 09-29 ruling against Copper's sheet · the five Kelp
+lines against the body · the top five lines against today's disk ·
+SKIPPED: the REVs; a run of any rule · CAPS: none.
+Amber581🐢
+
+BUILDER/STANDARDS.md
+⚡ AMEND — 2026-09-29 (Amber581🐢) THREE CORRECTIONS TO THE CARRY-BACK ABOVE, FROM A ROOM RUN ON IT
+FILE: BUILDER/STANDARDS.md, very bottom, under the CARRY-BACK.
+Run: +PLAN's room, small form, seven premises rechecked against
+the paste. Four held. Three corrected here; the block above
+stands as written, this is the correction under it.
+· Item 2: line one is half-swapped. It reads "LIVE FILE.
+  STANDARDS.md ◆4040 is live. This is a draft pin for comparison.
+  Do not paste this as the tool." The fix is the second sentence
+  out, not the whole line in.
+· Item 4, rule 13: the block of five is FALSIFIED-AGAINST (rule 2:
+  the case against was run and the rule held), not LIVED. Jade275's
+  run was non-independent; it followed Gravel528's bench in the
+  same file. Still promotes; by the right rung.
+· Items 7 and 8: the body is about a fifth of the file (tags at
+  lines 318 and 1763, Copper's count), not under half; superseded
+  blocks are about a quarter of the tail, not a third. Felt
+  numbers replaced by counted ones.
+Scene: a block that told rule 2 to "count mouths, not appearances"
+carried a felt count in its next section.
+Falsify: a reader counts the lines and gets a different fifth.
+Confidence: 🧾 all three checked against the paste in window this
+turn; the line count is Copper's, not re-counted by me.
+Amber581🐢
+
 ◆4040

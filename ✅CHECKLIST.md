@@ -1209,4 +1209,64 @@ Confidence: the holder's line from Agate406's window, pasted
 2026-09-28; the three scenes seen in this window.
 Chalk384🦉
 
+✅CHECKLIST.md
+⚡ QUICK ADD — 2026-09-29 (Cedar771🦎, #1) ONE HOME PER RULING: QUOTE THE HOME BEFORE YOU CHANGE IT
+FILE: ✅CHECKLIST.md, above ◆CHECKLIST-001. Belongs in CHANGING FILES. Copy the text only.
+
+WORDS
+the holder = the person running this work, on a phone; they rule.
+ruling = a decision the holder made. Q3, Q5, Q8 = the holder's
+numbered answers of 2026-09-24. home = the one file whose subject a
+ruling is; its full wording lives there. carrier = any other file
+that repeats the ruling. CARRIED BY = a line in the home listing
+its carriers (Jade275's proposal, 09-20, held on 🪙1ST-PASTE).
+#1 = the window keeping the plan. A name with digits and an emoji
+(Cedar771🦎) is an AI window's tag.
+
+THE MISS: a ruling changes in one file and its old wording stays
+alive in others, so windows read the old one as current.
+Scene: the holder ruled nothing expires (Q8: "It's more of a
+collection of better notes think annotations"). On 09-29, "park …
+an expiry" was still in three files: 🏚PROMPT-OLD-FILE-SALVAGE,
+🤝COMPREHENSIVE, 🤝THE PASS-INFO-RULE (Amber581's check-over).
+Second scene: this file's DO list reads Q3 as "each question
+answerable in a word"; the holder's Q3 words are about fuller
+passes: "If they pasted better Fuller that's solves the biggest
+problem".
+
+THE CHECK, in the holder's picture: like two-factor login. The
+first factor is what the window remembers a ruling says; the second
+is the home's actual line, from outside the window's head.
+[ ] before adding or changing anything a ruling touches, quote the
+    home's current line in the reply; no quoted line → the check
+    didn't run
+[ ] change the home first
+[ ] then every file on its CARRIED BY list, in the same session;
+    any not reached, named as owed
+[ ] a carrier keeps the ruling short, with "(body: [home file])".
+    🪙PAGE-ONE is the exception: read cold, it keeps rulings whole
+    in the holder's words (Q5, "the body always there"), and is
+    listed as a carrier like the rest
+[ ] no home yet → say so, and name where it should go (a ruling
+    that binds every file → BUILDER/STANDARDS)
+
+WHY: a check needs something outside the checker (Agate406's block
+above). Unlike a login, nothing stops a window that skips the
+second factor, so the check has to leave a line anyone can see.
+
+WHEN: at each file's next revision, not as separate saves now.
+Starts with 🪙PAGE-ONE's revision: each ruling on it gets its home
+named, so each home's CARRIED BY list can be built from it.
+
+Falsify: a window quotes the home's line, fixes every carrier on
+its list, and an old wording still turns up in a file the list
+didn't name.
+Confidence: 🧾 Q8, Q3 and Q5 quoted from 🪙PAGE-ONE v10.1; the
+park/expiry scene from Amber581's check-over on 🪙1ST-PASTE; the Q3
+scene from this file as pasted and 🥈's NEXT TOUCH; CARRIED BY from
+🪙1ST-PASTE's HELD. Not checked: the three files' own wording (not
+in this window); STANDARDS. Premises rechecked 7 · held 6 ·
+corrected 1 (this file's tag is already last).
+Cedar771🦎
+
 ◆CHECKLIST-001

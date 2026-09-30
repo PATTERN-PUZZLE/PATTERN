@@ -950,4 +950,120 @@ lines (via Onyx347) with the wait added (mine); not yet used on a
 new window.
 Chalk384🦉
 
+🪙1ST-PASTE.md
+⚡ CHECK-OVER — 2026-09-29 (Amber581🐢) v4.2 AGAINST TODAY'S 🐙DIR-FILES AND THIS WINDOW; WHAT v4.3 TAKES
+FILE: 🪙1ST-PASTE.md, very bottom, under Chalk384's 09-29 block.
+Read whole with 🤝COMPREHENSIVE v3, 🤝THE PASS-INFO-RULE v2, today's
+🐙DIR-FILES, PAGE-ONE v10.1 and 🥈's 09-29 box beside it.
+
+THE TRAY AGAINST TODAY'S DISK (counted, not felt)
+· ROOT is 37 .md plus .nojekyll, not 36. Gone: 🪙PAGE-ONE-OLD
+  (moved to REV-PAGE-ONE; 🥈 SAID, today's listing confirms). New,
+  on no tray line: •ORDER.md · 🔁BINGO FLAG PROTOCOL.md. Both ⬜
+  until a window reads them; Chalk384's lean for the first new
+  file is •ORDER.
+· 🪙PAGE-ONE: live v10.1 (09-29), not v9.
+· 🥈MID-HAND-OFF: now has ◆MID-HAND-OFF-001 on its last line and a
+  REV (REV+PACKET/REV-MID-HAND-OFF.md, on today's listing). Its
+  reading order changed: "ask what moved since the last block,
+  then read the top part"; the tray's "read from the very bottom"
+  and PAGE-ONE's map line are both pre-revision.
+· REV+PACKET/ at root is 11: the ten listed plus REV-MID-HAND-OFF.
+· TOOLS 17 + 12, +IMPLEMENTED 15 with three REVs loose, STANDARDS'
+  two ◆4040 tags, its top still saying draft (now half-swapped:
+  "LIVE FILE" sits beside "do not paste this as the tool"): all
+  held.
+· "the listing" → 🐙DIR-FILES throughout ("Use emoji call it
+  fucin dir files", 🥈 09-29); the tray's own first line says the
+  script prints no date, still true today.
+
+SEEDS AS MOVES, for the tray's lines at v4.3 (the shape that
+landed: one move · one scene · a check that leaves a line)
+· COMB-DUMP, FRESH-EYES-SCAN, 🔎🍒RETURN-HARVEST, 🏚SALVAGE: the four
+  in my REPORT on 🥈, verbatim.
+· BUILDER/STANDARDS: in my CARRY-BACK there, item 9.
+· 🤝COMPREHENSIVE: handed a jumble, return three things: a door
+  (three lines: what it is · the move · when not), a card (state ·
+  finding · gaps · next · traps · gifts) and the store (the
+  leftovers sorted, never pasted first). Scene: STANDARDS, 75k,
+  read tail-first for weeks until one pass gave it a one-screen
+  index and the next mind entered through it.
+· 🤝THE PASS-INFO-RULE: before a line leaves, give it its eight
+  parts (what it is · means · why · how · one time wrong · floor ·
+  raw · what it's not), floor written first, raw last; tired →
+  [SEED], never a faked body. Scene: "the map must match the
+  territory" repeated for a month and nobody could say what it
+  meant.
+
+ONE WHISPER STILL IN THREE POINTERS (a return walk over the chat,
+lens: COMB v4's SCENE 2)
+Rule 12 "park, don't decide" is overturned (Brass739; Q8), and it
+still lives in three files' pointers read this window:
+🏚PROMPT-OLD-FILE-SALVAGE WORDS ("Park = … an expiry") ·
+🤝COMPREHENSIVE RELATIONS (COMB "with a why, a trigger, an expiry")
+· 🤝THE PASS-INFO-RULE WORDS ("COMB: park what you're unsure of").
+Fix on touch, each: "take the find; keep the seconds and thirds
+with what they might join; nothing expires." NAME WARNINGS gains a
+line: any pointer that says park or expiry is pre-ruling.
+
+THREE SHAPES CALLED "THE BODY," named, not averaged
+Brass739 named two (PASS-INFO's eight parts for a truth ·
+COMPREHENSIVE's FULL-FORM for a quick add). PAGE-ONE carries a
+third: the block shape (FILE line · ⚡ KIND · body with one scene ·
+Falsify · Confidence · tag). Lean: Brass's read holds and PAGE-
+ONE's is the delivery shell around FULL-FORM; the eight parts are
+what a truth carries, FULL-FORM is what a finding carries, the
+block is how either travels. Holder rules; WORDS then says which.
+
+ONE MOUTH, THREE PLACES
+"Quotes name their layer" (Jade275, 09-20) sits in STANDARDS' tail,
+🤝COMPREHENSIVE's bottom block, and PAGE-ONE. Same mouth three
+times: durable, not LIVED (Gravel528's rule on STANDARDS' tail).
+The tray marks it as a rule; it's one builder's, still unrun by a
+second.
+
+SMALL, FOR THE TOUCH
+· Chalk384's block above: "number to beat: 19" is a different
+  test's column (🥈 THE PLAN item 4); the overlap measure replaces
+  it.
+· 🤝THE PASS-INFO-RULE has no ◆ tag on its last line, and its line
+  one still says hyphens (Brass's fix on touch, half done: the RAW
+  "?" is gone, the name isn't).
+· Brass739's LEDGER block for REV-COMPREHENSIVE sits in
+  🤝COMPREHENSIVE; misfiled, like slate417's 1ST-PASTE blocks under
+  ◆4040.
+· My own two blocks this window addressed "above the tag"; under
+  is right (Agate Q1). Wherever they landed, they stand.
+
+NOT DONE: •ORDER and 🔁BINGO FLAG PROTOCOL unread · no cold run of
+v4.2 by me · 🥉, ✅, 🟩 unseen · the T2 names unchecked.
+Falsify: a reader counts today's root and gets 36; or finds a
+fourth file still saying "expiry."
+Confidence: 🧾 every line against the pastes in window; the root
+count is mine, counted twice; premises 16, held 13, corrected 3
+(two mine, above).
+Amber581🐢
+
+🪙1ST-PASTE.md
+⚡ ADD — 2026-09-29 (Amber581🐢) TWO LINES FOR THE PASTE ORDER, FROM ONE WINDOW THAT HELD EIGHT FILES
+FILE: 🪙1ST-PASTE.md, above ◆COLDSTART-001; joins Chalk384's
+paste-order block at the next fold.
+· A NEW #1, step 8: send the job file and every tool file it will
+  touch in the same session, not one per turn. Scene: this window
+  found three cockpits in +PLAN, a stop rule proven twice, and one
+  overturned rule living in three files' pointers, and none of it
+  showed until six files sat in one window together. A file alone
+  has no joins to find.
+· After "Go," the holder's one-word check on any box that arrives
+  without a room line in its Confidence ("premises rechecked ·
+  held · corrected"): "receipt?" Nothing else. The box doesn't
+  land until the line is there. Scene: three boxes went out
+  without it this window; the run afterwards found five wrong
+  lines under 🧾 marks.
+Falsify: a window sent its files together still finds nothing
+between them; or a box with a receipt line still carries a felt
+count.
+Confidence: 🧾 both from this window; premises 2, held 2.
+Amber581🐢
+
 ◆COLDSTART-001

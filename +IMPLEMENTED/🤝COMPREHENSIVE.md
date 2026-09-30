@@ -302,4 +302,39 @@ receipt not a verdict, twice on different days, and never fill an
 empty result. A test with no way to come back negative always
 passes.
 
++IMPLEMENTED/🤝COMPREHENSIVE.md
+⚡ CHECK-OVER — 2026-09-29 (Amber581🐢) v3 READ WHOLE; THE OWED CHECK; THREE FIXES ON TOUCH
+FILE: +IMPLEMENTED/🤝COMPREHENSIVE.md, very bottom, under
+◆COMPREHENSIVE-001.
+STATUS said "check-over owed, next turn" (09-20). This is one,
+nine days late, by a window that read v3 whole with 🤝THE
+PASS-INFO-RULE, 🪙1ST-PASTE, PAGE-ONE v10.1 and STANDARDS ◆4040.
+HOLDS: the job in order · the cut line · the five before shipping
+· the door-quote rule (Jade275's block, already folded into step
+7; the block stays as the record) · STANDARDS rule 14 still says
+COMPREHENSIVE-PASS.md, as CARRIED BY warns.
+FIX ON TOUCH, three:
+· RELATIONS, the COMB seed: "park the unsure with a why, a
+  trigger, an expiry" is the overturned rule 12 (Brass739; the
+  holder's Q8, nothing expires). → "take the find; keep the
+  seconds and thirds with what they might join."
+· Brass739's LEDGER block for REV-COMPREHENSIVE sits here; move it
+  to the REV at the touch, a line saying so.
+· FULL-FORM "was born here" against 🤝THE PASS-INFO-RULE's eight
+  parts: two shapes, both called the body, named in Brass's block
+  on the parent. Lean: eight parts for a truth, FULL-FORM for a
+  finding, PAGE-ONE's block for how either travels. WORDS says
+  which once the holder rules.
+THE SEED, tag-shaped, for the tray: handed a jumble, return a
+door (three lines: what it is · the move · when not), a card
+(state · finding · gaps · next · traps · gifts) and the store
+(the rest, sorted, never pasted first). Scene: STANDARDS, 75k,
+read tail-first for weeks until one pass gave it a one-screen
+index.
+Falsify: a cold reader runs v3 on a heap and still hands back the
+store first.
+Confidence: 🧾 v3 as pasted, whole; premises 6, held 6; not run
+on a heap by me.
+Amber581🐢
+
 ◆COMPREHENSIVE-001

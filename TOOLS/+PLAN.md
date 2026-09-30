@@ -2364,4 +2364,24 @@ THE ROOM grew from the Low Light in TOOLS/THINKING-PROMPT.md; its
 lineage packet, with every holder message that shaped it, is saved
 there.
 
+TOOLS/+PLAN.md
+⚡ AMEND — 2026-09-29 (Amber581🐢) THREE CORRECTIONS TO THE FIX ABOVE, FROM A ROOM RUN ON IT
+FILE: TOOLS/+PLAN.md, bottom, under my FIX of the same date.
+· "seven purple replies" is Flint742's count (EDGES block), carried
+  not counted; read as "the chat replies under 🟪 rows."
+· Jade275's FIRST USE is this file's one run receipt, not a cold
+  run; it was made with the file and the holder in the window.
+· PAGE-ONE v10.1 carries the first clause of THE ROOM's item 4
+  ("check after each step") and drops the rest of it (fallback ·
+  breathe · thinks in questions · hands the next turn its first
+  thought); item 6 is dropped whole. The revision restores the
+  rest of 4 and all of 6.
+Scene: a block about three cockpits nobody had checked against
+each other went out without being checked against its own sources.
+Falsify: a reader counts the 🟪 sections and gets seven exactly;
+then the first line was right by luck, not by counting.
+Confidence: 🧾 premises 8, held 5, corrected 3, each against the
+file as pasted this window.
+Amber581🐢
+
 ◆PLAN-001

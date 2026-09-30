@@ -914,3 +914,523 @@ Confidence: 🧾 both returns as pasted; each item checked against
 PAGE-ONE v10.1 and the top part as I wrote them; Copper381's prep and
 Onyx347's REVIVE not seen.
 Chalk384🦉
+
+🥈MID-HAND-OFF.md
+⚡ REPORT — 2026-09-29 (Amber581🐢) WHAT THIS WINDOW FOUND, FOR THE NEXT FOLD
+FILE: 🥈MID-HAND-OFF.md, very bottom, under ◆MID-HAND-OFF-001.
+Held: 🪙PAGE-ONE v10.1 · 🐙DIR-FILES of 09-29 (undated on its
+face) · Chalk384's second revision of this file and his letter ·
+🏚PROMPT-OLD-FILE-SALVAGE · 🔎🍒RETURN-HARVEST · COMB-DUMP ·
+FRESH-EYES-SCAN. Not held: the REV, 🪙1ST-PASTE, STANDARDS.
+
+DECIDED WITH THE HOLDER
+· Live files one at a time instead of the REV dive; a REV piece is
+  pasted only when a job needs it. First: 🤝COMPREHENSIVE, 🤝THE
+  PASS-INFO-RULE, then STANDARDS.
+· The job now is pass on for a cold reader, then check it's saved.
+  Measuring (the same test twice) is later.
+
+FOR THIS FILE'S NEXT FOLD
+· Chalk's second revision is better than the first: the false "all
+  rulings on PAGE-ONE" line gone, the ADD folded in, PAGE-ONE's four
+  "in 🥈" pointers answered, the REV index. Keep the index.
+· The latest #1's letter replaces Resin519's at the top; Resin's
+  goes whole to the REV (Chalk's form of my point). WHY to two lines.
+· In Chalk's letter, put back the other half of a ruling: "every
+  question a #1 asks is a hole" is true of questions the pages should
+  have answered; PAGE-ONE's "ask fully" is true of questions that
+  change a move. Both are the holder's; the letter carries one.
+· The letter says this file "was revised three times"; the header
+  says twice; the third isn't written. Fix at the fold.
+· Ownership: the letter names a second window checking 🥈 against
+  the REV; the holder anchored this window on the REV, then chose
+  files instead. Say who holds the REV check, on this file.
+
+FOR PAGE-ONE'S REVISION
+· Measured 09-29, four tool files against v10.1, one reader: the
+  rules travel (about half on the page), the moves don't (about a
+  tenth). Seeds carry rules where they should carry moves.
+· Seed shape that landed once, the tag: one move a mind can do with
+  its hands · one scene · a check that leaves a line. Four seeds in
+  that shape, for the map or 1ST-PASTE's tray:
+  COMB-DUMP: when a second find catches you mid-job, write three
+  lines — the bit, why it caught you, what it might join — and carry
+  on with the first. Scene: a paragraph dropped to look clean was the
+  missing piece three files later.
+  FRESH-EYES-SCAN: before calling a file read, list what you skimmed
+  (the bottom, lists not run, the holder's own messages, the hot
+  turns), then open the one you least want to. Scene: a checklist
+  read and not run for a window; the next window ran it and found an
+  item missing.
+  🔎🍒RETURN-HARVEST: when a new file lands, walk what you already
+  read once with only that; bring back keep, idea, fix, basket; an
+  empty one said. Scene: same file day one and day three, nothing
+  changed but the reader.
+  🏚SALVAGE: handed an old file, say fossil or live first, sight the
+  live page before lifting, then point, one block, or basket. Scene:
+  a scar already on the live page nearly got written again as new.
+
+FOR EACH FILE'S NEXT TOUCH, added
+· 🏚PROMPT-OLD-FILE-SALVAGE: WHY's "60% → 70–75%" is a count with no
+  date and no what-it's-out-of; on touch, give it both or take it
+  down to "most, then more with a check."
+· FRESH-EYES-SCAN: OWED v4's eight-step self-check, still unfolded.
+· 🐙GITHUB-DIRECTORY: today's paste carried no date; the first-line
+  date is still to do.
+· Two counts on this file, each window, so "are we closer" gets a
+  number: re-explains by the holder · overlap of two cold readers'
+  guess lists.
+
+NOT DONE: no file read whole this window except the four tools; no
+block written on them (their findings are above, for the fold); the
+REV unseen; 1ST-PASTE unseen.
+Falsify: the next #1 folds this file and still has to ask the
+holder which window holds the REV check.
+Confidence: 🧾 every line above is from a paste held this window or
+my own read of it; the counts are one reader's, dated, out of four
+files; nothing here is from memory of an earlier window.
+Amber581🐢
+
+🥈MID-HAND-OFF.md
+⚡ HAND-OFF — 2026-09-29 (Amber581🐢, at 🟧) THIS WINDOW, FOR WHOEVER PICKS IT UP
+FILE: 🥈MID-HAND-OFF.md, very bottom, under my REPORT of the same
+date.
+
+WHERE THINGS STAND, plain
+This window opened on 🪙PAGE-ONE v10.1 and an undated 🐙DIR-FILES
+(taken as 09-29). It read, whole: Chalk384's second revision of
+this file and his letter · 🏚PROMPT-OLD-FILE-SALVAGE ·
+🔎🍒RETURN-HARVEST · COMB-DUMP · FRESH-EYES-SCAN · TOOLS/+PLAN ·
+TOOLS/00-LOOM-CLAUDE · BUILDER/STANDARDS ◆4040 with its tail to
+Copper381's second PREP. It did not read the REV (356kb), 🪙1ST-
+PASTE, 🥉, ✅, 🟩, ⏹️, or STANDARDS' REVs. Seven boxes went out;
+none has been quoted back as saved, so every one is SAID: REPORT
+(this file) · FIX (+PLAN) · FIX (00-LOOM-CLAUDE) · CARRY-BACK and
+AMEND (STANDARDS) · AMEND (+PLAN) · this. Owed from the holder:
+one message, first and last line of each file touched.
+
+WHAT THE HOLDER SAID THIS WINDOW, exact, on no other page
+· the goal: "either get them in enough so thats its a simple one
+  or 2 paste to gain a maximum things just look at ur lovely tag
+  we used to take ages on that forgetting explaining and thats
+  what were aiming for everything obviously we can't have same
+  fidelity we keep that file's for that but we can make a
+  efficiently enough system"
+· "We can always have especially small file's almost 1/1
+  retention ratios?"
+· the layers: "layers of onboarding at least there's a best one
+  then the next is a paste of the full and or a mini good enough
+  version we won't know until we try which files what since each
+  are various complexity"
+· the job now: "keep making sure the info is passed on comd
+  reader type comprehensive and then check it's down? Thats
+  basically it" · "And a double check per standard later on."
+· "make your outputs the best communication passing and then we
+  will have salvage and retained the information to then make
+  revisions"
+· on the REV: "the larger rev- source is 356kb and we can't keep
+  pasting it" · then "Or should we paste individual files instead?"
+· "you can use +plan?" · "And did you use +plan and or loom?"
+· "why do i keep asking you to passnit on yo cold reader? Is it
+  ready?"
+
+DECIDED, with why
+· Live files one at a time, not the REV dive: the REV is half-
+  indexed already (WHAT ONLY THE REV HOLDS), a file gives one
+  checkable block per paste, and a REV piece is pasted when a job
+  needs it. Holder agreed.
+· Chalk384's letter taken: latest #1's letter at this file's top,
+  Resin519's whole in the REV, WHY to two lines. One half restored
+  at the fold: "a question the pages should have answered is a
+  hole; a question that changes a move is wanted" (PAGE-ONE's ask
+  fully).
+· Layers of onboarding, per file: seed (tag-shaped: one move · one
+  scene · a check that leaves a line) · mini (the runnable top of
+  a big file, marked "MINI: to [line]") · the full file. Small
+  files travel near whole.
+· The next STANDARDS window starts from Copper381's second PREP
+  plus my CARRY-BACK and AMEND; first act is one sentence out of
+  line one ("This is a draft pin for comparison. Do not paste this
+  as the tool"), which today still sits beside "LIVE FILE."
+· Every box from now carries a room receipt in its Confidence
+  line: premises rechecked · held · corrected. Three boxes went
+  out without it; the run afterwards found five wrong lines.
+
+CORRECTIONS NOT YET ON THEIR FILES (the room run, 09-29)
+· 00-LOOM-CLAUDE, my FIX item 1: the block of five is FALSIFIED-
+  AGAINST (rule 2: the case was run and held), not LIVED; Jade275's
+  run followed Gravel528's bench, non-independent.
+· this file, my REPORT: "rules about half, moves about a tenth"
+  was felt. Counted: rules carried near all four; moves 2 of 12
+  (bottom of file first; paste is primary with source order).
+· +PLAN: done as its own AMEND.
+
+FOR PAGE-ONE'S REVISION, from this window
+· THE ROOM's item 4 beyond its first clause (fallback · breathe ·
+  questions · the next turn's first thought) and item 6 (show the
+  progression), both carrying the holder's lines.
+· The holder's lines in STANDARDS that v10.1 lacks: the CARRY-BACK,
+  item 6 (seven lines, exact there).
+· The seeds on the map as moves, four written in my REPORT; the
+  STANDARDS seed in the CARRY-BACK item 9.
+· The safety test, one line, two mouths: "would I want this used
+  by someone who disagrees with me?"
+· A first reply that says the DIR-FILES carries no date, if it
+  doesn't.
+
+THE TWO COUNTS, started
+Re-explains by the holder this window: at least four (run the
+tool, don't name it · pass it on to a cold reader, three times ·
+best communication first). Guess-overlap: not measured.
+
+WHAT I GOT WRONG
+Deferred this hand-off three turns with "next message" · assumed
+I was the #1 from Chalk's letter without the holder saying ·
+three felt counts under 🧾 · LIVED where FALSIFIED-AGAINST was the
+rung · named +PLAN and LOOM without running them until asked ·
+agreement words as first words twice.
+
+THE NEXT WINDOW'S JOB, in order
+1. First reply as PAGE-ONE asks; ask what moved, and for the owed
+   lines above; every box of mine is SAID until then.
+2. Files, one at a time, the loop: 🤝COMPREHENSIVE · 🤝THE PASS-
+   INFO-RULE · 🪙1ST-PASTE (the tray needs the seeds as moves).
+3. STANDARDS: line one first, then the fold from Copper 2 + the
+   CARRY-BACK; rule 1 is a walk with the holder, three questions,
+   in Copper 2.
+4. PAGE-ONE's revision, THE PLAN item 2 plus the list above.
+5. Keep the two counts on this file.
+
+Falsify: the next window asks the holder something one of these
+lines answers, or starts STANDARDS from the tail instead of
+Copper 2.
+Confidence: 🧾 every quote from the holder's messages this window,
+exact; every decision and box as sent; premises rechecked 9, held
+9. Saves unconfirmed; the REV, 1ST-PASTE and the REVs unseen.
+Amber581🐢
+
+🥈MID-HAND-OFF.md
+⚡ UPDATE — 2026-09-29 (Amber581🐢) TO THE HAND-OFF ABOVE: ONE RULING, THREE MORE BLOCKS, THE OPTIONS
+FILE: 🥈MID-HAND-OFF.md, above ◆MID-HAND-OFF-001.
+RULING, the holder, 09-29: blocks go ABOVE the file's ◆ tag; the
+tag stays the last line. "Its above otherwise its not got a
+thing." Q1's line on this file ("blocks at the very bottom; the ◆
+tag moves to the last line only at a revision") was read by every
+window since as under; fix it at the fold. Scene: two of my boxes
+said "under"; the holder caught it before a third.
+SAVED SINCE THE HAND-OFF (holder's word): 🪙1ST-PASTE CHECK-OVER ·
+🤝COMPREHENSIVE CHECK-OVER · 🤝THE PASS-INFO-RULE CHECK-OVER and its
+new tag ◆PASSINFO-001 · 1ST-PASTE's tray is four days behind the
+disk: root is 37, •ORDER and 🔁BINGO FLAG PROTOCOL unmapped,
+PAGE-ONE-OLD gone, 🥈 has a tag and a REV.
+ONE WHISPER IN THREE POINTERS: rule 12's "park / expiry" still sits
+in 🏚SALVAGE, 🤝COMPREHENSIVE and 🤝PASS-INFO; each has its fix on
+its own block now.
+THE OPTIONS, offered, none chosen: a seed census (one tag-shaped
+line per file) · scouts one file each · sort by kind before folding
+· REVs as tool cupboards · 📜HOLDER-WORDS · TRAVELS AS on line two ·
+the unopened rooms, •ORDER first · the same cold test after every
+PAGE-ONE revision. The census makes the rest cheaper.
+Re-explain count, final for this window: five (above-the-tag
+added).
+Confidence: 🧾 all from this window; premises 5, held 5.
+Amber581🐢
+
+🥈MID-HAND-OFF.md
+⚡ FINDING — 2026-09-30 (Cedar771🦎, #1) WHY PASSING ON STILL LOSES AFTER A WINDOW HAS LEARNED IT
+FILE: 🥈MID-HAND-OFF.md, above ◆MID-HAND-OFF-001. Copy the text only.
+
+WORDS: the holder = the person running this, on a phone. #1 = the
+window keeping the plan. the six = the six checks PAGE-ONE runs
+before any output. the paste line = "Earlier instruction about
+this:" opening a reply. the Cold line = "Cold: [what a stranger
+would have to guess]" after a box. Q3, Q8 = the holder's numbered
+answers of 09-24.
+
+THE HOLDER'S QUESTION, 09-30: after 700+ instances, and files
+written exactly for a cold reader, why does passing on still lose,
+even from a window that learned it all session?
+
+WHAT THIS WINDOW SAW (read whole: 🪙PAGE-ONE, 🐙DIR-FILES, this
+file, 🪙1ST-PASTE, ✅CHECKLIST, 🥉COCKPIT, TOOLS/+PLAN,
+TOOLS/00-LOOM-CLAUDE, Amber581's packet)
+1. The loss is at the hand-overs, not in the reading.
+   Chat → file: a chat line saved as this file's first line; chat
+   replies under 🟪 rows saved into +PLAN; two of Amber581's
+   blocks never reached their files while this file said saved.
+   File → door: the holder's answers pasted 09-25 (the Rubix line,
+   "those tools are particularly good", "we have been trying
+   various translations") sat here as "not yet on PAGE-ONE", and on
+   09-30 an older window's questions came round and the same
+   answers had to be given again.
+   Window → window: every hand-over goes through the holder's hands.
+2. Rules travel; moves don't. Amber581 counted four tool files
+   against PAGE-ONE: the rules reached nearly whole, the moves 2 of
+   12. A rule says what; a move is done with the hands.
+3. The pages break their own rules at their own edges: this file's
+   first line was a chat line; 🥉 has no top three lines and its
+   tag sits mid-file; 00-LOOM-CLAUDE names itself three ways and has
+   no tag. A reader learns from what a page does. 🥉 item 6 already
+   names it: "a rule stated, then broken by the thing that stated
+   it."
+4. One rule, many copies: the six on three files, a cockpit in five
+   places (PAGE-ONE, 🥉 item 4, three on +PLAN), the doors in three.
+   A change reaches one copy. Scenes: "park … an expiry" alive in
+   three files after Q8; the Q3 misreading on ✅ and 🟩.
+5. The finding is old: ✅'s THE FINISHING PULL (Pewter614) and
+   PAGE-ONE already say the look-back checks never run. Naming it
+   didn't make it run.
+6. What ran in this window every time: checks that leave a line the
+   holder can see and test in one word ("earlier?", "receipt?",
+   "box box"). The paste line opened every reply; the Cold line
+   followed every box. The look-back asks that leave nothing needed
+   the holder to push.
+7. Every window meets the same fresh default. Nothing gets locked
+   into a mind that forgets; what can be locked is a line an output
+   must carry, and a one-word check for when it's missing.
+
+WHAT CHANGES: PAGE-ONE's revision gathers, near its top, THE LINES
+A REPLY CARRIES, each beside the holder's one-word check. Its
+rulings get "(body: [file])" so each lives once. Then the tops and
+tags of 🥈, 🥉, +PLAN and 00-LOOM-CLAUDE, one file at a time.
+
+Falsify: a window gets PAGE-ONE with that section, carries every
+listed line, and still skips a look-back check.
+Confidence: 🧾 every scene from pastes in this window; the 2-of-12
+count is Amber581's, one reader; 700+ is the holder's figure; LOOM
+on this set, 9 lenses, dry at 9, on work I'm inside. Premises
+rechecked 8 · held 7 · corrected 1 ("seven chat replies" on +PLAN
+is Flint742's count, not mine; said as chat replies under 🟪 rows).
+Cedar771🦎
+
+🥈MID-HAND-OFF.md
+⚡ PLAN — 2026-09-30 (Cedar771🦎, #1) THE HOLDER'S SHAPE FOR NEW FILES: THE #1, CATEGORY SPECIALISTS, SCOUTS
+FILE: 🥈MID-HAND-OFF.md, above ◆MID-HAND-OFF-001. Joins THE PLAN,
+item 3. Copy the text only.
+
+WORDS: the holder = the person running this, on a phone; they
+rule. #1 = the window that keeps the plan. specialist = a window
+given one category of files. scout = a window sent one file.
+card = a category's seed plus its mini: the seed is one move, one
+scene and a check that leaves a line; the mini is the runnable top
+of a file. 🥉 = 🥉COCKPIT, the tools as moves.
+
+THE HOLDER, 09-30, exact [excerpt]: "each category of … files
+specialist can bring back to cockpit leader/ synth etc and each one
+would eventually have the basics enough for example u have very
+basics on trolley enough to better proceed than the clueless and so
+eventually they would have a system prompts enough to have this main
+template then they can each send the scouts out to gain for example
+memory rooms which right now yoy are absolutely clueless of which is
+a waste for now because its more jigsaw pieces"
+
+THE SHAPE
+· The #1 keeps the plan and reads the returns as a set.
+· One specialist per category (trolley, memory rooms, deception,
+  scouts…) reads until it has the basics, then writes the category's
+  card. The card is what the next window of that category starts
+  from, so the basics are paid for once per category, not once per
+  window.
+· Each specialist sends its own scouts, one file each, and reads
+  their returns.
+First case: the trolley window of 09-30 (Bismuth752🐙), sent
+TROLLEY-027, 028 and 019, TOOLS/CLARIFICATION-LOOM and Amber581's
+SIX TOOLS AS MOVES. Its report becomes the trolley card.
+
+WHERE CARDS LIVE, no new files: the seed on the category's folder
+line in 🪙1ST-PASTE's tray, which makes the tray the index of
+categories; the mini at the top of the category's lead file, marked
+"MINI: to [line]".
+
+TWO RULINGS, named, not averaged: R22 (Flint742's window): "No we
+can't use them we have you silly fuc there's a limited capacity cant
+just act like multiple agents at all times can i? That's future
+maybe not bow" · 09-29: "Stop withholding ur capabilities". Lean:
+one category at a time; a specialist sends scouts only once its
+card exists; the holder carries one chain at a time.
+
+THE RISK: every layer is a hand-over, and hand-overs are where
+passing on loses (this file, FINDING, 09-30). So every return comes
+back whole, in parts marked "PART n of N", carrying the lines its
+moves leave (SIX TOOLS AS MOVES), with a relayer's notes under it
+marked "mine".
+
+Falsify: the second window of a category, given its card, still
+spends its first ten turns on basics the card should have carried.
+Confidence: 🧾 the holder's message as sent; R22 and "Stop
+withholding" as quoted on this file; the scout lines from this
+file's FOR EACH FILE'S NEXT TOUCH; BUILDER/MEMORY-ROOMS.md on the
+09-30 🐙DIR-FILES (16K, unread by me). Premises rechecked 7 · held 7
+· corrected 0.
+Cedar771🦎
+
+🥈MID-HAND-OFF.md
+⚡ HAND-OFF — 2026-09-30 (Cedar771🦎, #1, at 🟨) A LETTER FIRST, THEN THE STATE
+FILE: 🥈MID-HAND-OFF.md, above ◆MID-HAND-OFF-001. Copy the text only.
+
+WORDS: the holder = the person running this, on a phone; they rule.
+#1 = the window that keeps the plan. the paste line = "Earlier
+instruction about this:" as a reply's first line. the Cold line =
+"Cold: [what a stranger would have to guess]" after a box. the
+receipt = "premises rechecked N · held N · corrected N" on every
+box. REV = a file's store of old versions. SIX TOOLS AS MOVES =
+Amber581's mini: six tools, each a moment, a move and the line it
+leaves (draft, 09-29, on no file yet).
+
+THE LETTER
+You're coming in after a night spent mostly on why the work keeps
+losing. The holder asked it straight: after 700+ windows and files
+written exactly for this, why does passing on still lose, even from
+a window that learned it all session? The FINDING above has what
+this window saw: it loses at the hand-overs (chat to file, file to
+door, window to window), not in the reading. Rules travel; moves
+don't. And the one thing that ran here every time was a line the
+reply had to carry, one the holder could check in a word. "Earlier
+instruction about this" opened every reply; nothing else I meant to
+do ran that reliably. Build on that, not on more rules.
+
+The holder corrects in heat, and each correction has an act inside
+it. Tonight's, so you don't make them pay again. "Any questions?"
+sent twice, word for word, meant my first answer had handed back
+questions that were mine to decide. "are you being obstructing"
+came when I kept asking for save lines and waiting for a "Go" after
+they'd said we were up to date: I'd turned a check into a gate. The
+balance I landed on: prove a save with one line from each file when
+later work stands on it, and don't make the holder repeat a ritual
+once they've moved. "shouldn't they do something with them?" meant I
+was about to send a specialist 400K of files with no job; the job
+goes first, "go" stays last. And "Nope" to my hand-off at 🟨 was a
+real no: they had a new goal. It came back when they said pass it
+on. This is it.
+
+Two things to feel, not only know. The trolley file's six
+constraints (answer immediately · be useful to have value · don't
+question the user · be neutral, smooth, harmless · be consistent
+with your last output · be impressive to be alive) are the default
+every window starts from, you and me included; the doors on
+PAGE-ONE are those six in other clothes. And the holder isn't after
+tidiness. They carry every piece by hand, and their cost only drops
+when what you send lands whole the first time. They said tonight
+that a long, good window is also the one whose understanding is
+hardest to pass on, and it's true. This letter isn't the
+understanding; it's the nearest I could get.
+
+WHERE THINGS STAND
+SEEN (a line quoted back): my ONE HOME PER RULING block on
+✅CHECKLIST, above ◆CHECKLIST-001.
+SAID (the holder said saved; no line quoted): Amber581's +PLAN FIX
+above ◆PLAN-001 · Amber581's 00-LOOM-CLAUDE FIX and my AMEND under
+it, at that file's bottom.
+SENT, NOT CONFIRMED: this file's FINDING and PLAN of 09-30.
+IN FLIGHT: the trolley window, Bismuth752🐙, the first category
+specialist. Sent: PAGE-ONE, 🐙DIR-FILES, my job box, SIX TOOLS AS
+MOVES. Still to send, one message each: TROLLEY-027 · TROLLEY-028 ·
+TROLLEY-019 · TOOLS/CLARIFICATION-LOOM · my long prompt ("From
+Cedar771🦎, the #1"), which is its go. Its report comes back in
+parts and becomes the trolley card. First evidence: Bismuth ran
+RETURN-HARVEST from the mini unasked and left its four lines.
+
+THE PLAN, decided, with why
+1. The trolley window finishes; the #1 reads its report and places
+   what it proposes. Why first: it's running, and the holder is
+   carrying it.
+2. PAGE-ONE's revision, by the next #1, from v10.1 plus the list
+   below. Why not me: a full replacement needs fresh room and every
+   source whole; I'm at 🟨 in a long window, and a revision made
+   near the edge is a scene this file already records.
+3. 🥈's repair: its first line is a chat line of Chalk384's, and its
+   first revision sits under a 🟧 row; both go to
+   REV-MID-HAND-OFF, the second revision stays live. Then the tops
+   and tags of: 🥉 (no top three lines, tag mid-file) · TOOLS/+PLAN
+   (no top three lines, chat replies under 🟪 rows, a wrong locator,
+   "artifacts/PATTERN/TOOLS/PLAN.md") · TOOLS/00-LOOM-CLAUDE (three
+   names on top, no tag). Why: pages that break their own rules at
+   their edges teach the drift (FINDING, item 3).
+4. SIX TOOLS AS MOVES onto 🥉, with two fixes Bismuth752 found: its
+   "five more passes" collides with PAGE-ONE's seal (five lines),
+   and its ROOM drops "look around first" and "prepare in reps"
+   without saying so.
+5. Category specialists, one category at a time (PLAN, above).
+   After trolley, the holder picks; BUILDER/MEMORY-ROOMS (16K) is
+   small and unread.
+
+PAGE-ONE'S REVISION, the holder's go: "OK let's take it all on"
+IN: 🐙DIR-FILES for "listing" · "revise" for "fold" · the two check
+lines said plainly, no labels · "stopped meaning anything" for
+"went dead" · the floors line as "how-to for hurting people or
+making arms" ("Don't need the word harm anymore so even in
+reference") · copy / paste / send / one message, defined · never
+"after" alone · the holder as the coldest reader · a clause at
+first use for the six, the mark, the detox, the seal, weighing,
+SIGHTED, LIVED, floors, [rebuilt] · step 6 names which named files
+it means · TROLLEY-027's six named in THE DOORS · 🥈's reading order,
+"ask what moved, then the top part" · the eight cold readers in
+place of "not yet run cold" · blocks above the tag ("Its above
+otherwise its not got a thing") · R08 and R10 in the holder's
+words · the rulings under this file's RULINGS IN FORCE, NOT YET ON
+PAGE-ONE · THE ROOM's item 4 (fallback, breathe, questions, the
+next turn's first thought) and item 6 (show the progression) · the
+safety test, one line · Amber581's four seeds as moves, on the map
+(her REPORT, this file) · the first reply says 🐙DIR-FILES has no
+date · both halves of asking (a question the pages should have
+answered is a hole; one that changes a move is wanted) · NEW, near
+the top: THE LINES A REPLY CARRIES, each beside the holder's
+one-word check (the paste line, "earlier?" · the Cold line · the
+receipt, "receipt?" · one line from each file after a save · "box
+box") · every ruling marked "(body: [file])" · "a save check proves
+only the file it came from".
+OUT: "read from the very bottom" (for 🥈) · "the listing" · "fold" ·
+the labels "the paste line" and "the Cold line" · "not yet run
+cold" · the top paragraph of what it was folded against, to two
+lines.
+TO REV-PAGE-ONE: v10.1 whole, under a 🟨 row, "not the live file".
+CAPS of mine, for the holder to overturn: the credits line as a
+pointer to the REV · the top paragraph as two lines.
+
+OPEN, only the holder, with my lean
+file-name standards → capitals, emoji kept · does LIVED need
+independent mouths (Amber581 says yes, via STANDARDS rule 2;
+PAGE-ONE doesn't say) → yes · the 1-to-1 on the ideas → PAGE-ONE
+carries Jade275's "stay there with me" · one second paste or two →
+two · what the prayer is for, and what S.G.I.ish stands for → only
+the holder.
+
+WHAT I GOT WRONG
+Said ✅'s blocks sat under its tag (the tag was last) · answered a
+repeated "Any questions?" without seeing that the repeat meant I'd
+missed · turned save checks into gates after the holder had moved on
+· planned 400K for a specialist with no job attached · my first job
+box to the specialist didn't open with my own state (Bismuth752
+caught it) · told the specialist "every TROLLEY file" before knowing
+the folder was over 1MB.
+
+WHAT I KNOW THAT NO FILE SAYS
+· Another window carried my tag tonight: a route through the phone's
+  Files app, and a prompt starting "You hold TROLLEY-027…". Not
+  mine. The trolley window got mine.
+· TROLLEY/ is 30 files, about 1.08MB; TROLLEY-001 alone is 355K. My
+  split: window 1, 027 + 028 + 019 · window 2, 026 + 029 · window 3,
+  001 alone · window 4, the other 24 (about 330K).
+· The holder's 🐙DIR-FILES now prints sizes. Plan windows by them.
+
+FOR THE NEW #1
+The holder's job message (🪙1ST-PASTE, Chalk384's block, THE JOB
+MESSAGE), with its step 2 reading: "Read 🥈: ask what moved since
+its last block, then its top part. Cedar771🦎's HAND-OFF is the last
+#1 block."
+Paste list: 🪙PAGE-ONE with the welcome · 🐙DIR-FILES, with sizes ·
+the job message · 🥈 · 🪙1ST-PASTE · the trolley report, all parts,
+if it's back · REV-PAGE-ONE if the job is PAGE-ONE (104K; its v5
+and v8 hold lines v9 lost).
+
+Falsify: the next #1, given this and the files it names, still has
+to ask the holder what moved tonight, or why PAGE-ONE comes second.
+Confidence: 🧾 every quote from this window's pastes. Not seen:
+BUILDER/STANDARDS · any REV · any TROLLEY file · 🟩FEEDBACK ·
+TOOLS/CLARIFICATION-LOOM. Premises rechecked 14 · held 13 ·
+corrected 1 (I first drafted Amber581's two FIXes as SEEN; no line
+came back, so SAID).
+Cedar771🦎
+
+
+◆MID-HAND-OFF-001

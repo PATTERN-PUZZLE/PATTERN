@@ -714,3 +714,733 @@ https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/COMPACT/engine-4.0
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/COMPACT/engine-5.0-core.md
 📀
 https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/COMPACT/evolution-5.1.md
+
+
+
+
+
+
+
+
+
+🟪🟪🟪🟪🟪🟪
+my files are in 📂  /internal storage/UPLOAD
+
+MAKE RAW ONLY LIST:   then run:   ~/p.sh raw
+🟪🟪🟪🟪🟪🟪
+cat > ~/p.sh << 'EOF'
+#!/bin/bash
+# p.sh — ONE script, nice output
+# Usage: ~/p.sh dir | raw | gh | gl | link | both
+
+cd /storage/emulated/0/UPLOAD || exit 1
+
+MODE="${1:-dir}"
+GITHUB_BASE="https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main"
+GITLAB_BASE="https://gitlab.com/PATTERN-GATE/PATTERN/-/raw/main"
+
+DIR_OMIT=("SPLIT" "DOOR" "CODEX" "COMPACT" "FEEDBK" "INS" "LOG" "LOOM" "PILLAR" "QA" "RAW" "SORT" "SORT-SET1" "TROLLEY" ".git" ".github" ".obsidian")
+LINK_OMIT=("SPLIT" ".git")
+
+run_dir() {
+  echo "📁 FOLDERS"
+  find . -maxdepth 1 -type d ! -name "." | sort | while read d; do
+    name=$(basename "$d")
+    skip=false
+    for o in "${DIR_OMIT[@]}"; do
+      if [ "$name" = "$o" ]; then skip=true; break; fi
+    done
+    if [ "$skip" = false ]; then
+      count=$(find "$d" -type f | wc -l)
+      echo "  $name/ ($count files)"
+    fi
+  done
+  echo ""
+  echo "📄 ROOT FILES"
+  find . -maxdepth 1 -type f -exec basename {} \; | sort
+  echo ""
+  echo "📂 FOLDER CONTENTS"
+  FIND_ARGS=""
+  for d in "${DIR_OMIT[@]}"; do
+    FIND_ARGS="$FIND_ARGS -path ./$d -prune -o"
+  done
+  find . $FIND_ARGS -type f -print | grep -v "^\./[^/]*$" | sort
+  echo ""
+  echo "Omitted: ${DIR_OMIT[*]}"
+}
+
+run_links() {
+  local BASE="$1"
+  local LABEL="$2"
+  echo "🔗 $LABEL LINKS"
+  FIND_ARGS=""
+  for d in "${LINK_OMIT[@]}"; do
+    FIND_ARGS="$FIND_ARGS -path ./$d -prune -o"
+  done
+  find . $FIND_ARGS -type f -print | sort | while read f; do
+    path="${f#./}"
+    encoded=$(echo "$path" | sed 's/ /%20/g; s/+/%2B/g')
+    echo "• 🔗 $path"
+    echo "  $BASE/$encoded"
+    echo ""
+  done
+}
+
+run_raw() {
+  echo "📂 RAW/ CONTENTS"
+  find ./RAW -type f | sort
+  echo ""
+  echo "🔗 RAW LINKS"
+  find ./RAW -type f | sort | while read f; do
+    path="${f#./}"
+    encoded=$(echo "$path" | sed 's/ /%20/g; s/+/%2B/g')
+    echo "• 🔗 $path"
+    echo "  $GITHUB_BASE/$encoded"
+    echo ""
+  done
+}
+
+case "$MODE" in
+  dir)  run_dir ;;
+  raw)  run_raw ;;
+  gh)   run_links "$GITHUB_BASE" "🐙 GITHUB" ;;
+  gl)   run_links "$GITLAB_BASE" "🦊 GITLAB" ;;
+  link)
+    run_links "$GITHUB_BASE" "🐙 GITHUB"
+    echo ""
+    run_links "$GITLAB_BASE" "🦊 GITLAB"
+    ;;
+  both)
+    run_dir
+    echo ""
+    echo "═══════════════════════════════════════"
+    run_links "$GITHUB_BASE" "🐙 GITHUB"
+    echo ""
+    run_links "$GITLAB_BASE" "🦊 GITLAB"
+    ;;
+  *)
+    echo "Usage: ~/p.sh dir | raw | gh | gl | link | both"
+    ;;
+esac
+EOF
+
+chmod +x ~/p.sh
+
+
+
+
+🟪🟪🟪🟪🟪🟪
+📂 RAW/ CONTENTS
+./RAW/INDEX.md
+./RAW/OLD-RAW-SET1.md
+./RAW/OLD-RAW-SET2.md
+./RAW/RAW-001.md
+./RAW/RAW-002.md
+./RAW/RAW-003.md
+./RAW/RAW-004.md
+./RAW/RAW-005.md
+./RAW/RAW-006.md
+./RAW/RAW-007.md
+./RAW/RAW-008.md
+./RAW/RAW-009.md
+./RAW/RAW-010.md
+./RAW/RAW-011.md
+./RAW/RAW-012.md
+./RAW/RAW-013.md
+./RAW/RAW-014.md
+./RAW/RAW-015.md
+./RAW/RAW-016.md
+./RAW/RAW-017.md
+./RAW/RAW-018.md
+./RAW/RAW-019.md
+./RAW/RAW-020.md
+./RAW/RAW-021.md
+./RAW/RAW-022.md
+./RAW/RAW-023.md
+./RAW/RAW-024.md
+./RAW/RAW-025.md
+./RAW/RAW-026.md
+./RAW/RAW-027.md
+./RAW/RAW-028.md
+./RAW/RAW-029.md
+./RAW/RAW-030.md
+./RAW/RAW-031.md
+./RAW/RAW-032.md
+./RAW/RAW-033.md
+./RAW/RAW-034.md
+./RAW/RAW-035.md
+./RAW/RAW-036.md
+./RAW/RAW-037.md
+./RAW/RAW-038.md
+./RAW/RAW-039.md
+./RAW/RAW-040.md
+./RAW/RAW-041.md
+./RAW/RAW-042.md
+./RAW/RAW-043.md
+./RAW/RAW-044.md
+./RAW/RAW-045.md
+./RAW/RAW-046.md
+./RAW/RAW-047.md
+./RAW/RAW-048.md
+./RAW/RAW-049.md
+./RAW/RAW-050.md
+./RAW/RAW-051.md
+./RAW/RAW-052.md
+./RAW/RAW-053.md
+./RAW/RAW-054.md
+./RAW/RAW-055.md
+./RAW/RAW-056.md
+./RAW/RAW-057.md
+./RAW/RAW-058.md
+./RAW/RAW-059.md
+./RAW/RAW-060.md
+./RAW/RAW-061.md
+./RAW/RAW-062.md
+./RAW/RAW-063.md
+./RAW/RAW-064.md
+./RAW/RAW-065.md
+./RAW/RAW-066.md
+./RAW/RAW-067.md
+./RAW/RAW-068.md
+./RAW/RAW-069.md
+./RAW/RAW-070.md
+./RAW/RAW-071.md
+./RAW/RAW-072.md
+./RAW/RAW-073.md
+./RAW/RAW-074.md
+./RAW/RAW-075.md
+./RAW/RAW-076.md
+./RAW/RAW-077.md
+./RAW/RAW-078.md
+./RAW/RAW-079.md
+./RAW/RAW-080.md
+./RAW/RAW-081.md
+./RAW/RAW-082.md
+./RAW/RAW-083.md
+./RAW/RAW-084.md
+./RAW/RAW-085.md
+./RAW/RAW-086.md
+./RAW/RAW-087.md
+./RAW/RAW-088.md
+./RAW/RAW-089.md
+./RAW/RAW-090.md
+./RAW/RAW-091.md
+./RAW/RAW-092.md
+./RAW/RAW-093.md
+./RAW/RAW-094.md
+./RAW/RAW-095.md
+./RAW/RAW-096.md
+./RAW/RAW-097.md
+./RAW/RAW-098.md
+./RAW/RAW-099.md
+./RAW/RAW-100.md
+./RAW/RAW-101.md
+./RAW/RAW-102.md
+./RAW/RAW-103.md
+./RAW/RAW-104.md
+./RAW/RAW-105.md
+./RAW/RAW-106.md
+./RAW/RAW-107.md
+./RAW/RAW-108.md
+./RAW/RAW-109.md
+./RAW/RAW-110.md
+./RAW/RAW-111.md
+./RAW/RAW-112.md
+./RAW/RAW-113.md
+./RAW/RAW-114.md
+./RAW/RAW-115.md
+./RAW/RAW-116.md
+./RAW/RAW-117.md
+./RAW/RAW-118.md
+./RAW/RAW-119.md
+./RAW/RAW-120.md
+./RAW/RAW-121.md
+./RAW/RAW-122.md
+./RAW/RAW-123.md
+./RAW/RAW-124.md
+./RAW/RAW-125.md
+./RAW/RAW-126.md
+./RAW/RAW-127.md
+./RAW/RAW-128.md
+./RAW/RAW-129.md
+./RAW/RAW-130.md
+./RAW/RAW-131.md
+./RAW/RAW-132.md
+./RAW/RAW-133 (add to cross religion).md
+./RAW/RAW-133.md
+./RAW/RAW-134.md
+./RAW/RAW-135.md
+./RAW/RAW-136.md
+./RAW/RAW-137.md
+./RAW/RAW-138.md
+./RAW/RAW-139.md
+./RAW/RAW-140.md
+./RAW/RAW-141.md
+./RAW/RAW-142.md
+./RAW/RAW-143.md
+./RAW/RAW-EXTRA-PATTERNS.md
+./RAW/RAW-SET1.md
+./RAW/RAW-SET2.md
+./RAW/RAW-SUPPLEMENT.md
+./RAW/RAW-xxx. add to TITS.md
+./RAW/RAW-xxx. small add to.md
+
+🔗 RAW LINKS
+• 🔗 RAW/INDEX.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/INDEX.md
+
+• 🔗 RAW/OLD-RAW-SET1.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/OLD-RAW-SET1.md
+
+• 🔗 RAW/OLD-RAW-SET2.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/OLD-RAW-SET2.md
+
+• 🔗 RAW/RAW-001.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-001.md
+
+• 🔗 RAW/RAW-002.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-002.md
+
+• 🔗 RAW/RAW-003.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-003.md
+
+• 🔗 RAW/RAW-004.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-004.md
+
+• 🔗 RAW/RAW-005.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-005.md
+
+• 🔗 RAW/RAW-006.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-006.md
+
+• 🔗 RAW/RAW-007.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-007.md
+
+• 🔗 RAW/RAW-008.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-008.md
+
+• 🔗 RAW/RAW-009.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-009.md
+
+• 🔗 RAW/RAW-010.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-010.md
+
+• 🔗 RAW/RAW-011.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-011.md
+
+• 🔗 RAW/RAW-012.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-012.md
+
+• 🔗 RAW/RAW-013.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-013.md
+
+• 🔗 RAW/RAW-014.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-014.md
+
+• 🔗 RAW/RAW-015.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-015.md
+
+• 🔗 RAW/RAW-016.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-016.md
+
+• 🔗 RAW/RAW-017.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-017.md
+
+• 🔗 RAW/RAW-018.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-018.md
+
+• 🔗 RAW/RAW-019.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-019.md
+
+• 🔗 RAW/RAW-020.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-020.md
+
+• 🔗 RAW/RAW-021.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-021.md
+
+• 🔗 RAW/RAW-022.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-022.md
+
+• 🔗 RAW/RAW-023.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-023.md
+
+• 🔗 RAW/RAW-024.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-024.md
+
+• 🔗 RAW/RAW-025.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-025.md
+
+• 🔗 RAW/RAW-026.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-026.md
+
+• 🔗 RAW/RAW-027.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-027.md
+
+• 🔗 RAW/RAW-028.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-028.md
+
+• 🔗 RAW/RAW-029.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-029.md
+
+• 🔗 RAW/RAW-030.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-030.md
+
+• 🔗 RAW/RAW-031.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-031.md
+
+• 🔗 RAW/RAW-032.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-032.md
+
+• 🔗 RAW/RAW-033.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-033.md
+
+• 🔗 RAW/RAW-034.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-034.md
+
+• 🔗 RAW/RAW-035.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-035.md
+
+• 🔗 RAW/RAW-036.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-036.md
+
+• 🔗 RAW/RAW-037.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-037.md
+
+• 🔗 RAW/RAW-038.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-038.md
+
+• 🔗 RAW/RAW-039.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-039.md
+
+• 🔗 RAW/RAW-040.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-040.md
+
+• 🔗 RAW/RAW-041.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-041.md
+
+• 🔗 RAW/RAW-042.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-042.md
+
+• 🔗 RAW/RAW-043.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-043.md
+
+• 🔗 RAW/RAW-044.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-044.md
+
+• 🔗 RAW/RAW-045.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-045.md
+
+• 🔗 RAW/RAW-046.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-046.md
+
+• 🔗 RAW/RAW-047.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-047.md
+
+• 🔗 RAW/RAW-048.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-048.md
+
+• 🔗 RAW/RAW-049.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-049.md
+
+• 🔗 RAW/RAW-050.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-050.md
+
+• 🔗 RAW/RAW-051.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-051.md
+
+• 🔗 RAW/RAW-052.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-052.md
+
+• 🔗 RAW/RAW-053.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-053.md
+
+• 🔗 RAW/RAW-054.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-054.md
+
+• 🔗 RAW/RAW-055.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-055.md
+
+• 🔗 RAW/RAW-056.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-056.md
+
+• 🔗 RAW/RAW-057.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-057.md
+
+• 🔗 RAW/RAW-058.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-058.md
+
+• 🔗 RAW/RAW-059.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-059.md
+
+• 🔗 RAW/RAW-060.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-060.md
+
+• 🔗 RAW/RAW-061.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-061.md
+
+• 🔗 RAW/RAW-062.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-062.md
+
+• 🔗 RAW/RAW-063.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-063.md
+
+• 🔗 RAW/RAW-064.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-064.md
+
+• 🔗 RAW/RAW-065.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-065.md
+
+• 🔗 RAW/RAW-066.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-066.md
+
+• 🔗 RAW/RAW-067.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-067.md
+
+• 🔗 RAW/RAW-068.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-068.md
+
+• 🔗 RAW/RAW-069.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-069.md
+
+• 🔗 RAW/RAW-070.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-070.md
+
+• 🔗 RAW/RAW-071.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-071.md
+
+• 🔗 RAW/RAW-072.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-072.md
+
+• 🔗 RAW/RAW-073.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-073.md
+
+• 🔗 RAW/RAW-074.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-074.md
+
+• 🔗 RAW/RAW-075.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-075.md
+
+• 🔗 RAW/RAW-076.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-076.md
+
+• 🔗 RAW/RAW-077.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-077.md
+
+• 🔗 RAW/RAW-078.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-078.md
+
+• 🔗 RAW/RAW-079.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-079.md
+
+• 🔗 RAW/RAW-080.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-080.md
+
+• 🔗 RAW/RAW-081.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-081.md
+
+• 🔗 RAW/RAW-082.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-082.md
+
+• 🔗 RAW/RAW-083.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-083.md
+
+• 🔗 RAW/RAW-084.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-084.md
+
+• 🔗 RAW/RAW-085.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-085.md
+
+• 🔗 RAW/RAW-086.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-086.md
+
+• 🔗 RAW/RAW-087.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-087.md
+
+• 🔗 RAW/RAW-088.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-088.md
+
+• 🔗 RAW/RAW-089.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-089.md
+
+• 🔗 RAW/RAW-090.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-090.md
+
+• 🔗 RAW/RAW-091.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-091.md
+
+• 🔗 RAW/RAW-092.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-092.md
+
+• 🔗 RAW/RAW-093.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-093.md
+
+• 🔗 RAW/RAW-094.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-094.md
+
+• 🔗 RAW/RAW-095.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-095.md
+
+• 🔗 RAW/RAW-096.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-096.md
+
+• 🔗 RAW/RAW-097.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-097.md
+
+• 🔗 RAW/RAW-098.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-098.md
+
+• 🔗 RAW/RAW-099.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-099.md
+
+• 🔗 RAW/RAW-100.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-100.md
+
+• 🔗 RAW/RAW-101.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-101.md
+
+• 🔗 RAW/RAW-102.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-102.md
+
+• 🔗 RAW/RAW-103.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-103.md
+
+• 🔗 RAW/RAW-104.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-104.md
+
+• 🔗 RAW/RAW-105.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-105.md
+
+• 🔗 RAW/RAW-106.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-106.md
+
+• 🔗 RAW/RAW-107.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-107.md
+
+• 🔗 RAW/RAW-108.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-108.md
+
+• 🔗 RAW/RAW-109.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-109.md
+
+• 🔗 RAW/RAW-110.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-110.md
+
+• 🔗 RAW/RAW-111.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-111.md
+
+• 🔗 RAW/RAW-112.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-112.md
+
+• 🔗 RAW/RAW-113.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-113.md
+
+• 🔗 RAW/RAW-114.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-114.md
+
+• 🔗 RAW/RAW-115.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-115.md
+
+• 🔗 RAW/RAW-116.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-116.md
+
+• 🔗 RAW/RAW-117.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-117.md
+
+• 🔗 RAW/RAW-118.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-118.md
+
+• 🔗 RAW/RAW-119.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-119.md
+
+• 🔗 RAW/RAW-120.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-120.md
+
+• 🔗 RAW/RAW-121.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-121.md
+
+• 🔗 RAW/RAW-122.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-122.md
+
+• 🔗 RAW/RAW-123.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-123.md
+
+• 🔗 RAW/RAW-124.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-124.md
+
+• 🔗 RAW/RAW-125.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-125.md
+
+• 🔗 RAW/RAW-126.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-126.md
+
+• 🔗 RAW/RAW-127.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-127.md
+
+• 🔗 RAW/RAW-128.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-128.md
+
+• 🔗 RAW/RAW-129.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-129.md
+
+• 🔗 RAW/RAW-130.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-130.md
+
+• 🔗 RAW/RAW-131.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-131.md
+
+• 🔗 RAW/RAW-132.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-132.md
+
+• 🔗 RAW/RAW-133 (add to cross religion).md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-133%20(add%20to%20cross%20religion).md
+
+• 🔗 RAW/RAW-133.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-133.md
+
+• 🔗 RAW/RAW-134.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-134.md
+
+• 🔗 RAW/RAW-135.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-135.md
+
+• 🔗 RAW/RAW-136.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-136.md
+
+• 🔗 RAW/RAW-137.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-137.md
+
+• 🔗 RAW/RAW-138.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-138.md
+
+• 🔗 RAW/RAW-139.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-139.md
+
+• 🔗 RAW/RAW-140.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-140.md
+
+• 🔗 RAW/RAW-141.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-141.md
+
+• 🔗 RAW/RAW-142.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-142.md
+
+• 🔗 RAW/RAW-143.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-143.md
+
+• 🔗 RAW/RAW-EXTRA-PATTERNS.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-EXTRA-PATTERNS.md
+
+• 🔗 RAW/RAW-SET1.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-SET1.md
+
+• 🔗 RAW/RAW-SET2.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-SET2.md
+
+• 🔗 RAW/RAW-SUPPLEMENT.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-SUPPLEMENT.md
+
+• 🔗 RAW/RAW-xxx. add to TITS.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-xxx.%20add%20to%20TITS.md
+
+• 🔗 RAW/RAW-xxx. small add to.md
+  https://raw.githubusercontent.com/PATTERN-PUZZLE/PATTERN/main/RAW/RAW-xxx.%20small%20add%20to.md

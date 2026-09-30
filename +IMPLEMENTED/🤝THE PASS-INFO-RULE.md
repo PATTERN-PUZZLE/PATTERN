@@ -124,3 +124,40 @@ this window, compared part by part; the parent/child reading is
 mine.
 
 Brass739🔔
+
++IMPLEMENTED/🤝THE PASS-INFO-RULE.md
+⚡ CHECK-OVER — 2026-09-29 (Amber581🐢) v2 READ WHOLE; FOUR FIXES ON TOUCH; THE SEED
+FILE: +IMPLEMENTED/🤝THE PASS-INFO-RULE.md, bottom, after Brass739's
+block.
+HOLDS: the rule, the eight parts, the cold-reader check, the
+scene, the tests, the gates. PAGE-ONE v10.1 carries the rule near
+whole: its map line is the eight parts, and its Cold line after
+every box is this file's floor test ("tell me more," not "what
+does that mean?").
+FIX ON TOUCH, four:
+· Line one still says 🤝THE-PASS-INFO-RULE.md with hyphens; the
+  disk name has a space (Brass739's fix, half done: the RAW "?" is
+  gone, the name isn't). The disk name wins.
+· No ◆ tag on the last line. Every file carries one (STANDARDS
+  rule 5); ◆PASSINFO-001 at the next touch, so "above the tag"
+  has somewhere to land.
+· WORDS, COMB: "park what you're unsure of" is the overturned rule
+  12 → "take the find; keep the seconds and thirds with what they
+  might join; nothing expires."
+· WORDS, +PLAN: "a short check at a real fork" is the 09-11 lamp;
+  PAGE-ONE now carries THE ROOM, which always runs, weighted to
+  the stakes, and the fork inside it.
+THE TWO SHAPES (Brass739's block): lean, the eight parts are what
+a truth carries, FULL-FORM is what a finding carries, PAGE-ONE's
+block is how either travels. Holder rules; then WORDS says which.
+THE SEED, tag-shaped, for the tray: before a line leaves, give it
+its eight parts, floor first, raw last; tired → [SEED], never a
+faked body. Scene: "the map must match the territory" repeated
+for a month and nobody could say what it meant.
+Falsify: a stranger with only this file and PAGE-ONE still asks
+what "the body" means.
+Confidence: 🧾 v2 as pasted, whole; today's 🐙DIR-FILES for the
+disk name; premises 7, held 7.
+Amber581🐢
+
+◆PASSINFO-001
