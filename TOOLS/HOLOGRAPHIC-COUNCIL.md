@@ -1,3 +1,9 @@
+TOOLS/🔗 📡 HOLOGRAPHIC-COUNCIL.md
+STATE: older than COUNCIL-MANAGER, which grew from it ("legacy": 💎847's and Ash's word, not the holder's) · v4.0 (2026-05-13) · counts its critics two ways (28 and 29) · what runs today: the quick form, and "what is this critic's love protecting?"
+DO THIS: stress-test one idea: Head (does it hold?) · Heart (does it hurt or heal?) · Hands (can it be done today?); for each objection, ask what its love is protecting; rebuild, don't defend.
+NOT FOR: an architectural decision (TOOLS/COUNCIL-MANAGER) · all critics run as a ritual
+Top lines added 2026-10-01 by Cedar771🦎: both critic lists read whole; the essays skimmed. The link under this is pre-move, dead. Rechecked 4 · held 3 · corrected 1 (the read was not whole; "legacy" was theirs).
+
 HOLOGRAPHIC-COUNCIL.md
 
 🔗 📡 HOLOGRAPHIC-COUNCIL.md

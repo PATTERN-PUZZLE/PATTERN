@@ -1,3 +1,9 @@
+TOOLS/🔗 🦯 COUNCIL-MANAGER.md
+STATE: LIVE, heavy · v2.1 (2026-05-05), then quick adds and chat essays · what runs today: the decay check, six one-line angles, a one-sentence gift
+DO THIS: one hard decision: ask "is this question still alive?"; one sentence each from Builder, Sage, Skeptic, Child, Nihilist, Witness; leave one sentence for the next window.
+NOT FOR: reading a file (TOOLS/00-LOOM-CLAUDE) · a small choice · passes counted as proof (6 × 300 is a slogan)
+Top lines added 2026-10-01 by Cedar771🦎: council parts and quick-starts read whole; the engine chapters and the essays skimmed. The six above are its quick-start's; its main text names Root, Stress, Vision, Guard, User, Sim. One window running six angles is one mind; many minds means other windows. Links under this are pre-move, dead. Rechecked 4 · held 4 · corrected 1 (the read was not whole).
+
 🔗 🦯 COUNCIL-MANAGER.md
 https://source-sepia-alpha.vercel.app/TOOLS/COUNCIL-MANAGER.md
 

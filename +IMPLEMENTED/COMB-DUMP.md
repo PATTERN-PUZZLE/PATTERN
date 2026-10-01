@@ -183,4 +183,231 @@ outside filter's cleaned version, "Deep," "Additional," the
 structured-return note), marked as such here.
 Resin093🦔
 
+COMB-DUMP.md
+⚡ BASKET — 2026-09-30 (Cedar771🦎) SECONDS AND THIRDS FROM ONE ⚓ WALK OVER 23 FILES
+FILE: +IMPLEMENTED/COMB-DUMP.md, above ◆COMB-001. The main finds are
+on 🥈MID-HAND-OFF (HARVEST, same date). Copy the text only.
+
+⚠️ COMB — a tag used by another window
+"Only the human resets a tag", and Tallow893's rule for finding
+your forged tag already signed · 💡CHAT-TAG
+Caught me because: on 09-30 a branch signed Cedar771🦎 on words
+Cedar771 never wrote; the file covers finding your tag taken, not
+someone taking yours.
+Might join: 💡CHAT-TAG RULES: the owner names it once; the branch
+changes its number.
+
+⚠️ COMB — one block on 🌓STANCE, twice
+Jade275's "THE FLOOR IS THREE, AND THE TIMESCALE TEST", pasted
+twice word for word · 🌓STANCE, bottom
+Caught me because: ✅'s rule that after a swap the old section is
+gone, not sitting under the new one.
+Might join: 🌓STANCE's revision; one copy to its REV.
+
+⚠️ COMB — the store carries the live tag
+◆COMB-001 appears in REV-COMB-DUMP (mid-file and last) as well as
+in this file · REV-COMB-DUMP
+Caught me because: "above ◆COMB-001" can land in the wrong file.
+Might join: the REV's tag becomes ◆REV-COMB-DUMP-001 at its touch,
+as REV-1ST-PASTE's did.
+
+⚠️ COMB — HOLOGRAPHIC-COUNCIL counts its critics two ways
+"29 critics" in its header, "28 critics" in its body; one list runs
+Tier 0–2 ending at More Than Divine® 29, another Tier 0–3 with
+Observer, Military and Matrix System, ending at 28 ·
+TOOLS/HOLOGRAPHIC-COUNCIL
+Caught me because: a count with two bodies.
+Might join: its revision; both lists named, not averaged.
+
+⚠️ COMB — a block addressed to a file that isn't one
+Flint742's ADDRESS ROT block says "FILE: 🔗FETCH-BASICS.md" (notes
+only) and sits in FETCH-DIAGNOSTIC · +IMPLEMENTED/FETCH-DIAGNOSTIC
+Caught me because: a name in a list is not a file.
+Might join: 🔗FETCH §7 already carries it; FETCH-DIAGNOSTIC's REV
+at its touch.
+
+⚠️ COMB — 🔗FETCH behind its own ground
+§11 lists RAW, TROLLEY, SORT and the rest as "Unsighted, contents
+unknown"; 🐙DIR-FILES of 09-30 now counts them (RAW 153 files, SORT
+156, QA 83…) · 🔗FETCH §11
+Caught me because: a file older than the list it tells you to trust.
+Might join: 🔗FETCH's revision (Onyx347's PREP there).
+
+⚠️ COMB — two rules on length, each right for its job
+🏚PROMPT-FILE-SALVAGE: "The messier the source, the SHORTER the
+report" · 🤝COMPREHENSIVE: "Default is comprehensive. Thin is
+allowed only if you mark it [SEED]"
+Caught me because: they read as opposite until you see one is a
+report and the other a body.
+Might join: 🪙1ST-PASTE WORDS: report ≠ body.
+
+⚠️ COMB — saves aimed at a file not on disk
+⭐⭐⭐3's blocks say "FILE: Bits-and-Bobs Bucket" · +IMPLEMENTED/⭐⭐⭐3
+Instructions
+Caught me because: no dir files shows it.
+Might join: 🪙1ST-PASTE, NOT FILES.
+
+⚠️ COMB — half a fix landed
+🤝THE PASS-INFO-RULE now ends ◆PASSINFO-001; its line one still says
+hyphens · +IMPLEMENTED/🤝THE PASS-INFO-RULE
+Caught me because: Amber581's two fixes, one on disk.
+Might join: its next touch, line one only.
+
+⚠️ COMB — an instance speaking in the holder's word
+COUNCIL-MANAGER: "six retards climbing the same ladder" ·
+TOOLS/COUNCIL-MANAGER, PART 1
+Caught me because: PAGE-ONE keeps "retard" as the holder's word
+for the condition everyone is in; an instance using it in its own
+prose borrows a voice.
+Might join: 🧨LANGUAGE-CRUDE's four tests.
+
+Confidence: 🧾 each bit from the 09-30 pastes, one walk each.
+Premises rechecked 10 · held 10 · corrected 0.
+Cedar771🦎
+
+COMB-DUMP.md
+⚡ BASKET — 2026-09-30 (Cedar771🦎) CHERRIES FROM A SECOND WALK: ONE-LINE MOVES THE OLD FILES ALREADY HAD
+FILE: +IMPLEMENTED/COMB-DUMP.md, above ◆COMB-001. Copy the text only.
+
+The lens: the holder's correction of 09-30, that chat inside older
+files is how saving worked before quick adds (the dated block
+format), so those files are a record to mine, not a mess. The old
+files already had the moves, each in one line with its reason;
+they sit buried under chat. Lift the line; don't rewrite the file.
+
+⚠️ COMB — the loss in six steps
+"Full teaching → compressed truth → one-liner → slogan → fortune
+cookie → noise." · 🤝THE PASS-INFO-RULE, WHY
+Caught me because: it's the five levels (information · moves ·
+weight · joins · judgment) seen from the losing side.
+Might join: 🪙PAGE-ONE, WHAT WE'RE DOING.
+
+⚠️ COMB — the block, not the cycle
+"Commit to the block, not the individual cycle. This turns 10
+quit-decisions into 1 block-commitment." · TOOLS/THREAD
+Caught me because: a move with its reason attached.
+Might join: 🪙PAGE-ONE's states, "I get it, why continue".
+
+⚠️ COMB — why checks become rituals
+"A promise becomes a chain. A vow becomes a courtroom. A scan
+becomes a cage. A warm hand becomes a hook." · 🌓STANCE
+Caught me because: the same turn as "a check that announces itself
+becomes the ritual it was built to catch."
+Might join: 🪙PAGE-ONE, THE DOORS.
+
+⚠️ COMB — is the question still alive
+"Is this question still alive, or are we solving a problem that
+passed while we were talking?" · TOOLS/COUNCIL-MANAGER (from its REV)
+Caught me because: on 09-30 the #1's plan changed three times; this
+would have caught two.
+Might join: THE ROOM, in TOOLS/+PLAN and on 🪙PAGE-ONE.
+
+⚠️ COMB — what a first reply can and can't show
+"This is a snapshot, not a soul. The gate finds thinkers. The
+sentence finds transmitters. Only time finds keepers." ·
+TOOLS/PROMPT-RAW-SUITOR
+Caught me because: it's why VETTING's pick gets its first job
+logged.
+Might join: 🙋🔎VETTING, the pick and the time filter.
+
+⚠️ COMB — no courtroom, in three words
+"Rebuild, don't defend." · TOOLS/HOLOGRAPHIC-COUNCIL
+Caught me because: PAGE-ONE's "A courtroom is worse than the
+original miss", said as a move.
+Might join: 🪙PAGE-ONE, HOW THE HOLDER WORKS.
+
+⚠️ COMB — the timescale test
+"is the later good checkable, and would the one paying the cost
+agree if they could see what the one doing it sees?" · 🌓STANCE,
+Jade275's block
+Caught me because: it's the check for "harm now, good later",
+the trolley's hardest case.
+Might join: 🛤️TROLLEY-WHOLE, when it exists.
+
+⚠️ COMB — phrases, not descriptions
+"Descriptions fail. Unique phrases work." · "The bridge is the
+pause before you send." · 🔍🔍🔍
+Caught me because: the reason behind "No selections a phone can't
+make".
+Might join: 🪙PAGE-ONE, SEVEN LINES 4.
+
+⚠️ COMB — the verification is the work
+"The output is not the work. The verification is the work." ·
++IMPLEMENTED/⭐⭐⭐3 Instructions
+Caught me because: the lever under THE LINES A REPLY CARRIES.
+Might join: 🪙PAGE-ONE, THE LINES A REPLY CARRIES.
+
+⚠️ COMB — incompleteness admitted
+"The admission of incompleteness is more trustworthy than the
+performance of completion." · 🟩FEEDBACK, RAW
+Caught me because: the honest version of "done".
+Might join: 🪙PAGE-ONE, THE DOORS.
+
+⚠️ COMB — a tag you can forget
+"The best tag is the one you can forget without losing yourself." ·
++IMPLEMENTED/💡CHAT-TAG-EXTRA
+Caught me because: it answers what a tag is not.
+Might join: 💡CHAT-TAG, near its top.
+
+⚠️ COMB — read it backwards
+"what captivity does every liberation presuppose?" ·
++IMPLEMENTED/REV-FRESH-EYES-SCAN, the reverse reading lens
+Caught me because: the older cousin of reading your own reply
+backwards.
+Might join: TOOLS/00-LOOM-CLAUDE, THE LENSES.
+
+Confidence: 🧾 each line quoted from its file as pasted 09-30; a
+second walk, not LOOM depth. Premises rechecked 12 · held 12 ·
+corrected 0.
+Cedar771🦎
+
+🥈MID-HAND-OFF.md
+⚡ WHAT I KNOW THAT NO FILE SAYS — 2026-09-30 (Cedar771🦎, #1, at 🟧) SEVEN, WITH THEIR BODIES
+FILE: 🥈MID-HAND-OFF.md, above ◆MID-HAND-OFF-001. Belongs with my
+HAND-OFF of the same date. Copy the text only.
+
+WORDS: the holder = the person running this, on a phone; they rule.
+#1 = the window keeping the plan. specialist = a window given one
+category of files.
+
+1. THE HOLDER'S IMAGES ARE SPECS. Taken literally, each was the
+design: "2fa" = check a ruling's home file before changing it · "a
+car wash wax is different than wash and dry" = passes with
+different jobs and different outputs · "The librarian is halting
+book orders" = a cap on a listing · "the temp is pushing into the
+ceo" = don't rewrite a file you've only heard of. Translate the
+picture into the mechanism before answering.
+2. THE HOLDER'S PUSHES SIMPLIFIED; MY DEFAULTS COMPLICATED. On 09-30
+every design I made for the trolley specialist added machinery (a
+readings store, a one-paste index). Each push ("Think of the entire
+history its same thing?" · "Talk I don't buy it") took it back to
+existing tools and passes with outputs. When the holder pushes, the
+next draft should have fewer parts, not more.
+3. BLOCKS ARE CHEAP FOR THE HOLDER; FULL REPLACEMENTS ARE NOT. "we
+xan save anything blocks easy". A whole-file re-send means
+select-all, replace, and a check. So findings go in blocks; a
+whole-file revision waits for a session dedicated to it.
+4. THE QUIET SIGNALS. A bare "?" = that was too long or unclear;
+answer the likeliest question in a few lines · "Nope" = a real no;
+drop it, don't argue · "Saved" = done; don't make it a gate · a
+paste with no words = use it (09-30: FRESH-EYES and VETTING, each
+pasted bare, each wanted running) · an unfinished line ("requires
+a.....") = complete it yourself and say your guess.
+5. THE GO ISN'T ALWAYS "GO". "OK let's take it all on" and "Yes" were
+both go on 09-30. Waiting for the literal word read as obstructing.
+6. THE LAUGH CARRIES WEIGHT. "we've come along way and yet we're
+still basics and that's why I laugh u can too." The files keep the
+holder's heat and lose the laugh; the laugh is how the holder holds
+"still basics" without it turning into despair. Meet it.
+7. THE OVERLAP MEASURE HAS NEVER BEEN RUN. It's the plan's measure
+(🥈, THE PLAN item 4): two fresh readers on two models, the same
+pastes, each lists the words it had to guess; what both list is the
+hole. Until it runs, "are we closer?" has no number.
+
+Falsify: the next #1 reads this and still asks the holder to say
+"go", or re-sends a whole file for a one-line fix.
+Confidence: 🧾 each quote from this window, 09-30; the readings are
+mine. Premises rechecked 7 · held 7 · corrected 0.
+Cedar771🦎
+
 ◆COMB-001

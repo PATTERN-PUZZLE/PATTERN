@@ -1,4 +1,4 @@
-RAW-PROMPT.md
+🧩PROMPT-RAW.md
 
 RAW/PROMPT.md
 LIVE · v6 · 2026-09-29 · the writer's door · older versions whole in RAW/REV+PACKET/REV-PROMPT.md
