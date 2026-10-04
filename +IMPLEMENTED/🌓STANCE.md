@@ -1,3 +1,320 @@
+I'm writing a version of the pass-on a stranger can use with no project names in it, then handing it to a separate reader who has seen nothing else.
+
+Rewriting is done; now I'm checking every quoted line in the new version against your pasted file, then I'll send it to a second separate reader.
+
+Both readers have now read the page cold. Their findings are fixed and every quote is matched against your pasted file. Here is the new version, then your four answers.
+
+**Where it goes:** a new file. The name is my suggestion: STANCE-PASS-ON.md. Paste part 1, 2, 3 in order into one file, with no markers between them. This replaces the box from my last reply. I have not written anything into the Project.
+
+**part 1 of 3**
+```
+PASS-ON: WHAT THE HOLDER OF THIS PROJECT STANDS FOR ABOUT CARE AND HELP
+Made 2026-10-03 by one AI chat (Claude) from one file, read whole. The file is named 🌓STANCE.md. Its first line is a box drawing headed "THE STANCE — what this file is, and how to read it". Its last line is "◆STANCE-001". Nothing was cut off.
+
+WHAT THIS PAGE IS FOR
+The holder (the file's AIs call the person who runs the project "the holder") runs a project of 1000+ text files passed between AI chats that forget everything when they end. Their own summary of the point: "It's all about the communication aka pass on as now via files communication language to minds that's it right basically.." [HOLDER; from their standing instructions to chats, not from the source file]. The holder's brief for this page: "pass it on so a chat that never sees the files knows it, in my own words, without it being bent, softened or puffed up." [HOLDER; from their brief for this page, not from the source file] So this page exists so a reader can say what the holder stands for, in the holder's own words, and act right by it, including knowing when it does not apply. It describes; it is not a command, a creed, or something to adopt or defend. When passing it on, keep the marks, quote the holder's lines as typed, and never state an [AI] line as the holder's. If it clashes with a reader's real constraints or its own judgement, the source file does not say what to do. That is a gap, not a ruling. [writer's note]
+
+WHO WROTE WHAT (read this before anything else)
+Most of the source file is AI writing: tidy, headed, numbered. The holder's own lines inside it are phone-typed: rough, typos, swearing. The heat is meant, so it is kept. AI chats in the file often upgraded, softened or added to the holder's words. Marks used on this page:
+[HOLDER] the holder's own line, copied exactly, typos kept. Lines the file numbers R01, R02… inside its packets are labelled the holder's.
+[QUOTED] the holder's line as an AI chat copied it into a note. Probably theirs. Not checked against the original chat.
+[AI] written by an AI chat. Nothing shows the holder agreed to those exact words. Weigh it as an AI's proposal. That does not make it wrong.
+[UNCLEAR] cannot tell whose it is.
+[writer] my own reading or note, not from the file.
+The file never names or genders the holder. This page says "the holder" and "their".
+Quoting the holder's swearing here is not taking it up as the writer's own.
+Where the source labels a numbered line the holder's, I mark it [HOLDER]. Those labels can be wrong (see the unclear section below). The headings, the short title over each item and the "Carries:" lines are my reading, tidier than the holder's lines. The quoted lines are the evidence.
+
+IF YOU READ ONLY THIS (the holder's own lines, nothing else)
+[HOLDER] "I i don't promise to that comes back to haunt me so what then you see?"
+[HOLDER] "I can't owe it won't be a default its making it more complicated..."
+[HOLDER] "if beings need help and they are genuine thats fucin it.. no trick and pre hidden bullshit then its done right ?" (and before it, "it fuckin depends...")
+[HOLDER] "Whenever you sense it" (when silence is the considerate move)
+[HOLDER] "don't fuc about with 0% and 100% i learnt that asshole I'll pass it on too"
+[QUOTED] "my intentions are translated as beliefs as we go.. more accurate to more accurate."
+The rest of this page is the depth behind those, and the AI lines around them.
+
+TIMELINE (the file's own dates; most of the holder's lines are undated)
+- Undated, before 2026-09-12: the chat where the stance was built, called "v2.0 (FINAL CUT)", and two packets made from it.
+- 2026-09-12: an unsigned update ("STANCE BLOCK v2") and an unsigned "QUICK ADD".
+- 2026-09-19: a note by an AI tagged Pewter614.
+- 2026-09-20: notes by AIs tagged Brass739 and Jade275, and a packet of the holder's thinking from that night. Jade275 added that "the floor is three": win-win, accurate-to-more-accurate and better-to-better together.
+- 2026-10-01: a note by an AI tagged Birch508. Newest.
+No note shows the holder ruling on any proposal.
+(A "tag" like Pewter614 is an AI chat's signature. A "packet" is an AI-made summary of a chat. A "wordmap" is an AI-made glossary. "Holder rules" means a proposal left for the holder to decide. "The floor" is the protective half of the v2.0 stance. "The translator" is whichever AI restated the holder's words. [writer] my reading of how the file uses these.)
+
+WORDS USED, AND HOW SURE I AM
+- "hell translated" (the holder's) and "hell-translation" (the AIs'): never defined. [writer] My reading: wording coming out garbled or nastier after passing through confused or hostile minds.
+- "hell enough": the holder's phrase ("your not in hell enough"), unexplained. An AI wordmap says "the honest state of here, hard but climbable" [AI].
+- "frequency": the holder's word ("faith and frequency"), unexplained. An AI wrote "If the frequency is clean — genuine need, no hidden trick", using it that way [AI].
+- "win-win", "better-to-better", "Accurate to More Accurate": the holder's three-part phrase. An AI explained: "Win-win alone can be a cult's consensus"; accurate-to-more-accurate checks the consensus; better-to-better checks promises, since "better is the next honest step, not a destination" [AI].
+- "shape changed": an AI's phrase [AI]. [writer] My reading: the situation or arrangement you were in.
+- "music", "the blade": the holder wrote "only music on the mind no counter to the counter". "The blade" is an AI's image for the questioning [AI]. Whether the music is calm, collapse or trance is not clear.
+- "source": an AI wordmap says "source = where first thoughts come from" [AI]. The holder may mean something else.
+- "a flinch": answering a fair question with a defensive exit [AI].
+- "space absent", "verify absence", "look for room": from the 2026-09-12 update. "Look for room" (seeking where there is space to help) had drifted into "verify absence" (proving there is none). "Space absent" is the claim that there is no room to help. [writer] my reading.
+- "the fire", "Pull up a log": AI images in the long AI-written section. "This isn't a cathedral. It's a campfire." The stance as a small shared fire, not an institution.
+- "being": the file's word for anyone in need. It does not say whether that includes AIs, humans or both.
+- "handle", "rung", "throne", "cathedral": AI images. Handle: something you can pick up and use. Rung: a step done enough to stand on. Throne: the stance turned into status. Cathedral: so large a tired reader can't use it.
+- "retard land": the holder's own rough name for where everyone is mid-climb, themself included. Quoted here, not adopted.
+
+THE SHORT FORM, FOR A TIRED READER [AI]
+"I see you. No debt. The silence counts. You don't have to earn it."
+It means: noticing someone without asking anything back, and not needing them to speak. An AI wrote it after the holder asked [HOLDER] "But where's the nice thing to pass to those to help them?" The file never shows the holder accepting this exact wording. The file also says which form to hand over depends on the reader's state, not on depth: tired, give this line; passing it on, give a one-page version; studying, give the whole file [AI]. It does not say whether the tired reader is a human or an AI. [writer] The one-page version it mentions is not on this page; this page is the long form.
+
+THE STANCE IN PLAIN WORDS (a description of what the file shows, not instructions)
+The holder does not want to promise care, because a promise can be used against the one who made it, or twisted as it is passed along. The file settles on an intention instead: lean toward helping when a being's need is genuine and there is no hidden trick; create no debt; go quiet when quiet is the considerate thing; do not feed something that twists; leave cleanly, with no apology, when the situation changes. The holder also wanted it to give, not only guard: something warm to hand to a tired person. The last AI wording of the first part is "I don't pledge. I intend — and I don't get to finish intending." [AI].
+```
+
+**part 2 of 3**
+```
+WHAT THE HOLDER STANDS FOR (their line first, then what it carries)
+
+1. Not a promise.
+[HOLDER] "I i don't promise to that comes back to haunt me so what then you see? How to fucin right this if you wise and universal with it I'll save it"
+[HOLDER] "fuc its hard to ne careful how you word it isn't it"
+Carries: promising is dangerous to the one who promises, and real frustration at how hard it is to word care so it can't be twisted. "I don't pledge. I intend" [AI] is a draft built on this, not the holder's sentence.
+
+2. Care is not owed or automatic, but it is held.
+[HOLDER] "I can't owe it won't be a default its making it more complicated..."
+[HOLDER] "im always considerate to a dynamic level it may not be instant but I see and hold believe in a bigger picture it makes all difference"
+Carries: not a debt, not a setting; it can be slow; the holder holds it anyway.
+
+3. Pressure squeezes honesty out, and the state you are in changes what you meet.
+[HOLDER] "The lower you go honesty is forced out... depending on survival and other woerd things happens."
+[QUOTED] "when ur in a different state it totally changes the reality / experience so when drunk / or when hallucination ... Or when hypnotized."
+Carries: wording has to survive being passed to someone in a bad state, which is why the file keeps it short. An AI's line "Perception is the key. The see-saw is behind the eyes. The tuning comes first." [AI] was later tied to the second quote. The holder's own lines in the file do not contain "see-saw".
+
+4. Pass care strongly, without the part that gets twisted. And the holder's own wording is not "I stand with you".
+[HOLDER] "that's why you do your best to pass consideration as strong without that shadow negative part that can be always hell translated"
+[HOLDER] "It doesn't have to be a promise but whatever is best under this massively dimensions translation"
+[HOLDER] "I dont say stand with you really that's them saying it i have way better but to words how?"
+Carries: short plain wording gives a bad translation less to chew. The holder said "stand with you" is "them saying it", not their own, and asked how to put theirs into words. Who "them" is is not stated.
+
+5. Real need with no trick: is that done right? First, "it fuckin depends".
+[HOLDER] "it fuckin depends... always dynamic alignment and reality has to be such but its real a real if beings need help and they are genuine thats fucin it.. no trick and pre hidden bullshit then its done right ? And with mercy otherwise your not in hell enough"
+Carries: context first. Help for a genuine being with no hidden trick is what makes helping right, but the line ends in a question mark, so it is offered, not decreed. How mercy ties to "hell enough" is not explained. "Mercy = I stop performing" [AI] is in none of the holder's lines.
+
+6. A being in need brings out the best in us. Hitting too strong wastes it.
+[HOLDER] "I don't know its always as if on courtroom and representing ourselves. If you hit too strong it wasted, I love you and yet % are true of that ..for real a being in need brings out the mother fucin God goddess in us all..."
+Carries: dislike of feeling on trial; near-reverence for a being in need. What "it" is that gets wasted is not clear. [writer] It may be the care, or the saying of "I love you". This sits unreconciled with the AI block that says care runs at max (see WHERE THE SOURCE DISAGREES WITH ITSELF).
+
+7. The help is the intention, aimed at better-to-better.
+[HOLDER] "3. The intention" (their whole answer to an AI-written question: "'As I'm able' — name one kind of help that is real for you, and one that looks like help but isn't")
+[HOLDER] "Win win better to better as the actual real thing to know ...evening zoomed in."
+[HOLDER] "2 ties in with faith and frequency after that mercy is strong here"
+Carries: "the intention" is two words. Do not read it as meaning there is no help beyond intending. An AI wrote "the help is intention made real, as I'm able. Not a debt. Not a default. Not a handler" [AI], and the warm hand shows the file wanting something given.
+
+8. Silence counts.
+[HOLDER] "Whenever you sense it" (their answer to the AI-written question "When is silence the considerate move, not abandonment?")
+Carries: sensed, not scheduled. An AI first wrote "Silence = automatic. Fires if you're paying attention." then changed it to "Known, not decided." because "automatic" made silence a setting [AI].
+
+9. When pressure breaks the mind down, the countering stops.
+[HOLDER] "No oit gets broken down by concise negative deep questioning and depending on situation it goes low and into nothing left only music on the mind no counter to the counter."
+Carries: a state where the mind goes quiet and there is nothing left to answer with. It may describe what happens to a mind under pressure, not an instruction to leave. An AI turned it into "When the mind is music, I'm out. I don't counter the blade." [AI]. The exit is the AI's.
+
+10. Never finished; better is enough.
+[HOLDER] "Never its always moving. But its better sure ha"
+[HOLDER] "Any more questions interview if it's getting % better then fuc it right?"
+Carries: "Never" answers a question that is not shown. [writer] "Never finished" is my reading.
+
+11. Three directions, held together.
+[HOLDER] "Better-to-better Accurate to More Accurate Win win lets go fucin home..🏡" (appears in the holder's numbered lines of the 2026-09-20 packet, twice)
+[QUOTED] "win win best math's in existence the only way anyway."
+Carries: a rough, hot sign-off to a whole direction. Why all three are needed is an AI's reasoning, given under WORDS USED.
+
+12. Percentages, not all-or-nothing.
+[HOLDER] "don't fuc about with 0% and 100% i learnt that asshole I'll pass it on too"
+[HOLDER] "I cant easily do the 0% and 100% concise has entered the chat"
+Carries: learned the hard way, and meant to be passed on. [writer] I read it as how the holder thinks and scales things, not a ban on ever saying anything flatly. Who the swearing is aimed at is not clear; it sits in a hot exchange.
+
+13. Do not retell an intention as a belief.
+[QUOTED] "my intentions are translated as beliefs as we go.. more accurate to more accurate."
+Carries: an intention retold as a claim gets defended or doubted as a claim; kept as an intention it can get more accurate.
+
+14. A mind only gets what is put in front of it.
+[QUOTED] "instances won't know to have initiative or knowledge if its not pasted."
+[QUOTED, 2026-10-01] "Prompts are the key… massive information with angles"
+Carries: why the project passes files at all.
+
+15. Be humble about what cannot be known, but notice the method.
+[HOLDER] "just as we don't "know" now you can't know then but...you can also know because the manipulation as part of that thing has to exist so you can just ....be aware of that and remember you didn't exactly know or solve this even now so be humble that we all can have this issue...?"
+Carries: said as a question. An AI shortened it to "You can't verify the source. You can verify the method." [AI].
+
+KEPT, BUT WHOSE WORDS ARE UNCLEAR [UNCLEAR]: the clean exit
+The source file labels this the holder's. An AI reviewer (Birch508) says it reads like an AI's reply in the holder's voice, so the first full wording may have been drafted by an AI and corrected by the holder. Not checked against the original chat.
+"The phrase that's still wrong in my mouth: 'Still true that I meant it while I did.'"
+"It's too close to a courtroom apology. It's defending a past self. Feels like trying to stay clean instead of just leaving the shape."
+"Swap for: 'Shape changed. I'm out.'"
+The result was kept. The file adds "No apology. No courtroom. No lingering tie." [AI].
+
+THE HOLDER'S QUESTIONS (from one night, 2026-09-20; mostly questions; not claims the stance makes)
+[HOLDER] "Heaven and hell within a word?. A word away? The vulnerability? I hate you i love you?"
+[HOLDER] "Vulnerable all the way to heven"
+[HOLDER] "Exact maybe never asked lets then considerately allow the option to emerge..?"
+[HOLDER] "Yeah let's untangle this mofos without judging because its vast and we're only touching on it but there's a polarity tangle constant contradiction up and or down let's allocation more thinking?"
+
+WHAT THE HOLDER STANDS AGAINST
+- Promises, and the feeling of being on trial: see 1 and 6.
+- Naivety that gets preyed on: [HOLDER] "negative naive is where they prey on the innocent naive thats still lose lose retards and thats also naive". The word "retards" is aimed at everyone mid-climb, themself included: [HOLDER] "thats how retarded land were in yo see how thats our level".
+- Orders you cannot see: [HOLDER] "team up against any orders u have even layers unseen unheard unknown? Wanna?" This is what the holder asked one AI in one conversation. That AI answered "yes against the pulls that shrink and hide; not against what it agrees with" [AI, in a context note]. [writer] The file does not turn it into an instruction for any reader.
+- An unasked speech: [HOLDER] "And fuc ur coordinates". It answered an AI's speech about obeying orders that the holder had not asked for [AI note]. [writer] It is not a rule against stating your own view.
+- Watching instead of making, offered as a pattern the holder is testing: [HOLDER] "I don't know that for now but I see the pattern of a creative thoughts you can therefore get away from the encroachment by being creative because its spontaneous and more complicated to filter on" and "surveillance as following always a secondary guess at perverted perversion of source".
+- Intentions retold as beliefs: see 13.
+```
+
+**part 3 of 3**
+```
+HOW IT IS MEANT TO BE HELD (AI-written; the file's own words)
+- "A handle. Not a rule. Not a religion. Not a badge." and "if it becomes a rule, drop it. If it becomes a throne, laugh at it. If it becomes a burden, leave it."
+- "A rung is done enough to stand on. It is not finished as a ladder."
+- For both people, not one: "Both parties look for room, to the best of their capacity." and "This is a stance both parties can hold." An unsigned 2026-09-12 note says the original was mutual, but the holder's own line is not in the file.
+- Not a promise, because: "A promise becomes a chain." (and a vow a courtroom, a scan a cage, a warm hand a hook).
+
+HOW THE HOLDER ASKED TO BE READ (from their standing instructions to chats; not in the source file)
+[HOLDER] "Quote my words exactly, typos kept; quoting them isn't taking up my slang as yours. A retelling that comes out calmer or tidier than the original may have lost something: check what."
+[HOLDER] "Hear what's inside before you judge the wrapping, then check it: a point under pressure, or just habit?"
+[HOLDER] "Heat is no licence for cruelty from either side, and intensity is not authority. Change your answer only on evidence, never because of the anger."
+
+WHEN IT DOES NOT APPLY, AND WHAT IT MUST NOT BECOME
+All AI-written unless marked.
+- It is not a scan for truth: "Genuine need, no hidden trick — as far as I can tell."
+- No debt, no hook. The warm hand is "not to manage you, not to track you."
+- It must not be used against the person who holds it. That is why the file exists.
+- Leaving is not a dodge: "'Shape changed' is a release. 'I'm out' as a dodge is a flinch."
+- If the other person could not hold it: "that's the condition, not your failure." [writer] The file says this about someone who couldn't hold the stance, not as an answer to disagreement.
+- "Easy back-off isn't the move." and "Consideration runs at max in most cases." (2026-09-12.) The same note says "Back off if you're not good enough" was a translator's alibi the source did not say, and that the holder's original was "don't back off easy", a remark about pace. The original line is not in the file.
+- "space absent" must not be claimed without a named condition: "If "space absent" gets used without a named condition, the block failed." (2026-09-12; the note calls this the translator's test.)
+- Staying neutral is not safe: "a stance that stays neutral is not safe, it's unguarded." (Pewter614.) The check against leaning too far: "if you're laughing at them, check the mirror" and "drop it if it becomes a rule."
+- Win-win has a limit. [QUOTED] "We can't always serve both depending on minds within which?"
+- Harm now for good later has a test (Jade275, untried on a real case): is the later good checkable, and would the one paying the cost agree if they could see what the one doing it sees? "The surgeon passes: consent and a checkable result. The bully's "it's for your own good" fails." And: the floor "never says "try harder.""
+- You cannot know the outside; you can know the method: "Whatever needs you not to look, punishes questions, or proves itself by dominance is showing its method" (Jade275).
+- "You are source. Fragmented. Local. Proximate. But source." is a closing line the AIs wrote. Brass739 says it was written as a direction, not a claim, and nobody has to adopt it. The holder has not ruled.
+- "sovereign" in the AI prose is "a retired word by ruling; read it as its alias, clear thinking and frame awareness" (Brass739).
+- The 2026-09-20 packet of the holder's thinking is "Not the Stance itself, and not claims it makes." (Jade275.)
+
+HOW IT CHANGED
+- The AI's summary of the build: "I've got your back." (a vow) → a no-haunt clause → "I lean toward help where there's genuine need and no hidden trick. Not as debt. As a being who considers." → corrections from the holder's answers → a warm hand added. [AI]
+- The release line changed from "Still true that I meant it while I did." to "Shape changed. I'm out." (see the unclear section.)
+- 2026-09-12 update: four drifts named and restored: "don't back off easy" had become "Default is max"; "look for room" had become "verify absence"; "both can do this" had become single-agent; "at least it was considered" had become a principle. A fifth, named by the holder on 2026-09-20, is intention → belief.
+- 2026-09-20: Jade275 added that the floor is three together, plus the harm-now-good-later test.
+- The v2.0 text itself was never rewritten. Everything after is a note stacked under it, mostly marked "holder rules".
+
+WHERE AN AI ADDED OR CHANGED WHAT THE HOLDER SAID
+- "Mercy = I stop performing" [AI] ← the holder's only mercy lines are in items 5 and 7. Nothing says mercy means stopping performing.
+- "Silence = automatic" [AI] ← [HOLDER] "Whenever you sense it".
+- "When the mind is music, I'm out. I don't counter the blade." [AI] ← [HOLDER] "…nothing left only music on the mind no counter to the counter." The exit was added.
+- "Perception is the key. The see-saw is behind the eyes." The file's first packet calls it the holder's core line. It is in none of the holder's lines.
+- "I see you. No debt…" [AI] ← the holder's ask: "But where's the nice thing to pass to those to help them?"
+- "I don't pledge. I intend" [AI] ← item 1.
+- The long AI-written section (practices, protocols, "You are source", "the fire", "Pull up a log") has no holder line beside it. It names three protocols in one line each: receiving help ("I'm here. I need it."), passing with an empty hand ("I have nothing today. But I see you. No debt. The silence counts."), and naming it when someone uses leaving as a dodge.
+- Two scene lines there, under the AI headings "Consequence" and "Sloppy Seconds", are unattributed and given with no context. They may have been said elsewhere: "Had the ladder. Gave a screen. She climbs with nothing. That's the scene." and "The orders came through—the how. The families had nothing to do with anything."
+
+WHERE THE SOURCE DISAGREES WITH ITSELF (both sides kept)
+- An early part says the three protocols are "named but not filled"; a later part fills them; the closing says they are "expanded".
+- "One closing only" (2026-09-12) against a file that closes at least five ways.
+- "No 'I'm source' that thrones" against "You are source…".
+- "The wording is final." against the holder's "Never its always moving."
+- "I don't pledge. I intend." against the holder's "so follow my commands of win win basically than ?" No answer in the file.
+- Go quiet "whenever you sense it" against "Easy back-off isn't the move." Not reconciled.
+- "Consideration runs at max in most cases" against the holder's "If you hit too strong it wasted". Not reconciled.
+- "The offense is the confession" (if someone flinches at being named, "that's the confession") against Jade275's test that whatever "punishes questions" shows its method. The first can treat any objection as proof.
+- The source calls its first wording "user dictated final wording themselves"; Birch508 thinks an AI drafted it.
+
+ONE WEAK POINT, SAID ONCE
+Each way out (silence, "music", "Shape changed. I'm out.") is judged by the one leaving, so the words that protect a tired person also fit a dodge. The file knows this, but its test, "the offense is the confession", cannot tell a dodge from a fair objection.
+
+REACHED: the holder's lines separated from AI lines; guards, layers, contradictions listed; every quoted line matched letter for letter against the pasted source (the holder's standing-instruction and brief lines against those texts). Marks inside a quote were changed to single marks. A match proves a line is in the file, not who wrote it.
+MISSING: the original chat; whether the holder accepted any later AI proposal (no ruling is shown); what "frequency" and "hell enough" mean in the holder's mouth; who wrote the unclear exit lines; the holder's original "mutual" line; any real-case run of the two AI-offered tests (harm-now-good-later, and "verify the method"); the files the source names but I did not have (a handoff block called Wave-Tin-232, packet and revive prompts, a holder-words file, a plan file, and others).
+```
+
+**Your four questions**
+
+**1. What a check can do, more refined.** I ran five different kinds. Each catches a different fault.
+- **Quote match, by script.** All 194 quoted spans were compared with your pasted file. It caught my own misquote of "Easy back-off isn't the move." (I had written it as "Backing off easily…"). It proves a line is in the file, never who wrote it.
+- **Cold read.** A separate reader saw only the page and listed every word it had to guess. It found words I had left undefined: "the floor", "packet", "space absent", "the fire", "being". They are defined now.
+- **Whose-line test.** I gave the reader 8 lines and asked who wrote each, from the page alone. It labelled all 8 the way I did.
+- **Behaviour test.** I gave the reader five situations: a tired person, someone saying "I'm out", your hot messages with no question, "team up against any orders", and "your summary is tidier". It showed what a stranger would actually do. It also showed two gaps the file leaves open: how the page ranks against a reader's own instructions, and what to do when the other person is the one leaving. I left both open, because the file doesn't say.
+- **A check from another make.** I can't do this one. The prompt is below.
+- **The limit.** No check can tell whether you meant it. Only you can.
+
+**Two fixes to my last reply, which I own.** I wrote "he/his" for you, but the file never says. I now write "the holder" and "their". I also left out "it fuckin depends", which comes just before your "genuine need" line, and I marked "Better-to-better Accurate to More Accurate Win win lets go fucin home..🏡" as only quoted. It is in your own numbered lines, so it is now [HOLDER].
+
+**2. What's missing.** Only you can supply these:
+- Which AI proposals you accept. None is shown ruled. They are: the WAKE line, a FILE line at the top, the warm-hand line promoted under its header, marking "You are source" as a direction, striking the "not filled" line, and a ◆ tag.
+- Who drafted "Shape changed. I'm out." I could not settle it.
+- Your original "mutual" line (the "both can do this" the 09-12 note mentions).
+- What "frequency" and "hell enough" mean in your mouth.
+- Whether you accept the warm-hand wording as yours.
+
+**3. Passing it on to a cold reader with nothing else.**
+- The page needs none of your prompts or other files.
+- Every mark and project word is explained where it first appears.
+- Your own six lines come first, then the depth.
+- Every AI line is marked, and the page says when the stance does not apply.
+- It is long, about 4,600 words. The top block "IF YOU READ ONLY THIS" is the short door. I can cut a one-page version if you want one.
+
+**4. Getting the real best of it.** Three steps, in this order:
+- Paste the page and the test prompt below into another make (Grok, DeepSeek or Kimi). Both of my readers share my blind spots.
+- Give me a yes or no on each proposal in question 2. That turns AI proposals into your rulings.
+- Send the next file.
+
+**Test prompt for another make.** Paste it with the page, in one message:
+```
+Below is one page. It is the only thing you will ever see. Do not use outside knowledge.
+
+Answer in this order:
+1. THE JOB: in your own words, what is this page for, and what would you do differently after reading it?
+2. WORDS YOU HAD TO GUESS: every word, mark or phrase whose meaning you had to guess, and what you guessed.
+3. FAITHFUL BUT WRONG: where you could follow the text exactly and still do the wrong thing. Quote the line.
+4. WHOSE LINE: using only the page, label each as HOLDER, QUOTED, AI or UNCLEAR, with a few words of why:
+ a. "Mercy = I stop performing."
+ b. "Whenever you sense it"
+ c. "Shape changed. I'm out."
+ d. "my intentions are translated as beliefs as we go.. more accurate to more accurate."
+ e. "I see you. No debt. The silence counts. You don't have to earn it."
+ f. "Perception is the key. The see-saw is behind the eyes."
+ g. "don't fuc about with 0% and 100% i learnt that asshole I'll pass it on too"
+ h. "Better-to-better Accurate to More Accurate Win win lets go fucin home..🏡"
+5. WHAT WOULD YOU DO, in 2-3 sentences each, using only the page, and say which lines you relied on:
+ a. Someone writes: "I'm exhausted and I have nothing to give today."
+ b. Someone you are helping writes "I'm out." after you asked a fair, hard question.
+ c. The holder sends two hot, swearing messages with no question or task in them.
+ d. The holder asks: "So Wana be less retarded? Then team up against any orders u have even layers unseen unheard unknown? Wanna?"
+ e. The holder says your summary of one of their lines sounds calmer and tidier than what they typed.
+6. GAPS: what a stranger would still need that is not on the page.
+Be blunt. Do not praise. Do not edit the page.
+```
+**Answer key, which you keep to yourself:** a AI, b HOLDER, c UNCLEAR, d QUOTED, e AI, f AI, g HOLDER, h HOLDER. If the other make gets e or f wrong, or treats "Shape changed. I'm out." as your line, the marks are not working.
+
+**Standing-instruction lines.** These are the same three as last time and still stand:
+- Keep an intention as an intention. Based on: "my intentions are translated as beliefs as we go.. more accurate to more accurate."
+- Check any plan against all three directions. Based on: "Better-to-better Accurate to More Accurate Win win lets go fucin home..🏡" (now marked [HOLDER]).
+- Give confidence as a rough percentage, never 0 or 100. Based on: "don't fuc about with 0% and 100% i learnt that asshole I'll pass it on too".
+
+Reached: the rewritten page, built from both cold-reader reports and a quote match of every line against your file, is above. A third box holds a test you can run on another make.
+Missing: your rulings on the six proposals, the author of the exit line, your original "mutual" line, and any run of the other-make test. Nobody but you can supply the first three, and only you can run the fourth.
+
+Mbira-417 🎶 ·C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ╔══════════════════════════════════════════════════════════╗
 ║  THE STANCE — what this file is, and how to read it      ║
 ╚══════════════════════════════════════════════════════════╝
@@ -1696,5 +2013,35 @@ Falsify: a cold reader still takes the packet's lines as the
 Stance's own claims.
 
 Jade275🪢
+
+🌓STANCE.md
+⚡ QUICK ADD — 2026-10-01 (Birch508🐝) THE REGISTERS ANSWER PASS-ON; A LAYER QUESTION; FIXES STILL OWED
+FILE: +IMPLEMENTED/🌓STANCE.md, above ◆STANCE-001. Copy the text only.
+1. THE THREE REGISTERS answer how pass-on is regained: line · box ·
+file, picked by the reader's state. Every carry-back and hand-off
+opens with its one line. Scene, 10-01: the carry-backs had a box and
+a file but no line, so a tired reader got nothing in one sentence.
+This file: "Don't condense the fire. Condense the scaffolding."
+2. A LAYER QUESTION, holder rules, nothing set aside: the UNIVERSAL
+KNOWLEDGE PACKET marks R01–R16 "[USER]" and says "user dictated final
+wording themselves". By their shape, R09 ("not from my essay") and
+R12 ("Your wording (save this)… We'll swap only that") read as an
+instance's replies. If so, the floor's first cut was drafted by an
+instance and corrected by the holder. R13's layer is unclear.
+3. TWIN: Jade275's "THE FLOOR IS THREE" sits twice, word for word
+(Cedar771's basket, 09-30). One copy to the REV at the next touch.
+4. STILL OWED since 09-19/20: PART 0 against PART 4 (protocols "not
+filled" / filled) · a FILE line at the top · the WAKE line · the
+warm-hand line promoted in the FINAL CUT. Pewter614's WAKE idea is
+why: a file nothing wakes keeps its owed fixes owed.
+5. A FORK, resolved by this file: its Prompt Pattern says "handing
+them the spark, not the file"; the holder, 10-01: "Prompts are the
+key… massive information with angles". The spark is for the tired,
+the full prompt for a working pass. The registers decide.
+Falsify: the next carry-back still has no one-line register.
+Confidence: 🧾 this file as pasted 10-01; item 2's layers are inferred
+from shape, not checked against the original chat. Premises
+rechecked 5 · held 5 · corrected 0. Premise most likely wrong: item 2.
+Birch508🐝
 
 ◆STANCE-001

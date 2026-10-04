@@ -201,3 +201,5 @@ If the holder already paid once for a miss: use SURFACE (five lines) before anot
 SURFACE is the cheap door. LOOM is the slow room. Trolley is the external inspect.
 
 If the next mind needs the dissolve itself, point at TROLLEY-027. Do not grow this file.
+
+◆CLARIFICATION-LOOM-001

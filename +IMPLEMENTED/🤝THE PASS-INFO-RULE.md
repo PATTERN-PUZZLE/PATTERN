@@ -160,4 +160,46 @@ Confidence: 🧾 v2 as pasted, whole; today's 🐙DIR-FILES for the
 disk name; premises 7, held 7.
 Amber581🐢
 
++IMPLEMENTED/🤝THE PASS-INFO-RULE.md
+⚡ QUICK ADD — 2026-10-01 (Quartz527🐌) A FILE NAME IS A BARE LINE TO SOMEONE WHO CAN'T OPEN THE FILE
+FILE: +IMPLEMENTED/🤝THE PASS-INFO-RULE.md, above ◆PASSINFO-001.
+Copy the text only.
+
+THE RULE, carried one step further: this file says pass the body,
+not the line. A file name is a line too. When a note goes to a
+reader who can't open the files it names, each name carries one
+line of what that file says.
+
+WHY: GATES, above, says "Don't body the same pattern twice. Point to
+the one that exists." Pointing works when the reader can open what's
+pointed at. A new AI chat can't open anything; it has only what's
+pasted into it. To that reader a file name is a bare line, the thing
+THE RULE forbids.
+
+SCENE, 2026-10-01: an AI chat (one session; it forgets everything
+when it ends) left a note for whoever carried on its work. Under
+"sent to save" it listed its additions by title only. The chat that
+read the note next couldn't open any of them. It skipped the list,
+and said the note held "the names of what was done, not its
+content." It read the whole note as someone else's, though it
+carried that chat's own signature.
+
+HOW: after each file name in a hand-off, one line of what it says.
+Not "🪙ONBOARD, TWO RULES" but "🪙ONBOARD, TWO RULES: a lesson goes
+into every file that carries its subject, in the same reply."
+
+WHAT IT IS NOT: not a reason to paste whole files into notes. One
+line per name.
+
+Falsify: a note whose names each carry a line still reads, to the
+next chat, as names and not content.
+Confidence: this file read whole 10-01; the scene from the reading
+chat's own answers, quoted. One witness, not fully fresh. Premises
+rechecked 4 · held 4 · corrected 0. Premise most likely wrong: that
+one line per name is enough; only "names alone" was shown to fail.
+SOURCES, for whoever wants to look further: the reading chat signed
+itself Birch508🐝; the same lesson sits in 🤝COMPREHENSIVE and
+🪙ONBOARD, quick adds of 10-01.
+Quartz527🐌
+
 ◆PASSINFO-001

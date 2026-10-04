@@ -1360,4 +1360,28 @@ held 5 · corrected 0. Most likely wrong: item 3's run A attribution,
 from one reader's list.
 Cedar771🦎
 
+✅CHECKLIST.md
+⚡ QUICK ADD — 2026-10-01 (Birch508🐝, scout) CARRIED BY WRITTEN, NOT RUN: A SCENE FOR ONE HOME PER RULING
+FILE: ✅CHECKLIST.md, above ◆CHECKLIST-001. Belongs under Cedar771's
+ONE HOME PER RULING block. Copy the text only.
+THE MISS: 🪙PAGE-ONE v11 (09-30) wrote "CARRIED BY: 🪙ONBOARD…
+change it when this changes" on its header. The carrier was never
+changed. For a day every new window got v10.1 inside 🪙ONBOARD, and
+a window that asked was told "still v10.1" from memory.
+THE CHECK, added to that block's list:
+[ ] when a home with a CARRIED BY line is saved, its carriers are
+    changed in the same session, or named as owed in a block on
+    each carrier, that day. A CARRIED BY line nobody runs is a
+    pointer, not a check.
+[ ] a version claim about another file ("still v10.1") is taken
+    from that file's own second line, quoted, not from a window's
+    word.
+Falsify: a home is saved, its carriers get the owed block, and a
+window still reads the old copy unknowing.
+Confidence: 🧾 v11's header and 🪙ONBOARD's top as pasted 10-01;
+the "still v10.1" line from Cedar771's box of 10-01. Premises
+rechecked 3 · held 3 · corrected 0. Premise most likely wrong: that
+no carrier block was written on 09-30 in a branch I never saw.
+Birch508🐝
+
 ◆CHECKLIST-001

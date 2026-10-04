@@ -133,3 +133,5 @@ water.
 Confidence: 95% 🧾 (thread-holder stated; observed live on
 STANDARDS across two sessions)
 Suggested home: WHY IT MATTERS, as its first line at merge.
+
+◆REV-RETURN-HARVEST-001

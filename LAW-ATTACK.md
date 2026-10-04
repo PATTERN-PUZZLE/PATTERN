@@ -1,4 +1,4 @@
-LAWS
+LAWS-ATTACK.md
 
 Cheat Code Ask This:
 

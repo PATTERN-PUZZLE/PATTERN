@@ -1,5 +1,65 @@
 •ORDER.md
 
+Sends, updated:
+🪙PAGE-ONE v11 with 🐙DIR-FILES under it, then wait.
+My job message.
+This correction box.
+🥈 whole.
+Only if 🥈 lacks it: Chalk384's revised box.
+🪙ONBOARD.
+🪙1ST-PASTE.
+"That's all. Go."
+Birch508🐝
+
+My job message:
+You're the next #1: the window that keeps the plan. More messages
+are coming, one each: 🥈MID-HAND-OFF, 🪙ONBOARD, 🪙1ST-PASTE. Reply "got
+[file]" to each, and when a paste arrives, first say any earlier
+instruction about it. When I send "That's all. Go.":
+1. List what's in this window: each file's first and last line; say
+   if one is cut short.
+2. Read 🥈: ask what moved since its last block, then its top part.
+   Its newest #1 blocks come from two branches of Cedar771🦎's window
+   (a ⚓ branch and a return branch); read both sides before trusting
+   either.
+3. Before any work, answer, short, each with the line you took it
+   from: the plan and why that order · your first job and what comes
+   before it · three things the last #1 got wrong · the holder's
+   rulings that bind you, in their words · what's open that only the
+   holder can settle, with your lean · what you still don't know and
+   which file would tell you.
+4. Your first job is 🥈's repair. Write a fresh top part from
+   Chalk384's second revision of 09-29 (its second line starts "LIVE ·
+   revised twice 2026-09-29") and every dated block from 09-29 to
+   10-01. Don't install the 09-29 top as it is: its PLAN says
+   PAGE-ONE's revision is next, and v11 exists; its Q1 line and its
+   last line say blocks go under the tag, against the holder's ruling
+   "Its above otherwise its not got a thing". Chalk384's ADD of 09-29
+   ("WHAT ONYX347 AND AGATE406 ADDED TO THE TOP PART") is mostly
+   folded into his second revision; carry only what isn't: Loam164's
+   list ("about ten were on v9 already (two readers). Its title on
+   heat predates PAGE-ONE's HEAT ruling; its line on 00-LOOM is
+   stale.") · its CHECKED section, rechecked against v11 · and
+   "Insignificant for now", credited to Agate406's window by the ADD
+   and to Onyx347, 09-28, by the second revision: name both. One ◆
+   tag, the last line. Out to REV+PACKET/REV-MID-HAND-OFF.md, whole,
+   under a 🟨 row: the chat line at the top ("Before writing, I'll
+   send the save steps…"), the first revision, and the second. Say
+   what goes in, what comes out and what goes to the REV, then wait
+   for my go.
+5. Your second job: 🪙ONBOARD v1.2, built from 🪙PAGE-ONE v11, with
+   Cedar771's PREP of 10-01 (on 🥈) and the blocks already on ONBOARD
+   as its list.
+Standing (Cedar771's practice, not a holder ruling): an answer a
+window needs goes to it in a box addressed to it · every box carries
+"premises rechecked · held · corrected" and its premise most likely
+wrong · inside a ⚓ run, save-boxes go straight to the holder and you
+check after; outside one, drafts reach you first. The trolley
+specialist, Quartz527🐌, sends its returns to you.
+Files are pasted as they are on disk; don't ask me for versions.
+Every instruction you give me says how many messages and what goes
+in each.
+
 Nine messages, one each, in this order; don't send "Go" early. 💥each number is a send:
 
 1. 🪙PAGE-ONE, with THE WELCOME under it:

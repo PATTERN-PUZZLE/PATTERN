@@ -445,3 +445,5 @@ fetch:
 Each gets a door and a tag at its own next touch; not from here.
 Falsify: an instance fetches a MatchPatern/source address as
 live → the pre-move line didn't travel.
+
+◆FETCH-DIAGNOSTIC-001

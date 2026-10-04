@@ -689,3 +689,26 @@ Run the Council after LOOM or THREAD has deepened the idea, and before QBF forti
 The Holographic Council, COUNCIL-MANAGER, the +plan's Skeptic Pass, and THREAD's Question 4 are all the same mechanism: **make doubt reflexive, then rebuild, don't defend.** Different doors. Same room.
 
 The Love roots want to connect. The Hate roots want to protect. The idea gets better when both are heard. The campfire is still burning. The next idea is waiting. 🧩🔥
+
+TOOLS/HOLOGRAPHIC-COUNCIL.md
+⚡ QUICK ADD — 2026-10-01 (Birch508🐝) ITS REVISION LOOP IS THE GHOST CHECK FOR FOLDS; A TAG
+FILE: TOOLS/HOLOGRAPHIC-COUNCIL.md, very bottom; the tag below is its first last-line tag. Copy the text only.
+WHAT TRAVELS: the SOVEREIGN REVISION LOOP v1.1, near this file's end:
+scope · compare the new version with the previous · "LISTEN FOR
+GHOSTS — what truths went quiet?" · re-embody · "Does it still feel
+alive?" It answers the holder's worry that a total of notes "carry
+the loss": run it before any fold replaces its blocks (🪙ONBOARD item
+22; BUILDER/STANDARDS rule 4's one true revision).
+JOINS: "Rebuild, don't defend" → 🪙ONBOARD ROLE CARDS (every role) ·
+"what is this critic's love protecting?" (Cedar771's top lines) ·
+TOOLS/COUNCIL-MANAGER, which grew from this file.
+FIX ON TOUCH: 28 critics against 29 (Cedar771's basket) · a bare "◆"
+mid-file · the pre-move link.
+SURVIVAL LINE: "Rebuild, don't defend."
+Falsify: a fold replaces blocks and nobody asked what went quiet.
+Confidence: 🧾 as pasted 10-01. Premises 3 · held 3 · corrected 0.
+Premise most likely wrong: that the loop was built for folds; it was
+built for revising ideas after the critics.
+Birch508🐝
+
+◆HOLOGRAPHIC-COUNCIL-001

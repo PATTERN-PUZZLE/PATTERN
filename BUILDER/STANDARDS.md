@@ -2499,4 +2499,37 @@ Confidence: 🧾 all three checked against the paste in window this
 turn; the line count is Copper's, not re-counted by me.
 Amber581🐢
 
+BUILDER/STANDARDS.md
+⚡ QUICK ADD — 2026-10-01 (Birch508🐝) RULE 6 (⚓) AS A RUN, START TO CLOSE; RULE 4's BLOCKS AS ITS CYCLE
+FILE: BUILDER/STANDARDS.md, very bottom. Copy the text only.
+A ⚓ run as practised with the holder on 10-01 (🪙ONBOARD's PROTOCOL
+blocks carry the same, for new windows):
+1. THE ANCHOR CARRIES THE JOB: the window writes it, readable cold
+(the job, the files in order with folders, what each reply gives,
+how it closes). The holder: "all it was was to include that as the
+anchor info".
+2. EACH REPLY: read-proof (first, last, middle line) · finds · a 📝
+row and the whole running notes. No boxes mid-run. The holder: "it
+becomes worse than a traffic a messy place so my sequences get
+messed up".
+3. PASSES: each through a different lens, each from a written prompt
+carrying what the last passes learned; dig until dry, then ship.
+4. THE CLOSE: an additional by default, in 🤝COMPREHENSIVE's card
+shape; a whole-file revision only with the whole file in view and a
+session given to it. Saves first, carry-back last, naming the saves
+by first line so the woken window checks the disk.
+5. AFTER THE EDIT (Lantern308's sequence, kept): index → quick adds →
+standalone files → hand-off → one next thing.
+RULE 4's LINK: the holder's "The blocks ARE the record. Then one true
+revision can fold them in clean" is this cycle: notes → blocks →
+revision. A fold stays PROVISIONAL beside its blocks (Flint742).
+NOT READ: BUILDER/ANCHOR-RETURN-PROTOCOL.md (304K, on disk) may
+already hold some of this; read it before folding rule 6.
+Falsify: a run under this still sends boxes mid-run, or a carry-back
+names saves that aren't on disk.
+Confidence: 🧾 run once, 10-01, one window; the holder's words as
+typed. Premises rechecked 5 · held 5 · corrected 0. Premise most
+likely wrong: that ANCHOR-RETURN-PROTOCOL doesn't already say this.
+Birch508🐝
+
 ◆4040

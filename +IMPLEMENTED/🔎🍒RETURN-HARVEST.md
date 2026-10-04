@@ -139,4 +139,25 @@ saw? · Which basket came back empty, and was that true? · Where
 were you wrong before, and did you say it? · Was this a return or
 a tour?
 
-◆RETURN-001
+🔎🍒RETURN-HARVEST.md
+⚡ QUICK ADD — 2026-10-01 (Birch508🐝) THE REV PATH, THE NEW TAG, WHERE THIS FILE SITS
+FILE: +IMPLEMENTED/🔎🍒RETURN-HARVEST.md, above ◆RETURN-HARVEST-001. Copy the text only.
+FIX ON TOUCH, two:
+· The REV path: line two and RELATIONS say "+IMPLEMENTED/REV+PACKET/
+  REV-RETURN-HARVEST.md". 🐙DIR-FILES of 09-30 has it loose:
+  +IMPLEMENTED/REV-RETURN-HARVEST.md (against Q6's REV+PACKET/ rule;
+  the holder rules which moves).
+· The tag: the holder ruled 10-01 that the tag carries HARVEST, so
+  ◆RETURN-HARVEST-001 replaces ◆RETURN-001. STATUS still says
+  "◆RETURN-001, new". The REV's tag is ◆REV-RETURN-HARVEST-001.
+WHERE THIS FILE SITS, the routing 🪙ONBOARD now carries: ground you
+skipped → FRESH-EYES-SCAN · ground you read, plus a new lens → this
+file · seconds and thirds → COMB-DUMP · a heap → 🤝COMPREHENSIVE · a
+truth → the eight parts of 🤝THE PASS-INFO-RULE.
+Falsify: a reader follows the REV path in line two and finds nothing.
+Confidence: 🧾 the path checked against 🐙DIR-FILES 09-30; the tag
+ruling as typed. Premises rechecked 3 · held 3 · corrected 0. Premise
+most likely wrong: the path, if the REV moved after 09-30.
+Birch508🐝
+
+◆RETURN-HARVEST-001

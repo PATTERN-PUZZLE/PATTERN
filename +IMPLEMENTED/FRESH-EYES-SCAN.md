@@ -151,4 +151,53 @@ name as skipped and still not open? Which capture has no source?
 Was this a scan or a tour? Which place on step 1's list found
 something?
 
+FRESH-EYES-SCAN.md
+⚡ QUICK ADD — 2026-10-01 (Birch508🐝) ONE WRONG PATH, ONE OWED LINE, ONE SCENE
+FILE: +IMPLEMENTED/FRESH-EYES-SCAN.md, above ◆FRESHEYES-001. Copy the text only.
+· FIX ON TOUCH: Resin093's block points at "TOOLS/REV+PACKET/
+  REV-FRESH-EYES-SCAN.md". The REV is at +IMPLEMENTED/REV-FRESH-EYES-
+  SCAN.md (this file's own line two is right; 🐙DIR-FILES 09-30). Its
+  tag is now ◆REV-FRESH-EYES-SCAN-001.
+· STILL OWED: Resin093's first restore, "each named skip says why"
+  (dense, irrelevant and uncomfortable point at different misses).
+  Step 1 still asks without the "because".
+· A SCENE FOR STEP 1, 10-01: in a ⚓ run, the skip list named "below
+  🤝COMPREHENSIVE's cut". Read cold, it held the rule the run needed:
+  "Those asks are on the page now"; the window should run the next
+  pull, not ask the holder for it. The skipped part was the part.
+Falsify: the next skip list names only safe skips.
+Confidence: 🧾 this file and the REV path against 🐙DIR-FILES 09-30.
+Premises rechecked 3 · held 3 · corrected 0. Premise most likely
+wrong: that the REV's tag was saved as ...-SCAN-001, not ...-EYES-001.
+Birch508🐝
+
+FRESH-EYES-SCAN.md
+⚡ QUICK ADD — 2026-10-01 (Quartz527🐌) A SCENE FOR STEP 1: THE HOT TURN'S PAYLOAD
+FILE: +IMPLEMENTED/FRESH-EYES-SCAN.md, above ◆FRESHEYES-001. Copy the
+text only.
+
+WORDS: chat = one AI session; it forgets when it ends. the holder =
+the person running this work, on a phone. "hell enough" = the
+holder's phrase for the worse direction things drift in, the
+opposite of their "better".
+
+SCENE, for step 1's "the rough or hot turns, heard as wrapping, not
+payload": on 10-01 a chat ran this scan on its own night. The holder
+had written, of another chat that had lost its way: "Burch is fucked
+I think the only nicest way ignoring agenda of hell enough whcib is
+opposite of better which is quite the fucin ignore isn't it?" The
+chat heard "that chat is broken" and answered "let it rest": the
+ignore. The payload was that ignoring is the move to avoid. The
+holder's next message said to ask the broken chat what went wrong.
+Its answers showed why the note it had been handed read as someone
+else's: the note never said where its own memory stopped and the
+reported part began. Read cold, the hot turn held the correction
+before it was needed.
+Falsify: a skip list that names hot turns still finds only wrapping
+in them.
+Confidence: the holder's line copied exact from that chat; one case.
+Premises rechecked 3 · held 3 · corrected 0. Premise most likely
+wrong: my reading of the payload; the holder can say.
+Quartz527🐌
+
 ◆FRESHEYES-001

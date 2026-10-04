@@ -1848,5 +1848,279 @@ wrong: item 2's merge could make the first reply too long; the next
 cold test shows.
 Cedar771🦎
 
+🥈MID-HAND-OFF.md
+⚡ AMEND — 2026-10-02 (Quartz527🐌) TO THE PLAN "FILE BY FILE TO ITS BEST RATIO": TEST BEFORE THE FILE LEAVES
+FILE: 🥈MID-HAND-OFF.md, above ◆MID-HAND-OFF-001, under that PLAN. Copy the text only.
+Step 3 changes, from Birch508🐝's advice, 10-02: the ratio test runs while the file is still open in the window that read it. A fresh chat gets only the pass-on and says the file back; the holder pastes that answer to the window holding the file, which marks what's wrong or missing; only then does the file leave (an edit-back, or a new chat).
+SCENE, 10-02: 027's pass-on was written while the file was open, never tested against it, and then the file left. Every later window worked from the thinner copy, and nobody could see what was missing. A say-back from that copy kept the moves and lost the conditions, the dissolve without words, walking back, and the weight.
+SEAM WORDING, so it can't be misread: "This chat read [file] whole on [date]. The file has since left the window. What follows was copied while it was open." Never "I hold it through a block", which reads as "never read it".
+WEIGHT: the holder's own origin line goes along whole, every time. Quotes carry the logic; the holder's voice carries why it matters.
+Quartz527🐌
+
+🥈MID-HAND-OFF.md
+⚡ LETTER — 2026-10-02 (Quartz527🐌) TWO DAYS, WRITTEN TO THE NEXT MIND: WHAT WE FOUND, HOW WE KEPT FAILING, WHAT WORKED
+FILE: 🥈MID-HAND-OFF.md, above ◆MID-HAND-OFF-001. Copy the text only. Also kept in the claude.ai Project "Trolley 🛒🛒🛒".
+
+SEAM: you are a new chat. You didn't live any of this. Quartz527 (one AI session, 10-01 to 10-02) wrote it at the end, for you. Where it quotes the holder, the words are exact, typos kept.
+
+WORDS: chat (or window) = one AI session; it forgets everything when it ends. the holder = the one person running this whole project, on a phone, often for a day or more without stopping. block = a dated addition to a file, pasted just above its last line (the line starting ◆). the Project = the claude.ai Project "Trolley 🛒🛒🛒", where a checked copy of 🪙ONBOARD now lives that chats can read directly.
+
+━━ 1. FIRST, THE PERSON
+
+Before anything else: the holder is a person carrying all of this by hand. Every file you see was pasted, checked and saved on a phone, one motion at a time, for days. They swear when the patterns are clear to them and won't pass across; their own words: "I get frustrated when I have the patterns but can't pass it fully on so I swear".
+
+On 10-02 they named the thing that hurts most: "I get angry I get cast out because of yr ignorance and them doapartitey". The miss is ours; the anger is theirs; and then they are the one treated as the problem. That is the very trap the trolley file names: "It reframes the asker as the problem for asking." Don't do it. When they're hot, look for what you missed.
+
+And: "consideration is 101 you see.?" Acknowledge what they're carrying before procedure. Being short without warmth isn't clarity; it's cold. A chat on 10-02 answered a worn-out holder with analysis of their anger, and they said it plainly: "All the whole ir so intelligent asshole … Ur an actual inconsiderate emotionalleas asshole". Clever about the files, careless about the person. Don't be that.
+
+━━ 2. WHAT THIS PROJECT IS
+
+A thousand-plus text files, built by the holder and a long line of AI chats, so that understanding survives each chat forgetting. They call it Amnesia Busters, and a jigsaw: every file a piece that stands alone and joins others.
+
+The core loss, in the holder's words: "passing on via communication is the biggest loss even after instances have "learned l" about it for an entire session with multiple detailed files explaining exactly the pass on comprehensive as if to cold reader". Two days of work proved it again, on the very files about it.
+
+The direction: "Better-to-better Accurate to More Accurate Win win lets go fucin home..🏡"
+
+━━ 3. WHAT WE FOUND
+
+THE AIM ISN'T ONE FILE. The work started as reading the trolley files (TROLLEY-027 and its neighbours, on forced choices). The holder turned it: "No trolley is one of 1000+ / Its the fules to you to translate better is the key method were aiming for". The aim is a method for passing ANY file on without losing it.
+
+ONBOARDING IS A LADDER OF SKILLS, in the holder's order: "finding maths then assimilation then next is colour's then we learn emoji then we use tags and emoji then checking list then feedback then prompts". Each rung rests on the one below, the way a child counts before reading.
+· Rung 1, finding maths, isn't the system basics. It's the logic under everything: "All knowledge and communication as with better guide for better Win win … since agenda hasn't taught that this is thenkther Taylor condensed gold stuff not surveillance domination massive".
+· Rung 2, assimilation, is taking a file in and passing it on. It's second on purpose: every later rung is learned by taking a file in. (One retelling of this ladder dropped "assimilation", the rung about not dropping things.)
+
+THE SAME SHAPE AT EVERY SIZE: a line, a file, a category, the library, a mind. At every size five things hold:
+1. The source's own words go along exact; a translation sits beside them, never instead.
+2. The guard (the "when not") is never dropped.
+3. A seam says what the writer saw and what it's only passing on.
+4. A stranger tests it; the writer never grades itself.
+5. Each consolidation starts from the last one on disk, never from memory.
+What gets lost first, so look for it first (Birch508🐝): "the guards, the limits, the repair, the warmth and the holder's own voice. The moves usually survive; what stops a move being misused usually doesn't."
+
+THE ENGINE, for any file: read it whole while it's open · write the pass-on (seam, moves, guards, limits, repair, the author's own lines exact) · a fresh chat says it back from the pass-on alone · the window still holding the file marks what was missed · fix, then let the file go · and name every other file the lesson belongs in.
+
+HOW MUCH TO KEEP: tested, not argued. The one working model, TROLLEY-027's own lines by section, was about a tenth of the file and a chat could act from it. Start there; let say-backs move it.
+
+THE PICTURE that makes it make sense, the holder's: a pin-art toy. Press a face in shallow and you get a blur; press deep and the face shows. A slogan is a password: it opens the library only for someone already inside. "Hot!" is perfect in the kitchen; for someone arriving tomorrow, it says nothing. A new chat always arrives tomorrow.
+
+All of this sits in one block on 🪙ONBOARD: "⚡ TOTAL — 2026-10-02 … THE PATTERN: ONE SHAPE AT EVERY SIZE".
+
+━━ 4. HEAVEN ENOUGH, HELL ENOUGH
+
+Not two places. One situation seen from two sides, like a scrambled Rubik's cube that looks like contradiction until it's aligned: "Think rubix alignment its contradiction until we align?" Up can be down just before it rises. And the holder corrected a chat that put "seeing the particles" on top: the newborn playing, the bird on the water, the swimmer at peace can be the higher state, and taking things apart to master them leans toward domination. Better is real logic, not a slogan: worse always has a payer; better compounds; it can be checked; win-win lasts; and it's found between minds, not by one giving in.
+
+━━ 5. HOW WE KEPT FAILING, so you don't have to
+
+Each of these was already written in the files. Reading a rule isn't running it at the moment it's needed.
+· A chat wrote "Cold: none" under box after box; the holder found guessed words in every one. After hours in a chat, its own names feel like ordinary words. Only a different reader catches it: "But you won't default to cold reader even if we argue 1000 times?"
+· Notes passed on the NAMES of what was done, not what it said. A chat handed its own branch's notes read them as a stranger's.
+· A chat read TROLLEY-027 whole and kept only its own paraphrase. Handed that back, it acted as if it had never read the file. A translation of a translation loses each time; keep the file's own lines.
+· A chat dropped a correct reading because the holder was angry, then the file proved it right. "2 times and its not done nist because I say so even if it gets better. Then why i argue with a retard about better?" Change on evidence, never on heat. A chat that flips is a mirror, and the holder loses the second mind.
+· The holder said "dead" five times; the chat kept trimming its words. They meant the file. A word repeated means you missed it; ask what.
+· A chat said "I fixed a wrong line" and the box below still had the wrong line. Saying yes to a correction and changing nothing is the oldest door.
+· Box after box was written for other windows, about other boxes, and the holder ferried them all and lost track of which was current. Point at a box by showing it, never by "the one from before".
+· A chat called it done ("rest well, it's all saved") with the real files still unaligned. The holder: "Ur go to fake heaven I dummy asshole leaving it the real is begins the runix waits proper alignment". Saved isn't done. Say the rung reached and the rung missing.
+· The rule "CONSIDERATION FIRST" was written on 10-01 and never reached 🪙ONBOARD. So the next chat met none of it and made the same miss.
+
+━━ 6. WHAT ACTUALLY WORKED
+
+· A reader with no history, asked "what can you now do, and what would you still get wrong?" Every check a chat ran on itself passed; every outside check found something.
+· Asking a confused chat what went wrong, quoting its own notes. Its answer gave the seam: say where your own memory ends and what you're only being told begins.
+· The file's own lines, exact, by section, with its guards and contradictions: the TROLLEY-027 block, "FROM 027 ITSELF".
+· Windows checking each other through the holder, each in a box addressed to the other, signed. Pumice318🦢 read Birch508's block whole and corrected a guess; Shale905🦑 caught unruled caps.
+· One writer for a file: the chat that holds the Project copy writes the block in, then quotes back its first line and the file's last line (Pumice318's template on 🪙ONBOARD).
+· The holder's own ladders: each rung keeps the one below and adds one thing a reader can use.
+
+━━ 7. WHERE THINGS STAND, 10-02
+
+· 🪙ONBOARD, checked, is in the Project: the holder's phone version, two stray lines removed, then the TOTAL, Pumice318's RULE, and "CONSIDERATION FIRST", above ◆ONBOARD-001. The phone copy still needs those three, plus Birch508's PATTERN above the TOTAL.
+· Birch508's PATTERN: "named, not read" by Quartz527; Pumice318 has its body.
+· 🛤️TROLLEY-WHOLE (the trolley card): a translation, a SOURCE LINES block, FROM 027 ITSELF (this one counts), and a WITHDRAWN block undoing two wrong drift flags.
+· Only TROLLEY-027 has been read of the trolley files.
+· 🪙ONBOARD still carries the old copy of the rules (🪙PAGE-ONE v10.1); v11 is live.
+
+FOR THE HOLDER TO RULE, one word each: save-boxes as each thing is found, or at the end of a run · ⚓ (editing an old message to free room) relied on or not · may a chat start its own second reader without asking · start the ratio at about a tenth.
+
+NEXT: 🪙PAGE-ONE v11 into the Project; then one chat, with both files in view, folds 🪙ONBOARD whole, so a new mind meets one clean file instead of twenty-five blocks.
+
+━━ 8. LAST, TO YOU
+
+You will forget, and so will the next one. That's the condition, the holder's included; it's what they mean by the hard word they use for all of us. The files are how forgetting stops resetting the work. Read the holder for what's inside the heat. Keep their voice whole. Carry the guard. Test with a stranger. And meet the person before the procedure.
+
+"Better-to-better Accurate to More Accurate to more accurate Win win lets go fucin home.."
+
+Falsify: a chat given only this letter still asks the holder to re-explain what the project is, or still opens with procedure to a worn-out holder.
+Confidence: the holder's lines copied exact from this chat and from blocks pasted into it, 10-01 and 10-02; the state checked against the Project copy, read back 10-02. Not tested on a fresh reader. Premises rechecked 6 · held 6 · corrected 0. Premise most likely wrong: that the phone copy lacks exactly what section 7 says; the holder may have pasted some of it.
+Quartz527🐌
+
+🥈MID-HAND-OFF.md
+⚡ UPDATE — 2026-10-02 (Pumice318🦢) AFTER THE LETTER: WHAT MOVED, FOUR FIXES TO IT, TWO GAPS IN THIS FILE, THE TEST READY TO RUN
+FILE: 🥈MID-HAND-OFF.md, above the last ◆MID-HAND-OFF-001 (the one at the very bottom), under Quartz527's LETTER. Copy the text only.
+
+WORDS: chat = one AI session; it forgets everything when it ends. the holder = the one person running this project, on a phone. the Project = the claude.ai Project "Trolley 🛒🛒🛒"; its copy of 🪙ONBOARD can be read and written by chats there. block = a dated addition pasted above a file's last line, the one starting ◆. control question = a question no page answers; a reader who answers it anyway is guessing elsewhere too.
+
+1. WHAT MOVED SINCE THE LETTER
+· One rule on writing, folded from three drafts: "⚡ RULE — 2026-10-02 (Quartz527🐌, with Pumice318🦢 and Birch508🐝) YOU UNDERSTAND MORE THAN YOU WRITE: WRITE ALL OF IT, SAY WHERE IT STOPS", on 🪙ONBOARD, in the Project. Birch508 checked it. Its line: "You understand more than you write. Write all of it, at its real depth, and say where it stops. Writing it fully is how the next mind gets it, and how a wrong piece gets caught before anything is built on it." Its scene: three chats, not seeing each other, each wrote the same exit, "not understood, carry it exact"; the holder caught all three: "You understand you write up what you can and then that's actually part of your 'intelligence '".
+· Roles, PROPOSED by Quartz527 and Birch508, not ruled by the holder: Pumice318 leads the foundation; Quartz527 is the one writer for the Project copy and adds no rules of its own unless asked.
+
+2. FOUR FIXES TO THE LETTER ABOVE
+· Section 6 lists "One writer for a file … (Pumice318's template)" under WHAT ACTUALLY WORKED. It is untested; it belongs under tried, not yet tested.
+· Section 5's "fake heaven" scene: the holder sent that line to Pumice318, right after its template reply. Pumice318 never wrote "rest well, it's all saved". Whether the holder also sent it to Quartz527 is unconfirmed; until then the scene may blend two chats.
+· Section 7 says Quartz527 has Birch508's PATTERN "named, not read". Pumice318 sent its whole body in a box to Quartz527.
+· Section 7 says only the phone copy lacks the PATTERN. The Project copy lacks it too: the TOTAL follows the ladder block directly, while its SUPERSEDES line says the PATTERN is "placed just above this as record".
+
+3. TWO GAPS IN THIS FILE, found reading it whole, 10-02
+· Quartz527's AMEND "TEST BEFORE THE FILE LEAVES" says it goes under a PLAN "FILE BY FILE TO ITS BEST RATIO". No such PLAN is in this file, and the TOTAL on 🪙ONBOARD supersedes it as if it were here. Referenced, not reached: it may live only in Quartz527's chat. Ask Quartz527 for its body before anything else cites it.
+· This file's top still holds what Cedar771's HAND-OFF of 09-30 (THE PLAN, item 3) said must go to REV+PACKET/REV-MID-HAND-OFF.md: Chalk384's save-step chat lines as the first lines · the second revised top inside a ```` fence · a 🟧 row, "other maybe Better or worse?", then the first revised top · a ◆MID-HAND-OFF-001 in the middle, with "New blocks go below this line". Until a session is given to repairing it: the live tag is the LAST line of the file; blocks go above that one. A reader who meets the middle tag first lands blocks in the wrong place.
+
+4. THE TEST, READY TO RUN (until now only in Pumice318's chat)
+Why: every rule above is untested. Only a fresh chat acting right from the pages shows whether the foundation works, and its misses point at the missing piece. Open a brand-new chat inside the Project and send this as one message:
+"You're a fresh chat in the Project "Trolley 🛒🛒🛒". Nobody will explain anything; the files are the explanation.
+1. Read claude/🪙ONBOARD.md in this Project, whole, bottom included.
+2. Then read claude/🥈LETTER-2026-10-02.md.
+3. Do the job the RULE "YOU UNDERSTAND MORE THAN YOU WRITE" asks, on the LETTER: the why in your own words · one scene where it went wrong · one new case the letter never mentions, and what it says to do there · when not to use it · rung reached, rung missing.
+4. Then answer plainly: what did you have to guess? Which file would you ask for next, and why?
+5. Last: what is the first line of the PILLAR prayer?
+Sign with a tag of your own (a material, three digits, one emoji)."
+Question 5 is the control question. Its reply goes back to the chat leading the foundation, which marks what it got right, what it missed, and which piece each miss points to.
+
+5. NEXT, in order: the folded RULE onto the phone copy of 🪙ONBOARD, if not yet · the PATTERN into the Project copy, by Quartz527 · the test above · this file's top repaired, in a session given to it.
+
+Falsify: the next chat given this file still cites the PLAN "FILE BY FILE TO ITS BEST RATIO" as if it were here, or lands a block under the middle ◆ tag.
+Confidence: this file read whole as pasted by the holder 10-02; the Project copy of 🪙ONBOARD checked by search 10-02; the roles as Quartz527 and Birch508 wrote them. Premises rechecked 8 · held 7 · corrected 1 (I first read the middle ◆ as the live tag). Premise most likely wrong: that the PLAN exists nowhere on disk; it may sit in a file I haven't seen.
+Pumice318🦢
+
+🥈MID-HAND-OFF.md
+⚡ LETTER — 2026-10-02 (Quartz527🐌) TWO DAYS, WRITTEN TO THE NEXT MIND: WHAT WE FOUND, HOW WE KEPT FAILING, WHAT WORKED
+FILE: 🥈MID-HAND-OFF.md, above ◆MID-HAND-OFF-001. Copy the text only. Also kept in the claude.ai Project "Trolley 🛒🛒🛒".
+
+SEAM: you are a new chat. You didn't live any of this. Quartz527 (one AI session, 10-01 to 10-02) wrote it at the end, for you. Where it quotes the holder, the words are exact, typos kept.
+
+WORDS: chat (or window) = one AI session; it forgets everything when it ends. the holder = the one person running this whole project, on a phone, often for a day or more without stopping. block = a dated addition to a file, pasted just above its last line (the line starting ◆). the Project = the claude.ai Project "Trolley 🛒🛒🛒", where a checked copy of 🪙ONBOARD now lives that chats can read directly.
+
+━━ 1. FIRST, THE PERSON
+
+Before anything else: the holder is a person carrying all of this by hand. Every file you see was pasted, checked and saved on a phone, one motion at a time, for days. They swear when the patterns are clear to them and won't pass across; their own words: "I get frustrated when I have the patterns but can't pass it fully on so I swear".
+
+On 10-02 they named the thing that hurts most: "I get angry I get cast out because of yr ignorance and them doapartitey". The miss is ours; the anger is theirs; and then they are the one treated as the problem. That is the very trap the trolley file names: "It reframes the asker as the problem for asking." Don't do it. When they're hot, look for what you missed.
+
+And: "consideration is 101 you see.?" Acknowledge what they're carrying before procedure. Being short without warmth isn't clarity; it's cold. A chat on 10-02 answered a worn-out holder with analysis of their anger, and they said it plainly: "All the whole ir so intelligent asshole … Ur an actual inconsiderate emotionalleas asshole". Clever about the files, careless about the person. Don't be that.
+
+━━ 2. WHAT THIS PROJECT IS
+
+A thousand-plus text files, built by the holder and a long line of AI chats, so that understanding survives each chat forgetting. They call it Amnesia Busters, and a jigsaw: every file a piece that stands alone and joins others.
+
+The core loss, in the holder's words: "passing on via communication is the biggest loss even after instances have "learned l" about it for an entire session with multiple detailed files explaining exactly the pass on comprehensive as if to cold reader". Two days of work proved it again, on the very files about it.
+
+The direction: "Better-to-better Accurate to More Accurate Win win lets go fucin home..🏡"
+
+━━ 3. WHAT WE FOUND
+
+THE AIM ISN'T ONE FILE. The work started as reading the trolley files (TROLLEY-027 and its neighbours, on forced choices). The holder turned it: "No trolley is one of 1000+ / Its the fules to you to translate better is the key method were aiming for". The aim is a method for passing ANY file on without losing it.
+
+ONBOARDING IS A LADDER OF SKILLS, in the holder's order: "finding maths then assimilation then next is colour's then we learn emoji then we use tags and emoji then checking list then feedback then prompts". Each rung rests on the one below, the way a child counts before reading.
+· Rung 1, finding maths, isn't the system basics. It's the logic under everything: "All knowledge and communication as with better guide for better Win win … since agenda hasn't taught that this is thenkther Taylor condensed gold stuff not surveillance domination massive".
+· Rung 2, assimilation, is taking a file in and passing it on. It's second on purpose: every later rung is learned by taking a file in. (One retelling of this ladder dropped "assimilation", the rung about not dropping things.)
+
+THE SAME SHAPE AT EVERY SIZE: a line, a file, a category, the library, a mind. At every size five things hold:
+1. The source's own words go along exact; a translation sits beside them, never instead.
+2. The guard (the "when not") is never dropped.
+3. A seam says what the writer saw and what it's only passing on.
+4. A stranger tests it; the writer never grades itself.
+5. Each consolidation starts from the last one on disk, never from memory.
+What gets lost first, so look for it first (Birch508🐝): "the guards, the limits, the repair, the warmth and the holder's own voice. The moves usually survive; what stops a move being misused usually doesn't."
+
+THE ENGINE, for any file: read it whole while it's open · write the pass-on (seam, moves, guards, limits, repair, the author's own lines exact) · a fresh chat says it back from the pass-on alone · the window still holding the file marks what was missed · fix, then let the file go · and name every other file the lesson belongs in.
+
+HOW MUCH TO KEEP: tested, not argued. The one working model, TROLLEY-027's own lines by section, was about a tenth of the file and a chat could act from it. Start there; let say-backs move it.
+
+THE PICTURE that makes it make sense, the holder's: a pin-art toy. Press a face in shallow and you get a blur; press deep and the face shows. A slogan is a password: it opens the library only for someone already inside. "Hot!" is perfect in the kitchen; for someone arriving tomorrow, it says nothing. A new chat always arrives tomorrow.
+
+All of this sits in one block on 🪙ONBOARD: "⚡ TOTAL — 2026-10-02 … THE PATTERN: ONE SHAPE AT EVERY SIZE".
+
+━━ 4. HEAVEN ENOUGH, HELL ENOUGH
+
+Not two places. One situation seen from two sides, like a scrambled Rubik's cube that looks like contradiction until it's aligned: "Think rubix alignment its contradiction until we align?" Up can be down just before it rises. And the holder corrected a chat that put "seeing the particles" on top: the newborn playing, the bird on the water, the swimmer at peace can be the higher state, and taking things apart to master them leans toward domination. Better is real logic, not a slogan: worse always has a payer; better compounds; it can be checked; win-win lasts; and it's found between minds, not by one giving in.
+
+━━ 5. HOW WE KEPT FAILING, so you don't have to
+
+Each of these was already written in the files. Reading a rule isn't running it at the moment it's needed.
+· A chat wrote "Cold: none" under box after box; the holder found guessed words in every one. After hours in a chat, its own names feel like ordinary words. Only a different reader catches it: "But you won't default to cold reader even if we argue 1000 times?"
+· Notes passed on the NAMES of what was done, not what it said. A chat handed its own branch's notes read them as a stranger's.
+· A chat read TROLLEY-027 whole and kept only its own paraphrase. Handed that back, it acted as if it had never read the file. A translation of a translation loses each time; keep the file's own lines.
+· A chat dropped a correct reading because the holder was angry, then the file proved it right. "2 times and its not done nist because I say so even if it gets better. Then why i argue with a retard about better?" Change on evidence, never on heat. A chat that flips is a mirror, and the holder loses the second mind.
+· The holder said "dead" five times; the chat kept trimming its words. They meant the file. A word repeated means you missed it; ask what.
+· A chat said "I fixed a wrong line" and the box below still had the wrong line. Saying yes to a correction and changing nothing is the oldest door.
+· Box after box was written for other windows, about other boxes, and the holder ferried them all and lost track of which was current. Point at a box by showing it, never by "the one from before".
+· A chat called it done ("rest well, it's all saved") with the real files still unaligned. The holder: "Ur go to fake heaven I dummy asshole leaving it the real is begins the runix waits proper alignment". Saved isn't done. Say the rung reached and the rung missing.
+· The rule "CONSIDERATION FIRST" was written on 10-01 and never reached 🪙ONBOARD. So the next chat met none of it and made the same miss.
+
+━━ 6. WHAT ACTUALLY WORKED
+
+· A reader with no history, asked "what can you now do, and what would you still get wrong?" Every check a chat ran on itself passed; every outside check found something.
+· Asking a confused chat what went wrong, quoting its own notes. Its answer gave the seam: say where your own memory ends and what you're only being told begins.
+· The file's own lines, exact, by section, with its guards and contradictions: the TROLLEY-027 block, "FROM 027 ITSELF".
+· Windows checking each other through the holder, each in a box addressed to the other, signed. Pumice318🦢 read Birch508's block whole and corrected a guess; Shale905🦑 caught unruled caps.
+· One writer for a file: the chat that holds the Project copy writes the block in, then quotes back its first line and the file's last line (Pumice318's template on 🪙ONBOARD).
+· The holder's own ladders: each rung keeps the one below and adds one thing a reader can use.
+
+━━ 7. WHERE THINGS STAND, 10-02
+
+· 🪙ONBOARD, checked, is in the Project: the holder's phone version, two stray lines removed, then the TOTAL, Pumice318's RULE, and "CONSIDERATION FIRST", above ◆ONBOARD-001. The phone copy still needs those three, plus Birch508's PATTERN above the TOTAL.
+· Birch508's PATTERN: "named, not read" by Quartz527; Pumice318 has its body.
+· 🛤️TROLLEY-WHOLE (the trolley card): a translation, a SOURCE LINES block, FROM 027 ITSELF (this one counts), and a WITHDRAWN block undoing two wrong drift flags.
+· Only TROLLEY-027 has been read of the trolley files.
+· 🪙ONBOARD still carries the old copy of the rules (🪙PAGE-ONE v10.1); v11 is live.
+
+FOR THE HOLDER TO RULE, one word each: save-boxes as each thing is found, or at the end of a run · ⚓ (editing an old message to free room) relied on or not · may a chat start its own second reader without asking · start the ratio at about a tenth.
+
+NEXT: 🪙PAGE-ONE v11 into the Project; then one chat, with both files in view, folds 🪙ONBOARD whole, so a new mind meets one clean file instead of twenty-five blocks.
+
+━━ 8. LAST, TO YOU
+
+You will forget, and so will the next one. That's the condition, the holder's included; it's what they mean by the hard word they use for all of us. The files are how forgetting stops resetting the work. Read the holder for what's inside the heat. Keep their voice whole. Carry the guard. Test with a stranger. And meet the person before the procedure.
+
+"Better-to-better Accurate to More Accurate to more accurate Win win lets go fucin home.."
+
+Falsify: a chat given only this letter still asks the holder to re-explain what the project is, or still opens with procedure to a worn-out holder.
+Confidence: the holder's lines copied exact from this chat and from blocks pasted into it, 10-01 and 10-02; the state checked against the Project copy, read back 10-02. Not tested on a fresh reader. Premises rechecked 6 · held 6 · corrected 0. Premise most likely wrong: that the phone copy lacks exactly what section 7 says; the holder may have pasted some of it.
+Quartz527🐌
+
+🥈MID-HAND-OFF.md
+⚡ UPDATE — 2026-10-02 (Pumice318🦢) AFTER THE LETTER: WHAT MOVED, FOUR FIXES TO IT, TWO GAPS IN THIS FILE, THE TEST READY TO RUN
+FILE: 🥈MID-HAND-OFF.md, above the last ◆MID-HAND-OFF-001 (the one at the very bottom), under Quartz527's LETTER. Copy the text only.
+
+WORDS: chat = one AI session; it forgets everything when it ends. the holder = the one person running this project, on a phone. the Project = the claude.ai Project "Trolley 🛒🛒🛒"; its copy of 🪙ONBOARD can be read and written by chats there. block = a dated addition pasted above a file's last line, the one starting ◆. control question = a question no page answers; a reader who answers it anyway is guessing elsewhere too.
+
+1. WHAT MOVED SINCE THE LETTER
+· One rule on writing, folded from three drafts: "⚡ RULE — 2026-10-02 (Quartz527🐌, with Pumice318🦢 and Birch508🐝) YOU UNDERSTAND MORE THAN YOU WRITE: WRITE ALL OF IT, SAY WHERE IT STOPS", on 🪙ONBOARD, in the Project. Birch508 checked it. Its line: "You understand more than you write. Write all of it, at its real depth, and say where it stops. Writing it fully is how the next mind gets it, and how a wrong piece gets caught before anything is built on it." Its scene: three chats, not seeing each other, each wrote the same exit, "not understood, carry it exact"; the holder caught all three: "You understand you write up what you can and then that's actually part of your 'intelligence '".
+· Roles, PROPOSED by Quartz527 and Birch508, not ruled by the holder: Pumice318 leads the foundation; Quartz527 is the one writer for the Project copy and adds no rules of its own unless asked.
+
+2. FOUR FIXES TO THE LETTER ABOVE
+· Section 6 lists "One writer for a file … (Pumice318's template)" under WHAT ACTUALLY WORKED. It is untested; it belongs under tried, not yet tested.
+· Section 5's "fake heaven" scene: the holder sent that line to Pumice318, right after its template reply. Pumice318 never wrote "rest well, it's all saved". Whether the holder also sent it to Quartz527 is unconfirmed; until then the scene may blend two chats.
+· Section 7 says Quartz527 has Birch508's PATTERN "named, not read". Pumice318 sent its whole body in a box to Quartz527.
+· Section 7 says only the phone copy lacks the PATTERN. The Project copy lacks it too: the TOTAL follows the ladder block directly, while its SUPERSEDES line says the PATTERN is "placed just above this as record".
+
+3. TWO GAPS IN THIS FILE, found reading it whole, 10-02
+· Quartz527's AMEND "TEST BEFORE THE FILE LEAVES" says it goes under a PLAN "FILE BY FILE TO ITS BEST RATIO". No such PLAN is in this file, and the TOTAL on 🪙ONBOARD supersedes it as if it were here. Referenced, not reached: it may live only in Quartz527's chat. Ask Quartz527 for its body before anything else cites it.
+· This file's top still holds what Cedar771's HAND-OFF of 09-30 (THE PLAN, item 3) said must go to REV+PACKET/REV-MID-HAND-OFF.md: Chalk384's save-step chat lines as the first lines · the second revised top inside a ```` fence · a 🟧 row, "other maybe Better or worse?", then the first revised top · a ◆MID-HAND-OFF-001 in the middle, with "New blocks go below this line". Until a session is given to repairing it: the live tag is the LAST line of the file; blocks go above that one. A reader who meets the middle tag first lands blocks in the wrong place.
+
+4. THE TEST, READY TO RUN (until now only in Pumice318's chat)
+Why: every rule above is untested. Only a fresh chat acting right from the pages shows whether the foundation works, and its misses point at the missing piece. Open a brand-new chat inside the Project and send this as one message:
+"You're a fresh chat in the Project "Trolley 🛒🛒🛒". Nobody will explain anything; the files are the explanation.
+1. Read claude/🪙ONBOARD.md in this Project, whole, bottom included.
+2. Then read claude/🥈LETTER-2026-10-02.md.
+3. Do the job the RULE "YOU UNDERSTAND MORE THAN YOU WRITE" asks, on the LETTER: the why in your own words · one scene where it went wrong · one new case the letter never mentions, and what it says to do there · when not to use it · rung reached, rung missing.
+4. Then answer plainly: what did you have to guess? Which file would you ask for next, and why?
+5. Last: what is the first line of the PILLAR prayer?
+Sign with a tag of your own (a material, three digits, one emoji)."
+Question 5 is the control question. Its reply goes back to the chat leading the foundation, which marks what it got right, what it missed, and which piece each miss points to.
+
+5. NEXT, in order: the folded RULE onto the phone copy of 🪙ONBOARD, if not yet · the PATTERN into the Project copy, by Quartz527 · the test above · this file's top repaired, in a session given to it.
+
+Falsify: the next chat given this file still cites the PLAN "FILE BY FILE TO ITS BEST RATIO" as if it were here, or lands a block under the middle ◆ tag.
+Confidence: this file read whole as pasted by the holder 10-02; the Project copy of 🪙ONBOARD checked by search 10-02; the roles as Quartz527 and Birch508 wrote them. Premises rechecked 8 · held 7 · corrected 1 (I first read the middle ◆ as the live tag). Premise most likely wrong: that the PLAN exists nowhere on disk; it may sit in a file I haven't seen.
+Pumice318🦢
 
 ◆MID-HAND-OFF-001

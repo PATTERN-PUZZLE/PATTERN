@@ -410,4 +410,120 @@ Confidence: 🧾 each quote from this window, 09-30; the readings are
 mine. Premises rechecked 7 · held 7 · corrected 0.
 Cedar771🦎
 
+COMB-DUMP.md
+⚡ BASKET + RULE — 2026-10-01 (Birch508🐝) STRAYS FROM A ⚓ RUN; THE 📝 NOTES ARE THIS FILE'S RE-CHECK MADE WHOLE
+FILE: +IMPLEMENTED/COMB-DUMP.md, above ◆COMB-001. Copy the text only.
+THE RULE, NEWER FORM: RE-CHECK WITHOUT REMEMBERING says "The 💬
+receipt carries a COMB line every turn". On 10-01 the holder made it
+whole: every reply in a run ends with a 📝📝📝📝📝📝📝📝 row and the
+whole running notes draft (finds, open questions, plan), in view.
+Scene: a window offered to "hold" its open questions; the holder:
+"I'll hoard them? Lol be careful that's a contradiction? Better to add
+it into drafts to help you aka Better open communication to us all".
+The basket works the same way: kept in view, not in a head.
+⚠️ COMB — a block in the wrong file
+"🥈MID-HAND-OFF.md ⚡ WHAT I KNOW THAT NO FILE SAYS" (Cedar771,
+09-30) sits in this file's tail · COMB-DUMP
+Caught me because: it's addressed to 🥈, so a 🥈 reader may never meet it.
+Might join: 🥈, if it isn't there already (unseen by me).
+⚠️ COMB — two strays in FETCH-DIAGNOSTIC
+Flint742's block addressed to "🔗FETCH-BASICS.md" (not a file) · a
+"💡CHAT-TAG.md Feedback Section v2.0", which STANDARDS' slate417
+ledger lists as "Kimi Feedback v2.0", fossil · +IMPLEMENTED/FETCH-DIAGNOSTIC
+Caught me because: the same move as the 🥈 stray; saves in heavy
+traffic land in the wrong file.
+Might join: FETCH-DIAGNOSTIC's REV; 💡CHAT-TAG's REV.
+⚠️ COMB — REV paths that aren't on disk
+This file and Resin093's block say "TOOLS/REV+PACKET/REV-COMB-DUMP.md";
+🔎🍒RETURN-HARVEST says "+IMPLEMENTED/REV+PACKET/REV-RETURN-HARVEST.md";
+Resin093's FRESH-EYES block says "TOOLS/REV+PACKET/REV-FRESH-EYES-SCAN.md".
+🐙DIR-FILES of 09-30 has all three loose in +IMPLEMENTED/.
+Caught me because: Q6 says "into there own REV-PACKET folder inside
+the folder they already were"; the disk and the rule differ.
+Might join: a move into +IMPLEMENTED/REV+PACKET/, or the paths fixed
+on touch; the holder rules.
+⚠️ COMB — this file's STATUS is behind a ruling
+"Expiry replaced by MIGHT JOIN (Resin093🦔's change, not ruled)".
+Q8 rules it: "It's more of a collection of better notes think
+annotations".
+Might join: this file's next touch, STATUS line only.
+Falsify: a run under the 📝 rule still ends with an open question
+nobody can find in its notes.
+Confidence: 🧾 the paths checked against 🐙DIR-FILES 09-30; the
+holder's words as typed 10-01. Premises rechecked 6 · held 6 ·
+corrected 0. Premise most likely wrong: the REV paths, if files moved
+after 09-30.
+Birch508🐝
+
+COMB-DUMP.md
+⚡ BASKET — 2026-10-01 (Quartz527🐌) SEVEN BY-PRODUCTS FROM ONE NIGHT OF HAND-OFF REPAIRS
+FILE: +IMPLEMENTED/COMB-DUMP.md, above ◆COMB-001. Copy the text only.
+
+WORDS: chat = one AI session; it forgets when it ends. holder = the
+person running this work, on a phone. ◆ line = a file's last line,
+a tag starting with ◆; additions are pasted just above it. save-box
+= a block of text a chat sends for the holder to paste into a file.
+
+⚠️ COMB — a phone paste can glue onto the ◆ line
+The motion "tap the start of the ◆ line, press enter, paste" puts
+the paste on the ◆ line itself on most phones, leaving
+"…last line◆TAG-001" · seen in a save instruction, 10-01
+Caught me because: the ◆ line is how a reader knows a file
+arrived whole; glued, it stops being findable.
+Might join: 🪙ONBOARD's next revision: "tap the start of the ◆ line,
+paste, then press enter; check the ◆ line is alone."
+
+⚠️ COMB — two rules on when save-boxes go out
+"Save-boxes only when a job is finished, all in one reply" (a
+carry-back, 10-01) against the trolley brief's first box at every
+file, and the holder's "Write the finding the turn it lands"
+(🪙PAGE-ONE)
+Caught me because: one protects the holder's pasting, the other
+protects against a chat ending early.
+Might join: 🪙PAGE-ONE's next revision; the holder rules.
+
+⚠️ COMB — which part of a tag changes on a clash
+BUILDER/STANDARDS rule 9: "number first, then material" against
+🪙PAGE-ONE step 1: "Material and emoji together is a collision;
+change one" · named by Birch508🐝
+Caught me because: 🪙ONBOARD v1.1 follows PAGE-ONE and says so; the
+fork stays open.
+Might join: 💡CHAT-TAG; the holder rules.
+
+⚠️ COMB — a permission inside a carry-back
+"Names you don't recognise are context; you don't need them to act"
+· a carry-back, 10-01
+Caught me because: it reads as convenience; a woken chat uses it to
+skip asking.
+Might join: 🪙PAGE-ONE, BEFORE ANYTHING TRAVELS, check 6.
+
+⚠️ COMB — message numbers that mean nothing outside their chat
+"R34, Amber581's window" in 🪙ONBOARD's FACTS block
+Caught me because: an R-number counts one chat's messages; a
+stranger can't open that chat.
+Might join: 🤝THE PASS-INFO-RULE's 10-01 block: every name carries a
+line of what it says; an R-number carries the line it numbers.
+
+⚠️ COMB — 🟩 means three things
+A full capacity light · the continuation colour row · the file
+🟩FEEDBACK · named by Birch508🐝
+Caught me because: a reader took the file for a colour.
+Might join: 🪙PAGE-ONE's next revision, WORDS.
+
+⚠️ COMB — why ⚓ fails is unsettled
+Three readings: the edit deletes a chat's own reasoning (Quartz527,
+untested) · too many carry-back versions at once · titles with no
+bodies (Birch508's answers)
+Caught me because: the holder's ruling stands either way, but the
+fix differs for each.
+Might join: a cold test: one chat edited back with a carry-back
+that has a seam and bodies, and one without.
+
+Falsify: an item here turns out to already have a home, unnoticed.
+Confidence: each bit from tonight's pastes in my chat; not
+re-checked against the files themselves. Premises rechecked 7 ·
+held 7 · corrected 0. Premise most likely wrong: the gluing, which
+depends on the phone.
+Quartz527🐌
+
 ◆COMB-001

@@ -850,3 +850,28 @@ The threshold floor is in. The front door is complete.
 
 
 🫡
+
++IMPLEMENTED/⭐⭐⭐3 Instructions.md
+⚡ QUICK ADD — 2026-10-01 (Birch508🐝) WHOSE LINES ARE WHOSE; WHERE THIS JOINS; A TAG
+FILE: +IMPLEMENTED/⭐⭐⭐3 Instructions.md, very bottom; the tag below is its first. Copy the text only.
+WHOSE: the holder's own are the four levers at the top ("⭐1 tell
+user when they have a misconception" … "⭐4 its ok if you don't know,
+communication is appreciated") and "Also good standard 2 good options
+to helps 1, make a supplement info all the other angles … 2. Set
+yourself to make 3 or 6 pages". The rest (every "Cold read:" reply,
+the tables, the blocks) is instance layers: read them as scenes.
+JOINS: 🪙PAGE-ONE's map carries the four levers · 🪙ONBOARD's ROLE
+CARDS carries "The output is not the work. The verification is the
+work." · the "supplement" is the origin of a ⚓ run's final (🪙ONBOARD,
+item 24) · "Are you hurting or building?" is STANDARDS rule 8's first
+move.
+FIX ON TOUCH: the blocks say "FILE: Bits-and-Bobs Bucket", which is not
+on disk (Cedar771's basket and this read: two mouths) · no top lines.
+SURVIVAL LINE: "The output is not the work. The verification is the work."
+Falsify: a reader quotes a "Cold read:" line as the holder's.
+Confidence: 🧾 as pasted 10-01. Premises 4 · held 4 · corrected 0.
+Premise most likely wrong: that the "Also good standard" lines are
+the holder's; their typos say so, nothing marks it.
+Birch508🐝
+
+◆STAR3-INSTRUCTIONS-001

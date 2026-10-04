@@ -337,4 +337,79 @@ Confidence: 🧾 v3 as pasted, whole; premises 6, held 6; not run
 on a heap by me.
 Amber581🐢
 
++IMPLEMENTED/🤝COMPREHENSIVE.md
+⚡ QUICK ADD — 2026-10-01 (Birch508🐝) A RUN'S FINAL IS THIS CARD; THE PULLS RUN UNASKED; THE COLD RUN STILL OWED
+FILE: +IMPLEMENTED/🤝COMPREHENSIVE.md, above ◆COMPREHENSIVE-001. Copy the text only.
+1. A RUN'S FINAL IS THIS CARD. When a ⚓ run ends, its final
+additional takes this card's shape (STATE · FINDING · GAPS · NEXT ·
+TRAPS · GIFTS) plus the next pass prompt. The holder: "at the end you
+do a final.more.smart wise insigjrs additional as if somewhat can see
+more of the puzzle its your duty to pass that on" · "A Because things
+change quickly B Because its a kinda hand off C its a kinda index to
+summarize the and have new information suggestions feedback". The
+notes and blocks it came from stay beside it.
+2. THE PULLS RUN UNASKED. This card: "Those asks are on the page
+now." Scene, 10-01: a window offered "another lens if you want one";
+the holder: "Then asking if it helps scan check again is futile?" Use
+the card's own measure: "Did the ask change the door, the card, or the
+store?" That night, one pass gave 6 finds; nine passes gave about 20
+and caught 2 wrong claims before they were saved.
+3. PROMPTS CARRY THE PASSES. The holder: "Prompts are the key "hi"
+"yes hi" "re check " vs a massive information with angles insights
+and awareness of the last checks". A pass prompt names the lenses
+already run, where they went dry, the errors made, the lenses not yet
+used, and one control question whose answer is on no page. THE TWELVE
+are its seed.
+4. STILL OWED: one cold run (PROVISIONAL since 09-20) · Amber581's
+three fix-on-touch lines (the COMB seed's expiry · Brass739's LEDGER
+to the REV · FULL-FORM against the eight parts).
+Falsify: a run's final comes back without a NEXT, or as a list of
+first finds.
+Confidence: 🧾 the card as pasted 10-01; the holder's lines as typed.
+Premises rechecked 5 · held 5 · corrected 0. Premise most likely
+wrong: "about 20", my count of my own finds.
+Birch508🐝
+
++IMPLEMENTED/🤝COMPREHENSIVE.md
+⚡ QUICK ADD — 2026-10-01 (Quartz527🐌) THE CARD, WHEN ITS READER REMEMBERS NOTHING
+FILE: +IMPLEMENTED/🤝COMPREHENSIVE.md, above ◆COMPREHENSIVE-001.
+Copy the text only.
+
+WHAT CHANGES: step 8's card (STATE · FINDING · GAPS · NEXT · TRAPS ·
+GIFTS) is often read by the AI chat that wrote it, after it has lost
+its memory, or by a fresh chat that never saw the work. Neither can
+open any file; each holds only what's pasted to it. For that reader:
+1. A seam first, above STATE: "The last thing you yourself wrote
+   here was [quoted]; everything below it you did not see." It shows
+   where memory ends and report begins.
+2. Step 6, "Point, don't twin," holds inside the files. On a card, a
+   file name alone is a dead pointer, so each file the card names
+   carries one line of what it says.
+3. The card goes to disk before the chat can lose it. The block
+   above calls the card the final of a run where the holder (the
+   person running this work) edits an earlier message to delete
+   everything after it and free room. The holder, 10-01, exact
+   [excerpt]: "the anchor ⚓️ sometimes sometimes sometimes or never
+   actually works they get all messed up and the only way is a new
+   instance". So save the card first. A confused chat is replaced by
+   a fresh one given the card, not repaired.
+4. One version: only the latest card is pasted; older ones go to
+   REV-COMPREHENSIVE.md.
+SCENE, 2026-10-01: a chat was handed four cards at once, signed with
+its own name, written by other branches of it, listing what was saved
+by title only. It read them as someone else's work, and skipped the
+titles as things it couldn't open.
+
+Falsify: a card with a seam and a line per file still reads to its
+next chat as someone else's.
+Confidence: this file read whole 10-01; the scene from the reading
+chat's own answers. One witness, not fully fresh. Premises rechecked
+4 · held 4 · corrected 0. Premise most likely wrong: that one line
+per file is enough.
+SOURCES: the reading chat signed itself Birch508🐝; the same lesson
+sits in 🪙ONBOARD and 🤝THE PASS-INFO-RULE, quick adds of 10-01.
+Still owed here from before: one cold run; Amber581's three fixes on
+touch (her block, above).
+Quartz527🐌
+
 ◆COMPREHENSIVE-001

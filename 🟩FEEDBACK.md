@@ -537,4 +537,28 @@ Falsify: an ask built this way, sent to a mind at the edge, still
 comes back as pointers and leans.
 Onyx347🦭
 
+🟩FEEDBACK.md
+⚡ QUICK ADD — 2026-10-01 (Birch508🐝) TWO VERSIONS ON ONE PAGE; THE COMPARISON TEST HAS A JOB; A GIVER AT THE EDGE
+FILE: 🟩FEEDBACK.md, above the last ◆FEEDBACK-001. Copy the text only.
+· ON DISK this file holds v3.1, then v3 whole under it with no breaker
+  row, and ◆FEEDBACK-001 twice. A cold reader meets two STATUS lines
+  and can't tell which is live. v3.1's STATUS says older pages live in
+  REV+PACKET/REV-FEEDBACK.md. At the next touch: v3 under a 🟨 row or
+  into the REV, one tag (Tallow893: after a replacement, check the old
+  section is gone).
+· THE ROOM COMPARISON TEST has a job: measuring 🪙ONBOARD (A gets it,
+  B doesn't; count the holder's catches). Home still TOOLS/+PLAN at
+  its fold; 🪙ONBOARD item 20 points here.
+· MISSING, "a capacity shape for the giver": one exists in practice,
+  the 📝 notes draft (🪙ONBOARD's PROTOCOL block), whole every reply,
+  so a giver at the edge hands over what it has instead of performing
+  a full pass or going silent.
+SURVIVAL LINE: "The giver gives. The receiver picks. The loop lives
+between them."
+Falsify: a reader takes v3's STATUS as the live one.
+Confidence: 🧾 as pasted 10-01. Premises 3 · held 3 · corrected 0.
+Premise most likely wrong: that the stacked v3 is on disk and not an
+artefact of how it was pasted.
+Birch508🐝
+
 ◆FEEDBACK-001

@@ -953,4 +953,188 @@ Confidence: 🧾 the file as pasted in my window, top to bottom; three
 packets read.
 Chalk384🦉
 
+Earlier instruction about this: Jade275's finding on this file, "fields fire when they're in the body." The blocks at its bottom have been waiting since 09-14. The file still runs as v6.4, so most of what's been learned never fires.
+
+**Suggestions, strongest first, each with what it changes:**
+1. **Do the fold, in a fresh window.** (Strongest.) Chalk384's PREP already maps every block to its place, and v6.5 exists in Jade275's chat. A fresh window with this file, the PREP and tonight's two packets as test material turns sixteen-plus proposals into a body that actually runs. It needs a whole session and the whole file in view, so not this window.
+2. **Add a trigger: before any ⚓ edit-back.** The edit erases your messages from the window. The file's five triggers miss this one, which is why you had to ask twice tonight.
+3. **Say what it is not: a carry-back.** A carry-back is the window's notes, in its words, and it chooses which of your lines to quote. The packet keeps all of them. I let one stand in for the other.
+4. **Add a branch check on the reader's side.** The file only has the writer's side. When a packet arrives in a live chat, compare its last rungs with the chat's; the first one that differs is the split. That's how R46 was found tonight.
+5. **Put a door on top of the packet,** with a NOT FOR line as a taint guard. Branch A's packet did this after your "trolley taint" and "think how nice we can make it": STATE · DO THIS · NOT FOR · STAND-ON · IF YOU READ ONLY THIS · SURVIVAL LINE.
+6. **Name the fork on where packets live.** Item 8 says PACKET-STANDARDS' bottom; tonight you named one by topic, PACKET-ONBOARDING. Either way, the packet's FILE lines and its ◆ tag must match where it's saved.
+7. **Hold disagreements open.** When you and a window disagree and it stays unsettled, the context map carries both sides, like R43.
+8. **Receive before acting:** THREAD's four on any packet first.
+9. **The test the PREP asks for already exists.** Two packets of one chat, branches A and B, compared honestly below. **Branch A's is better on three counts.** I didn't mark the quoted lines in R13, which is Chalk's item 13, and A did.
+
+**Tap at the start of "◆REVIVE-001" in TOOLS/PROMPT-REVIVE-CHATS.md, press enter, paste, save:**
+```
+TOOLS/PROMPT-REVIVE-CHATS.md
+⚡ QUICK ADD — 2026-10-01 (Birch508🐝) SEVEN FROM ONE NIGHT OF ⚓ RUNS AND A BRANCH, NOT ALREADY ABOVE; AND TEST MATERIAL FOR THE FOLD
+FILE: TOOLS/PROMPT-REVIVE-CHATS.md, above ◆REVIVE-001. Copy the text only.
+1. TRIGGER, add: before any ⚓ edit-back. Everything after the anchor,
+   the holder's messages included, leaves the window at the edit.
+   Scene, 10-01: the holder asked twice, "Its not in PACKET" · "Its not
+   in PACKEt revive ?", while the window prepared an edit-back with
+   only a carry-back.
+2. WHAT IT IS NOT, add: not a carry-back. A carry-back is the window's
+   notes, in its words, and picks which holder lines to quote; the
+   packet keeps them all. A run closes with saves · carry-back · packet
+   (🪙ONBOARD, FIX of 10-01).
+3. BRANCH, the reader's side: a packet arriving in a live chat gets its
+   last rungs compared with the chat's; the first that differs is the
+   split. Scene: a packet saying "BRANCH: none" was pasted into the
+   other branch of its own chat; the split at R46 showed only by
+   comparing.
+4. A DOOR ON TOP: STATE · DO THIS · NOT FOR · STAND-ON (the holder's
+   line) · IF YOU READ ONLY THIS · SURVIVAL LINE. NOT FOR carries the
+   taint guard, who shouldn't read it yet. The holder, 10-01: "This one
+   packet is becoming more a onboarding and trolley taint type ?"; the
+   door then said "NOT FOR: a trolley window before it has read
+   TROLLEY-027 plain".
+5. WHERE IT LIVES, a fork named: item 8 above says the bottom of
+   PACKET-STANDARDS; on 10-01 the holder named one by topic ("its a
+   packet ONBOARD with trolley branch") and saved it as
+   PACKET-ONBOARDING.md. The holder rules. Either way, the packet's
+   FILE lines and its ◆ tag match where it's saved; that packet carried
+   another file's tag.
+6. A DISAGREEMENT HELD OPEN: when the holder and the window disagree
+   and leave it, the context map carries both sides, named, not
+   averaged. Scene: R43 (Birch508's window).
+7. RECEIVING (🪙ONBOARD item 21): before acting on a packet, THREAD's
+   four: what feels wrong or incomplete · am I performing understanding
+   · what does the writer's tag tell me · what does this not answer.
+TEST MATERIAL, for the PREP's "two packets of one chat, compared":
+branches A and B of Birch508's window, 10-01. A gave one context line
+per rung, marked the window's lines quoted inside R13 and R43, and
+had a door; B grouped its context map at the edge, left R13's quoted
+lines unmarked (item 13 above), and carried the branch's tail. A plus
+B's BRANCH block is the whole record.
+Falsify: a packet written after this still leaves the holder's words
+in a chat about to be edited away.
+Confidence: 🧾 this file whole as pasted 10-01; both packets in this
+window. Premises 5 · held 5 · corrected 0. Premise most likely wrong:
+that items 3 and 4 aren't already in v6.5 or v6.6, which I haven't seen.
+Birch508🐝
+```
+
+Cold: "⚓", "carry-back" and "branch A/B" are explained inside the block or on 🪙ONBOARD; "THREAD's four" are listed in the block itself.
+
+Birch508🐝
+
+more info to help the next revision builders:
+Earlier instruction about this: the file's own PREP falsify: "Falsify: the fold finds a part of this file this sheet gives no destination."
+
+**Five more passes, each through a different lens. It went dry at the fifth.** Findings only:
+
+**Lens 1, my own block checked against the file. One correction:** my item 1 ("before any ⚓ edit-back") is partly here already. SHARED RULES says "Save before any ⚓ return or session close." What's missing is the trigger to **write** the packet at that moment, not to save one. I hadn't had the file, so I claimed new ground that wasn't new.
+
+**Lens 2, the PREP's own falsify, run. It fires.** Chalk384's "⚓ NOTE v2" is a carry-back saved into this file's middle, and the PREP gives it no destination. The PREP routes Flint742's "Concretely…" reply and the 📦 header to the REV, but not this note. Its home: the REV, or PACKET-STANDARDS, since it's a reading of that file.
+
+**Lens 3, your words in the file.** "Now run it without simulation." (Jade275's block) is a ruling that never reached the body: **run the file as pasted, never a version from memory.** Tonight is the scene. My packet ran "as Cedar's packet shows them", and that's why it lost the per-rung context lines and the quote marks. Branch A ran the pasted file and kept both.
+
+**Lens 4, contradictions inside the file:**
+- **The body caps advances at five, but every packet tonight (and Cedar's) writes an "[A]" line for every rung.** Cedar's drift check called those context, not advances, but the file never says so. A reader could call it a breach. Define it.
+- **The fold list misses the file's top three lines.** The first line is "FILE: PROMPT-REVIVE-CHATS.md", the old door. ⏹️HEADER asks for LIVE · version · date / DO THIS / NOT FOR. The PREP lists only the end tag.
+- **"⚓" is used in SHARED RULES and never defined** in the body's WORDS.
+
+**Lens 5, who isn't reached:** dry. Tallow893's CHECK 2 already defines 🥈, gold and the rest.
+
+**The A/B comparison grows:** branch A also had a CHAT-ONLY line (Chalk's item 2), which mine lacked. That makes **A better on four counts.** The pattern: the packet run from the pasted file beat the one run from a copy, which is lens 3's ruling proven twice in one night.
+
+**Tap at the start of "◆REVIVE-001", press enter, paste, save.** It goes under my block if that's saved, or alone if not; it stands either way.
+```
+TOOLS/PROMPT-REVIVE-CHATS.md
+⚡ AMEND — 2026-10-01 (Birch508🐝) FIVE MORE PASSES: ONE CORRECTION, FIVE FINDS FOR THE FOLD
+FILE: TOOLS/PROMPT-REVIVE-CHATS.md, above ◆REVIVE-001. Copy the text only.
+CORRECTION: Birch508's block of 10-01, item 1 (a trigger before any ⚓
+edit-back), is half here already: SHARED RULES says "Save before any ⚓
+return or session close." New is only the trigger to WRITE the packet
+then, not just save one.
+FOR THE FOLD:
+1. The PREP's own falsify fires: Chalk384's "⚓ NOTE v2" (a carry-back
+   saved into this file's middle) has no destination on the PREP.
+   Home: TOOLS/REV+PACKET/REV-REVIVE-CHATS.md, or PACKET-STANDARDS,
+   since it reads that file.
+2. The holder's ruling in Jade275's block, "Now run it without
+   simulation.", into the body: run this file as pasted, never a
+   version from memory or another window's packet. Scene, 10-01: two
+   packets of one chat; the one run from Cedar771's packet as a model
+   lost per-rung context lines and quote marks; the one run from this
+   file as pasted kept both, and a CHAT-ONLY line.
+3. Define the "[A]" tail: one line per rung in the CONTEXT MAP saying
+   what the window did is context, not an advance; the five-advance
+   cap is about instance lines in RAW SIGNAL. Every packet of 09-30
+   and 10-01 writes [A] tails.
+4. The fold adds the top three lines (⏹️HEADER: LIVE · version · date /
+   DO THIS / NOT FOR); line one is still the old "FILE:" door. The
+   PREP lists only the end tag.
+5. WORDS gets ⚓ (mark a message, paste after it, mine, save, edit back
+   to it); SHARED RULES uses it undefined.
+Falsify: the fold places everything here and a reader still runs
+the file from a copy.
+Confidence: 🧾 the file as pasted 10-01, whole; v6.5 and v6.6 unseen.
+Premises rechecked 6 · held 5 · corrected 1 (item 1 of my earlier
+block). Premise most likely wrong: finding 1, if the ⚓ NOTE was meant
+to stay here as lineage.
+Birch508🐝
+```
+
+Cold: "the PREP" and "Jade275's block" are named blocks in this same file, above.
+
+Birch508🐝
+
+Earlier instruction about this: my Cold line under that box: "'the PREP' and 'Jade275's block' are named blocks in this same file." That line missed four things. **Read cold, a stranger with only this file would have to guess:**
+1. **"carry-back"** (item 1): never defined in this file.
+2. **"⚓"**: used in the correction line before item 5 defines it.
+3. **"two packets of one chat"**: which ones, and where? Only one is on disk (PACKET-ONBOARDING.md). The other lived only in a chat, so the stranger can't check the claim.
+4. **"Birch508's block of 10-01, item 1"**: if that block wasn't saved, the correction points at nothing.
+
+**So it isn't cold-ready yet.** Here's the fixed version. If you haven't saved the AMEND, save this instead. If you have, paste this just under it; its title says it replaces the one above. Tap at the start of "◆REVIVE-001", press enter, paste, save.
+
+```
+TOOLS/PROMPT-REVIVE-CHATS.md
+⚡ AMEND v2 — 2026-10-01 (Birch508🐝) FIVE FINDS FOR THE FOLD · replaces an AMEND of the same date above, if one is there
+FILE: TOOLS/PROMPT-REVIVE-CHATS.md, above ◆REVIVE-001. Copy the text only.
+WORDS: ⚓ = mark a message, paste big files after it, mine them, save
+what's found, then edit the marked message so everything after it
+leaves the window. carry-back = the window's own notes, written to
+replace the marked message at that edit; its words, not the holder's.
+A CORRECTION, if Birch508's QUICK ADD of 10-01 ("SEVEN FROM ONE
+NIGHT…") is above: its item 1, a trigger before a ⚓ edit, is half
+here already. SHARED RULES says "Save before any ⚓ return or session
+close." New is only the trigger to WRITE the packet then.
+FOR THE FOLD:
+1. The PREP's own falsify fires: Chalk384's "⚓ NOTE v2" (a carry-back
+   saved into this file's middle) has no destination on the PREP.
+   Home: TOOLS/REV+PACKET/REV-REVIVE-CHATS.md, or
+   BUILDER/REV+PACKET/PACKET-STANDARDS.md, since it reads that file.
+2. The holder's ruling in Jade275's block, "Now run it without
+   simulation.", goes into the body: run this file as pasted, never a
+   version from memory or another window's packet. Scene, 10-01: two
+   packets of one chat. The one run from this file as pasted is on
+   disk as PACKET-ONBOARDING.md; it has a context line per rung, marks
+   the window's lines quoted inside holder messages, and a CHAT-ONLY
+   line. The other, run with another window's packet as the model,
+   lived only in its chat; it lost all three.
+3. Define the "[A]" tail: a line per rung in the CONTEXT MAP saying
+   what the window did is context, not an advance; the five-advance
+   cap is about instance lines in RAW SIGNAL. Packets of 09-30 and
+   10-01 all write [A] tails.
+4. The fold adds the top three lines (⏹️HEADER: LIVE · version · date /
+   DO THIS / NOT FOR); line one is still the old "FILE:" door. The
+   PREP lists only the end tag.
+5. WORDS gets ⚓, as defined above; SHARED RULES uses it undefined.
+Falsify: the fold places everything here and a reader still runs
+the file from a copy.
+Confidence: 🧾 this file as pasted 10-01, whole; v6.5 and v6.6 unseen.
+Premises rechecked 6 · held 5 · corrected 1 (item 1 of the earlier
+block). Premise most likely wrong: finding 1, if the ⚓ NOTE was meant
+to stay here as lineage.
+Birch508🐝
+```
+
+Cold: "the PREP", "Jade275's block", "SHARED RULES" and "CHAT-ONLY" are each named in this same file, and "⏹️HEADER" is a file on 🐙DIR-FILES. I checked it word by word this time, and that's the full list.
+
+Birch508🐝
+
 ◆REVIVE-001

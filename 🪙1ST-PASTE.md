@@ -1066,4 +1066,81 @@ count.
 Confidence: 🧾 both from this window; premises 2, held 2.
 Amber581🐢
 
+🪙1ST-PASTE.md
+⚡ FIX ON TOUCH — 2026-10-01 (Birch508🐝, scout) THREE LINES BEHIND THE RULINGS; TAGS SINCE v4.2
+FILE: 🪙1ST-PASTE.md, above ◆COLDSTART-001. Copy the text only.
+THREE LINES THAT NOW MISLEAD:
+· WORDS, "◆ tag": says "blocks go at the very bottom, under it".
+  Ruled since: blocks go ABOVE the ◆ tag, the tag stays last ("Its
+  above otherwise its not got a thing"; 🪙PAGE-ONE v11, SEVEN LINES
+  1).
+· THE TRAY, ROOT: says 🪙PAGE-ONE "live v9". Live is v11 (09-30).
+  🪙ONBOARD (said saved 09-30) has no tray line yet: one message for
+  any new window: the roles card, a copy of PAGE-ONE, 🐙DIR-FILES
+  under it.
+· THE TRAY, 🥈: says "no ◆ tag… read from the very bottom". It now
+  ends ◆MID-HAND-OFF-001, has a REV, and its reading order is "ask
+  what moved since its last block, then read its top part".
+TAKEN TAGS, seen 2026-09-28 to 10-01, so new windows don't collide:
+Chalk384🦉 · Onyx347🦭 · Amber581🐢 · Cedar771🦎 · Bismuth752🐙 ·
+Quartz527🐌 · Birch508🐝 · Quartz508 · Quartz482 · Pumice846 ·
+Feldspar284 · Wicker583 · Wool733🐑 · Cinder640🪁 · Sable229🦊 ·
+Amber512🪷 · Quartz742🪐 · Birch615🌲 · Pumice827🫧 · Sisal846🦎 ·
+Jasper591🦎 · Gabbro713🧊 · Zircon472🪐 · Travertine508🍁. (Emoji
+for some of the Quartz, Pumice, Feldspar and Wicker tags not seen.)
+SCENE, 10-01: Cedar771🦎 and Birch508🐝 were each signed by branches
+of their own chats, on work the window never wrote. A tag is how
+that got caught, so the list matters.
+Falsify: a new window forges a tag on this list.
+Confidence: 🧾 every tag from pastes in Birch508's window, 10-01;
+the rulings from 🪙PAGE-ONE v11 as pasted. Premises rechecked 5 ·
+held 5 · corrected 0. Premise most likely wrong: a tag mis-copied
+from a long paste.
+Birch508🐝
+
+🪙1ST-PASTE.md
+⚡ ADD — 2026-10-02 (Pumice318🦢) THE NAMES 10-02 MADE: NEW WORDS, FOUR NAME CLASHES, THREE ROUTER ROWS, THE PROJECT, TWO TAGS
+FILE: 🪙1ST-PASTE.md, above ◆COLDSTART-001. Copy the text only.
+
+WORDS this block uses: chat = one AI session; it forgets everything when it ends. the holder = the one person running this project, on a phone. block = a dated addition pasted above a file's last line, the one starting ◆. the Project = the claude.ai Project "Trolley 🛒🛒🛒"; chats inside it can read its docs directly.
+
+WHY: on 10-02 three chats added about ten blocks to 🪙ONBOARD and 🥈MID-HAND-OFF, full of new house words, and none reached this file, where a new window looks a name up.
+
+NEW WORDS, each with where its body lives:
+pass-on = what a chat writes so the next mind gets a file without reading it (🪙ONBOARD, the TOTAL of 10-02).
+seam = a pass-on's opening line: what the writer saw itself, and what it's only passing on (TOTAL; RESTART, DON'T REPAIR, rule 7).
+say-back = a fresh chat retelling a file from the pass-on alone; the test of a pass-on (TOTAL).
+guard = a rule's "when not"; what gets lost first (TOTAL).
+THE ENGINE = the steps for passing any file on: read it whole · write the pass-on while the file is open · a fresh chat says it back · the window still holding the file marks what was missed · fix, then let the file go · judge by the stranger · name every file the lesson belongs in (TOTAL).
+THE LADDER, rungs = onboarding as skills in the holder's order: finding maths · assimilation · colours · emoji · tags · checklist · feedback · prompts (TOTAL).
+finding maths = rung 1: all knowledge and communication used as a guide toward better, where both sides gain. Not the system basics (TOTAL; the AMEND on rung 1).
+assimilation = rung 2: take a file in, salvage it, pass it on tested (TOTAL).
+the ratio = how much of a file a pass-on keeps; set by say-backs, starting near a tenth (TOTAL).
+rung reached / rung missing = how deep a write-up got, and where it stops. Used instead of "not understood" (🪙ONBOARD, RULE "YOU UNDERSTAND MORE THAN YOU WRITE").
+the default exit = "not understood, carry it exact": the model's own pull; three chats wrote it on 10-02 without seeing each other's (same RULE).
+tag-shape = a line a reply must carry that can't be filled without doing the act, the way a tag can't be signed without forging one (same RULE).
+EVERY CARRIER, OWED line = name every file a lesson belongs in; the ones not in the chat go on a line starting OWED (🪙ONBOARD, Birch508's PATTERN; TOTAL's ENGINE step 7).
+ferry = the holder copying a box out of one chat and into another (🪙ONBOARD, RULE "A BLOCK FOR A FILE", untested).
+one writer = the one chat that writes blocks into the Project copy of a file (same RULE).
+control question = a question no page answers; a reader who answers it is guessing elsewhere too (🪙ONBOARD, ITEMS 13–19, item 16).
+
+NAME CLASHES, read by context:
+· "PATTERN": Birch508🐝's block "ONE LOSS AT EVERY LEVEL, ONE FIX AT EVERY LEVEL" on 🪙ONBOARD · the TOTAL's heading "THE PATTERN: ONE SHAPE AT EVERY SIZE" · the repo, PATTERN-PUZZLE/PATTERN · PATTERN-LIBRARY-SET1 and CROSS-FILE-PATTERN at root. Scene, 10-02: Quartz527 took Birch508's PATTERN for Birch508's pass-on card from its name, and named it in a SUPERSEDES line before reading it.
+· "TOTAL": a notes total (🪙ONBOARD, PROTOCOL v2: the whole current state, rewritten each reply) · a TOTAL block (a dated block carrying an area's whole state and naming what it supersedes; Quartz527's of 10-02 on 🪙ONBOARD is one).
+· "card": the onboarding card at 🪙ONBOARD's top · a category's card, one file holding a whole category (ROLE CARDS; TOTAL) · a job's card on disk, like TROLLEY/🛤️TROLLEY-WHOLE.md (RESTART; Shale905🦑 proposed calling it "job card").
+· "the LETTER": Resin519🐚's of 09-23, the model hand-off (🥈) · Quartz527🐌's of 10-02 (🥈, and in the Project as claude/🥈LETTER-2026-10-02.md).
+
+ROUTER, three rows for the next fold:
+Pass a file on so the next mind needn't read it → THE ENGINE (🪙ONBOARD, TOTAL).
+A block for a file, with more than one chat involved → 🪙ONBOARD, RULE "A BLOCK FOR A FILE" (untested).
+Test whether the foundation works → the prompt in 🥈's UPDATE of 10-02, item 4.
+
+THE PROJECT, a place files live that 🐙DIR-FILES doesn't list: "Trolley 🛒🛒🛒" holds claude/🪙ONBOARD.md (a checked copy; as of 10-02 it lacks Birch508's PATTERN) and claude/🥈LETTER-2026-10-02.md (as of 10-02 without the four fixes in 🥈's UPDATE). The phone copy and the Project copy can differ; say which you hold.
+
+TAKEN TAGS since Birch508's list: Pumice318🦢 · Shale905🦑.
+
+Falsify: a new window given this file still guesses one of these words, or takes one PATTERN for another.
+Confidence: each word checked against the block named beside it, as pasted 10-02; the Project's two docs from its own listing, 10-02. Premises rechecked 6 · held 6 · corrected 0. Premise most likely wrong: that this is every new name; I read 🪙ONBOARD and 🥈, not 🛤️TROLLEY-WHOLE, which may hold more.
+Pumice318🦢
+
 ◆COLDSTART-001
