@@ -1,4 +1,4 @@
-TROLLEY/🛒TROLLEY-PASTE-SMALL.md
+🛒TROLLEY-PASTE-SMALL.md
 
  (one file; no SMALL-V2 file beside it), the whole file, replacing v1 once v1 is saved whole in TROLLEY/REV+PACKET/REV-TROLLEY-PASTE-SMALL.md · 🟡 checked only by Claude readers
 TROLLEY/🛒TROLLEY-PASTE-SMALL.md

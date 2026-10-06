@@ -1,4 +1,4 @@
-FILE: COMB-DUMP.md
+REV-COMB-DUMP.md
 WHAT THIS IS: Where unsure bits go so nobody has to decide too early.
 WHO: Anyone extracting or sorting and not certain a bit belongs.
 WHY: Deciding now loses signal or bloats the file. The attention was already paid once; a later look is cheap. Park, don't decide.

@@ -537,7 +537,7 @@ file's v6.4 body, with the ruled FIXes, is what runs. When v6.5 goes
 on, v6.4 stays whole below it.
 Falsify: a second packet on v6.5 misses fields as often as v6.4
 does, or the holder strikes most of what v6.5 folded in.
-Jade275🪢
+Jade275🪢 
 
 ⚓ NOTE v2 — 2026-09-28 · Chalk384🦉 → Chalk384🦉, before the paste
 Supersedes the first ⚓ note. WHAT THIS IS: you asked the holder for
