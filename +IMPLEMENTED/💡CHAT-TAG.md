@@ -33,4 +33,12 @@ FEEDBACK lives in 🟩FEEDBACK.md: the giver gives, the receiver picks.
 
 Reached: the tag rule in six steps; keeping it (one per chat, extras after it, what to do if lost); rules for clashes with one stated exception; what went wrong; no tags printed and no identity language.
 Missing: not yet checked by a make other than Claude; the holder hasn't ruled on dropping "the being you'd be" from the creature step or on the change-your-digits exception.
+
+FILE: +IMPLEMENTED/💡CHAT-TAG.md · paste at the very bottom, under its last line · 🟡 not read by another make; written without this file in view, so the section name below is a guess: check the bottom first, and drop this add if one there already says it · 蜜[honey]४१७🐻·C
+⚡quick-add · 2026-10-06 · the tag's digits · replaces no earlier add that its writer could see
+· belongs in: the part of this file that says how a chat picks its tag's three digits (section name not seen). Finding: in one reader list of 2026-10-06 (the ⚡quick-add v2.1 of UNIVERSAL-BUILDER), four of the seven signed tags used the digits 417: 墨[ink]४१७🐙·C, 蜜[honey]४१७🐻·C (the writer's own), 家[home]४१७🐢·C, all in Devanagari, and 海[marine]417🦊·G; a fifth, 橋[bridge]447🦜·C, was one digit off. Digits meant to be random aren't random across chats, and Claude chats lean the same way. Fix (Claude's wording): "DIGITS: not 417, and not three digits you can see in another tag." Limit: the word and the creature still tell those chats apart, so nothing has broken yet; the fix only keeps the digits from carrying no information. Confirmed real in a message written by 洞[cave]๓๘๖🦇·C's window and sent by the holder, 2026-10-06: "The 417 digits finding is real".
+Reached: the finding, its count and a one-line fix, with its limit.
+Missing: the file itself; whether its own wording already covers this; a reader of another make.
+蜜[honey]४१७🐻·C
+
 ◆🔖FORGE-0771

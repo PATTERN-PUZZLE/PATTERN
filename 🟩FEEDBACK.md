@@ -561,4 +561,52 @@ Premise most likely wrong: that the stacked v3 is on disk and not an
 artefact of how it was pasted.
 Birch508🐝
 
+FILE: 🟩FEEDBACK.md · at the bottom, on the line above ◆FEEDBACK-001 · belongs under the door, before THE LOOP, at the next fold · 🟡 one Claude reader, findings fixed; not read by another make
+⚡ QUICK ADD — 2026-10-07 (洞[cave]๓๘๖🦇·C) 🟩CARD: THIS FILE IN ONE PASTE, CALLED BY A WORD
+Why: the holder, 2026-10-06: "imagine to be able to call up a feedback section not necessarily every time like a tag but it's there to be efficiently pasted in at any time as the ultimate reference" · "think of feedback done with the utmost best file and then taking that into a smart condensed because having the larger one is that best guide to make it efficient kijda like cheating with homework"
+Limit: the card is a door to this file, not a replacement; where both cover a thing, this file wins. Under 4,000 characters (UTF-16 count) so it pastes into Grok; anything added must keep it there or move to this file.
+=== 🟩CARD STARTS ===
+🟩CARD · feedback on any work, in one paste · condensed from 🟩FEEDBACK.md v3.1; where both cover a thing, the full file wins; parts marked ⚡ are new (2026-10-07) and not in it yet · offered, never above your own judgment or safety rules
+WORDS: holder = the person who keeps these files and pastes this card · work = what's pasted with the card · make = which company's AI (Claude, Grok, DeepSeek, Kimi) · fold = merging additions into a file · basket = a list of good points not used yet, each with where it might go.
+USE: card alone, no work → reply "Card received; paste the work" and stop. Work here → run the part named by the holder's word: "feedback" (or no word) → FEEDBACK · "full" or "deep" → FEEDBACK + FULL · "fold check" → FOLD CHECK · "quick-add check" → QUICK-ADD CHECK · "second read" → SECOND READ.
+Before any part: you made this work yourself → write NON-INDEPENDENT on top · work that has never been used or run gets opinions, not findings; say so · a source the part asks about isn't in front of you → say so and answer only from what you hold; mark every estimate as one.
+
+FEEDBACK
+1. What held, and how: the mechanism, not praise.
+2. What broke or drifted: quote its words. Reproduced, seen once, or inferred?
+3. One exact patch: a fix, not a wish. Already in the work but not followed? That's the finding.
+4. Every word you guessed at: list, don't define.
+5. Where you skimmed, and why.
+6. One to set aside, one to keep.
+7. What you almost left out. What you did unasked.
+8. The one question you'd ask the writer.
+9. What would make this report wrong?
+Limits: no slot is mandatory; "checked once, none" is a full answer; never invent a patch to fill the form · faults only, or praise only, isn't finished: part of the holder's line, "if you can see the negative then it means you can see the positive" · report what you saw; don't grade the writer · don't design your own version of the work · reviewing, or performing a review?
+
+FULL → also: pros · cons · insights · new angles · what it assumes you know · one line for the next builder · suggestions: as many as the work holds, strongest marked, never padded.
+
+⚡FOLD CHECK → for a merge, revision or fold. Report only; never rewrite the file.
+a. Sources: each file and message used · read whole or which part.
+b. Each addition: from where · exact, reworded or shortened (what dropped) · rank: load-bearing (the next chat fails without it) · optional · too local.
+c. Ratio of the result: holder's words exact / lines from other files / the writer's own wording. Estimate, and how.
+d. Not done: every ruling not followed as written, and why.
+
+⚡QUICK-ADD CHECK (a quick-add = a dated addition at a file's bottom) → per item: does it give the next builder an idea or a move? Only reports (a count, a pointer, a missing line)? One line at most, or nothing. The holder: "⚡️quick-add should be as good as themselves the idea are for amazing ideas not performance and tripe"
+
+⚡SECOND READ → you're a different make from the writer, reading cold. Out: the best few lines, with why · the premise most likely wrong · what you didn't check. Never a rewrite.
+
+RECEIVING, for whoever acts on feedback (a giver gives fully and doesn't pre-filter)
+· A correction from the holder is a ruling: do it, don't weigh it. A new rule said in heat: read it back once in one plain line first.
+· Pick what changes the next move; the rest goes in the basket.
+· No verbatim quote of the gap → no patch.
+· A patch agreed in chat and left there was not received.
+· Ratio of effort: 10 on the job · 3 feedback · 1 feedback on the feedback. Two turns of the last with no work done is a stall.
+· Three chats of one make agreeing = one voice.
+
+END with: Checked: ✔️[your own tag if you already have one, else just your make; don't invent one] · [what you found, a few words]
+=== 🟩CARD ENDS === · stop and say so if the start or end line is missing
+Reached: 🟩FEEDBACK condensed to one paste that fits every make, five parts called by one word each, the holder's two asks of 10-06/07 (fold sources, ranks and ratio; quick-adds as ideas) built in, limits beside each move.
+Missing: a reader of another make; the card used on real work.
+洞[cave]๓๘๖🦇·C
+
 ◆FEEDBACK-001
