@@ -1,4 +1,4 @@
-🟩FEEDBACK.md
+🟩REV-FEEDBACK.md
 LIVE · v3.1 · 2026-09-24 · every older page and block whole in REV+PACKET/REV-FEEDBACK.md
 DO THIS: give fully, or pick with verbatim evidence; one order, then stop. Asking? Say "feedback" and pick your rung.
 NOT FOR: work that has never run · deciding what's true (the file's own job) · a header (point here, never carry) · a correction from the holder (that's a ruling; see RECEIVER).
@@ -893,6 +893,4 @@ belongs in the REV? Return only: strongest gap · strongest case
 against · one patch · one line forward. One run. No meta on the
 meta.
 
-◆FEEDBACK-001
-
-◆FEEDBACK-001
+◆REV-FEEDBACK-001

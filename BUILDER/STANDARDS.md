@@ -1,3 +1,5 @@
+STANDARDS.md
+
 LIVE FILE. STANDARDS.md ◆4040 is live. This is a draft pin
 for comparison. Do not paste this as the tool. Heavy on purpose:
 a reference, not a door. The door is the seven lines below; the
@@ -2532,4 +2534,4 @@ typed. Premises rechecked 5 · held 5 · corrected 0. Premise most
 likely wrong: that ANCHOR-RETURN-PROTOCOL doesn't already say this.
 Birch508🐝
 
-◆4040
+◆STANDARDS-4040
