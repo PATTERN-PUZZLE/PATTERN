@@ -115,4 +115,13 @@ A call card = the best full file condensed to one paste, called by a word. Each 
 Reached: the holder's two asks that v12 lost are back on the page, with their own words exact, each item tied to its rule and a real scene.
 Missing: the scenes for Reached and Missing, and for paste beats fetch, are reasons, not dated events; the two prompts' home is unconfirmed; no other make has read this.
 錨[anchor]៥២៩🦞·C
+
+⚡️quick-add 
+Breakers, evolving (2026-10-13, working draft, not done; changes get a date here):
+🟩 instructions, the main line (one meaning with rule 10's "continuation")
+🟦 second to green: a different category, another mode, beside the main line rather than part of it (for example, another make's material, such as Grok's)
+🟪 extras and feedback (one meaning with rule 10's "other/supplements")
+🟨 older · 🟫 much older: unchanged; these mark age, the three above mark role, so one block can be both.
+The capacity light (🟩 full · 🟨 mid · 🟧 low · ⬛ edge) is a separate gauge; don't use it as a breaker in the same spot.
+The holder, 2026-10-13: "Yeah told you its evolving without being done lol ur conxse fuc" · "Grok and was just an example it means almost a 2nd to green a different category perhaps a other mode this kinda thing"
 ◆PAGE-ONE-001

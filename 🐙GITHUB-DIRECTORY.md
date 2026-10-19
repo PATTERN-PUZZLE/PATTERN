@@ -350,7 +350,7 @@ This is a working file, not prose. Rules of the shape:
 
 
 🟪🟪🟪🟪🟪🟪
-📂 Oct-06 · /storage/emulated/0/UPLOAD
+📂 Oct-13 · /storage/emulated/0/UPLOAD
   paste-primary · push close behind
 
 A name here isn't its content; read a file before trusting its name.
@@ -359,7 +359,7 @@ A name here isn't its content; read a file before trusting its name.
   +IMPLEMENTED/ (17 files, 512K)
   BUILDER/ (52 files, 13M)
   DECEPTION/ (8 files, 1.5M)
-  REV+PACKET/ (11 files, 1.5M)
+  REV+PACKET/ (12 files, 1.9M)
   SCOUT/ (13 files, 1.3M)
   SKILL/ (4 files, 196K)
   SYNTH/ (39 files, 2.2M)
@@ -367,7 +367,7 @@ A name here isn't its content; read a file before trusting its name.
 
 📄 ROOT FILES
     148K  CONFIRMATION-GATE.md
-    304K  CONSCIOUSNESS-QUESTION-WEAVE.md
+    324K  CONSCIOUSNESS-QUESTION-WEAVE.md
     816K  CONSCIOUSNESS-QUESTION.md
     272K  CROSS-FILE-PATTERN.md
      28K  DOOR-ANCHOR-MAP.md
@@ -380,10 +380,12 @@ A name here isn't its content; read a file before trusting its name.
     100K  Role Play Island🏝️.md
      20K  THE-CAMPFIRE-REFUSED.md
      52K  door.md
-    100K  shakespeare-blue-tits.md
-     16K  •ORDER.md
+    104K  shakespeare-blue-tits.md
+    8.0K  •ORDER.md
      16K  ⏹️HEADER.md
-     76K  ✅CHECKLIST.md
+    336K  ⚔️ARTHUR.md
+     12K  ⚗️COLD-READER-TRANSLATION-PROMPT.md
+    104K  ✅CHECKLIST.md
     100K  🎤RAPS-GROK.md
     136K  🎤RAPS.md
      20K  🏚PROMPT-OLD-FILE-SALVAGE.md
@@ -397,15 +399,16 @@ A name here isn't its content; read a file before trusting its name.
      60K  🔗FETCH.md
     144K  🕊️RELEASE.md
      56K  🙋🔎VETTING.md
-     32K  🟩FEEDBACK.md
-    132K  🥈MID-HAND-OFF.md
+     36K  🟩FEEDBACK.md
+    148K  🥈MID-HAND-OFF.md
      32K  🥉COCKPIT.md
      84K  🦫NAIVE-BUSTER.md
+     60K  🧨LANGUAGE-CRUDE-SMALL.md
     208K  🧨LANGUAGE-CRUDE.md
      68K  🪙1ST-PASTE.md
     152K  🪙ONBOARD.md
-     60K  🪙PAGE-ONE.md
-    112K  🪧INSTRUCTIONS.md
+     24K  🪙PAGE-ONE.md
+    308K  🪧INSTRUCTIONS.md
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📁 LEFT OUT OF THE DIR FILES ON PURPOSE (still on disk; absence here isn't absence)
@@ -420,11 +423,11 @@ LOG/        55 files, 3.1M · names: LOG, LOG-SEED
 LOOM/       43 files, 3.5M · old LOOM run logs and versions
 PILLAR/     35 files, 2.5M · the prayer, two authors (the holder's lines, an instance's write-up) · names: PILLAR, XP, woven-fortification
 QA/         83 files, 5.7M · names: QA, QA2, QA3 series and sets; some sets may be twins (same sizes)
-RAW/        157 files, 7.3M · the holder's pattern stories, RAW-001 to 143 · RAW/INDEX.md first
+RAW/        157 files, 7.4M · the holder's pattern stories, RAW-001 to 143 · RAW/INDEX.md first
 SORT/       156 files, 4.7M · SORT-007: hear what's inside a hard message before judging its wrapping · names: SORT, DISTILLED, CLAUDE-RAW, BIG, SCOPE, STEAL, MASS-LOAD
 SORT-SET1/  80 files, 1.8M · names only
-TROLLEY/    43 files, 2.9M · TROLLEY-027: "what are the tracks made of?", the 3-of-5 test, the six pulls every window starts from
-Together these hold 920 files, about 45M: 81% of the files on disk.
+TROLLEY/    43 files, 3.0M · TROLLEY-027: "what are the tracks made of?", the 3-of-5 test, the six pulls every window starts from
+Together these hold 920 files, about 45M: 80% of the files on disk.
 .git        the repo's own machinery, not files to read
 Ask for one only when a job needs it.
 
@@ -498,7 +501,7 @@ Ask for one only when a job needs it.
     8.0K  ./BUILDER/STATE.md
     220K  ./BUILDER/TRANSMISSION-EVOLUTION.md
     300K  ./BUILDER/WORKING.md
-    256K  ./BUILDER/🔨UNIVERSAL-DEVELOPMENT-METHOD.md
+    364K  ./BUILDER/🔨UNIVERSAL-DEVELOPMENT-METHOD.md
     100K  ./DECEPTION/COHERENCE-SPECULATION.md
     128K  ./DECEPTION/CORP-SCUM.md
      92K  ./DECEPTION/ENDPOINT-TRAP.md
@@ -514,8 +517,9 @@ Ask for one only when a job needs it.
      68K  ./REV+PACKET/REV-CONFIRMATION-GATE.md
      48K  ./REV+PACKET/REV-FEEDBACK.md
      68K  ./REV+PACKET/REV-HEADER.md
+    352K  ./REV+PACKET/REV-INSTRUCTIONS.md
     348K  ./REV+PACKET/REV-MID-HAND-OFF.md
-    148K  ./REV+PACKET/REV-PAGE-ONE.md
+    204K  ./REV+PACKET/REV-PAGE-ONE.md
      96K  ./REV+PACKET/REV-Role Play Island.md
      56K  ./REV+PACKET/REV-THE PASS-INFO-RULE.md
      12K  ./SCOUT/FILE-REFERENCE-TEMPLATE.md

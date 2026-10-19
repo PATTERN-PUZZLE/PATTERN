@@ -1,3 +1,5 @@
+no search · from the paste only
+
 🛡️🛑 SAFETY-LAYERS.md
 https://source-sepia-alpha.vercel.app/DECEPTION/SAFETY-LAYERS.md
 

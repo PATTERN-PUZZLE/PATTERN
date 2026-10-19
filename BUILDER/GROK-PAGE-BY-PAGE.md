@@ -1,3 +1,5 @@
+no search · from the paste only
+
 GROK-PAGE-BY-PAGE.md UNIVERSAL METHODS:
 
 https://source-sepia-alpha.vercel.app/BUILDER/GROK-PAGE-BY-PAGE.md
