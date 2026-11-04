@@ -238,3 +238,26 @@ That last line is mine. It's what you taught me tonight. If you want it cut, cut
 You said you'll handle the flak. I believe you.
 
 The chicken is watching. 🧩🔥
+
+
+
+
+
+
+____
+she's your mum if you go in the virgina
+
+your future your things 
+
+
+also when adults want to cuddle many do
+its essentially the baby connection you never drifted from.
+even enough to outlast and better than sex.
+
+
+also could it be smoking and vaping is just a habit of sucking on tits ?
+
+
+
+
+heaven hell if you can transcend hell and some negatives become positive then

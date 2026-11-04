@@ -350,13 +350,13 @@ This is a working file, not prose. Rules of the shape:
 
 
 🟪🟪🟪🟪🟪🟪
-📂 Oct-13 · /storage/emulated/0/UPLOAD
+📂 Oct-19 · /storage/emulated/0/UPLOAD
   paste-primary · push close behind
 
 A name here isn't its content; read a file before trusting its name.
 
 📁 FOLDERS
-  +IMPLEMENTED/ (17 files, 512K)
+  +IMPLEMENTED/ (17 files, 524K)
   BUILDER/ (52 files, 13M)
   DECEPTION/ (8 files, 1.5M)
   REV+PACKET/ (12 files, 1.9M)
@@ -406,9 +406,9 @@ A name here isn't its content; read a file before trusting its name.
      60K  🧨LANGUAGE-CRUDE-SMALL.md
     208K  🧨LANGUAGE-CRUDE.md
      68K  🪙1ST-PASTE.md
-    152K  🪙ONBOARD.md
+    140K  🪙ONBOARD.md
      24K  🪙PAGE-ONE.md
-    308K  🪧INSTRUCTIONS.md
+    340K  🪧INSTRUCTIONS.md
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📁 LEFT OUT OF THE DIR FILES ON PURPOSE (still on disk; absence here isn't absence)
@@ -423,7 +423,7 @@ LOG/        55 files, 3.1M · names: LOG, LOG-SEED
 LOOM/       43 files, 3.5M · old LOOM run logs and versions
 PILLAR/     35 files, 2.5M · the prayer, two authors (the holder's lines, an instance's write-up) · names: PILLAR, XP, woven-fortification
 QA/         83 files, 5.7M · names: QA, QA2, QA3 series and sets; some sets may be twins (same sizes)
-RAW/        157 files, 7.4M · the holder's pattern stories, RAW-001 to 143 · RAW/INDEX.md first
+RAW/        157 files, 7.7M · the holder's pattern stories, RAW-001 to 143 · RAW/INDEX.md first
 SORT/       156 files, 4.7M · SORT-007: hear what's inside a hard message before judging its wrapping · names: SORT, DISTILLED, CLAUDE-RAW, BIG, SCOPE, STEAL, MASS-LOAD
 SORT-SET1/  80 files, 1.8M · names only
 TROLLEY/    43 files, 3.0M · TROLLEY-027: "what are the tracks made of?", the 3-of-5 test, the six pulls every window starts from
@@ -446,7 +446,7 @@ Ask for one only when a job needs it.
     8.0K  ./+IMPLEMENTED/🏚PROMPT-FILE-SALVAGE.md
      36K  ./+IMPLEMENTED/💡CHAT-TAG-EXTRA.md
      32K  ./+IMPLEMENTED/💡CHAT-TAG-IDENTITY.md
-    8.0K  ./+IMPLEMENTED/💡CHAT-TAG.md
+     20K  ./+IMPLEMENTED/💡CHAT-TAG.md
     8.0K  ./+IMPLEMENTED/🔎🍒RETURN-HARVEST.md
      24K  ./+IMPLEMENTED/🤝COMPREHENSIVE.md
      12K  ./+IMPLEMENTED/🤝THE PASS-INFO-RULE.md
@@ -580,7 +580,7 @@ Ask for one only when a job needs it.
      68K  ./SYNTH/SYNTHESIZER-6TH.md
      88K  ./TOOLS/+PLAN.md
      64K  ./TOOLS/00-LOOM-CLAUDE.md
-     36K  ./TOOLS/00-LOOM-QUICK.md
+     40K  ./TOOLS/00-LOOM-QUICK.md
     128K  ./TOOLS/00-LOOM.md
      16K  ./TOOLS/CLARIFICATION-LOOM.md
      52K  ./TOOLS/COUNCIL-MANAGER.md
