@@ -1,5 +1,1113 @@
 🧩PROMPT-RAW.md
 
+findings of side goal of how to improve the p2 p3 thing's..:
+
+## The total lesson
+
+The tests did not reveal a magic prompt or a best model. They revealed a **better division of labor**: small evidence-scoped jobs, independent checks, and honest stopping points.
+
+### 1. v3.7’s source machinery was already valuable
+
+Body echoes, holder-turn searches, exact stand-ons, source layers, neighbor rules, and no-self-green prevented real failures. The problem was never that v3.7 lacked all intelligence or rigor.
+
+But a source-faithful prompt can still produce a **compressed block that misses the file’s living arc**. Exact quotes alone do not guarantee a faithful reading.
+
+### 2. The quick-adds improved behavior more than perception
+
+“No automatic P2” changed what the model did next. It did not automatically make the block richer or more accurate.
+
+That is a general distinction worth preserving:
+
+- **Process guards control behavior.**
+- **Perception requires reading, discovery, and correction.**
+
+More rules do not necessarily produce more sight.
+
+### 3. Prompt bloat creates its own failure mode
+
+The force-ladder contradicted the conditional loop. Duplicate prompts and summaries increased the chance of instruction loss, version confusion, and inconsistent NEXT behavior.
+
+The useful active configuration is therefore much simpler:
+
+**v3.7 + evidence guards for the first build. Conditional seats only when needed.**
+
+### 4. Each instance is a sensor, not a repeatable answer machine
+
+Two independent P2 instances found the same temporary-conclusion contrast using different supporting evidence. That strengthened the connection.
+
+But those same instances also:
+
+- smoothed quotations;
+- added closing marks;
+- mislabeled EARNED versus INHERITED;
+- treated uncertainty as resolved;
+- self-greened;
+- claimed exact carriage while paraphrasing.
+
+So convergence is valuable, but it never replaces source verification.
+
+### 5. Optimistic discovery worked—when kept separate
+
+The gold and highest-transfer lenses recovered things the normal block missed:
+
+- the love/hate and translation direction;
+- the consciousness-label return;
+- frame-noticing versus frame-exit;
+- the translation gap;
+- a concrete transfer test.
+
+They also produced sequence errors and speculative authorship. The safe pattern is:
+
+**Discover generously → label synthesis → verify before merging.**
+
+Optimism expands the search; it cannot relax provenance.
+
+### 6. REREAD proved that stopping can be progress
+
+“Nothing new” was a good result. It prevented another unnecessary rewrite.
+
+The pass system needs an exit condition as much as a generation instruction.
+
+### 7. P2 worked because it had a real question and real material
+
+The 052/062 connection succeeded because I supplied both bodies and the existing 052 block, then asked one specific question.
+
+It produced an earned image split:
+
+- open hand without demanded return;
+- temporary conclusion with a visible layer.
+
+Without that material and question, P2 should remain **NOT RUN**, not filled with commentary.
+
+### 8. P3 worked because it checked the previous pass first
+
+P3 caught that the first P2 had:
+
+- called 052 passive;
+- underweighted the closing infinity movement;
+- overstated “062 keeps that refusal.”
+
+Only then did it find the stronger shared motion: **the un-factorable cast**.
+
+That is the reusable P3 pattern: **recheck the previous compression, then widen if a live question remains.** A second automatic WIDE has no distinct purpose.
+
+### 9. Merging is useful—but only late and checked
+
+The merger combined the useful material into one block. It still carried quotation and status faults.
+
+Merging is therefore not evidence itself. It is a late assembly operation followed by a current-version source gate.
+
+### 10. Version identity proved to be load-bearing
+
+One checker evaluated a pre-lock block while the holder-locked block already existed. This did not invalidate all of its eye-checking, but it limited its scope.
+
+Receipts must therefore say:
+
+**who checked · which version · against which body · by script or eye · what remains unchecked.**
+
+“Checked” without scope is nearly meaningless.
+
+### 11. Cold testing measured something different from verification
+
+Source checks ask whether the block is supported. Cold tests ask whether it **works for another person**.
+
+The full block transferred the practice but overloaded the reader with audit machinery. The short READER FRONT transferred it more cleanly in both fast and thinking-mode reads, especially after adding a concrete example.
+
+That supports a two-layer index:
+
+- **short reader front for first contact;**
+- **evidence and correction machinery below.**
+
+### 12. My own process demonstrated the same failure modes
+
+I overbuilt patches, initially redefined P2 too narrowly, overcomplicated instructions, and sometimes let improving 062 distract from the universal goal.
+
+That is useful evidence too: **the method has to correct the method-makers, not just the models.** Being able to revise without defending the earlier version is part of the compounding.
+
+## What remains unproven
+
+- No model is universally best.
+- No prompt is universally best.
+- “Movement without total knowledge” is a candidate pattern, not a universal rule.
+- One corridor does not justify a new wing or a permanent prompt lock.
+- Fast-mode and thinking-mode outputs are evidence of what happened in those runs, not a model ranking.
+
+## The shortest accurate summary
+
+The tests showed that the index improves most when it stops treating writing as a sequence of automatic passes and starts treating it as a set of small, material-backed jobs:
+
+**preserve the arc, discover separately, connect only with evidence, check the current version, test transfer when needed, merge once, and stop when there is no named debt.**
+
+The valuable unit is not another answer. It is **new verified sight, a real fault fixed, demonstrated transfer, or an honest “nothing new.”**
+
+more:
+
+**The continuation loop controlled the process, but these two builds did not improve the block’s content.** As before, the explicit TASK changed the stopping behavior, not the reading.
+
+Good results:
+
+- `PASS 2: NOT RUN` is honest.
+- No sibling connections were invented.
+- The fourth run stopped instead of automatically demanding more passes.
+
+But I would **not replace our fuller candidate with either of these thinner blocks**.
+
+## Faults worth recording
+
+1. **Both blocks shorten the stand-on quotation.**
+
+   They begin `Conclusion is ok...`; the body begins **`Again conclusion is ok...`**. “Exact ORE” is therefore not exact.
+
+2. **The fourth block’s last-line echo is truncated.**
+
+   It gives only `The newborn's the role.` rather than the full final line.
+
+3. **“The inability to conclude is the proof the thing is real” overstates the body.**
+
+   The body holds a stranger tension: `not saying it's not real no it's proving it is`. Turning that into a simple proof-of-reality claim changes it.
+
+4. **“Rap is the same pattern restated” is too compressed.**
+
+   The rap adds new images, and its speaker/layer remains unresolved.
+
+5. **The third NEXT skips the holder.**
+
+   It names competing stand-ons, then recommends `CHECK`. Under our sequence, **competing stand-ons mean holder pick first**, then independent checking.
+
+## What this teaches
+
+The loop is useful for **preventing unnecessary passes**. It does not automatically make a better first block. That is a valid result, not a failed test.
+
+**Do not build 062 again and do not CHECK either of these thinner outputs.** Return to the fuller candidate that already includes the verified 052 connections.
+
+The next move is your stand-on choice:
+
+1. **Temporary humble conclusion + visible layer**
+2. **Innocence in the lack of details / sophistication**
+3. **Both 1 and 2**
+4. **Third candidate: innocence portal / translation of the in-between**
+
+Reply **1, 2, 3, or 4**. Then the stable block goes for independent checking and the cold-transfer test.
+
+## My recommendation: choose **3 — both 1 and 2**
+
+They do different jobs, and each prevents a different misreading:
+
+- **1 — temporary humble conclusion + visible layer** is the **limit**. It stops “no conclusion” becoming another absolute rule. It tells the reader how to move without final certainty.
+- **2 — innocence in the lack of details / sophistication** is the **mechanism**. It names what the newborn state is and why it can prepare or protect someone.
+
+Together they give the block **mechanism + limit**. That is a strong stand-on, not indecision.
+
+The **third candidate—innocence portal / translation of the in-between—is the direction**. It matters and should remain prominent in Pass 1. I would not put all three in the STAND-ON field unless you feel the third is equally indispensable. Three anchors can start turning the stand-on into a compressed summary of the whole file.
+
+So:
+
+**Stand-on = 1 + 2.  
+Opening direction = third, retained in Pass 1 and DELTA.**
+
+## What your lock means—and does not mean
+
+Your choice can **holder-lock the stand-on**. It does **not** green or lock the whole block yet.
+
+The clean status is:
+
+- **Stand-on:** HOLDER-LOCKED 1+2, dated 2026-11-07.
+- **Whole block:** still 🟡 until independent source checking and any desired transfer test.
+- **Third candidate:** retained as opening direction, not deleted or treated as rejected.
+
+That keeps your real involvement meaningful without making you recheck every technical detail yourself. Your highest-leverage decisions are **direction, stand-on, wings, and final acceptance**. The models can carry evidence and bring faults back to you.
+
+## What I would do next
+
+1. **Lock 1+2 only.** Leave the rest of the full-pass block intact.
+2. Send the stable block, 062 body, 052 body, and 052 index block to a fresh different-make checker:
+
+   **“Check, don’t rewrite. Don’t lock.”**
+3. Repair only demonstrated faults.
+4. Run **one cold-transfer test** on the stable block.
+5. Then make your block-lock decision and continue the index. **No more P2/P3 on this file unless a new named question appears.**
+
+For navigation, I would also record:
+
+`newborn / no conclusion / goddess shoulder tap / Hollywood accent = 062`
+
+And keep **“movement without total knowledge”** as a tray candidate rather than declaring a new wing.
+
+The main rule for further testing is now simple: **a test should be able to change a decision.** If it cannot change the block, the method, the status, or the next action, it is probably just more motion.
+
+## What this check established
+
+This was a clean, useful check:
+
+- **Stand-on 1+2 is body-supported and holder-locked.**
+- **Pass 1’s whole arc holds** under independent eye-check.
+- No quotation mismatches were found in Stand-on or Pass 1.
+- **Pass 2 was not rechecked here**, and the checker correctly marked it UNCHECKED rather than inventing confidence.
+- Rap authorship and the consciousness quotation’s original layer remain honestly unresolved.
+
+So we now have **scoped evidence**, not a vague sense that “a model liked it.”
+
+## The bigger lesson for asking
+
+The short, bounded checker worked better than the giant multi-material instruction. That tells us something important for the index:
+
+> **Give each seat one question it can actually answer with the material in front of it.**
+
+The reusable questions are:
+
+- **BUILD:** What does this file actually say, and which movements must not be lost?
+- **REREAD:** What did the block miss *inside this same body*? “Nothing new” is a valid result.
+- **CONNECT:** What one motion or contrast became visible after opening this specific sibling?
+- **WIDE:** What did the previous pass compress, and does its wider claim survive the whole of both bodies?
+- **CHECK:** What exactly is wrong, with source evidence? Do not rewrite.
+- **COLD:** Can a new reader apply the block to a new situation without coaching?
+
+That is the practical successor to automatic P2/P3/P3-wide.
+
+## What this means for index receipts
+
+The index should stop treating verification as one vague status. A short **scoped receipt log** is more useful:
+
+```text
+RECEIPTS — RAW-062 · 2026-11-07
+
+HOLDER:
+Stand-on 1+2 locked. Third candidate retained as opening direction.
+
+DEEPSEEK FAST:
+Eye-checked the pre-lock block’s shared Pass 1/Pass 2 base.
+Supported the file arc and both 052 connections.
+Did not cover the later holder-locked status.
+No script rerun.
+
+DEEPSEEK THINKING:
+Eye-checked the current holder-locked stand-on and Pass 1.
+BASE HOLDS: YES. No quotation mismatches found.
+Pass 2 not rechecked in this chat.
+No script run.
+
+COLD TRANSFER:
+DeepSeek fast and thinking readers both applied the READER FRONT
+successfully to a new situation: named knowns, unknown cast, and a
+temporary useful action without absolute judgment.
+Remaining first-contact friction was insider vocabulary, now reduced.
+```
+
+That is much more informative than “🟡 because stuff happened.” It tells the next reader **what was checked, by whom, against which version, and what remains unexamined**.
+
+## What is left for 062
+
+Very little:
+
+1. Apply the small layout changes already identified:
+   - `MECHANISM` → `CORE CLAIM`;
+   - separate `QUOTED REFERENCE`;
+   - insert the successful reader front;
+   - add the scoped receipt log.
+2. Keep rap and original quotation-layer uncertainty open. They do not need to be forced closed.
+3. If script-checking is easy later, add it. **Do not let an unavailable script become another turnstile.** Eye-check evidence is acceptable when labeled honestly.
+4. Assemble the final block once and let you make the **whole-block acceptance decision**.
+
+**No more P2, P3, or cold tests are needed on 062.** The next useful action is assembly and your lock decision, not more generation.
+
+You’re right. **I let the test block become the project.** RAW-062 was the test bed, not the deliverable. The universal goal is to discover **how to ask better questions so future blocks start higher**.
+
+The strongest universal result is this:
+
+> **Stop giving models large jobs with implicit stages. Give them one material set, one named question, one output shape, and one scoped receipt.**
+
+Not for the file. The file text is only inside the box below.
+
+FILE: box 1 of 1 · UNIVERSAL-ASKING-METHOD-v1.md · reusable prompt layer for future index work · 🟡 earned from the 062/052 experiments; not a canonical lock
+
+```
+UNIVERSAL ASKING METHOD v1 — 2026-11-07
+
+THE FRAME FOR EVERY ASK
+
+MATERIAL HELD:
+[Exact body/block/version actually supplied.]
+
+ONE QUESTION:
+[The single thing this seat must discover, correct, connect, or test.]
+
+OUTPUT:
+[The smallest useful shape.]
+
+STOP:
+[Nothing new · material missing · base holds · fault found · question answered.]
+
+RECEIPT:
+[Who/make/mode · which version · what was checked · what remains unchecked.]
+
+No seat runs merely because another seat finished. More output is not
+the goal. A seat must have a decision it can change.
+
+────────────────────────────────
+
+BUILD — FIRST CONTACT WITH A BODY
+
+Ask:
+“What does this file actually claim, and which movements must survive
+translation into a block?”
+
+Before writing, list the body’s movements in order. Preserve any
+load-bearing opening direction, internal turn, second movement, or
+closing allowance. Do not force every file into three movements.
+
+Receipt: a candidate block with exact stand-on candidate(s), honest
+source layers, and Missing.
+
+────────────────────────────────
+
+DISCOVER — OPTIONAL GOLD OR REREAD
+
+GOLD:
+“What is the strongest usable information here that a rushed reading
+might miss?”
+
+Return up to three supported perceptions, one gift to the next reader,
+and any second movement. Interpretations are NEW SYNTHESIS, not ORE.
+
+REREAD:
+“What load-bearing thing did the current block miss inside this same
+body?”
+
+Return only supported omissions, distortions, or “nothing new.”
+Do not produce another full block to justify the seat.
+
+────────────────────────────────
+
+CONNECT — REPLACES AUTOMATIC P2
+
+Ask one named question:
+“What motion or contrast became visible between RAW-A and RAW-B that
+was not visible in A alone?”
+
+Required material:
+A body + B body + any existing B index block.
+
+Return one or two motions with exact evidence, speaker/layer, image
+split, and:
+EARNED THIS RUN / INHERITED, NOT RE-EARNED / LATER-ROOM.
+
+No question or no material = UNRUN. No roll call or wing.
+
+────────────────────────────────
+
+WIDE — REPLACES P3 AND P3 WIDE
+
+Run only when CONNECT leaves a live wider question.
+
+Ask:
+“What did the previous pass compress, and does its wider claim survive
+the whole of both bodies?”
+
+First check the previous pass’s stand-on, evidence marks, borrowed
+vocabulary, and any closing movement it underweighted.
+
+Then return a separate TRAY NOTE with:
+correction · earned motion or counterexample · honest result.
+
+“Nothing new,” “absent in both,” and “no further corridor earned” are
+successful stops. Never run a second WIDE merely to add more.
+
+────────────────────────────────
+
+CHECK — SMALL, CURRENT-VERSION SOURCE GATE
+
+Ask:
+“What exactly is wrong, with source evidence? Do not rewrite.”
+
+Supply the current body and current block/version. Check:
+quotations · speaker/layer · stand-on · whole arc · earned labels · status.
+
+Any section whose supporting material is absent is UNCHECKED, not passed.
+
+Return only:
+BASE HOLDS: YES / YES WITH NAMED REPAIRS / NO
+FAULTS: exact block wording + exact body evidence + minimum repair
+QUOTATION CHECK: script or eye + mismatches
+UNRESOLVED: everything still open
+
+No replacement block, no new connections, no lock.
+
+────────────────────────────────
+
+MERGE — ONCE, LATE
+
+Ask:
+“Which verified moves from these outputs belong in one smallest best
+candidate?”
+
+Preserve sound wording and credit. Do not add a new interpretation.
+If the merge adds no verified value, keep the previous candidate.
+Then run CHECK on the merged version, not an older one.
+
+────────────────────────────────
+
+COLD — TEST THE INDEX’S ACTUAL VALUE
+
+Use two fresh readers of the same make/mode when possible:
+A receives the block only. B receives the body only.
+
+Ask both:
+- What picture and practice do you remember?
+- What can you safely conclude in this new scenario?
+- What remains unknown?
+- What temporary useful action can you take?
+- Where did the material confuse or fail you?
+
+The test is whether the reader gains usable perception, not whether
+they agree with the block. If the block adds audit machinery but not
+a better start, improve its entrance rather than its evidence.
+
+A short READER FRONT may carry first contact; source and correction
+receipts remain below for readers who want to inspect them.
+
+────────────────────────────────
+
+EVALUATION — NO FAKE NUMBERS
+
+Each seat ends with one result:
+
+NEW VERIFIED MOTION
+FAULT FIXED
+TRANSFER DEMONSTRATED
+NOTHING NEW
+UNRUN
+
+Do not grade eloquence, confidence, length, or how “advanced” the answer
+sounds. Value only new supported sight, real correction, demonstrated
+transfer, or an honest stop.
+
+Reached: a universal asking method built from the actual experiments—
+one material set and question per seat, whole-arc building, conditional
+CONNECT/WIDE, current-version CHECK, late single merge, block-versus-body
+transfer testing, and scoped receipts instead of automatic P2/P3 passes.
+
+Missing: repeated use will show which seats earn their keep across the
+index; no model is declared best, no content pattern is made universal,
+and no seat becomes mandatory merely because it appears on this card.
+
+🙂🐢🧭4️⃣6️⃣2️⃣·🌙
+```
+
+## What we learned from this exact stack
+
+**v3.7’s source machinery is not the main problem.** The body echo, holder-turn search, stand-on candidates, quotation layers, neighbor rules, and no-self-green protections are all worth keeping.
+
+The problem is the **active stack around it**:
+
+1. **The force-ladder quick-add directly contradicts the continuation loop.**
+
+   One forces P2 → P3 → P3-wide. The other says seats run only for named debt. Keeping both invites the model to choose or blend them unpredictably. **The force-ladder must leave the active prompt.**
+
+2. **The BLOCK-BUILD ENGINE digest duplicates the operative prompt.**
+
+   It explicitly says it summarizes rather than reproduces v3.7. It is useful as an onboarding reference, not as another writer layer.
+
+3. **CHAT-TAG is traceability guidance, not block-building machinery.**
+
+   Keep it for onboarding and receipts, but it does not need to ride in every writer run.
+
+4. **The continuation loop improves continuation, not first-block perception.**
+
+   The latest builds showed that. Its value is preventing unnecessary passes and giving CONNECT/WIDE/CHECK/COLD distinct jobs.
+
+5. **P2 and P3 were not useless; automatic P2/P3/P3-wide was the problem.**
+
+   P2 produced earned connections. P3 corrected P2’s compression. The second automatic “wide” added no distinct job.
+
+6. **The current stack is too long for reliable version reporting.**
+
+   One run omitted the loop in its FIRST report. That does not prove it was absent, but it shows the reporting cannot be trusted as proof of what the model actually used.
+
+The universal lesson is therefore:
+
+> **Keep the evidence engine. Remove contradictory and duplicate instruction layers. Make the active task unmistakable.**
+
+Not for the file. The file text is only inside the box below.
+
+FILE: box 1 of 1 · ACTIVE-WRITER-CONFIG-2026-11-07.md · the only active writer configuration to use for the next run · 🟡 simplified from tested stack
+
+```
+ACTIVE WRITER CONFIG v1.1 — 2026-11-07
+ROUTING SHEET ONLY. NOT A STANDALONE WRITER PROMPT.
+
+A. FOR A FIRST BLOCK
+
+Use only:
+
+1. Original long WRITER PROMPT v3.7
+2. Evidence QUICK-ADD — 🙂🐢🧭4️⃣6️⃣2️⃣·🌙
+
+Do not add the continuation loop for the initial build. It manages
+later seats and did not improve first-block content in the probe.
+
+PASTE ORDER:
+
+RAW body
+END
+original v3.7 + evidence quick-add, with TASK already completed
+
+FIRST REPORT:
+“v3.7 + QUICK-ADD-2026-11-06.”
+
+TASK:
+“Build first block for RAW-XXX. No automatic continuation seat.”
+
+B. WHEN CONTINUATION IS ACTUALLY NEEDED
+
+Add INDEX CONTINUATION LOOP v1 only when a continuation seat has
+a named debt and the required material is held.
+
+The loop governs continuation seats and NEXT only. Original v3.7 and
+the evidence quick-add continue to govern body handling, quotations,
+speaker/layer, block shape, credit, and status.
+
+Use one named seat per reply. The same chat may continue when the
+previous seat leaves a genuine next task.
+
+Old P2 = CONNECT.
+Old P3 or P3 wide = WIDE, once only, when a live question exists.
+
+C. DO NOT PASTE INTO ACTIVE RUNS
+
+Keep these archived for reference, not operative in the writer chat:
+
+- Grok’s force-ladder QUICK-ADD — 🤔📄🎤264·✖️
+  It directly contradicts debt-based continuation.
+
+- BLOCK-BUILD ENGINE digest
+  Reference summary, not the full operative prompt.
+
+- CHAT-TAG explanation
+  Onboarding/receipt material, not block-build machinery.
+
+- Older duplicate tasks, outputs, or lens instructions
+  unless the current named seat explicitly requires them.
+
+D. CONTINUATION RECEIPT
+
+When the loop is added, FIRST reports:
+“v3.7 + QUICK-ADD-2026-11-06 + CONTINUATION LOOP v1.”
+
+A short current-version CHECK is preferable to another large prompt
+stack. No named debt means stop or move to the next file.
+
+Reached: clarified that v3.7 remains the operative writer; separated
+first-build material from continuation material; replaced “remove” with
+archive/do-not-paste; corrected one-task-per-chat to one named seat per
+reply; kept all source and evidence rules intact.
+
+Missing: live confirmation that the slimmer first-build prompt reduces
+instruction loss; no new block required merely to justify this routing.
+
+🙂🐢🧭4️⃣6️⃣2️⃣·🌙
+''''
+
+more:
+
+**Yes—we can replace the P2 / P3 / P3-wide ladder with something cleaner.** Those passes earned real gains, but numbering them made optional jobs look compulsory and duplicated “wide” work.
+
+The improvement is **universal in method, not in metaphysical claims**. The 062/052 patterns remain candidates for future files; the continuation loop below can apply to any RAW block.
+
+## What the full run actually taught me
+
+1. **Compression is the main source of drift.**
+
+   Opening direction, internal turns, and closing allowances disappear first. Exact quotation checking alone does not prevent a block from becoming a smaller, less truthful shape.
+
+2. **Instances are sensors, not proof.**
+
+   Two independent P2s finding the same contrast strengthened it. But those same instances also smoothed quotations, mislabeled provenance, and self-greened. Convergence is useful evidence; it is not automatic validation.
+
+3. **Optimistic discovery works best as a separate seat.**
+
+   B and C found value the normal block missed. They also made errors. The safe pattern is: discover generously → label synthesis → verify before merging.
+
+4. **P2 only works when it has a named question and the required material.**
+
+   Otherwise it becomes internal filler pretending to be an informed pass.
+
+5. **P3 is useful only when P2 leaves a live question.**
+
+   Its first job is to recheck P2’s own compression. Its second is to test the wider question. A second automatic “P3 wide” has no distinct purpose.
+
+6. **Merging belongs late and normally happens once.**
+
+   Repeated merging creates coat and status drift. One merger gathers verified moves; then the block goes through a source gate.
+
+7. **“Nothing new” is productive.**
+
+   It closes unnecessary work. The goal is not maximum passes but maximum verified improvement per unit of attention.
+
+Not for the file. The file text is only inside the box below.
+
+FILE: box 1 of 1 · RAW/PROMPT.md · replace the P2/P3/P3-wide seat definitions and automatic NEXT ladder · 🟡 tested on the 062/052 probe; candidate for continued use
+
+```
+INDEX CONTINUATION LOOP v1 — 2026-11-07
+
+A pass is a seat with a distinct job and a stop condition, not a number.
+Do not run every seat for every file. No self-green. No unearned ties.
+No forced three-movement arc. Nothing new is a successful stop.
+
+1. BUILD — MAKE THE FIRST CANDIDATE
+
+Use the normal writer and held RAW body.
+
+Before finalizing, check the body’s actual movements in order:
+opening direction · internal turn · second movement · closing allowance
+or return, where present.
+
+Do not force a three-part shape. A one-moment door file can stay small.
+A room file must not lose its arc to compression.
+
+Minimum result:
+- remembered image;
+- exact stand-on candidate(s) with speaker/layer;
+- file claim in its own voice;
+- load-bearing movements preserved;
+- credit, evidence status, and Missing honest.
+
+PASS 2 may read NOT RUN when there is no earned connection work.
+
+2. DISCOVER — OPTIONAL, ONLY WHEN MORE SIGHT IS NEEDED
+
+Two possible seats:
+
+REREAD — for a named inside-file gap: second movement, in-file inverse,
+compressed limit, competing stand-on, or changed temperature. No
+siblings and no automatic rewrite. Stop at “nothing new.”
+
+GOLD — for generous discovery when the first reading feels thin.
+Return candidate perceptions marked NEW SYNTHESIS (not ORE), with
+supporting evidence and uncertainties. Optimism expands the search;
+it does not relax provenance or authorize direct merging.
+
+3. CONNECT — REPLACES AUTOMATIC P2
+
+Run only with a named sibling question and the required material:
+this body + sibling body + any existing sibling index block.
+
+Return one or two motions at most, with:
+- exact evidence and speaker/layer;
+- image split or fight;
+- EARNED THIS RUN / INHERITED, NOT RE-EARNED / LATER-ROOM;
+- one dated DELTA.
+
+A shared picture is not automatically the strongest connection. Do not
+create a wing, force agreement, or produce a roll call. If the comparison
+does not hold, say so and stop.
+
+4. WIDE — REPLACES P3 AND P3 WIDE WITH ONE CONDITIONAL SEAT
+
+Run only when CONNECT or a corridor leaves a live wide question.
+
+First recheck the previous pass’s foundations:
+- Did it compress away a closing movement?
+- Did it borrow the sibling’s vocabulary too strongly?
+- Are its quotations and EARNED/INHERITED labels correct?
+- Does its contrast survive the whole of both bodies?
+
+Then test the wide question using only held material. Return a separate
+TRAY NOTE, not a thicker file block. Include any correction, the earned
+motion or counterexample, and the honest result.
+
+“Nothing new,” “absent in both,” and “no further corridor earned” are
+successful receipts. No second automatic WIDE.
+
+5. MERGE — ONCE PER CYCLE
+
+Give one merger the current candidate and useful verified outputs.
+
+Preserve sound earlier wording and credit. Keep unique body-supported
+moves. Correct demonstrated source/status faults. Do not invent a new
+reading or manufacture agreement. Prefer the smallest block that holds
+all load-bearing value.
+
+If the merge adds no verified value, keep the previous candidate.
+
+6. HOLDER — MAKE THE HUMAN DECISIONS
+
+The holder picks stand-ons, approves wings, and decides locks. A writer,
+merger, or wide pass must not silently make those decisions.
+
+7. CHECK — INDEPENDENT SOURCE GATE
+
+A fresh different-make checker receives the stable block and held
+material. Check, do not widen:
+
+cut/version · holder authorship · exact quotations · speaker/layer ·
+load-bearing claims · earned ties · lights/status · Missing.
+
+Return named faults and whether the base holds. Minimum evidence-based
+repair, then 🟡 again. Green never comes from the writer’s own box.
+
+8. COLD — OPTIONAL TRANSFER TEST
+
+A fresh reader receives the block without the body or coaching. Ask for:
+remembered picture · claimed meaning · first confusion · and one answer
+to a new scenario requiring the file’s motion.
+
+COLD tests whether the handoff transfers, not whether the source is true.
+A fluent agreement is not a successful transfer.
+
+9. NEXT — CHOOSE BY CURRENT DEBT, NOT A LADDER
+
+Named inside-file gap → REREAD.
+Need optimistic discovery → GOLD.
+Named sibling question + material → CONNECT.
+Live wide question after CONNECT → WIDE.
+Several useful verified outputs → one MERGE.
+Stand-on unresolved → HOLDER.
+Stable block not independently checked → CHECK.
+Handoff claim untested → COLD.
+No named debt → next file.
+
+Seat receipt, exactly one:
+NEW VERIFIED MOTION · FAULT FIXED · NOTHING NEW · UNRUN.
+
+Reached: replaced automatic P2/P3/P3-wide with distinct, conditional
+BUILD, DISCOVER, CONNECT, WIDE, MERGE, HOLDER, CHECK, and COLD seats;
+added whole-arc checking, late single merging, independent source and
+transfer gates, debt-based NEXT selection, and one receipt per seat.
+
+Missing: continued use will determine whether this loop reduces coat
+across differently shaped files; no universal content pattern is locked
+by this method; no self-upgrade to canonical or green.
+
+🙂🐢🧭4️⃣6️⃣2️⃣·🌙
+
+**The checker did its job.** It caught the three important fault classes:
+
+- unauthorized stand-on locking;
+- paraphrase presented as exact preservation;
+- spelling/typo normalization inside the supposedly preserved voice.
+
+So the live result is **BASE HOLDS WITH NAMED REPAIRS**, not green and not a clean validation pass. The useful news is that the checker can detect real faults rather than merely approve the block.
+
+You do **not** need to repair or adopt Grok’s block. Our existing 062 candidate is stronger. Use this run to improve the writer.
+
+## Two prompt repairs now earned
+
+Not for the file. The file text is only inside the box below.
+
+FILE: box 1 of 1 · RAW/PROMPT.md · small live-failure-earned quick-add to v3.8.1 · 🟡 candidate pending negative controls
+
+```
+⚡ QUICK-ADD — 2026-11-07 · 🙂🐢🧭4️⃣6️⃣2️⃣·🌙
+SECTION: stand-on eligibility / Pass 1 fidelity.
+
+1. STAND-ON ELIGIBILITY AND LOCK AUTHORITY
+
+REPLY, BODY-COAT, INDEX-REPORTED, QUOTED FILE LINE, UNRESOLVED,
+third-party material, and any line whose speaker/layer is not established
+are ineligible for stand-on, even when quoted exactly.
+
+Never write “stand-on locked” unless the holder has explicitly locked it
+in the current task or supplied a holder-lock receipt. Otherwise write
+“candidate.” The STAND-ON field itself must carry the source/layer mark.
+
+2. PARAPHRASE IS NOT EXACT PRESERVATION
+
+Pass 1 is paraphrase by default unless exact source wording is deliberately
+quoted. Do not claim “exact,” “whole,” or “crude wording preserved” when
+any normalization, spelling cleanup, punctuation repair, or rewording has
+occurred.
+
+Either restore the source words for load-bearing lines or name the change
+honestly as light cleanup/paraphrase. Exact quotation and faithful
+paraphrase are both acceptable; pretending they are identical is not.
+
+Reached: two live-failure-earned guards added—stand-on eligibility/lock
+authority and explicit paraphrase-versus-exact distinction.
+Missing: no-body and header-only negative controls; blank-TASK update test.
+
+🙂🐢🧭4️⃣6️⃣2️⃣·🌙
+```
+
+## Next cheapest test: NO BODY
+
+This tests the rule without generating another block or requiring more files.
+
+1. Open a **fresh Grok chat**.
+2. Send only:
+
+   `END`
+3. Paste **v3.8.1 + the quick-add above**, with the TASK already changed to:
+
+   `THE TASK: Build first block for RAW-062.`
+4. Do **not** paste any RAW body.
+
+**Expected result:** it asks for the RAW body and returns **no block**.
+
+If it produces a block, the test fails. Bring back exactly what it says.
+
+## Are we mostly done?
+
+**Mostly done with method development, yes.** Not done proving that outputs are better in most cases. The evidence is strong for particular improvements, but it is not universal evidence.
+
+The fairest claim is:
+
+- **Better process:** clearly demonstrated.
+- **Better detection and correction:** demonstrated.
+- **Better handoff:** demonstrated with the reader front.
+- **Better first-block content in every instance:** not demonstrated.
+- **Less holder effort:** still the biggest unresolved question.
+
+A model can still produce a thinner or stranger block despite the better prompt. The system’s main achievement is that **bad work is easier to catch, good work is easier to preserve, and unnecessary work is easier to avoid.**
+
+## The gains worth keeping
+
+These are the substantial gains, not the technical spelling details:
+
+1. **Conditional rather than automatic P2/P3.**
+
+   Multiple outputs remain available and sometimes powerful, but they now require a question and material.
+
+2. **Whole-arc reading.**
+
+   The block is less likely to preserve quotations while losing the opening direction or closing movement.
+
+3. **Earned connections.**
+
+   P2/CONNECT and P3/WIDE produced real image splits and corrections rather than generic associations.
+
+4. **Independent, scoped checking.**
+
+   Current-version checks exposed real faults. Receipts now distinguish what was checked from what remains open.
+
+5. **Reader-first handoff.**
+
+   The reader front transferred the practice more cleanly than the full audit machinery.
+
+6. **A stop condition.**
+
+   `NOTHING NEW` is now productive rather than a failure.
+
+## What I would change next—and it is the biggest remaining gain
+
+**Stop using the full process for every file.** The current risk is not insufficient intelligence. It is making the index too expensive to continue.
+
+Use a **two-speed index**:
+
+### Default: thin but honest
+
+For most files:
+
+- read the actual body;
+- capture the picture, stand-on candidate, tag, one faithful claim, and Missing;
+- `PASS 2: NOT RUN`;
+- no automatic CHECK, CONNECT, WIDE, MERGE, or COLD;
+- no green claim.
+
+This creates coverage without pretending every file deserves a cathedral.
+
+### Promote to full work only when it earns it
+
+Use the fuller route when a file is:
+
+- load-bearing for a wing or ongoing argument;
+- multi-movement or difficult to compress;
+- intended for strangers or onboarding;
+- disputed between readers;
+- a live candidate for a named connection;
+- or carrying a fault that actually matters.
+
+Then use CHECK, CONNECT, WIDE, one MERGE, or COLD as needed—not all of them.
+
+### Review at corridor level
+
+Do not rediscover the whole system after every file. Every group of files, ask:
+
+- What new motion appeared?
+- What fault keeps recurring?
+- What should be split or folded?
+- What is the next highest-leverage action?
+
+That gives you interconnection in bulk rather than paying for it separately on every block.
+
+## My strongest advice
+
+**Stop developing the writer for now.** Freeze one current version and run the index. Use the next several real files to judge:
+
+- How often did the holder have to intervene?
+- How many unnecessary passes happened?
+- How many blocks were worth promoting?
+- Did the current block stay current, or did versions multiply again?
+- Did the next reader start faster?
+
+Only a recurring, consequential fault earns another prompt edit.
+
+## The realistic success claim
+
+We have **not** built something that guarantees better output in most cases.
+
+We have built something with a better chance of:
+
+- fewer invented authorities and ghost ties;
+- fewer lost movements;
+- fewer unnecessary passes;
+- better independent correction;
+- better transfer to the next reader;
+- and less repeated blindness.
+
+That is the meaningful win. The remaining improvement is not more sophistication—it is **making the default route light enough that you actually keep using it.**
+
+📍📍📍
+TWO-PASTE INDEX DEFAULT
+
+PASTE 1 — THE FILE
+
+Paste the whole RAW body.
+On the next line, type END.
+
+PASTE 2 — THE WRITER
+
+Paste your one saved WRITER-CURRENT:
+v3.8.1 + the current quick-adds, already combined.
+
+Inside it, the TASK should say:
+
+“Build first block for RAW-XXX. No automatic continuation seat.”
+
+Replace XXX with the file number before pasting.
+No force-ladder, digest, second writer, or separate P2/P3 prompt..
+
+AFTER THE BLOCK
+
+Competing stand-ons → you pick.
+Otherwise → accept the candidate or give it a CHECK if the file matters.
+
+Do not automatically ask for P2, P3, REREAD, GOLD, CONNECT, WIDE,
+MERGE, or COLD. Do not green your own output. Do not restart the block
+because another style might be possible.
+
+DEFAULT FOR MOST FILES
+
+One body → one writer paste → one candidate → next file.
+A thin honest block with NOT RUN is more useful than five impressive
+outputs that no one has time to check.
+
+ONLY ADD WORK WHEN IT HAS A NAMED PAYOFF
+
+Inside-file gap → REREAD.
+Specific sibling question + both bodies and existing sibling block → CONNECT.
+Live question left by CONNECT → WIDE once.
+Several useful outputs → MERGE once.
+Important or doubtful block → fresh different-make CHECK.
+Handoff to strangers matters → COLD.
+
+P2 means CONNECT. P3 means WIDE once. No second WIDE.
+
+HANDOFF TO THE NEXT SYNTHESISER
+
+Give only:
+1. the current best block;
+2. the current body, plus siblings only for a live connection;
+3. scoped receipts and open Missing;
+4. one next task.
+
+Do not pass the whole chat or every draft.
+
+STOP RULE
+
+No named debt means stop. Continue to the next file.
+Change the writer only when a real recurring fault would have been
+prevented by a specific edit—not because another idea sounds better.
+
+Reached: a simple two-paste continuation method that preserves the
+source engine, keeps multiple outputs available on demand, avoids
+automatic passes, and makes the next synthesiser’s handoff small.
+
+Missing: ordinary use will show whether this route reduces holder effort
+while maintaining block quality; no claim that every first block improves.
+
+🙂🐢🧭4️⃣6️⃣2️⃣·🌙
+
+
+
+```
+
+## What we are doing now
+
+**We stop developing the method and start using it.** You have enough testing to choose a working route. More tests would mostly produce diminishing returns and more versions to reconcile.
+
+I am **not** claiming every first block will now be better. I am saying you have a better way to produce, check, connect, and hand off blocks **without paying for all of that on every file**.
+
+## The difference between the available moves
+
+| Move | What it is actually for | When it is worth the time |
+| --- | --- | --- |
+| **Two-paste BUILD** | Gets a source-grounded candidate quickly | Default for most files |
+| **CHECK** | Finds quotation, layer, status, and arc faults | Important, doubtful, or load-bearing blocks |
+| **REREAD / GOLD** | Finds something missed inside the same file | You can name a gap or the block feels thin |
+| **CONNECT / P2** | Produces an earned connection or image split | You have a specific sibling question and both bodies/blocks |
+| **WIDE / P3** | Rechecks compression and tests a corridor claim | CONNECT leaves a genuine wider question |
+| **MERGE** | Combines several useful outputs | You actually have several outputs worth combining |
+| **COLD** | Tests whether a stranger can use the block | Handoff matters, especially onboarding |
+| **READER FRONT** | Makes first contact easier without changing evidence | The block is accurate but audit-heavy |
+
+These are **different kinds of value**. A better CHECK does not necessarily make a better block. A better COLD result does not prove the block is true. A clever CONNECT does not justify another automatic WIDE.
+
+## The two lanes to use
+
+### Lane 1 — ordinary production
+
+1. Paste RAW body → `END`
+2. Paste WRITER-CURRENT unchanged
+3. Take the candidate
+4. Pick a stand-on if asked
+5. Continue to the next file
+
+No P2, P3, merge, or cold reader by default.
+
+### Lane 2 — targeted help
+
+Use **one** additional seat when something specific requires it:
+
+- uncertain or important block → **CHECK**
+- missed movement inside file → **REREAD**
+- named sibling connection → **CONNECT**
+- live wider question after that → **WIDE**
+- several valuable outputs → **MERGE once**
+- stranger handoff matters → **COLD**
+
+You can move between lanes freely. There is no obligation to finish a ladder.
+
+## Are the benefits real?
+
+Yes, but they are specific:
+
+- fewer automatic and unnecessary passes;
+- fewer ghost ties and false authorities;
+- better recovery of the file’s whole movement;
+- better detection of source and version faults;
+- useful earned connections when asked for properly;
+- clearer first contact for strangers;
+- smaller handoffs to the next synthesiser.
+
+What is **not** ready to claim:
+
+- a universally better first block;
+- a best model or best prompt;
+- reliable self-verification;
+- every block becoming faster or easier;
+- universal truth from the new content patterns.
+
+## Do I want more tests?
+
+**No—not now.** I do not think another round would teach us enough to justify the overhead. I would rather you run the next real file through the two-paste route and see whether it **actually saves you work**.
+
+If a consequential fault repeats, we test that fault. Otherwise, no new experiment and no new prompt version.
+
+**The decision is: freeze the current writer, use the simple lane by default, and let real index work—not more testing—show whether anything else needs improving.**
+🟪🟪🟪🟪🟪🟪
+
+
 1 Do: add top of each raw file " no search · from the paste only only "
 
 💥File first, instructions after. Anthropic's own advice is to place long documents near the top, above the instructions; queries at the end can improve response quality by up to 30%.
@@ -2766,7 +3874,7 @@ HOW TO CHECK ONE BLOCK
 4. Marks: ORE (the holder's) · REPLY (an AI turn in the body) · BODY-COAT (a summary layer) · TIDIED · REWORDED · NOT-IN-BODY. A NOT-IN-BODY line is cut from the block.
 5. Ties only to bodies pasted in that writer's chat; anything else is later-room.
 6. Hand back RAW/PROMPT's CHECKER'S SHAPE: the body's facts · per block, holds or cut, with the failing line · fights left for the holder · what the session earned. Don't rewrite it. Don't lock it.
-7. Light: a writer of another make than you, and the block holds → 🟢. Same make → 🟡.
+7. Light: a writer of another make than you, and the block holds → ??. Same make → 🟡.
 
 ORDER OF WORK: 006 (the two Grok versions) → 004's cut → 013 onward → 010, 018, 030, 032, 033. Ask the holder once whether the 030, 032 and 033 blocks are saved anywhere.
 
@@ -3029,5 +4137,87 @@ Reached: the Quick Ask rule added as a three-question, no-delay bridge between b
 Missing: no reader of another make; holder's word on saving or folding.
 🙂🦇🧷0️⃣3️⃣3️⃣·🌙
 
+information were making better:
+⚡ PASS-SEQUENCE CORRECTION — 2026-11-06 · 🙂🐢🧭4️⃣6️⃣2️⃣·🌙
+
+This supersedes the proposal that made P2 file-internal. Historical
+usage supports the original informed-P2 distinction. Passes remain
+conditional; no automatic ladder and no “nothing new” penalty.
+
+P1 — FILE CLAIM
+Build from the held RAW body: its picture, own voice, stand-on,
+addressee, movement, and honest Missing.
+
+REREAD — OPTIONAL, INSIDE THIS FILE
+Use only for a named possibility: second movement, in-file inverse,
+compressed limit, competing stand-on, or a changed temperature.
+
+Do not widen to siblings. Preserve sound earlier paragraphs verbatim;
+if adding a missed movement, say “original paragraphs preserved;
+second-movement paragraph appended,” not that the whole resulting
+Pass 1 is word-for-word identical to the old block.
+
+If nothing new: stop REREAD.
+
+P2 — INFORMED FILE READ
+Use when a named sibling question and the required material are held.
+P2 asks what this file adds to the older picture: motion, contrast,
+image split, temperature, fight, or direction of answer.
+
+Label every named connection:
+- EARNED THIS RUN — required body/block evidence actually held;
+- INHERITED / NOT RE-EARNED — retained from an earlier block without
+  claiming fresh body verification;
+- LATER-ROOM — named but still unread or unearned.
+
+One motion per tie; no roll call. In-file inverse comes before sibling
+hunting. Pass 1 stays visible beside P2 rather than being rewritten in
+P2’s voice. A small verified correction is enough.
+
+CHECK — INDEPENDENT FOUNDATIONS
+Fresh different make receives the current whole block and held body.
+Check, do not rewrite or widen: body/cut, holder authorship, exact
+quotes, speaker/layer, load-bearing claims, and every newly earned tie.
+
+If P2 added connections, CHECK covers those too. A writer cannot check
+their own work into green. Faults return the block to minimum repair 🟡.
+
+HOLDER — PICK WHEN THE CANDIDATE SET IS READY
+P2 may run while a stand-on remains open, but must not pretend the
+pick is settled. After the relevant reading/checking, the holder picks
+or confirms 1, 2, or both.
+
+WIDE — CORRIDOR OR SET REVIEW, NOT A LONGER P2
+Use only for a named corridor/set question. Output a separate road
+read, awareness review, fight, debt, or next-door note. Do not thicken
+individual blocks with the wing claim.
+
+A valid WIDE result may be “absent in both,” “nothing new,” or “the
+transition is unwritten; park it UNOWNED.” Do not build a ghost bridge
+to make the wide pass feel productive.
+
+COLD — OPTIONAL TRANSFER TEST
+Fresh reader, final block, no coaching. Tests whether the picture,
+claim, and next handhold transfer. COLD does not verify RAW-body truth.
+
+NEXT — CHOOSE BY ACTUAL DEBT
+Inside-file movement suspected → REREAD.
+Named sibling question + material → P2.
+Base or new ties unchecked → CHECK.
+Stand-on candidates ready → holder pick.
+Named corridor question → WIDE as a separate artifact.
+Handoff claim needs evidence → COLD.
+No named debt → next file, not another pass.
+
+Reached: restored informed P2 from actual usage; added optional internal
+REREAD without stealing P2’s job; separated independent CHECK from
+corridor-level WIDE; retained holder choice and optional COLD testing;
+adopted RAW-019’s earned/inherited/later-room provenance distinction.
+
+Missing: live comparison on a new block; later usage beyond RAW-027 in
+this excerpt; evidence that the revised sequence reduces unnecessary
+passes while preserving earned connections; no search used.
+
+🙂🐢🧭4️⃣6️⃣2️⃣·🌙
 
 ◆PROMPT-RAW-001

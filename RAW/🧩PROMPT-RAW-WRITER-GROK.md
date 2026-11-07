@@ -168,3 +168,204 @@ orders; each carries its scene, so you can judge it, not obey it.
 Reached: v3.7 = v3.6 whole + two failure-earned lines — the two-versions rule in THEN WRITE (the coat's quotation of the holder is the coat; earned by 038's "hell others" and 019's "reverse engineering of your hell") and the p3 foundations-first line in SEAT BLOCK (earned by an 045 p3 that reported "nothing new" over a REPLY-line stand-on). The p3 seat added to the ladder's rung list.
 Missing: not yet run under this version; not read by another make; when RAW/PROMPT.md changes, this inline copy is stale — rebuild from the live sheet.
 🙂🐋📎5️⃣6️⃣2️⃣·🌙
+
+new update:
+⚡ QUICK-ADD — 2026-11-06 · 🙂🐢🧭4️⃣6️⃣2️⃣·🌙
+SECTION: v3.7 · evidence handling / P2 / RECHECK / NEXT.
+
+LIMIT: candidate run guards, not v3.8 or a lock. No existing v3.7 text
+is edited. Items 4–5 deliberately override conflicting preservation and
+NEXT defaults when this add is held; every other v3.7 rule stays intact.
+The held body settles wording. The holder settles task and placement.
+
+When this add is held, FIRST reports:
+“v3.7 + QUICK-ADD-2026-11-06.”
+
+1. INHERITED ≠ BODY EVIDENCE
+
+Existing-block quotations are INDEX-REPORTED working material. Before
+carrying one into the returned block, locate it in the currently held
+RAW body and establish its speaker/layer. Otherwise keep it out of the
+block. NOT-IN-HELD-BODY does not prove it exists nowhere else.
+
+2. PRESENCE ≠ ORE
+
+A script match proves string presence only. ORE requires exact wording
+established as the holder’s own words in an identified holder turn;
+material quoted or transcribed from another speaker retains that
+speaker’s layer.
+
+A “You said:” retelling remains REPLY-CARRIES-ORE. If the holder’s own
+turn is found, that separate wording may be quoted as ORE; the AI
+retelling never becomes the holder’s own turn.
+
+3. EXPECTED LOAD-BEARING WORDING ABSENT = STOP
+
+If expected, task-relevant, or load-bearing wording is absent, stop and
+ask whether the cut/version is complete and correct. Do not silently
+build around the gap.
+
+Quoted claims, directions, negations, limits, and uncertainty stay exact.
+A paraphrase must preserve them but must not be presented as an exact
+quotation or labeled ORE.
+
+4. VERIFICATION OUTRANKS PRESERVATION
+
+On a discovered body, quotation, speaker, layer, or status fault, make
+the minimum evidence-based correction, including directly dependent
+lines. Keep unrelated lines intact, explain the correction in DELTA,
+and return the block at 🟡. This applies despite P2 or RECHECK wording
+that would otherwise preserve the fault.
+
+5. NO AUTOMATIC P2 AFTER A FIRST BLOCK
+
+Competing stand-ons → holder pick.
+Otherwise → fresh different-make check.
+Use P2 only for named unfinished work the first block could not
+honestly complete. This narrows the default NEXT ladder for runs under
+this add; it does not prohibit a useful P2.
+
+Reached: five material guards consolidated into one append-only quick-add;
+explicit precedence added for the two intentional behavior overrides;
+no v3.7 rewrite, patch stack, optional fields, or speculative restructuring.
+
+Missing: RAW-062 live build; holder approval of the P2/NEXT override;
+fresh different-make review; only faults observed in real runs should
+earn further edits; no search used.
+
+🙂🐢🧭4️⃣6️⃣2️⃣·🌙
+
+🟩🟩🟩🟩🟩🟩
+
+INDEX CONTINUATION LOOP v1 — 2026-11-07
+
+A pass is a seat with a distinct job and a stop condition, not a number.
+Do not run every seat for every file. No self-green. No unearned ties.
+No forced three-movement arc. Nothing new is a successful stop.
+
+1. BUILD — MAKE THE FIRST CANDIDATE
+
+Use the normal writer and held RAW body.
+
+Before finalizing, check the body’s actual movements in order:
+opening direction · internal turn · second movement · closing allowance
+or return, where present.
+
+Do not force a three-part shape. A one-moment door file can stay small.
+A room file must not lose its arc to compression.
+
+Minimum result:
+- remembered image;
+- exact stand-on candidate(s) with speaker/layer;
+- file claim in its own voice;
+- load-bearing movements preserved;
+- credit, evidence status, and Missing honest.
+
+PASS 2 may read NOT RUN when there is no earned connection work.
+
+2. DISCOVER — OPTIONAL, ONLY WHEN MORE SIGHT IS NEEDED
+
+Two possible seats:
+
+REREAD — for a named inside-file gap: second movement, in-file inverse,
+compressed limit, competing stand-on, or changed temperature. No
+siblings and no automatic rewrite. Stop at “nothing new.”
+
+GOLD — for generous discovery when the first reading feels thin.
+Return candidate perceptions marked NEW SYNTHESIS (not ORE), with
+supporting evidence and uncertainties. Optimism expands the search;
+it does not relax provenance or authorize direct merging.
+
+3. CONNECT — REPLACES AUTOMATIC P2
+
+Run only with a named sibling question and the required material:
+this body + sibling body + any existing sibling index block.
+
+Return one or two motions at most, with:
+- exact evidence and speaker/layer;
+- image split or fight;
+- EARNED THIS RUN / INHERITED, NOT RE-EARNED / LATER-ROOM;
+- one dated DELTA.
+
+A shared picture is not automatically the strongest connection. Do not
+create a wing, force agreement, or produce a roll call. If the comparison
+does not hold, say so and stop.
+
+4. WIDE — REPLACES P3 AND P3 WIDE WITH ONE CONDITIONAL SEAT
+
+Run only when CONNECT or a corridor leaves a live wide question.
+
+First recheck the previous pass’s foundations:
+- Did it compress away a closing movement?
+- Did it borrow the sibling’s vocabulary too strongly?
+- Are its quotations and EARNED/INHERITED labels correct?
+- Does its contrast survive the whole of both bodies?
+
+Then test the wide question using only held material. Return a separate
+TRAY NOTE, not a thicker file block. Include any correction, the earned
+motion or counterexample, and the honest result.
+
+“Nothing new,” “absent in both,” and “no further corridor earned” are
+successful receipts. No second automatic WIDE.
+
+5. MERGE — ONCE PER CYCLE
+
+Give one merger the current candidate and useful verified outputs.
+
+Preserve sound earlier wording and credit. Keep unique body-supported
+moves. Correct demonstrated source/status faults. Do not invent a new
+reading or manufacture agreement. Prefer the smallest block that holds
+all load-bearing value.
+
+If the merge adds no verified value, keep the previous candidate.
+
+6. HOLDER — MAKE THE HUMAN DECISIONS
+
+The holder picks stand-ons, approves wings, and decides locks. A writer,
+merger, or wide pass must not silently make those decisions.
+
+7. CHECK — INDEPENDENT SOURCE GATE
+
+A fresh different-make checker receives the stable block and held
+material. Check, do not widen:
+
+cut/version · holder authorship · exact quotations · speaker/layer ·
+load-bearing claims · earned ties · lights/status · Missing.
+
+Return named faults and whether the base holds. Minimum evidence-based
+repair, then 🟡 again. Green never comes from the writer’s own box.
+
+8. COLD — OPTIONAL TRANSFER TEST
+
+A fresh reader receives the block without the body or coaching. Ask for:
+remembered picture · claimed meaning · first confusion · and one answer
+to a new scenario requiring the file’s motion.
+
+COLD tests whether the handoff transfers, not whether the source is true.
+A fluent agreement is not a successful transfer.
+
+9. NEXT — CHOOSE BY CURRENT DEBT, NOT A LADDER
+
+Named inside-file gap → REREAD.
+Need optimistic discovery → GOLD.
+Named sibling question + material → CONNECT.
+Live wide question after CONNECT → WIDE.
+Several useful verified outputs → one MERGE.
+Stand-on unresolved → HOLDER.
+Stable block not independently checked → CHECK.
+Handoff claim untested → COLD.
+No named debt → next file.
+
+Seat receipt, exactly one:
+NEW VERIFIED MOTION · FAULT FIXED · NOTHING NEW · UNRUN.
+
+Reached: replaced automatic P2/P3/P3-wide with distinct, conditional
+BUILD, DISCOVER, CONNECT, WIDE, MERGE, HOLDER, CHECK, and COLD seats;
+added whole-arc checking, late single merging, independent source and
+transfer gates, debt-based NEXT selection, and one receipt per seat.
+
+Missing: continued use will determine whether this loop reduces coat
+across differently shaped files; no universal content pattern is locked
+by this method; no self-upgrade to canonical or green.
+
+🙂🐢🧭4️⃣6️⃣2️⃣·🌙

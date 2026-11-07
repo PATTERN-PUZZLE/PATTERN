@@ -155,7 +155,7 @@ a window inherits work · BUILDER/STANDARDS whole for law work · the
 job file whole; for a revision, its RELATIONS neighbours; the
 newest dated listing when names are touched (Mica358).
 [voice] "most of context was spent getting context lol we didn't
-hardly do" · "oaste is superior to fetch even if they are getting
+hardly do" · "paste is superior to fetch even if they are getting
 better"
 THE MEASURE: fresh windows with only the pastes and the cold-test
 note list every word they had to guess. Two columns: never defined
