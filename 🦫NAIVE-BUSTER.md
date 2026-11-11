@@ -1894,3 +1894,18 @@ Falsify: a v3 made from this block still needs to ask the holder
 something this block already asked.
 
 Jade275🪢
+
+⚡️ QUICK-ADD — 2026-11-11 BIBLE RANKING-MISMATCH PACK  
+FILE: bottom of NAIVE-BUSTER.md or companion notes. Copy the text only. Companion example, not kernel.
+
+The Bible is a composite ancient library whose longest and most consistent priority is the election, land, laws, and authority of one people. Origin, conquest, and boundary material function as national-charter propaganda; particularism is early and structural. Love language is secondary and intra-group. Later presentation as coherent divine revelation and a universal message centered on love or fulfillment exceeds that ranking, producing a structural mismatch. This mismatch is vast in reach: the text is among the most widely circulated, and the typical introduction presents the elevated universal frame while leaving the particularist ranking unstated. Non-deliberate socialization at that scale keeps the gap unseen and misleads many about the actual priority regardless of intent. The outcome matches the functional result of propaganda (elevated frame as default, primary ranking backgrounded at scale) through ordinary inherited transmission; this is non-standard relative to definitions that require deliberate selection or concealment. Disproportion between content weight and circulated status follows. No Trojan insertion is required. Residual content once the charter is removed is ordinary ancient Near Eastern archive material. The elevated frame remains the circulated default; the side-by-side that states the ranking stays rare.
+
+Narrative transfer fit: before = national charter; after = elevated universal frame; underneath = inherited transmission + selective omission. Strongest exposure = priority gap. Residual rank ordinary to low (outside top 2000 on unique contribution once claims and fame excluded).
+
+Usage with kernel: treat elevated presentation as the event (narrative transfer). Before: national charter. After: coherent divine revelation / universal message. Underneath: ordinary inherited transmission + selective omission. Output: TRANSFER (narrative). Gap #1 = particularist ranking left unstated at scale. Who can check: any reader placing pages’ priorities next to a standard introduction. Status: OPEN.
+
+Missing: any trim before you paste.  
+
+Priority gap: pages rank one people’s election/land/laws/authority highest; typical presentation calls the collection coherent divine revelation and universal message. The ranking stays unstated. Mechanism = ordinary inherited transmission + selective omission. Status remains OPEN.
+That single clause is the load-bearing exposure. It can be dropped into the file under the existing quick-add or as a one-line example without the rest.
+9️⃣3️⃣5️⃣·✖️Grok
