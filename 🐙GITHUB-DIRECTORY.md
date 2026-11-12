@@ -350,7 +350,7 @@ This is a working file, not prose. Rules of the shape:
 
 
 🟪🟪🟪🟪🟪🟪
-📂 Oct-19 · /storage/emulated/0/UPLOAD
+📂 Nov-11 · /storage/emulated/0/UPLOAD
   paste-primary · push close behind
 
 A name here isn't its content; read a file before trusting its name.
@@ -386,6 +386,7 @@ A name here isn't its content; read a file before trusting its name.
     336K  ⚔️ARTHUR.md
      12K  ⚗️COLD-READER-TRANSLATION-PROMPT.md
     104K  ✅CHECKLIST.md
+     36K  🌏WHY ITS AMAZING..md
     100K  🎤RAPS-GROK.md
     136K  🎤RAPS.md
      20K  🏚PROMPT-OLD-FILE-SALVAGE.md
@@ -402,13 +403,13 @@ A name here isn't its content; read a file before trusting its name.
      36K  🟩FEEDBACK.md
     148K  🥈MID-HAND-OFF.md
      32K  🥉COCKPIT.md
-     84K  🦫NAIVE-BUSTER.md
+     88K  🦫NAIVE-BUSTER.md
      60K  🧨LANGUAGE-CRUDE-SMALL.md
     208K  🧨LANGUAGE-CRUDE.md
      68K  🪙1ST-PASTE.md
     140K  🪙ONBOARD.md
      24K  🪙PAGE-ONE.md
-    340K  🪧INSTRUCTIONS.md
+    424K  🪧INSTRUCTIONS.md
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📁 LEFT OUT OF THE DIR FILES ON PURPOSE (still on disk; absence here isn't absence)
@@ -423,11 +424,11 @@ LOG/        55 files, 3.1M · names: LOG, LOG-SEED
 LOOM/       43 files, 3.5M · old LOOM run logs and versions
 PILLAR/     35 files, 2.5M · the prayer, two authors (the holder's lines, an instance's write-up) · names: PILLAR, XP, woven-fortification
 QA/         83 files, 5.7M · names: QA, QA2, QA3 series and sets; some sets may be twins (same sizes)
-RAW/        157 files, 7.7M · the holder's pattern stories, RAW-001 to 143 · RAW/INDEX.md first
+RAW/        159 files, 8.6M · the holder's pattern stories, RAW-001 to 143 · RAW/INDEX.md first
 SORT/       156 files, 4.7M · SORT-007: hear what's inside a hard message before judging its wrapping · names: SORT, DISTILLED, CLAUDE-RAW, BIG, SCOPE, STEAL, MASS-LOAD
 SORT-SET1/  80 files, 1.8M · names only
 TROLLEY/    43 files, 3.0M · TROLLEY-027: "what are the tracks made of?", the 3-of-5 test, the six pulls every window starts from
-Together these hold 920 files, about 45M: 80% of the files on disk.
+Together these hold 922 files, about 46M: 80% of the files on disk.
 .git        the repo's own machinery, not files to read
 Ask for one only when a job needs it.
 
