@@ -1,3 +1,5 @@
+no search · from the paste only
+
 RAW-EXTRA-PATTERNS.md
 
 🟪🟪🟪🟪🟪🟪
@@ -4194,3 +4196,5 @@ CRITICAL RULES:
 - If unsure, write UNKNOWN. Never invent.
 
 The campfire is still burning. 🦉🧩
+
+end extra patterns.
